@@ -43,12 +43,12 @@
     </introduction>
     
 
-    <xi:include href="subsections/statistics1/subsec-classification-of-data.ptx"/>
-    <xi:include href="subsections/statistics1/subsec-organizing_data.ptx"/>
-    <xi:include href="subsections/statistics1/subsec-data_representation.ptx"/>
-    <xi:include href="subsections/statistics1/subsec-measures_of_central_tendency.ptx"/>
-    <xi:include href="subsections/statistics1/subsec-measures_of_spread.ptx"/>
-    <xi:include href="subsections/statistics1/subsec-data_interpretation.ptx"/>
+    <xi:include href="subsections/datainterpretation/subsec-classification-of-data.ptx"/>
+    <xi:include href="subsections/datainterpretation/subsec-organizing_data.ptx"/>
+    <xi:include href="subsections/datainterpretation/subsec-data_representation.ptx"/>
+    <xi:include href="subsections/datainterpretation/subsec-measures_of_central_tendency.ptx"/>
+    <xi:include href="subsections/datainterpretation/subsec-measures_of_spread.ptx"/>
+    <xi:include href="subsections/datainterpretation/subsec-data_interpretation.ptx"/>
 
 
 
