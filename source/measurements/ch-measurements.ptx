@@ -1,0 +1,14 @@
+<chapter xml:id="ch-measurements" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Measurements</title>
+    <introduction>
+        <p>
+            
+        </p>
+    </introduction>
+    <xi:include href="sections/sec-area.ptx" />
+    <xi:include href="sections/sec-volume-of-solids.ptx" />
+    <xi:include href="sections/sec-mass-volume-weight-and-density.ptx" />
+    <xi:include href="sections/sec-time-distance-and-speed.ptx" />
+    <xi:include href="sections/sec-money.ptx" />
+    <xi:include href="sections/sec-approximations-and-errors.ptx" />
+</chapter>
