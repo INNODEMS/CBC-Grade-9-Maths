@@ -5,8 +5,8 @@
             
         </p>
     </introduction>
-    <xi:include href="sections/sec-intergers.ptx" />
+    <xi:include href="sections/sec-integers.ptx" />
     <xi:include href="sections/sec-cubes-and-cube-roots.ptx" />
     <xi:include href="sections/sec-indices-and-logarithms.ptx" />
-    <xi:include href="sections/sec-compound-proportions-and-rates-of-work .ptx" />
+    <xi:include href="sections/sec-compound-proportions-and-rates-of-work.ptx" />
 </chapter>

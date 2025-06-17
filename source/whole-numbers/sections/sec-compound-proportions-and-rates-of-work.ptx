@@ -1,0 +1,33 @@
+<section xml:id="sec-compound-proportions-and-rates-of-work" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Compound proportions and Rates of work</title>
+    <introduction>
+        <p>
+            <m>\textbf{Compound Proportiions}</m>
+        </p>
+        <p>
+            Consider the numbers <m>4, 10, 20</m> and <m>50</m>. <m>4:10 = 2:5</m> and <m>20:50 = 2:5 </m>. The two ratios are equal  <m>(4:10 = 20:50)</m>. Therefore, these <m>4</m> numbers are said to be proportional.
+        </p>
+        <p>
+            Generally, any <m>4</m> numbers  <m>a, b, c</m> and <m>d</m> are said to be proportional if: 
+        </p>
+        <p>
+            <m>\frac{a}{b} = \frac{c}{d}</m>
+        </p>
+        <p>
+            or
+        </p>
+        <p>
+            <m>\frac{a}{c} = \frac{b}{d} </m>
+        </p>
+        <p>
+            <m>\textbf{Why is proportions important in real life}</m>
+        </p>
+        <p>
+            Proportions are everywhere in our daily life, and are very useful. For example, when preparing a meal for many people you would need to increase the amount of ingredients. 
+            To do this without altering the taste, you would have to maintain the proportions between various ingredients. They are also important for determining relationships. 
+            If you were at a shop and told an item has a discount of sh <m>50</m> but you do not know its original price, this would not be useful information. 
+            However, if you are instead told it is <m>15%</m> off, it has a larger effect as you now know the proportion of the new price versus the old price.
+        </p>
+    </introduction>
+    <xi:include href="subsections/compound-proportions-and-rates-of-work/proportional-parts.ptx" />
+</section>
