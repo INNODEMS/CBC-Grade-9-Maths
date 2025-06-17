@@ -1,4 +1,26 @@
 <section xml:id="sec-area" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Area</title>
-    <xi:include href="subsections/area/test2.ptx" />
+
+    <introduction>
+        <p>
+            
+        </p>
+    </introduction>
+    <xi:include href="subsections/area/area-of-regular-and-irregular-polygons.ptx"/>
+
+    <xi:include href="subsections/area/surface-area-of-prism.ptx"/>
+
+    <xi:include href="subsections/area/surface-area-of-pyramids.ptx"/>
+
+    <xi:include href="subsections/area/area-of-a-part-of-a-circle.ptx"/>
+
+    <xi:include href="subsections/area/surface-area-of-a-cone.ptx"/>
+
+    <xi:include href="subsections/area/surface-area-of-a-sphere.ptx"/>
+
+    <xi:include href="subsections/area/appication-of-area-in-real-life.ptx"/>
+    
+
+
+
 </section>
