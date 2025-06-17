@@ -1,4 +1,19 @@
 <section xml:id="sec-money" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Money</title>
+    <introduction>
+        <p>
+         Bsential concepts like budgeting, savings, profit and loss, discounts, interest, and even hire purchase. This year, we're expanding our focus to understand how money operates on a global scale.
+By the End of This Unit, You Will Be Able To:
+
+    Identify Global Currencies: Recognize and name the various currencies used in different countries around the world.
+    Master Currency Conversion: Confidently convert money from one currency to another using exchange rates, a vital skill for international travel, online shopping, and global finance.
+    Calculate Import and Export Duties: Understand and calculate the taxes charged on goods as they enter (import) or leave (export) a country.
+    Work Out Excise Duty: Determine the specific taxes applied to certain goods and services, such as luxury items or tobacco.
+    Calculate Value Added Tax (VAT): Accurately compute the consumption tax added to the price of most goods and services.
+    Appreciate the Role of Money: Develop a deeper understanding and appreciation for how money functions in our daily lives and its impact on the economy.
+
+This unit will provide you with practical, real-world mathematical skills to confidently navigate financial transactions in an increasingly interconnected world. Let's explore how money moves and transforms across borders   
+        </p>
+    </introduction>
     <xi:include href="subsections/money/test4.ptx" />
 </section>
