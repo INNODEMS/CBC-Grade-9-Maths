@@ -2,12 +2,132 @@
     <title>Proportional Parts</title>
     <p>
         
-        <m>\mathbf{Proportion}</m> is an equation that states that two ratios are equal.
+        <m>\textbf{Proportion}</m> is an equation in which two ratios are set equal to each other.
          For example, if <m>a</m> and <m>b</m> are in the same ratio as <m>c</m> and <m>d</m>, we can write this as:
     </p>
     <p>
-        It can be represented as <m>a:b = c:d</m>. This means that the fraction <m>\frac{a}{b}</m> is equal to the fraction <m>\frac{c}{d}</m>.
+      <m>a:b = c:d</m>. 
     </p>
-
-    
+    <p>
+        This means that the fraction <m>\frac{a}{b}</m> is equal to the fraction <m>\frac{c}{d}</m>.
+    </p>
+    <p>
+        Generally, if an amount <m>m</m> is to be divided in the ratio  <m>a:b:c</m>,
+        then the parts will be divided as follows:
+    </p>
+    <p>
+        <ol marker="i)">
+            <li>
+                <p>
+                   <m>a</m> will get <m>\frac{a}{a+b+c} \times m</m> 
+                </p>
+            </li>
+            <li>
+                <p>
+                     <m>b</m> will get <m>\frac{b}{a+b+c} \times m</m>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <m>c</m> will get <m>\frac{c}{a+b+c} \times m</m>
+                </p>
+            </li>
+        </ol>
+    </p>
+    <activity>
+        <statement>
+            <p>
+                Masomo school has a total of <m>500</m> Math textbooks, <m>100</m> storybooks, and <m>300</m> science textbooks.
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Working in groups, work out the ratio of Math textbooks to storybooks to science textbooks.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Work out the fraction representing each type of book found in the school.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Explain how you obtained the fractions in (2) above.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Discuss how you would divide the textbooks among <m>90</m> students in the ratio of <m>5:1:3</m> for Math, storybooks, and science textbooks respectively.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Share your work with your fellow learners.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </activity>
+    <example>
+        <statement>
+            <p>
+                A basket of fruits contains mangoes, oranges, and bananas in the ratio of <m>3:2:5</m>. If the basket contains <m>100</m> fruits in total, how many of each type of fruit are there?
+            </p>
+        </statement>
+        <solution>
+            <p>
+                To find the number of each type of fruit, we first calculate the total parts in the ratio:
+                <m>3 + 2 + 5 = 10</m>.
+            </p>
+            <p>
+                Hence number of proportional parts <m>= 10</m>.
+            </p>
+            <p>
+                <md>
+                  <mrow> \text{Number of mangoes} =\amp  \frac{3}{10} \times \text{number of fruits}. </mrow> 
+                  <mrow> =\amp \frac{3}{10} \times 100 </mrow>
+                  <mrow> =\amp 30 </mrow>
+                  <mrow> \text{Number of oranges} =\amp  \frac{2}{10} \times \text{number of fruits}. </mrow> 
+                  <mrow> =\amp \frac{2}{10} \times 100 </mrow>
+                  <mrow> =\amp 20 </mrow>
+                  <mrow> \text{Number of bananas} =\amp  \frac{5}{10} \times \text{number of fruits}. </mrow> 
+                  <mrow> =\amp \frac{5}{10} \times 100 </mrow>
+                  <mrow> =\amp 50 </mrow>
+                </md>
+                 
+            </p>
+        </solution>  
+    </example>    
+    <example>
+        <statement>
+            <p>
+                What is the value of <m>z</m> in <m>12 : z = 4 : 5?</m>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Since <m>a:b = c:d</m> can be written as <m>\frac{a}{b} = \frac{c}{d}</m>, then to find the value of <m>z</m>, we can set up the proportion:
+            </p>
+            <p>
+                <m>\frac{12}{z} = \frac{4}{5}</m>.
+            </p>
+            <p>
+                Cross-multiplying gives us:
+                <m>12 \times 5 = 4 \times z</m>.
+            </p>
+            <p>
+                Simplifying this, we have:
+                <m>60 = 4z</m>.
+            </p>
+            <p>
+                Dividing both sides by <m>4</m> gives us:
+                <m>z = \frac{60}{4} = 15</m>.
+            </p>
+            <p>
+                Therefore, the value of <m>z</m> is <m>15</m>.
+            </p>
+        </solution>
+    </example>  
 </subsection>
