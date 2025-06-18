@@ -5,4 +5,10 @@
             lll
         </p>
     </introduction>
+
+  <xi:include href="sections/sec-Matrices.ptx"/>
+
+  <xi:include href="sections/sec-Equations-of-a-Straight-Line.ptx" />
+
+  <xi:include href="sections/sec-Linear-Inequalities.ptx" />
 </chapter>
