@@ -1,0 +1,216 @@
+<subsection xml:id="subsec-plotting-out-points-on-a-cartesian-plane">
+    <title>Plotting Out Points on a Cartesian Plane</title>
+    <p>
+        The Cartesian plane consists of two perpendicular axes: the horizontal <term>x-axis</term> and the vertical <term>y-axis</term>, 
+        which intersect at the origin <m>(0, 0).</m>
+    </p>
+    <p>
+        Coordinates refers to the position of a point on a Cartesian plane. A point is represented as <m>(x, y),</m> where <term>"x"</term> 
+        tells you how far to move left or right, and <term>"y"</term> tells you how far to move up or down.
+    </p>
+    <p>
+        When plotting points on a Cartesian plane:
+        <ul>
+            <li>
+                <p>
+                    If your point is <m>(3, 4),</m> move <m>3</m> units right (positive x direction) and <m>4</m> units up (positive y direction).
+                </p>
+            </li>
+            <li>
+                <p>
+                    If the point is <m>(-2, -5),</m> move <m>2</m> units left (negative x direction) and <m>5</m> units down (negative y direction).
+                </p>
+            </li>
+        </ul>
+    </p>
+    <activity>
+        <statement>
+            <p>
+               <term>Work in pairs</term> 
+            </p>
+            <p>
+                Randomly select points (e.g., (2,3), (-4,1), (0,-2)) and plot them on a Cartesian plane.
+            </p>
+            <p>
+                Exchange your plotted points with another group and discuss.
+            </p>
+        </statement>
+    </activity>
+    <p>
+        <term>Key Takeaway</term>
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    The axes divide the Cartesian plane into  four regions known as <term>quadrants</term> each defined by the x-axis and y-axis and named in an anticlockwise direction:
+                    <ol>
+                        <li>
+                            <p>
+                                <term>First Quadrant</term> (Top Right) – Both x and y coordinates are positive (e.g., (3,2)).
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <term>Second Quadrant</term> (Top Left) – x is negative, y is positive (e.g., (-4,5)).
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <term>Third Quadrant</term> (Bottom Left) – Both x and y coordinates are negative (e.g., (-2,-3)).
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <term>Fourth Quadrant</term> (Bottom Right) – x is positive, y is negative (e.g., (6,-1)).
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </li>
+        </ul>
+    </p>
+    <image>
+        <latex-image label="quadrants">
+            \begin{tikzpicture}
+              % Draw axes
+                \draw[thick,-&gt;] (-5,0) -- (5,0) node[right] {\textbf{x-axis}};
+                \draw[thick,-&gt;] (0,-5) -- (0,5) node[above] {\textbf{y-axis}};
+
+                % Shade quadrants
+                \fill[blue!20] (0,0) rectangle (5,5);  % First quadrant
+                \fill[red!20] (-5,0) rectangle (0,5);  % Second quadrant
+                \fill[green!20] (-5,-5) rectangle (0,0);  % Third quadrant
+                \fill[yellow!20] (0,-5) rectangle (5,0);  % Fourth quadrant
+
+                % Quadrant labels
+                \node at (3,3) {\textbf{First quadrant}};
+                \node at (-3,3) {\textbf{Second quadrant}};
+                \node at (-3,-3) {\textbf{Third quadrant}};
+                \node at (3,-3) {\textbf{Fourth quadrant}};
+
+                % Grid for reference
+                \draw[help lines, dashed] (-5,-5) grid (5,5);
+
+                % Tick marks on x-axis
+                \foreach \x in {-4,-3,-2,-1,1,2,3,4}
+                    \draw (\x,0) -- (\x,-0.2) node[below] {\x};
+
+                % Tick marks on y-axis
+                \foreach \y in {-4,-3,-2,-1,1,2,3,4}
+                    \draw (0,\y) -- (-0.2,\y) node[left] {\y};  
+            \end{tikzpicture}
+        </latex-image>
+    </image>
+    <p>
+        Each quadrant helps categorize points based on their signs, making it useful for graphing equations and solving coordinate geometry problems.
+    </p>
+    <p>
+        The location of points using the perpendicular axes, that is, x and y axis that meet at right angle, is known as <term>cartesian-coordinate system.</term>
+         The system helps in locating places on the earth surface.
+    </p>
+    <example>
+        <statement>
+            <p>
+                Plot the points <m>A(3,2),\, B(-2,4),\, C(0,-1)</m> on a Cartesian plane.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                The correct location of the points based on the x- and y-coordinates on the Cartesian plane is:
+
+            </p>
+            <image>
+                <latex-image label="plotted-points">
+                    \begin{tikzpicture}
+                        % Draw axes
+                        \draw[thick,-&gt;] (-5,0) -- (5,0) node[right] {\textbf{x-axis}};
+                        \draw[thick,-&gt;] (0,-5) -- (0,5) node[above] {\textbf{y-axis}};
+
+                        % Grid
+                        \draw[help lines, dashed] (-5,-5) grid (5,5);
+
+                        % Add tick marks along x-axis
+                        \foreach \x in {-4,-3,-2,-1,1,2,3,4}
+                            \draw (\x,0) -- (\x,-0.2) node[below] {\x};
+
+                        % Add tick marks along y-axis
+                        \foreach \y in {-4,-3,-2,-1,1,2,3,4}
+                            \draw (0,\y) -- (-0.2,\y) node[left] {\y};
+
+
+                        % Plot points
+                        \filldraw[red] (3,2) circle (2pt) node[above right] {A(3,2)};
+                        \filldraw[blue] (-2,4) circle (2pt) node[above left] {B(-2,4)};
+                        \filldraw[green] (0,-1) circle (2pt) node[below right] {C(0,-1)};
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                Identify and write down the coordinates of the points on the Cartesian plane below.
+            </p>
+            <image>
+                <latex-image label="writing-points">
+                    \begin{tikzpicture}
+                       % Draw grid
+                        \draw[very thin,gray!50] (0,0) grid (8,8);
+                        
+                        % Draw x and y axes
+                        \draw[thick,-&gt;] (-1,0) -- (8.5,0) node[anchor=north] {\textbf{x}};
+                        \draw[thick,-&gt;] (0,-1) -- (0,8.5) node[anchor=east] {\textbf{y}};
+                        
+                        % Tick marks and labels
+                        \foreach \x in {1,2,3,4,5,6,7,8} {
+                            \draw[thick] (\x,-0.1) -- (\x,0.1);
+                            \node[anchor=north] at (\x,-0.2) {\textbf{\x}};
+                        }
+
+                        \foreach \y in {1,2,3,4,5,6,7,8} {
+                            \draw[thick] (-0.1,\y) -- (0.1,\y);
+                            \node[anchor=east] at (-0.2,\y) {\textbf{\y}};
+                        }
+
+                        % Origin
+                        \node[anchor=north east] at (-0.1,-0.1) {\textbf{0}};
+
+                        % Plot points and labels
+                        \fill[red] (2,3) circle (3pt) node[anchor=north east] {\textbf{A}};
+                        \fill[blue] (2,7) circle (3pt) node[anchor=south east] {\textbf{B}};
+                        \fill[green] (6,7) circle (3pt) node[anchor=south west] {\textbf{C}};
+                        \fill[orange] (6,3) circle (3pt) node[anchor=north west] {\textbf{D}}; 
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
+        </statement>
+        <solution>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            <m>A (2, 3)</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>B (2, 7)</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>C (6, 7)</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>D (6, 3)</m>
+                        </p>
+                    </li>
+                </ul>
+            </p>
+        </solution>
+    </example>
+</subsection>
