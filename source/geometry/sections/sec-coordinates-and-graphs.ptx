@@ -1,0 +1,10 @@
+<section xml:id="sec-coordinates-and-graphs" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Coordinates and Graphs</title>
+    <xi:include href="subsections/coordinates-and-graphs/plotting-out-points-on-a-cartesian-plane.ptx" />
+    <xi:include href="subsections/coordinates-and-graphs/drawing-a-straight-line-graph-given-an-equation.ptx" />
+    <xi:include href="subsections/coordinates-and-graphs/drawing-parallel-lines-on-a-cartesian-plane.ptx" />
+    <xi:include href="subsections/coordinates-and-graphs/relating-the-gradients-of-parallel-lines.ptx" />
+    <xi:include href="subsections/coordinates-and-graphs/drawing-perpendicular-lines-on-a-cartesian-plane.ptx" />
+    <xi:include href="subsections/coordinates-and-graphs/relating-the-gradients-of-perpendicular-lines.ptx" />
+    <xi:include href="subsections/coordinates-and-graphs/applying-graphs-of-straight-lines-in-real-life-situation.ptx" />
+</section>

@@ -1,0 +1,13 @@
+<section xml:id="sec-scale-drawing" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Scale Drawing</title>
+    <xi:include href="subsections/scale-drawing/identifying-compass-and-true-bearings-in-real-life-situations.ptx" />
+    <xi:include href="subsections/scale-drawing/determining-the-bearing-of-one-point-from-another-in-real-life-situations.ptx" />
+    <xi:include href="subsections/scale-drawing/locating-a-point-using-bearing-and-distance-in-real-life-situations.ptx" />
+    <xi:include href="subsections/scale-drawing/identifying-angles-of-elevation-in-real-life-situations.ptx" />
+    <xi:include href="subsections/scale-drawing/determining-angles-of-elevation-in-different-situations.ptx" />
+    <xi:include href="subsections/scale-drawing/identifying-angles-of-depression-in-real-life-situations.ptx" />
+    <xi:include href="subsections/scale-drawing/determining-angles-of-depression-in-different-situations.ptx" />
+    <xi:include href="subsections/scale-drawing/applying-scale-drawing-in-simple-surveying.ptx" />
+    <xi:include href="subsections/scale-drawing/appreciating-the-use-of-scale-drawing-in-real-life-situations.ptx" />
+    
+</section>
