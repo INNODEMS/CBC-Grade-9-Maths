@@ -1,0 +1,20 @@
+<subsection xml:id="subsec-drawing-parallel-lines-on-a-cartesian-plane">
+    <title>Drawing Parallel Lines on a Cartesian-plane</title>
+    <activity>
+        <statement>
+            <p>
+                Consider the following two equations:
+                <m>y = 2x + 3 </m> and <m>y = 2x - 4.</m>
+            </p>
+            <p>
+                Generate tables plot the points, and draw the lines for the equations.
+            </p>
+            <p>
+                Compare the lines and discuss why they are parallel.
+            </p>
+        </statement>
+    </activity>
+    <p>
+        
+    </p>
+</subsection>
