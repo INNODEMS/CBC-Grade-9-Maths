@@ -1,7 +1,247 @@
 <subsection xml:id="subsec-area-of-regular-and-irregular-polygons">
     <title>Area of regular and irregular polygons</title>
+    <introduction>
     <p>
-        Area
-    </p>
-    
+            <m>\textbf{Polygon}</m>
+        </p>
+        <p>
+            A polygon is a closed 2D shape made up of 
+            straight lines. Examples include <m>\textbf{triangles, quadrilaterals, pentagons}</m> and <m>\textbf{hexagons.}</m> 
+        </p>
+        <p>
+            <m>\textbf{Regular Polygons}</m>
+        </p>
+        <p>
+            
+            A polygon is regular if:
+        </p>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        All sides are equal in length.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        All interior angles are equal. eg equilateral triangle, square, regular pentagon, regular hexagon
+
+                    </p>
+                </li>
+            </ul>
+        </p>
+        <p>
+            <m>\textbf{Irregular Polygons}</m>
+        </p>
+        <p>
+            A polygon is irregular if:
+        </p>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Sides are not all the same length, and/or
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Angles are not all equal.
+                    </p>
+                </li>
+            </ul>
+        </p>
+        </introduction>
+        
+        <subsubsection xml:id="subsubsec-area-of-a-pentagon">
+            <title>Area of a Pentagon</title>
+            <activity>
+                <p>
+                    <m>\textbf{Work in Groups}</m>
+                </p>
+                <p>
+                    <term>What you need.</term>
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                Manila paper or card paper
+                            </p>
+                        </li>
+                        <li>Manila paper or card paper</li>
+                        <li>Scissors</li>
+                        <li>Ruler</li>
+                        <li>Pencil</li>
+                        <li>Protractor</li>
+                        <li>Glue or tape</li>
+                    </ul>
+                </p>
+                <p>
+                    <ol>
+                        <li>
+                            <p>
+                                In pairs, discuss and write down what makes a polygon regular.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Share your ideas with the class.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Construct a Regular Pentagon as the one shown below.
+                            </p>
+                            <image width="50%">
+                            <latex-image label="Pentagon">
+                                \begin{tikzpicture}
+                                    \coordinate (O) at (0,0);
+                                    \foreach \i in {1,...,5} {
+                                        \coordinate (P\i) at (90+\i*72:3);
+                                    }
+
+                                    % Draw pentagon
+                                    \draw[thick] (P1) -- (P2) -- (P3) -- (P4) -- (P5) -- cycle;
+
+                                    % Draw lines from center
+                                    \foreach \i in {1,...,5} {
+                                        
+                                    }
+
+                                    % Mark center
+                                    \fill (O) circle (2pt);
+                                    \node[below right] at (O) {O};
+
+                                    % Label vertices
+                                    \foreach \i in {1,...,5} {
+                                        \node at (P\i) [circle, fill=black, inner sep=1.5pt, label=above:$P_{\i}$] {};
+                                    }
+                                \end{tikzpicture}
+                            </latex-image>
+                                
+                            </image>
+                            <p>
+                                Use a protractor and ruler to draw a regular pentagon (each interior angle is 108°).
+                            </p>
+                            <p>
+                                Cut it out carefully using scissors.
+                            </p>
+                            <p>
+                                Draw lines from the center of the pentagon to each vertex (corner) to divide it into <m>5</m> equal isosceles triangles as the 
+                                one shown below:
+                            </p>
+                            <image width="50%">
+                            <latex-image label="pentagon1">
+                                \begin{tikzpicture}
+                                    \coordinate (O) at (0,0);
+                                    \foreach \i in {1,...,5} {
+                                        \coordinate (P\i) at (90+\i*72:3);
+                                    }
+
+                                    % Draw pentagon
+                                    \draw[thick] (P1) -- (P2) -- (P3) -- (P4) -- (P5) -- cycle;
+
+                                    % Draw lines from center
+                                    \foreach \i in {1,...,5} {
+                                        \draw[dashed] (O) -- (P\i);
+                                    }
+
+                                    % Mark center
+                                    \fill (O) circle (2pt);
+                                    \node[below right] at (O) {O};
+
+                                    % Label vertices
+                                    \foreach \i in {1,...,5} {
+                                        \node at (P\i) [circle, fill=black, inner sep=1.5pt, label=above:$P_{\i}$] {};
+                                    }
+                                \end{tikzpicture}
+                            </latex-image>
+                                
+                            </image>
+                        </li>
+                        <li>
+                            <p>
+                                Measure the side length and apothem (a line from the center perpendicular to a side).
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Label all sides and angles of the triangles.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Discuss:
+                            </p>
+                            <p>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            Are all sides equal?
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Are all interior angles equal?
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            How many lines of symmetry does it have?
+                                        </p>
+                                    </li>
+                                </ul>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Calculate the Area of the pentagon
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Discuss if different-sized pentagons give different areas and why.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Discuss your findings with other groups.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </activity>
+            <p>
+                <m>\textbf{Key Takeaway}</m>
+
+            </p>
+            <p>
+                <ul>
+                   
+                    <li>
+                        <p>
+                            A regular pentagon has equal sides and angles. Its area can be found using the formula:
+                        </p>
+                        <p>
+                            <me>
+                                \text{Area} = \frac{1}{2} \times \text{Perimeter} \times \text{Apothem}
+                            </me>
+                        </p>
+                        <p>
+                            Where <m>p\text{Perimete}= \text{Length} \times 5</m> 
+                            and <m>\textbf{Apothem }</m>is the distance from the center of a regular polygon to aside. 
+                        </p>
+                    </li>
+                </ul>
+            </p>
+            <example>
+                <statement>
+                    <p>
+                        
+                    </p>
+                </statement>
+            </example>
+        
+    </subsubsection>
+   
 </subsection>
