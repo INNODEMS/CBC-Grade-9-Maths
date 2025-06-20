@@ -418,6 +418,40 @@
             The word "<m>\textbf{hexagon}</m>" comes from the <em>Greek</em> words "<term>hexa</term>," 
             meaning six, and "<term>gon</term>," meaning angle.
         </p>
+        <p>
+            See the image below for a regular hexagon:
+        </p>
+        <image width="50%">
+        <latex-image label="hexagon">
+            \begin{tikzpicture}[scale=1.5]
+                % Define hexagon vertices
+                \foreach \angle in {0,60,...,300} {
+                    \coordinate (v\angle) at (\angle:2cm);
+                }
+
+                % Draw hexagon
+                \draw[thick, fill=blue!10] (v0) -- (v60) -- (v120) -- (v180) -- (v240) -- (v300) -- cycle;
+
+                % Draw center to vertices (optional)
+                \draw[dashed, gray] (0,0) -- (v0);
+                \draw[dashed, gray] (0,0) -- (v60);
+                \draw[dashed, gray] (0,0) -- (v120);
+
+                % Draw and label apothem
+                \draw[red, very thick, |-|] (0,0) -- (30:1.732cm) node[midway, above, sloped] {Apothem (a)};
+                
+                % Label one side
+                \draw[|&lt;-&gt;|, rotate=20,thick] (-0.9,-1) ++(-40:1.9cm) -- ++(40:1.9cm) 
+                node[midway, below, rotate=60] {Side (s)};
+
+                % Center dot
+                \filldraw (0,0) circle (1pt) node[below right] {Center};
+            \end{tikzpicture}
+        </latex-image>
+            
+            
+        </image>
+        
         <activity>
             <p>
                 <m>\textbf{Work in Groups}</m>
@@ -425,8 +459,348 @@
             <p>
                 <term>What you need.</term>
             </p>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            Ruler
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Pencil and Paper
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            A regular hexagon (you can draw one or use a 
+                            hexagon-shaped object like a nut or a tile)
+                        </p>
+                    </li>
+                </ul>
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Observe the Hexagon it should e the same as the one drawn below:
+                        </p>
+                        <image width="50%">
+                        <latex-image label="hexagon1">
+                            \begin{tikzpicture}
+                                \draw (0:3) -- (60:3) -- (120:3) -- (180:3) -- (240:3) -- (300:3) -- cycle;
+                                \filldraw [fill=blue] (0,0) circle (2pt) ;
+                            \end{tikzpicture}
+                        </latex-image>
+                            
+                        </image>
+                        <p>
+                            <ol marker="a ">
+                                <li>
+                                    <p>
+                                        Count the sides. How many are there?
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Are all sides equal? (In a regular hexagon)
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Measure one side. Let’s call this length "<m>\textbf{s}</m>"
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                        
+                    </li>
+                    <li>
+                        <p>
+                            Divide the Hexagon into Triangles as the one drawn below:
+                        </p>
+                        <image width="50%">
+                        <latex-image label="hexagon2">
+                            \begin{tikzpicture}
+                                \draw (0:3) -- (60:3) -- (120:3) -- (180:3) -- (240:3) -- (300:3) -- cycle;
+                                \foreach \angle in {0,60,...,300}
+                                    \draw (0,0) -- (\angle:3);
+                                \node [above] at (0:1.5) {s};
+                                \filldraw [fill=blue] (0,0) circle (2pt) ;
+                            \end{tikzpicture}
+                        </latex-image>
+                            
+                        </image>
+                        <p>
+                            <ol marker="a ">
+                                <li>
+                                    <p>
+                                        How many triangles can you see?
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        What is the name of the triangles formed?
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Find the area of one triangle and record it.
+                        </p>
+                        <p>
+                            Find the total area of the hexagon by multiplying the area of one triangle by the number of triangles.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Can you find a formula for the area of a regular hexagon?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Discuss your findings with the other groups.
+                        </p>
+                    </li>
+                </ol>
+            </p>
             
         </activity>
+        <p>
+            <m>\textbf{Key Takeaway}</m>
+        </p>
+        <p>
+            A regular hexagon can always be split into 6 equal triangles called <m>\textbf{equilateral triangle.}</m>
+
+        </p>
+        <p>
+            A regular hexagon has equal sides and angles. Its area can be found using the formula:
+        </p>
+        <p>
+            <m>\text{Area}=\frac{1}{2} \times \text{Perimeter(P)} \times \text{apothem(a)}</m>
+        </p>
+        <p>
+            Where <m>\text{Perimeter} = \text{Length} \times 6</m> and <m>\textbf{Apothem}</m> is the distance from the center of a regular hexagon to a side.
+        </p>
+        <p>
+            <m>\textbf{Or}</m>
+        </p>
+        <p>
+            If you know apothem and side, use the formular below.
+        </p>
+        <p>
+            <m>\text{Area} = \frac{3\sqrt{3}}{2} \times \text{s}^2</m>
+        </p>
+        <p>
+            Where <m>\text{s}</m> is the length of one side of the hexagon.
+        </p>
+
+        <example>
+            <statement>
+                <p>
+                    A regular hexagon has a side length of <m>4\, \text{cm}</m> as shown below. Find its area
+                </p>
+                <image width="50%">
+                <latex-image label="hexagon3">
+                    \begin{tikzpicture}
+                        \draw (0:2) -- (60:2) -- (120:2) -- (180:2) -- (240:2) -- (300:2) -- cycle;
+                        \filldraw  (0,0) circle (2pt) ;
+                        \foreach \angle in {60,120}
+                            \draw (0,0) -- (\angle:2);
+                        \node at (0,2) {4 cm};
+                    \end{tikzpicture}
+                </latex-image>
+
+                </image>
+            </statement>
+            <solution>
+                <p>
+                    The side length of the hexagon is <m>4 \, \text{cm}</m>.
+                </p>
+                <p>
+                    Therefore:
+                </p>
+                <p>
+                    <md>
+                        <mrow> \text{Area} =\amp \frac{3\sqrt{3}}{2} \times \text{s}^2</mrow>
+                        <mrow> =\amp \frac{3\sqrt{3}}{2} \times 4^2</mrow>
+                        <mrow> =\amp \frac{3\sqrt{3}}{2} \times 16</mrow>
+                        <mrow> =\amp 24\sqrt{3} \, \text{cm}^2</mrow>
+                        <mrow>≈ \amp 41.57c\text{m}^2</mrow>
+                    </md>
+                </p>
+                <p>
+                    Therefore, the area of the hexagon is approximately <m>{\color{blue}41.57 \, \text{cm}^2}</m>.
+                </p>
+            </solution>
+        </example>
+        <example>
+            <statement>
+                <p>
+                    Bees build honeycombs using hexagonal cells. If each cell has a side 
+                    length of <m>7.5 \, \text{km}</m>, what is the area of one cell?
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    The side length of the hexagonal cell is <m>7.5 \, \text{km}</m>.
+                </p>
+                <p>
+                    Therefore:
+                </p>
+                <p>
+                    <md>
+                        <mrow> \text{Area} =\amp \frac{3\sqrt{3}}{2} \times \text{s}^2</mrow>
+                        <mrow> =\amp \frac{3\sqrt{3}}{2} \times (7.5)^2</mrow>
+                        <mrow> =\amp \frac{3\sqrt{3}}{2} \times 56.25</mrow>
+                        <mrow> =\amp 84.375\sqrt{3} \, \text{km}^2</mrow>
+                        <mrow>≈ \amp 146.41\, \text{km}^2</mrow>
+                    </md>
+                </p>
+                <p>
+                    This implies that, the area of one hexagonal cell is approximately <m>{\color{blue}146.41 \, \text{km}^2}</m>.
+                </p>
+            </solution>
+        </example>
+        <example>
+            <statement>
+                <p>
+                   A regular hexagon with center h is shown below:
+                </p>
+                <image width="50%">
+                <latex-image label="hexagon4">
+                    \begin{tikzpicture}
+                         % Define hexagon vertices
+                        \def\R{3} % Radius of hexagon
+                        \foreach \i in {0,60,...,300} {
+                            \coordinate (P\i) at (\i:\R);
+                        }
+
+                        % Draw the hexagon
+                        \draw[thick] (P0) -- (P60) -- (P120) -- (P180) -- (P240) -- (P300) -- cycle;
+                            
+
+                        % Define center
+                        \coordinate (C) at (0,0) ;
+                        
+                        % Draw the perpendicular segment
+                        \draw[dashed] (C) -- (0,-2.62) node[midway,left] {\Large $16$ cm};
+
+                        % Right angle marker
+                        \draw[very thick] (0,-2.35) -- (0.2,-2.35) -- (0.2,-2.62) node[below]{30 cm};
+                        % \draw (0,-\R)++(0,0) -- ++(0.2,0) -- ++(0,0.);
+
+                        % Mark the center point
+                        \draw[very thick,fill=blue] (C) circle (2pt);
+                    \end{tikzpicture}
+                </latex-image>
+                   
+                </image>
+
+                <p>
+                    <ol marker="a ">
+                        <li>
+                            <p>
+                                Find the perimeter of the hexagon.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Find the area of the hexagon.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+
+            </statement>
+            <solution>
+                <p>
+                    The side length of the hexagon is <m>16 \, \text{m}</m>.
+                </p>
+                <p>
+                    The apothem of the hexagon is <m>30 \, \text{m}</m>.
+                </p>
+                <p>
+                    Therfore:
+                </p>
+                <p>
+                    <ol marker="a ">
+                        <li>
+                            <p>
+                                The perimeter of the hexagon is:
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow> \text{Perimeter} =\amp \text{Length} \times 6</mrow>
+                                    <mrow> =\amp 16 \times 6</mrow>
+                                    <mrow> =\amp 96 \, \text{m}</mrow>
+                                </md>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The area of the hexagon is:
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow> \text{Area} =\amp \frac{1}{2} \times \text{Perimeter} \times  \text{apothem}</mrow>
+                                    <mrow> =\amp \frac{1}{2} \times 96 \times 30</mrow>
+                                    <mrow> =\amp 48 \times 30</mrow>
+                                    <mrow> =\amp 1440 \, \text{m}^2</mrow>
+                                </md>
+                            </p>
+                            <p>
+                                This implies that, the area of the hexagon is <m>{\color{blue}1440 \, \text{m}^2}</m>.
+                            </p>
+
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+        <example>
+            <statement>
+                <p>
+                    A regular hexagon has an area of <m>54\sqrt{3}\, \text{cm}^2</m>
+                    . What is its side length?
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    To find the side length of a regular hexagon given its area, we can use the formula:
+                </p>
+                <p>
+                    <md>
+                        <mrow> \text{Area} =\amp \frac{3\sqrt{3}}{2} \times \text{s}^2</mrow>
+                    </md>
+                </p>
+                <p>
+                    Given that the area is <m>54\sqrt{3}\, \text{cm}^2</m>, we can set up the equation:
+                </p>
+                <p>
+                    <md>
+                        <mrow> 54\sqrt{3} =\amp \frac{3\sqrt{3}}{2} \times \text{s}^2</mrow>
+                    </md>
+                </p>
+                <p>
+                    To solve for <m>\text{s}</m>, we can rearrange the equation:
+                </p>
+                <p>
+                    <md>
+                        <mrow> \text{s}^2 =\amp \frac{54\sqrt{3} \times 2}{3\sqrt{3}}</mrow>
+                        <mrow> =\amp \frac{108}{3}</mrow>
+                        <mrow> =\amp 36</mrow>
+                        <mrow> \text{s} =\amp \sqrt{36}</mrow>
+                        <mrow> =\amp 6 \, \text{cm}</mrow>
+                    </md>
+                </p>
+                <p>
+                    Therefore, the side length of the regular hexagon is <m>{\color{blue}6 \, \text{cm}}</m>.
+                </p>
+            </solution>
+        </example>
         
     </subsubsection>
    
