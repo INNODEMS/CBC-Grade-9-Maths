@@ -37,7 +37,7 @@
           </p>
           <table>
             <title>Sample Slope Measurements</title>
-            <tabular>
+            <tabular top="medium" bottom="medium" left="medium" right="medium">
               <row>
                 <cell>Location</cell>
                 <cell>Estimated Rise (m)</cell>
@@ -66,32 +66,33 @@
           <li>Which surface appears steeper? Why might that be important?</li>
         </ul>
       </p>
-    </activity>
-  </worksheet>
-  
-  <subsubsection xml:id="subsubsec-gradient-example">
-    <title>Example: Introducing the Gradient Formula</title>
-    <p>
-      After your group activity, let’s see how we can measure the steepness more precisely. For example, consider a ramp that you measured earlier.
-    </p>
-    <p>
-      Suppose one ramp rises <m>1.2 m</m> over a horizontal distance of <m>4 m</m>. To express its steepness numerically, we use the concept of the gradient, often calculated as:
-    </p>
-    <p>
-      <m> \text{Gradient (m)} = \frac{\text{Rise}}{\text{Run}} </m>
-    </p>
-    <p>
-      Thus, for this ramp: 
-    </p>
-    <p>
-      <m> m = \frac{1.2}{4} = 0.3 </m>
-    </p>
-    <p>
-      This numerical value, <m>0.3</m>, indicates that for every 1 metre along the ramp, the height increases by 0.3 m.
-    </p>
-  </subsubsection>
-  
-  <conclusion>
+  </activity>
+
+  <example>
+    <statement>
+        <p>
+        After your group activity, let's see how we can measure the steepness more precisely. For example, consider a ramp that you measured earlier.
+        </p>
+        <p>
+        Suppose one ramp rises <m>1.2 m</m> over a horizontal distance of <m>4 m</m>. To express its steepness numerically, we use the concept of the gradient, often calculated as:
+        </p>
+        <p>
+        <m> \text{Gradient (m)} = \frac{\text{Rise}}{\text{Run}} </m>
+        </p>
+        <p>
+        Thus, for this ramp: 
+        </p>
+        <p>
+        <m> m = \frac{1.2}{4} = 0.3 </m>
+        </p>
+        <p>
+        This numerical value, <m>0.3</m>, indicates that for every 1 metre along the ramp, the height increases by 0.3 m.
+        </p>
+    </statement>
+  </example>
+</worksheet>
+
+<conclusion>
     <p>
       <m>\textbf{Key Takeaway:}</m> The gradient gives a numerical value to the concept of steepness, allowing us to compare different slopes and understand their practical implications for safety, accessibility, and design.
     </p>
