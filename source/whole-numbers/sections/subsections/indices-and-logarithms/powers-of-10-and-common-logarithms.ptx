@@ -1,0 +1,24 @@
+<subsection xml:id="subsec-powers-of-10-and-common-logarithms" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Powers of 10 and common logarithms</title>
+    <p>
+        
+    </p>
+    <p>
+    
+         <m>\bullet</m> <m> \textbf{Powers of 10 }</m> are numbers that represent a base of <m>10</m> raised to an exponent.  
+    </p>
+    <p>
+        The common logarithm, denoted as <m>\log_{10}</m>, is the logarithm to the base <m>10</m>.
+         It is used to express numbers in terms of powers of <m>10</m>.
+    </p>
+    <p>
+        The common logarithm of a number <m>x</m> is defined as the exponent to which the base <m>10</m> must be raised to obtain <m>x</m>. 
+        In mathematical terms, if <m>y = \log_{10}(x)</m>, then <m>10^y = x</m>.
+    </p>
+    <p>
+        For example, if <m>x = 1000</m>, then <m>\log_{10}(1000) = 3</m> because <m>10^3 = 1000</m>.
+        This means that <m>1000</m> can be expressed as <m>10^3</m>, which is a power of <m>10</m>.
+    </p>
+
+    
+</subsection>

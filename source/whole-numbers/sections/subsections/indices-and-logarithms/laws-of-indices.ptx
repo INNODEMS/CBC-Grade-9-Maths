@@ -1,0 +1,36 @@
+<subsection xml:id="subsec-laws-of-indices" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Laws of indices</title>
+    <p>
+        The laws of indices, also known as the laws of exponents, are fundamental rules that govern the manipulation of expressions involving powers or indices.
+         These laws are essential for simplifying calculations and solving equations involving exponential terms. Here are the key laws of indices:
+    </p>
+    <p>
+        1. **Product of Powers**: When multiplying two expressions with the same base, you add the exponents:
+        <m>a^m \cdot a^n = a^{m+n}</m>.
+    </p>
+    <p>
+        2. **Quotient of Powers**: When dividing two expressions with the same base, you subtract the exponents:
+        <m>\frac{a^m}{a^n} = a^{m-n}</m>, where <m>a \neq 0</m>.
+    </p>
+    <p>
+        3. **Power of a Power**: When raising an expression with an exponent to another exponent, you multiply the exponents:
+        <m>(a^m)^n = a^{m \cdot n}</m>.
+    </p>
+    <p>
+        4. **Power of a Product**: When raising a product to an exponent, you raise each factor to the exponent:
+        <m>(ab)^n = a^n \cdot b^n</m>.
+    </p>
+    <p>
+        5. **Power of a Quotient**: When raising a quotient to an exponent, you raise both the numerator and denominator to the exponent:
+        <m>\left(\frac{a}{b}\right)^n = \frac{a^n}{b^n}</m>, where <m>b \neq 0</m>.
+    </p>
+    <p>
+        6. **Zero Exponent**: Any non-zero base raised to the power of zero is equal to one:
+        <m>a^0 = 1</m>, where <m>a \neq 0</m>.
+    </p>
+    <p>
+        7. **Negative Exponent**: A negative exponent indicates the reciprocal of the base raised to the absolute value of the exponent:
+        <m>a^{-n} = \frac{1}{a^n}</m>, where <m>a \neq 0</m>.
+    </p>
+    
+</subsection>
