@@ -1,0 +1,14 @@
+<subsection xml:id="subsec-fractional-indices" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Fractional indices</title>
+    <p>
+        Fractional indices, also known as rational indices, are used to represent roots of numbers in index form. 
+        A fractional index indicates that the base is raised to a power and then the root is taken.
+    </p>
+    <p>
+        For example, if we have a base <m>a</m> and a fractional index <m>\frac{m}{n}</m>, it can be expressed as:
+        <m>a^{\frac{m}{n}} = \sqrt[n]{a^m}</m>.
+        This means that we first raise <m>a</m> to the power of <m>m</m> and then take the <m>n</m>-th root of the result.
+    </p>
+    
+    
+</subsection>

@@ -33,4 +33,8 @@
         </p>
     </introduction>
     <xi:include href="subsections/compound-proportions-and-rates-of-work/proportional-parts.ptx" />
+    <xi:include href="subsections/compound-proportions-and-rates-of-work/relating-different-ratios-in-real-life.ptx" />
+    <xi:include href="subsections/compound-proportions-and-rates-of-work/working-out-compound-proportions-using-the-ratio-method.ptx" />
+    <xi:include href="subsections/compound-proportions-and-rates-of-work/rates-of-work.ptx" />
+
 </section>
