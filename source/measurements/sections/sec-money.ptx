@@ -1,4 +1,11 @@
 <section xml:id="sec-money" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Money</title>
+    <introduction>
+        <p>
+         Ever wondered how people buy sneakers from the US or how your phone got here from another country? In this topic, we’re unlocking money secrets from world currencies and currency exchange to taxes, profits and why chocolate sometimes costs more than chips!
+
+        It’s maths, but with a global twist, let’s make sense of shillings, dollars, euros and maybe even learn something about currency exchange from one country to the next. 
+        </p>
+    </introduction>
     <xi:include href="subsections/money/test4.ptx" />
 </section>
