@@ -1,0 +1,227 @@
+<subsection xml:id="subsection-relating-different-ratios-in-real-life" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Relating different ratios in real life</title>
+    <p>
+        In real life, we often encounter situations where we need to relate different ratios or rates of work.
+         For example, if James a Grade <m>9</m> student can complete a math problem in a <m>5</m> minutes, and Esther also a Grade <m>10</m> learner completes the same task in <m>4</m> minutes, we can express their work rates as ratios.
+         By understanding these ratios, we can determine how long it will take for them to complete the task together or how their individual contributions compare.
+    </p>
+    <p>
+        Consider the numbers <m>3, 6, 12</m> and <m>24</m>. You may notice that each number is equal to the previous number multiplied by <m>2</m>. 
+        The <m>4</m> numbers are therefore said to be in continued proportion.
+        
+    </p>
+    <p>
+        Generally, if <m>4</m> numbers, <m>a, b, c</m> and <m>d</m> are in continued proportion:
+        
+    </p>
+    <p>
+        <m>\frac{a}{b} = \frac{b}{c} = \frac{c}{d}</m>
+    </p>
+    <p>
+        Since <m>\frac{a}{b} = \frac{b}{c},</m> then <m> b^2 = ac</m>
+    </p>
+    <p>
+        <m>b = \pm \sqrt{ac} </m>
+    </p>
+    <p>
+        If numbers are in continued proportion, they form a geometric progression since they have a common ratio.
+    </p>
+    <activity>
+        <statement>
+            <p>
+                Mr Kamboi, a Grade <m>9</m> teacher, organized for a short distance race. The race had <m>5</m> stations that is station <m>A</m>, <m>B</m>, <m>C</m>, <m>D</m> and <m>E</m>.
+            </p>
+            <p>
+                The distance between the stations is as follows:
+            </p>
+            <tabular top="medium">
+                <row left="medium" bottom="medium">
+                    <cell right="medium" >Station</cell>
+                    <cell right="medium">Position in (m)</cell>
+                </row>
+                <row left="medium">
+                    <cell right="medium">A</cell>
+                    <cell right="medium">0</cell>
+                </row>
+                <row left="medium">
+                    <cell right="medium">B</cell>
+                    <cell right="medium">20</cell>
+                </row>
+                <row left="medium">
+                    <cell right="medium">C</cell>
+                    <cell right="medium">40</cell>
+                </row>
+                <row left="medium">
+                    <cell right="medium">D</cell>
+                    <cell right="medium">80</cell>
+                </row>
+                <row left="medium">
+                    <cell right="medium" bottom="medium">E</cell>
+                    <cell right="medium" bottom="medium">160</cell>
+                </row>
+            </tabular>
+            <p>
+               1. In groups of <m>5</m>, draw a diagram to represent the stations and the distances between them.
+            </p>
+            <p>
+                2.If the distance between the stations is in continued proportion, find the distance between station <m>A</m> and <m>B</m>, <m>B</m> and <m>C</m>, <m>C</m> and <m>D</m>, and <m>D</m> and <m>E</m>.
+            </p>
+            <p>
+                3. Identify any proportional relationships between the distance AB and CD and the distance BC and DE.
+            </p>
+            <p>
+                4. Work out the ratio of AB:BC and CD:DE in simplest form.
+            </p>
+            <p>
+                5. Share your findings with the class.
+            </p>
+        </statement>
+    </activity>
+    
+
+    <example>
+        <statement>
+            <p>
+                If the ratio of the ages of John and Mary is <m>3:4</m>, and the ratio of their ages in <m>5</m> years will be <m>4:5</m>, what are their current ages?
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Let John's current age be <m>3x</m> and Mary's current age be <m>4x</m>.
+            </p>
+            <p>
+                In <m>5</m> years, John's age will be <m>3x + 5</m> and Mary's age will be <m>4x + 5</m>.
+            </p>
+            <p>
+                According to the problem, we have:
+            </p>
+            <p>
+                <md>
+                    <mrow>\frac{3x + 5}{4x + 5} = \frac{4}{5}</mrow>
+                </md>
+            </p>
+            <p>
+                Cross-multiplying gives us:
+            </p>
+            <p>
+                <md>
+                    <mrow>5(3x + 5) = 4(4x + 5)</mrow>
+                </md>
+            </p>
+            <p>
+                Simplifying this, we have:
+            </p>
+            <p>
+                <md>
+                    <mrow>15x + 25 = 16x + 20</mrow>
+                </md>
+            </p>
+            <p>
+                Rearranging gives us:
+            </p>
+            <p>
+                <md>
+                    <mrow>x = 5</mrow>
+                </md>
+            </p>
+            <p>
+                Therefore, John's current age is:
+            </p>
+            <p>
+                <md><mrow>3 \times 5 = 15</mrow></md>,
+                 and Mary's current age is:
+                 <md><mrow>4 \times 5 = 20</mrow></md>.
+            </p>
+
+        </solution>
+
+    </example>
+    <example>
+        <statement>
+            <p>
+                Given that the ratio <m>x:y=2:3</m>, find the ratio <m>(5x−2y):(x+y)</m>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                We start with the given ratio <m>x:y=2:3</m>. This means we can express <m>x</m> and <m>y</m> in terms of a common variable, say <m>k</m>:
+            </p>
+            <p>
+                <md>
+                    <mrow>x = 2k</mrow>
+                    <mrow>y = 3k</mrow>
+                </md>
+            </p>
+            <p>
+                Now, we need to find the ratio <m>(5x−2y):(x+y)</m>. Substituting the values of <m>x</m> and <m>y</m> gives us:
+            </p>
+            <p>
+                <md>
+                    <mrow>5x - 2y = 5(2k) - 2(3k) = 10k - 6k = 4k</mrow>
+                    <mrow>x + y = 2k + 3k = 5k</mrow>
+                </md>
+            </p>
+            <p>
+                Therefore, the ratio becomes:
+            </p>
+            <p>
+                <md>
+                    <mrow>(5x−2y):(x+y) = 4k:5k</mrow>
+                </md>
+            </p>
+            <p>
+                Simplifying this ratio, we can cancel out <m>k</m> (assuming <m>k ≠ 0</m>):
+            </p>
+            <p>
+                <md>
+                    <mrow>4:5</mrow>
+                </md>
+            </p>
+            <p>
+                Therefore, the ratio <m>(5x−2y):(x+y)</m> simplifies to <m>4:5</m>.
+            </p>
+            <p>
+                
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                If <m>22, X</m> and <m>88</m> are in continued proportion, find the value of <m>X</m>.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                If <m>22, X</m> and <m>88</m> are in continued proportion, then we can express this relationship as:
+            </p>
+            <p>
+                <md>
+                    <mrow>\frac{22}{X} = \frac{X}{88}</mrow>
+                </md>
+            </p>
+            <p>
+                Cross-multiplying gives us:
+            </p>
+            <p>
+                <md>
+                    <mrow>22 \times 88 = X^2</mrow>
+                </md>
+            </p>
+            <p>
+                Simplifying this, we have:
+            </p>
+            <p>
+                <md>
+                    <mrow>1936 = X^2</mrow>
+                </md>
+            </p>
+            <p>
+                Hence <m>X = \sqrt{1936}</m> 
+            </p>
+            <p>
+                <m>= 44 </m>
+            </p>
+        </solution>
+    </example>
+</subsection>    

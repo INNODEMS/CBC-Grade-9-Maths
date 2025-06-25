@@ -1,0 +1,394 @@
+<subsection xml:id="subsec-laws-of-indices" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Laws of indices</title>
+    <introduction>
+        <p>
+            The laws of indices, also known as the laws of exponents, are fundamental rules that govern the manipulation of expressions involving powers or indices.
+            These laws are essential for simplifying calculations and solving equations involving exponential terms. Here are the key laws of indices:
+        </p>
+        <p>
+            1. <m>\textbf{Product of Powers}</m>: When multiplying two expressions with the same base, you add the exponents:
+            <m>a^m \cdot a^n = a^{m+n}</m>.
+        </p>
+        <p>
+            2. <m>\textbf{Quotient of Powers}</m>: When dividing two expressions with the same base, you subtract the exponents:
+            <m>\frac{a^m}{a^n} = a^{m-n}</m>, where <m>a \neq 0</m>.
+        </p>
+        <p>
+            3. <m>\textbf{Power of a Power}</m>: When raising an expression with an exponent to another exponent, you multiply the exponents:
+            <m>(a^m)^n = a^{m \times n}</m>.
+        </p>
+        <p>
+            4. <m>\textbf{Power of a Product}</m>: When raising a product to an exponent, you raise each factor to the exponent:
+            <m>(ab)^n = a^n \times b^n</m>.
+        </p>
+        <p>
+            5. <m>\textbf{Power of a Quotient}</m>: When raising a quotient to an exponent, you raise both the numerator and denominator to the exponent:
+            <m>\left(\frac{a}{b}\right)^n = \frac{a^n}{b^n}</m>, where <m>b \neq 0</m>.
+        </p>
+        <p>
+            6. <m>\textbf{Zero Exponent}</m>: Any non-zero base raised to the power of zero is equal to one:
+            <m>a^0 = 1</m>, where <m>a \neq 0</m>.
+        </p>
+        <p>
+            7. <m>\textbf{Negative Exponent}</m>: A negative exponent indicates the reciprocal of the base raised to the absolute value of the exponent:
+            <m>a^{-n} = \frac{1}{a^n}</m>, where <m>a \neq 0</m>.
+        </p>
+    </introduction>
+    <subsubsection xml:id="subsubsec-multiplication-law-of-indices">
+        <title>Multiplication law of indices</title>
+        <p>
+            
+        </p>
+        <p>
+            The multiplication law of indices states that when you multiply two numbers with the same base, you add their exponents. 
+            This can be expressed mathematically as:
+            <m>a^m \times a^n = a^{m+n}</m>, where <m>a</m> is the base and <m>m</m> and <m>n</m> are the exponents.
+        </p>
+        <activity>
+            <statement>
+                <p>
+                    
+                </p>
+                <p>
+                    <ol>
+                        <li>
+                            <p>
+                                In groups of <m>5</m>, use numbers between <m>1</m> and <m>9</m> to form at least three pairs of numbers that have the same base but different powers.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Multiply each pair that you have formed.
+                            </p>
+                            <p>
+                                Example: <m>2^2 \times 2^3</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Simplify each expression using the multiplication law of indices.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Discuss your work with your fellow learners.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                    Simplify the following expressions:
+                </p>
+                <p>
+                   a) <m>2^3 \times 2^4</m>
+                </p>
+                <p>
+                   b) <m>8^3 \times 8^6</m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                   a) Since the bases are the same, we can apply the multiplication law of indices:
+                </p>
+                <p>
+                    <m>2^3 \times 2^4 = 2^{3+4} </m>
+                </p>
+                <p>
+                    <m> = 2^7</m>
+                </p>
+                <p>
+                    b) Similarly, for the second expression:
+                </p>
+                <p>
+                    <m>8^3 \times 8^6 = 8^{3+6} </m>
+                </p>
+                <p>
+                    <m> = 8^9</m>
+                </p>
+            </solution>
+        </example>
+        <example>
+            <statement>
+                <p>
+                    Evaluate: <m>4x^3 \times 7x^2</m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    First, we can multiply the coefficients (the numbers in front):
+                </p>
+                <p>
+                    <m>4 \times 7 = 28</m>
+                </p>
+                <p>
+                    Next, we apply the multiplication law of indices to the variable <m>x</m>:
+                </p>
+                <p>
+                    <m>x^3 \times x^2 = x^{3+2} = x^5</m>
+                </p>
+                <p>
+                     Combining them we have: <m> 28x^5</m>
+                </p>
+                <p>
+                    Therefore, <m>4x^3 \times 7x^2 = 28x^5</m>.
+                </p>
+            </solution>
+        </example>
+        
+        
+    </subsubsection>
+    <subsubsection xml:id="subsubsec-division-law-of-indices">
+        <title>Division law of indices</title>
+        <p>
+            The division law of indices states that when you divide two numbers with the same base, you subtract their exponents. 
+            This can be expressed mathematically as:
+            <m>\frac{a^m}{a^n} = a^{m-n}</m>, where <m>a</m> is the base and <m>m</m> and <m>n</m> are the exponents.
+        </p>
+        <activity>
+            <statement>
+                <p>
+                    
+                </p>
+                <p>
+                    <m>\textbf{Work in groups}</m>
+                </p>
+                <p>
+                    <ol>
+                        <li>
+                            <p>
+                               Using the division law of indices, work with the following pairs of numbers:
+                            </p>
+                            <p>
+                               i) <m>5^2 , 5^1</m>
+                            </p>
+                            <p>
+                               ii) <m>2^3, 2^5</m>
+                            </p>
+                            <p>
+                               iii) <m>4^4, 4^8</m>
+                            </p>
+                            <p>
+                                iv) <m>6^6, 6^3</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                               For each pair above, form a division expression.
+                            </p>
+                            <p>
+                                Example: <m>5^2 \div 5^1</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Now apply the division law of indices to simplify each expression you created.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Then, create one division expression of your own using the law of indices. Simplify and calculate it.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Share your work with your fellow learners.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                    Simplify the following expressions:
+                </p>
+                <p>
+                     a) <m>\frac{5^6}{5^2}</m>
+                </p>
+                <p>
+                        b) <m>\frac{10^5}{10^3}</m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                   a) To solve for <m>\frac{5^6}{5^2}</m>, we apply the division law of indices:
+                </p>
+                <p>
+                    <m>\frac{5^6}{5^2} = 5^{6-2} </m>
+                </p>
+                <p>
+                    <m>= 5^4</m>
+                </p>
+                <p>
+                    b) Solving <m>\frac{10^5}{10^3}</m>, we have:
+                </p>
+                <p>
+                    <m>\frac{10^5}{10^3} = 10^{5-3} </m>
+                </p>
+                <p>
+                    <m>= 10^2</m>
+                </p>
+            </solution>
+        </example>
+        <example>
+            <statement>
+                <p>
+                    Evaluate: <m>\frac{3x^5}{9x^2}</m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    First, we can simplify the coefficients:
+                </p>
+                <p>
+                    <m>\frac{3}{9} = \frac{1}{3}</m>
+                </p>
+                <p>
+                    Next, we apply the division law of indices to the variable <m>x</m>:
+                </p>
+                <p>
+                    <m>\frac{x^5}{x^2} = x^{5-2} = x^3</m>
+                </p>
+                <p>
+                    Combining them we have: <m> \frac{1}{3}x^3</m>
+                </p>
+                <p>
+                    Therefore, <m>\frac{3x^5}{9x^2} = \frac{1}{3}x^3</m>.
+                </p>
+            </solution>
+        </example>
+        
+    </subsubsection>
+    <subsubsection xml:id="subsubsec-brackets-with-indices">
+        <title>Brackets with indices</title>
+        <p>
+           Brackets with indices are where we have a term inside a bracket with an index (or power) outside of the bracket. 
+        </p>
+        <p>
+           Example: <m>(a^2)^3 = a^{2 \times 3} = a^6</m> 
+        </p>
+        <p>
+            In general when there is a term inside a bracket with an index (or power) outside of the bracket multiply the powers.
+        </p>
+        <p>
+            <m>(a^m)^n = a^{m×n}=a^{mn}</m>
+        </p>
+        <activity>
+            <statement>
+                <p>
+                    
+                </p>
+                <p>
+                    <ol>
+                        <li>
+                            <p>
+                                Working in groups of <m>5</m>, consider the following expressions.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <ol marker="a)">
+                                    <li>
+                                        <p>
+                                           <m>(2^3)^2</m> 
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>(3^2)^3</m>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>(5^1)^4</m>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>(4^2)^1</m>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>(10^2)^3</m>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>(7^3)^2</m>
+                                        </p>
+                                    </li>
+                                </ol>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Recall the bracket law of indices and simplify the expressions above.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Share your work with your fellow learners
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                    What is <m>(5^3)^3?</m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <m>(5^3)^3</m> is given by multiplying the powers:
+                </p>
+                <p>
+                    <m>3 \times 3 = 9</m>
+                </p>
+                <p>
+                    Hence, <m>(5^3)^3 = 5^9</m>
+                </p>
+            </solution>
+        </example>
+        <example>
+            <statement>
+                <p>
+                    Solve the expression <m>(4y^2)^3</m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                   <m>(4y^2)^3</m> can be written as <m>4^3 \times (y^2)^3</m> 
+                </p>
+                <p>
+                    Solving for <m> (y^2)^3</m>, we have:
+                </p>
+                <p>
+                   <m> (y^2)^3 = y^{ 2 \times 3} = y^6</m> 
+                </p>
+                <p>
+                    Hence, <m>(y^2)^3 = y^6</m>
+                </p>
+                <p>
+                    Next, we compute <m>4^3</m>.
+                </p>
+                <p>
+                    <m>4^3 = 4 \times 4 \times 4 = 64 </m>
+                </p>
+                <p>
+                    Therefore, <m>(4y^2)^3</m> <m>= 64y^6</m>
+                </p>
+            </solution>
+        </example>
+        
+    </subsubsection>
+    
+</subsection>
