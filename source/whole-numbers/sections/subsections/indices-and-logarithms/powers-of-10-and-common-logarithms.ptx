@@ -19,6 +19,270 @@
         For example, if <m>x = 1000</m>, then <m>\log_{10}(1000) = 3</m> because <m>10^3 = 1000</m>.
         This means that <m>1000</m> can be expressed as <m>10^3</m>, which is a power of <m>10</m>.
     </p>
+    <activity>
+        <statement>
+            <p>
+                
+            </p>
+            <p>
+                Imagine you are climbing a mountain and each step you take is a jump by a power of <m>10</m>.
+                The first step is <m>10^0</m>, the second step is <m>10^1</m>, and so on.
+                Each step represents a significant increase in height, just like how powers of <m>10</m> represent large numbers.
+            </p>
+            <p>
+               1. In groups of <m>5</m>, study and fill the table below.
+            </p>
+            <tabular top="medium">
+                <row left="medium">
+                    <cell bottom="medium" right="medium">Power of <m>10</m></cell>
+                    <cell bottom="medium" right="medium">Numerical Value</cell>
+                    <cell bottom="medium" right="medium">Common Logarithm</cell>
+                    <cell bottom="medium" right="medium">Logarithm Value</cell>
+
+                </row>
+                <row left="medium">
+                    <cell right="medium" bottom="medium"><m>10^0</m></cell>
+                    <cell right="medium" bottom="medium">1</cell>
+                    <cell right="medium" bottom="medium"><m>\log_{10}(1)</m></cell>
+                    <cell right="medium" bottom="medium">0</cell>
+                </row>
+                <row left="medium">
+                    <cell right="medium" bottom="medium"><m>10^1</m></cell>
+                    <cell right="medium" bottom="medium"></cell>
+                    <cell right="medium" bottom="medium"><m>\log_{10}(10)</m></cell>
+                    <cell right="medium" bottom="medium"></cell>
+                </row>
+                <row left="medium">
+                    <cell right="medium" bottom="medium"><m>10^2</m></cell>
+                    <cell right="medium" bottom="medium"></cell>
+                    <cell right="medium" bottom="medium"><m></m></cell>
+                    <cell right="medium" bottom="medium"><m>2</m></cell>
+                </row>
+                <row left="medium">
+                    <cell right="medium" bottom="medium"><m></m></cell>
+                    <cell right="medium" bottom="medium"><m>1000</m></cell>
+                    <cell right="medium" bottom="medium"><m>\log_{10}(1000)</m></cell>
+                    <cell right="medium" bottom="medium"></cell>
+                </row>
+                <row left="medium">
+                    <cell right="medium" bottom="medium"><m>10^4</m></cell>
+                    <cell right="medium" bottom="medium"><m>10000</m></cell>
+                    <cell right="medium" bottom="medium"><m></m></cell>
+                    <cell right="medium" bottom="medium"><m>4</m></cell>
+                </row>
+                <row left="medium">
+                    <cell right="medium" bottom="medium"><m>10^5</m></cell>
+                    <cell right="medium" bottom="medium"></cell>
+                    <cell right="medium" bottom="medium"><m></m></cell>
+                    <cell right="medium" bottom="medium"><m></m></cell>
+                </row>
+            </tabular>
+            <p>
+               2. Now, consider what happens if you take steps in the opposite direction—down the mountain—using negative powers of <m>10</m> such as <m>10^{-1}</m>, <m>10^{-2}</m>, and <m>10^{-3}</m>. 
+
+                <ul>
+                    <li>What are the numerical values of these negative powers of <m>10</m>?</li>
+                    <li>What are their common logarithms?</li>
+                    <li>Fill in a similar table for these negative powers of <m>10</m>.</li>
+                </ul>
+            </p>
+            <p>
+                3. What patterns or rules did you notice about powers of <m>10</m> and their common logarithms? Write your observations and explanations.
+            </p>
+            <p>
+                4. Discuss your work with your classmates.
+            </p>
+        </statement>
+    </activity>
+    <p>
+        <term>Key Takeaway</term>
+    </p>
+    <p>
+        When a number is rewritten as a power of <m>10</m>, its common logarithm is just the exponent.
+    </p>
+    <tabular top="medium">
+        <row left="medium">
+            <cell bottom="medium" right="medium">Number</cell>
+            <cell bottom="medium" right="medium">Re-written as a power</cell>
+            <cell bottom="medium" right="medium">Number's logarithm</cell>
+        </row>
+        <row left="medium">
+            <cell right="medium" bottom="medium"><m>1</m></cell>
+            <cell right="medium" bottom="medium"><m>10^0</m></cell>
+            <cell right="medium" bottom="medium"><m>\log_{10}(1) = 0</m></cell>
+        </row>
+        <row left="medium">
+            <cell right="medium" bottom="medium"><m>10</m></cell>
+            <cell right="medium" bottom="medium"><m>10^1</m></cell>
+            <cell right="medium" bottom="medium"><m>\log_{10}(10) = 1</m></cell>
+        </row>
+        <row left="medium">
+            <cell right="medium" bottom="medium"><m>100</m></cell>
+            <cell right="medium" bottom="medium"><m>10^2</m></cell>
+            <cell right="medium" bottom="medium"><m>\log_{10}(100) = 2</m></cell>
+        </row>
+        <row left="medium">
+            <cell right="medium" bottom="medium"><m>1000</m></cell>
+            <cell right="medium" bottom="medium"><m>10^3</m></cell>
+            <cell right="medium" bottom="medium"><m>\log_{10}(1000) = 3</m></cell>
+        </row>
+        <row left="medium">
+            <cell right="medium" bottom="medium"><m>10000</m></cell>
+            <cell right="medium" bottom="medium"><m>10^4</m></cell>
+            <cell right="medium" bottom="medium"><m>\log_{10}(10000) = 4</m></cell>
+        </row>
+        <row left="medium">
+            <cell right="medium" bottom="medium"><m>0.1</m></cell>
+            <cell right="medium" bottom="medium"><m>10^{-1}</m></cell>
+            <cell right="medium" bottom="medium"><m>\log_{10}(0.1) = -1</m></cell>
+        </row>
+        <row left="medium">
+            <cell right="medium" bottom="medium"><m>0.01</m></cell>
+            <cell right="medium" bottom="medium"><m>10^{-2}</m></cell>
+            <cell right="medium" bottom="medium"><m>\log_{10}(0.01) = -2</m></cell>
+        </row>
+        <row left="medium">
+            <cell right="medium" bottom="medium"><m>0.001</m></cell>
+            <cell right="medium" bottom="medium"><m>10^{-3}</m></cell>
+            <cell right="medium" bottom="medium"><m>\log_{10}(0.001) = -3</m></cell>
+        </row>
+        <row left="medium">
+            <cell right="medium" bottom="medium"><m>0.0001</m></cell>
+            <cell right="medium" bottom="medium"><m>10^{-4}</m></cell>
+            <cell right="medium" bottom="medium"><m>\log_{10}(0.0001) = -4</m></cell>
+        </row>
+        <row left="medium">
+            <cell right="medium" bottom="medium"><m>0.00001</m></cell>
+            <cell right="medium" bottom="medium"><m>10^{-5}</m></cell>
+            <cell right="medium" bottom="medium"><m>\log_{10}(0.00001) = -5</m></cell>
+        </row>
+    </tabular>
+    <example>
+        <statement>
+            <p>
+               Determine the logarithm of the following numbers: 
+            </p>
+            <p>
+               a) <m>0.00000001</m>
+            </p>
+            <p>
+               b) <m>1000000000</m>
+            </p>
+        </statement>
+        <solution>
+            <p>
+               a) The number <m>0.00000001</m> can be expressed as <m>10^{-8}</m>. 
+            </p>
+            <p>
+                So its logarithm is <m>\log_{10}(0.00000001) </m>.
+            </p>
+            <p>
+                Since the logarithm of a number is the exponent to which the base must be raised to produce that number, we have:
+            </p>
+            <p>
+                <m>\log_{10}(0.00000001) = -8</m>.
+            </p>
+            <p>
+                b) The number <m>1000000000</m> can be expressed as <m>10^9</m>.
+            </p>
+            <p>
+                So its logarithm is <m>\log_{10}(1000000000)</m>.
+            </p>
+            <p>
+                Since the logarithm of a number is the exponent to which the base must be raised to produce that number, we have:
+            </p>
+            <p>
+                <m>\log_{10}(1000000000) = 9</m>.
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                Determine numbers whose logarithms are equal to the following values:
+            </p>
+            <p>
+                <ol marker="i)">
+                    <li>
+                        <p>
+                            <m>5</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>-3</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>8</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                To find the numbers whose logarithms are equal to the given values, we can use the definition of logarithms:
+            </p>
+            <p>
+                If <m>y = \log_{10}(x)</m>, then <m>x = 10^y</m>.
+            </p>
+            <p>
+                i) For <m>5</m>, we have:
+            </p>
+            <p>
+                <m>x = 10^5 = 100000</m>.
+            </p>
+            <p>
+                Therefore, the number whose logarithm is <m>5</m> is <m>100000</m>.
+            </p>
+            <p>
+                ii) For <m>-3</m>, we have:
+            </p>
+            <p>
+                <m>x = 10^{-3} = \frac{1}{1000} = 0.001</m>.
+            </p>
+            <p>
+                Hence, the number whose logarithm is <m>-3</m> is <m>0.001</m>.
+            </p>
+            <p>
+                iii) For <m>8</m>, we have:
+            </p>
+            <p>
+                <m>x = 10^8 = 100000000</m>.
+            </p>
+            <p>
+                The number is <m>100000000</m>.
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                Simplify the expression <m>10^3 \times 10^{-2}</m>.
+            </p>
+           
+        </statement>
+        <solution>
+             <p>
+                To simplify this expression, we can use the rule of indices that states <m>a^m \times a^n = a^{m+n}</m>.
+            </p>
+            <p>
+                By the rules of indices, we can combine the powers of <m>10</m>:
+            </p>
+            <p>
+                <m>10^3 \times 10^{-2} = 10^{3-2} = 10^1</m>.
+            </p>
+
+            <p>
+                Therefore, <m>10^3 \times 10^{-2} = 10^1 = 10</m>.
+            </p>
+            <p>
+                This means that the expression simplifies to <m>10</m>.
+            </p>
+        </solution>
+    </example>
 
     
 </subsection>
