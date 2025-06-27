@@ -38,7 +38,7 @@ The CBE Grade 9 Mathematics curriculum covers the following topics:
 
 ## Contributing
 
-1. 
+1. RODGERS 
 2. 
 3. 
 4. 
