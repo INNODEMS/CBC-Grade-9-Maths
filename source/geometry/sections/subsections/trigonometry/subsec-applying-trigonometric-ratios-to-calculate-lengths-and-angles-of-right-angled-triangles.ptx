@@ -1,0 +1,117 @@
+<subsection xml:id="subsec-applying-trigonometric-ratios-to-calculate-lengths-and-angles-of-right-angled-triangles">
+    <title>Applying Trigonometric Ratios To Calculate Lengths and Angles of Right Angled- Triangles</title>
+    <activity>
+        <statement>
+            <p>
+                <m>\textbf{Work in pairs}</m>
+            </p>
+
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Use cosines to find the size of angle <m>\alpha</m> in the right-angled triangle below.
+                        </p>
+
+                        <image width="70%">
+                            <shortdescription></shortdescription>
+                            <latex-image>
+                                \begin{tikzpicture}
+                                    % Draw the right-angled triangle
+                                    \draw [very thick,fill=white] (0,0) -- (4,0) -- (4,3) -- cycle;
+
+                                    % Label the sides
+                                    \node [black]at (2,-0.3) {4 cm}; % Adjacent side
+                                    \node [black]at (4.5,1.5) {\textbf{3 cm}}; % Opposite side
+                                    \node at (2,2) {5 cm}; % Hypotenuse
+
+                                    % Label the right angle
+                                    \draw [very thick] (4,0) -- (3.7,0) -- (3.7,0.3) -- (4,0.3) -- cycle;
+                                    
+
+                                    % Mark the angle theta at the hypotenuse-adjacent junction
+                                    \draw (0.5,0) arc[start angle=0,end angle=36.87,radius=0.5cm];
+                                    \node at (0.8,0.3) {\(\alpha\)}; % Place theta at correct position
+                                \end{tikzpicture}
+                            </latex-image>
+                            
+                        </image>
+                    </li>
+
+                    <li>
+                        <p>
+                            Follow the steps below;
+                        </p>
+
+                        <p>
+                            (i) Identify the side that is adjacent to angle <m>\alpha</m> .
+                        </p>
+
+                        <p>
+                            (ii) Identify the hypotenuse of the triangle.
+                        </p>
+
+                        <p>
+                            Determine the cosine ratio of angle <m>\alpha</m> using the formula:
+                            <m>\cos \alpha = \frac{\textbf{adjacent}}{\textbf{hypotenuse}}</m>
+                        </p>
+
+                        <p>
+                            (iii) Use table of cosines or a calculator to find the value of angle <m>\alpha</m> using the cosine ratio you calculated.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Share your findings with other groups.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </activity>
+
+    <example>
+        <statement>
+            <p>
+                Determine the length of the side marked <m>y</m> in the right-angled triangle below to the nearest <m>4</m> significant figures.
+            </p>
+
+            <image width="70%">
+                <shortdescription></shortdescription>
+                <latex-image>
+                    \begin{tikzpicture}
+                        % Draw the right-angled triangle
+                        \draw [very thick,fill=white] (0,0) -- (4,0) -- (4,3) -- cycle;
+
+                        % Label the sides
+                        <!-- \node [black]at (2,-0.3) {8 cm}; % Adjacent side -->
+                        \node [black]at (4.5,1.5) {\textbf{y}}; % Opposite side
+                        \node at (2,2) {10 cm}; % Hypotenuse
+
+                        % Label the right angle
+                        \draw [very thick] (4,0) -- (3.7,0) -- (3.7,0.3) -- (4,0.3) -- cycle;
+                        
+
+                        % Mark the angle theta at the hypotenuse-adjacent junction
+                        \draw (0.5,0) arc[start angle=0,end angle=36.87,radius=0.5cm];
+                        \node at (0.8,0.3) {\(69^\circ\)}; % Place theta at correct position
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
+        </statement>
+
+        <solution>
+            <p>
+                <md>
+                    <mrow>\sin \theta= \amp \frac{\textbf{Opposite}}{\textbf{Hypothenuse}}</mrow>
+                    <mrow>\amp\sin 69^\circ  = \frac{y}{10}</mrow>
+                    <mrow>y= \amp 10 \sin 69^\circ </mrow>
+                    <mrow>y= \amp  0.93358043</mrow>
+                    <mrow>y= \amp  9.335 \text{ cm}</mrow>
+                </md>
+            </p>
+        </solution>
+    </example>
+    
+</subsection>
