@@ -20,7 +20,7 @@
                     <p>
                         Make a frequency distribution table for the data above, using class intervals of <m>8</m> units.
                     </p>
-                    <tabular>
+                    <tabular top="medium" left="medium" right="medium" bottom="medium">
                         <row>
                             <cell>Marks</cell>
                             <cell>Tally</cell>
@@ -28,8 +28,8 @@
                         </row>
                         <row>
                             <cell>150-157</cell>
-                            <cell></cell>
-                            <cell></cell>
+                            <cell><m>\cancel{|||||} ||</m></cell>
+                            <cell halign="center">7</cell>
                         </row>
                         <row>
                             <cell>158-165</cell>
