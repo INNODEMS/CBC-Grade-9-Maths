@@ -166,30 +166,32 @@
                         <p>
                             The range of the data is the difference between the longest and shortest battery life:
                             <me>
-                                \text{Range} = 20 - 9 = 11 \text{ hours}
+                                \text{Range} = 20 - 9
                             </me>
+                        </p>
+                        <p>
+                            <me>
+                                = 11 \text{ hours}
+                            </me>                            
                         </p>
                     </li>
                     <li>
                         <p>
                             <me>
-                                \text{Class width}
-                            </me>                            
-                        </p>
-                        <p>
-                            <me>
-                                 = \frac{\text{Range}}{\text{Number of classes expected}}
+                               \text{Class width}  = \frac{\text{Range}}{\text{Number of classes expected}}
                             </me>                            
                         </p>
                         <p>
                             <me>
                                 = \frac{11}{6} 
                             </me>
+                        </p>
+                        <p>                            
                             <me>
                                 \approx 1.83
                             </me>
                             rounding to nearest whole number gives us a class width of <m>2</m> hours.
-                        </p>                        
+                        </p>                     
                     </li>
                     <li>
                         <p>
@@ -213,6 +215,8 @@
     </example>
 
     <example>
+        <title>Organising Heights of Students</title>        
+        
         <statement>
             <p>
                 The heights of 60 students in a class were measured in centimetres and recorded as follows:
