@@ -38,8 +38,8 @@ The CBE Grade 9 Mathematics curriculum covers the following topics:
 
 ## Contributing
 
-1. 
-2. 
+1. Daniel Murunga
+2. Henry Onyango
 3. 
 4. 
 5. 
