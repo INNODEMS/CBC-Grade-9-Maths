@@ -1,11 +1,64 @@
 <section xml:id="sec-area" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Area</title>
-
     <introduction>
         <p>
+            In our day-to-day life, we often encounter shapes and objects whether it’s
+            the surface of a table, the wall of a house, the face of a pyramid, or even a football. 
+            Understanding how to calculate areas and surface areas helps us solve real-life problems, 
+            such as finding how much paint is needed, how much material is required to build something, 
+            or how much space an object occupies.
+            This topic will help you explore how to calculate area and surface area of various 2D and 3D 
+            shapes in real and practical situations.
+        </p>
+        <p>
+            <m>\textbf{Learning Expectations}</m>
+        </p>
+        <p>
+            By the end of this section, you should be able to:
+        </p>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Calculate the area of pentagons and hexagons in various situations.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Find the surface area of triangular-based and rectangular-based prisms.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Work out the surface area of pyramids with triangular, rectangular, and square bases.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Calculate the area of a sector and segment of a circle.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Find the surface area of a cone and relate it to real-life situations.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Calculate the surface area of a sphere in practical contexts.
+                    </p>
+                </li>
             
+            </ul>
+        </p>
+        <p>
+            You will also build skills in problem-solving, logical reasoning, 
+            and using mathematics in real life. Let's begin exploring the world of 
+            shapes and spaces!
         </p>
     </introduction>
+   
+    
     <xi:include href="subsections/area/area-of-regular-and-irregular-polygons.ptx"/>
 
     <xi:include href="subsections/area/surface-area-of-prism.ptx"/>
@@ -18,7 +71,7 @@
 
     <xi:include href="subsections/area/surface-area-of-a-sphere.ptx"/>
 
-    <xi:include href="subsections/area/appication-of-area-in-real-life.ptx"/>
+    
     
 
 

@@ -1,0 +1,168 @@
+<subsection xml:id="subsec-working-out-compound-proportions-using-the-ratio-method" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Working out compound proportions using the ratio method</title>
+    <p>
+        Two quantities in compound proportion increases or decreases in the same ratio.
+    </p>
+    <p>
+        To work out compound proportions using the ratio method, you can follow these steps:
+    </p>
+    <p>
+        1. Identify the two ratios you want to compare or relate.
+    </p>
+    <p>
+        2. Set up a proportion by equating the two ratios.
+    </p>
+    <p>
+        3. Cross-multiply to eliminate the fractions.
+    </p>
+    <p>
+        4. Solve for the unknown variable, if applicable.
+    </p>
+    <p>
+        5. Check your solution by substituting back into the original ratios to ensure they are equal.
+    </p>
+    <p>
+        For example, if you have the ratios <m>3:4</m> and <m>6:8</m>, you can set up the proportion as follows:
+    </p>
+    <p>
+        <m>\frac{3}{4} = \frac{6}{8}</m>
+    </p>
+    <p>
+        Cross-multiplying gives you <m>3 \times 8 = 4 \times 6</m>, which simplifies to <m>24 = 24</m>. This confirms that the two ratios are equivalent.
+    </p>
+    <p>
+        
+    </p>
+    <activity>
+        <statement>
+            <p>
+                1. In groups of <m>5</m>, measure the length and width of the following trianngles, A and B, using a ruler.
+            </p>
+            <sidebyside>
+                <image width="50%">
+                <latex-image label="Triangle1">
+                    \begin{tikzpicture}
+                        
+                        \draw[very thick,blue] (0,0) -- (3,0) -- (3,2) -- cycle;
+                        
+                        \node [below,fill=green]at (1.5,-0.1) {Triangle A};
+
+
+                        \draw[very thick,blue] (6,0) -- (12,0) -- (12,4) -- cycle;
+                        
+                        \node [below,fill=green]at (9,-0.1) {Triangle B};
+
+                    \end{tikzpicture}
+                </latex-image>
+                    
+                </image>
+            </sidebyside>
+           
+            
+            <p>
+                2. Record the measurements of the lengths and widths of triangle A and triangle B.
+            </p>
+            <p>
+                3. Calculate the ratio of the lengths and widths of triangle A to triangle B.
+            </p>
+            <p>
+                Example: length ratio = <m>\frac{\text{Length of B}}{\text{Length of A}}</m>.
+            </p>
+            <p>
+                4. Compare the two ratios. What do you notice about the relationship between the two triangles?
+            </p>
+            <p>
+                5. Share your work with your fellow learners.
+            </p>
+            
+        </statement>
+    </activity>
+    <example>
+        <statement>
+            <p>
+                A class has <m>8</m> girls and <m>6</m> boys. More students are admitted to the class such that the ratio of girls to boys remain th same.
+            </p>
+            <p>
+                The new number of boys in the class is now <m>12</m>. Determine the new number of girls in the class using the ratio method.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                The initial ratio of girls to boys is <m>8:6</m>, which simplifies to <m>4:3</m>.
+            </p>
+            <p>
+                Let the number of girls after admission be <m>y</m>.
+            </p>
+            <p>
+                Therefore,  setting up the proportion we have:
+            </p>
+            <p>
+                <m>y: 12 = 4:3</m>
+            </p>
+            <p>
+               Hence,  <m>\frac{y}{12} = \frac{4}{3}</m>
+            </p>
+            <p>
+              Now, cross-multiplying to solve for <m>y</m>: 
+            </p>
+            <p>
+                 <m>3y = 4 \times 12</m>
+            </p>
+            <p>
+                <m>3y = 48</m>
+            </p>
+            <p>
+                <m>y = \frac{48}{3} = 16</m>
+            </p>
+            <p>
+                 So, the new number of girls in the class is <m>16</m>.
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+               Kipngetich measured the heights of a mango tree and a person standing under the tree in a photo.
+                Their heights in the photo were <m>10 </m>cm and <m>5</m> cm respectively. 
+               He observed that the ratio of their actual heights is the same as that in the photo.
+                Determine the actual height of the mango tree if the actual height of the person is <m>2.5</m> meters. 
+            </p>
+        </statement>
+        <solution>
+            <p>
+                The ratio of the heights in the photo is <m>10:5</m>, which simplifies to <m>2:1</m>.
+            </p>
+            <p>
+                Let the actual height of the mango tree be <m>h</m> meters.
+            </p>
+            <p>
+                Given:
+            </p>
+            <p>
+                The actual height of the person is <m>2.5</m> meters.
+            </p>
+            <p>
+                So, the actual height ratio is: <m>h:2.5 = 2:1</m>
+            </p>
+            <p>
+                Setting up the proportion, we have:
+            </p>
+            <p>
+                <m>\frac{h}{2.5} = \frac{2}{1}</m>
+            </p>
+            <p>
+                Cross-multiplying gives us:
+            </p>
+            <p>
+                <m>h = 2 \times 2.5</m>
+            </p>
+            <p>
+                <m>h = 5</m> meters.
+            </p>
+            <p>
+                
+            </p>
+                
+        </solution>
+    </example>
+</subsection>

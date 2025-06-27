@@ -2,13 +2,13 @@
     <title>Algebra</title>
     <introduction>
         <p>
-            lll
+            
         </p>
     </introduction>
 
   <xi:include href="sections/sec-Matrices.ptx"/>
 
-  <xi:include href="sections/sec-Equations-of-a-Straight-Line.ptx" />
+  <xi:include href="sections/sec-equations-of-a-straight-line.ptx" />
 
-  <xi:include href="sections/sec-Linear-Inequalities.ptx" />
+  <xi:include href="sections/sec-linear-inequalities.ptx" />
 </chapter>
