@@ -1,0 +1,334 @@
+<subsection xml:id="subsec-surface-area-of-a-sphere">
+    <title>Surface area of a sphere</title>
+    <definition xml:id="def-sphere">
+        <statement>
+            <p>
+                A <m> \textbf{sphere}</m> is a solid that is entirely round
+                with every point on the surface at anequal distance from the centre.
+            </p>
+            <p>
+                It's defined as the set of all points in space that are equidistant from a central point.
+            </p>
+            <p>
+                The distance from the center to any point on the surface is called the <m>\textbf{radius}</m>.
+            </p>
+        </statement>
+    </definition>
+    <activity>
+        <p>
+            <m>\textbf{Work in groups}</m>
+        </p>
+        <sidebyside>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Look at the sphere on your right hand side.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Measure the distance from the center of the sphere to its surface. What do you call this distance?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Calculate the area of the figure shown.
+                        </p>
+                        <p>
+                            <m>\textbf{Hint}</m>. Use <m>4 \pi r^2</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Discuss with your group how you might find the total surface area of the sphere.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            <image width="50%">
+            <latex-image label="Shepher">
+                \begin{tikzpicture}[scale=1.5,blue]
+                    % Sphere outline
+                    \shade[very thick,ball color=blue!20, opacity=0.6] (0,0) circle (3cm);
+                    \draw[very thick] (0,0) circle (3cm); % main circle
+
+                    % Equator
+                    \draw[very thick,dashed] (-3,0) arc (180:360:3 and 0.8);
+
+                    % Back half of equator
+                    \draw[very thick,dashed, opacity=0.3] (3,0) arc (0:180:3 and 0.8);
+
+                    % Radius line
+                    \draw[red, very thick, -&gt;] (0,0) -- (3,0) ;
+
+                    % Center dot
+                    \fill (0,0) circle (2pt);
+                \end{tikzpicture}
+            </latex-image>
+                
+            </image>
+        </sidebyside>
+        
+    </activity>
+    <p>
+        <m>\textbf{Extended Activity}</m>
+    </p>
+    <activity>
+        <p>
+            Play along with the interactive tool below to explore more about area of a <m>\textbf{Sphere}</m>
+        </p>
+        <figure >
+            <caption>Area of a segment</caption>
+            <interactive xml:id="geogebra-area-of-a-sphere" platform="geogebra" width="100%">
+            <slate xml:id="Area-of-a-sphere" surface="geogebra" material="usajcpth" aspect="12:14" >
+                enableShiftDragZoom(true);
+                showResetIcon(true);
+            </slate>
+            </interactive>
+         </figure>
+    </activity>
+    <p>
+        <m>\textbf{Key Takeaway}</m>
+    </p>
+    <p>
+        Given the Shere of radius <m>\textbf{r}</m> as shown below.
+    </p>
+    <image width="50%">
+    <latex-image label="Sphere1">
+        \begin{tikzpicture}
+            % Draw the main circle
+            \draw [very thick,fill=green](0,0) circle (2);
+            
+            % Draw the dashed ellipse inside the circle
+            \draw[very thick,dashed] (-2,0) arc (180:360:2 and 0.5);
+            \draw[very thick,dashed] (2,0) arc (0:180:2 and 0.5);
+            
+            
+            % Draw and label the center point
+            \fill (0,0) circle (0.05);
+            \node[above right] at (0.5,0) {\huge{r}};
+            
+            % Draw the radius line
+            \draw[very thick,dashed] (0,0) -- (2,0);
+        \end{tikzpicture}
+    </latex-image>
+        
+    </image>
+    <p>
+        The surface area of a sphere is <m>{\color{blue} 4 \pi r^2}</m>
+    </p>
+    <example>
+        <statement>
+            <p>
+                Find the surface area of a sphere whose
+                diameter is <m>21 \, \text{cm}</m>.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                The diameter of the sphere is <m>21 \, \text{cm}</m>, so the radius <m>r = \frac{21}{2} = 10.5</m> cm.
+
+                
+                
+
+                
+            </p>
+            <p>
+                The formula for the surface area of a sphere is:
+            </p>
+            <p>
+                <m>\text{SA}= 4 \pi \text{r}^2</m>
+            </p>
+            <p>
+                <md>
+                    
+                    <mrow>\text{SA}= \amp 4 \times \frac{22}{7} \times 10.5^2 </mrow>
+                    <mrow>= \amp 4 \times \frac{22}{7} \times 110.25 </mrow>
+                   
+                    <mrow>= \amp 4 \times 346.5 </mrow>
+                    <mrow>= \amp 1386 \text{ cm}^2 </mrow>
+                </md>
+            </p>
+            <p>
+                Therefore, the surface area of the sphere is <m>{\color{blue}1386 \text{ cm}^2}</m>.
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                Find the area of the figure below. Use <m>\pi =3.142</m>
+            </p>
+            <image width="50%">
+            <latex-image label="sphere-3">
+                \begin{tikzpicture}[scale=0.4]
+                    
+                    % Outer circle representing the sphere
+                    \draw[very thick] (0,0) circle(10);
+
+                    % Equator (ellipse to show 3D)
+                    \draw[very thick,dashed] (-10,0) arc (180:360:10 and 2.5); % front half
+                    \draw[very thick,dashed, opacity=0.3] (10,0) arc (0:180:10 and 2.5); % back half (hidden)
+
+                    % Radius lin8
+                    \draw[red, thick] (0,0) -- (0,-10);
+                    \node[red] at (3.5,-4.5) {\huge{21 m}};
+
+                    % Center dot
+                    \fill[very thick] (0,0) circle (6pt);
+                \end{tikzpicture}
+            </latex-image>
+            </image>
+        </statement>
+        <solution>
+            <p>
+                The radius of the sphere is <m>21\, \text{m}</m>.
+
+                
+
+                
+              
+
+                
+            </p>
+            <p>
+                The formula for the surface area of a sphere is:
+                <m>\text{SA} = 4 \pi r^2</m>
+            </p>
+            <p>
+                Substituting the values:
+            </p>
+            <p>
+                  <md>
+                    <mrow>\text{SA} = \amp 4 \times 3.142 \times 21^2</mrow>
+                    <mrow>= \amp 4 \times 3.142 \times 441</mrow>
+                    <mrow>= \amp 4 \times 1385.622</mrow>
+                    <mrow>= \amp 5542.488 \text{ m}^2</mrow>
+                </md>
+            </p>
+            <p>
+                Therefore, the surface area of the sphere is <m>{\color{blue}5542.49 \text{ m}^2}</m>.
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                The balls used in a golf tournament have diameter of <m>4.2 \text{cm}</m> 
+                and <m>4.4 \,\text{cm}</m>. What is the difference in the surface area between the largest 
+                and smallest golf ball?
+            </p>
+        </statement>
+        <solution>
+            <p>
+                The diameter of the smallest ball is <m>4.2\,\text{cm}</m>, so its radius is <m>r_1 = \frac{4.2}{2} = 2.1\,\text{cm}</m>.
+            </p>
+            <p>
+                The diameter of the largest ball is <m>4.4\,\text{cm}</m>, so its radius is <m>r_2 = \frac{4.4}{2} = 2.2\,\text{cm}</m>.
+            </p>
+            <p>
+                The formula for the surface area of a sphere is:
+                <me>\text{SA} = 4\pi r^2</me>
+            </p>
+            <p>
+                For the smallest ball:
+                <md>
+                    <mrow>\text{SA}_1 = \amp 4 \times \pi \times (2.1)^2</mrow>
+                    <mrow>= \amp 4 \times \pi \times 4.41</mrow>
+                    <mrow>= \amp 17.64\pi</mrow>
+                </md>
+            </p>
+            <p>
+                For the largest ball:
+                <md>
+                    <mrow>\text{SA}_2 = \amp 4 \times \pi \times (2.2)^2</mrow>
+                    <mrow>= \amp 4 \times \pi \times 4.84</mrow>
+                    <mrow>= \amp 19.36\pi</mrow>
+                </md>
+            </p>
+            <p>
+                The difference in surface area is:
+                <md>
+                    <mrow>\text{Difference} = \amp 19.36\pi - 17.64\pi</mrow>
+                    <mrow>= \amp 1.72\pi</mrow>
+                </md>
+
+                If <m>\pi = 3.142</m>:
+                <md>
+                    <mrow>\text{Difference} = \amp 1.72 \times 3.142</mrow>
+                    <mrow>= \amp 5.40224\,\text{cm}^2</mrow>
+                </md>
+            </p>
+            <p>
+                Therefore, the difference in surface area between the largest and smallest golf ball is <m>{\color{blue}5.40\,\text{cm}^2}</m> .
+            </p>
+        </solution>
+    </example>
+
+    <technology>
+        <p>
+            <m>\textbf{Technology Integration: Exploring Area and Surface Area}</m>
+        </p>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        <m>\textbf{GeoGebra Interactive Geometry and 3D Tool}</m>
+                    </p>
+                    <p>
+                        Explore and manipulate 2D and 3D shapes such as pentagons, prisms, pyramids, 
+                        spheres, and cones. Students can dynamically change dimensions and instantly see 
+                        how area or surface area is affected.
+                    </p>
+                    <p>
+                        <url href="https://www.geogebra.org/geometry" />
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        <m> \textbf{BBC Bitesize Geometry and Measurement}</m>
+                    </p>
+                    <p>
+                        This site offers short interactive lessons and videos on calculating
+                        areas and surface areas. Topics include sectors, pyramids, prisms, cones, and more, 
+                        with quizzes to test your understanding.
+                    </p>
+                    <p>
+                        <url href="https://www.bbc.co.uk/bitesize/topics/zb6tyrd" />
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        <m>\textbf{Desmos Geometry Tool}</m>
+                    </p>
+                    <p>
+                        Use Desmos to construct, measure, and analyze 2D shapes such as polygons
+                         and circles. Great for visualizing formulas and verifying your surface area and area calculations.
+                    </p>
+                    <p>
+                        <url href="https://www.desmos.com/geometry" />
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        <m> \textbf{YouTube Shifting Grades and Anil Kumar Math}</m>
+                    </p>
+                    <p>
+                        These channels provide clear and detailed explanations of how to find 
+                        area and surface area of different shapes using step-by-step examples and real-life applications.
+                    </p>
+                    <p>
+                        <url href="https://youtu.be/JUgRPUSxoEc" />
+                        
+                    </p>
+                </li>
+            </ol>
+        </p>
+       
+    </technology>
+    
+</subsection>

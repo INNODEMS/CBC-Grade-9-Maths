@@ -1,7 +1,30 @@
 <section xml:id="sec-indices-and-logarithms" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Indices and Logarithms</title>
-    <p>
-        
-    </p>
+    <introduction>
+       
+   
+        <p>
+            Indices and logarithms are mathematical concepts that deal with powers and roots of numbers. They are used to simplify calculations involving large numbers and to express relationships between quantities in a more manageable form.
+        </p>
+        <p>
+            Indices, also known as exponents, represent the number of times a base is multiplied by itself.
+            For example, in the expression <m>a^n</m>, <m>a</m> is the base and <m>n</m> is the exponent or index.
+            This means that <m>a</m> is multiplied by itself <m>n</m> times.
+        </p>
+        <p>
+            Logarithms, on the other hand, are the inverse operation of exponentiation. 
+            The logarithm of a number is the exponent to which a base must be raised to produce that number.
+            For example, if <m>b^x = y</m>, then <m>x = \log_b(y)</m>, where <m>b</m> is the base and <m>y</m> is the number.
+        </p>
+    </introduction>
+    <xi:include href="subsections/indices-and-logarithms/expressing-numbers-in-index-form.ptx" />
+    <xi:include href="subsections/indices-and-logarithms/laws-of-indices.ptx" />
+    <xi:include href="subsections/indices-and-logarithms/zero-indices.ptx" />
+    <xi:include href="subsections/indices-and-logarithms/negative-indices.ptx" />
+    <xi:include href="subsections/indices-and-logarithms/fractional-indices.ptx" />
+    <xi:include href="subsections/indices-and-logarithms/application-of-the-laws-of-indices.ptx" />
+    <xi:include href="subsections/indices-and-logarithms/powers-of-10-and-common-logarithms.ptx" />
+    <xi:include href="subsections/indices-and-logarithms/using-IT-to-learn-more-on-indices-and-logarithms.ptx" />
+
     
 </section>

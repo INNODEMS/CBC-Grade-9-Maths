@@ -1,0 +1,180 @@
+<subsection xml:id="subsec-determining-trigonometric-ratios-of-acute-angles-using-calculators">
+    <title>Determining Trigonometric Ratios of Acute Angles Using Calculators</title>
+    <activity>
+        <statement>
+            <p>
+                <m>\textbf{Work in pairs}</m>
+            </p>
+
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Use a scientific calculator to find the values of the following trigonometric ratios for the given angles. 
+                            Ensure your calculator is set to degrees mode.
+                        </p>
+
+                        <tabular top="medium" bottom="medium" left="medium" right="medium">
+                            <row header="yes">
+                                <cell>Angle<m> \theta</m></cell>
+                                <cell><m>\sin \theta</m></cell>
+                                <cell><m>\cos \theta</m></cell>
+                                <cell><m>\tan \theta</m></cell>
+                            </row>
+                            <row>
+                                <cell><m>15^\circ</m></cell>
+                                <cell></cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+
+                            <row>
+                                <cell><m>30^\circ</m></cell>
+                                <cell></cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+
+                            <row>
+                                <cell><m>45^\circ</m></cell>
+                                <cell></cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell><m>60^\circ</m></cell>
+                                <cell></cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+
+                            <row>
+                                <cell><m>75^\circ</m></cell>
+                                <cell></cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+
+                            <row>
+                                <cell><m>90^\circ</m></cell>
+                                <cell></cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                        </tabular>
+                    </li>
+
+                    <li>
+                        <p>
+                            Follow the steps below to determine the value of <m>\sin 30^\circ</m>.
+                        </p>
+
+                        <p>
+                            (i) Press the <m>\sin</m> button on your calculator.
+                        </p>
+
+                        <p>
+                            (ii) Enter the angle <m>30</m> using the number keys.
+                        </p>
+
+                        <p>
+                            (iii) Press the <m>(=)</m> button to calculate the value.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Follow the same steps to find all other trigonometric ratios in the table.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Share your results with the class and compare the values you obtained.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </activity>
+
+    <example>
+        <statement>
+            <p>
+                Calculate the value of each of the following using your calculator, giving your answers correct to 4 significant figures:
+            </p>
+
+            <sidebyside>
+                <p>
+                  (a)  <m>\sin 25^\circ</m>
+                </p>
+
+                <p>
+                    (b)  <m>\tan 50^\circ </m>
+                </p>
+
+                <p>
+                     (c)  <m>\cos 70^\circ</m>
+                </p>
+            </sidebyside>
+        </statement>
+
+        <solution>
+            <p>
+                (a)  <m>\sin 25^\circ </m>
+            </p>
+
+            <p>
+                press the <m>\sin</m> button, enter <m>25</m>, and then press <m>(=)</m>. The calculator displays: <m>0.42261826</m>
+            </p>
+                <p>
+                    Therefore, the value of <m>\sin 25^\circ</m> is <m>0.4226</m>.
+                </p>
+
+                <p>
+                    (b)  <m>\tan 50^\circ</m>
+                </p>
+
+                <p>
+                    press the <m>\tan</m> button, enter <m>50</m>, and then press <m>(=)</m>. The calculator displays: <m> 1.19175359</m>
+                </p>
+                <p>
+                    Therefore, the value of <m>\tan 50^\circ</m> is <m>1.1918</m>.
+                </p>
+
+                <p>
+                    (c)  <m>\cos 70^\circ</m>
+                </p>
+
+                <p>
+                    press the <m>\cos</m> button, enter <m>70</m>, and then press <m>(=)</m>. The calculator displays: <m>0.34202014</m>
+                </p>
+                <p>
+                    Therefore, the value of <m>\cos 70^\circ</m> is <m>0.3420</m>.
+                </p>
+        </solution>
+    </example>
+
+    <example>
+        <statement>
+            <p>
+                Use a calculator to find the angle whose sine is <m>0.8660</m>
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+               (i) press the shift key followed by the sin key to get sin⁻¹.
+            </p>
+            
+            <p>
+                (ii) enter <m>0.8660</m> and press the <m>(=)</m> button. The calculator displays: <m>60</m>
+            </p>    
+
+            <p>
+                Therefore, the angle whose sine is <m>0.8660</m> is <m>60^\circ</m>.
+            </p>
+        </solution>
+    </example>
+    
+</subsection>

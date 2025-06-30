@@ -1,0 +1,12 @@
+<section xml:id="sec-similarity-and-enlargement" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>similarity-and-enlargement</title>
+    <p>
+        
+    </p>
+    <xi:include href="subsections/similarity-and-enlargement/subsec-identifying-similar-figures-and-their-properties.ptx" />
+    <xi:include href="subsections/similarity-and-enlargement/subsec-drawing-similar-figures-in-different-situations.ptx" />
+    <xi:include href="subsections/similarity-and-enlargement/subsec-determining-properties-of-enlargement-of-different-figures.ptx" />
+    <xi:include href="subsections/similarity-and-enlargement/subsec-applying-properties-of-enlargement-to-draw-similar-objects-and-their-images.ptx" />
+    <xi:include href="subsections/similarity-and-enlargement/subsec-determining-the-linear-scale-factor-of-similar-figures.ptx" />
+    
+</section>

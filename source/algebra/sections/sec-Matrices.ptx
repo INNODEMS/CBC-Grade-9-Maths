@@ -1,0 +1,23 @@
+<section xml:id="sec-Matrices" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Matrices</title>
+
+    <introduction>
+        <p>
+            
+        </p>
+    </introduction>
+    
+    <xi:include href="subsections/Matrices/identifying-a-matrix-indifferent-situations.ptx"/>
+
+    <xi:include href="subsections/Matrices/determining-the-order-of-a-matrix-in-different-situations.ptx"/>
+
+    <xi:include href="subsections/Matrices/determining-the-position-of-items-in-a-matrix-in-different-situations.ptx"/>
+
+    <xi:include href="subsections/Matrices/determining-compatibility-of-matrices-in-addition-and-subtraction.ptx"/>
+
+    <xi:include href="subsections/Matrices/carry-out-addition-and-subtraction-of-matrices-in-real-life-situations.ptx"/>
+
+    <xi:include href="subsections/Matrices/Reflecting-on-the-use-of-matrices-in-real-life-situations.ptx"/>
+
+
+</section>

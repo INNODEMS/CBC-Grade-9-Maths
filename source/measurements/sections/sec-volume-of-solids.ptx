@@ -1,4 +1,20 @@
 <section xml:id="sec-volume-of-solids" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Volume of Solids</title>
-    <xi:include href="subsections/volume-of-solids/test6.ptx" />
+    <introduction>
+        <p>
+            
+        </p>
+    </introduction>
+
+    <xi:include href="subsections/volume-of-solids/volume-of-prisms.ptx"/>
+
+    <xi:include href="subsections/volume-of-solids/volume-of-pyramids.ptx"/>
+
+    <xi:include href="subsections/volume-of-solids/volume-of-a-cone.ptx"/>
+
+    <xi:include href="subsections/volume-of-solids/volume-of-a-frustum.ptx"/>
+
+    <xi:include href="subsections/volume-of-solids/volume-of-a-sphere.ptx"/>
+
+    <xi:include href="subsections/volume-of-solids/application-of-volume-and-capacity.ptx"/>
 </section>

@@ -1,0 +1,249 @@
+<subsection xml:id="subsec-determine-errors-using-estimations-and-actual-meaasurements-of-quantites">
+    <title>Determine errors using estimations and actual meaasurements of quantites</title>
+    <p>
+        
+    </p>
+    <activity>
+        <statement>
+            <p>
+                Choose an object (e.g., a pencil, an apple, a cup).
+            </p>
+            <p>
+                Estimate its length, weight, or volume without measuring it using easuring tools.
+            </p>
+            <p>
+                Now, measure the actual length, weight or volume using a ruler, scale, or measuring cup.
+            </p>
+            <p>
+                Record both the estimated and measured values.
+            </p>
+            <p>
+                Calculate the absolute error by subtracting the estimated value from the actual value.
+            </p>
+             <p>
+            Activity Table Template
+        </p>
+        <table>
+            <title> Activity Table Template:</title>
+            <tabular halign="center" top="medium" bottom="medium" right="medium" left="medium">
+                <row header="yes">
+                    <cell>Item</cell>
+                    <cell>Quantity Type</cell>
+                    <cell>Estimated Value</cell>
+                    <cell>Measured Value</cell>
+                    <cell>Absolute Error</cell>
+                </row>
+                <row>
+                    <cell>Pencil</cell>
+                    <cell>length (cm)</cell>
+                    <cell>Cup of water</cell>
+
+
+                </row>
+                <row>
+                    <cell>Apple</cell>
+                    <cell>10 cm</cell>
+                    <cell>Volume (ml)</cell>
+
+                </row>
+                <row>
+                    <cell>Cup of water</cell>
+                    <cell>12 cm </cell>
+                    <cell>250 ml</cell>
+                </row>
+                <row>
+                    <cell>12 cm</cell>
+                    <cell>2 cm </cell>
+                    <cell>300 ml</cell>
+                </row>
+                <row>
+                    <cell>2 cm</cell>
+                    <cell>0.05 kg</cell>
+                    <cell>50 ml</cell>
+                </row>
+
+            </tabular>
+        </table>
+       <p>
+        Discuss the results with your classmates. How close were your estimates to the actual measurements? What factors might have influenced your estimations?
+    </p>
+     <p>
+        <ul>
+            <li>
+                <p>
+                    Rank the items from least to greatest relative error.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Predict next time using learned error patterns.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Discuss how professionals (engineers, chefs, scientists) rely on accurate measurements in their work.
+                </p>
+            </li>
+        </ul>
+     </p>
+     <p>
+        <m>\textbf{Extended Activit}y</m>
+     </p>
+            <p>
+                Now, repeat the activity with a different object or quantity.
+            </p>
+            <p>
+                This time, try to improve your estimation skills based on what you learned from the first activity.
+            </p>
+            <p>
+                Record your new estimates and actual measurements in the same table format.
+            </p>
+            <p>
+                a) Was your estimate higher or lower than the actual value?
+            </p>
+            <p>
+                b) Which type of quantity (length, weight, or volume) was easier to estimate? Why?
+
+            </p>
+            <p>
+                c) Why is it important to understand error in real-life situations (e.g., cooking, building, shopping)?
+            </p>
+            <p>
+                d)  What can we do to improve our estimation skills?
+            </p>
+
+        </statement>
+        </activity>
+        <p>
+        <m >\textbf{Key Takeaway}</m>    
+         </p>
+        <p>
+           1. Approximation helps when exact values aren't necessary.
+        </p>
+        <p>
+`           2.All measurements have some error.
+        </p>
+        <p>
+            3. Estimating quantities is a useful skill in everyday life.
+        </p>
+        <p>
+            4. Knowing the actual measurement allows you to see how close your estimate was.
+        </p>
+        <p>
+            5. The absolute error is the difference between the estimated and actual values.
+        </p>
+        <p>
+            6. Knowing the error helps you see how accurate or inaccurate your result is.
+        </p>
+        <exercise label="demo-unit">
+      <title>True/False</title>
+      <idx>Temperature</idx>
+      <statement correct="no">
+        <p>
+          If the statement correct choose true and if its wrong choose false. 
+          <m>{\color{blue}\text{Relative error is always smaller than absolute error. }}</m>
+        </p>
+         
+      </statement>
+      <feedback>
+        <p>
+          False! Relative error is a percentage, and it depends on the size of the actual value
+        </p>
+      </feedback>
+      <hint>
+        <p>
+            Relative error is calculated as the absolute error divided by the actual value, and it can be larger than the absolute error if the actual value is small.
+        </p>
+      </hint>
+    </exercise>
+    <exercise label="temp-test">
+      <!-- <title>True/False</title> -->
+      <idx>Temperature.</idx>
+      <statement correct="yes">
+        <p>
+          If the statement correct choose true and if its wrong choose false. 
+          <m>{\color{blue}\text{A good measurement has a very small error.}}</m>
+        </p>
+         
+      </statement>
+      <feedback>
+        <p>
+          True!
+        </p>
+      </feedback>
+      <hint>
+        <p>
+            A good measurement is one that is as close to the true value as possible, minimizing error.
+        </p>
+      </hint>
+    </exercise>
+    <activity label="temp-t">
+      <!-- <title>True/False</title> -->
+      <idx>Temperature.</idx>
+      <statement correct="no">
+        <p>
+          <ol>
+            <li>
+              <p>
+                If the statement correct choose true and if its wrong choose false. 
+                 <m>{\color{blue}\text{All measurements are always 100% accurate.}}</m>
+              </p>
+            </li>
+          </ol>
+        </p>       
+      </statement>
+      <feedback>
+        <p>
+          False!  All measurements are not always 100% accurate, there is always a margin of error.
+        </p>
+      </feedback>
+      <hint>
+        <p>
+            All measurements have some degree of error due to limitations in tools, human judgment, and environmental factors.
+        </p>
+      </hint>
+    </activity>    
+    <activity label="temp-te">
+      <!-- <title>True/False</title> -->
+      <idx>Temperature.</idx>
+      <statement correct="yes">
+        <p>
+          <ol>
+            <li>
+              <p>
+                If the statement correct choose true and if its wrong choose false. 
+                 <m>{\color{blue}\text{Approximation is helpful when you don’t need the exact value. }}</m>
+              </p>
+            </li>
+          </ol>
+        </p>       
+      </statement>
+      <feedback>
+        <p>
+          True!
+        </p>
+      </feedback>
+      <hint>
+        <p>
+            Approximation is useful in many situations where exact values are not necessary, such as estimating costs or distances.
+        </p>
+      </hint>
+    </activity>  
+        <example>
+            <statement>
+                <p>
+                    Without using a ruler, Jane estimates the length of her English textbook to be 30 cm. She then uses a ruler and finds the actual length is 28.5 cm. Calculate the Absolute Error.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    Absolute Error=∣Estimated−Measured∣
+
+                </p>
+                <p>
+                    <m> = 30 -28.5 = 1,5 \text{cm}</m>
+                </p>
+            </solution>
+        </example>
+
+</subsection>
