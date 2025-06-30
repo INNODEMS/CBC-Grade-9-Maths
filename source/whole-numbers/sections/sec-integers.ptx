@@ -2,15 +2,17 @@
     <title>Integers</title>
     <introduction>
         <p>
-            
+            An integer is defined as a whole number that does not 
+            a fraction or decimal part. Example of integers are
+             <m> 1\,,\,2\,,\,500 </m> e.t.c
         </p>
     </introduction>
-        
+    <xi:include href="subsections/integers/subsec-basic-operation-of-integers.ptx" />
+
+    <xi:include href="subsections/integers/subsec-combined-operation-of-integers.ptx" />
+
+    <xi:include href="subsections/integers/subsec-real-life-application-of-integers.ptx" />
+
     
-    <subsection xml:id="subsec-basic-operation-of-integers">
-        <title>Basic operation of integers </title>
-        <p>
-            
-        </p>
-    </subsection>
+
 </section>

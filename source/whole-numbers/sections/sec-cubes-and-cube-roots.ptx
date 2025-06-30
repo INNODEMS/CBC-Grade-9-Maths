@@ -1,7 +1,12 @@
-<section xml:id="sec-cubes-and-cube-roots" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title> Cubes and cube roots</title>
-    <p>
-        
-    </p>
+<section xml:id="sec-cubes-and-cuberoots" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Cubes and cuberoots</title>
+    <introduction>
+        <p>
+            A cube is a number means that a number is multiplied by itself three times.
+        </p>
+    </introduction>
+    <xi:include href="subsections/cubes-and-cube-roots/subsec-methods-for-working-out-cubes.ptx" />
+
     
+
 </section>
