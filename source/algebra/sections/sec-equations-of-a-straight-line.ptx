@@ -5,5 +5,8 @@
     </p>
 
         <xi:include href="subsections/equations-of-a-straight-line/identifying-the-gradient-in-real-life-situations.ptx" />
+        <xi:include href="subsections/equations-of-a-straight-line/gradient-from-two-points.ptx" />
+        <xi:include href="subsections/equations-of-a-straight-line/equation-from-two-points.ptx" />
+        <xi:include href="subsections/equations-of-a-straight-line/equation-from-gradient-and-point.ptx" />
 
 </section>

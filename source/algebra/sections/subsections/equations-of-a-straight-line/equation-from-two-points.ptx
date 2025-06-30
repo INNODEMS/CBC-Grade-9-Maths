@@ -1,0 +1,121 @@
+<subsection xml:id="subsec-equation-from-two-points" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Determining the Equation of a Line Given Two Points</title>
+    
+    <introduction>
+        <p>
+            Once you have learned how to calculate the gradient between two points, the next step is to use those two points to determine the unique equation of the line that connects them. 
+        </p>
+        <p>
+            In this section, we will introduce the idea that every straight line in the coordinate plane can be defined by its <m>\textbf{gradient}</m> and a point it passes through. This leads us to the <m>\textbf{point-slope form}</m> of a line, which can later be rearranged into the slope-intercept form: 
+        </p>
+        <p>
+            <m> y = mx + c </m>
+        </p>
+        <p>
+            where <m>m</m> is the gradient and <m>c</m> is the y-intercept.
+        </p>
+        <p>
+            Today, you will combine your earlier work with a new process: determining the line’s equation directly from two known points.
+        </p>
+    </introduction>
+    
+    <worksheet>
+        <activity>
+            <p><m>\textbf{Work in Groups}</m></p>
+            <p><term>Materials Required:</term></p>
+            <p>
+                <ul>
+                    <li>Graph paper or a squared notebook</li>
+                    <li>Ruler</li>
+                    <li>Pencil and eraser</li>
+                    <li>Calculator</li>
+                </ul>
+            </p>
+            <p>
+                <m>\textbf{Activity Instructions}</m>
+            </p>
+            <p>
+                <ol>
+                    <li>Plot two points on graph paper; for example, use the points <m>(2, 4)</m> and <m>(6, 12)</m>.</li>
+                    <li>Using the method from the previous section, calculate the gradient (m) between the two points.</li>
+                    <li>Select one of the points (either one) to substitute into the point-slope form: 
+                        <m> y - y_1 = m(x - x_1) </m>
+                    </li>
+                    <li>Rearrange the resulting equation into the slope-intercept form <m> y = mx + c </m>.</li>
+                    <li>Discuss your findings and how the line's characteristics (its slope and y-intercept) relate to the points you plotted.</li>
+                </ol>
+            </p>
+        </activity>
+    </worksheet>
+    
+    <subsubsection xml:id="subsubsec-equation-example">
+        <title>Example: Finding the Equation of a Line</title>
+        <example>
+            <p>
+                Let's determine the equation of a line that passes through the points <m>(2, 4)</m> and <m>(6, 12)</m>.
+            </p>
+            <p>
+                <em>Step 1: Calculate the Gradient</em>
+            </p>
+            <p>
+                Using the gradient formula:  
+                <m> m = \frac{12 - 4}{6 - 2} = \frac{8}{4} = 2 </m>
+            </p>
+            <p>
+                <em>Step 2: Apply the Point-Slope Form</em>
+            </p>
+            <p>
+                Choosing point <m>(2, 4)</m>, substitute into the point-slope form:  
+                <m> y - 4 = 2(x - 2) </m>
+            </p>
+            <p>
+                <em>Step 3: Convert to Slope-Intercept Form</em>
+            </p>
+            <p>
+                Expand and simplify:  
+                <m> y - 4 = 2x - 4 </m>  
+                Add <m>4</m> to both sides:  
+                <m> y = 2x </m>
+            </p>
+            <p>
+                This is the equation of the line in slope-intercept form.
+            </p>
+        </example>
+    </subsubsection>
+
+    <conclusion>
+        <p>
+            <m>\textbf{Key Takeaway:}</m>  
+            By determining the gradient between two points and substituting one of the points into the point-slope equation, we can derive the unique linear equation that passes through both points. This equation can then be rearranged into the form <m>y = mx + c</m>.
+        </p>
+    </conclusion>
+
+    <exercise>
+        <p>
+            Work individually or in pairs to solve the following problems:
+        </p>
+        <ol>
+            <li>
+                <p>
+                    Find the equation of the line that passes through the points <m>(3, 5)</m> and <m>(7, 13)</m>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    A line passes through <m>(-2, 4)</m> and <m>(2, -4)</m>. Determine its gradient and write its equation in the form <m>y = mx + c</m>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    If the line through <m>(1, 2)</m> and <m>(5, 10)</m> has a gradient of <m>2</m>, what is the y-intercept (<m>c</m>) of the line?
+                </p>
+            </li>
+            <li>
+                <p>
+                    Explain what the equation <m>y = 2x</m> tells you about the relationship between <m>x</m> and <m>y</m>.
+                </p>
+            </li>
+        </ol>
+    </exercise>
+
+</subsection>
