@@ -1,0 +1,85 @@
+<subsection xml:id="subsec-drawing-similar-figures-in-different-situations">
+    <title>Drawing Similar Figures in Different Situations</title>
+    <activity>
+        <statement>
+            <p>
+                <m>\textbf{Work in pairs}</m>
+            </p>
+
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            The figure below shows a right angled triangle <m>PQR</m>
+                        </p>
+
+                        <image width="50%">
+                            <shortdescription></shortdescription>
+                            <latex-image label="similar-1">
+                                \begin{tikzpicture}
+                                    % Coordinates of the triangle
+                                    \coordinate (Q) at (0,0);
+                                    \coordinate (R) at (4,0);
+                                    \coordinate (P) at (0,3);
+
+                                    % Draw the triangle in blue
+                                    \draw[thick, blue] (P) -- (Q) -- (R) -- cycle;
+
+                                    % Label the points
+                                    \node[above left] at (P) {P};
+                                    \node[below left] at (Q) {Q};
+                                    \node[below right] at (R) {R};
+
+                                    % Right angle marker at Q in blue
+                                    \draw[blue] (0.3,0) -- (0.3,0.3) -- (0,0.3);
+                                \end{tikzpicture}
+                            </latex-image>
+                            
+                        </image>
+                    </li>
+
+                    <li>
+                        <p>
+                            Draw another right angled triangle <m>XYZ</m> whose sides are two times the sides of <m>PQR</m> .
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                             Discuss the properties of the two triangles.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                             Share the results with other groups in the class.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+
+            <p>
+                <m>\textbf{Key Takeaway}</m>
+            </p>
+
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            In similar figures, the corresponding sides are in proportion, and the corresponding angles are equal.
+                            The ratio of corresponding sides can serve as a scale factor for creating similar figures.
+                        </p>
+                    </li>
+                </ul>
+            </p>
+        </statement>
+    </activity>
+
+    <example>
+        <statement>
+            <p>
+                
+            </p>
+        </statement>
+    </example>
+</subsection>

@@ -391,7 +391,7 @@
                 </p>
                 <image width="50%">
                 <latex-image label="fig-triangular-prism-net1">
-                    \begin{tikzpicture}[scale=0.8]
+                    \begin{tikzpicture}[scale=0.8,green!50!black]
                         % Define the back triangle ABC
                         \coordinate (A) at (0,0);
                         \coordinate (B) at (4,0);
@@ -403,10 +403,10 @@
                         \coordinate (F) at (3.5,1);
 
                         % Draw the back triangle
-                        \draw[very thick,fill=green] (A) -- (B) -- (C) -- cycle;
+                        \draw[very thick] (A) -- (B) -- (C) -- cycle;
 
                         % Draw the front triangle
-                        \draw[very thick,fill=green] (D) -- (E) -- (F) -- cycle;
+                        \draw[very thick] (D) -- (E) -- (F) -- cycle;
 
                         % Connect corresponding vertices
                         \draw[very thick] (A) -- (D);
@@ -435,7 +435,7 @@
                 </p>
                 <image width="70%">
                 <latex-image label="fig-triangular-prism-net-2">
-                    \begin{tikzpicture}[scale=0.8]
+                    \begin{tikzpicture}[scale=0.8,green!50!black]
                         
                         % Rectangles (Base, right, left)
                         \draw[very thick] (0,0) rectangle (6,2);    % Base DEAB
@@ -443,8 +443,8 @@
                         \draw[very thick] (-3,0) rectangle (0,2);   % Left rectangle CDFA
 
                         % Triangles
-                        \draw[very thick,fill=green] (0,2) -- (3,5) -- (6,2) -- cycle; % Top triangle ABC
-                        \draw[very thick,fill=green] (0,0) -- (3,-3) -- (6,0) -- cycle; % Bottom triangle DEF
+                        \draw[very thick] (0,2) -- (3,5) -- (6,2) -- cycle; % Top triangle ABC
+                        \draw[very thick] (0,0) -- (3,-3) -- (6,0) -- cycle; % Bottom triangle DEF
 
                         % Labels
                         \node at (0,0) [below left] {D};
@@ -467,6 +467,363 @@
         </example>
         
     </subsubsection>
+    <subsubsection xml:id="subsubsec-surface-area-of-rectangular-based-prism">
+        <title>Surface area of rectangular based prism></title>
+        <activity>
+            <p>
+            <m>\textbf{Work in groups}</m>
+        </p>
+        <p>
+            <term>What you need.</term>
+        </p>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Rulers
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Scissors
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Grid paper
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Printable nets of rectangular prisms (or students can sketch their own)
+                    </p>
+                </li>
+            </ul>
+        </p>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        What does a rectangular prism look like in terms of its faces?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Draw a rectangular prism on the grid paper like the one shown below..
+                    </p>
+                    <image width="50%">
+                       <latex-image label="rectangular-prism">
+                        \begin{tikzpicture}[scale=0.8]
+                            % Define the front face
+                            \draw[thick] (0,0) -- (4,0) -- (4,3) -- (0,3) -- cycle;
+
+                            % Define the back face (shifted right for 3D effect)
+                            \draw[thick] (1,-1) -- (5,-1) -- (5,2) -- (1,2) -- cycle;
+
+                            % Connect the faces
+                            \draw[thick] (0,0) -- (1,-1);  % bottom left
+                            \draw[thick] (4,0) -- (5,-1);  % bottom right
+                            \draw[thick] (4,3) -- (5,2);   % top right
+                            \draw[thick] (0,3) -- (1,2);   % top left
+
+                            % Label the dimensions
+                            % Length (front bottom)
+                            \draw[&lt;-&gt;] (1,-1.3) -- (5,-1.3) node[midway,below] {l};
+                            % Width (side)
+                            \draw[&lt;-&gt;] (0.7,-1.2) -- (-0.3,0) node[midway,left] {w};
+                            % Height (left side)
+                            \draw[&lt;-&gt;] (-0.5,0) -- (-0.5,3) node[midway,left] {h};
+
+                            % Label the figure
+                            \node[above] at (2.5,3) {Rectangular Prism};
+                        \end{tikzpicture}
+                       </latex-image>
+                    </image>
+                    <p>
+                        <ol marker="a. ">
+                            <li>
+                                <p>
+                                    How many rectangular faces does the prism have?
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    How many faces does the prism have in total?
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                    <p>
+                        What does <m>l\,, w\,, h\,</m> represent in the figure?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Measure each side and label the dimensions.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Compute the area of each face and sum them up to find the total surface area.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        What is the formula for the surface area of a rectangular prism?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Now draw the net of the rectangular prism like the one shown below.
+                    </p>
+                    <image width="50%">
+                    <latex-image label="rectangular-prism-net">
+                        \begin{tikzpicture}
+                            % Define dimensions
+                            \def\l{4} % length (8cm)
+                            \def\w{2} % width (3cm)
+                            \def\h{3} % height (5cm)
+
+                            % Draw the net in a cross shape
+                            % Bottom face
+                            \draw [very thick](0,0) rectangle (\l,\w) node[midway,blue] {Bottom};
+
+                            % Front face
+                            \draw [very thick](0,\w) rectangle (\l,\w+\h) node[midway,green] {Front};
+
+                            % Top face
+                            \draw [very thick](0,\w+\h) rectangle (\l,\w+\h+\w) node[midway,blue] {Top};
+
+                            % Left face
+                            \draw [very thick](-\w,\w) rectangle (0,\w+\h) node[midway,rotate=90] {Left};
+
+                            % Right face
+                            \draw [very thick](\l,\w) rectangle (\l+\w,\w+\h) node[midway,rotate=90] {Right};
+
+                            % Back face
+                            \draw [very thick](\l+\w,\w) rectangle (\l+\w+\w,\w+\h) node[midway,rotate=90] {Back};
+                        \end{tikzpicture}
+                    </latex-image>
+                        
+                        
+                    </image>
+                </li>
+                <li>
+                    <p>
+                        Now, calculate the area of each face in the net.
+                    </p>
+                    <p>
+                        Compare if its the same as the total surface area you calculated before.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Disscuss your findings with the class.
+                    </p>
+                </li>
+            </ol>
+        </p>
+        </activity>
+        <p>
+            <m>\textbf{Key Takeaway}</m>
+        </p>
+        <p>
+            <ol marker="a. ">
+                <li>
+                    <p>
+                        A rectangular prism has:
+                        <ul>
+                            <li>
+                                <p>
+                                    <m>2</m> rectangular bases (identical)
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>4</m> rectangular lateral faces
+                                </p>
+                            </li>
+                        </ul>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The surface area of a rectangular prism is the total area of all six faces.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The surface area of a rectangular prism can be calculated using the formula:
+                    </p>
+                    <p>
+                        <m>\text{SA} = 2lw + 2lh + 2wh</m>
+                    </p>
+                    <p>
+                        Where <m>l</m> is the length, <m>w</m> is the widt and <m>h</m> is the height of the prism.
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <example>
+            <statement>
+                <p>
+                    Work out the surface area of the closed rectangular prism  below:
+                </p>
+                <image width="50%">
+                <latex-image label="frectangular-prism">
+                    \begin{tikzpicture}[scale=0.8]
+                        % Front face
+                        \draw[very thick,fill=green] (0,0) -- (6,0) -- (6,3) -- (0,3) -- cycle;
+                        % Back face
+                        \draw[very thick] (1,1) -- (7,1) -- (7,4) -- (1,4) -- cycle;
+                        % Connect front to back
+                        \draw[very thick] (0,0) -- (1,1);
+                        \draw[very thick] (6,0) -- (7,1);
+                        \draw[very thick] (6,3) -- (7,4);
+                        \draw[very thick] (0,3) -- (1,4);
+
+                        % Dimensions
+                        \node at (3,-0.5) {6 cm};
+                        \node [right]at (6.6,0.5) {3 cm};
+                        \node at (7.5,2.5) {4 cm};
+                    \end{tikzpicture}
+                </latex-image>
+                    
+                </image>
+            </statement>
+            <solution>
+                <p>
+                    The sides of the rectangular prism are:
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            <p>Length (l): <m>6 \, \text{cm}</m></p>
+                        </li>
+                        <li>
+                            <p>Width (w): <m>3 \, \text{cm}</m></p>
+                        </li>
+                        <li>
+                            <p>Height (h): <m>4 \, \text{cm}</m></p>
+                        </li>
+                    </ul>
+                </p>
+                <p>
+                    The surface area (SA) of the rectangular prism can be calculated using the formula:
+                </p>
+                <p>
+                    <md>
+                        <mrow>\text{SA} = 2lw + 2lh + 2wh</mrow>
+                        <mrow>= \amp 2(6\times 3)+2(6\times 4)+2(3\times 4)</mrow>
+                        <mrow>= \amp 36 + 48 + 24</mrow>
+                        <mrow>= \amp 108 \, \text{cm}^2</mrow>
+                    </md>
+                </p>
+                <p>
+                    <m>{\color{blue}\text{Total Surface Area} = 108 \, \text{cm}^2}</m>
+                </p>
+
+            </solution>
+
+        </example>
+        <example>
+            <statement>
+                <p>
+                    A sheet of metal is used to make <m>5</m> identical closed 
+                    rectangular prisms. Each prism measurering <m>26 \, \text{m}</m> by <m>16 \, \text{m}</m> by <m>18 \, \text{m}</m>.
+                    Calculate the total area of the metal sheet that is needed to make all the prisms.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    The surface area (SA) of one rectangular prism can be calculated using the formula:
+                </p>
+                <p>
+                    <md>
+                        <mrow>\text{SA} = \amp 2lw + 2lh + 2wh</mrow>
+                        <mrow>= \amp 2(26\times 16)+2(26\times 18)+2(16\times 18)</mrow>
+                        <mrow>= \amp 832 + 936 + 576</mrow>
+                        <mrow>= \amp 2344 \, \text{m}^2</mrow>
+                    </md>
+                </p>
+                <p>
+                    The total surface area (TSA) of all <m>5</m> prisms is:
+                </p>
+                <p>
+                    <md>
+                        <mrow>\text{Total surface area} =\amp 5 \times 2344 \, \text{m}^2</mrow>
+                        <mrow>=\amp 11720 \, \text{m}^2</mrow>
+                    </md>
+                </p>
+                <p>
+                    <m>{\color{blue}\text{Total Surface Area of 5 prisms} = 11720 \, \text{m}^2}</m>
+                </p>
+            </solution>
+        </example>
+        <example>
+            <statement>
+                <p>
+                    The net below forms a rectangular prism.
+                    Calculate the total surface area.
+                </p>
+                <image width="50%">
+                <latex-image label="rectangular-prism-net1">
+                    \begin{tikzpicture}[scale=0.6]
+                        % Central rectangle (base)
+                        \draw[very thick,fill=cyan] (0,0) rectangle (10,6);
+                        \node at (5,-0.5) {10 km};
+                        \node at (-0.7,3) {6 km};
+
+                        % Left and right sides
+                        \draw[very thick] (-5,0) rectangle (0,6);
+                        \draw[very thick] (10,0) rectangle (15,6);
+                        \node at (-2.5,-0.5) {5 km};
+                        \node at (12.5,-0.5) {5 km};
+
+                        % Top and bottom
+                        \draw[very thick] (0,6) rectangle (10,12);
+                        \draw[very thick] (0,-6) rectangle (10,0);
+                        \node at (5,12.5) {10 km};
+                        \node at (5,-6.5) {10 km};
+                    \end{tikzpicture}
+                </latex-image>
+                    
+                </image>
+            </statement>
+            <solution>
+                <p>
+                    The dimensions of the rectangular prism are:
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            <p>Length (l): <m>10 \, \text{km}</m></p>
+                        </li>
+                        <li>
+                            <p>Width (w): <m>5 \, \text{km}</m></p>
+                        </li>
+                        <li>
+                            <p>Height (h): <m>6 \, \text{km}</m></p>
+                        </li>
+                    </ul>
+                </p>
+                <p>
+                    <md>
+                        <mrow>\text{SA} =\amp  2lw + 2lh + 2wh</mrow>
+                        <mrow>= \amp 2(10\times 5)+2(10\times 6)+2(5\times 6)</mrow>
+                        <mrow>= \amp 100 + 120 + 60</mrow>
+                        <mrow>=\amp  280 \, \text{km}^2</mrow>
+                    </md>
+                </p>
+                <p>
+                    <m>{\color{blue}\text{Total Surface Area} = 280 \, \text{km}^2}</m>
+                </p>
+            </solution>
+        </example>
+        
+        
+    </subsubsection>
+    
     
     
 </subsection>

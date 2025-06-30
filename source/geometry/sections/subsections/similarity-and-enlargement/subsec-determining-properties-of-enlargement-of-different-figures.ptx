@@ -1,0 +1,128 @@
+<subsection xml:id="subsec-determining-properties-of-enlargement-of-different-figures" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>determining-properties-of-enlargement-of-different-figures</title>
+    <activity>
+        <statement>
+            <p>
+                <m>\textbf{Work in pairs}</m>
+            </p>
+
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            The figure below shows a rectangle as observed by a learner without a magnifying lens.
+                        </p>
+
+                        <image width="20%">
+                            <latex-image label="rectangle">
+                                \begin{tikzpicture}
+                                     % Draw and fill a rectangle from (0,0) to (6,4) with blue color
+                                        \fill[blue!30] (0,0) rectangle (6,4);
+                                        \draw[thick] (0,0) rectangle (6,4);
+
+                                        <!-- % Label corners
+                                        \node[below left] at (0,0) {A};
+                                        \node[below right] at (6,0) {B};
+                                        \node[above right] at (6,4) {C};
+                                        \node[above left] at (0,4) {D}; -->
+                                \end{tikzpicture}
+                            </latex-image>
+                        </image>
+                    </li>
+
+                    <li>
+                        <p>
+                             The figure below shows the same rectangle as observed by the same learner after using a magnifying lens
+                        </p>
+                        <image width="50%">
+                            <latex-image label="enlarged-rectangle">
+                                \begin{tikzpicture}
+                                      % Original rectangle (for reference, optional)
+                                    % \fill[blue!30] (0,0) rectangle (6,4);
+                                    % \draw[thick] (0,0) rectangle (6,4);
+
+                                    % Enlarged rectangle by scale factor 3
+                                    \fill[orange!40] (0,0) rectangle (18,12);
+                                    \draw[thick] (0,0) rectangle (18,12);
+
+                                    <!-- % Label corners
+                                    \node[below left] at (0,0) {A'};
+                                    \node[below right] at (18,0) {B'};
+                                    \node[above right] at (18,12) {C'};
+                                    \node[above left] at (0,12) {D'}; -->
+
+                                \end{tikzpicture}
+                            </latex-image>
+                        </image>
+                    </li>
+
+                    <li>
+                        <p>
+                             The lens is considered to have transformed the rectangle in (1) to give the rectangle in (2). What do you notice?
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Identify other real life situations where you have observed this kind of transformation.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Share your results with other groups in the class.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </activity>
+
+    <activity>
+        <task>
+            <statement>
+                <p>
+                    <m>\textbf{Work in groups of four}</m>
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    
+                </p>
+            </statement>
+        </task>
+    </activity>
+
+    <p>
+        <m>\textbf{Key Takeaway}</m>
+    </p>
+<!-- 
+    <p>
+        Enlargement is when a shape is made bigger or smaller without changing its shape. Under enlargement;
+    </p> -->
+
+    <p>
+        <ol>
+            <li>
+                <p>
+                    In an enlargement, the object and its image remain similar. The linear scale factor of the enlargement determines the proportional transformation.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Lines connecting object points to their corresponding image points intersect at the center of enlargement. This property helps in determining the center of enlargement when both the object and its image are given.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    To determine the scale factor, divide the length of the enlarged image by the corresponding length of the original object.
+                </p>
+            </li>
+        </ol>
+    </p>
+</subsection>
