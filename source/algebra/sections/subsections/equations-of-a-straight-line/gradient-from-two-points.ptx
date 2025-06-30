@@ -1,0 +1,105 @@
+<subsection xml:id="subsec-gradient-from-two-points" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Determining the Gradient from Two Known Points</title>
+
+  <introduction>
+    <p>
+      In many situations, we are given two points on a straight path and want to determine how steep that path is. These two points may represent physical locations, price changes, distances over time, or any relationship that forms a straight line.
+    </p>
+    <p>
+      To calculate the gradient between any two points on a straight line, we compare how much the value changes vertically (rise) with how much it changes horizontally (run).
+    </p>
+    <p>
+      If the two points are given as <m>(x_1, y_1)</m> and <m>(x_2, y_2)</m>, then the gradient <m>m</m> is calculated using:
+    </p>
+    <p>
+      <m> m = \frac{y_2 - y_1}{x_2 - x_1} </m>
+    </p>
+    <p>
+      This is called the gradient formula. It gives a numerical value to the steepness between the two points.
+    </p>
+  </introduction>
+
+  <worksheet>
+    <p><m>\textbf{Work in Pairs}</m></p>
+    <p><term>What you need:</term></p>
+    <p>
+      <ul>
+        <li>Graph paper or squared notebook</li>
+        <li>Ruler</li>
+        <li>Pencil</li>
+        <li>Calculator</li>
+      </ul>
+    </p>
+    <p><m>\textbf{Instructions}</m></p>
+    <p>
+      <ol>
+        <li>On a piece of graph paper, plot the following two points: <m>A(2, 3)</m> and <m>B(6, 7)</m>.</li>
+        <li>Draw a straight line passing through both points using a ruler.</li>
+        <li>Count how many units up (rise) and how many units across (run) from point A to point B.</li>
+        <li>Record your values and use the gradient formula to find the slope between the two points.</li>
+      </ol>
+    </p>
+    <p>
+      Discuss: What does the gradient tell you about this line?
+    </p>
+  </worksheet>
+
+  <subsubsection xml:id="subsubsec-gradient-two-point-example">
+    <title>Example: Calculating the Gradient</title>
+    <p>
+      Find the gradient of the line passing through the points <m>(1, 4)</m> and <m>(5, 10)</m>.
+    </p>
+    <p>
+      <ul>
+        <li><m>x_1 = 1, \quad y_1 = 4</m></li>
+        <li><m>x_2 = 5, \quad y_2 = 10</m></li>
+      </ul>
+    </p>
+    <p>
+      Apply the gradient formula:
+    </p>
+    <p>
+      <m> m = \frac{10 - 4}{5 - 1} = \frac{6}{4} = 1.5 </m>
+    </p>
+    <p>
+      Therefore, the gradient of the line is <m>1.5</m>. This means for every 1 unit moved to the right, the line goes up by 1.5 units.
+    </p>
+  </subsubsection>
+
+  <conclusion>
+    <p><m>\textbf{Key Takeaway:}</m></p>
+    <p>
+      The gradient between two points shows how steep the line is. It is found by dividing the change in <m>y</m> values (rise) by the change in <m>x</m> values (run).
+    </p>
+  </conclusion>
+
+  <exercise>
+    <p>Use the gradient formula to solve the following:</p>
+
+    <ol>
+      <li>
+        <p>
+          Find the gradient of the line that passes through the points <m>(2, 5)</m> and <m>(6, 13)</m>.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Two points on a road are given as <m>A(0, 0)</m> and <m>B(8, 2)</m>. What is the gradient of the slope from A to B?
+        </p>
+      </li>
+
+      <li>
+        <p>
+          A shop's profit changed from Ksh <m>1,200</m> in week 1 to Ksh <m>2,400</m> in week 4. Find the average rate of profit increase per week (gradient).
+        </p>
+      </li>
+
+      <li>
+        <p>
+          If the gradient between two points is zero, what does that tell you about the line? Give an example.
+        </p>
+      </li>
+    </ol>
+  </exercise>
+</subsection>
