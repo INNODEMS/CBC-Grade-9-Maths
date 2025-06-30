@@ -7,21 +7,21 @@
         </p>
     </introduction>
      <subsubsection xml:id="subsubsec-finding-cubes-with-a-calculator">
-        <title>Finding cubes with a calculator</title>
+         <title>Finding cubes with a calculator</title>
         <p>
-           Use of a calculator is the easiest and fastest way to calculate cubes of numbers
+            Use of a calculator is the easiest and fastest way to calculate cubes of numbers. 
+            A cube is simply <m>x^3</m>. Where <m>x</m> is any numerical value
         </p>
-        
         <p>
             While finding the cubes of number, always pay attention to the sign
             preceeding the number.
         </p>
         <activity>
             <p>
-              <m>\textbf{Work in groups}</m> 
+                 <m>\textbf{Work in groups}</m> 
             </p>
             <p>
-             <term>What you need</term>
+                 <term>What you need</term>
             </p>
             <p>
                 <ul>
@@ -54,7 +54,7 @@
                     <li>
                         <p>
                            The teacher to demonstrate to the students how to power on 
-                           the calculator and press 
+                           the calculator and students to do the same.
                            
                         </p>
                     </li>
@@ -77,33 +77,164 @@
                 </ol>
             </p>
             </activity>
-       
-       </subsubsection>       
+            <example>
+                <statement>
+                    <p>
+                        Whale was told to work out the cube of <m>9</m>.What was his final answer?
+                    
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <md>
+                            <mrow> 9\times 9\times 9 =\amp 729 </mrow>
+                        </md> 
+                    </p>
+                </solution>
+            </example>       
+            <example>
+                <statement>
+                    <p>
+                    A student is working out the cube of <m>6</m>. 
+                    What is the answer obtained?
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <md>
+                            <mrow> 6\times 6\times 6 =\amp 216</mrow>
+                        </md> 
+                    </p>
+                </solution>
+            </example>      
+       </subsubsection>
 
-    
     <subsubsection xml:id="subsubsec-calculating-cubes-with-a-mathematical-table">
         <title>Calculating cubes with a mathematical table</title>
         <p>
-            Subtraction is deducting one number from the other. For instance, if Olivia had
-            10 sweets then she ate 3, she remains with 7.
+         Mathematical table is a structured list of numerical data,
+         often showing the results of calculations for different inputs. 
         </p>
-        <p>
-            In subtraction a negative and a negative, gives a negative result. 
-            While a positive and a negative gives a negative result.
-        </p>
-        <p>
-            For example <m>-2-10=-12</m> and <m>3-9=-6</m> 
+     <activity>
+            <p>
+                <m>\textbf{Work in groups}</m>
+            </p>
+            <p>
+                <term>What you need</term>
+            </p>
+            <p>
+                <ul>
+                    <li>
+                        <p>   
+                             Mathematical table
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Sheets of paper containing questions.
+                        </p>
+                    </li>
+                </ul>
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Under the teachers guidance, the learners to divide
+                            themselves in groups of <m>5</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Let each group pick question paper from the teacher.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                          Let the teacher pick a random question then demonstrate to the 
+                          students how to read the value from the mathematical table.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Students in the groups to proceed with attempting the remaining
+                            questions.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                          The teacher to walk through the groups and validate the answers.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Students to submit the questions they found challenging and 
+                            the whole class to participate in solving them.
+                        </p>
+                    </li>
+                </ol>
+            </p>
             
-        </p>
-       
+        </activity>
+        <example>
+            <statement>
+                <p>
+                 Using the table below, calculate the cube of <m>2.0</m> 
+                    and <m>1.3</m>      
+                
+                </p>
+            </statement>
+            <solution>
+                <figure xml:id="table-cubes">
+                    <caption>Table for cubes</caption>
+                    <image source="cubestable.png" >
+                        <shortdescription>Table for working out cubes ranging from
+                        1.0 t0 2.8
+                        </shortdescription>
+                    </image>
+                </figure>
+                <p>
+                <ol>
+                    <li>
+                        <p>
+                           Move down along the column headed <m>'x'</m> and locate 
+                           the number <m>2.0</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Move to the right along this row, where it intersects
+                            with the colum headed <m>'0'</m> in the second section.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                         Pick the next question <m>1.34</m>. Move down along 
+                         the column headed <m>x</m> vertically and locate <m>1.3</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                         Move horizontally on column headed <m>x</m> to where <m>4</m>
+                         is located and mark where it intersects with <m>1.3</m>.
+                         The  answer obtained is <m>2.406</m>
+                        </p>
+                    </li>
+                    
+                </ol>
+            </p>
+            </solution>
+        </example>
+              
     </subsubsection>
 
     <subsubsection xml:id="subsubsec-working-out-cuberoots-with-a-calculator">
         <title>Working out cuberoots with a calculator</title>
 
         <p>
-            Multiplication is defined as repeated addition of a number to itself for 
-            the given number of times.
+            A calculator is also the fastest way of performing this operation.
+            The cuberoot symbol is <m>\sqrt[3]{x}</m>. Where <m>x</m> is any number.
+
         </p>                
         <activity>
             <p>
@@ -116,63 +247,93 @@
                 <ul>
                     <li>
                         <p>
-                         Manually prepared Bingo cards  
+                           A set number of items 
                         </p>
                     </li>
                     <li>
                         <p>
-                            A sheet of paper
+                           Sheet of paper containing questions
                         </p>
                     </li>
-                    <li>
-                        <p>
-                            A pen
-                        </p>
-                    </li>
-                </ul>       
+                    
+                </ul>
+                   
             </p>
             <p>
                 <ol>
                     <li>
                         <p>
-                         The teacher to create bingo cards with a grid    
+                         Under the teachers guidance, the learners to divide
+                         themselves in groups of <m>5</m>.
                         </p>
                     </li>
                     <li>
                         <p>
-                           Teacher to fill in each square with answers 
-                           to the questions being tested
+                         Ask students to arrange the items into
+                         3D cubes with equal length, width, and height. 
                         </p>
                     </li>
                     <li>
                         <p>
-                         The teacher to call out multiplication problems
+                         Have students count how many items make one edge of the cube. 
+                         That number is the cube root.
                         </p>
                     </li>
                     <li>
                         <p>
-                         Students to look for product of called out problem in the square grid
-                         and mark it off
+                         Teacher to provide groups with random numbers of items <m>50</m> or <m>100</m>
+                         to estimate the closest cube root.
                         </p>
                     </li>
                     <li>
                         <p>
-                             The first student to get the answer calls out Bingo! And wins
+                         Share results, talk about patterns, and
+                         relate cube roots to real-life 3D objects.  
                         </p>
                     </li>
                 </ol>
             </p>
             </activity>
-       
+            <example>
+            <statement>
+                <p>
+                     A farmer packed <m>125, \text {oranges}</m> into small square boxes.
+                     He wants to stack the boxes in the shape of a cube
+                     so that each side of the cube has the same number of boxes.
+                     How many boxes will be on one edge of the cube?
+                </p>
+            </statement>
+            <solution >
+                <p>
+                    <md>
+                        <mrow> \sqrt[3]{125} = 5 \ </mrow>
+                    </md> 
+                </p>
+            </solution>
+         </example>
+        <example>
+            <statement>
+                <p>
+                     A farmer packed <m>1000, \text {guavas}</m> into small square boxes.
+                     He wants to stack the boxes in the shape of a cube
+                     so that each side of the cube has the same number of boxes.
+                     How many boxes will be on one edge of the cube?
+                </p>
+            </statement>
+            <solution >
+                <p>
+                    <md>
+                        <mrow> \sqrt[3]{1000} = 10\ </mrow>
+                    </md> 
+                </p>
+            </solution>
+         </example>
        </subsubsection>       
             
-<subsubsection xml:id="subsubsec-working-out-cuberoots-with-a-mathematical-table">
+ <subsubsection xml:id="subsubsec-working-out-cuberoots-with-a-mathematical-table">
         <title>Working out cuberoots with a mathematical table</title>
         <p>    
-            Division means sharing among a given quantity.
-            A basic example is how a mother decides to share oranges she 
-            buys among her children, so that each one gets the same number
-            of oranges.
+           In this section, a mathematical table is used to calculate the given values
         </p>
         <activity>
             <p>
@@ -185,7 +346,7 @@
                 <ul>
                     <li>
                         <p>   
-                             <m>20</m> pieces of marble.
+                             Mathematical table.
                         </p>
                     </li>
                     <li>
@@ -193,72 +354,129 @@
                             <m>4</m> pieces of paper.
                         </p>
                     </li>
-                    <li>
-                        <p>
-                            Pen
-                        </p>
-                    </li>
-
+                    
                 </ul>
             </p>
             <p>
                 <ol>
                     <li>
                         <p>
-                            Under the teachers guidance, the learners to divide
-                            themselves in groups of <m>4</m>.
+                         Under the teachers guidance, the learners to divide
+                         themselves in groups of <m>5</m>.
                         </p>
                     </li>
                     <li>
                         <p>
-                            Let each group select a group leader.
+                         Let each group pick question paper from the teacher.
                         </p>
                     </li>
                     <li>
                         <p>
-                            Let each group leader from all the groups pick marbles from the teacher,
-                            until the marbles are finished.
+                         Let the teacher pick a random question then demonstrate to the 
+                         students how to read the value from the mathematical table.
                         </p>
                     </li>
                     <li>
                         <p>
-                            Let all members of each group confirm the number of marbles
-                            the leader has.
+                         Students in the groups to proceed with attempting the remaining
+                         questions.
                         </p>
                     </li>
                     <li>
                         <p>
-                            The results to be recorded by each group on the different sheets of paper
+                         The teacher to walk through the groups and validate the answers. 
                         </p>
                     </li>
                     <li>
                         <p>
-                            The groups to compare their results to see whether they are the same.
+                         Students to submit the questions they found challenging and 
+                         the whole class to participate in solving them.
                         </p>
                     </li>
                 </ol>
             </p>
             
         </activity>
+
          <example>
             <statement>
                 <p>
-                    Wangechi has 12 pencils. She decides to arrange them in groups of 3.
-                    How many pencils were in each group?
+                 Using the table below, calculate the cuberoot of <m>27</m> 
+                    and <m>10.82</m>      
+                
                 </p>
             </statement>
             <solution>
+                <figure xml:id="cubes-table">
+                    <caption>Table for cubes</caption>
+                    <image source="cubestable2.png" >
+                        <shortdescription> Cube table for working out cuberoots of 
+                        27 and 10.82
+                        </shortdescription>
+                    </image>
+                </figure>
                 <p>
-                    <md>
-                        <mrow> 1\, \text{group} =\amp 3\, \text{pencils} </mrow>
-                        <mrow> 12\, \text{pencils}=\amp ? </mrow>
-                        <mrow>12 \div 3=\amp 4  </mrow>
-                    </md> 
-                </p>
+                <ol>
+                    <li>
+                        <p>
+                           Using the table of cubes, locate <m>27</m> in the middle
+                           section.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                         <m>27</m> is in the row header <m>3</m> and column headed <m>0</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                         Hence the cuberoot of <m>27</m> is <m>3</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                         For the second question, look for <m>10.82</m>. Since it does
+                         not appear look for the number nearest to it that is <m>10.794</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                         The number <m>10.794</m> is in the row headed <m>2.2</m> and 
+                         the column headed <m>1</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Find the difference between <m>10.82</m> and <m>10.794</m>.
+                            That is :
+                            <md>
+                                <mrow>10.82-10.794 =\amp 0.026 </mrow>
+                            </md>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                           Move along the same row to the difference column and look 
+                           for the number <m>26</m> 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Since <m>26</m> does not appear, look for the closest number
+                            that is <m>30</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Note the number at the head of the column where <m>30</m> 
+                            is located, combine it with <m>2.21</m> to get <m>2.212</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
             </solution>
-         </example>
-            
-        
+        </example>
+         
     </subsubsection>
 </subsection>
     
