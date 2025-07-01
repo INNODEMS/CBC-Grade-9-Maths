@@ -1,0 +1,126 @@
+<subsection xml:id="subsec-representing-linear-inequalities-graphically" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Representing Linear Inequalities Graphically</title>
+
+  <introduction>
+    <p>
+      In many real-life situations, we deal with inequalities such as limits, budgets, or boundaries. Graphing these inequalities helps us visualize all the possible solutions that satisfy the conditions.
+    </p>
+    <p>
+      When a linear inequality involves two variables (like <m>x</m> and <m>y</m>), its solution is a region in the coordinate plane, not just a line.
+    </p>
+    <p>
+      The boundary line helps define where the inequality changes from true to false. We use:
+      <ul>
+        <li>Solid lines for inequalities like <m>\le</m> or <m>\ge</m></li>
+        <li>Dashed lines for inequalities like <m>\lt</m> or <m>\gt</m></li>
+      </ul>
+    </p>
+  </introduction>
+
+  <subsubsection xml:id="subsubsec-graphing-inequalities-one-variable">
+    <title>Graphing Inequalities in One Variable</title>
+
+    <activity>
+      <p><m>\textbf{Try This in Pairs}</m></p>
+      <p><term>What you need:</term></p>
+      <p>
+        <ul>
+          <li>Graph paper</li>
+          <li>Pencil and ruler</li>
+        </ul>
+      </p>
+      <p><m>\textbf{Instructions}</m></p>
+      <p>
+        <ol>
+          <li>Draw a number line on your graph paper.</li>
+          <li>Solve and plot the inequality <m>x \ge -2</m>.</li>
+          <li>Use a solid circle for <m>-2</m> and shade to the right.</li>
+          <li>Now try <m>x \lt 3 </m> using a hollow circle at <m>3</m> and shade left.</li>
+          <li>Discuss: What does overlapping of shaded areas mean?</li>
+        </ol>
+      </p>
+    </activity>
+
+    <example>
+      <statement>
+        <p>
+          Graph the inequality <m>x \le 1</m> on a number line.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Draw a number line with values from <m>-5</m> to <m>5</m>. Put a solid circle at <m>1</m> and shade everything to the left.
+        </p>
+      </solution>
+    </example>
+  </subsubsection>
+
+  <subsubsection xml:id="subsubsec-graphing-two-variable">
+    <title>Graphing Inequalities in Two Variables</title>
+
+    <activity>
+      <p><m>\textbf{Group Activity: Drawing Solution Regions}</m></p>
+      <p><term>Materials:</term></p>
+      <p>
+        <ul>
+          <li>Graph paper</li>
+          <li>Coloured pencils</li>
+          <li>Ruler</li>
+        </ul>
+      </p>
+      <p><m>\textbf{Instructions}</m></p>
+      <p>
+        <ol>
+          <li>Draw the line <m>y = -x + 2</m>. Use a dashed line since the inequality will not include equality.</li>
+          <li>Test a point, like <m>(0,0)</m>. Substitute into <m>y \gt -x + 2</m>.</li>
+          <li>Since <m>0 \gt -0 + 2</m> is false, shade the opposite side from <m>(0,0)</m>.</li>
+          <li>Repeat the same process for <m>y \le 2x - 1</m>.</li>
+        </ol>
+      </p>
+    </activity>
+
+    <example>
+      <statement>
+        <p>
+          Represent <m>y \gt x + 1</m> on a graph.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <ol>
+            <li>Draw the line <m>y = x + 1</m> using a dashed line.</li>
+            <li>Use a test point like <m>(0,0)</m>: <m>0 \gt 0 + 1</m> → false.</li>
+            <li>Shade the side that does <em>not</em> contain <m>(0,0)</m>.</li>
+            <li>This shaded region shows all values that satisfy <m>y \gt x + 1</m>.</li>
+          </ol>
+        </p>
+      </solution>
+    </example>
+
+    <exercise>
+        <p><m>\textbf{Answer the following in your exercise book.}</m></p>
+        <ol>
+        <li>
+            Draw a number line and graph the inequality <m>x \lt -1</m>.
+        </li>
+        <li>
+            Represent <m>y \ge 2x - 3</m> on the Cartesian plane.
+        </li>
+        <li>
+            Graph the inequality <m>y \lt -\frac{1}{2}x + 4</m>.
+        </li>
+        <li>
+            Write two real-life examples that can be represented using inequalities.
+        </li>
+        <li>
+            If <m>x \ge 2</m> and <m>x \lt 5</m>, shade the region on the number line that satisfies both.
+        </li>
+        </ol>
+    </exercise>
+  </subsubsection>
+    <conclusion>
+        <p>
+        <m>\textbf{Key Takeaway:}</m> Inequalities in two variables describe regions of the graph. Always draw the boundary line first, then use a test point to decide which side to shade. Use dashed or solid lines to indicate strict or inclusive inequalities.
+        </p>
+    </conclusion>
+</subsection>
