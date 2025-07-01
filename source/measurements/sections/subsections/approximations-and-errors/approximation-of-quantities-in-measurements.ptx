@@ -97,7 +97,7 @@
                 </li>
             </ol>
             <table>
-                <title>ACtivity table example</title>
+                <title>ACtivity table</title>
                 <tabular halign="center" valign="middle" top="medium" bottom="medium" right="medium" left="medium">
                     <row>
                         <cell>Object</cell>
@@ -178,7 +178,7 @@
             </p>
             
             <table>
-                <title></title>
+                <title>Mass table</title>
                 <tabular>
                     
             <row>
@@ -244,7 +244,7 @@
             </p>
 
         <table>
-            <title>Area Estimation and Measurement </title>
+            <title>Estimating area </title>
 
             <tabular halign="center" valign="middle" top="medium" bottom="medium" right="medium" left="medium">
         
