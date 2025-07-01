@@ -1,0 +1,122 @@
+<subsection xml:id="subsec-interpreting-linear-inequalities" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Interpreting Linear Inequalities in One and Two Unknowns</title>
+
+  <introduction>
+    <p>
+      In daily life, we often work with conditions or limits rather than exact values. Statements like "You must be at least 18 years old to vote" or "The bag should not weigh more than 10 kg" are examples of inequalities.
+    </p>
+    <p>
+      A <m>\textbf{linear inequality}</m> is a mathematical sentence that uses inequality symbols instead of the equals sign. These include:
+      <ul>
+        <li><m>\lt</m> (less than)</li>
+        <li><m>\le</m> (less than or equal to)</li>
+        <li><m>\gt</m> (greater than)</li>
+        <li><m>\ge</m> (greater than or equal to)</li>
+      </ul>
+    </p>
+    <p>
+      Linear inequalities can have one unknown (e.g., <m>x \ge 10</m>) or two unknowns (e.g., <m>y \lt 2x + 5</m>), and they represent a range of possible values that satisfy the condition.
+    </p>
+  </introduction>
+
+  <subsubsection xml:id="subsubsec-interpreting-contextual-inequalities">
+    <title>Interpreting Inequalities from Real-Life Contexts</title>
+
+    <activity>
+      <p><m>\textbf{Work in Groups}</m></p>
+      <p><term>What You Need:</term></p>
+      <p>
+        <ul>
+          <li>Notebook or writing pad</li>
+          <li>Pencil or pen</li>
+        </ul>
+      </p>
+      <p><m>\textbf{Instructions}</m></p>
+      <p>
+        <ol>
+          <li>
+            Read the following situations. For each one, write a linear inequality using the variable given:
+            <ol marker="a">
+              <li>A student must score at least 50 marks to pass an exam. Let <m>x</m> be the marks scored.</li>
+              <li>A matatu cannot carry more than 14 passengers. Let <m>p</m> be the number of passengers.</li>
+              <li>A phone costs more than Ksh 5,000. Let <m>c</m> be the cost.</li>
+              <li>The total luggage weight must be less than or equal to 25 kg. Let <m>w</m> be the weight.</li>
+            </ol>
+          </li>
+          <li>Identify whether each inequality has one or two unknowns.</li>
+          <li>Explain your interpretation to another group and listen to theirs.</li>
+        </ol>
+      </p>
+    </activity>
+
+    <example>
+      <statement>
+        <p>
+          A parent gives a student Ksh 500 for lunch. If lunch costs <m>x</m> shillings per day and the school has 5 days, write an inequality to represent how much can be spent per day.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          The total cost for 5 days is <m>5x</m>. The student cannot spend more than Ksh 500, so:
+        </p>
+        <p>
+          <m>5x \le 500</m>
+        </p>
+        <p>
+          Solving the inequality:
+        </p>
+        <p>
+          <md>
+            <mrow>5x \le 500</mrow>
+            <mrow>x \le 100</mrow>
+          </md>
+        </p>
+        <p>
+          This means the student can spend at most <m>Ksh 100</m> each day.
+        </p>
+      </solution>
+    </example>
+
+    <exercise>
+        <p><m>\textbf{Answer the following questions in your exercise book.}</m></p>
+        <ol>
+        <li>
+            <p>
+            Write an inequality to represent the statement: “You must be at least 18 years old to register to vote.” Let <m>a</m> represent age.
+            </p>
+        </li>
+
+        <li>
+            <p>
+            Write an inequality: You want to buy <m>x</m> pens at Ksh 25 each. You have Ksh 200.
+            </p>
+        </li>
+
+        <li>
+            <p>
+            A shopkeeper must sell more than 60 items to make a profit. Let <m>n</m> be the number of items sold.
+            </p>
+        </li>
+
+        <li>
+            <p>
+            A student may work at most 40 hours per week. Let <m>h</m> be the number of hours worked.
+            </p>
+        </li>
+
+        <li>
+            <p>
+            A trip costs Ksh 800 per student. The total cost should not exceed Ksh 16,000. Let <m>s</m> be the number of students. Write and interpret the inequality.
+            </p>
+        </li>
+        </ol>
+    </exercise>
+  </subsubsection>
+
+  <conclusion>
+    <p>
+      <m>\textbf{Key Takeaway:}</m> Linear inequalities describe limitations or conditions in real-life situations. They allow us to work with ranges of possible values rather than just one answer.
+    </p>
+  </conclusion>
+
+</subsection>
