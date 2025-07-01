@@ -1,10 +1,37 @@
 <subsection xml:id="subsec-approximation-of-quantities-in-measuremnts">
     <title>Approximation of quantities in measuremnts</title>
-    <p>
-        In these approximations we will use the palms of our hands, feet or strides
-    </p>
+   
     <activity>
         <statement>
+            <p>
+                a) Approximating Length
+            </p>
+            <p>
+               Tip for Learners:  Before starting, measure your palm, foot, or stride length in cm.For example:
+               <ul>
+                <li>
+                    <p>
+                       
+                     palm length: 8 cm
+                       
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        foot length: 25 cm
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        stride length: 75 cm
+                    </p>
+                </li>
+               </ul>
+                     
+            </p>
+            <p>
+                In these approximations we will use the palms of our hands, feet or strides
+            </p>
             <p>
                 Measure the lemgth of your palm using a well labeled ruler. 
             </p>
@@ -12,8 +39,248 @@
                 What did you get?
             </p>
             <p>
-                
+                What about the length of your feet? Measure also and estimate the length of one stride.
             </p>
+            <ol>
+                <li>
+                    <p>
+                        Materials Needed:
+                        <ul>
+                            <li>
+                                <p>
+                                    A ruler or measuring tape
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    A variety of classroom objects
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    A notebook or paper for recording measurements
+                                </p>
+                            </li>
+                        </ul>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Use your palm, foot, or stride to estimate the length of each object e.g the black board or hite board or the teacher's table.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Count how many units of palm-widths or foot-lengths or stride lengths it takes to span the object.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Multiply by the average length of your palm/foot to get your estimated length in cm.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Record your estimated lengths in a table.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Now, measure the actual length of each object using a ruler or measuring tape.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Calculate the absolute and percentage error.
+                    </p>
+                </li>
+            </ol>
+            <table>
+                <title>ACtivity table example</title>
+                <tabular>
+                     <row>
+                        <cell>Object</cell>
+                        <cell>Body Part Used</cell>
+                        <cell>Count</cell>
+                        <cell>Estimated Length (cm)</cell>
+                        <cell>Measured Length (cm)</cell>
+                        <cell>Absolute Error</cell>
+                        <cell>Percentage Error (%)</cell>
+                    </row>
+                     <row>
+                        <cell>Desk</cell>
+                        <cell>Palm</cell>
+                        <cell>5</cell>
+                        <cell>5 × 8 = 40</cell>
+                        <cell>42</cell>
+                        <cell>2 cm</cell>
+                        <cell>4.76%</cell>
+                    </row>
+                    <row>
+                        <cell>Hallway</cell>
+                        <cell>Stride</cell>
+                        <cell>6</cell>
+                        <cell>6 × 60 = 360</cell>
+                        <cell>370</cell>
+                        <cell>10 cm</cell>
+                        <cell>2.70%</cell>
+                     </row>
+                     <row>
+                        <cell>Book</cell>
+                        <cell>Palm</cell>
+                        <cell>2</cell>
+                        <cell>2 × 8 = 16</cell>
+                        <cell>15</cell>
+                        <cell>1 cm</cell>
+                        <cell>6.67%</cell>
+                    </row>
+                </tabular>
+            </table>
+
+
         </statement>
-    </activity>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                   One palm length of Keith is 8cm long. He measures the length of his desk as 5 palm lengths. What is the approximate length of his desk in cm?
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    To find the approximate length of Keith's desk, we multiply the number of palm lengths by the length of one palm:
+                </p>
+                <p>
+                    <md>
+                       <mrow> \text{Approximate length} = \amp \text{length of one palm} \times \text{number of palm lengths}</mrow>
+                   </md>
+                   <md>
+                          <mrow> = \amp = 8 \text{ cm} \times 5 </mrow>
+                          <mrow> = \amp = 40 \text{ cm}</mrow>
+                   </md>
+               </p>
+            </solution>
+        </example>
+        <activity>
+            <statement>
+                <p>
+                    b) Approximating Mass
+                </p>
+            </statement>
+        </activity>
+        <activity>
+            <statement>
+                <p>
+                    c) Approximating Area
+                </p>
+            </statement>
+        </activity>
+        <activity>
+            <statement>
+                <p>
+                    d) Approximating Volume
+                </p>
+            </statement>
+        </activity>
+        <activity>
+            <statement>
+                <p>
+                    e) Approximating Mass
+                </p>
+            </statement>
+        </activity>
+        <activity>
+            <statement>
+                <p>
+                    f) Approximating Temperature
+                </p>
+            </statement>
+        </activity>
+        <activity>
+            <statement>
+                <p>
+                    g) Approximating Time
+                </p>
+            </statement>
+        </activity>
+        <activity>
+            <statement>
+                <p>
+                    h) Approximating Speed
+                </p>
+            </statement>
+        </activity>
+        <activity>
+            <statement>
+                <p>
+                    i) Approximating Density
+                </p>
+            </statement>
+        </activity>
+        <activity xml:id="approximating-mass">
+  <statement>
+    <p>
+      Estimate the mass of various classroom objects, then measure their actual mass using a digital or mechanical scale. Compare your estimates with the actual values and calculate the absolute and percentage error.
+    </p>
+    <p>
+      Choose at least three of the following objects: chalk, textbook, water bottle, eraser, pencil case, or lunchbotatement
+    </p>
+    <p>
+      Record your estimates and measurements in the table belotatement 
+    </p>
+    
+    <table>
+        <title></title>
+        <tabular>
+            
+      <row>
+        <cell>Object</cell>
+        <cell>Estimated Mass (g)</cell>
+        <cell>Measured Mass (g)</cell>
+        <cell>Absolute Error (g)</cell>
+        <cell>Percentage Error (%)</cell>
+       </row>
+      <row>
+        <cell></cell>
+        <cell></cell>
+        <cell></cell>
+        <cell></cell>
+        <cell></cell>
+      </row>
+      <row>
+        <cell></cell>
+        <cell></cell>
+        <cell></cell>
+        <cell></cell>
+        <cell></cell>
+      </row>
+      <row>
+        <cell></cell>
+        <cell></cell>
+        <cell></cell>
+        <cell></cell>
+        <cell></cell>
+      </row>
+      </tabular>
+    </table>
+   
+      <p>
+        After completing the table, calculate the absolute and percentage errors for each object.
+      </p>
+    <p>
+      Use these formulas to calculate errors:
+    </p>
+    <p>
+    <ul>
+      <li><p><m>|Estimated - Measured|</m> for <em>Absolute Error</em></p></li>
+      <li><p><m>(Absolute Error ÷ Measured) × 100</m> for <em>Percentage Error</em></p></li>
+    </ul>
+   </p> 
+    <p>
+      Reflect on which items you estimated most accurately. What strategies helped? Why is approximating mass useful in real-life situations like shopping, cooking, or science?
+    </p>
+    </statement>
+  
+</activity>
+        
 </subsection>

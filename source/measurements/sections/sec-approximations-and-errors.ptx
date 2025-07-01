@@ -103,7 +103,7 @@
 
                     </p>
                     <p>
-                        Relative Error  <m>= \frac{0.05}{1.05} \times 100 % = 4.8% or 0.048 \text {kg}</m>
+                        Relative Error  <m>= \frac{0.05}{1.05} = 0.048 \text {kg}</m>
                     </p>
                 </solution>
             </example>
