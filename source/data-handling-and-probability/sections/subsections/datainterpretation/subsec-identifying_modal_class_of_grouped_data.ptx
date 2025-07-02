@@ -9,8 +9,6 @@
                     <p>
                         Below is frequency distributiion table showing the marks of learners in a class out of 100 points.
                     </p>
-                    <table>
-                        <title></title>
                         <tabular top="medium" bottom="medium" left="medium" right="medium">
                             <row>
                                 <cell>Marks</cell>
@@ -39,7 +37,6 @@
                                 <cell>9</cell>
                             </row>
                         </tabular>
-                    </table>
                 </li>
             </ol>
         </p>
@@ -109,6 +106,7 @@
         </p>
     </activity>
     <example>
+        <title>Sunshine records</title>
         <statement>
             <p>
                 <ol>
@@ -151,6 +149,7 @@
         </solution>
     </example>
     <example>
+        <title>Masses of men.</title>      
         <statement>
             <p>
                 <ol marker="(a).">
