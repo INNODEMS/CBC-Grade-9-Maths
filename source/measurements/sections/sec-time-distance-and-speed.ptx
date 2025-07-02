@@ -1,4 +1,42 @@
 <section xml:id="sec-time-distance-and-speed" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Time, Distance and Speed</title>
-    <xi:include href="subsections/time-distance-and-speed/test5.ptx" />
+    <objectives xml:id="objectives-time-distance-speed">
+        <title>Learning Objectives</title>
+        <introduction>
+            <p>
+            In this section, learners will explore the relationship between time, distance, and speed.
+            By the end of this substrand, learners should be able to:
+            </p>
+        </introduction>
+        <ol>
+            <li xml:id="objective-understand-formula">
+                Understand and apply the formula: <q>Speed = Distance ÷ Time</q>.
+            </li>
+            <li xml:id="objective-unit-conversion">
+                Convert between units of time (minutes to hours) and distance (meters to kilometers).
+            </li>
+            <li xml:id="objective-solve-problems">
+                 Solve real-world word problems involving speed, distance, and time.
+            </li>
+            <li xml:id="objective-interpret-results">
+                Interpret the results of speed calculations in practical contexts (e.g., travel, races, delivery).
+            </li>
+        </ol>
+        <conclusion>
+            <p>
+             These objectives aim to build both conceptual understanding and practical problem-solving skills in calculating speed, time, and distance.
+             You are now ready to begin!
+            </p>
+        </conclusion>
+    </objectives>
+
+    <xi:include href="subsections/time-distance-and-speed/subsec-speed-in-km-hr.ptx" />
+    <xi:include href="subsections/time-distance-and-speed/subsec-speed-in-m-s.ptx" />
+    <xi:include href="subsections/time-distance-and-speed/subsec-average-speed.ptx" />
+    <xi:include href="subsections/time-distance-and-speed/subsec-velocity.ptx" />
+    <xi:include href="subsections/time-distance-and-speed/subsec-acceleration.ptx" />
+    <xi:include href="subsections/time-distance-and-speed/subsec-identifying-longitudes.ptx" />
+
+
+    
 </section>
