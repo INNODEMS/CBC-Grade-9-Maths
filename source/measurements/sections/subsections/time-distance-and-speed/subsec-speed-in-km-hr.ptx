@@ -1,0 +1,153 @@
+<subsection xml:id="subsec-speed-in-km-hr">
+    <title>Speed in km/hr</title>
+    <activity label="matching-speeds">
+        <title>Matching Question</title>
+        <statement>
+            <p>
+            Match each journey with the correct speed (in km/h), calculated from the given distance and time.
+            </p>
+        </statement>
+        <feedback>
+            <p>
+            Remember: Speed = Distance ÷ Time. Be sure to convert minutes to hours where necessary.
+            </p>
+        </feedback>
+        <matches>
+            <match order="1">
+                <premise>150 km in 2 hours</premise>
+                <response>75 km/h</response>
+            </match>
+            <match order="2">
+                <premise>75 km in 1.5 hours</premise>
+                <response>50 km/h</response>
+            </match>
+            <match order="3">
+                <premise>120 km in 30 minutes</premise>
+                <response>240 km/h</response>
+            </match>
+            <match order="4">
+                <premise>90 km in 3 hours</premise>
+                <response>30 km/h</response>
+            </match>
+            <match order="5">
+                <premise>120 km in 1 hour</premise>
+                <response>120 km/h</response>
+            </match>
+            <match order="6">
+                <premise>40 km in 0.5 hours</premise>
+                <response>80 km/h</response>
+            </match>
+        </matches>
+    </activity>
+
+    <definition xml:id="def-speed-in-km-hr">
+        <statement>
+            <p>
+                Speed refers to the rate at which an object changes its position,
+                typically measured in units of distance per time. 
+            </p>
+            <p>
+                Speed <m> = \frac{\text{Distance covered}}{\text{Time taken}}</m>
+            </p>
+        </statement>
+    </definition>
+    <example>
+        <statement>
+            <p>
+                A bus travels 120 kilometers in 2 hours. What is its speed in km/h?
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Recall that, Speed <m> = \frac{\text{Distance covered}}{\text{Time taken}}</m>
+            </p>
+            <p>
+                Here, the distance covered is <m>120</m> kilometers and the time taken is <m>2</m> hours.
+            </p>
+            <p>
+                Therefore, Speed <m> = \frac{120 \text{ km}}{2 \text{ h}} = 60 \text{ km/h}</m>.
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                David covered <m>450</m> meters in <m>15</m> minutes. Find his speed in km/h.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Convert time in minutes to hours.
+            </p>
+            <p>
+                <md>
+                    <mrow> 1 \text{ minute} \amp = (1 \div 60) \text{ hours} </mrow>
+                    <mrow> \amp = \frac{15}{60} \text{ hours} </mrow>
+                    <mrow> \amp = \frac{1}{4} \text{ hours} </mrow>
+                </md>
+            </p>
+            <p>
+                Convert distance in metres to kilometers.
+            </p>
+            <p>
+                <md>
+                    <mrow>450 \text{ m} \amp = (450 \div 1000) \text{ km} </mrow>
+                    <mrow> \amp = \frac{450}{1000} </mrow>
+                    <mrow> \amp = 0.45 \text{ km} </mrow>
+                </md>
+            </p>
+            <p>
+                <md>
+                    <mrow>\text{ Speed  } \amp = \frac{\text{Distance Covered}}{\text{Time taken}} </mrow>
+                    <mrow> \amp = 0.45 \text{km} \div \frac{1}{60} \text{h}</mrow>
+                    <mrow> \amp = (0.45 \div \frac{6}{1}) \text{km/h} </mrow>
+                    <mrow> \amp = 9 \text{km/h} </mrow>
+                </md>
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                Samuel left his house at <m>6:10</m> a.m. and arrived at the library at <m>6:40</m> a.m.
+                If the total distance he walked was <m>7.5</m> kilometers, calculate his average speed in kilometers per hour.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                First, we need to find the total time taken in hours.
+            </p>
+            <p>
+                The time taken is from <m>6:10</m> a.m. to <m>6:40</m> a.m., which is <m>30</m> minutes.
+            </p>
+            <p>
+                Convert minutes to hours:
+            </p>
+            <p>
+                <md>
+                    <mrow>30 \text{ minutes} \amp = (30 \div 60) \text{ hours} </mrow>
+                    <mrow> \amp = \frac{1}{2} \text{ hours} </mrow>
+                </md>
+            </p>
+            <p>
+                Now, we can calculate the average speed using the formula:
+            </p>
+            <p>
+                <md>
+                    <mrow>\text{ Speed  } \amp = \frac{\text{Distance Covered}}{\text{Time taken}} </mrow>
+                    <mrow> \amp = 7.5 \text{km} \div \frac{1}{2} \text{h}</mrow>
+                    <mrow> \amp = (7.5 \div \frac{1}{2}) \text{km/h} </mrow>
+                    <mrow> \amp = 15 \text{km/h} </mrow>
+                </md>
+            </p>
+        </solution>
+    </example>
+    <exercise>
+        <statement>
+            <p>
+                TODO
+            </p>
+        </statement>
+    </exercise>
+    
+</subsection>

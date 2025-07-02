@@ -1,0 +1,94 @@
+<subsection xml:id="subsec-velocity">
+    <title>Velocity</title>
+    <activity>
+        <p>
+            Work in groups
+        </p>
+        <p>
+            <ol marker="1. ">
+                <li>
+                    <p>
+                        
+                    </p>
+                     <!-- <figure >
+                            <caption>Velocity of an object</caption>
+                            <interactive xml:id="geogebra-velocity-of-an-object" platform="geogebra" width="100%">
+                            <slate xml:id="Velocity-of-an-object" surface="geogebra" material="vhn43cqj" aspect="9:11" >
+                                enableShiftDragZoom(true);
+                                showResetIcon(true);
+                            </slate>
+                            </interactive>
+                    </figure> -->
+                </li>
+            </ol>
+        </p>
+        <figure >
+            <caption>Velocity of an object</caption>
+            <interactive xml:id="geogebra-velocity-of-an-object" platform="geogebra" width="100%" >
+                <slate xml:id="Velocity-of-an-object" surface="geogebra" material="vhn43cqj" aspect="6:4" >
+                    enableShiftDragZoom(true);
+                    showResetIcon(true);
+                </slate>
+            </interactive>
+        </figure>
+
+        <!-- <figure>
+            <caption></caption>
+            <interactive xml:id="square-root-of-decimals-activity" geogebra="vhn43cqj" width="100%" aspect="6:9" reset-icon="yes" material-width="1200px"/>
+        </figure> -->
+    </activity>
+
+    <p>
+        <m>\textbf{Key Takeaway}</m>
+    </p>
+    <definition xml:id="def-velocity">
+        <statement>
+            <p>
+                Velocity is refered to as distance covered in a specific direction per unit time. 
+                It is a <term>vector quantity</term>, meaning it has both magnitude and direction.
+            </p>
+        </statement>
+    </definition>
+    <example>
+        <statement>
+            <p>
+                A car travels <m>100</m> meters to the east in <m>20</m> seconds. What is its velocity in m/s?
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Velocity = <m>\frac{\text{Total Distance Covered in a Specified Direction}}{\text{Total Time Taken}}</m>
+            </p>
+            <p>
+                <m>  \frac{100 \text{ m}}{20 \text{ s}} = 5 \text{ m/s}</m>.
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+               A Spacecraft travels <m>300</m> kilometers to the north in <m>5</m> minutes. Calculate its velocity in km/h.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                First, convert the time from minutes to hours: <m>5 \text{ minutes} = \frac{5}{60} \text{ hours} = \frac{1}{12} \text{ hours}</m>.
+            </p>
+            <p>
+                Velocity = <m>\frac{\text{Total Distance Covered in a Specified Direction}}{\text{Total Time Taken}}</m>
+            </p>
+            <p>
+                <m>  \frac{300 \text{ km}}{\frac{1}{12} \text{ hours}} = 300 \text{ km} \times \frac{12}{1} = 3600 \text{ km/h}</m>.
+            </p>
+        </solution>
+    </example>
+
+    <exercise>
+        <statement>
+            <p>
+                TODO
+            </p>
+        </statement>
+    </exercise>
+    
+</subsection>

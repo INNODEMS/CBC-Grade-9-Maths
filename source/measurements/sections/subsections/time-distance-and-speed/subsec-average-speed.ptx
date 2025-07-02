@@ -1,0 +1,120 @@
+<subsection xml:id="subsec-average-speed">
+    <title>Average Speed</title>
+    <!-- <activity>
+        <p>
+            Work in groups
+        </p>
+        <p>
+            <ol marker="1. ">
+                <li>
+                    <p>
+                        
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity> -->
+    <activity>
+        <p>
+            Work in groups
+        </p>
+        <p>
+            <ol marker="1. ">
+                <li>
+                    <p>
+                        Identify a measured path around the school where a "journey" can take place, such as walking 100 meters from the gate to a classroom block, and another 50 meters from the classroom block to the school canteen.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        One group member acts as the "traveler" and walks the first 100 meters while another times the walk using a stopwatch. Record the time taken for this segment.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        After finishing the first part of the journey, the "traveler" takes a timed rest break of 5 minutes to simulate a lunch break. Record this break time.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The traveler then walks the second 50-meter stretch. Record the time taken for this second part of the walk.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Now calculate the total distance walked and the total time taken (including the 5-minute break).
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Use the formula <m>\frac{\text{Total distance}}{\text{Total time}}</m> to compute the average speed in meters per second.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Discuss in your group: How does the break time affect the average speed? What would the speed be without including the break time?
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity>
+
+    <remark>
+        <p>
+            Average speed is defined as the total distance traveled divided by the total time taken. 
+            It gives us an overall idea of how fast an object is moving, regardless of any variations in speed during the journey.
+        </p>
+        <p>
+            Consider a scenario where a car travels <m>100</m> km in <m>1</m> hour, then <m>50</m> km in <m>30</m> minutes. 
+            What is the average speed of the car for the entire journey?
+        </p>
+    </remark>
+    <example>
+        <statement>
+            <p>
+                A cyclist cycles <m>30</m> km in <m>2</m> hours and then <m>20</m> km in <m>1</m> hour. 
+                What is the average speed of the cyclist for the entire trip?
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Total distance = <m>30</m> km + <m>20</m> km = <m>50</m> km
+            </p>
+            <p>
+                Total time = <m>2</m> hours + <m>1</m> hour = <m>3</m> hours
+            </p>
+            <p>
+                Average speed = <m>\frac{50 \text{ km}}{3 \text{ hours}} \approx 16.67 \text{ km/h}</m>
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                A car travels <m>150</m> km in <m>2</m> hours, then takes a <m>30</m>-minute break, and 
+                later travels another <m>100</m> km in <m>1.5</m> hours. 
+                What is the average speed of the car for the entire journey?
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Total distance = <m>150</m> km + <m>100</m> km = <m>250</m> km
+            </p>
+            <p>
+                Total time = <m>2</m> hours + <m>0.5</m> hour (break) + <m>1.5</m> hours = <m>4</m> hours
+            </p>
+            <p>
+                Average speed = <m>\frac{250 \text{ km}}{4 \text{ hours}} = 62.5 \text{ km/h}</m>
+            </p>
+        </solution>
+    </example>
+    <exercise>
+        <statement>
+            <p>
+                TODO
+            </p>
+        </statement>
+    </exercise>
+
+
+</subsection>
