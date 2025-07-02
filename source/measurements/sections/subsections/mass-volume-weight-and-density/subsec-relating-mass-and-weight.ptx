@@ -8,27 +8,70 @@
     <p>
         <m>\textbf{Key TakeAway}</m>
     </p>
+    <definition xml:id="def-mass-weight">
+        <statement>
+            <p>
+                <alert>Weight</alert> is the measure of the force of gravity acting on an object.
+            </p>
+            <p>
+                The SI unit of weight is the <alert>newton</alert> (N).
+            </p>
+        </statement>
+    </definition>
+    <p>
+        Weight (W) <m>=</m> mass of an object (kg) <m> \times</m> gravitational force (N/kg)
+    </p>
+    <table>
+        <title>Difference Between Mass and Weight</title>
+        <tabular top="medium" bottom="medium" left="medium" right="medium">
+            <row header="yes">
+                <cell><alert>Mass</alert></cell>
+                <cell><alert>Weight</alert></cell>
+            </row>
+            <row>
+                <cell>Measure of the amount of matter in an object</cell>
+                <cell>Measure of the force of gravity on an object</cell>
+            </row>
+            <row>
+                <cell>SI unit is the kilogram (kg)</cell>
+                <cell>SI unit is the newton (N)</cell>
+            </row>
+            <row>
+                <cell>Mass is constant regardless of location</cell>
+                <cell>Weight can change depending on the gravitational field</cell>
+            </row>
+        </tabular>
+    </table>
     <example>
         <statement>
             <p>
-                
+                A table has a mass of <m>35</m> kg. What is its weight? (Take g <m>= 10</m> N/kg)
             </p>
         </statement>
         <solution>
             <p>
-                
+                Weight <m>=</m> mass (kg) <m>\times</m> gravitational force (g)
+            </p>
+            <p>
+                Weight <m>= 35</m> kg <m>\times</m> 10 N/kg <m>= 350</m> N
             </p>
         </solution>
     </example>
     <example>
         <statement>
             <p>
-                
+                The weight of a box is <m>150</m> N. What is its mass? (Take g <m>= 10</m> N/kg)
             </p>
         </statement>
         <solution>
             <p>
-                
+                Weight <m>=</m> mass (kg) <m>\times</m> gravitational force (g)
+            </p>
+            <p>
+                150 N <m>=</m> mass (kg) <m>\times</m> 10 N/kg
+            </p>
+            <p>
+                mass <m> = \frac{150 \text{ N}}{10 \text{ N/kg}} = 15 \text{ kg}</m>
             </p>
         </solution>
     </example>
