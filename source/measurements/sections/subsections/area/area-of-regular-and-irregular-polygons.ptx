@@ -1,55 +1,60 @@
 <subsection xml:id="subsec-area-of-regular-and-irregular-polygons">
     <title>Area of regular and irregular polygons</title>
     <introduction>
-    <p>
-            <m>\textbf{Polygon}</m>
-        </p>
-        <p>
-            A polygon is a closed 2D shape made up of 
-            straight lines. Examples include <m>\textbf{triangles, quadrilaterals, pentagons}</m> and <m>\textbf{hexagons.}</m> 
-        </p>
-        <p>
-            <m>\textbf{Regular Polygons}</m>
-        </p>
-        <p>
-            
-            A polygon is regular if:
-        </p>
-        <p>
-            <ul>
-                <li>
-                    <p>
-                        All sides are equal in length.
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        All interior angles are equal. eg equilateral triangle, square, regular pentagon, regular hexagon
+        <definition xml:id="def-area-of-polygons">
+            <statement>
+               <p>
+                    <m>\textbf{Polygon}</m>
+                </p>
+                <p>
+                    A polygon is a closed 2D shape made up of 
+                    straight lines. Examples include <m>\textbf{triangles, quadrilaterals, pentagons}</m> and <m>\textbf{hexagons.}</m> 
+                </p>
+                <p>
+                    <m>\textbf{Regular Polygons}</m>
+                </p>
+                <p>
+                    
+                    A polygon is regular if:
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                All sides are equal in length.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                All interior angles are equal. eg equilateral triangle, square, regular pentagon, regular hexagon
 
-                    </p>
-                </li>
-            </ul>
-        </p>
-        <p>
-            <m>\textbf{Irregular Polygons}</m>
-        </p>
-        <p>
-            A polygon is irregular if:
-        </p>
-        <p>
-            <ul>
-                <li>
-                    <p>
-                        Sides are not all the same length, and/or
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        Angles are not all equal.
-                    </p>
-                </li>
-            </ul>
-        </p>
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+                <p>
+                    <m>\textbf{Irregular Polygons}</m>
+                </p>
+                <p>
+                    A polygon is irregular if:
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                Sides are not all the same length, and/or
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Angles are not all equal.
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </statement>
+        </definition>
+       
         </introduction>
         
         <subsubsection xml:id="subsubsec-area-of-a-pentagon">
