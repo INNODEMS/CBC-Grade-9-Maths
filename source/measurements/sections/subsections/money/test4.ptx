@@ -355,7 +355,7 @@
         </table>
           </statement> 
     </activity>
-         <activity label="multiple-choice-not-randomized">
+         <activity label="multiple-choice-not-randomized-one">
   <title>Multiple-Choice, Not Randomized, One Answer</title>
   <idx>Warm,hot or colder.</idx>
   <statement>
@@ -407,7 +407,7 @@
     </solution>
     
 </activity>
-         <activity label="multiple-choice-non-randomized">
+         <activity label="multiple-choice-non-randomized-two">
      <idx>Select the correct answer</idx>
   <statement>
     <p> 
@@ -473,7 +473,7 @@
     
     
 </activity>
-      <activity label="multiple-choice-no-randomization">
+      <activity label="multiple-choice-no-randomization-three">
      <idx>Select the correct answer</idx>
   <statement>
     <p> 
@@ -517,7 +517,7 @@
         </p>
     </solution>
     </activity>    
-    <activity label="multiple-choice-non-randomized-">
+    <activity label="multiple-choice-non-randomized-four">
      <idx>Select the correct answer</idx>
   <statement>
     <p> 
@@ -671,49 +671,7 @@
         </p>
     </solution>
     </example>
-     <activity label="matching-temperatures">
-    <title>Matching Question</title>
-    <!-- <idx>Matching Problem, Temperature in kelvins </idx> -->
-    <statement>
-        <p>
-           Match the country with its currency:
-        </p>
-        </statement>
-            <feedback>
-                <p>
-                </p>
-            </feedback>
-            <matches>
-            <match order="4">
-            <premise>Kenya Shilling</premise>
-            <response>Germany </response>
-            </match>
-            <match order="2">
-            <premise>Ugandan Shilling</premise>
-            <response>United States</response>
-            </match>
-            <match order="5">
-            <premise>Canadian Dollar</premise>
-            <response>Tanzania</response>
-            </match>
-            <match order="3">
-            <premise>Tanzanian Shilling</premise>
-            <response>Kenya</response>
-            </match>
-            <match order="7">
-            <premise>Japanese Yen</premise>
-            <response>Canada</response>
-            </match>
-            <match order="6">
-            <premise>US Dollar</premise>
-            <response>Uganda</response>
-            </match>
-            <match order="2">
-            <premise>Pound Sterling</premise>
-            <response>Japan</response>
-            </match>
-        </matches>
-</activity>
+    
     
 
    

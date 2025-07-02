@@ -1,6 +1,280 @@
-<subsection xml:id="subsec-identifying-similar-figures-and-their-properties">
+<subsection xml:id="subsec-identifying-similar-figures-and-their-properties" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Identifying Similar Figures and Their Properties</title>
     <p>
-        
+        In this section, we will explore how to identify similar figures and understand their properties. Similar figures have the same shape but may differ in size. We will learn how to determine if two figures are similar and what properties they share.
     </p>
+
+    <activity>
+        <statement>
+            <p>
+                <m>\textbf{Work in groups}</m>
+            </p>
+
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                           Gather various objects found around the school.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                             Organize the items by grouping those with similar shapes
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Explain the reasons why you think the shapes are alike.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Present your findings and explanations to the other groups in the class.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </activity>
+
+    <activity>
+        <statement>
+            <p>
+                <m>\textbf{Work in groups}</m>
+            </p>
+
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                             Study the shapes shown below.
+                        </p>
+                        <image width="50%">
+                        <latex-image label="similar">
+                            \begin{tikzpicture}
+                                % Row 1
+                                % a - Large Square
+                                \draw (0,0) rectangle ++(2,2);
+                                \node at (1,-0.5) {\textcircled{a}};
+
+                                % b - Rhombus
+                                \begin{scope}[shift={(3,0)}]
+                                \draw (0,0) -- ++(1,1.5) -- ++(1,-1.5) -- ++(-1,-1.5) -- cycle;
+                                \node at (1,-0.7) {\textcircled{b}};
+                                \end{scope}
+
+                                % c - Pentagon
+                                \begin{scope}[shift={(6,0)}]
+                                \draw (0,0) -- ++(0.6,1.2) -- ++(1.2,0) -- ++(0.6,-1.2) -- ++(-1.2,-1.2) -- cycle;
+                                \node at (1.2,-0.7) {\textcircled{c}};
+                                \end{scope}
+
+                                % d - Small Circle
+                                \begin{scope}[shift={(9,0)}]
+                                \draw (0,0.5) circle (0.5cm);
+                                \node at (0,-0.8) {\textcircled{d}};
+                                \end{scope}
+
+                                % Row 2
+                                % e - Rectangle
+                                \begin{scope}[shift={(0,-4)}]
+                                \draw (0,0) rectangle ++(1,2);
+                                \node at (0.5,-0.5) {\textcircled{e}};
+                                \end{scope}
+
+                                % f - Medium Circle
+                                \begin{scope}[shift={(3,-3.5)}]
+                                \draw (0,0) circle (1cm);
+                                \node at (0,-1.3) {\textcircled{f}};
+                                \end{scope}
+
+                                % g - Hexagon
+                                \begin{scope}[shift={(6,-4)}]
+                                \draw (0,0) 
+                                -- ++(0.8,0.5) -- ++(0,1)
+                                -- ++(-0.8,0.5) -- ++(-0.8,-0.5)
+                                -- ++(0,-1) -- cycle;
+                                \node at (0,-1.2) {\textcircled{g}};
+                                \end{scope}
+
+                                % h - Square
+                                \begin{scope}[shift={(9,-3.5)}]
+                                \draw (0,0) rectangle ++(1,1);
+                                \node at (0.5,-0.5) {\textcircled{h}};
+                                \end{scope}
+
+                                % Row 3
+                                % i - Small Pentagon
+                                \begin{scope}[shift={(0,-8)}]
+                                \draw (0,0) -- ++(0.4,0.8) -- ++(0.8,0) -- ++(0.4,-0.8) -- ++(-0.8,-0.8) -- cycle;
+                                \node at (0.8,-0.9) {\textcircled{i}};
+                                \end{scope}
+
+                                % j - Small Rhombus
+                                \begin{scope}[shift={(3,-8)}]
+                                \draw (0,0) -- ++(0.5,0.8) -- ++(0.5,-0.8) -- ++(-0.5,-0.8) -- cycle;
+                                \node at (0.5,-0.9) {\textcircled{j}};
+                                \end{scope}
+
+                                % k - Large Circle
+                                \begin{scope}[shift={(6,-8)}]
+                                \draw (0,0) circle (1.2cm);
+                                \node at (0,-1.5) {\textcircled{k}};
+                                \end{scope}
+
+                                % l - Tall Rectangle
+                                \begin{scope}[shift={(9,-8)}]
+                                \draw (0,0) rectangle ++(1,2);
+                                \node at (0.5,-0.5) {\textcircled{l}};
+                                \end{scope}
+                            \end{tikzpicture}
+                        </latex-image>
+                          
+                        </image>
+                        
+
+                        
+                    </li>
+
+                    <li>
+                        <p>
+                             Select the shapes that you consider similar and group them together.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            State the properties of the shapes that you consider similar.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                             Share your findings with other groups in the class.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </activity>
+
+    <p>
+        <term>Key Takeaway</term> 
+    </p>
+
+    <p>
+        <ul>
+            <li>
+                <p>
+                    Two figures are considered similar when their corresponding sides have the same ratio.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    In the case of flat (plane) shapes, their matching interior angles must also be equal.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    When naming similar triangles, list the vertices in a way that shows which angles are equal.
+                    For instance, if triangle <m>ABC</m> is similar to triangle <m>DEF</m>, it means angle  <m>A</m> matches angle <m>D</m>,
+                    angle <m>B</m> matches angle <m>E</m>, and angle <m>C</m> matches angle <m>F</m>.
+                </p>
+            </li>
+        </ul>
+    </p>
+
+    <example>
+        <statement>
+            <p>
+                Determine whether triangle <m>PQR</m> and triangle <m>XYZ</m> are similar.
+            </p>
+
+            <sidebyside>
+                <image>
+                    <latex-image>
+                        \begin{tikzpicture}[scale=0.7]
+                            % Coordinates
+                            \coordinate (P) at (0,0);
+                            \coordinate (Q) at (12,0);
+
+                            % Coordinates of R using polar coordinates
+                            \coordinate (R) at ({8*cos(26.4)}, {8*sin(26.4)});
+
+                            % Fill the triangle with blue color
+                            \fill[blue!30] (P) -- (Q) -- (R) -- cycle;
+
+                            % Draw the triangle outline
+                            \draw[thick] (P) -- (Q) -- (R) -- cycle;
+
+                            % Label the points
+                            \node[below left] at (P) {P};
+                            \node[below right] at (Q) {Q};
+                            \node[above] at (R) {R};
+
+                            % Add side lengths
+                            \node[below] at (6,0) {12 cm};
+                            \path (P) -- (R) node[midway,left] {8 cm};
+                            \path (Q) -- (R) node[midway,right] {6 cm};
+                         \end{tikzpicture}
+                    </latex-image>
+                </image>
+
+                <image>
+                    <latex-image>
+                        \begin{tikzpicture}[scale=0.7]
+                        % Coordinates
+                        \coordinate (X) at (0,0);
+                        \coordinate (Y) at (12,0);
+
+                        % Coordinates of Z using polar coordinates
+                        \coordinate (Z) at ({8*cos(26.4)}, {8*sin(26.4)});
+
+                        % Fill the triangle with green color
+                        \fill[green!30] (X) -- (Y) -- (Z) -- cycle;
+
+                        % Draw the triangle outline
+                        \draw[thick] (X) -- (Y) -- (Z) -- cycle;
+
+                        % Label the points
+                        \node[below left] at (X) {X};
+                        \node[below right] at (Y) {Y};
+                        \node[above] at (Z) {Z};
+
+                        % Add side lengths
+                        \node[below] at (6,0) {24 cm};
+                        \path (X) -- (Z) node[midway,left] {16 cm};
+                        \path (Y) -- (Z) node[midway,right] {12 cm};
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+            </sidebyside>
+        </statement>
+
+        <solution>
+            <p>
+                <m>PR</m> corresponds to <m>XZ</m>, <m>PQ</m> corresponds to <m>XY</m>, and <m>QR</m> corresponds to <m>YZ</m>.
+            </p>
+
+            <p>
+            <md>
+                <mrow>\text{Therefore,} \amp \frac{PR}{XZ}= \frac{PQ}{XY}= \frac {QR}{YZ} </mrow>
+                <mrow> =\amp \frac{8\, cm}{16\, cm}= \frac{12\, cm}{24\, cm}= \frac {6\, cm}{12\, cm} </mrow>
+                <mrow> \frac{1}{2}= \frac{1}{2}=\amp \frac{1}{2}</mrow>
+            </md>
+            </p>
+
+            <p>
+                Since corresponding sides are proportional, we conclude that triangle <m>PQR</m> is similar to triangle <m>XYZ</m>.
+            </p>
+        </solution>
+    </example>
+
+
+
 </subsection>

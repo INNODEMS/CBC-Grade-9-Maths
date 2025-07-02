@@ -8,4 +8,5 @@
         </p>
     </introduction>
     <xi:include href="subsections/money/test4.ptx" />
+    <xi:include href="subsections/money/conversion-of-currencies-to-kenya-shillings.ptx" />
 </section>

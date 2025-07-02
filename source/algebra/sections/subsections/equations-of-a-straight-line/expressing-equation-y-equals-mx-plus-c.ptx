@@ -1,0 +1,118 @@
+<subsection xml:id="subsec-expressing-equation-y-equals-mx-plus-c" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Expressing the Equation in the Form <m>y = mx + c</m></title>
+
+  <introduction>
+    <p>
+      A straight line in a coordinate plane can be represented by an equation. One of the most useful and common forms is the <m>\textbf{slope-intercept form}</m>:
+    </p>
+    <p>
+      <m>y = mx + c</m>
+    </p>
+    <p>
+      In this equation:
+      <ul>
+        <li><m>m</m> is the gradient or slope of the line</li>
+        <li><m>c</m> is the y-intercept — the point where the line crosses the y-axis</li>
+      </ul>
+    </p>
+    <p>
+      Understanding this form helps us describe, sketch, and interpret linear relationships both in mathematical problems and real-life contexts.
+    </p>
+  </introduction>
+
+  <worksheet>
+    <activity>
+      <p><m>\textbf{Work in Groups}</m></p>
+      <p><term>What You Need:</term></p>
+      <p>
+        <ul>
+          <li>Graph paper or squared notebook</li>
+          <li>Ruler and pencil</li>
+          <li>Calculator</li>
+        </ul>
+      </p>
+      <p><m>\textbf{Instructions}</m></p>
+      <p>
+        <ol>
+          <li>Sketch a line with a gradient of <m>2</m> and a y-intercept of <m>3</m>. Label the line with its equation <m>y = 2x + 3</m>.</li>
+          <li>Now sketch a second line with the same gradient but a different y-intercept, for example <m>-2</m>. Label it <m>y = 2x - 2</m>.</li>
+          <li>Compare the two lines. What is similar? What is different?</li>
+        </ol>
+      </p>
+      <p>
+        <ul>
+          <li>Discuss: How does the value of <m>m</m> affect the steepness of a line?</li>
+          <li>How does the value of <m>c</m> affect where the line crosses the y-axis?</li>
+        </ul>
+      </p>
+    </activity>
+
+    <example>
+      <statement>
+        <p>
+          Consider the equation <m>y = -3x + 6</m>.
+        </p>
+        <p>
+          From the equation, we can identify:
+          <ul>
+            <li><m>m = -3</m> — the line slopes downwards</li>
+            <li><m>c = 6</m> — the line crosses the y-axis at <m>(0, 6)</m></li>
+          </ul>
+        </p>
+        <p>
+          This means that for every 1 unit increase in <m>x</m>, <m>y</m> decreases by 3 units.
+        </p>
+      </statement>
+    </example>
+  </worksheet>
+
+  <conclusion>
+    <p>
+      <m>\textbf{Key Takeaway:}</m> In the equation <m>y = mx + c</m>, <m>m</m> tells us how steep the line is, and <m>c</m> tells us where the line crosses the y-axis. This form is very useful for sketching graphs and interpreting real-life situations mathematically.
+    </p>
+  </conclusion>
+
+  <exercise>
+    <p><m>\textbf{Answer the following questions in your exercise book.}</m></p>
+    <ol>
+      <li>
+        <p>
+          From the equation <m>y = 5x + 2</m>, state the gradient and y-intercept.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          For each of the following equations, identify <m>m</m> and <m>c</m>:
+          <ul>
+            <li><m>y = -2x + 7</m></li>
+            <li><m>y = \frac{1}{2}x - 3</m></li>
+            <li><m>y = 4</m></li>
+          </ul>
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Write an equation in the form <m>y = mx + c</m> for a line with:
+          <ul>
+            <li>Gradient <m>m = -4</m></li>
+            <li>y-intercept <m>c = 1</m></li>
+          </ul>
+        </p>
+      </li>
+
+      <li>
+        <p>
+          A taxi company charges a base fare of Ksh <m>70</m> plus Ksh <m>30</m> per kilometre. Write an equation for the total cost <m>y</m> in terms of the number of kilometres <m>x</m>.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Draw graphs of the equations <m>y = 3x + 2</m> and <m>y = 3x - 4</m> on the same set of axes. What do you observe?
+        </p>
+      </li>
+    </ol>
+  </exercise>
+</subsection>

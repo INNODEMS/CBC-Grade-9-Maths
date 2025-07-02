@@ -3,4 +3,8 @@
     <p>
         
     </p>
+
+    <xi:include href="subsections/linear-inequalities/interpreting-linear-inequalities.ptx" />
+    <xi:include href="subsections/linear-inequalities/solving-linear-inequalities.ptx" />
+    <xi:include href="subsections/linear-inequalities/representing-linear-inequalities-graphically.ptx" />
 </section>
