@@ -1,6 +1,8 @@
 <subsection xml:id="subsec-mass-volume-and-density">
     <title>Mass, Volume and Density</title>
-
+    <p>
+        <m>\textbf{Volume}</m>
+    </p>
     <!-- activity -->
     <activity>
         <p>
@@ -12,35 +14,139 @@
     <p>
         <m>\textbf{Key TakeAway}</m>
     </p>
+    <definition xml:id="def-volume">
+        <statement>
+            <p>
+                <alert>Volume</alert> is the amount of space occupied by an object.
+            </p>
+            <p>
+                The standard unit of volume is the <alert>cubic metre</alert> (m <m>^3</m>).
+            </p>
+        </statement>
+    </definition>
+    <p>
+        The volume of a cube is calculated by multiplying the length of one side by itself three times, or cubing the length of one side.
+    </p>
 
+    <remark>
+        <p>
+            Density is the mass of a substance per unit volume. 
+            It is calculated by dividing the mass of an object by its volume.
+        </p>
+        <p>
+            Density <m>= \frac{\text{mass}}{\text{volume}}</m>
+        </p>
+    </remark>
     <!-- example 1 -->
     <example>
         <statement>
             <p>
-                
+                Evans has <m>370 \text{cm}^3 </m> of milk in a container.
+                If the density of milk is <m>1.03 \text{g/cm}^3</m>, what is the mass of the milk?
             </p>
         </statement>
         <solution>
             <p>
-                
+                To find the mass of the milk, we can use the formula for density:
+            </p>
+            <p>
+                <m>\text{Density} = \frac{\text{mass}}{\text{volume}}</m>
+            </p>
+            <p>
+                Rearranging the formula to solve for mass gives us:
+            </p>
+            <p>
+                <m>\text{mass} = \text{Density} \times \text{volume}</m>
+            </p>
+            <p>
+                Substituting in the values we have:
+            </p>
+            <p>
+                <m>\text{mass} = 1.03 \text{g/cm}^3 \times 370 \text{cm}^3</m>
+            </p>
+            <p>
+                <m>\text{mass} = 381.1 \text{g}</m>
             </p>
         </solution>
     </example>
 
     <!-- example 2 -->
-    <example>
+     <example>
         <statement>
             <p>
-                
+                A cuboid has a length of <m>5 \text{cm}</m>, 
+                a width of <m>3 \text{cm}</m>, and a height of <m>2 \text{cm}</m>. 
+                It's mass is <m>60 \text{g}</m>. What is the density of the cuboid in <m>\text{kg/m}^3</m>?
             </p>
         </statement>
         <solution>
             <p>
-                
+                <m>\text{Density} = \frac{\text{mass}}{\text{volume}}</m>
+            </p>
+            <p>
+                First, we need to find the volume of the cuboid as follows:
+            </p>
+            <p>
+                <m>\text{Volume} = \text{length} \times \text{width} \times \text{height}</m>
+            </p>
+            <p>
+                Substituting in the values we have:
+            </p>
+            <p>
+                <m>\text{Volume} = 5 \text{cm} \times 3 \text{cm} \times 2 \text{cm} = 30 \text{cm}^3</m>
+            </p>
+            <p>
+                Now we can substitute the mass and volume into the density formula:
+            </p>
+            <p>
+                <m>\text{Density} = \frac{60 \text{g}}{30 \text{cm}^3} = 2 \text{g/cm}^3</m>
+            </p>
+            <p>
+                To convert this to <m>\text{kg/m}^3</m>, we multiply by <m>1000</m> (since <m>1 \text{g/cm}^3 = 1000 \text{kg/m}^3</m>):
+            </p>
+            <p>
+                <m>\text{Density} = 2 \text{g/cm}^3 \times 1000 = 2000 \text{kg/m}^3</m>
+            </p>
+        </solution>
+     </example>
+
+    <!-- example 3 -->
+    <example>
+        <statement>
+            <p>
+                A cylinder has a radius of <m>8 \text{cm}</m> and a height of <m>14 \text{cm}</m>.
+                It's mass is <m>85 \text{g}</m>. What is the density of the cylinder?
+            </p>
+        </statement>
+        <hint>
+            <p>
+                <m>1 \text{g/cm}^3 = 1000 \text{kg/m}^3</m>
+            </p>
+        </hint>
+        <solution>
+            <p>
+                <m>\text{Density} = \frac{\text{mass}}{\text{volume}}</m>
+            </p>
+            <p>
+                First, we need to find the volume of the cylinder as follows:
+            </p>
+            <p>
+                <m>\text{Volume of a Cylinder } = \, \pi r^2 h</m>
+            </p>
+            <p>
+                Substituting in the values we have:
+            </p>
+            <p>
+                <m>\text{Volume of a Cylinder} = \pi (8 \text{cm})^2 (14 \text{cm}) = 2816 \text{cm}^3</m>
+            </p>
+            <p>
+                Now we can substitute the mass and volume into the density formula:
+            </p>
+            <p>
+                <m>\text{Density} = \frac{85 \text{g}}{2816 \text{cm}^3} \approx 0.030 \text{g/cm}^3</m>
             </p>
         </solution>
     </example>
-
     <!-- exercises -->
     <exercise>
         <statement>
