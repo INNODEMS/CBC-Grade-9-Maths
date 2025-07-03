@@ -2,7 +2,27 @@
     <title>Relating Mass and Weight</title>
     <activity>
         <p>
-            
+            Work in groups
+        </p>
+        <p>
+            <ol marker="1. ">
+                <li>
+                    <p>
+                        
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        
+                    </p>
+                </li>
+                
+            </ol>
         </p>
     </activity>
     <p>
@@ -24,6 +44,11 @@
     <table>
         <title>Difference Between Mass and Weight</title>
         <tabular top="medium" bottom="medium" left="medium" right="medium">
+            <!-- <col/>
+            <col/>   -->
+            <col width="40%"/>
+            <col width="60%"/>
+
             <row header="yes">
                 <cell><alert>Mass</alert></cell>
                 <cell><alert>Weight</alert></cell>
@@ -38,7 +63,12 @@
             </row>
             <row>
                 <cell>Mass is constant regardless of location</cell>
-                <cell>Weight can change depending on the gravitational field</cell>
+               
+                <cell>
+                    <p>
+                         Weight can change depending on the gravitational field
+                    </p>
+                </cell>
             </row>
         </tabular>
     </table>
