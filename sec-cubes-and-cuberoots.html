@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: denver                         *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Cubes and cuberoots</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Grade 9 Maths Book">
+<meta property="book:author" content="INNODEMS">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.8.4';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.962d00926ef9460e.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.2e7f40e86ae7d163.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.5bdeacdba067a0e3.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="changeme" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="my-great-book.html"><span class="title">Grade 9 Maths Book</span> <span class="subtitle">An Easy Way to Learn Maths</span></a></h1>
+<p class="byline">INNODEMS</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-sec-integers.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-whole-numbers.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-indices-and-logarithms.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-whole-numbers.html" class="internal"><span class="codenumber">1</span> <span class="title">Whole Numbers</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-sec-integers.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Integers</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-sec-integers.html#subsec-basic-operation-of-integers" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Basic operation of integers</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-sec-integers.html#subsubsec-addition-of-integers" class="internal"><span class="codenumber">1.1.1.1</span> <span class="title">Addition of integers</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-sec-integers.html#subsubsec-subtraction-of-integers" class="internal"><span class="codenumber">1.1.1.2</span> <span class="title">Subtraction of integers</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-sec-integers.html#subsubsec-multiplication-of-integers" class="internal"><span class="codenumber">1.1.1.3</span> <span class="title">Multiplication of integers</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-sec-integers.html#subsubsec-division-of-integers" class="internal"><span class="codenumber">1.1.1.4</span> <span class="title">Division of integers</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-sec-integers.html#subsec-combined-operation-of-integers" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Combined operation of Integers</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-sec-integers.html#subsubsec-mixed-operation-of-integers" class="internal"><span class="codenumber">1.1.2.1</span> <span class="title">Mixed operation of integers</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sec-integers.html#subsec-real-life-application-of-integers" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Real life application of integers</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec-cubes-and-cuberoots.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Cubes and cuberoots</span></a></div>
+<ul class="structural toc-item-list active"><li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-cubes-and-cuberoots.html#subsec-methods-for-working-out-cubes" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Methods for working out cubes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-cubes-and-cuberoots.html#subsubsec-finding-cubes-with-a-calculator" class="internal"><span class="codenumber">1.2.1.1</span> <span class="title">Finding cubes with a calculator</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-cubes-and-cuberoots.html#subsubsec-calculating-cubes-with-a-mathematical-table" class="internal"><span class="codenumber">1.2.1.2</span> <span class="title">Calculating cubes with a mathematical table</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-cubes-and-cuberoots.html#subsubsec-working-out-cuberoots-with-a-calculator" class="internal"><span class="codenumber">1.2.1.3</span> <span class="title">Working out cuberoots with a calculator</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-cubes-and-cuberoots.html#subsubsec-working-out-cuberoots-with-a-mathematical-table" class="internal"><span class="codenumber">1.2.1.4</span> <span class="title">Working out cuberoots with a mathematical table</span></a></div></li>
+</ul>
+</li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-indices-and-logarithms.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Indices and Logarithms</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-indices-and-logarithms.html#subsec-expressing-numbers-in-index-form" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Expressing numbers in index form</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-indices-and-logarithms.html#subsec-laws-of-indices" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Laws of indices</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-indices-and-logarithms.html#subsubsec-multiplication-law-of-indices" class="internal"><span class="codenumber">1.3.2.1</span> <span class="title">Multiplication law of indices</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-indices-and-logarithms.html#subsubsec-division-law-of-indices" class="internal"><span class="codenumber">1.3.2.2</span> <span class="title">Division law of indices</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-indices-and-logarithms.html#subsubsec-brackets-with-indices" class="internal"><span class="codenumber">1.3.2.3</span> <span class="title">Brackets with indices</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-indices-and-logarithms.html#subsec-zero-indices" class="internal"><span class="codenumber">1.3.3</span> <span class="title">Zero indices</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-indices-and-logarithms.html#subsec-negative-indices" class="internal"><span class="codenumber">1.3.4</span> <span class="title">Negative indices</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-indices-and-logarithms.html#subsec-fractional-indices" class="internal"><span class="codenumber">1.3.5</span> <span class="title">Fractional indices</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-indices-and-logarithms.html#subsec-application-of-the-laws-of-indices" class="internal"><span class="codenumber">1.3.6</span> <span class="title">Applications of the laws of indices</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-indices-and-logarithms.html#subsec-powers-of-10-and-common-logarithms" class="internal"><span class="codenumber">1.3.7</span> <span class="title">Powers of 10 and common logarithms</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-indices-and-logarithms.html#subsec-using-IT-to-learn-more-on-indices-and-logarithms" class="internal"><span class="codenumber">1.3.8</span> <span class="title">Using IT to learn more on indices and logarithms</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-compound-proportions-and-rates-of-work.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Compound proportions and Rates of work</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-compound-proportions-and-rates-of-work.html#subsec-proportional-parts" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Proportional Parts</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-compound-proportions-and-rates-of-work.html#subsection-relating-different-ratios-in-real-life" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Relating different ratios in real life</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-compound-proportions-and-rates-of-work.html#subsec-working-out-compound-proportions-using-the-ratio-method" class="internal"><span class="codenumber">1.4.3</span> <span class="title">Working out compound proportions using the ratio method</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-compound-proportions-and-rates-of-work.html#subsec-rates-of-work" class="internal"><span class="codenumber">1.4.4</span> <span class="title">Rates of work</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-algebra.html" class="internal"><span class="codenumber">2</span> <span class="title">Algebra</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Matrices.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Matrices</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Matrices.html#subsec-identifying-a-matrix-indifferent-situations" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Identifying a matrix indifferent situations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Matrices.html#subsec-determining-the-order-of-a-matrix-in-different-situations" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Determining the order of a matrix in different situations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Matrices.html#subsec-determining-the-position-of-items-in-a-matrix-in-different-situations" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Determining the position of items in a matrix in different situations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Matrices.html#subsec-determining-compatibility-of-matrices-in-addition-and-subtraction" class="internal"><span class="codenumber">2.1.4</span> <span class="title">Determining compatibility of matrices in addition and subtraction</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Matrices.html#subsec-carry-out-addition-and-subtraction-of-matrices-in-real-life-situations" class="internal"><span class="codenumber">2.1.5</span> <span class="title">Carry out addition and subtraction of matrices in real life situations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Matrices.html#subsec-Reflecting-on-the-use-of-matrices-in-real-life-situations" class="internal"><span class="codenumber">2.1.6</span> <span class="title">Reflecting on the use of matrices in real life situations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-equations-of-a-straight-line.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Equations of a Straight Line</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-equations-of-a-straight-line.html#subsec-identifying-the-gradient-in-real-life-situations" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Identifying the Gradient in Real-Life Situations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-equations-of-a-straight-line.html#subsec-identifying-the-gradient-in-real-life-situations-3" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-equations-of-a-straight-line.html#subsec-gradient-from-two-points" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Determining the Gradient from Two Known Points</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-equations-of-a-straight-line.html#subsec-gradient-from-two-points-3" class="internal"><span class="codenumber">2.2.2.1</span> <span class="title">Worksheet</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-equations-of-a-straight-line.html#subsubsec-gradient-two-point-example" class="internal"><span class="codenumber">2.2.2.2</span> <span class="title">Example: Calculating the Gradient</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-equations-of-a-straight-line.html#subsec-equation-from-two-points" class="internal"><span class="codenumber">2.2.3</span> <span class="title">Determining the Equation of a Line Given Two Points</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-equations-of-a-straight-line.html#subsec-equation-from-two-points-3" class="internal"><span class="codenumber">2.2.3.1</span> <span class="title">Worksheet</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-equations-of-a-straight-line.html#subsubsec-equation-example" class="internal"><span class="codenumber">2.2.3.2</span> <span class="title">Example: Finding the Equation of a Line</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-equations-of-a-straight-line.html#subsec-equation-from-gradient-and-point" class="internal"><span class="codenumber">2.2.4</span> <span class="title">Determining the Equation of a Line from a Known Gradient and a Point</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-equations-of-a-straight-line.html#subsec-equation-from-gradient-and-point-3" class="internal"><span class="codenumber">2.2.4.1</span> <span class="title">Work in Pairs</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-equations-of-a-straight-line.html#subsubsec-equation-known-gradient-example" class="internal"><span class="codenumber">2.2.4.2</span> <span class="title">Example: Writing an Equation from Gradient and Point</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-equations-of-a-straight-line.html#subsec-expressing-equation-y-equals-mx-plus-c" class="internal"><span class="codenumber">2.2.5</span> <span class="title">Expressing the Equation in the Form <span class="process-math">\(y = mx + c\)</span></span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-equations-of-a-straight-line.html#subsec-expressing-equation-y-equals-mx-plus-c-3" class="internal"><span class="codenumber">2.2.5</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-equations-of-a-straight-line.html#subsec-determining-x-and-y-intercepts" class="internal"><span class="codenumber">2.2.6</span> <span class="title">Determining the x- and y-Intercepts of a Line</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-equations-of-a-straight-line.html#subsec-determining-x-and-y-intercepts-3" class="internal"><span class="codenumber">2.2.6</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-equations-of-a-straight-line.html#subsec-real-life-use-of-linear-equations" class="internal"><span class="codenumber">2.2.7</span> <span class="title">The Use of Equations of Straight Lines in Real Life</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-equations-of-a-straight-line.html#subsec-real-life-use-of-linear-equations-3" class="internal"><span class="codenumber">2.2.7</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-linear-inequalities.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Linear Inequalities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-measurements.html" class="internal"><span class="codenumber">3</span> <span class="title">Measurements</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-area.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Area</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-area.html#subsec-area-of-regular-and-irregular-polygons" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Area of regular and irregular polygons</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-area.html#subsubsec-area-of-a-pentagon" class="internal"><span class="codenumber">3.1.1.1</span> <span class="title">Area of a Pentagon</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-area.html#subsubsec-area-of-a-hexagon" class="internal"><span class="codenumber">3.1.1.2</span> <span class="title">Area of a hexagon</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-area.html#subsec-surface-area-of-prism" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Surface area of prism</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-area.html#subsubsec-surface-area-of-triangular-based-prism" class="internal"><span class="codenumber">3.1.2.1</span> <span class="title">Surface area of triangular based prism</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-area.html#subsubsec-surface-area-of-rectangular-based-prism" class="internal"><span class="codenumber">3.1.2.2</span> <span class="title">Surface area of rectangular based prism&gt;</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-area.html#subsec-surface-area-of-pyramids" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Surface area of pyramids</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-area.html#subsubsec-surface-area-of-triangular-based-pyramids" class="internal"><span class="codenumber">3.1.3.1</span> <span class="title">Surface area of triangular, square and rectangular based-pyramids</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-area.html#subsec-area-of-a-part-of-a-circle" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Area of a part of a circle</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-area.html#subsubsec-area-of-a-sector" class="internal"><span class="codenumber">3.1.4.1</span> <span class="title">Area of a sector</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-area.html#subsubsec-area-of-a-segment" class="internal"><span class="codenumber">3.1.4.2</span> <span class="title">Area of a segment"&gt;</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-area.html#subsec-surface-area-of-a-cone" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Surface area of a cone</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-area.html#subsec-surface-area-of-a-sphere" class="internal"><span class="codenumber">3.1.6</span> <span class="title">Surface area of a sphere</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-volume-of-solids.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Volume of Solids</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-volume-of-solids.html#subsec-volume-of-prisms" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Volume of prisms</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-volume-of-solids.html#subsubsec-Volume-of-a-volume-of-a-triangular-based-prism" class="internal"><span class="codenumber">3.2.1.1</span> <span class="title">Volume of triangular based prism</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-volume-of-solids.html#subsubsec-Volume-of-a-volume-of-a-rectangular-based-prism" class="internal"><span class="codenumber">3.2.1.2</span> <span class="title">Volume of rectangular based prism</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-volume-of-solids.html#subsec-volume-of-pyramids" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Volume of pyramids</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-volume-of-solids.html#subsec-volume-of-a-cone" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Volume of a cone</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-volume-of-solids.html#subsec-volume-of-a-frustum" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Volume of a frustum</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-volume-of-solids.html#subsec-volume-of-a-sphere" class="internal"><span class="codenumber">3.2.5</span> <span class="title">Volume of a sphere</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-volume-of-solids.html#subsec-application-of-volume-and-capacity" class="internal"><span class="codenumber">3.2.6</span> <span class="title">Application of volume and capacity</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-mass-volume-weight-and-density.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Mass, Volume, Weight and Density</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-mass-volume-weight-and-density.html#subsec-converting-units-of-mass-from-one-form-to-another" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Converting Units of Mass from One Form to Another</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-mass-volume-weight-and-density.html#subsec-relating-mass-and-weight" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Relating Mass and Weight</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-mass-volume-weight-and-density.html#subsec-mass-volume-and-density" class="internal"><span class="codenumber">3.3.3</span> <span class="title">Mass, Volume and Density</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-time-distance-and-speed.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Time, Distance and Speed</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-time-distance-and-speed.html#subsec-speed-in-km-hr" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Speed in km/hr</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-time-distance-and-speed.html#subsec-speed-in-m-s" class="internal"><span class="codenumber">3.4.2</span> <span class="title">Speed in m/s</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-time-distance-and-speed.html#subsec-average-speed" class="internal"><span class="codenumber">3.4.3</span> <span class="title">Average Speed</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-time-distance-and-speed.html#subsec-velocity" class="internal"><span class="codenumber">3.4.4</span> <span class="title">Velocity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-time-distance-and-speed.html#subsec-accelerati" class="internal"><span class="codenumber">3.4.5</span> <span class="title">Acceleration</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-time-distance-and-speed.html#subsec-identifying-longitudes" class="internal"><span class="codenumber">3.4.6</span> <span class="title">Identifying Longitudes</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-money.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Money</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-money.html#subsec-test4" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Currencies used in different countries.</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-money.html#subsec-conversion-of-currencies-to-kenya-shillings" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Conversion of currencies to Kenya shillings</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-approximations-and-errors.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Approximations and Errors</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-approximations-and-errors.html#subsec-approximation-of-quantities-in-measuremnts" class="internal"><span class="codenumber">3.6.1</span> <span class="title">Approximation of quantities in measurements</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-approximations-and-errors.html#subsec-determine-errors-using-estimations-and-actual-meaasurements-of-quantites" class="internal"><span class="codenumber">3.6.2</span> <span class="title">Determine errors using estimations and actual meaasurements of quantites</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-approximations-and-errors.html#subsec-determine-percentage-errors-using-actual-measurements-of-quantities" class="internal"><span class="codenumber">3.6.3</span> <span class="title">Percentage errror</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-geometry.html" class="internal"><span class="codenumber">4</span> <span class="title">Geometry</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-coordinates-and-graphs.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Coordinates and Graphs</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-coordinates-and-graphs.html#subsec-plotting-out-points-on-a-cartesian-plane" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Plotting Out Points on a Cartesian Plane</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-coordinates-and-graphs.html#subsec-drawing-a-straight-line-graph-given-an-equation" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Drawing a Straight Line Graph Given an Equation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-coordinates-and-graphs.html#subsec-drawing-parallel-lines-on-a-cartesian-plane" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Drawing Parallel Lines on a Cartesian-plane</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-coordinates-and-graphs.html#subsec-relating-the-gradients-of-parallel-lines" class="internal"><span class="codenumber">4.1.4</span> <span class="title">Relating the Gradients of Parallel Lines</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-coordinates-and-graphs.html#subsec-drawing-perpendicular-lines-on-a-cartesian-plane" class="internal"><span class="codenumber">4.1.5</span> <span class="title">Drawing Perpendicular Lines on a Cartesian Plane</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-coordinates-and-graphs.html#subsec-relating-the-gradients-of-perpendicular-lines" class="internal"><span class="codenumber">4.1.6</span> <span class="title">Relating the Gradients of Perpendicular Lines</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-coordinates-and-graphs.html#subsec-applying-graphs-of-straight-lines-in-real-life-situation" class="internal"><span class="codenumber">4.1.7</span> <span class="title">Applying Graphs of Straight Lines in Real Life Situation</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-scale-drawing.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Scale Drawing</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-scale-drawing.html#subsec-identifying-compass-and-true-bearings-in-real-life-situations" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Identifying Compass and True Bearings in Real Life Situations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-scale-drawing.html#subsec-determining-the-bearing-of-one-point-from-another-in-real-life-situations" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Determining the Bearing of One Point From Another in Real Life Situations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-scale-drawing.html#subsec-locating-a-point-using-bearing-and-distance-in-real-life-situations" class="internal"><span class="codenumber">4.2.3</span> <span class="title">Locating a Point Using Bearing and Distance in Real Life Situations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-scale-drawing.html#subsec-identifying-angles-of-elevation-in-real-life-situations" class="internal"><span class="codenumber">4.2.4</span> <span class="title">Identifying Angles of Elevation in Real Life Situations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-scale-drawing.html#subsec-determining-angles-of-elevation-in-different-situations" class="internal"><span class="codenumber">4.2.5</span> <span class="title">Determining Angles of Elevation in Different Situations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-scale-drawing.html#subsec-identifying-angles-of-depression-in-real-life-situations" class="internal"><span class="codenumber">4.2.6</span> <span class="title">Identifying Angles of Depression in Real Life Situations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-scale-drawing.html#subsec-determining-angles-of-depression-in-different-situations" class="internal"><span class="codenumber">4.2.7</span> <span class="title">Determining Angles of Depression in Different Situations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-scale-drawing.html#subsec-applying-scale-drawing-in-simple-surveying" class="internal"><span class="codenumber">4.2.8</span> <span class="title">Applying Scale Drawing in Simple Surveying</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-scale-drawing.html#subsec-appreciating-the-use-of-scale-drawing-in-real-life-situations" class="internal"><span class="codenumber">4.2.9</span> <span class="title">Appreciating the Use of Scale Drawing in Real Life Situations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-similarity-and-enlargement.html" class="internal"><span class="codenumber">4.3</span> <span class="title">similarity-and-enlargement</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-similarity-and-enlargement.html#subsec-identifying-similar-figures-and-their-properties" class="internal"><span class="codenumber">4.3.1</span> <span class="title">Identifying Similar Figures and Their Properties</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-similarity-and-enlargement.html#subsec-drawing-similar-figures-in-different-situations" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Drawing Similar Figures in Different Situations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-similarity-and-enlargement.html#subsec-determining-properties-of-enlargement-of-different-figures" class="internal"><span class="codenumber">4.3.3</span> <span class="title">determining-properties-of-enlargement-of-different-figures</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-similarity-and-enlargement.html#subsec-applying-properties-of-enlargement-to-draw-similar-objects-and-their-images" class="internal"><span class="codenumber">4.3.4</span> <span class="title">Applying Properties of Enlargement to Draw Similar Objects and Their Images</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-similarity-and-enlargement.html#subsec-determining-the-linear-scale-factor-of-similar-figures" class="internal"><span class="codenumber">4.3.5</span> <span class="title">Determining The Linear Scale Factor of Similar Figures</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-trigonomery.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Trigonomery</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trigonomery.html#subsec-identifying-angles-and-sides-of-right-angled-triangles-in-different-situations" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Identifying Angles and Sides of Right Angled Triangles</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-trigonomery.html#subsec-identifying-sine-cosine-and-tangent-ratios-from-a-right-angled-triangle" class="internal"><span class="codenumber">4.4.2</span> <span class="title">Identifying Sine, Cosine and Tangent Ratios from a Right Angled Triangle</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-trigonomery.html#subsubsec-sine-of-an-acute-angle" class="internal"><span class="codenumber">4.4.2.1</span> <span class="title">Sine of an Acute Angle</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-trigonomery.html#subsubsec-cosine-of-acute-angle" class="internal"><span class="codenumber">4.4.2.2</span> <span class="title">Cosine of an Acute Angles</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-trigonomery.html#subsubsec-tangent-of-an-acute-angle" class="internal"><span class="codenumber">4.4.2.3</span> <span class="title">Tangent of an Acute Angle</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-trigonomery.html#subsec-reading-tables-of-trigonometric-ratios-for-acute-angles" class="internal"><span class="codenumber">4.4.3</span> <span class="title">Reading Tables of Trigonometric Ratios For Acute Angles</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-trigonomery.html#subsubsec-table-of-tangents" class="internal"><span class="codenumber">4.4.3.1</span> <span class="title">Table of Tangents</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-trigonomery.html#subsubsec-table-of-sines" class="internal"><span class="codenumber">4.4.3.2</span> <span class="title">Table of Sines</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-trigonomery.html#subsubsec-table-of-cosines" class="internal"><span class="codenumber">4.4.3.3</span> <span class="title">Table of Cosines</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trigonomery.html#subsec-determining-trigonometric-ratios-of-acute-angles-using-calculators" class="internal"><span class="codenumber">4.4.4</span> <span class="title">Determining Trigonometric Ratios of Acute Angles Using Calculators</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trigonomery.html#subsec-applying-trigonometric-ratios-to-calculate-lengths-and-angles-of-right-angled-triangles" class="internal"><span class="codenumber">4.4.5</span> <span class="title">Applying Trigonometric Ratios To Calculate Lengths and Angles of Right Angled- Triangles</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-data-handling-and-probability.html" class="internal"><span class="codenumber">5</span> <span class="title">Data Handling And Probability</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-data_interpretation.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Data Interpretation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-data_interpretation.html#subsec-determining_appropriate_class_width_for_grouping_data" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Determining Appropriate Class Width For Grouping Data</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-data_interpretation.html#subsec-drawing_frequency_distribution_tables_for_grouped_data" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Drawing Frequency Distribution Tables For Grouped Data</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-data_interpretation.html#subsec-identifying_modal_class_of_grouped_data" class="internal"><span class="codenumber">5.1.3</span> <span class="title">Identifying Modal Class of Grouped Data</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-data_interpretation.html#subsec-calculating_mean_of_grouped_data" class="internal"><span class="codenumber">5.1.4</span> <span class="title">Calculating Mean of Grouped Data</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-data_interpretation.html#subsec-determining_the_median_of_grouped_data" class="internal"><span class="codenumber">5.1.5</span> <span class="title">Determining the Median of Grouped Data</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-probability.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Probability</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability.html#subsec-introduction_to_probability" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Introduction to Probability</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability.html#subsec-theoritical_probability" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Theoritical Probability</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability.html#subsec-experimental_probability" class="internal"><span class="codenumber">5.2.3</span> <span class="title">Experimental Probability</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability.html#subsec-exclusive_events" class="internal"><span class="codenumber">5.2.4</span> <span class="title">Exclusive Events</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability.html#subsec-complementary_events" class="internal"><span class="codenumber">5.2.5</span> <span class="title">Complementary Events</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability.html#subsec-independent_events" class="internal"><span class="codenumber">5.2.6</span> <span class="title">Independent Events</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-probability.html#subsec-application_of_probability" class="internal"><span class="codenumber">5.2.7</span> <span class="title">Application of Probability</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-cubes-and-cuberoots"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">1.2</span><span class="space"> </span><span class="title">Cubes and cuberoots</span>
+</h2>
+<section class="introduction" id="sec-cubes-and-cuberoots-2"><div class="para" id="sec-cubes-and-cuberoots-2-1">A cube is a number means that a number is multiplied by itself three times.<div class="autopermalink" data-description="Paragraph"><a href="#sec-cubes-and-cuberoots-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><section class="subsection" id="subsec-methods-for-working-out-cubes"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.2.1</span><span class="space"> </span><span class="title">Methods for working out cubes</span>
+</h3>
+<section class="introduction" id="subsec-methods-for-working-out-cubes-2"><div class="para" id="subsec-methods-for-working-out-cubes-2-1">There are different ways of working out cubes of numbers. They include use of a calculator or a mathematical table.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-methods-for-working-out-cubes-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><section class="subsubsection" id="subsubsec-finding-cubes-with-a-calculator"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">1.2.1.1</span><span class="space"> </span><span class="title">Finding cubes with a calculator</span>
+</h4>
+<div class="para" id="subsubsec-finding-cubes-with-a-calculator-2">Use of a calculator is the easiest and fastest way to calculate cubes of numbers. A cube is simply <span class="process-math">\(x^3\text{.}\)</span> Where <span class="process-math">\(x\)</span> is any numerical value<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-finding-cubes-with-a-calculator-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsubsec-finding-cubes-with-a-calculator-3">While finding the cubes of number, always pay attention to the sign preceeding the number.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-finding-cubes-with-a-calculator-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<article class="activity project-like" id="subsubsec-finding-cubes-with-a-calculator-4"><h5 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.2.1</span><span class="period">.</span>
+</h5>
+<div class="para" id="subsubsec-finding-cubes-with-a-calculator-4-1">
+<span class="process-math">\(\textbf{Work in groups}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-finding-cubes-with-a-calculator-4-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsubsec-finding-cubes-with-a-calculator-4-2">
+<dfn class="terminology">What you need</dfn><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-finding-cubes-with-a-calculator-4-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsubsec-finding-cubes-with-a-calculator-4-3">
+<ul class="disc" id="subsubsec-finding-cubes-with-a-calculator-4-3-1">
+<li id="subsubsec-finding-cubes-with-a-calculator-4-3-1-1">
+<div class="para" id="subsubsec-finding-cubes-with-a-calculator-4-3-1-1-1">
+<span class="process-math">\(5\)</span> Scientific calculators.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-finding-cubes-with-a-calculator-4-3-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsubsec-finding-cubes-with-a-calculator-4-3-1-1" title="Copy permalink for Item">🔗</a></div>
+</li>
+<li id="subsubsec-finding-cubes-with-a-calculator-4-3-1-2">
+<div class="para" id="subsubsec-finding-cubes-with-a-calculator-4-3-1-2-1">
+<span class="process-math">\(5\)</span> Sheets of a paper having <span class="process-math">\(3\)</span>questions on each.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-finding-cubes-with-a-calculator-4-3-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsubsec-finding-cubes-with-a-calculator-4-3-1-2" title="Copy permalink for Item">🔗</a></div>
+</li>
+<li id="subsubsec-finding-cubes-with-a-calculator-4-3-1-3">
+<div class="para" id="subsubsec-finding-cubes-with-a-calculator-4-3-1-3-1">
+<span class="process-math">\(5\)</span> Pens for recording result.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-finding-cubes-with-a-calculator-4-3-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsubsec-finding-cubes-with-a-calculator-4-3-1-3" title="Copy permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-finding-cubes-with-a-calculator-4-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsubsec-finding-cubes-with-a-calculator-4-4">
+<ol class="decimal" id="subsubsec-finding-cubes-with-a-calculator-4-4-1">
+<li id="subsubsec-finding-cubes-with-a-calculator-4-4-1-1">
+<div class="para" id="subsubsec-finding-cubes-with-a-calculator-4-4-1-1-1">The teacher to give the <span class="process-math">\(5\)</span> calculators and <span class="process-math">\(5\)</span> sheets of paper, each containing the mentioned number of questions.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-finding-cubes-with-a-calculator-4-4-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1"><a href="#subsubsec-finding-cubes-with-a-calculator-4-4-1-1" title="Copy permalink for Item 1">🔗</a></div>
+</li>
+<li id="subsubsec-finding-cubes-with-a-calculator-4-4-1-2">
+<div class="para" id="subsubsec-finding-cubes-with-a-calculator-4-4-1-2-1">The teacher to demonstrate to the students how to power on the calculator and students to do the same.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-finding-cubes-with-a-calculator-4-4-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 2"><a href="#subsubsec-finding-cubes-with-a-calculator-4-4-1-2" title="Copy permalink for Item 2">🔗</a></div>
+</li>
+<li id="subsubsec-finding-cubes-with-a-calculator-4-4-1-3">
+<div class="para" id="subsubsec-finding-cubes-with-a-calculator-4-4-1-3-1">Students to select in their groups a person to key in the given questions while the other record the results.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-finding-cubes-with-a-calculator-4-4-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 3"><a href="#subsubsec-finding-cubes-with-a-calculator-4-4-1-3" title="Copy permalink for Item 3">🔗</a></div>
+</li>
+<li id="subsubsec-finding-cubes-with-a-calculator-4-4-1-4">
+<div class="para" id="subsubsec-finding-cubes-with-a-calculator-4-4-1-4-1">The groups to exchange their answer sheets and confirm the answers.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-finding-cubes-with-a-calculator-4-4-1-4-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 4"><a href="#subsubsec-finding-cubes-with-a-calculator-4-4-1-4" title="Copy permalink for Item 4">🔗</a></div>
+</li>
+<li id="subsubsec-finding-cubes-with-a-calculator-4-4-1-5">
+<div class="para" id="subsubsec-finding-cubes-with-a-calculator-4-4-1-5-1">The teacher to cross check the answers.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-finding-cubes-with-a-calculator-4-4-1-5-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 5"><a href="#subsubsec-finding-cubes-with-a-calculator-4-4-1-5" title="Copy permalink for Item 5">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-finding-cubes-with-a-calculator-4-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Activity 1.2.1"><a href="#subsubsec-finding-cubes-with-a-calculator-4" title="Copy permalink for Activity 1.2.1">🔗</a></div></article><article class="example example-like" id="subsubsec-finding-cubes-with-a-calculator-5"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.1</span><span class="period">.</span>
+</h5>
+<div class="para" id="subsubsec-finding-cubes-with-a-calculator-5-1-1">Whale was told to work out the cube of <span class="process-math">\(9\text{.}\)</span>What was his final answer?<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-finding-cubes-with-a-calculator-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="subsubsec-finding-cubes-with-a-calculator-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="subsubsec-finding-cubes-with-a-calculator-5-2-1">
+<div class="displaymath process-math" id="subsubsec-finding-cubes-with-a-calculator-5-2-1-1">
+\begin{align*}
+9\times 9\times 9 =\amp 729 
+\end{align*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-finding-cubes-with-a-calculator-5-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 1.2.1.1"><a href="#subsubsec-finding-cubes-with-a-calculator-5-2" title="Copy permalink for Solution 1.2.1.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 1.2.1"><a href="#subsubsec-finding-cubes-with-a-calculator-5" title="Copy permalink for Example 1.2.1">🔗</a></div></article><article class="example example-like" id="subsubsec-finding-cubes-with-a-calculator-6"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.2</span><span class="period">.</span>
+</h5>
+<div class="para" id="subsubsec-finding-cubes-with-a-calculator-6-1-1">A student is working out the cube of <span class="process-math">\(6\text{.}\)</span> What is the answer obtained?<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-finding-cubes-with-a-calculator-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="subsubsec-finding-cubes-with-a-calculator-6-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="subsubsec-finding-cubes-with-a-calculator-6-2-1">
+<div class="displaymath process-math" id="subsubsec-finding-cubes-with-a-calculator-6-2-1-1">
+\begin{align*}
+6\times 6\times 6 =\amp 216
+\end{align*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-finding-cubes-with-a-calculator-6-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 1.2.2.1"><a href="#subsubsec-finding-cubes-with-a-calculator-6-2" title="Copy permalink for Solution 1.2.2.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 1.2.2"><a href="#subsubsec-finding-cubes-with-a-calculator-6" title="Copy permalink for Example 1.2.2">🔗</a></div></article><div class="autopermalink" data-description="Subsubsection 1.2.1.1: Finding cubes with a calculator"><a href="#subsubsec-finding-cubes-with-a-calculator" title="Copy permalink for Subsubsection 1.2.1.1: Finding cubes with a calculator">🔗</a></div></section><section class="subsubsection" id="subsubsec-calculating-cubes-with-a-mathematical-table"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">1.2.1.2</span><span class="space"> </span><span class="title">Calculating cubes with a mathematical table</span>
+</h4>
+<div class="para" id="subsubsec-calculating-cubes-with-a-mathematical-table-2">Mathematical table is a structured list of numerical data, often showing the results of calculations for different inputs.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-calculating-cubes-with-a-mathematical-table-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<article class="activity project-like" id="subsubsec-calculating-cubes-with-a-mathematical-table-3"><h5 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.2.2</span><span class="period">.</span>
+</h5>
+<div class="para" id="subsubsec-calculating-cubes-with-a-mathematical-table-3-1">
+<span class="process-math">\(\textbf{Work in groups}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-calculating-cubes-with-a-mathematical-table-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsubsec-calculating-cubes-with-a-mathematical-table-3-2">
+<dfn class="terminology">What you need</dfn><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-calculating-cubes-with-a-mathematical-table-3-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsubsec-calculating-cubes-with-a-mathematical-table-3-3">
+<ul class="disc" id="subsubsec-calculating-cubes-with-a-mathematical-table-3-3-1">
+<li id="subsubsec-calculating-cubes-with-a-mathematical-table-3-3-1-1">
+<div class="para" id="subsubsec-calculating-cubes-with-a-mathematical-table-3-3-1-1-1">Mathematical table<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-calculating-cubes-with-a-mathematical-table-3-3-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsubsec-calculating-cubes-with-a-mathematical-table-3-3-1-1" title="Copy permalink for Item">🔗</a></div>
+</li>
+<li id="subsubsec-calculating-cubes-with-a-mathematical-table-3-3-1-2">
+<div class="para" id="subsubsec-calculating-cubes-with-a-mathematical-table-3-3-1-2-1">Sheets of paper containing questions.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-calculating-cubes-with-a-mathematical-table-3-3-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsubsec-calculating-cubes-with-a-mathematical-table-3-3-1-2" title="Copy permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-calculating-cubes-with-a-mathematical-table-3-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsubsec-calculating-cubes-with-a-mathematical-table-3-4">
+<ol class="decimal" id="subsubsec-calculating-cubes-with-a-mathematical-table-3-4-1">
+<li id="subsubsec-calculating-cubes-with-a-mathematical-table-3-4-1-1">
+<div class="para" id="subsubsec-calculating-cubes-with-a-mathematical-table-3-4-1-1-1">Under the teachers guidance, the learners to divide themselves in groups of <span class="process-math">\(5\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-calculating-cubes-with-a-mathematical-table-3-4-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1"><a href="#subsubsec-calculating-cubes-with-a-mathematical-table-3-4-1-1" title="Copy permalink for Item 1">🔗</a></div>
+</li>
+<li id="subsubsec-calculating-cubes-with-a-mathematical-table-3-4-1-2">
+<div class="para" id="subsubsec-calculating-cubes-with-a-mathematical-table-3-4-1-2-1">Let each group pick question paper from the teacher.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-calculating-cubes-with-a-mathematical-table-3-4-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 2"><a href="#subsubsec-calculating-cubes-with-a-mathematical-table-3-4-1-2" title="Copy permalink for Item 2">🔗</a></div>
+</li>
+<li id="subsubsec-calculating-cubes-with-a-mathematical-table-3-4-1-3">
+<div class="para" id="subsubsec-calculating-cubes-with-a-mathematical-table-3-4-1-3-1">Let the teacher pick a random question then demonstrate to the students how to read the value from the mathematical table.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-calculating-cubes-with-a-mathematical-table-3-4-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 3"><a href="#subsubsec-calculating-cubes-with-a-mathematical-table-3-4-1-3" title="Copy permalink for Item 3">🔗</a></div>
+</li>
+<li id="subsubsec-calculating-cubes-with-a-mathematical-table-3-4-1-4">
+<div class="para" id="subsubsec-calculating-cubes-with-a-mathematical-table-3-4-1-4-1">Students in the groups to proceed with attempting the remaining questions.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-calculating-cubes-with-a-mathematical-table-3-4-1-4-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 4"><a href="#subsubsec-calculating-cubes-with-a-mathematical-table-3-4-1-4" title="Copy permalink for Item 4">🔗</a></div>
+</li>
+<li id="subsubsec-calculating-cubes-with-a-mathematical-table-3-4-1-5">
+<div class="para" id="subsubsec-calculating-cubes-with-a-mathematical-table-3-4-1-5-1">The teacher to walk through the groups and validate the answers.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-calculating-cubes-with-a-mathematical-table-3-4-1-5-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 5"><a href="#subsubsec-calculating-cubes-with-a-mathematical-table-3-4-1-5" title="Copy permalink for Item 5">🔗</a></div>
+</li>
+<li id="subsubsec-calculating-cubes-with-a-mathematical-table-3-4-1-6">
+<div class="para" id="subsubsec-calculating-cubes-with-a-mathematical-table-3-4-1-6-1">Students to submit the questions they found challenging and the whole class to participate in solving them.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-calculating-cubes-with-a-mathematical-table-3-4-1-6-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 6"><a href="#subsubsec-calculating-cubes-with-a-mathematical-table-3-4-1-6" title="Copy permalink for Item 6">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-calculating-cubes-with-a-mathematical-table-3-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Activity 1.2.2"><a href="#subsubsec-calculating-cubes-with-a-mathematical-table-3" title="Copy permalink for Activity 1.2.2">🔗</a></div></article><article class="example example-like" id="subsubsec-calculating-cubes-with-a-mathematical-table-4"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.3</span><span class="period">.</span>
+</h5>
+<div class="para" id="subsubsec-calculating-cubes-with-a-mathematical-table-4-1-1">Using the table below, calculate the cube of <span class="process-math">\(2.0\)</span> and <span class="process-math">\(1.3\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-calculating-cubes-with-a-mathematical-table-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="subsubsec-calculating-cubes-with-a-mathematical-table-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<figure class="figure figure-like" id="table-cubes"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/cubestable.png" class="contained" alt="Table for working out cubes ranging from 1.0 t0 2.8"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.2.4<span class="period">.</span></span><span class="space"> </span>Table for cubes<div class="autopermalink" data-description="Figure 1.2.4"><a href="#table-cubes" title="Copy permalink for Figure 1.2.4">🔗</a></div></figcaption></figure><div class="para logical" id="subsubsec-calculating-cubes-with-a-mathematical-table-4-2-2">
+<ol class="decimal" id="subsubsec-calculating-cubes-with-a-mathematical-table-4-2-2-1">
+<li id="subsubsec-calculating-cubes-with-a-mathematical-table-4-2-2-1-1">
+<div class="para" id="subsubsec-calculating-cubes-with-a-mathematical-table-4-2-2-1-1-1">Move down along the column headed <span class="process-math">\('x'\)</span> and locate the number <span class="process-math">\(2.0\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-calculating-cubes-with-a-mathematical-table-4-2-2-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1"><a href="#subsubsec-calculating-cubes-with-a-mathematical-table-4-2-2-1-1" title="Copy permalink for Item 1">🔗</a></div>
+</li>
+<li id="subsubsec-calculating-cubes-with-a-mathematical-table-4-2-2-1-2">
+<div class="para" id="subsubsec-calculating-cubes-with-a-mathematical-table-4-2-2-1-2-1">Move to the right along this row, where it intersects with the colum headed <span class="process-math">\('0'\)</span> in the second section.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-calculating-cubes-with-a-mathematical-table-4-2-2-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 2"><a href="#subsubsec-calculating-cubes-with-a-mathematical-table-4-2-2-1-2" title="Copy permalink for Item 2">🔗</a></div>
+</li>
+<li id="subsubsec-calculating-cubes-with-a-mathematical-table-4-2-2-1-3">
+<div class="para" id="subsubsec-calculating-cubes-with-a-mathematical-table-4-2-2-1-3-1">Pick the next question <span class="process-math">\(1.34\text{.}\)</span> Move down along the column headed <span class="process-math">\(x\)</span> vertically and locate <span class="process-math">\(1.3\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-calculating-cubes-with-a-mathematical-table-4-2-2-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 3"><a href="#subsubsec-calculating-cubes-with-a-mathematical-table-4-2-2-1-3" title="Copy permalink for Item 3">🔗</a></div>
+</li>
+<li id="subsubsec-calculating-cubes-with-a-mathematical-table-4-2-2-1-4">
+<div class="para" id="subsubsec-calculating-cubes-with-a-mathematical-table-4-2-2-1-4-1">Move horizontally on column headed <span class="process-math">\(x\)</span> to where <span class="process-math">\(4\)</span> is located and mark where it intersects with <span class="process-math">\(1.3\text{.}\)</span> The  answer obtained is <span class="process-math">\(2.406\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-calculating-cubes-with-a-mathematical-table-4-2-2-1-4-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 4"><a href="#subsubsec-calculating-cubes-with-a-mathematical-table-4-2-2-1-4" title="Copy permalink for Item 4">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-calculating-cubes-with-a-mathematical-table-4-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 1.2.3.1"><a href="#subsubsec-calculating-cubes-with-a-mathematical-table-4-2" title="Copy permalink for Solution 1.2.3.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 1.2.3"><a href="#subsubsec-calculating-cubes-with-a-mathematical-table-4" title="Copy permalink for Example 1.2.3">🔗</a></div></article><div class="autopermalink" data-description="Subsubsection 1.2.1.2: Calculating cubes with a mathematical table"><a href="#subsubsec-calculating-cubes-with-a-mathematical-table" title="Copy permalink for Subsubsection 1.2.1.2: Calculating cubes with a mathematical table">🔗</a></div></section><section class="subsubsection" id="subsubsec-working-out-cuberoots-with-a-calculator"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">1.2.1.3</span><span class="space"> </span><span class="title">Working out cuberoots with a calculator</span>
+</h4>
+<div class="para" id="subsubsec-working-out-cuberoots-with-a-calculator-2">A calculator is also the fastest way of performing this operation. The cuberoot symbol is <span class="process-math">\(\sqrt[3]{x}\text{.}\)</span> Where <span class="process-math">\(x\)</span> is any number.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-working-out-cuberoots-with-a-calculator-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<article class="activity project-like" id="subsubsec-working-out-cuberoots-with-a-calculator-3"><h5 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.2.3</span><span class="period">.</span>
+</h5>
+<div class="para" id="subsubsec-working-out-cuberoots-with-a-calculator-3-1">
+<span class="process-math">\(\textbf{Work in groups}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-working-out-cuberoots-with-a-calculator-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsubsec-working-out-cuberoots-with-a-calculator-3-2">
+<dfn class="terminology">What you need</dfn><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-working-out-cuberoots-with-a-calculator-3-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsubsec-working-out-cuberoots-with-a-calculator-3-3">
+<ul class="disc" id="subsubsec-working-out-cuberoots-with-a-calculator-3-3-1">
+<li id="subsubsec-working-out-cuberoots-with-a-calculator-3-3-1-1">
+<div class="para" id="subsubsec-working-out-cuberoots-with-a-calculator-3-3-1-1-1">A set number of items<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-working-out-cuberoots-with-a-calculator-3-3-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsubsec-working-out-cuberoots-with-a-calculator-3-3-1-1" title="Copy permalink for Item">🔗</a></div>
+</li>
+<li id="subsubsec-working-out-cuberoots-with-a-calculator-3-3-1-2">
+<div class="para" id="subsubsec-working-out-cuberoots-with-a-calculator-3-3-1-2-1">Sheet of paper containing questions<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-working-out-cuberoots-with-a-calculator-3-3-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsubsec-working-out-cuberoots-with-a-calculator-3-3-1-2" title="Copy permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-working-out-cuberoots-with-a-calculator-3-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsubsec-working-out-cuberoots-with-a-calculator-3-4">
+<ol class="decimal" id="subsubsec-working-out-cuberoots-with-a-calculator-3-4-1">
+<li id="subsubsec-working-out-cuberoots-with-a-calculator-3-4-1-1">
+<div class="para" id="subsubsec-working-out-cuberoots-with-a-calculator-3-4-1-1-1">Under the teachers guidance, the learners to divide themselves in groups of <span class="process-math">\(5\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-working-out-cuberoots-with-a-calculator-3-4-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1"><a href="#subsubsec-working-out-cuberoots-with-a-calculator-3-4-1-1" title="Copy permalink for Item 1">🔗</a></div>
+</li>
+<li id="subsubsec-working-out-cuberoots-with-a-calculator-3-4-1-2">
+<div class="para" id="subsubsec-working-out-cuberoots-with-a-calculator-3-4-1-2-1">Ask students to arrange the items into 3D cubes with equal length, width, and height.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-working-out-cuberoots-with-a-calculator-3-4-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 2"><a href="#subsubsec-working-out-cuberoots-with-a-calculator-3-4-1-2" title="Copy permalink for Item 2">🔗</a></div>
+</li>
+<li id="subsubsec-working-out-cuberoots-with-a-calculator-3-4-1-3">
+<div class="para" id="subsubsec-working-out-cuberoots-with-a-calculator-3-4-1-3-1">Have students count how many items make one edge of the cube. That number is the cube root.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-working-out-cuberoots-with-a-calculator-3-4-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 3"><a href="#subsubsec-working-out-cuberoots-with-a-calculator-3-4-1-3" title="Copy permalink for Item 3">🔗</a></div>
+</li>
+<li id="subsubsec-working-out-cuberoots-with-a-calculator-3-4-1-4">
+<div class="para" id="subsubsec-working-out-cuberoots-with-a-calculator-3-4-1-4-1">Teacher to provide groups with random numbers of items <span class="process-math">\(50\)</span> or <span class="process-math">\(100\)</span> to estimate the closest cube root.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-working-out-cuberoots-with-a-calculator-3-4-1-4-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 4"><a href="#subsubsec-working-out-cuberoots-with-a-calculator-3-4-1-4" title="Copy permalink for Item 4">🔗</a></div>
+</li>
+<li id="subsubsec-working-out-cuberoots-with-a-calculator-3-4-1-5">
+<div class="para" id="subsubsec-working-out-cuberoots-with-a-calculator-3-4-1-5-1">Share results, talk about patterns, and relate cube roots to real-life 3D objects.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-working-out-cuberoots-with-a-calculator-3-4-1-5-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 5"><a href="#subsubsec-working-out-cuberoots-with-a-calculator-3-4-1-5" title="Copy permalink for Item 5">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-working-out-cuberoots-with-a-calculator-3-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Activity 1.2.3"><a href="#subsubsec-working-out-cuberoots-with-a-calculator-3" title="Copy permalink for Activity 1.2.3">🔗</a></div></article><article class="example example-like" id="subsubsec-working-out-cuberoots-with-a-calculator-4"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.5</span><span class="period">.</span>
+</h5>
+<div class="para" id="subsubsec-working-out-cuberoots-with-a-calculator-4-1-1">A farmer packed <span class="process-math">\(125, \text {oranges}\)</span> into small square boxes. He wants to stack the boxes in the shape of a cube so that each side of the cube has the same number of boxes. How many boxes will be on one edge of the cube?<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-working-out-cuberoots-with-a-calculator-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="subsubsec-working-out-cuberoots-with-a-calculator-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="subsubsec-working-out-cuberoots-with-a-calculator-4-2-1">
+<div class="displaymath process-math" id="subsubsec-working-out-cuberoots-with-a-calculator-4-2-1-1">
+\begin{gather*}
+\sqrt[3]{125} = 5 \ 
+\end{gather*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-working-out-cuberoots-with-a-calculator-4-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 1.2.5.1"><a href="#subsubsec-working-out-cuberoots-with-a-calculator-4-2" title="Copy permalink for Solution 1.2.5.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 1.2.5"><a href="#subsubsec-working-out-cuberoots-with-a-calculator-4" title="Copy permalink for Example 1.2.5">🔗</a></div></article><article class="example example-like" id="subsubsec-working-out-cuberoots-with-a-calculator-5"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.6</span><span class="period">.</span>
+</h5>
+<div class="para" id="subsubsec-working-out-cuberoots-with-a-calculator-5-1-1">A farmer packed <span class="process-math">\(1000, \text {guavas}\)</span> into small square boxes. He wants to stack the boxes in the shape of a cube so that each side of the cube has the same number of boxes. How many boxes will be on one edge of the cube?<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-working-out-cuberoots-with-a-calculator-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="subsubsec-working-out-cuberoots-with-a-calculator-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="subsubsec-working-out-cuberoots-with-a-calculator-5-2-1">
+<div class="displaymath process-math" id="subsubsec-working-out-cuberoots-with-a-calculator-5-2-1-1">
+\begin{gather*}
+\sqrt[3]{1000} = 10\ 
+\end{gather*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-working-out-cuberoots-with-a-calculator-5-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 1.2.6.1"><a href="#subsubsec-working-out-cuberoots-with-a-calculator-5-2" title="Copy permalink for Solution 1.2.6.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 1.2.6"><a href="#subsubsec-working-out-cuberoots-with-a-calculator-5" title="Copy permalink for Example 1.2.6">🔗</a></div></article><div class="autopermalink" data-description="Subsubsection 1.2.1.3: Working out cuberoots with a calculator"><a href="#subsubsec-working-out-cuberoots-with-a-calculator" title="Copy permalink for Subsubsection 1.2.1.3: Working out cuberoots with a calculator">🔗</a></div></section><section class="subsubsection" id="subsubsec-working-out-cuberoots-with-a-mathematical-table"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">1.2.1.4</span><span class="space"> </span><span class="title">Working out cuberoots with a mathematical table</span>
+</h4>
+<div class="para" id="subsubsec-working-out-cuberoots-with-a-mathematical-table-2">In this section, a mathematical table is used to calculate the given values<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<article class="activity project-like" id="subsubsec-working-out-cuberoots-with-a-mathematical-table-3"><h5 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.2.4</span><span class="period">.</span>
+</h5>
+<div class="para" id="subsubsec-working-out-cuberoots-with-a-mathematical-table-3-1">
+<span class="process-math">\(\textbf{Work in groups}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsubsec-working-out-cuberoots-with-a-mathematical-table-3-2">
+<dfn class="terminology">What you need</dfn><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-3-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsubsec-working-out-cuberoots-with-a-mathematical-table-3-3">
+<ul class="disc" id="subsubsec-working-out-cuberoots-with-a-mathematical-table-3-3-1">
+<li id="subsubsec-working-out-cuberoots-with-a-mathematical-table-3-3-1-1">
+<div class="para" id="subsubsec-working-out-cuberoots-with-a-mathematical-table-3-3-1-1-1">Mathematical table.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-3-3-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-3-3-1-1" title="Copy permalink for Item">🔗</a></div>
+</li>
+<li id="subsubsec-working-out-cuberoots-with-a-mathematical-table-3-3-1-2">
+<div class="para" id="subsubsec-working-out-cuberoots-with-a-mathematical-table-3-3-1-2-1">
+<span class="process-math">\(4\)</span> pieces of paper.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-3-3-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-3-3-1-2" title="Copy permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-3-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsubsec-working-out-cuberoots-with-a-mathematical-table-3-4">
+<ol class="decimal" id="subsubsec-working-out-cuberoots-with-a-mathematical-table-3-4-1">
+<li id="subsubsec-working-out-cuberoots-with-a-mathematical-table-3-4-1-1">
+<div class="para" id="subsubsec-working-out-cuberoots-with-a-mathematical-table-3-4-1-1-1">Under the teachers guidance, the learners to divide themselves in groups of <span class="process-math">\(5\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-3-4-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-3-4-1-1" title="Copy permalink for Item 1">🔗</a></div>
+</li>
+<li id="subsubsec-working-out-cuberoots-with-a-mathematical-table-3-4-1-2">
+<div class="para" id="subsubsec-working-out-cuberoots-with-a-mathematical-table-3-4-1-2-1">Let each group pick question paper from the teacher.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-3-4-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 2"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-3-4-1-2" title="Copy permalink for Item 2">🔗</a></div>
+</li>
+<li id="subsubsec-working-out-cuberoots-with-a-mathematical-table-3-4-1-3">
+<div class="para" id="subsubsec-working-out-cuberoots-with-a-mathematical-table-3-4-1-3-1">Let the teacher pick a random question then demonstrate to the students how to read the value from the mathematical table.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-3-4-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 3"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-3-4-1-3" title="Copy permalink for Item 3">🔗</a></div>
+</li>
+<li id="subsubsec-working-out-cuberoots-with-a-mathematical-table-3-4-1-4">
+<div class="para" id="subsubsec-working-out-cuberoots-with-a-mathematical-table-3-4-1-4-1">Students in the groups to proceed with attempting the remaining questions.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-3-4-1-4-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 4"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-3-4-1-4" title="Copy permalink for Item 4">🔗</a></div>
+</li>
+<li id="subsubsec-working-out-cuberoots-with-a-mathematical-table-3-4-1-5">
+<div class="para" id="subsubsec-working-out-cuberoots-with-a-mathematical-table-3-4-1-5-1">The teacher to walk through the groups and validate the answers.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-3-4-1-5-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 5"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-3-4-1-5" title="Copy permalink for Item 5">🔗</a></div>
+</li>
+<li id="subsubsec-working-out-cuberoots-with-a-mathematical-table-3-4-1-6">
+<div class="para" id="subsubsec-working-out-cuberoots-with-a-mathematical-table-3-4-1-6-1">Students to submit the questions they found challenging and the whole class to participate in solving them.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-3-4-1-6-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 6"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-3-4-1-6" title="Copy permalink for Item 6">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-3-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Activity 1.2.4"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-3" title="Copy permalink for Activity 1.2.4">🔗</a></div></article><article class="example example-like" id="subsubsec-working-out-cuberoots-with-a-mathematical-table-4"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.7</span><span class="period">.</span>
+</h5>
+<div class="para" id="subsubsec-working-out-cuberoots-with-a-mathematical-table-4-1-1">Using the table below, calculate the cuberoot of <span class="process-math">\(27\)</span> and <span class="process-math">\(10.82\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<figure class="figure figure-like" id="cubes-table"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/cubestable2.png" class="contained" alt="Cube table for working out cuberoots of 27 and 10.82"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.2.8<span class="period">.</span></span><span class="space"> </span>Table for cubes<div class="autopermalink" data-description="Figure 1.2.8"><a href="#cubes-table" title="Copy permalink for Figure 1.2.8">🔗</a></div></figcaption></figure><div class="para logical" id="subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2-2">
+<ol class="decimal" id="subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2-2-1">
+<li id="subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2-2-1-1">
+<div class="para" id="subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2-2-1-1-1">Using the table of cubes, locate <span class="process-math">\(27\)</span> in the middle section.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2-2-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2-2-1-1" title="Copy permalink for Item 1">🔗</a></div>
+</li>
+<li id="subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2-2-1-2">
+<div class="para" id="subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2-2-1-2-1">
+<span class="process-math">\(27\)</span> is in the row header <span class="process-math">\(3\)</span> and column headed <span class="process-math">\(0\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2-2-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 2"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2-2-1-2" title="Copy permalink for Item 2">🔗</a></div>
+</li>
+<li id="subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2-2-1-3">
+<div class="para" id="subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2-2-1-3-1">Hence the cuberoot of <span class="process-math">\(27\)</span> is <span class="process-math">\(3\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2-2-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 3"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2-2-1-3" title="Copy permalink for Item 3">🔗</a></div>
+</li>
+<li id="subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2-2-1-4">
+<div class="para" id="subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2-2-1-4-1">For the second question, look for <span class="process-math">\(10.82\text{.}\)</span> Since it does not appear look for the number nearest to it that is <span class="process-math">\(10.794\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2-2-1-4-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 4"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2-2-1-4" title="Copy permalink for Item 4">🔗</a></div>
+</li>
+<li id="subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2-2-1-5">
+<div class="para" id="subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2-2-1-5-1">The number <span class="process-math">\(10.794\)</span> is in the row headed <span class="process-math">\(2.2\)</span> and the column headed <span class="process-math">\(1\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2-2-1-5-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 5"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2-2-1-5" title="Copy permalink for Item 5">🔗</a></div>
+</li>
+<li id="subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2-2-1-6">
+<div class="para logical" id="subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2-2-1-6-1">
+<div class="para">Find the difference between <span class="process-math">\(10.82\)</span> and <span class="process-math">\(10.794\text{.}\)</span> That is :</div>
+<div class="displaymath process-math" id="subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2-2-1-6-1-3">
+\begin{align*}
+10.82-10.794 =\amp 0.026 
+\end{align*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2-2-1-6-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 6"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2-2-1-6" title="Copy permalink for Item 6">🔗</a></div>
+</li>
+<li id="subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2-2-1-7">
+<div class="para" id="subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2-2-1-7-1">Move along the same row to the difference column and look for the number <span class="process-math">\(26\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2-2-1-7-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 7"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2-2-1-7" title="Copy permalink for Item 7">🔗</a></div>
+</li>
+<li id="subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2-2-1-8">
+<div class="para" id="subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2-2-1-8-1">Since <span class="process-math">\(26\)</span> does not appear, look for the closest number that is <span class="process-math">\(30\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2-2-1-8-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 8"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2-2-1-8" title="Copy permalink for Item 8">🔗</a></div>
+</li>
+<li id="subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2-2-1-9">
+<div class="para" id="subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2-2-1-9-1">Note the number at the head of the column where <span class="process-math">\(30\)</span> is located, combine it with <span class="process-math">\(2.21\)</span> to get <span class="process-math">\(2.212\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2-2-1-9-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 9"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2-2-1-9" title="Copy permalink for Item 9">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 1.2.7.1"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-4-2" title="Copy permalink for Solution 1.2.7.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 1.2.7"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table-4" title="Copy permalink for Example 1.2.7">🔗</a></div></article><div class="autopermalink" data-description="Subsubsection 1.2.1.4: Working out cuberoots with a mathematical table"><a href="#subsubsec-working-out-cuberoots-with-a-mathematical-table" title="Copy permalink for Subsubsection 1.2.1.4: Working out cuberoots with a mathematical table">🔗</a></div></section><div class="autopermalink" data-description="Subsection 1.2.1: Methods for working out cubes"><a href="#subsec-methods-for-working-out-cubes" title="Copy permalink for Subsection 1.2.1: Methods for working out cubes">🔗</a></div></section><div class="autopermalink" data-description="Section 1.2: Cubes and cuberoots"><a href="#sec-cubes-and-cuberoots" title="Copy permalink for Section 1.2: Cubes and cuberoots">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="sec-sec-integers.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-indices-and-logarithms.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>
