@@ -9,34 +9,52 @@
                     <p>
                         Below is frequency distributiion table showing the marks of learners in a class out of 100 points.
                     </p>
-                        <tabular top="medium" bottom="medium" left="medium" right="medium">
-                            <row>
-                                <cell>Marks</cell>
-                                <cell>0-10</cell>
-                                <cell>11-19</cell>
-                                <cell>20-29</cell>
-                                <cell>30-39</cell>
-                                <cell>40-49</cell>
-                                <cell>50-59</cell>
-                                <cell>60-69</cell>
-                                <cell>70-79</cell>
-                                <cell>80-89</cell>
-                                <cell>90-100</cell>
-                            </row>
-                            <row>
-                                <cell>Frequency</cell>
-                                <cell>0</cell>
-                                <cell>0</cell>
-                                <cell>1</cell>
-                                <cell>3</cell>
-                                <cell>1</cell>
-                                <cell>3</cell>
-                                <cell>23</cell>
-                                <cell>15</cell>
-                                <cell>15</cell>
-                                <cell>9</cell>
-                            </row>
-                        </tabular>
+                    <tabular top="medium" bottom="medium" left="medium" right="medium">
+                        <row header="yes">
+                            <cell>Marks</cell>
+                            <cell>Frequency</cell>
+                        </row>
+                        <row>
+                            <cell>0-10</cell>
+                            <cell halign="center">0</cell>
+                        </row>
+                        <row>
+                            <cell>11-19</cell>
+                            <cell halign="center">0</cell>
+                        </row>
+                        <row>
+                            <cell>20-29</cell>
+                            <cell halign="center">1</cell>
+                        </row>
+                        <row>
+                            <cell>30-39</cell>
+                            <cell halign="center">3</cell>
+                        </row>
+                        <row>
+                            <cell>40-49</cell>
+                            <cell halign="center">1</cell>
+                        </row>
+                        <row>
+                            <cell>50-59</cell>
+                            <cell halign="center">3</cell>
+                        </row>
+                        <row>
+                            <cell>60-69</cell>
+                            <cell halign="center">23</cell>
+                        </row>
+                        <row>
+                            <cell>80-89</cell>
+                            <cell halign="center">15</cell>
+                        </row>
+                        <row>
+                            <cell>70-79</cell>
+                            <cell halign="center">15</cell>
+                        </row>
+                        <row>
+                            <cell>90-100</cell>
+                            <cell halign="center">9</cell>
+                        </row>
+                    </tabular>
                 </li>
             </ol>
         </p>
