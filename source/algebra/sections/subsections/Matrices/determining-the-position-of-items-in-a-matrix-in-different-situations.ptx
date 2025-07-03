@@ -1,6 +1,77 @@
 <subsection xml:id="subsec-determining-the-position-of-items-in-a-matrix-in-different-situations">
-    <title>Determining the position of items in a matrix in different situations</title>
+    <title>Determining the Position of Items in a Matrix in Different Situations</title>
     <p>
-
+        Every number or item in a matrix has a special place, just like a seat in a classroom or a product on a shelf. We use the row and column numbers to find the exact position of each item. This helps us quickly locate information in tables, scoreboards, or lists.
     </p>
+    <p>
+        <m>Did you know?</m> The position of an item in a matrix is written as (row, column). For example, (2,3) means row 2, column 3.
+    </p>
+    <activity>
+        <p>
+            <m>\textbf{Map Matrix Adventure}</m>
+        </p>
+        <p>
+            Imagine a 3×3 grid representing a simple map. Each cell can have a value: 0 (empty), 1 (tree), 2 (house), 3 (treasure). The map is represented by the following matrix:
+        </p>
+        <p>
+            <m>
+            M = \begin{bmatrix}
+            0 &amp; 1 &amp; 0 \\
+            2 &amp; 3 &amp; 1 \\
+            0 &amp; 2 &amp; 0 \\
+            \end{bmatrix}
+            </m>
+        </p>
+        <p>
+            <ol>
+                <li>What is at position (2,2)? What does it represent?</li>
+                <li>List all the positions where there is a house.</li>
+                <li>If you start at (1,1) and move to (2,2), what do you find?</li>
+                <li>Draw a simple sketch of the map using the matrix values as symbols.</li>
+            </ol>
+        </p>
+    </activity>
+    <p>
+        <term>Key Take Away</term>
+    </p>
+    <p>
+        The position (row, column) helps us locate and understand data in real-life matrices, maps, and grids. It makes finding information quick and fun!
+    </p>
+    <example>
+        <statement>
+            <p>Let's solve the map matrix puzzle:</p>
+            <p>
+                <m>
+                M = \begin{bmatrix}
+                0 &amp; 1 &amp; 0 \\
+                2 &amp; 3 &amp; 1 \\
+                0 &amp; 2 &amp; 0 \\
+                \end{bmatrix}
+                </m>
+            </p>
+            <p>1. <m>\textbf{What is at position (2,2)?}</m> The value is 3, which represents the treasure.</p>
+            <p>2. <m>\textbf{List all the positions where there is a house (2):}</m></p>
+            <p>
+                <ul>
+                    <li>(2,1)</li>
+                    <li>(3,2)</li>
+                </ul>
+            </p>
+            <p>3. <m>\textbf{If you start at (1,1) and move to (2,2), what do you find?}</m> You find the treasure!</p>
+            <p>4. <m>\textbf{Draw a simple sketch of the map:}</m> (Students draw a 3×3 grid and use symbols for each value: 0=empty, 1=tree, 2=house, 3=treasure.)</p>
+        </statement>
+        <solution>
+            <p>Step 1: Look up the value at (2,2):</p>
+            <p>The value is 3 (<m>\textbf{treasure}</m>).</p>
+            <p>Step 2: Find all positions with value 2 (house):</p>
+            <p>
+                <ul>
+                    <li>(2,1)</li>
+                    <li>(3,2)</li>
+                </ul>
+            </p>
+            <p>Step 3: Moving from (1,1) to (2,2) leads to the treasure.</p>
+            <p>Step 4: Students draw a grid and fill in the symbols for each value.</p>
+        </solution>
+    </example>
 </subsection>

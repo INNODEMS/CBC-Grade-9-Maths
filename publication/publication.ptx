@@ -38,7 +38,7 @@
 
     <!-- QR code image: set path to an image to put in center of QR codes -->
       <!-- <qrcode image="image.png" /> -->
-  </common>
+  </common>=
 
 
   <!-- Set where external assets and generated assets will be   -->
