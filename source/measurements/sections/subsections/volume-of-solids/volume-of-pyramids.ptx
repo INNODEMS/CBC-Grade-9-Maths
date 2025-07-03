@@ -1,7 +1,493 @@
 <subsection xml:id="subsec-volume-of-pyramids">
     <title>Volume of pyramids</title>
+    
+    <definition xml:id="def-Volume-of-pyramids">
+        <statement>
+            <p>
+                A <m>\textbf{pyramid}</m> is a solid shape that has a 
+                flat base and triangular sides that meet at a point at the top, called the apex.
+            </p>
+            <p>
+                The volume of a pyramid is the amount of space it occupies. 
+                
+            </p>
+        </statement>
+    </definition>
+    <activity>
+        <p>
+            <m>\textbf{Work in groups}</m>
+        </p>
+        <p>
+            <term>What you need</term>
+        </p>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        A ruler, a pencil, and a piece of paper.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        A model of a net pyramid (you can make one using paper or cardboard).
+                    </p>
+                </li>
+            </ul>
+        </p>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Using the ruler, construct the net square base pyramid on the paper like the one shown below.
+                    </p>
+                    <figure xml:id="fig-square-base-pyramid">
+                        <caption>A square base of a pyramid</caption>
+                        <image width="60%">
+                        <latex-image label="Square-base-pyramid">
+                            \begin{tikzpicture}[scale=1]
+                                % Draw square base (diamond orientation)
+                                \draw [very thick,fill=cyan!30] (-4,0)--(0,4)--(4,0)--(0,-4)--cycle;
+
+                                % Add right angle markers to square base
+                                % Bottom left corner (-4,0)
+                                \draw (-4,0) -- ++(0.4,0) -- ++(0,0.4);
+
+                                % Top corner (0,4)
+                                \draw (0,4) -- ++(0,-0.4) -- ++(-0.4,0);
+
+                                % Bottom right corner (4,0)
+                                \draw (4,0) -- ++(-0.4,0) -- ++(0,-0.4);
+
+                                % Bottom corner (0,-4)
+                                \draw (0,-4) -- ++(0,0.4) -- ++(0.4,0);
+
+                                % Draw left triangle
+                                \draw [very thick,blue] (0,4) -- (-4,8) -- (-8,0) -- (-4,0) -- (-4,8);
+
+                                % Draw right triangle
+                                \draw [very thick,blue] (0,4) -- (4,8) -- (8,0) -- (4,0) -- (4,8);
+
+                                % Adjusted cross lines for congruency marks on left triangle
+                                \draw[very thick] (6,3.3) --(6.5,4);
+                                \draw[very thick] (6.2,3.3) --(6.7,4);
+                                % Adjusted cross lines for congruency marks on right triangle
+
+
+                                \draw[very thick] (-6,3.3) --(-6.5,4);
+                                \draw[very thick] (-6.2,3.3) --(-6.7,4);
+
+                                % Labelling square sides
+                                \node [above left] at (-2,2) {14 cm};
+                                \node [below left] at (-2,-2) {14 cm};
+                                \node [below right] at (2,-2) {14 cm};
+                                \node [above right] at (2,2) {14 cm};
+
+                                % Labelling left triangle base
+                                \node [below] at (-6,0) {14 cm};
+
+                                % Labelling right triangle base
+                                \node [below] at (6,0) {14 cm};
+
+                                % Labelling triangle sides
+                                \node [left] at (-2,6) {14 cm};
+                                \node [right] at (2,6) {14 cm};
+
+                            \end{tikzpicture}
+                        </latex-image>
+                            
+                        </image>
+                    </figure>
+                </li>
+                <li>
+                    <p>
+                        Construct three such nets and fold them
+                        to form three pyramids.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Assemble them
+                        to make a cube.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        What is the volume of the cube you
+                        have made from the pyramids?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        What is the volume of one pyramid?
+                    </p>
+                    <p>
+                        What do you notice about the relationship between the volume of the cube and the volume of one pyramid?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Discuss your findings with other groups.
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <p>
+            <m>\textbf{Activity 2}</m>
+        </p>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Use this worksheet below to practice finding the Volume of a Triangular Pyramid. 
+                    </p>
+                    
+                </li>
+                <li>
+                    <p>
+                        Adjust the height, base, and base_1 using the labeled sliders. 
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Answer the questions below. <m>\textbf{Use the multi-colored switches to check your work.}</m>
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <figure >
+            <caption>Volume of a triangular pyramid</caption>
+            <interactive xml:id="geogebra-volume-of-a-triangular-pyramid" platform="geogebra" width="100%">
+            <slate xml:id="Volume-of-a-triangular-pyramid" surface="geogebra" material="pw7zfnz2" aspect="11:13" >
+                enableShiftDragZoom(true);
+                showResetIcon(true);
+            </slate>
+            </interactive>
+        </figure>
+    </activity>
     <p>
-        Pyramids.
+        <m>\textbf{Key Takeaway}</m>
     </p>
+    <p>
+        The volume of a pyramid is one-third the area of its base multiplied by its height. 
+        This means that if you know the area of the base and the height, you can easily find the volume.
+    </p>
+    <p>
+        Therefore, the volume of each pyramid
+        is given by;
+    </p>
+    <p>
+        <m>\textbf{Volume}= \frac{1}{3}(\text{Base Area(A)} \times \text{Height(h)})</m>
+    </p>
+    <p>
+        Which can be written as;
+    </p>
+    <p>
+        <m>\textbf{Volume}= \frac{1}{3}(\text{A} \times \text{h})</m>
+    </p>
+    <p>
+        Where, where <m>\textbf{A}</m> is the area of the base and <m>\textbf{h}</m> the
+       perpendicular height of the pyramid
+    </p>
+
+
+    <example>
+        <statement>
+            <p>
+                Find the volume of te figure below.
+            </p>
+            <image width="50%">
+            <latex-image label="Volume-of-pyramid-example">
+                \begin{tikzpicture}
+                    % Base rectangle (6 cm length along x-axis, 4 cm width along y-axis)
+                    \draw[very thick,fill=cyan] (0,0) -- (6,0) -- (6,4) -- (0,4) -- cycle;
+
+
+
+                    % Sides to apex
+                    \draw[very thick] (0,0) -- (3,6);
+                    \draw[very thick] (6,0) -- (3,6);
+                    \draw[very thick] (6,4) -- (3,6);
+                    \draw[very thick] (0,4) -- (3,6);
+
+                    % Dashed height from base centre to apex
+                    \draw[very thick,dashed] (3,2) -- (3,6);
+
+                    % Label the height
+                    \node[right] at (3,3) {8 cm};
+
+                    % Label base dimensions
+                    % Length (6 cm)
+
+                    \node at (3,-0.5) {6 cm};
+
+                    % Width (4 cm)
+
+                    \node[rotate=90] at (-1,2) {4 cm};
+
+                \end{tikzpicture}
+            </latex-image>
+                
+            </image>
+        </statement>
+        <solution>
+            <p>
+                To find the volume of the pyramid, we use the formula:
+            </p>
+            <p>
+                <md>
+                    <mrow>\text{Volume} \amp \text{Base Area} \amp \text{Height} </mrow>
+                    
+                </md>
+            </p>
+            <p>
+                The base area is a rectangle with length <m>6 \, \text{cm}</m> and width <m>4 \, \text{cm}</m>, so:
+            </p>
+            <p>
+                <md>
+                    <mrow>\text{Base area } =\amp  6 \, \text{cm} \times 4 \, \text{cm} </mrow>
+                    <mrow> =\amp 24 \, \text{cm}^2 </mrow>
+                </md>
+            </p>
+            <p>
+                <md>
+                    <mrow>\text{Volume} = \frac{1}{3}(\text{Base Area} \times \text{Height})</mrow>
+                    <mrow> =\amp \frac{1}{3}(24 \, \text{cm}^2 \times 8 \, \text{cm}) </mrow>
+                    <mrow> =\amp \frac{1}{3}(192 \, \text{cm}^3) </mrow>
+                    <mrow> =\amp 64 \, \text{cm}^3 </mrow>
+                </md>
+            </p>
+            <p>
+                Therefore, the volume of the pyramid is <m>{\color{blue}64 \, \text{cm}^3}</m>.
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                Calculate the volume of the following pyramids:
+            </p>
+            <p>
+                <ol marker="a) ">
+                    <li>
+                        <p>
+                           Triangular based with equal sides each measuring <m>10 \, \text{cm}</m> and a height of <m>30\, \text{cm}</m>.
+                        </p>
+                        <p>
+                            (Give your answer to <m>2</m> decimal places)
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Square based of sides <m>12 \, \text{cm}</m> and a height of <m>25\, \text{cm}</m>.
+                        </p>
+                        
+                    </li>
+                    <li>
+                        <p>
+                            Rectangular based of sides <m>12 \, \text{cm}</m> and <m>16 \, \text{cm}</m> and slant edge <m>26\, \text{m}</m>.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <ol marker="a) ">
+                    <li >
+                        <p>
+                            Triangular based pyramid
+                        </p>
+                        <p>
+                            Since the base is triangular, we first find the area of the base.
+                        </p>
+                        <p>
+                            <md>
+                                <mrow>\text{Base of the triangle}= \amp \sqrt{10^2 - 5^2}</mrow>
+                                <mrow> =\amp \sqrt{100 - 25}</mrow>
+                                <mrow> =\amp \sqrt{75}</mrow>
+                                <mrow> =\amp 5\sqrt{3} \, \text{cm}</mrow>
+                                <mrow> \approx =\amp 8.66 \, \text{cm}</mrow>
+                            </md>
+                        </p>
+                        <p>
+                            The area of the base triangle is given by:
+                        </p>
+                        <p>
+                            <md>
+                                <mrow>\text{Area} = \amp  \frac{1}{2} \times \text{Base} \times \text{Height}</mrow>
+                                <mrow> = \amp \frac{1}{2} \times 8.66 \times 10 \, \text{cm}^2</mrow>
+                                <mrow> = \amp 43.30 \, \text{cm}^2</mrow>
+                            </md>
+                        </p>
+                        <p>
+                            The volume of the pyramid is given by:
+                        </p>
+                        <p>
+                            <md>
+                                <mrow>\text{Volume} = \amp \frac{1}{3} \times \text{Base Area} \times \text{Height}</mrow>
+                                <mrow> = \amp \frac{1}{3} \times 43.30 \times 30 \, \text{cm}^3</mrow>
+                                <mrow> = \amp 433.00 \, \text{cm}^3</mrow>
+                            </md>
+                        </p>
+
+                    </li>
+                    <li>
+                        <p>
+                            Square based pyramid
+                        </p>
+                        <p>
+                            Since the base is square, we first find the area of the base.
+                        </p>
+                        <p>
+                            <md>
+                                <mrow>\text{Area} = \amp \text{Side}^2 = 12^2 = 144 \, \text{cm}^2</mrow>
+                            </md>
+                        </p>
+                        <p>
+                            The volume of the pyramid is given by:
+                        </p>
+                        <p>
+                            <md>
+                                <mrow>\text{Base Area} = \amp 12^2 = 144 \, \text{cm}^2</mrow>
+                                <mrow>= \amp 144 \, \text{cm}^2</mrow>
+                            </md>
+                        </p>
+                        <p>
+                            <md>
+                                <mrow>\text{Volume} = \amp \frac{1}{3} \times \text{Base Area} \times \text{Height}</mrow>
+                                <mrow> = \amp \frac{1}{3} \times 144 \times 25 \, \text{cm}^3</mrow>
+                                <mrow> = \amp 1200.00 \, \text{cm}^3</mrow>
+                            </md>
+                        </p>
+
+                    </li>
+                    <li>
+                        <p>
+                            Rectangular-based pyramid
+                        </p>
+                        <p>
+                            Base sides: <m>12 \, \text{m} \, \text{by} \, 16 \, \text{m}</m>
+                        </p>
+                        <p>
+                            Slant edge <m> = 26 \, \text{m}</m>
+                        </p>
+                        <p>
+                            Find height using Pythagoras theorem that is  find half of base diagonal:
+                        </p>
+                        <p>
+                            <md>
+                                <mrow> \text{d} =\amp \sqrt{(12^2 + 16^2)}  </mrow>
+                                <mrow> = \amp \sqrt{(144 + 256)}  </mrow>
+                                <mrow> = \amp \sqrt{400}  </mrow>
+                                <mrow> = \amp 20 \, \text{m}  </mrow>
+                            </md>
+                        </p>
+                        <p>
+                            Use slant edge (<m>
+                            26 \, \text{m}</m>) as hypotenuse to find height:
+                        </p>
+                        <p>
+                            <md>
+                                <mrow> \text{h} =\amp \sqrt{(26^2 - 10^2)} </mrow>
+                                <mrow> = \amp \sqrt{(676 - 100)} </mrow>
+                                <mrow> = \amp \sqrt{576} </mrow>
+                                <mrow> = \amp 24 \, \text{m} </mrow>
+                            </md>
+                        </p>
+                        <p>
+                            The base area is gotten by:
+                        </p>
+                        <p>
+                            <md>
+                                <mrow> \text{Base Area} = \amp \text{Length} \times \text{Width} </mrow>
+                                <mrow> = \amp 12 \, \text{m} \times 16 \, \text{m} </mrow>
+                                <mrow> = \amp 192 \, \text{m}^2</mrow>
+                            </md>
+                        </p>
+                        <p>
+                            The volume of the pyramid is given by:
+                        </p>
+                        <p>
+                            <md>
+                                <mrow>\text{Volume} = \amp \frac{1}{3} \times \text{Base Area} \times \text{Height}</mrow>
+                                <mrow> = \amp \frac{1}{3} \times 192 \times 24 \, \text{m}^3</mrow>
+                                <mrow> = \amp 1536.00 \, \text{m}^3</mrow>
+                            </md>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            <p>
+                Therefore, the volumes of the pyramids are:
+            </p>
+            <p>
+                <ol marker="a) ">
+                    <li>
+                        <p>
+                            Triangular based pyramid: <m>{\color{blue}433.00 \, \text{cm}^3}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Square based pyramid: <m>{\color{blue}1200.00 \, \text{cm}^3}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Rectangular based pyramid: <m>{\color{blue}1536.00 \, \text{m}^3}</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                A crystal is in the form of two similar square based pyramids joined at their bases as shown below. Calculate the volume 
+                of the crystal if the height of the whole crystal.
+            </p>
+            <image source="/Chrystal.png" width="80%">
+                <shortdescription>Diagram of the crystal structure</shortdescription>
+            </image>
+        </statement>
+        <solution>
+            <p>
+                The volume of a pyramid is given by the formula:
+            </p>
+            <p>
+                <md>
+                    <mrow>\text{Volume} = \amp \frac{1}{3} \times \text{Base Area} \times \text{Height}</mrow>
+                </md>
+            </p>
+            <p>
+                The base area of a square pyramid is given by the formula:
+            </p>
+            <p>
+                
+                <md>
+                    <mrow>\text{Base Area} = \amp \text{Side}^2</mrow>
+                    <mrow> =\amp 8^2 </mrow>
+                    <mrow> =\amp 64 \, \text{cm}^2 </mrow>
+                </md>
+            </p>
+            <p>
+                The volume of the crystal pyramid is given by:
+            </p>
+            <p>
+                <md>
+                    <mrow>\text{Volume} = \amp \frac{1}{3} \times \text{Base Area} \times \text{Height}</mrow>
+                    <mrow> = \amp \frac{1}{3} \times 64 \, \text{cm}^2 \times 12 \, \text{cm}</mrow>
+                    <mrow> = \amp \frac{768}{3} \, \text{cm}^3</mrow>
+                    <mrow> = \amp 256.00 \, \text{cm}^3</mrow>
+                </md>
+            </p>
+            
+            <p>
+                Therefore, the volume of the crystal is <m>{\color{blue}256 \, \text{cm}^3}</m>.
+            </p>
+        </solution>
+    </example>
+    
     
 </subsection>

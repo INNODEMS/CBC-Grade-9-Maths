@@ -1,11 +1,294 @@
 <subsection xml:id="subsec-reading-tables-of-trigonometric-ratios-for-acute-angles" >
     <title>Reading Tables of Trigonometric Ratios For Acute Angles</title>
+
+    <subsubsection xml:id="subsubsec-table-of-tangents">
+        <title>Table of Tangents</title>
+        <image source="/natural-tangent.png">
+            <shortdescription>Table of Natural Tangents</shortdescription>
+        </image>
     <activity>
         <statement>
             <p>
-                
+                <m>\textbf{Work in pairs}</m>
+            </p>
+
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Follow the steps below to read the table of natural tangents for acute angles.
+                        </p>
+
+                        <p>
+                            (i) Look at the column headed <m>x^\circ</m>
+                        </p>
+
+                        <p>
+                            (ii) Start from the top and move downwards till you reach <m>5</m>.
+                        </p>
+
+                        <p>
+                            (iii) Move to the right in the row of <m>5</m> and reach the column headed <m>0.2</m>
+                        </p>
+
+                        <p>
+                           (iv) Read the value in the cell where the row and column meet. 
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Share your work with the class.
+                        </p>
+                    </li>
+                </ol>
             </p>
         </statement>
     </activity>
+
+    <example>
+        <statement>
+            <p>
+                Use the table of natural tangents to find the value of the following angles.
+            </p>
+
+            <sidebyside>
+                <p>
+                    (a) <m>\tan 4.0^\circ</m>.
+                </p>
+
+                <p>
+                    (b) <m>\tan 3.2^\circ</m>.
+                </p>
+
+                <p>
+                    (c) <m>\tan 2.37^\circ</m>.
+                </p>
+            </sidebyside>
+        </statement>
+
+        <solution>
+            <p>
+              (a)  Go to tangent tables, look for angle <m>4.0^\circ</m>, and move to the column for <m>0.0</m>.
+                The value is <m>0.0699</m>.
+            </p>
+            <p>
+                Therefore <m>\tan 4.0^\circ = 0.0699</m>.
+            </p>
+
+            <p>
+                (b)  Go to tangent tables, look for angle <m>3^\circ</m>, and move to the column for <m>0.2</m>.
+                The value is <m>0.0559</m>.
+            </p>
+
+            <p>
+                Therefore <m>\tan 3.2^\circ = 0.0559</m>.
+            </p>
+
+            <p>
+                (c) (i) Go to tangent tables, look for angle <m> 2^\circ</m>, and move to the column for <m>0.3</m>.
+                The value is <m>0.0402</m>.
+            </p>
+
+            <p>
+                (ii) Move Horizontally to the right in the row of <m>2.3</m> and reach the column headed <m>0.7</m>. Read the number in the cell where the row and column meet and add to <m>0.0419</m>.
+                  The value is <m>0.0402 + 0.0012 = 0.0414</m>.
+            </p>
+
+            <p>
+                Therefore <m>\tan 2.37^\circ = 0.0414</m>.
+            </p>
+        </solution>
+    </example>
+ </subsubsection>
+
+ <subsubsection xml:id="subsubsec-table-of-sines">
+    <title>Table of Sines</title>
+    <image source="/natural-sine.png">
+        <shortdescription></shortdescription>
+    </image>
+    <activity>
+        <statement>
+            <p>
+                <m>\textbf{Work in pairs}</m>
+            </p>
+
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Follow the steps below to read the table of natural sines for acute angles.
+                        </p>
+
+                        <p>
+                            (i) Look at the column headed <m>x^\circ</m>
+                        </p>
+
+                        <p>
+                            (ii) Start from the top and move downwards till you reach <m>5</m>.
+                        </p>
+
+                        <p>
+                            (iii) Move to the right in the row of <m>5</m> and reach the column headed <m>0.2</m>
+                        </p>
+
+                        <p>
+                           (iv) Read the value in the cell where the row and column meet. 
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Share your work with the class.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </activity>
+
+    <example>
+        <statement>
+            <p>
+                Use the table of natural sines to find the value of <m>\sin 3.81^\circ</m>..
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                 (i) Go to sine tables, look for angle <m>3^\circ</m>, and move to the column for <m>0.8</m>. The value is <m>0.0663</m>.
+            </p>
+
+            <p>
+                (ii) Move Horizontally to the right in the row of <m>3.8</m> and reach the column headed <m>0.1</m>. Read the number in the cell where the row and column meet and add to <m>0.0523</m>.i.e
+                <m>0.0663 + 0.0002 = 0.0665</m>.
+            </p>
+
+            <p>
+                Therefore <m>\sin 3.81^\circ = 0.0665</m>.
+            </p>
+        </solution>
+    </example>
+
+ </subsubsection>
+
+ <subsubsection xml:id="subsubsec-table-of-cosines">
+    <title>Table of Cosines</title>
+    <image source="/natural-cosines.png">
+        <shortdescription></shortdescription>
+    </image>
+
+    <activity>
+        <statement>
+            <p>
+                <m>\textbf{Work in pairs}</m>  
+            </p>
+
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Follow the steps below to read the table of natural cosines for acute angles.
+                        </p>
+
+                        <p>
+                            (i) Look at the column headed <m>x^\circ</m>
+                        </p>
+
+                        <p>
+                            (ii) Move down the column until you reach the row for <m>4^\circ</m>.
+                        </p>
+
+                        <p>
+                            (iii) Move to the right in the row of <m>4^\circ</m> and reach the column headed <m>0.0</m>.
+                        </p>
+
+                        <p>
+                            (iv) Read the value in the cell where the row and column meet. 
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Share your work with the class.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </activity>
+
+    <example>
+        <statement>
+            <p>
+                Use cosine tables to find the value of the following angles.
+            </p>
+
+            <sidebyside>
+                <p>
+                    (a) <m>\cos 2.5^\circ</m>.
+                </p>
+
+                <p>
+                    (b) <m>\cos 3.24^\circ</m>.
+                </p>
+            </sidebyside>
+        </statement>
+
+        <solution>
+            <p>
+                (a) (i) Go to cosine tables
+            </p>
+
+            <p>
+                (ii) Look for angle <m>2^\circ</m>, and move across to the column for <m>0.5</m>.
+            </p>
+
+            <p>
+                (iii) The value is <m>0.9990</m>.
+            </p>
+
+            <p>
+                Therefore <m>\cos 2.5^\circ = 0.9990</m>.
+            </p>
+
+            <p>
+                (b) (i) Go to cosine tables
+            </p>
+
+            <p>
+                (ii) Look for angle <m>3^\circ</m>, and move across to the column for <m>0.2</m>.
+            </p>
+
+            <p>
+                (iii) The value is <m>0.9984</m>.
+            </p>
+
+            <p>
+                (iv) Move horizontally to the right in the row of <m>3.2</m> and reach the column headed <m>0.4</m>. Read the number in the cell where the row and column meet and subtract from <m>0.9984</m>.i.e
+                <m>0.9984 - 0.0000 = 0.9984</m>.
+            </p>
+
+            <p>
+                Therefore <m>\cos 3.24^\circ = 0.9984</m>.
+            </p>
+        </solution>
+    </example>
+
+    <example>
+        <statement>
+            <p>
+                Use table to find the angle whose cosine is <m>0.9962</m>.
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                
+            </p>
+        </solution>
+    </example>
+    
+ </subsubsection>
     
 </subsection>

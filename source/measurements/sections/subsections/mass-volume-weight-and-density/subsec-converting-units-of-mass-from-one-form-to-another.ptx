@@ -1,0 +1,236 @@
+<subsection xml:id="subsec-converting-units-of-mass-from-one-form-to-another">
+    <title>Converting Units of Mass from One Form to Another</title>
+    <!-- activity -->
+    <activity>
+        <p>
+            
+        </p>
+    </activity>
+    <p>
+        <m> \textbf{Key TakeAway}</m>
+    </p>
+    <example>
+        <statement>
+            <p>
+                Convert the following masses into kilograms.
+            </p>
+            <p>
+                <ol marker="a)" cols="2">
+                    <li>
+                        <p>
+                            <m> 500 \text{ g} </m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>2\,300 \,000 \, \, \mu\text{g}</m> 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m> 480 \text{ dg} </m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>3 \text{ t}</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m> 500 \text{ g} </m>
+                        </p>
+                        <p>
+                            To convert g to kg, use the conversion factor
+                        </p>
+                        <p>
+                            <m> 1 \text{ kg} = 1\,000 \, \text{g} </m>
+                        </p>
+                        <p>
+                            <md>
+                                <mrow> 1 \text{ kg} \amp = 1\,000 \, \text{g} </mrow>
+                                <mrow> 500 \text{ g} \amp = \, ? \text{ kg} </mrow>
+                            </md>
+                        </p>
+                        <p>
+                            <md>
+                                <mrow>  \frac{500 \text{ g} \times 1 \text{ kg}}{1\,000 \, \text{g}} \amp = 0.5 \text{ kg} </mrow>
+                                <mrow> \amp = 0.5 \text{ kg} </mrow>
+                            </md>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>2\,300 \,000 \, \, \mu\text{g}</m> 
+                        </p>
+                        <p>
+                            To convert μg to kg, use the conversion factor
+                        </p>
+                        <p>
+                            <m>1\,000\,000\,000 \, \mu\text{g} = 1 \text{ kg}</m>
+                        </p>
+                        <p>
+                            <md>
+                                <mrow>  1\,000\,000\,000 \, \mu\text{g} \amp = 1 \text{ kg} </mrow>
+                                <mrow> 2\,300 \,000 \, \, \mu\text{g} \amp = \, ? \text{ kg} </mrow>
+                            </md>
+                        </p>
+                        <p>
+                            <md>
+                                <mrow>  \frac{2\,300 \,000 \, \, \mu\text{g} \times 1 \text{ kg}}{1\,000\,000\,000 \, \mu\text{g}} \amp = 0.0023 \text{ kg} </mrow>
+                                <mrow> \amp = 0.0023 \text{ kg} </mrow>
+                            </md>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m> 480 \text{ dg} </m>
+                        </p>
+                        <p>
+                            To convert dg to kg, use the conversion factor
+                        </p>
+                        <p>
+                            <m>1 \, \text{dg} =  0.0001 \text{ kg} </m>
+                        </p>
+                        <p>
+                            <md>
+                                <mrow> 1 \text{ dg} \amp = 0.0001 \, \text{kg} </mrow>
+                                <mrow> 480 \text{ dg} \amp = \, ? \text{ kg} </mrow>
+                            </md>
+                        </p>
+                        <p>
+                            <md>
+                                <mrow>  \frac{480 \text{ dg} \times 0.0001 \text{ kg}}{1 \, \text{dg}} \amp = 0.048 \text{ kg} </mrow>
+                                <mrow> \amp = 0.048 \text{ kg} </mrow>
+                            </md>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                Convert the following masses into grams.
+            </p>
+            <p>
+                <ol marker="a) " cols="2">
+                    <li>
+                        <p>
+                            <m> 2300 \text{ mg}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m> 70 \text{ Hg}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m> 12 \text{ kg}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m> 800 \text{ cg}</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <ol marker="a) ">
+                    <li>
+                        <p>
+                            <m> 2300 \text{ mg}</m>
+                        </p>
+                        <p>
+                            <m>
+                                \begin{align}
+                                    1\,\text{mg} \amp= 0.000001\,\text{kg} \\
+                                    1\,\text{kg} \amp= 1000\,\text{g} \\
+                                    1\,\text{mg} \amp= (0.000001 \times 1000\,\text{g}) = 0.001\,\text{g} \\
+                                    \\
+                                    1\,\text{mg} \amp= 0.001\,\text{g} \\
+                                    2300\,\text{mg} \amp= \, ?\,\text{g} \\
+                                    \\
+                                    2300\,\text{mg} \amp= \frac{2300\,\text{mg} \times 0.001\,\text{g}}{1\,\text{mg}} \\
+                                    \amp= 2.3\,\text{g}
+                                \end{align} 
+                            </m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m> 70 \text{ Hg}</m>
+                        </p>
+                        <p>
+                            <m>
+                                \begin{align}
+                                    1 \text{ Hg} \amp=  0.1 \text{ kg} \\
+                                    1 \text{ kg} \amp= 1000 \text{ g} \\
+                                    1 \text{ Hg} \amp= (0.1 \times 1000 \text{ g}) = 100 \text{ g} \\
+                                    \\
+                                    1 \text{ Hg} \amp= 100 \text{ g}\\
+                                    70 \text{ Hg} \amp= \, ? \text{ g}
+                                    \\
+                                    70 \text{ Hg} \amp= \frac{70 \text{ Hg} \times 100 \text{ g}}{1 \text{ Hg}}\\
+                                    \amp=7000 \text{ g}
+                                \end{align}
+                            </m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m> 12 \text{ kg}</m>
+                        </p>
+                        <p>
+                           <m> 1 \text{ kg} = 1000 \text{ g} </m>
+                        </p>
+                        <p>
+                            <m>\begin{align}
+                                1\, \text{kg} \amp= 1000\, \text{g} \\
+                                12\, \text{kg} \amp= \, ?\, \text{g} \\
+                                12\, \text{kg} \amp= \frac{12\, \text{kg} \times 1000\, \text{g}}{1\, \text{kg}} \\
+                                \amp= 12000\, \text{g}
+                                \end{align}
+                            </m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m> 800 \text{ cg}</m>
+                        </p>
+                        <p>
+                            <m>
+                                \begin{align}
+                                    1\, \text{g} \amp= 100\, \text{cg} \\
+                                    1\, \text{cg} \amp= \frac{1\, \text{g}}{100} = 0.01\, \text{g} \\
+                                    \\
+                                    800\, \text{cg} \amp= \, ?\, \text{g} \\
+                                    800\, \text{cg} \amp= 800 \times 0.01\, \text{g} \\
+                                    \amp= 8\, \text{g}
+                                \end{align}
+                            </m>        
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
+    <exercise>
+        <statement>
+            <p>
+                
+            </p>
+        </statement>
+    </exercise>
+</subsection>

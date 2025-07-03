@@ -36,30 +36,40 @@
                 <row>
                     <cell>Pencil</cell>
                     <cell>length (cm)</cell>
-                    <cell>Cup of water</cell>
+                    <cell>10 cm</cell>
+                    <cell></cell>
+                    <cell></cell>
 
 
                 </row>
                 <row>
                     <cell>Apple</cell>
-                    <cell>10 cm</cell>
-                    <cell>Volume (ml)</cell>
+                    <cell>weight (g)</cell>
+                    <cell>12</cell>
+                    <cell></cell>
+                    <cell></cell>
 
                 </row>
                 <row>
                     <cell>Cup of water</cell>
-                    <cell>12 cm </cell>
+                    <cell>volume (ml) </cell>
                     <cell>250 ml</cell>
+                    <cell></cell>
+                    <cell></cell>
                 </row>
                 <row>
-                    <cell>12 cm</cell>
-                    <cell>2 cm </cell>
-                    <cell>300 ml</cell>
+                    <cell></cell>
+                    <cell> </cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
                 </row>
                 <row>
-                    <cell>2 cm</cell>
-                    <cell>0.05 kg</cell>
-                    <cell>50 ml</cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
                 </row>
 
             </tabular>
@@ -87,7 +97,7 @@
         </ul>
      </p>
      <p>
-        <m>\textbf{Extended Activit}y</m>
+        <m>\textbf{Extended Activity}</m>
      </p>
             <p>
                 Now, repeat the activity with a different object or quantity.
@@ -115,7 +125,7 @@
         </statement>
         </activity>
         <p>
-        <m >\textbf{Key Takeaway}</m>    
+        <m> \textbf{Key Takeaway}</m>    
          </p>
         <p>
            1. Approximation helps when exact values aren't necessary.
@@ -237,11 +247,15 @@
             </statement>
             <solution>
                 <p>
-                    Absolute Error=∣Estimated−Measured∣
+                    
 
                 </p>
                 <p>
-                    <m> = 30 -28.5 = 1,5 \text{cm}</m>
+                    <md>
+                        <mrow> \text{Absolute Error} =\amp \text{Estimate measure - actual measurement} </mrow>
+                        <mrow> =  \amp (30 -28.5 )\, \text{cm}</mrow>
+                        <mrow> = 1.5 \text{cm} \amp </mrow>
+                    </md>
                 </p>
             </solution>
         </example>

@@ -1,4 +1,6 @@
 <section xml:id="sec-mass-volume-weight-and-density" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Mass, Volume, Weight and Density</title>
-    <xi:include href="subsections/mass-volume-weight-and-density/test3.ptx" />
+    <xi:include href="subsections/mass-volume-weight-and-density/subsec-converting-units-of-mass-from-one-form-to-another.ptx" />
+    <xi:include href="subsections/mass-volume-weight-and-density/subsec-relating-mass-and-weight.ptx" />
+    <xi:include href="subsections/mass-volume-weight-and-density/subsec-mass-volume-and-density.ptx" /> 
 </section>

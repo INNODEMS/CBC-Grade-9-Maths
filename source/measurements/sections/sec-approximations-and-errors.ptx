@@ -103,7 +103,7 @@
 
                     </p>
                     <p>
-                        Relative Error  <m>= \frac{0.05}{1.05} \times 100 % = 4.8% or 0.048 \text {kg}</m>
+                        Relative Error  <m>= \frac{0.05}{1.05} = 0.048 \text {kg}</m>
                     </p>
                 </solution>
             </example>
@@ -111,5 +111,6 @@
     <!-- <xi:include href="subsections/approximations-and-errors/test1.ptx" /> -->
     <xi:include href="subsections/approximations-and-errors/approximation-of-quantities-in-measurements.ptx" />
     <xi:include href="subsections/approximations-and-errors/determine-errors-using-estimations-and-actual-measurements-of-quantities.ptx" />
+    <xi:include href="subsections/approximations-and-errors/determine-percentage-errors-using-actual-measurements-of-quantities.ptx" />
       
 </section>
