@@ -3,7 +3,8 @@
     
     <introduction>
         <p>
-            
+         Combined operation of integers refers to representation and calculation of basic mathematics
+         operations in a single question.
         </p>
     </introduction>
     <subsubsection xml:id="subsubsec-mixed-operation-of-integers">
@@ -34,6 +35,26 @@
                 </p>
                 <p>
                     When division is carried out, <m>114 \div 2=57 \text{apples} </m>
+                </p>
+            </solution>
+        </example>
+        <example>
+            <statement>
+                <p>
+                    Evaluate the expression : <m>(-3)\times(-4)+2-4\div2 </m>
+
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    Observe the <m>BODMAS</m> rule:
+                </p>
+                <p>
+                    <md>
+                        <mrow>(-3)\times(-4)=\amp 12 </mrow>
+                        <mrow>12 \div 2=\amp 6</mrow>
+                        <mrow> 6+2-4=\amp 4</mrow>
+                    </md>
                 </p>
             </solution>
         </example>
