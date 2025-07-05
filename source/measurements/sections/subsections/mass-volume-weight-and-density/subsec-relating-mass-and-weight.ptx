@@ -9,7 +9,17 @@
             <ul>
                 <li>
                     <p>
-                        
+                        Spring balance
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Objects with different mass (Stones, books, shoes)
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Triple Beam balance
                     </p>
                 </li>
             </ul>
@@ -18,22 +28,82 @@
             <ol marker="1. ">
                 <li>
                     <p>
-                        
+                       Measure the weight of each object using the spring balance.
                     </p>
                 </li>
                 <li>
                     <p>
-                        
+                        Measure the mass of each object on the triple beam balance.
                     </p>
                 </li>
                 <li>
                     <p>
-                        
+                        Record the mass and weight of each object in a table below.
                     </p>
                 </li>
-
+                <li>
+                    <p>
+                        Calculate the weight of each object using the formula:
+                        <m>\text{W} = \text{m} \times \text{g}</m>, where <m>g</m> is the acceleration due to gravity (approximately <m>10 \text{ N/kg}</m>).
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Compare the weight calculated using the formula with the weight measured using the spring balance.
+                        Discuss any differences or similarities you observe.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Discuss the relationship between mass and weight. How do they differ? How are they related?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Share your findings with the rest of the class.
+                    </p>
+                </li>
             </ol>
         </p>
+        <table xml:id="table-mass-weight">
+            <title>Mass and Weight Table</title>
+            <tabular top="major" bottom="minor" left="minor" right="minor">
+                <row header="yes" halign="center">
+                    <cell >Object</cell> 
+                    <cell colspan="2">Mass</cell>
+                    <cell>Weight (N) by formula <m>\text{W} = \text{m} \times \text{g}</m></cell>
+                    <cell>Weight (N) by measuring with spring balance</cell>
+                </row>
+                <row halign="center">
+                    <cell></cell>
+                    <cell>In gram</cell>
+                    <cell>In kg</cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell halign="center">1</cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell halign="center">2</cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell halign="center">3</cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+            </tabular>
+        </table>
     </activity>
     <p>
         <m>\textbf{Key TakeAway}</m>
@@ -46,11 +116,22 @@
             <p>
                 The SI unit of weight is the <alert>newton</alert> (N).
             </p>
+            <p>
+                Weight (W) <m>=</m> mass of an object (kg) <m> \times</m> gravitational force (N/kg)
+            </p>
         </statement>
     </definition>
-    <p>
-        Weight (W) <m>=</m> mass of an object (kg) <m> \times</m> gravitational force (N/kg)
-    </p>
+    <remark>
+        <p>
+            Planets in the solar system have different gravitational forces.
+            This means that the weight of an object will vary depending on the planet it is on,
+            but its mass will remain constant.
+        </p>
+        <p>
+            For example, the gravitational field strength on Earth is approximately <m>10</m> N/kg, 
+            which means that an object with a mass of <m>4</m> kg will weigh <m>40</m> N on Earth.
+        </p>
+    </remark>
     <table>
         <title>Difference Between Mass and Weight</title>
         <tabular top="medium" bottom="medium" left="medium" right="medium">

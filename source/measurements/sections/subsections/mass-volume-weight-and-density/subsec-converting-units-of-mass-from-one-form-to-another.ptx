@@ -3,12 +3,235 @@
     <!-- activity -->
     <activity>
         <p>
-            
+            Work in groups
         </p>
+        <p>
+            <ol marker="1. ">
+                <li>
+                    <p>
+                        Draw a table similar to the one shown in <xref ref="table-conversion-units-of-mass"/> below.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <!-- For each object on the list complete the following instructions: -->
+                        For each object in the list, follow the steps below to record its mass in all six units using the applet in Figure <xref ref="fig-conversion-of-mass"/>.
+                    </p>
+                    <figure xml:id="fig-conversion-of-mass">
+                        <caption>Conversion of Mass</caption>
+                        <interactive xml:id="geogebra-conversion-of-mass" geogebra="q5vqhas4" width="85%" aspect="8:5" reset-icon="yes"  shift-drag-zoom="no"/>
+                    </figure>
+                </li>
+                <li>
+                    <p>
+                        Select one object from the checklist in the upper left of the applet.
+                        <!-- Click the desired object in the upper left. -->
+                    </p>
+                </li>
+                <li>
+                    <p>
+                         Drag the slider to each of the following units in order. After selecting each unit, record the mass displayed for the object in your table:
+                         <ol marker="a.">
+                            <li><p>Ounces</p></li>
+                            <li><p>Pounds</p></li>
+                            <li><p>Tons</p></li>
+                            <li><p>Milligrams</p></li>
+                            <li><p>Grams</p></li>
+                            <li><p>Kilograms</p></li>
+                        </ol>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                         De-select the desired object by clicking on it again.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <!-- Select the next object and repeat the steps again. -->
+                        Select the next object and repeat steps <m>3–5</m> until all objects in the checklist have been measured and recorded in <xref ref="table-conversion-units-of-mass"/>.
+                    </p>
+                </li>
+                <!-- <li>
+                    <p>
+                        Repeat all these steps until all objects in upper left have been measured and recorded in the <xref ref="table-conversion-units-of-mass"/>.
+                    </p>
+                </li> -->
+                <li>
+                    <p>After completing the table, answer the following questions based on your measurements:</p>
+                    <p>
+                        <ol marker="a.">
+                            <li>
+                                <p>How many grams are in one kilogram? Use values from your table to support your answer.</p>
+                            </li>
+                            <li>
+                                <p>How many ounces are in one pound?</p>
+                            </li>
+                            <li>
+                                <p>Which object had the smallest mass in milligrams? How did its value compare in ounces?</p>
+                            </li>
+                            <li>
+                                <p>Describe one interesting pattern or relationship you observed when converting an object's mass through all six units.</p>
+                            </li>
+                        </ol> 
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Discuss and share your findings with the rest of the class.
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <table xml:id="table-conversion-units-of-mass">
+            <title>Conversion Units of Mass</title>
+            <tabular top="major" right="medium" left="medium" bottom="medium">
+                <row header="yes">
+                    <cell>Object</cell>
+                    <cell>mass (ounces)</cell>
+                    <cell>mass (pounds)</cell>
+                    <cell>mass (tons)</cell>
+                    <cell>mass (milligrams)</cell>
+                    <cell>mass (grams)</cell>
+                    <cell>mass (kilograms)</cell>
+                </row>
+                <row>
+                    <cell>Pencil</cell>
+                    <cell> </cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>cellphone</cell>
+                    <cell> </cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>potatoes</cell>
+                    <cell> </cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>milk jug</cell>
+                    <cell> </cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>microwave</cell>
+                    <cell> </cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>socks</cell>
+                    <cell> </cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>pillow</cell>
+                    <cell> </cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+            </tabular>
+        </table>
     </activity>
     <p>
         <m> \textbf{Key TakeAway}</m>
     </p>
+    <definition xml:id="def-of-mass">
+        <statement>
+            <p>
+                <alert>Mass</alert> is the measure of the amount of matter in an object. 
+            </p>
+            <p>
+                The SI unit of mass is the <alert>kilogram</alert> (kg).
+            </p>
+        </statement>
+    </definition>
+    <table>
+        <title>Mass Conversion Table</title>
+        <tabular top="medium" right="medium" left="medium" bottom="medium">
+            <col/>
+            <col halign="center"/>
+            <col/>
+            <row header="yes">
+                <cell>Unit</cell>
+                <cell>Abbreviation</cell>
+                <cell>Equivalent kilogram</cell>
+            </row>
+            <row>
+                 <cell><m>1</m> tonne (megagram)</cell>
+                 <cell>t</cell>
+                 <cell><m>1\,000</m> kg</cell>
+            </row>
+            <row>
+                <cell><m>1</m>  megagram</cell>
+                <cell>Mg</cell>
+                <cell><m>1\,000</m> kg</cell>
+            </row>
+            <row>
+                <cell><m>1</m> Hectogram</cell>
+                <cell>Hg</cell>
+                <cell><m>0.1</m> kg</cell>
+            </row>
+            <row>
+                <cell><m>1</m> Decagram</cell>
+                <cell>Dg</cell>
+                <cell><m>0.01</m> kg</cell>
+            </row>
+            <row>
+                <cell><m>1</m> gram</cell>
+                <cell>g</cell>
+                <cell><m>0.001</m> kg</cell>
+            </row>
+            <row>
+                <cell><m>1</m> decigram</cell>
+                <cell>dg</cell>
+                <cell><m>0.0001</m> kg</cell>
+            </row>
+            <row>
+                <cell><m>1</m> centigram</cell>
+                <cell>cg</cell>
+                <cell><m>0.00001</m> kg</cell>
+            </row>
+            <row>
+                <cell><m>1</m> milligram</cell>
+                <cell>mg</cell>
+                <cell><m>0.000001</m> kg</cell>
+            </row>
+            <row>
+                <cell><m>1</m> microgram</cell>
+                <cell>μg</cell>
+                <cell><m>0.000000001</m> kg</cell>
+            </row>
+        </tabular>
+    </table>
     <example>
         <statement>
             <p>
@@ -109,6 +332,23 @@
                                 <mrow>  \frac{480 \text{ dg} \times 0.0001 \text{ kg}}{1 \, \text{dg}} \amp = 0.048 \text{ kg} </mrow>
                                 <mrow> \amp = 0.048 \text{ kg} </mrow>
                             </md>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>3 \text{ t}</m>
+                        </p>
+                        <p>
+                            To convert tonnes to kilograms, multiply the number of tonnes by <m>1000</m>.
+                        </p>
+                        <p>
+                            <m> 1 \text{ t} = 1\,000 \text{ kg} </m>
+                        </p>
+                        <p>
+                            Therefore, <m>3</m> tonnes <m>= 3 × 1,000 = 3,000</m> kilograms.
+                        </p>
+                        <p>
+                            <m>3</m> tonnes is equal to <m>3,000</m> kilograms.
                         </p>
                     </li>
                 </ol>

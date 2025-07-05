@@ -19,12 +19,12 @@
                 Explain the relationship between mass and weight and how it is affected by gravitational field strength.
             </li>
         </ol>
-        <conclusion>
+        <!-- <conclusion>
             <p>
              These objectives aim to build both conceptual understanding and practical problem-solving skills in working with mass, volume, weight, and density.
              You are now ready to begin!
             </p>
-        </conclusion>
+        </conclusion> -->
     </objectives>
     
     <xi:include href="subsections/mass-volume-weight-and-density/subsec-converting-units-of-mass-from-one-form-to-another.ptx" />
