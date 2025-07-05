@@ -25,9 +25,9 @@
         <figure >
             <caption>Velocity of an object</caption>
             <interactive xml:id="geogebra-velocity-of-an-object" platform="geogebra" width="100%" >
-                <slate xml:id="Velocity-of-an-object" surface="geogebra" material="vhn43cqj" aspect="6:4" >
-                    enableShiftDragZoom(true);
-                    showResetIcon(true);
+                <slate xml:id="Velocity-of-an-object" surface="geogebra" material="vhn43cqj" aspect="6:4" material-width="800px"> 
+                    <!-- enableShiftDragZoom(true);
+                    showResetIcon(true); --> 
                 </slate>
             </interactive>
         </figure>

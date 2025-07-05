@@ -1,13 +1,156 @@
 <subsection xml:id="subsec-mass-volume-and-density">
     <title>Mass, Volume and Density</title>
-    <p>
+    <!-- <p>
         <m>\textbf{Volume}</m>
-    </p>
+    </p> -->
     <!-- activity -->
     <activity>
         <p>
-            
+            What you need
+            <ul>
+                <li>
+                    <p>
+                        An electronic weighing machine or a balance scale
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Water
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        A large container
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Graduated cylinder, <m>100</m> ml
+                    </p>
+                </li>
+            </ul>
         </p>
+        <p>
+            <ol marker="1.">
+                <li>
+                    <p>
+                        Measure and record the mass of an empty <term>graduated cylinder</term> in grams.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Pour <m>150</m> mL of water into the graduated cylinder.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Weigh the graduated cylinder with <m>150</m> mL of water and record the total mass. 
+                
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Subtract the mass of the empty cylinder to find the mass of <m>150</m> mL of water.
+                        Record it in the table.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Use the mass and volume of the water to calculate density. 
+                        Record the density in g/cm<m>^3</m> in the table below.
+                    </p>
+                    <p>
+                        Density of water<m>= \frac{ \text{mass of water}}{ \text{volume of water}}</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Carefully pour out some water until only <m>100</m> mL remains in the graduated cylinder.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Repeat steps <m>3</m> to <m>5</m> for <m>100</m> mL of water.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Pour out more water until only <m>50</m> mL remains.
+                        Repeat steps <m>3</m> to <m>5</m> again.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Finally, pour out water until you have <m>25</m> mL remaining.
+                        Repeat the same process and record your results.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Look at the values of density for the different volumes.
+                    </p>
+                    <p>
+                        <ul>
+                            <li>
+                                <p>
+                                    Are they almost the same?
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    What does that tell you about the density of water?
+                                </p>
+                            </li>
+                        </ul>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        What is the density of water in g/cm <m>^3</m>?
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <table>
+            <title>Calculating the density of different volumes of water</title>
+            <tabular top="major" bottom="minor" left="minor" right="minor">
+                <row header="yes">
+                    <cell>Volume of water</cell>
+                    <cell><m>150</m> mL</cell>
+                    <cell><m>100</m> mL</cell>
+                    <cell><m>50</m> mL</cell>
+                    <cell><m>25</m> mL</cell>
+                </row>
+                <row>
+                    <cell>Mass of empty graduated cylinder (g)</cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Mass of graduated cylinder + water (g)</cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Mass of water (g)</cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Density of water (g/cm<m>^3</m>)</cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+            </tabular>
+        </table>
     </activity>
 
     <!-- main content -->
@@ -155,4 +298,37 @@
             </p>
         </statement>
     </exercise>
+    <technology>
+        <title>Explore more on Mass, Volume, Weight, and Density </title>
+        <p>
+            <ol marker="1. ">
+                <li>
+                    <p>
+                        Watch to learn how to convert kilograms to milligrams and tons to ounces
+                    </p>
+                    <video youtube="1oFv56vSvvA"/>
+                </li>
+                <li>
+                    <p>
+                        Watch this video to learn more about units of weight.
+                    </p>
+                    <video youtube="TD1zuENbEdk"/>
+                </li>
+                <li>
+                    <p>
+                        Watch this video to learn more about units of volume.
+                    </p>
+                    <video youtube="LhMEqsL_M5o"/>
+                </li>
+                <li>
+                    <p>
+                        Watch this video to learn about the relationship between mass and weight.
+                    </p>
+                    <video youtube="IuBoeDihLUc"/>
+                </li>
+
+            </ol>
+        </p>
+    </technology>
+    
 </subsection>
