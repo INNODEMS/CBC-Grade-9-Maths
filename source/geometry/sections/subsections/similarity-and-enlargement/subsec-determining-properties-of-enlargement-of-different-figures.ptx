@@ -1,5 +1,5 @@
 <subsection xml:id="subsec-determining-properties-of-enlargement-of-different-figures" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>determining-properties-of-enlargement-of-different-figures</title>
+    <title>Determining Properties of Enlargement of Different Figures</title>
     <activity>
         <statement>
             <p>
@@ -78,31 +78,9 @@
         </statement>
     </activity>
 
-    <activity>
-        <task>
-            <statement>
-                <p>
-                    <m>\textbf{Work in groups of four}</m>
-                </p>
-            </statement>
-        </task>
-
-        <task>
-            <statement>
-                <p>
-                    
-                </p>
-            </statement>
-        </task>
-    </activity>
-
     <p>
         <m>\textbf{Key Takeaway}</m>
     </p>
-<!-- 
-    <p>
-        Enlargement is when a shape is made bigger or smaller without changing its shape. Under enlargement;
-    </p> -->
 
     <p>
         <ol>
@@ -125,4 +103,44 @@
             </li>
         </ol>
     </p>
+
+    <example>
+        <statement>
+            <p>
+                The figure below shows a triangle <m>PQR</m> and its image <m>P'Q'R'</m> after a transformation. Show that this is an enlargement and determine the scale factor of the enlargement.
+            </p>
+
+            <image source="/triangle-similarity7.png" width="70%">
+                <shortdescription></shortdescription>
+            </image>
+        </statement>
+
+        <solution>
+            <p>
+                <ol marker="i">
+                    <li>
+                        <p>
+                           Join point <m>P</m> to <m>P'</m>, <m>Q</m> to <m>Q'</m>, and <m>R</m> to <m>R'</m>. Extend the lines connecting the points. The lines connecting the points intersect at a point, which is the center of enlargement. 
+                        </p>
+
+                        <image source="/triangle-similarity6.png" width="70%">
+                            <shortdescription></shortdescription>
+                        </image>
+                    </li>
+
+                    <li>
+                        <p>
+                            <md>
+                                <mrow>\text{Work out the ratio}\frac{OP'}{OP}= \amp \frac{OQ'}{OQ}=\frac{OR'}{OR} =3 </mrow>
+                            </md>
+                        </p>
+
+                        <p>
+                            The ratio of image distances to object distances is constant, which confirms that the transformation is an enlargement with a scale factor of <m>3</m>.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
 </subsection>

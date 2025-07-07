@@ -5,7 +5,158 @@
             <p>
                 <m>\textbf{Work in pairs}</m>
             </p>
+
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            The figure below shows a triangle <m>PQR</m> and a point <m>O</m>
+                        </p>
+                        <image source="/triangle-similarity.png" width="70%">
+                            <shortdescription></shortdescription>
+                        </image>
+                    </li>
+
+                    <li>
+                        <p>
+                            Join each of the points <m>P</m>, <m>Q</m>, and <m>R</m> to the point <m>O</m> and extend the lines. 
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Measure the lengths of the segments <m>OP</m>, <m>OQ</m>, and <m>OR</m>.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Locate the points <m>P'</m>, <m>Q'</m>, and <m>R'</m> such that <m>OP' = 2 \times OP</m>, <m>OQ' = 2 \times OQ</m>, and <m>OR' = 2 \times OR</m>.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Compaire the triangle <m>PQR</m> with the triangle <m>P'Q'R'</m>. Share your observations with the class.
+                        </p>
+                    </li>
+                </ol>
+            </p>
         </statement>
     </activity>
+
+    <example>
+        <statement>
+            <p>
+                Obtain the image of a rectangle <m>ABCD</m> shown below under an enlargement with centre <m>O</m> and scale factor <m>3</m>. 
+            </p>
+
+            <image source="/rectangle1.png" width="70%">
+                <shortdescription></shortdescription>
+            </image>
+        </statement>
+
+        <solution>
+            <p>
+                <ol marker="(i)">
+                    <li>
+                        <p>
+                            Join <m>A</m> to <m>O</m> and extend the line. Measure the length of <m>OA</m> and record it.
+                        </p>
+
+                        <image source="/rectangle2.png" width="80%">
+                            <shortdescription></shortdescription>
+                        </image>
+                    </li>
+
+                    <li>
+                        <p>
+                            Now work out the length of <m>OA'</m> such that <m>OA' = 3 \times OA</m>. Locate the point <m>A'</m> on the extended line such that <m>OA' = 3 \times OA</m>.
+                        </p>
+
+                        <image source="/rectangle-similarity3.png" width="80%">
+                            <shortdescription></shortdescription>
+                        </image>
+                    </li>
+
+                    <li>
+                        <p>
+                            Repeat the process for the points <m>B</m>, <m>C</m>, and <m>D</m>. Locate the points <m>B'</m>, <m>C'</m>, and <m>D'</m> such that <m>OB' = 3 \times OB</m>, <m>OC' = 3 \times OC</m>, and <m>OD' = 3 \times OD</m>.
+                        </p>
+                        <image source="/rectangle-similarity2.png" width="80%">
+                            <shortdescription></shortdescription>
+                        </image>
+                    </li>
+
+                    <li>
+                        <p>
+                            Join the points <m>A'</m>, <m>B'</m>, <m>C'</m>, and <m>D'</m> to form the image of rectangle <m>ABCD</m> under an enlargement with centre <m>O</m> and scale factor <m>3</m>.
+                        </p>
+
+                        <image source="/rectangle-similarity1.png" width="80%">
+                            <shortdescription></shortdescription>
+                        </image>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
+
+    <example>
+        <statement>
+            <p>
+                Obtain the image of a triangle <m>PQR</m> shown below under an enlargement with centre <m>O</m> and scale factor <m>-2</m>.
+            </p>
+            <image source="/triangle-similarity1.png" width="70%">
+                <shortdescription></shortdescription>
+            </image>
+        </statement>
+
+        <solution>
+            <p>
+                <ol marker="(i)">
+                    <li>
+                        <p>
+                            Join <m>P</m> to <m>O</m> and extend the line. Measure the length of <m>OP</m> and record it.
+                        </p>
+
+                        <image source="/triangle-similarity2.png" width="80%">
+                            <shortdescription></shortdescription>
+                        </image>
+                    </li>
+
+                    <li>
+                        <p>
+                            Now work out the length of <m>OP'</m> such that <m>OP' = -2 \times OP</m>. Locate the point <m>P'</m> on the extended line such that <m>OP' = 2 \times OP</m>.
+                        </p>
+
+                        <image source="/triangle-similarity3.png" width="80%">
+                            <shortdescription></shortdescription>
+                        </image>
+                    </li>
+
+                    <li>
+                        <p>
+                            Repeat the process for the points <m>Q</m> and <m>R</m>. Locate the points <m>Q'</m> and <m>R'</m> such that <m>OQ' = -2 \times OQ</m> and <m>OR' = 2 \times OR</m>.
+                        </p>
+
+                        <image source="/triangle-similarity4.png" width="80%">
+                            <shortdescription></shortdescription>
+                        </image>
+                    </li>
+
+                    <li>
+                        <p>
+                            Join the points <m>P'</m>, <m>Q'</m>, and <m>R'</m> to form the image of triangle <m>PQR</m> under an enlargement with centre <m>O</m> and scale factor <m>-2</m>.
+                        </p>
+
+                        <image source="/triangle-similarity5.png" width="80%">
+                            <shortdescription></shortdescription>
+                        </image>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
     
 </subsection>

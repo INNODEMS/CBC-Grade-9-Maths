@@ -1,6 +1,81 @@
 <subsection xml:id="subsec-carry-out-addition-and-subtraction-of-matrices-in-real-life-situations">
-    <title>Carry out addition and subtraction of matrices in real life situations</title>
+    <title>Carry Out Addition and Subtraction of Matrices in Real Life Situations</title>
     <p>
-        
+        In everyday life, we often need to combine or compare data from different sources—like adding up scores from two football matches, or finding the difference in sales between two weeks. Matrices make these calculations easy and organized!
     </p>
+    <p>
+        <m>Did you know?</m> Adding or subtracting matrices is just like adding or subtracting tables with the same number of rows and columns. Each entry in the result comes from adding or subtracting the corresponding entries in the original matrices.
+    </p>
+    <activity>
+        <p>
+            <m>\textbf{Interactive Matrix Calculator with GeoGebra}</m>
+        </p>
+        <p>
+            Use the GeoGebra applet below to practice adding and subtracting matrices. You can choose either 2×2 or 3×3 matrices, enter your own values, and select the operation (addition or subtraction).
+        </p>
+        <p>
+            <ol>
+                <li>Choose the size of your matrices (2×2 or 3×3) in the GeoGebra applet.</li>
+                <li>Enter the values for both matrices.</li>
+                <li>Select either addition (+) or subtraction (−).</li>
+                <li>Click "Solve" to see the result instantly.</li>
+            </ol>
+        </p>
+        <figure >
+            <caption><m>\textbf{Addition and Subtraction of Matrices (GeoGebra Interactive)}</m></caption>
+            <interactive xml:id="geogebra-addition-of-matrices" platform="geogebra" width="100%">
+            <slate xml:id="addition-of-matrices" surface="geogebra" material="tvzadzp6" aspect="13:15" >
+                enableShiftDragZoom(true);
+                showResetIcon(true);
+            </slate>
+            </interactive>
+        </figure>
+        <p>
+            <m>\textbf{Reflect and Discuss}</m>
+        </p>
+        <p>
+            <ul>
+                <li>How does using GeoGebra help you understand matrix operations?</li>
+                <li>Try changing one value—how does it affect the result?</li>
+                <li>Which is easier: doing the calculation by hand or using the tool? Why?</li>
+            </ul>
+        </p>
+    </activity>
+    <p>
+        <term>Key Take Away</term>
+    </p>
+    <p>
+        Matrix addition and subtraction help us combine and compare real-life data, making it easier to analyze results and spot patterns.
+    </p>
+    <example>
+        <statement>
+            <p>The following matrices show the number of apples and oranges sold by two vendors over two days:</p>
+            <p>
+                <m>Vendor\ 1: \quad A = \begin{bmatrix} 5 &amp; 7 \\ 3 &amp; 4 \end{bmatrix}</m>
+                <m>Vendor\ 2: \quad B = \begin{bmatrix} 2 &amp; 6 \\ 1 &amp; 5 \end{bmatrix}</m>
+            </p>
+            <p>Find <m>A + B</m> and <m>A - B</m>. What do the results mean?</p>
+        </statement>
+        <solution>
+            <p>Step 1: Add the matrices:</p>
+            <p>
+                <m>
+                    A + B = \begin{bmatrix} 5+2 &amp; 7+6 \\ 3+1 &amp; 4+5 \end{bmatrix} = \begin{bmatrix} 7 &amp; 13 \\ 4 &amp; 9 \end{bmatrix}
+                </m>
+            </p>
+            <p>Step 2: Subtract the matrices:</p>
+            <p>
+                <m>
+                    A - B = \begin{bmatrix} 5-2 &amp; 7-6 \\ 3-1 &amp; 4-5 \end{bmatrix} = \begin{bmatrix} 3 &amp; 1 \\ 2 &amp; -1 \end{bmatrix}
+                </m>
+            </p>
+            <p>Step 3: Interpret the results.</p>
+            <p>
+                <ul>
+                    <li><m>A + B</m> shows the total number of apples and oranges sold by both vendors each day.</li>
+                    <li><m>A - B</m> shows the difference in sales between Vendor 1 and Vendor 2 for each fruit and day. A negative number means Vendor 2 sold more than Vendor 1 for that item.</li>
+                </ul>
+            </p>
+        </solution>
+    </example>
 </subsection>
