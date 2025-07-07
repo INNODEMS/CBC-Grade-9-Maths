@@ -1,0 +1,106 @@
+<subsection xml:id="subsec-relating-longitudes-to-time">
+    <title>Relating Longitudes to Time</title>
+    <activity>
+        <p>
+            Work in groups
+        </p>
+        <p>
+            <ol marker="1. ">
+                <li>
+                    <p>
+                        
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity>
+    <p>
+        <m> \textbf{Key Takeaway}</m>
+    </p>
+    <remark>
+        <p>
+            The earth rotates on its axis, completing one full rotation every 24 hours. 
+            This rotation causes the cycle of day and night.
+        </p>
+        <p>
+            The earth rotates from <alert>west</alert> to <alert>east</alert>, which means that as the earth rotates, 
+            different parts of the world experience daylight and darkness at different times.
+        </p>
+        <p>
+            Places that are located at the same longitude will experience the same time of day,
+            while places that are located at different longitudes will experience different times of day.
+        </p>
+    </remark>
+    <example>
+        <statement>
+            <p>
+                In <xref ref="fig-relating-longitudes-to-time"/> below, cities A, B, C, D, E, and F are located at various longitudes.  
+                Determine which of these cities experience the same time of day.
+            </p>
+            <figure xml:id="fig-relating-longitudes-to-time">
+                <caption></caption>
+                <image>
+                    <shortdescription>A diagram showing the relationship between longitudes and time zones.</shortdescription>
+                    <latex-image>
+                        \begin{tikzpicture}
+                            \definecolor{skyblue}{RGB}{135, 206, 235}
+                            % Draw the sphere in sky blue
+                            \shade[ball color=skyblue] (0,0) circle (2cm);
+                            
+                            % Prime meridian
+                            \draw[densely dotted] (0,-2) -- (0,2);
+                            %curve to the right
+                            \draw[dashed] (0,-2) arc (-90:90:0.7cm and 2cm);
+                            \draw[dashed] (0,-2) arc (-90:90:1.4cm and 2cm);
+                            %curve to the left
+                            \draw[dashed] (0,-2) arc (-90:90:-0.7cm and 2cm);
+                            \draw[dashed] (0,-2) arc (-90:90:-1.4cm and 2cm);
+                            % Poles
+                            \filldraw (0,2) circle (1pt) node[above] {North Pole};
+                            \filldraw (0,-2) circle (1pt) node[below] {South Pole};
+                            
+                            \node  at (0.7,0) {$\bullet$}; 
+                            \node[right]  at (0.7,0) {B}; 
+                            
+                            \node  at (0.65,-0.8) {$\bullet$}; 
+                            \node[right]  at (0.65,-0.8) {C}; 
+                            
+                            \node  at (1.3,0.8) {$\bullet$}; 
+                            \node[right]  at (1.3,0.8) {D}; 
+                            
+                            \node  at (-1.3,-0.8) {$\bullet$}; 
+                            \node[right]  at (-1.3,-0.8) {E}; 
+                            
+                            \node  at (-0.9,1.5) {$\bullet$}; 
+                            \node[right]  at (-0.9,1.5) {F}; 
+                            
+                            \draw (0,0.5) -- (2.5,0.5) node[right] {Prime Meridian ($0^\circ$)};
+                            
+                            \draw (-1.4,0) -- (-2.5,0) node[left] { ($53^\circ$ W)};
+                            \draw (-0.63,-1) -- (-2.5,-1) node[left] { ($22^\circ$ W)};
+                                    
+                            \draw (1.4,0) -- (2.5,0) node[right] { ($53^\circ$ E)};
+                            \draw (0.63,-1) -- (2.5,-1) node[right] { ($22^\circ$ E)};
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+            </figure>
+        </statement>
+        <solution>
+            <p>
+                Cities B and C lie on the same longitude (<m>22^\circ</m> E), which means they experience the same local time.
+            </p>
+            <p>
+                Cities E and F are at <m>53^\circ</m> W, and City D is at <m>53^\circ</m> E. 
+                Since they are equally distant from the Prime Meridian, they experience the same local time.
+            </p>
+        </solution>
+    </example>
+    <exercise>
+        <statement>
+            <p>
+                TODO
+            </p>
+        </statement>
+    </exercise>
+</subsection>
