@@ -36,15 +36,15 @@
         </definition>
     </introduction>
 
-    <xi:include href="subsections/volume-of-solids/volume-of-prisms.ptx"/>
+    <xi:include href="subsections/volume-of-solids/subsec-volume-of-prisms.ptx"/>
 
-    <xi:include href="subsections/volume-of-solids/volume-of-pyramids.ptx"/>
+    <xi:include href="subsections/volume-of-solids/subsec-volume-of-pyramids.ptx"/>
 
-    <xi:include href="subsections/volume-of-solids/volume-of-a-cone.ptx"/>
+    <xi:include href="subsections/volume-of-solids/subsec-volume-of-a-cone.ptx"/>
 
-    <xi:include href="subsections/volume-of-solids/volume-of-a-frustum.ptx"/>
+    <xi:include href="subsections/volume-of-solids/subsec-volume-of-a-frustum.ptx"/>
 
-    <xi:include href="subsections/volume-of-solids/volume-of-a-sphere.ptx"/>
+    <xi:include href="subsections/volume-of-solids/subsec-volume-of-a-sphere.ptx"/>
 
     
 </section>

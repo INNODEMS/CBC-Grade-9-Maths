@@ -58,20 +58,18 @@
     </introduction>
    
     
-    <xi:include href="subsections/area/area-of-regular-and-irregular-polygons.ptx"/>
+    <xi:include href="subsections/area/subsec-area-of-regular-and-irregular-polygons.ptx"/>
 
-    <xi:include href="subsections/area/surface-area-of-prism.ptx"/>
+    <xi:include href="subsections/area/subsec-surface-area-of-prism.ptx"/>
 
-    <xi:include href="subsections/area/surface-area-of-pyramids.ptx"/>
+    <xi:include href="subsections/area/subsec-surface-area-of-pyramids.ptx"/>
 
-    <xi:include href="subsections/area/area-of-a-part-of-a-circle.ptx"/>
+    <xi:include href="subsections/area/subsec-area-of-a-part-of-a-circle.ptx"/>
 
-    <xi:include href="subsections/area/surface-area-of-a-cone.ptx"/>
+    <xi:include href="subsections/area/subsec-surface-area-of-a-cone.ptx"/>
 
-    <xi:include href="subsections/area/surface-area-of-a-sphere.ptx"/>
+    <xi:include href="subsections/area/subsec-surface-area-of-a-sphere.ptx"/>
 
-    
-    
 
 
 
