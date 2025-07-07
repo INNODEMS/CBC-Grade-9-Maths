@@ -1,4 +1,4 @@
-<subsection xml:id="subsec-accelerati">
+<subsection xml:id="subsec-acceleration">
     <title>Acceleration</title>
     <activity>
         <p>
@@ -8,11 +8,35 @@
             <ol marker="1. ">
                 <li>
                     <p>
-                        
+                        From the left handside of <xref ref="fig-acceleration-of-an-object"/> below, click to check the Road, Photos, Markers and Graphs boxes.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Click the <c>Play</c> button to start the simulation.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Observe the motion of the two objects as they accelerate.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Click the <c>Reset</c> button to reset the simulation and <c>Pause</c> button to pause the simulation.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Discuss and share with the rest of the class your observations about the acceleration of the objects.
                     </p>
                 </li>
             </ol>
         </p>
+        <figure xml:id="fig-acceleration-of-an-object">
+            <caption>Acceleration of an object</caption>
+            <interactive xml:id="geogebra-acceleration-of-an-object" geogebra="dtjdmzph" width="95%" aspect="8:6" reset-icon="yes"  shift-drag-zoom="no"/>
+        </figure>
     </activity>
     <p>
         <m>\textbf{Key Takeaway}</m>
