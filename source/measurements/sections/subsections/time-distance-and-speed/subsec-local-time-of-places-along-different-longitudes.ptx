@@ -17,19 +17,21 @@
     <p>
         <m>\textbf{Key Takeaway}</m>
     </p>
-    <p>
-        The earth rotates on its axis from <em>west</em> to <em>east</em>, 
-        which means that places to the east of a given location will experience sunrise earlier than those to the west. 
-        This results in different local times for places along different longitudes.
-    </p>
-    <p>
-        The earth takes <m>24</m> hours to complete one full rotation covering <m>360</m> degrees of longitude,
-        which means that each <term>hour</term> corresponds to <m>15</m> degrees of longitude (360 degrees <m>\div</m> <m>24</m> hours <m>=</m> <m>15</m> degrees/hour).
-        Therefore, for every <m>15</m> degrees of longitude difference between two places, there is a one-hour difference in local time.
-    </p>
-    <p>
-        Therefore, the earth covers <m>1^\circ</m> of longitude in <m>4</m> minutes. We gain time as we move eastward and lose time as we move westward.
-    </p>
+    <remark>
+        <p>
+            The earth rotates on its axis from <em>west</em> to <em>east</em>, 
+            which means that places to the east of a given location will experience sunrise earlier than those to the west. 
+            This results in different local times for places along different longitudes.
+        </p>
+        <p>
+            The earth takes <m>24</m> hours to complete one full rotation covering <m>360</m> degrees of longitude,
+            which means that each <term>hour</term> corresponds to <m>15</m> degrees of longitude (360 degrees <m>\div</m> <m>24</m> hours <m>=</m> <m>15</m> degrees/hour).
+            Therefore, for every <m>15</m> degrees of longitude difference between two places, there is a one-hour difference in local time.
+        </p>
+        <p>
+            Therefore, the earth covers <m>1^\circ</m> of longitude in <m>4</m> minutes. We gain time as we move eastward and lose time as we move westward.
+        </p>
+    </remark>
     <example>
         <statement>
             <p>
