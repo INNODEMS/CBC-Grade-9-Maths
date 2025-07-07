@@ -10,32 +10,13 @@
                     <p>
                         
                     </p>
-                     <!-- <figure >
-                            <caption>Velocity of an object</caption>
-                            <interactive xml:id="geogebra-velocity-of-an-object" platform="geogebra" width="100%">
-                            <slate xml:id="Velocity-of-an-object" surface="geogebra" material="vhn43cqj" aspect="9:11" >
-                                enableShiftDragZoom(true);
-                                showResetIcon(true);
-                            </slate>
-                            </interactive>
-                    </figure> -->
                 </li>
             </ol>
         </p>
-        <figure >
+        <figure xml:id="fig-velocity-of-an-object">
             <caption>Velocity of an object</caption>
-            <interactive xml:id="geogebra-velocity-of-an-object" platform="geogebra" width="100%" >
-                <slate xml:id="Velocity-of-an-object" surface="geogebra" material="vhn43cqj" aspect="6:4" material-width="800px"> 
-                    <!-- enableShiftDragZoom(true);
-                    showResetIcon(true); --> 
-                </slate>
-            </interactive>
+            <interactive xml:id="geogebra-velocity-of-an-object" geogebra="vhn43cqj" width="95%" aspect="8:6" reset-icon="yes"  shift-drag-zoom="no"/>
         </figure>
-
-        <!-- <figure>
-            <caption></caption>
-            <interactive xml:id="square-root-of-decimals-activity" geogebra="vhn43cqj" width="100%" aspect="6:9" reset-icon="yes" material-width="1200px"/>
-        </figure> -->
     </activity>
 
     <p>

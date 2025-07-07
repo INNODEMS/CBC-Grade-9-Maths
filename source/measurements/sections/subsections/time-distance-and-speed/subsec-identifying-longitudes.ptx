@@ -20,31 +20,198 @@
     <definition xml:id="def-identifying-longitudes">
         <statement>
             <p>
-                
+                <term>Longitude</term> are imaginary lines that run from the <alert>North Pole</alert> to the <alert>South Pole</alert>, measuring the distance <alert>east</alert> or <alert>west</alert> of the prime meridian.
             </p>
         </statement>
     </definition>
+    <p>
+        Any north-sourth line can be <term>meridian</term>. 
+        A <term>prime meridian</term> is the meridian chosen to be zero degrees longitude for common reference.
+
+    </p>
+    <p>
+        Prime meridian is also known as the <term>Greenwich Meridian</term> because it passes through the Greenwich Observatory in London, England.
+    </p>
+    <figure xml:id="fig-identifying-longitudes">
+        <caption>Identifying Longitudes</caption>
+        <image>
+            <shortdescription></shortdescription>
+            <latex-image label="fig-globe-longitudes">
+                \begin{tikzpicture}
+                     \definecolor{skyblue}{RGB}{135, 206, 235}
+                    % Draw the sphere in sky blue
+                    \shade[ball color=skyblue] (0,0) circle (2cm);
+                    
+                    % Prime meridian
+                    \draw[densely dotted] (0,-2) -- (0,2);
+                    %curve to the right
+                    \draw[dashed] (0,-2) arc (-90:90:0.7cm and 2cm);
+                    \draw[dashed] (0,-2) arc (-90:90:1.4cm and 2cm);
+                    %curve to the left
+                    \draw[dashed] (0,-2) arc (-90:90:-0.7cm and 2cm);
+                    \draw[dashed] (0,-2) arc (-90:90:-1.4cm and 2cm);
+                    % Poles
+                    \filldraw (0,2) circle (1pt) node[above] {North Pole};
+                    \filldraw (0,-2) circle (1pt) node[below] {South Pole};
+                    
+                    \draw (0,0.5) -- (2.5,0.5) node[right] {Prime Meridian ($0^\circ$)};
+                    \draw (0.7,0) -- (2.5,0) node[right] { ($28^\circ$ E)};
+                    \draw (-1.4,0) -- (-2.5,0) node[left] { ($65^\circ$ W)};
+                \end{tikzpicture}
+            </latex-image>
+        </image>
+    </figure>
+    <p>
+        <alert>Longitude</alert> is the measurement east or west of the prime meridian. 
+        In <xref ref="fig-identifying-longitudes"/> we can see the prime meridian at <m>0^\circ</m> and other longitudes marked.
+        The longitude <m>28^\circ E</m> is 28 degrees east of the prime meridian, while <m>65^\circ W</m> is 65 degrees west of the prime meridian.
+    </p>
     <example>
         <statement>
             <p>
-                
+                In the diagram below, identify points that are on the same longitude.
             </p>
+            <image width="60%">
+                <shortdescription></shortdescription>
+                <latex-image>
+                    \begin{tikzpicture}
+                         \definecolor{skyblue}{RGB}{135, 206, 235}
+
+                        % Draw the sphere in sky blue
+                        \shade[ball color=skyblue] (0,0) circle (2cm);
+                        
+                        % Prime meridian
+                        \draw[densely dotted] (0,-2) -- (0,2);
+                        %curve to the right
+                        \draw[dashed] (0,-2) arc (-90:90:0.7cm and 2cm);
+                        \draw[dashed] (0,-2) arc (-90:90:1.4cm and 2cm);
+                        %curve to the left
+                        \draw[dashed] (0,-2) arc (-90:90:-0.7cm and 2cm);
+                        \draw[dashed] (0,-2) arc (-90:90:-1.4cm and 2cm);
+                        % Poles
+                        \filldraw (0,2) circle (1pt) node[above] {North Pole};
+                        \filldraw (0,-2) circle (1pt) node[below] {South Pole};
+                        %\node  at (0,0) {$\bullet$}; 
+                        %\node[right]  at (0,0) {A}; 
+                        
+                        \node  at (0.7,0) {$\bullet$}; 
+                        \node[right]  at (0.7,0) {B}; 
+                        
+                        \node  at (0.65,-0.8) {$\bullet$}; 
+                        \node[right]  at (0.65,-0.8) {C}; 
+
+                        \node  at (1.3,0.8) {$\bullet$}; 
+                        \node[right]  at (1.3,0.8) {D}; 
+                        
+                        \node  at (-1.3,-0.8) {$\bullet$}; 
+                        \node[right]  at (-1.3,-0.8) {E}; 
+                        
+                        \node  at (-1.3,0.8) {$\bullet$}; 
+                        \node[right]  at (-1.3,0.8) {F}; 
+                        
+                        \node  at (-0.9,1.5) {$\bullet$}; 
+                        \node[right]  at (-0.9,1.5) {G}; 
+                        
+                        \draw (0,0.5) -- (2.5,0.5) node[right] {Prime Meridian ($0^\circ$)};
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
         </statement>
         <solution>
             <p>
-                
+                Points E, F and G are on the same longitude.
+            </p>
+            <p>
+                Points B and C are on the same longitude.
             </p>
         </solution>
     </example>
     <example>
         <statement>
             <p>
-                
+                Identify the longitudes of the points A, B, C, D, E and F in the diagram below.
             </p>
+            <image width="80%">
+                <shortdescription></shortdescription>
+                <latex-image>
+                    \begin{tikzpicture}
+                        \definecolor{skyblue}{RGB}{135, 206, 235}
+
+                        % Draw the sphere in sky blue
+                        \shade[ball color=skyblue] (0,0) circle (2cm);
+                        
+                        % Prime meridian
+                        \draw[densely dotted] (0,-2) -- (0,2);
+                        %curve to the right
+                        \draw[dashed] (0,-2) arc (-90:90:0.7cm and 2cm);
+                        \draw[dashed] (0,-2) arc (-90:90:1.4cm and 2cm);
+                        %curve to the left
+                        \draw[dashed] (0,-2) arc (-90:90:-0.7cm and 2cm);
+                        \draw[dashed] (0,-2) arc (-90:90:-1.4cm and 2cm);
+                        % Poles
+                        \filldraw (0,2) circle (1pt) node[above] {North Pole};
+                        \filldraw (0,-2) circle (1pt) node[below] {South Pole};
+                        %\node  at (0,0) {$\bullet$}; 
+                        %\node[right]  at (0,0) {A}; 
+                        
+                        \node  at (0.7,0) {$\bullet$}; 
+                        \node[right]  at (0.7,0) {B}; 
+                        
+                        \node  at (0.65,-0.8) {$\bullet$}; 
+                        \node[right]  at (0.65,-0.8) {C}; 
+                        
+                        \node  at (1.3,0.8) {$\bullet$}; 
+                        \node[right]  at (1.3,0.8) {D}; 
+                        
+                        \node  at (-1.3,-0.8) {$\bullet$}; 
+                        \node[right]  at (-1.3,-0.8) {E}; 
+                        
+                        \node  at (-1.3,0.8) {$\bullet$}; 
+                        \node[right]  at (-1.3,0.8) {F}; 
+                        
+                        \node  at (-0.9,1.5) {$\bullet$}; 
+                        \node[right]  at (-0.9,1.5) {F}; 
+                        
+                        \draw (-1.4,0) -- (-2.5,0) node[left] { ($75^\circ$ W)};
+                        \draw (-0.63,-1) -- (-2.5,-1) node[left] { ($32^\circ$ W)};
+                                
+                        \draw (1.4,0) -- (2.5,0) node[right] { ($60^\circ$ E)};
+                        \draw (0.63,-1) -- (2.5,-1) node[right] { ($38^\circ$ E)};
+
+                        \draw (0,0.5) -- (2.5,0.5) node[right] {Prime Meridian ($0^\circ$)};
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
         </statement>
         <solution>
             <p>
-                
+                <ol marker="a) ">
+                    <li>
+                        <p>
+                            B is <m>38^\circ E</m> of the prime meridian.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            C is <m>32^\circ W</m> of the prime meridian.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            D is <m>60^\circ E</m> of the prime meridian.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            E is <m>75^\circ W</m> of the prime meridian.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            F is <m>38^\circ E</m> of the prime meridian.
+                        </p>
+                    </li>
+                </ol>
             </p>
         </solution>
     </example>
