@@ -142,4 +142,25 @@
             </p>
         </statement>
     </exercise>
+    <technology>
+        <title>Explore more on Time, Distance, and Speed</title>
+        <p>
+            <ol marker="1. ">
+                <li>
+                    <p>
+                        Explore the concept of average speed and how it relates to time and distance with this interactive video.
+                    </p>
+                    <video youtube="mt6Nq0dzFjo"/>
+                </li>
+                <li>
+                    <p>
+                        Explore more on the concept of Acceleration, which is the rate of change of velocity with respect to time.
+                    </p>
+                    <video youtube="gWaI-mzn69c"/>
+                </li>
+            </ol>
+
+        </p>
+    </technology>
+    
 </subsection>
