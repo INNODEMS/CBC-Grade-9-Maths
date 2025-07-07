@@ -34,7 +34,7 @@
     <xi:include href="subsections/time-distance-and-speed/subsec-speed-in-m-s.ptx" />
     <xi:include href="subsections/time-distance-and-speed/subsec-average-speed.ptx" />
     <xi:include href="subsections/time-distance-and-speed/subsec-velocity.ptx" />
-    <xi:include href="subsections/time-distance-and-speed/subsec-acceleration.ptx" />
+    <xi:include href="subsections/time-distance-and-speed/subsec-acceleration.ptx"/>
     <xi:include href="subsections/time-distance-and-speed/subsec-identifying-longitudes.ptx" />
     <xi:include href="subsections/time-distance-and-speed/subsec-relating-longitudes-to-time.ptx" />
     <xi:include href="subsections/time-distance-and-speed/subsec-local-time-of-places-along-different-longitudes.ptx" />
