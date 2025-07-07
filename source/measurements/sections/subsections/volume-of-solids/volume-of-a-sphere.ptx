@@ -1,7 +1,305 @@
 <subsection xml:id="subsec-volume-of-a-sphere">
     <title>Volume of a sphere</title>
+    <activity>
+        <p>
+            <m>\textbf{Work in groups}</m>
+        </p>
+        <p>
+            <m>\textbf{Play and Learn Activity: Discovering the Volume of a Sphere}</m>
+        </p>
+        <p>
+            <term>What you need:</term>
+        </p>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        A small ball (e.g. tennis ball, ping pong ball or football ball)
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        A measuring jug or graduated cylinder
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Water
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        A string or tape measure
+                    </p>
+                </li>
+            </ul>
+        </p>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Predict: How much space (volume) the ball will take up.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Measure the radius:
+                    </p>
+                    <p>
+                        Use the string or tape measure to find the diameter of the ball.
+
+
+                    </p>
+                    <p>
+                        Divide by <m>2</m> to get the radius (r).
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Find the volume practically:
+                    </p>
+                    <p>
+                        <ol marker="a. ">
+                            <li>
+                                <p>
+                                    Fill the measuring jug halfway with water. Note this initial volume (V₁).
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Submerge the ball completely in the water. Note the new volume (V₂).
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Calculate the volume of the ball as:
+                                </p>
+                                <p>
+                                    <m>V = V_2 - V_1</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Record your results.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Compare your predicted volume with the actual volume you measured.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Discuss with other learners how to calculate the volume of a sphere.
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <p>
+            In the interactive simulation below, play along with the radius to identify the volume of a sphere.
+        </p>
+        <figure >
+            <caption>Volume of a sphere</caption>
+            <interactive xml:id="geogebra-volume-of-a-sphere-1" platform="geogebra" width="100%">
+            <slate xml:id="Volume-of-a-sphere-1" surface="geogebra" material="ckbs7bqp" aspect="11:13" >
+                enableShiftDragZoom(true);
+                showResetIcon(true);
+            </slate>
+            </interactive>
+        </figure>
+
+    </activity>
+
     <p>
-        Sphere.
+        <m>\textbf{Key Takeaway}</m>
     </p>
+    <p>
+        The volume of a sphere is given by:
+    </p>
+    <p>
+        <m>\textbf{Volume}= \frac{4}{3} \pi r^3</m>
+    </p>
+    <p>
+        where <m>r</m> is the radius of the sphere.
+    </p>
+
+
+    <example>
+        <statement>
+            <p>
+                Find the volume of the figure below: (Use <m>\pi = \frac{22}{7}</m>)
+            </p>
+            <image width="50%">
+            <latex-image label="volume-of-a-sphere-1 ">
+                \begin{tikzpicture}
+                    % Draw the sphere
+                    \shade[ball color=blue!30!white, opacity=0.8,very thick] (0,0) circle (3cm);
+
+                    % Draw the radius line
+                    \draw[red, very thick, &lt;-&gt;] (0,0) -- (3cm,0) node[midway, above] {28 cm};
+
+                    % Draw the center point
+                    \filldraw[black] (0,0) circle (2pt);
+
+
+
+                    % Draw a dashed line to show the hidden part of radius
+                    \draw[red, dashed] (0,0) -- (-3cm,0);
+
+                \end{tikzpicture}
+            </latex-image>
+                
+            </image>
+        </statement>
+        <solution>
+            <p>
+                The radius of the sphere is given as <m>28 \text{ cm}</m>.
+            </p>
+            <p>
+                The volume is given by:
+            </p>
+            <p>
+                <md>
+                    <mrow>\text{Volume} =\amp \frac{4}{3} \pi r^3</mrow>
+                    <mrow>= \amp \frac{4}{3} \times \frac{22}{7} \times (28)^3</mrow>
+                    <mrow>= \amp \frac{4 \times 22 \times 28^3}{3 \times 7} \text{ cm}^3</mrow>
+                    <mrow>= \amp  10922.67 \text{ cm}^3</mrow>
+                </md>
+            </p>
+            <p>
+                The volume of the sphere is <m>{\color{blue}10922.67 \text{ cm}^3}</m>.
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                Moraa made a spherical cake balls of diameter <m>4.2 \text{ cm}</m>. If she had a minced cake of 
+                <m>194.05\, \text{cm}^3</m>, find the number of cake balls she made from the minced cake.
+            </p>
+
+        </statement>
+        <solution>
+            <p>
+                Find the radius of one cake ball:
+            </p>
+            <p>
+                The radius is half of the diameter:
+            </p>
+            <p>
+                <m>r = \frac{4.2}{2} = 2.1 \text{ cm}</m>
+            </p>
+            <p>
+                Find the volume of one cake ball
+            </p>
+            <p>
+                <md>
+                    <mrow>\text{Volume }= \amp \frac{4}{3} \pi r^3</mrow>
+                    <mrow>= \amp \frac{4}{3} \times \frac{22}{7} \times (2.1)^3</mrow>
+                    <mrow>= \amp \frac{4 \times 22 \times 2.1^3}{3 \times 7} \text{ cm}^3</mrow>
+                    <mrow>= \amp  38.808 \,\text{ cm}^3</mrow>
+                </md>
+            </p>
+            <p>
+                Find the number of cake balls
+            </p>
+            <p>
+                <md>
+                    <mrow>\textbf{Number of balls}= \amp \frac{\text{Total volume}}{\text{Volume of one ball}} </mrow>
+                    <mrow>= \amp \frac{194.05}{38.808} </mrow>
+                    <mrow>= \amp 5 \, \text{ balls}</mrow>
+                </md>
+            </p>
+            <p>
+                Therefore, Moraa made <m>{\color{blue}5 \, \text{ balls}}</m>  cake balls from the minced cake.
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                The figure below shows a globe with a radius of <m>35 \text{ m}</m>. 
+                Find its volume.(Use <m>\pi=3.142</m>)
+            </p>
+            <image width="50%">
+            <latex-image label="volume-of-a-sphere-2">
+                \begin{tikzpicture}
+                    % Draw the sphere
+                    \shade[ball color=blue!70,very thick] (0,0) circle (2cm);
+                    
+                    % Draw equator line
+                    \draw[dashed,very thick] (-2,0) arc (180:360:2cm and 0.5cm);
+                    \draw (-2,0) arc (180:0:2cm and 0.5cm);
+                    
+                    % Draw vertical meridian
+                    \draw[dashed,very thick] (0,-2) arc (-90:90:0.5cm and 2cm);
+                    \draw (0,2) arc (90:270:0.5cm and 2cm);
+                    
+                    % Draw radius
+                    \draw[thick, yellow] (0,0) -- (0,2) node[midway, right] {$28$ m};
     
+                \end{tikzpicture}
+            </latex-image>
+                
+            </image>
+        </statement>
+        <solution>
+            <p>
+                The radius of the globe is given as <m>28 \text{ m}</m>.
+            </p>
+            <p>
+                The volume is given by:
+            </p>
+            <p>
+                <md>
+                    <mrow>\text{Volume} =\amp \frac{4}{3} \pi r^3</mrow>
+                    <mrow>= \amp \frac{4}{3} \times 3.142 \times (28)^3</mrow>
+                    <mrow>= \amp \frac{4 \times 3.142 \times 28^3}{3} \text{ m}^3</mrow>
+                    <mrow>= \amp  91964.24533 \text{ m}^3</mrow>
+                </md>
+            </p>
+            <p>
+                The volume of the globe is <m>{\color{blue} 91964.25 \text{ m}^3}</m>.
+            </p>
+        </solution>
+    </example>
+    <exercise>
+        <p>
+            
+        </p>
+    </exercise>
+
+
+    <technology>
+        <p>
+            <m>\textbf{Technology Integration: Exploring Volume of Solids}</m>
+        </p>
+        <p>
+            To learn more about volume of solids, explore these interactive and insightful resources:
+        </p>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        <m>\textbf{CK-12 Interactive Geometry}</m>
+                        Engage with interactive explanations and practice problems to deepen your understanding of the volume of various solids including prisms, cylinders, spheres, and cones.
+                        🔗 <url href="https://flexbooks.ck12.org/cbook/ck-12-interactive-geometry-for-ccss/section/1.10/primary/lesson/volume-of-solids-geo-ccss/">Visit CK-12 Interactive Geometry</url>
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        <m>\textbf{YouTube Video – Visual Explanation}</m>
+                        Gain a clear and concise understanding of calculating the volume of solids with this engaging video tutorial, perfect for visual learners.
+                        🔗 <url href="https://www.youtube.com/watch?v=9FbJWhDiXogandlist=PL9jFeeMFHxsOm8vtumdyHCgmA-7z-vZGw">Watch Now</url>
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </technology>
+
+
 </subsection>
