@@ -4,6 +4,7 @@
         Every number or item in a matrix has a special place, just like a seat in a classroom or a product on a shelf. We use the row and column numbers to find the exact position of each item. This helps us quickly locate information in tables, scoreboards, or lists.
     </p>
     <activity>
+        
         <p></p>
         <p>Imagine a 3×3 grid representing a simple map. Each cell can have a value: 0 (empty), 1 (tree), 2 (house), 3 (treasure). The map is represented by the following matrix:</p>
         <p>
