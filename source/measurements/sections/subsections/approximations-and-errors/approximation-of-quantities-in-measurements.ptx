@@ -97,16 +97,32 @@
                 </li>
             </ol>
             <table>
-                <title>ACtivity table</title>
+                <title>Approximating length</title>
                 <tabular halign="center" valign="middle" top="medium" bottom="medium" right="medium" left="medium">
-                    <row>
-                        <cell>Object</cell>
-                        <cell>Body Part Used</cell>
+                    <row halign="left" valign="middle" header="yes"  bottom="medium"  left="medium">
+                        <cell>
+                            <line>Object</line>
+                            <line>part</line>
+                            <line>used</line>
+                        </cell>
                         <cell>Count</cell>
-                        <cell>Estimated Length (cm)</cell>
-                        <cell>Measured Length (cm)</cell>
-                        <cell>Absolute Error</cell>
-                        <cell>Percentage Error (%)</cell>
+
+                        <cell>
+                            <line>Estimated</line> 
+                            <line>Length (cm)</line>
+                        </cell>
+                        <cell>
+                            <line>Measured</line> 
+                            <line>Length (cm)</line>
+                        </cell>
+                        <cell>
+                            <line>Absolute</line> 
+                            <line>error</line>
+                        </cell>
+                        <cell>
+                            <line>Percentage </line> 
+                            <line>error</line>ight="medium"
+                        </cell>
                     </row>
                     <row>
                         <cell>Desk</cell>
@@ -179,15 +195,27 @@
             
             <table>
                 <title>Mass table</title>
-                <tabular>
+                <tabular halign="center" valign="middle" top="medium" bottom="medium" right="medium" left="medium">
                     
-            <row>
+            <row header="yes">
                 <cell>No.</cell>
                 <cell>Object</cell>
-                <cell>Estimated Mass (g)</cell>
-                <cell>Measured Mass (g)</cell>
-                <cell>Absolute Error (g)</cell>
-                <cell>Percentage Error (%)</cell>
+                <cell>
+                    <line>Estimated</line> 
+                    <line>Mass (g)</line>
+                </cell>
+                <cell>
+                    <line>Measured</line> 
+                    <line>mass (g)</line>
+                </cell>
+                <cell>
+                    <line>Absolute </line> 
+                    <line>error (g)</line>
+                </cell>
+                <cell>
+                    <line>Percentage </line> 
+                    <line>error (\%)</line>
+                </cell>
             </row>
             <row>
                 <cell>i)</cell>
@@ -221,8 +249,8 @@
             </p>
             <p>
             <ul>
-            <li><p><m>|Estimated - Measured|</m> for <em>Absolute Error</em></p></li>
-            <li><p><m>(Absolute Error ÷ Measured) × 100</m> for <em>Percentage Error</em></p></li>
+            <li><p><m>\text{Estimated value- Measured value}</m> for <em>Absolute Error</em></p></li>
+            <li><p><m>(\text{Absolute Error ÷ Measured} × 100</m> for <em>Percentage Error</em></p></li>
             </ul>
         </p> 
             <p>
@@ -243,48 +271,69 @@
             Choose three flat surfaces such as a desk top, book cover, exercise book page, floor tile, or windowpane. Estimate the area by visualising or using hand-sized units (like palm-sized squares). Then measure the length and width to calculate the actual area.
             </p>
 
-        <table>
+            <table>
             <title>Estimating area </title>
 
             <tabular halign="center" valign="middle" top="medium" bottom="medium" right="medium" left="medium">
-        
-            <row>
-                <cell>Item number</cell>
-            <cell>Object</cell>  
-            <cell>Estimated Area (cm²)</cell>
-            <cell>Measured Length (cm)</cell>
-            <cell>Measured Width (cm)</cell>
-            <cell>Actual Area (cm²)</cell>
-            <cell>Absolute Error (cm²)</cell>
-            <cell>Percentage Error (%)</cell>
-            </row>
-            <row>
-            <cell>a)</cell>
-            <cell></cell>
-            <cell></cell>
-            <cell></cell>
-            <cell></cell>
-            <cell></cell>
-            <cell></cell>
-            </row>
-            <row>
-            <cell>b)</cell>
-            <cell></cell>
-            <cell></cell>
-            <cell></cell>
-            <cell></cell>
-            <cell></cell>
-            <cell></cell>
-            </row>
-            <row>
-            <cell>c)</cell>
-            <cell></cell>
-            <cell></cell>
-            <cell></cell>
-            <cell></cell>
-            <cell></cell>
-            <cell></cell>
-            </row>
+                
+                <row header="yes" halign="center">
+                        <cell>
+                            <line>Item</line> 
+                            <line>number</line>
+                        </cell>
+                    <cell>Object</cell> 
+                    <cell>
+                        <line>Estimated</line> 
+                        <line>area (cm²)</line>
+                    </cell> 
+                    <cell>
+                        <line>Measured</line> 
+                        <line>length (cm)</line>
+                    </cell>
+                    <cell>
+                        <line>Measured</line> 
+                        <line>width (cm)</line>
+                    </cell><cell>
+                        <line>Actual </line> 
+                        <line>area (cm²)</line>
+                    </cell>
+                    <cell>
+                        <line>Absolute </line> 
+                        <line>error (cm²)</line>
+                    </cell>
+                    <cell>
+                        <line>Percentage </line> 
+                        <line>error (\%)</line>
+                    </cell>
+                </row>
+                <row>
+
+                    <cell>a)</cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>b)</cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>c)</cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
             </tabular> 
         </table>
 
