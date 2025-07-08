@@ -2,13 +2,31 @@
     <title>Local time of places on the Earth along different Longitudes</title>
     <activity>
         <p>
-            Work in groups
+            Work in groups.
+        </p>
+        <p>
+            Use an atlas or a map of the world showing longitudes and the Prime Meridian. Then complete the following tasks:
         </p>
         <p>
             <ol marker="1. ">
                 <li>
                     <p>
-                        
+                        Identify three towns or cities located at different longitudes (one in the Eastern Hemisphere, one near the Prime Meridian, and one in the Western Hemisphere). Record their longitudes.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Assume the local time in the town closest to the Prime Meridian is <m>12:00</m> noon. Using the concept that <m>1^\circ</m> of longitude equals <m>4</m> minutes, calculate the local time in the other two towns.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Share your group’s findings with the class. Explain how the direction (east or west) of a town’s longitude affected its local time compared to the Prime Meridian.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Discuss: What challenges might arise in global communication or travel due to differences in local time?
                     </p>
                 </li>
             </ol>
