@@ -1,5 +1,157 @@
 <subsection xml:id="subsec-determining-the-bearing-of-one-point-from-another-in-real-life-situations">
     <title>Determining the Bearing of One Point From Another in Real Life Situations</title>
+    <activity>
+        <statement>
+            <p>
+                <term>Work in groups</term>
+            </p>
+            <p>
+                <term>Materials Needed</term>
+            </p>
+            <p>
+                Compass, clipboards, pencils, school compound map (or blank paper for sketching).
+            </p>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                           In your groups, choose a starting point within the school compound (e.g., school gate, flagpole, staffroom). 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Each group will hoose 3–4 other landmarks around the school.
+            
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Use the compass to determine the bearing from their starting point to each landmark.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                           Record bearings using three-figure notation (e.g., 092°).
+                        </p>
+                    </li>
+                </ul>
+            </p>
+        </statement>
+    </activity>
+    <p>
+        <m>\textbf{ Key Takeaway }</m>
+    </p>
+    <p>
+        Directional information is essential for locating positions accurately in practical contexts like travel, rescue missions, 
+        and route planning.
+    </p>
+
+    <example>
+        <statement>
+            <p>
+               Find the bearing of: 
+            </p>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                           A from C  
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            C from A
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            C from B
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            A from B
+                        </p>
+                    </li>
+                </ul>
+            </p>
+            <image width="50%">
+                <latex-image label="compass-true-bearing">
+                    \begin{tikzpicture}
+                      \filldraw[black] (-5,5) circle (2pt) node[below right] {A};  
+                      \filldraw[black] (-5,0) circle (2pt) node[below right] {B};
+                      \filldraw[black] (-1,0) circle (2pt) node[below right] {C};
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
+            
+        </statement>
+        <solution>
+            <p>
+               <ul>
+                <li>
+                    <p>
+                        To find the bearing of point A from C, first draw a compass at the starting point, which is C in this case. Then connect point A to C 
+                        using a line. Using a compass, measure the angle ( in the clockwise direction) formed by the North line at C and the line AC. 
+                        Place your compass at C such that the <m>0^\circ</m> mark lies on the North line. Therefore, A is on a  bearing of <m>315^\circ</m> from C.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Using a similar approach, from the one above, C is on a  bearing of <m>135^\circ</m> from A
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        C is on a bearing of <m>090^\circ</m> from B.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        A lies directly North of B (A is due North of B). Therefore, A is on a bearing of <m>000^\circ</m> from B.   
+                    </p>
+                </li>
+               </ul> 
+            </p>
+            <image>
+                <latex-image label="compass-true-bearing-example">
+                    \begin{tikzpicture}
+                    \usetikzlibrary{angles,quotes} % Required for angle annotations
+
+                    \filldraw[black] (-5,5) circle (2pt) node[below right] {A};  
+                    \filldraw[black] (-5,0) circle (2pt) node[below right] {B};
+                    \filldraw[black] (-1,0) circle (2pt) node[below right] {C};
+
+                    % Triangle ABC
+                    \coordinate (A) at (-5,5);
+                    \coordinate (B) at (-5,0);
+                    \coordinate (C) at (-1,0);
+                    \coordinate (D) at (-1,1);
+                    \coordinate (E) at (-5,6);
+
+                    \draw[thick] (A) -- (B) -- (C) -- cycle;
+
+                    \draw[draw=blue] plot coordinates{(E)(A)(C)} pic["$ $", draw=orange, angle eccentricity=1.2, angle radius=.5cm]
+                    {angle=C--A--E};; 
+                    \draw[draw=blue] plot coordinates{(D)(C)(A)} pic["$ $", draw=orange, angle eccentricity=1.2, angle radius=.5cm]
+                    {angle=A--C--D};; 
+
+                    \draw[draw=blue] (-4.6,0) -- (-4.6,0.4) -- (-5,0.4); 
+
+                    \draw[black,-&gt;] (-5,-1)--(-5,1); 
+                    \draw[black] (-6,0)--(-4,0);
+
+                    \draw[black,-&gt;] (-5,4)--(-5,6); 
+                    \draw[black] (-6,5)--(-4,5);
+
+                    \draw[black] (-2,0)--(0,0); 
+                    \draw[black,-&gt;] (-1,-1)--(-1,1); 
+
+                    \end{tikzpicture}
+                </latex-image>
+        </image>
+        </solution>
+    </example>
     <p>
         
     </p>

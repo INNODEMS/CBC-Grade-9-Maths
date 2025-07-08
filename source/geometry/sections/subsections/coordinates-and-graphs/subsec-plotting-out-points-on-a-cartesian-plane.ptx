@@ -5,10 +5,6 @@
         which intersect at the origin <m>(0, 0).</m>
     </p>
     <p>
-        Coordinates refers to the position of a point on a Cartesian plane. A point is represented as <m>(x, y),</m> where <term>"x"</term> 
-        tells you how far to move left or right, and <term>"y"</term> tells you how far to move up or down.
-    </p>
-    <p>
         When plotting points on a Cartesian plane:
         <ul>
             <li>
@@ -29,15 +25,24 @@
                <term>Work in pairs</term> 
             </p>
             <p>
-                Randomly select points (e.g., (2,3), (-4,1), (0,-2)) and plot them on a Cartesian plane.
+                <ul>
+                    <li>
+                        <p>
+                             Randomly select points (e.g., (2,3), (-4,1), (0,-2)) and plot them on a Cartesian plane.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Exchange your plotted points with another group and discuss.
+                        </p>
+                    </li>
+                </ul>   
             </p>
-            <p>
-                Exchange your plotted points with another group and discuss.
-            </p>
+            
         </statement>
     </activity>
     <p>
-        <term>Key Takeaway</term>
+        <m>\textbf{ Key Takeaway }</m>
     </p>
     <p>
         <ul>

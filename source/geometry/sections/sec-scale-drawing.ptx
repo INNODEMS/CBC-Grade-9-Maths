@@ -1,5 +1,14 @@
 <section xml:id="sec-scale-drawing" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Scale Drawing</title>
+    <introduction>
+        <p>
+            Scale drawing is a way of representing real objects or spaces on paper using a fixed ratio—so that large things
+             (like buildings or roads) can be drawn small, but still accurately.
+        </p>
+        <p>
+            It opens the door to connecting mathematics with the real world in meaningful, visual ways.
+        </p>
+    </introduction>
     <xi:include href="subsections/scale-drawing/subsec-identifying-compass-and-true-bearings-in-real-life-situations.ptx" />
     <xi:include href="subsections/scale-drawing/subsec-determining-the-bearing-of-one-point-from-another-in-real-life-situations.ptx" />
     <xi:include href="subsections/scale-drawing/subsec-locating-a-point-using-bearing-and-distance-in-real-life-situations.ptx" />
