@@ -1,0 +1,133 @@
+<subsection xml:id="subsec-acceleration">
+    <title>Acceleration</title>
+    <activity>
+        <p>
+            Work in groups
+        </p>
+        <p>
+            <ol marker="1. ">
+                <li>
+                    <p>
+                        From the left handside of <xref ref="fig-acceleration-of-an-object"/> below, click to check the Road, Photos, Markers and Graphs boxes.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Click the <c>Play</c> button to start the simulation.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Observe the motion of the two objects as they accelerate.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Click the <c>Reset</c> button to reset the simulation and <c>Pause</c> button to pause the simulation.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Discuss and share with the rest of the class your observations about the acceleration of the objects.
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <figure xml:id="fig-acceleration-of-an-object">
+            <caption>Acceleration of an object</caption>
+            <interactive xml:id="geogebra-acceleration-of-an-object" geogebra="dtjdmzph" width="95%" aspect="8:6" reset-icon="yes"  shift-drag-zoom="no"/>
+        </figure>
+    </activity>
+    <p>
+        <m>\textbf{Key Takeaway}</m>
+    </p>
+    <definition xml:id="def-acceleration">
+        <statement>
+            <p>
+                Acceleration is defined as the rate of change of velocity per unit time. 
+                It is a <term>vector quantity</term>, meaning it has both magnitude and direction.
+            </p>
+            <p>
+                Acceleration can be positive (speeding up), negative (slowing down), or zero (constant speed).
+            </p>
+            <p>
+                The formula for acceleration is given by:
+                <m>\text{Acceleration} = \frac{\text{Change in Velocity}}{\text{Time Taken}}</m>
+            </p>
+        </statement>
+    </definition>
+    <example>
+        <statement>
+            <p>
+                A Jet fighter accelerates from <m>0</m> m/s to <m>100</m> m/s in <m>10</m> seconds.
+                What is its acceleration?
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Initial velocity <m>= 0</m> m/s
+            </p>
+            <p>
+                Final velocity <m>= 100</m> m/s
+            </p>
+            <p>
+                Time taken <m>= 10</m> seconds
+            </p>
+            <p>
+                Acceleration <m>= \frac{\text{Final Velocity} - \text{Initial Velocity}}{\text{Time Taken}}</m>
+            </p>
+            <p>
+                <md>
+                    <mrow> \amp = \frac{(100 - 0) \text{m/s}}{10 \text{s}}</mrow>
+                    <mrow> \amp = \frac{100 \text{m/s}}{10 \text{s}} </mrow>
+                    <mrow> \amp = 10 \text{m/s}^2 </mrow>
+                </md>
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                A Bus slows down from <m>60</m> m/s to <m>30</m> m/s in <m>5</m> seconds.
+                Calculate its acceleration?
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Initial velocity <m>= 60</m> m/s
+            </p>
+            <p>
+                Final velocity <m>= 30</m> m/s
+            </p>
+            <p>
+                Time taken <m>= 5</m> seconds
+            </p>
+            <p>
+                Acceleration <m>= \frac{\text{Final Velocity} - \text{Initial Velocity}}{\text{Time Taken}}</m>
+            </p>
+            <p>
+                <md>
+                    <mrow> \amp = \frac{(30 - 60) \text{m/s}}{5 \text{s}}</mrow>
+                    <mrow> \amp = \frac{-30 \text{m/s}}{5 \text{s}} </mrow>
+                    <mrow> \amp = -6 \text{m/s}^2 </mrow>
+                </md>
+            </p>
+        </solution>
+    </example>
+    <exercise>
+        <statement>
+            <p>
+                A car accelerates from <m>20</m> m/s to <m>50</m> m/s in <m>3</m> seconds.
+                Calculate its acceleration.
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                TODO
+            </p>
+        </statement>
+    </exercise>
+    
+</subsection>

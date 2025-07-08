@@ -1,0 +1,62 @@
+<subsection xml:id="subsec-combined-operation-of-integers">
+    <title>Combined operation of Integers</title>
+    
+    <introduction>
+        <p>
+         Combined operation of integers refers to representation and calculation of basic mathematics
+         operations in a single question.
+        </p>
+    </introduction>
+    <subsubsection xml:id="subsubsec-mixed-operation-of-integers">
+        <title>Mixed operation of integers</title>
+        <p>
+         In mixed operation of integers, the four basic operations
+         of addition,subtraction,multiplication and division are carried
+         out in the same question. Below is an example
+        </p>
+        <example>
+            <statement>
+                <p>
+                    Victoria had 12 boxes each containing 10 apples. She gave 6 apples to  
+                    her friends.She decided to pack the remaining apples in 2 boxes, how
+                    many apples will be contained in each box?
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <md>
+                        <mrow> 1\, \text{box} =\amp 10\, \text{apples} </mrow>
+                        <mrow> 12\, \text{boxes}=\amp ? </mrow>
+                        <mrow>12 \times 10=\amp 120 </mrow>
+                    </md> 
+                </p>
+                <p>
+                    From the 120 apples, she gave 6 to her friends, <m>120-6=114 \text{apples}</m>
+                </p>
+                <p>
+                    When division is carried out, <m>114 \div 2=57 \text{apples} </m>
+                </p>
+            </solution>
+        </example>
+        <example>
+            <statement>
+                <p>
+                    Evaluate the expression : <m>(-3)\times(-4)+2-4\div2 </m>
+
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    Observe the <m>BODMAS</m> rule:
+                </p>
+                <p>
+                    <md>
+                        <mrow>(-3)\times(-4)=\amp 12 </mrow>
+                        <mrow>12 \div 2=\amp 6</mrow>
+                        <mrow> 6+2-4=\amp 4</mrow>
+                    </md>
+                </p>
+            </solution>
+        </example>
+    </subsubsection>
+</subsection>

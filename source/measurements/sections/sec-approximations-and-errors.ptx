@@ -3,8 +3,114 @@
 
     <introduction>
         <p>
-            
+            Approximation is when we give a value that is close to the exact value, but not exact. We use approximation when:
         </p>
-    </introduction>
-    <xi:include href="subsections/approximations-and-errors/test1.ptx" />
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Measuring objects (like length, weight, or time)
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Estimating results
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Rounding numbers
+                    </p>
+                </li>
+            </ul>
+        </p>
+        <example>
+            <statement>
+                <p>
+                    Given the exact length of a book is  be 28.4 cm what is the approximate length of the book?
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    The exact length of the book is 28cm by rounding off.
+                    When we approximate, we might not get the exact value, but we get a value that is close enough for our needs.
+ 
+                </p>
+            </solution>
+        </example>
+        <p>
+            <m>\textbf{Why Do We Approximate?}</m>
+        </p>
+        <p>
+            <ol marker="a)">
+                <li>
+                    <p>
+                        Some values are difficult to measure exactly.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Tools like rulers or weighing scales are not always perfectly precise.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        It saves time and is good for rough planning or daily use.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            <p>
+                <m>\textbf{What is error in measurement?}</m>
+             </p>
+             <p>
+                Whenever we approximate or measure something, there's a difference between the actual (true) value and the measured value. This difference is called an error.
+                </p>
+                <p>
+              There are two main types of error:
+                   
+                </p>
+                <p>
+                <ul>
+                    <li>
+                        <p>
+                            Absolute Error: This is the difference between the actual value and the measured value. For example, if the actual length of a pencil is 10 cm and you measure it as 9.5 cm, the absolute error is 0.5 cm.                     
+                         </p>
+                         <p>
+                            - Therefore absolute error = ∣Measured Value−True Value∣
+                         </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Relative Error: This tells us how big the error is compared to the true value.
+                        </p>
+                        <p>
+                            - Relative Error = Absolute Error ÷ True Value
+                        </p>
+                    </li>
+                </ul>
+             </p>
+            <example>
+                <statement>
+                    <p>
+                        A bag of sugar is labeled 1 kg, but the actual weight is 1.05 kg.
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        Absolute Error = <m>1.05 - 1 = 0.5 \text{kg} </m>
+
+                    </p>
+                    <p>
+                        Relative Error  <m>= \frac{0.05}{1.05} = 0.048 \text {kg}</m>
+                    </p>
+                </solution>
+            </example>
+                 </introduction>
+    <!-- <xi:include href="subsections/approximations-and-errors/test1.ptx" /> -->
+    <xi:include href="subsections/approximations-and-errors/approximation-of-quantities-in-measurements.ptx" />
+    <xi:include href="subsections/approximations-and-errors/determine-errors-using-estimations-and-actual-measurements-of-quantities.ptx" />
+    <xi:include href="subsections/approximations-and-errors/determine-percentage-errors-using-actual-measurements-of-quantities.ptx" />
+      
 </section>

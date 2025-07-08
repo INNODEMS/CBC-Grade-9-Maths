@@ -1,29 +1,356 @@
 <subsection xml:id="subsec-calculating_mean_of_grouped_data" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Calculating Mean of Grouped Data</title>
+    <activity>
+        <title>Work in Groups.</title>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        The table below shows the marks scored by <m>100</m> in an assessment.
+                    </p>
+                    <tabular top="medium" bottom="medium" left="medium" right="medium">
+                        <row>
+                            <cell halign="center">Marks</cell>
+                            <cell halign="center">Mid point</cell>
+                            <cell halign="center">Number of Learners (<m>f</m>)</cell>
+                            <cell halign="center">f(<m>x</m>)</cell>
+                        </row>
+                        <row>
+                            <cell halign="center">10 - 22</cell>
+                            <cell halign="center"><m>\frac{10 + 22}{2} = 16</m></cell>
+                            <cell halign="center">5</cell>
+                            <cell halign="center">80</cell>
+                        </row>
+                        <row>
+                            <cell halign="center">23 - 35</cell>
+                            <cell halign="center"><m>\frac{23 + 35}{2} = 29</m></cell>
+                            <cell halign="center">10</cell>
+                            <cell halign="center">290</cell>
+                        </row>
+                        <row>
+                            <cell halign="center">36 - 48</cell>
+                            <cell halign="center"></cell>
+                            <cell halign="center">20</cell>
+                            <cell halign="center"></cell>
+                        </row>
+                        <row>
+                            <cell halign="center">49 - 61</cell>
+                            <cell halign="center"></cell>
+                            <cell halign="center">30</cell>
+                            <cell halign="center"></cell>
+                        </row>
+                        <row>
+                            <cell halign="center">62 - 74</cell>
+                            <cell halign="center"></cell>
+                            <cell halign="center">10</cell>
+                            <cell halign="center"></cell>
+                        </row>
+                        <row>
+                            <cell halign="center">75 - 87</cell>
+                            <cell halign="center"></cell>
+                            <cell halign="center">5</cell>
+                            <cell halign="center"></cell>
+                        </row>
+                        <row>
+                            <cell halign="center">88 - 100</cell>
+                            <cell halign="center"></cell>
+                            <cell halign="center">1</cell>
+                            <cell halign="center"></cell>
+                        </row>
+                        <row>
+                            <cell halign="center"></cell>
+                            <cell halign="center"></cell>
+                            <cell halign="center">Total = 81</cell>
+                            <cell halign="center">Total = </cell>
+                        </row>
+                    </tabular>
+                    <p>
+                        <ol marker="i.">
+                            <li>
+                                <p>
+                                    Complete the table.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                     Use the table to determine the mean mark.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Share your work with other learners in the class.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity>
     <p>
-        
+        <term>Key Takeaway.</term>
+    </p>
+    <p>
+        When data is organized into class intervals, each interval is represented by its <term><em>mid-point</em></term>, which is the average of the <em>lower</em> and <em>upper</em> boundaries of that class.
+    </p>
+    <p>
+        Mid-point can be denoted as;
+        <me>
+            \bar{X} = \frac{\text{upper limit + lower limit}}{2}
+        </me>        
+    </p>
+    <p>
+        <me>
+            \text{Mean} = \frac{\text{sum of all values}}{\text{total frequency}}
+        </me>        
+    </p>
+    <p>
+        Mean is represented by the symbol <m>\bar{X}</m>, read as <m>X</m> bar.
+    </p>
+    <p>
+        Thus,
+        <me>
+            \bar{X} = \frac{\sum{fx}}{\sum{f}}
+        </me>        
+    </p>
+    <p>
+        The symbol <m>\sum</m>(sigma) means "sum of" and is used to indicate that you should add up all the values in the specified range.
     </p>
     <example>
+        <title>Masses of men</title>
         <statement>
             <p>
-                
+                The  table below shows given masses of <m>72</m> men working in a shop. Calculate the mean mass.
             </p>
+            <tabular top="medium" bottom="medium" left="medium" right="medium">
+                <row>
+                    <cell halign="center">Mass (kg)</cell>
+                    <cell halign="center">Mid point</cell>
+                </row>
+                <row>
+                    <cell halign="center">55 - 58</cell>
+                    <cell halign="center">6</cell>
+                </row>
+                <row>
+                    <cell halign="center">59 - 62</cell>
+                    <cell halign="center">8</cell>
+                </row>
+                <row>
+                    <cell halign="center">63 - 66</cell>
+                    <cell halign="center">12</cell>
+                </row>
+                <row>
+                    <cell halign="center">67 - 70</cell>
+                    <cell halign="center">18</cell>
+                </row>
+                <row>
+                    <cell halign="center">71 - 74</cell>
+                    <cell halign="center">6</cell>
+                </row>
+                <row>
+                    <cell halign="center">75 - 78</cell>
+                    <cell halign="center">10</cell>
+                </row>
+                <row>
+                    <cell halign="center">79 - 82</cell>
+                    <cell halign="center">12</cell>
+                </row>
+            </tabular>
         </statement>
         <solution>
             <p>
-                
+
+            </p>
+            <tabular top="medium" >
+                <row bottom="medium">
+                    <cell>Mass (kg)</cell>
+                    <cell>Mid point</cell>
+                    <cell>Frequency (f)</cell>
+                    <cell>fx</cell>
+                </row>
+                <row>
+                    <cell>55 - 58</cell>
+                    <cell>56.5</cell>
+                    <cell>6</cell>
+                    <cell>339</cell>
+                </row>
+                <row>
+                    <cell>59 - 62</cell>
+                    <cell>60.5</cell>
+                    <cell>8</cell>
+                    <cell>484</cell>
+                </row>
+                <row>
+                    <cell>63 - 66</cell>
+                    <cell>64.5</cell>
+                    <cell>12</cell>
+                    <cell>774</cell>
+                </row>
+                <row>
+                    <cell>67 - 70</cell>
+                    <cell>68.5</cell>
+                    <cell>18</cell>
+                    <cell>1233</cell>
+                </row>
+                <row>
+                    <cell>71 - 74</cell>
+                    <cell>72.5</cell>
+                    <cell>6</cell>
+                    <cell>435</cell>
+                </row>
+                <row>
+                    <cell>75 - 78</cell>
+                    <cell>76.5</cell>
+                    <cell>10</cell>
+                    <cell>765</cell>
+                </row>
+                <row>
+                    <cell>79 - 82</cell>
+                    <cell>79.5</cell>
+                    <cell>12</cell>
+                    <cell>954</cell>
+                </row>
+                <row>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell>Total (f) = <m>72</m></cell>
+                    <cell>Total (fx) = <m>4,984</m></cell>
+                </row>
+            </tabular>
+            <p>
+                The total frequency is <m>72</m> and the total of <m>fx</m> is <m>4,984</m>.
+            </p>
+            <p>
+                The mean mass is calculated as follows:
+            </p>
+            <p>
+                <me>
+                    \bar{X} = \frac{\sum{fx}}{\sum{f}}
+                </me>
+            </p>
+            <p>
+                <me>
+                    \bar{X} = \frac{4,984}{72}
+                </me>
+            </p>
+            <p>
+                <me>
+                    \approx 69.72\, \text{kg}
+                </me>
             </p>
         </solution>
     </example>
     <example>
+        <title>Points scored in a tournament</title>
         <statement>
             <p>
-                
+                The table below shows the points scored by various teams in a tournament. Calculate the mean points scored.
             </p>
+            <tabular top="medium" bottom="medium" left="medium" right="medium">
+                <row header="yes">
+                    <cell>Points Scored</cell>
+                    <cell>Frequency</cell>
+                </row>
+                <row>
+                    <cell>1-10</cell>
+                    <cell>10</cell>
+                </row>
+                <row>
+                    <cell>11-20</cell>
+                    <cell>14</cell>
+                </row>
+                <row>
+                    <cell>21-30</cell>
+                    <cell>19</cell>
+                </row>
+                <row>
+                    <cell>31-40</cell>
+                    <cell>8</cell>
+                </row>
+                <row>
+                    <cell>41-50</cell>
+                    <cell>6</cell>
+                </row>
+                <row>
+                    <cell>51-60</cell>
+                    <cell>3</cell>
+                </row>
+            </tabular>
         </statement>
         <solution>
             <p>
-                
+                To find the mean points scored, we need to calculate the total points and the total number of teams.
+            </p>
+            <tabular top="medium">
+                <row header="yes" bottom="medium">
+                    <cell>Points Scored</cell>
+                    <cell>Midpoint</cell>
+                    <cell>Frequency (f)</cell>
+                    <cell>fx</cell>
+                </row>
+                <row>
+                    <cell>1-10</cell>
+                    <cell><m>\frac{1+10}{2} = 5.5</m></cell>
+                    <cell>10</cell>
+                    <cell>55</cell>
+                </row>
+                <row>
+                    <cell>11-20</cell>
+                    <cell><m>\frac{11+20}{2} = 15.5</m></cell>
+                    <cell>14</cell>
+                    <cell>217</cell>
+                </row>
+                <row>
+                    <cell>21-30</cell>
+                    <cell><m>\frac{21+30}{2} = 25.5</m></cell>
+                    <cell>19</cell>
+                    <cell>484.5</cell>
+                </row>
+                <row>
+                    <cell>31-40</cell>
+                    <cell><m>\frac{31+40}{2} = 35.5</m></cell>
+                    <cell>8</cell>
+                    <cell>284</cell>
+                </row>
+                <row>
+                    <cell>41-50</cell>
+                    <cell><m>\frac{41+50}{2} = 45.5</m></cell>
+                    <cell>6</cell>
+                    <cell>273</cell>                    
+                </row>
+                <row>
+                    <cell>51-60</cell>
+                    <cell><m>\frac{51+60}{2} = 55.5</m></cell>
+                    <cell>3</cell>
+                    <cell>166.5</cell>
+                </row>
+                <row>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell>Total = <m>60</m></cell>
+                    <cell>Total = <m>1480</m></cell>
+                </row>
+            </tabular>
+            <p>
+                The total frequency is <m>60</m> and the total of <m>fx</m> is <m>1480</m>.
+            </p>
+            <p>
+                The mean points scored is calculated as follows:
+            </p>
+            <p>
+                <me>
+                    \bar{X} = \frac{\sum{fx}}{\sum{f}}
+                </me>
+            </p>
+            <p>
+                <me>
+                    \bar{X} = \frac{1480}{60}
+                </me>
+            </p>
+            <p>
+                <me>
+                    \approx 24.67\, \text{points}
+                </me>
             </p>
         </solution>
     </example>

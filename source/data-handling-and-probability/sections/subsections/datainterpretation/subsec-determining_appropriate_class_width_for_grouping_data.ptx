@@ -1,6 +1,23 @@
 <subsection xml:id="subsec-determining_appropriate_class_width_for_grouping_data" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Determining Appropriate Class Width For Grouping Data</title>
 
+    <p>
+        Data can be classified mainly into two types on the basis of how it is organized: <term><em>Grouped Data</em></term> and <term><em>Ungrouped Data</em></term>.
+        Ungrouped data is raw data, which consists of a simple list of values where each value corresponds to a distinct observation or measurement.
+    </p>
+    <p>
+        For example, a list of marks of students in a classroom (e.g., 95, 94, 96, 92, 98, 99, ...).
+        This kind of representation is used when we have a smaller dataset and need to deal with individual data points.
+    </p>
+    <p>
+        Grouped data, on the other hand, is a collection of data that has been organized into groups or intervals.
+        This is done to simplify the analysis and interpretation of large datasets.
+        Grouping data helps in identifying patterns, trends, and distributions within the data.
+    </p>
+    <p>
+        When we have a larger dataset, it is preferable to group similar data values into intervals and assign a value to each interval corresponding to the frequency of data points in that range.
+        The intervals should have a uniform length defined by their upper and lower limits.
+    </p>
     <activity>
         <title>Work in Groups:- Measuring Arm Span</title>
         <p>
@@ -38,13 +55,13 @@
         <title>Work in Groups:- Temperature</title>
         <p>
             You are provided with the daily afternoon temperatures (in °C) recorded in your area over the last 22 days:
-            <ul>
-                <li>
-                    <p>
-                        29, 31, 26, 33, 30, 27, 25, 35, 28, 24, 32, 26, 30, 34, 33, 29, 31, 27, 36, 25, 28, 32
-                    </p>
-                </li>
-            </ul>
+        </p>
+        <tabular top="medium" bottom="medium" left="medium" right="medium">
+            <row>
+                <cell>29, 31, 26, 33, 30, 27, 25, 35, 28, 24, 32, 26, 30, 34, 33, 29, 31, 27, 36, 25, 28, 32</cell>
+            </row>
+        </tabular>
+        <p>      
             <ol>
                 <li>
                     <p>

@@ -266,25 +266,19 @@
         </solution>
     </example>
 
+    <exercise>
+        <p>
+            
+        </p>
+    </exercise>
+
     <technology>
         <p>
             <m>\textbf{Technology Integration: Exploring Area and Surface Area}</m>
         </p>
         <p>
             <ol>
-                <li>
-                    <p>
-                        <m>\textbf{GeoGebra Interactive Geometry and 3D Tool}</m>
-                    </p>
-                    <p>
-                        Explore and manipulate 2D and 3D shapes such as pentagons, prisms, pyramids, 
-                        spheres, and cones. Students can dynamically change dimensions and instantly see 
-                        how area or surface area is affected.
-                    </p>
-                    <p>
-                        <url href="https://www.geogebra.org/geometry" />
-                    </p>
-                </li>
+               
 
                 <li>
                     <p>
@@ -296,22 +290,11 @@
                         with quizzes to test your understanding.
                     </p>
                     <p>
-                        <url href="https://www.bbc.co.uk/bitesize/topics/zb6tyrd" />
+                        <url href="https://www.bbc.co.uk/bitesize/topics/zb6tyrd" >Explore on the book</url>
                     </p>
                 </li>
 
-                <li>
-                    <p>
-                        <m>\textbf{Desmos Geometry Tool}</m>
-                    </p>
-                    <p>
-                        Use Desmos to construct, measure, and analyze 2D shapes such as polygons
-                         and circles. Great for visualizing formulas and verifying your surface area and area calculations.
-                    </p>
-                    <p>
-                        <url href="https://www.desmos.com/geometry" />
-                    </p>
-                </li>
+                
 
                 <li>
                     <p>
@@ -322,8 +305,8 @@
                         area and surface area of different shapes using step-by-step examples and real-life applications.
                     </p>
                     <p>
-                        <url href="https://youtu.be/JUgRPUSxoEc" />
-                        
+                        <url href="https://youtu.be/JUgRPUSxoEc" > Watch now</url>
+
                     </p>
                 </li>
             </ol>

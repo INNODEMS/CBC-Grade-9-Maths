@@ -1,6 +1,88 @@
 <subsection xml:id="subsec-Reflecting-on-the-use-of-matrices-in-real-life-situations">
-    <title>Reflecting on the use of matrices in real life situations</title>
+    <title>Reflecting on the Use of Matrices in Real Life Situations</title>
     <p>
-        
+        Matrices are everywhere in our daily lives! Whenever you see a table, a timetable, or a chart, you are looking at data that can be organized as a matrix. Matrices help us organize, compare, and analyze information quickly and clearly.
     </p>
+    <p>
+        <m>Did you know?</m> Matrices are used in science (like recording experiment results), business (sales records), sports (scoreboards), and even in technology (computer graphics and coding)!
+    </p>
+    <activity>
+        <p>
+            Investigation: Who Performed Best?
+        </p>
+        <p>
+            The local sports club keeps a matrix of scores for three teams (Lions, Tigers, Eagles) over four games. The club wants to know which team performed best overall and in which game the highest score was recorded.
+        </p>
+        <p>
+            Here is the matrix of scores:
+        </p>
+        <p>
+            <m>
+            \begin{bmatrix}
+            12 &amp; 15 &amp; 14 &amp; 10 \\
+            10 &amp; 18 &amp; 13 &amp; 12 \\
+            14 &amp; 11 &amp; 16 &amp; 15 \\
+            \end{bmatrix}
+            </m>
+        </p>
+        <p>
+            (Rows: Lions, Tigers, Eagles; Columns: Game 1, Game 2, Game 3, Game 4)
+        </p>
+        <p>
+            <ol>
+                <li>Work with a partner to find the total score for each team.</li>
+                <li>Find the highest score in each game.</li>
+                <li>Decide which team performed best overall.</li>
+                <li>Identify the game with the highest single score and which team achieved it.</li>
+                <li>Discuss: How does using a matrix help you answer these questions quickly?</li>
+            </ol>
+        </p>
+    </activity>
+    <p>
+        <term>Key Take Away</term>
+    </p>
+    <p>
+        Matrices are powerful tools for organizing, analyzing, and solving real-life problems. They help us see patterns and make decisions based on data.
+    </p>
+    <example>
+        <statement>
+            <p>Let's solve the sports club matrix problem:</p>
+            <p>
+                <m>
+                \begin{bmatrix}
+                12 &amp; 15 &amp; 14 &amp; 10 \\
+                10 &amp; 18 &amp; 13 &amp; 12 \\
+                14 &amp; 11 &amp; 16 &amp; 15 \\
+                \end{bmatrix}
+                </m>
+            </p>
+            <p>Rows: Lions, Tigers, Eagles. Columns: Game 1, Game 2, Game 3, Game 4.</p>
+            <p>1. Total scores: Lions (12+15+14+10=51), Tigers (10+18+13+12=53), Eagles (14+11+16+15=56)</p>
+            <p>2. Highest score in each game: Game 1 (14, Eagles), Game 2 (18, Tigers), Game 3 (16, Eagles), Game 4 (15, Eagles)</p>
+            <p>3. Best overall: Eagles (56)</p>
+            <p>4. Highest single score: 18 (Tigers, Game 2)</p>
+        </statement>
+        <solution>
+            <p>Step 1: Add up each row for team totals:</p>
+            <p>
+                <ul>
+                    <li>Lions: 12+15+14+10 = 51</li>
+                    <li>Tigers: 10+18+13+12 = 53</li>
+                    <li>Eagles: 14+11+16+15 = 56</li>
+                </ul>
+            </p>
+            <p>Step 2: Find the highest score in each column (game):</p>
+            <p>
+                <ul>
+                    <li>Game 1: 14 (Eagles)</li>
+                    <li>Game 2: 18 (Tigers)</li>
+                    <li>Game 3: 16 (Eagles)</li>
+                    <li>Game 4: 15 (Eagles)</li>
+                </ul>
+            </p>
+            <p>Step 3: The best overall team is Eagles (56 points).</p>
+            <p>Step 4: The highest single score is 18 (Tigers, Game 2).</p>
+            <p>Using a matrix makes it easy to compare, total, and analyze scores at a glance!</p>
+        </solution>
+    </example>
 </subsection>

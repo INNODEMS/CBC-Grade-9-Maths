@@ -1,0 +1,334 @@
+<subsection xml:id="subsec-mass-volume-and-density">
+    <title>Mass, Volume and Density</title>
+    <!-- <p>
+        <m>\textbf{Volume}</m>
+    </p> -->
+    <!-- activity -->
+    <activity>
+        <p>
+            What you need
+            <ul>
+                <li>
+                    <p>
+                        An electronic weighing machine or a balance scale
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Water
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        A large container
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Graduated cylinder, <m>100</m> ml
+                    </p>
+                </li>
+            </ul>
+        </p>
+        <p>
+            <ol marker="1.">
+                <li>
+                    <p>
+                        Measure and record the mass of an empty <term>graduated cylinder</term> in grams.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Pour <m>150</m> mL of water into the graduated cylinder.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Weigh the graduated cylinder with <m>150</m> mL of water and record the total mass. 
+                
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Subtract the mass of the empty cylinder to find the mass of <m>150</m> mL of water.
+                        Record it in the table.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Use the mass and volume of the water to calculate density. 
+                        Record the density in g/cm<m>^3</m> in the table below.
+                    </p>
+                    <p>
+                        Density of water<m>= \frac{ \text{mass of water}}{ \text{volume of water}}</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Carefully pour out some water until only <m>100</m> mL remains in the graduated cylinder.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Repeat steps <m>3</m> to <m>5</m> for <m>100</m> mL of water.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Pour out more water until only <m>50</m> mL remains.
+                        Repeat steps <m>3</m> to <m>5</m> again.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Finally, pour out water until you have <m>25</m> mL remaining.
+                        Repeat the same process and record your results.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Look at the values of density for the different volumes.
+                    </p>
+                    <p>
+                        <ul>
+                            <li>
+                                <p>
+                                    Are they almost the same?
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    What does that tell you about the density of water?
+                                </p>
+                            </li>
+                        </ul>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        What is the density of water in g/cm <m>^3</m>?
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <table>
+            <title>Calculating the density of different volumes of water</title>
+            <tabular top="major" bottom="minor" left="minor" right="minor">
+                <row header="yes">
+                    <cell>Volume of water</cell>
+                    <cell><m>150</m> mL</cell>
+                    <cell><m>100</m> mL</cell>
+                    <cell><m>50</m> mL</cell>
+                    <cell><m>25</m> mL</cell>
+                </row>
+                <row>
+                    <cell>Mass of empty graduated cylinder (g)</cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Mass of graduated cylinder + water (g)</cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Mass of water (g)</cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Density of water (g/cm<m>^3</m>)</cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+            </tabular>
+        </table>
+    </activity>
+
+    <!-- main content -->
+    <p>
+        <m>\textbf{Key TakeAway}</m>
+    </p>
+    <definition xml:id="def-volume">
+        <statement>
+            <p>
+                <alert>Volume</alert> is the amount of space occupied by an object.
+            </p>
+            <p>
+                The standard unit of volume is the <alert>cubic metre</alert> (m <m>^3</m>).
+            </p>
+        </statement>
+    </definition>
+    <p>
+        The volume of a cube is calculated by multiplying the length of one side by itself three times, or cubing the length of one side.
+    </p>
+
+    <remark>
+        <p>
+            Density is the mass of a substance per unit volume. 
+            It is calculated by dividing the mass of an object by its volume.
+        </p>
+        <p>
+            Density <m>= \frac{\text{mass}}{\text{volume}}</m>
+        </p>
+    </remark>
+    <!-- example 1 -->
+    <example>
+        <statement>
+            <p>
+                Evans has <m>370 \text{cm}^3 </m> of milk in a container.
+                If the density of milk is <m>1.03 \text{g/cm}^3</m>, what is the mass of the milk?
+            </p>
+        </statement>
+        <solution>
+            <p>
+                To find the mass of the milk, we can use the formula for density:
+            </p>
+            <p>
+                <m>\text{Density} = \frac{\text{mass}}{\text{volume}}</m>
+            </p>
+            <p>
+                Rearranging the formula to solve for mass gives us:
+            </p>
+            <p>
+                <m>\text{mass} = \text{Density} \times \text{volume}</m>
+            </p>
+            <p>
+                Substituting in the values we have:
+            </p>
+            <p>
+                <m>\text{mass} = 1.03 \text{g/cm}^3 \times 370 \text{cm}^3</m>
+            </p>
+            <p>
+                <m>\text{mass} = 381.1 \text{g}</m>
+            </p>
+        </solution>
+    </example>
+
+    <!-- example 2 -->
+     <example>
+        <statement>
+            <p>
+                A cuboid has a length of <m>5 \text{cm}</m>, 
+                a width of <m>3 \text{cm}</m>, and a height of <m>2 \text{cm}</m>. 
+                It's mass is <m>60 \text{g}</m>. What is the density of the cuboid in <m>\text{kg/m}^3</m>?
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <m>\text{Density} = \frac{\text{mass}}{\text{volume}}</m>
+            </p>
+            <p>
+                First, we need to find the volume of the cuboid as follows:
+            </p>
+            <p>
+                <m>\text{Volume} = \text{length} \times \text{width} \times \text{height}</m>
+            </p>
+            <p>
+                Substituting in the values we have:
+            </p>
+            <p>
+                <m>\text{Volume} = 5 \text{cm} \times 3 \text{cm} \times 2 \text{cm} = 30 \text{cm}^3</m>
+            </p>
+            <p>
+                Now we can substitute the mass and volume into the density formula:
+            </p>
+            <p>
+                <m>\text{Density} = \frac{60 \text{g}}{30 \text{cm}^3} = 2 \text{g/cm}^3</m>
+            </p>
+            <p>
+                To convert this to <m>\text{kg/m}^3</m>, we multiply by <m>1000</m> (since <m>1 \text{g/cm}^3 = 1000 \text{kg/m}^3</m>):
+            </p>
+            <p>
+                <m>\text{Density} = 2 \text{g/cm}^3 \times 1000 = 2000 \text{kg/m}^3</m>
+            </p>
+        </solution>
+     </example>
+
+    <!-- example 3 -->
+    <example>
+        <statement>
+            <p>
+                A cylinder has a radius of <m>8 \text{cm}</m> and a height of <m>14 \text{cm}</m>.
+                It's mass is <m>85 \text{g}</m>. What is the density of the cylinder?
+            </p>
+        </statement>
+        <hint>
+            <p>
+                <m>1 \text{g/cm}^3 = 1000 \text{kg/m}^3</m>
+            </p>
+        </hint>
+        <solution>
+            <p>
+                <m>\text{Density} = \frac{\text{mass}}{\text{volume}}</m>
+            </p>
+            <p>
+                First, we need to find the volume of the cylinder as follows:
+            </p>
+            <p>
+                <m>\text{Volume of a Cylinder } = \, \pi r^2 h</m>
+            </p>
+            <p>
+                Substituting in the values we have:
+            </p>
+            <p>
+                <m>\text{Volume of a Cylinder} = \pi (8 \text{cm})^2 (14 \text{cm}) = 2816 \text{cm}^3</m>
+            </p>
+            <p>
+                Now we can substitute the mass and volume into the density formula:
+            </p>
+            <p>
+                <m>\text{Density} = \frac{85 \text{g}}{2816 \text{cm}^3} \approx 0.030 \text{g/cm}^3</m>
+            </p>
+        </solution>
+    </example>
+    <!-- exercises -->
+    <exercise>
+        <statement>
+            <p>
+                TODO
+            </p>
+        </statement>
+    </exercise>
+    <technology>
+        <title>Explore more on Mass, Volume, Weight, and Density </title>
+        <p>
+            <ol marker="1. ">
+                <li>
+                    <p>
+                        Watch to learn how to convert kilograms to milligrams and tons to ounces
+                    </p>
+                    <video youtube="1oFv56vSvvA" />
+                </li>
+                <li>
+                    <p>
+                        Watch this video to learn more about units of weight.
+                    </p>
+                    <video youtube="TD1zuENbEdk"/>
+                </li>
+                <li>
+                    <p>
+                        Watch this video to learn more about units of volume.
+                    </p>
+                    <video youtube="LhMEqsL_M5o"/>
+                </li>
+                <li>
+                    <p>
+                        Watch this video to learn about the relationship between mass and weight.
+                    </p>
+                    <video youtube="IuBoeDihLUc"/>
+                </li>
+
+            </ol>
+        </p>
+    </technology>
+    
+</subsection>

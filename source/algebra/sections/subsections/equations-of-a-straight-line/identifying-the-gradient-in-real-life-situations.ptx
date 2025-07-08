@@ -97,4 +97,49 @@
       <m>\textbf{Key Takeaway:}</m> The gradient gives a numerical value to the concept of steepness, allowing us to compare different slopes and understand their practical implications for safety, accessibility, and design.
     </p>
   </conclusion>
+
+  <exercise>
+    <p><m>\textbf{Answer the following questions in your exercise book.}</m></p>
+
+    <ol>
+      <li>
+        <p>
+          In your own words, explain what the term <m>gradient</m> means in real life.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          You are shown two walkways:
+        </p>
+        <p>
+            Walkway A: Rises by <m>1.5 \, \text{m}</m> over <m>6 \, \text{m}</m> horizontally
+          </p>
+          <p>
+            Walkway B: Rises by <m>1.5 \, \text{m}</m> over <m>3 \, \text{m}</m> horizontally
+        </p>
+        <p>
+          Without calculating, which walkway do you think is steeper? Why?
+        </p>
+      </li>
+
+      <li>
+        <p>
+          A builder is constructing a ramp for a wheelchair user. She wants it to be easy to climb. Should the gradient be high or low? Explain your answer.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Name two places in your community where gradients are used on purpose. What purpose do they serve?
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Think of a sloped road you've walked or cycled on. Was it easier or harder to move along the slope? What does that tell you about its gradient?
+        </p>
+      </li>
+    </ol>
+  </exercise>
 </subsection>
