@@ -1,0 +1,105 @@
+<subsection xml:id="subsec-conversion-of-currencies-from-kenya-shillings-to-other-currencies">
+    <title>Conversion of currencies from Kenya Shillings to other currencies</title>
+    <p>
+        
+    </p>
+    <activity>
+        <statement>
+            <p>
+                When you want to convert Kenya Shillings (KES) to other currencies, you need to know the exchange rate. The exchange rate tells you how much one currency is worth in terms of another currency.
+            </p>
+            <p>
+                Exchange rate link
+            </p>
+            <p>   
+                    <url href="https://share.google/7CkDZSTsJu2oKR0D7" /> Click here to check the exchange rate for any country to Ksh.
+            </p>
+            <table>
+             <title>Exchange Rates for East African and International Currencies (as of July 2025)</title>
+               <tabular halign="left" top="medium" bottom="medium" left="medium" right="medium">
+  
+                        <row header="yes">
+                            <cell>Country</cell>
+                            <cell>Currency</cell>
+                            <cell>Symbol</cell>
+                            <cell>Buying Rate</cell>
+                            <cell>Selling Rate</cell>
+                        </row>
+                    
+                    
+                        <row>
+                            <cell>Kenya</cell>
+                            <cell>Kenya Shilling</cell>
+                            <cell>KES</cell>
+                            <cell>127.50</cell>
+                            <cell>129.00</cell>
+                        </row>
+                        <row>
+                            <cell>Tanzania</cell>
+                            <cell>Tanzanian Shilling</cell>
+                            <cell>TZS</cell>
+                            <cell>56.30</cell>
+                            <cell>58.10</cell>
+                        </row>
+                        <row>
+                            <cell>Uganda</cell>
+                            <cell>Ugandan Shilling</cell>
+                            <cell>UGX</cell>
+                            <cell>35.90</cell>
+                            <cell>37.20</cell>
+                        </row>
+                        <row>
+                            <cell>Rwanda</cell>
+                            <cell>Rwandan Franc</cell>
+                            <cell>RWF</cell>
+                            <cell>11.00</cell>
+                            <cell>12.20</cell>
+                        </row>
+                        <row>
+                            <cell>Burundi</cell>
+                            <cell>Burundian Franc</cell>
+                            <cell>BIF</cell>
+                            <cell>0.045</cell>
+                            <cell>0.053</cell>
+                        </row>
+                        <row>
+                            <cell>South Sudan</cell>
+                            <cell>South Sudanese Pound</cell>
+                            <cell>SSP</cell>
+                            <cell>1.10</cell>
+                            <cell>1.25</cell>
+                        </row>
+
+                        <row>
+                            <cell>United States</cell>
+                            <cell>US Dollar</cell>
+                            <cell>USD</cell>
+                            <cell>155.50</cell>
+                            <cell>158.00</cell>
+                        </row>
+                        <row>
+                            <cell>European Union</cell>
+                            <cell>Euro</cell>
+                            <cell>EUR</cell>
+                            <cell>168.00</cell>
+                            <cell>171.00</cell>
+                        </row>
+                        <row>
+                            <cell>United Kingdom</cell>
+                            <cell>British Pound</cell>
+                            <cell>GBP</cell>
+                            <cell>198.30</cell>
+                            <cell>202.00</cell>
+                        </row>
+                        <row>
+                            <cell>Japan</cell>
+                            <cell>Japanese Yen</cell>
+                            <cell>JPY</cell>
+                            <cell>1.05</cell>
+                            <cell>1.10</cell>
+                        </row>
+                    </tabular>
+                </table>
+        </statement>
+    </activity>
+</subsection>
