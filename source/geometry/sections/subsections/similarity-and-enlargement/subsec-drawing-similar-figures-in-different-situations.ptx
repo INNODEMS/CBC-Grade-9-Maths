@@ -57,6 +57,8 @@
                     </li>
                 </ol>
             </p>
+        </statement>
+    </activity>
 
             <p>
                 <m>\textbf{Key Takeaway}</m>
@@ -72,8 +74,6 @@
                     </li>
                 </ul>
             </p>
-        </statement>
-    </activity>
 
     <example>
         <statement>
@@ -112,7 +112,7 @@
 
         <solution>
             <p>
-                <ol marker="i">
+                <ol marker="(i)">
                     <li >
                         <p>
                             The expected drawing will be a triangle <m>DEF</m> with sides <m>DE = 16 \text{ cm}</m>, <m>EF = 12 \text{ cm}</m>, and <m>DF = 20 \text{ cm}</m> since the scale factor is <m>2</m>.
