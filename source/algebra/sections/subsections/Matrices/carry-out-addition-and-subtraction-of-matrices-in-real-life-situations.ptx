@@ -3,59 +3,85 @@
     <p>
         In everyday life, we often need to combine or compare data from different sources—like adding up scores from two football matches, or finding the difference in sales between two weeks. Matrices make these calculations easy and organized!
     </p>
-    <p>
-        <m>Did you know?</m> Adding or subtracting matrices is just like adding or subtracting tables with the same number of rows and columns. Each entry in the result comes from adding or subtracting the corresponding entries in the original matrices.
-    </p>
+
     <activity>
+        <p><m>Interactive Matrix Calculator (Work in Pairs)</m></p>
+        <p>Use the GeoGebra applet below to practice adding and subtracting matrices. You can choose either 2×2 or 3×3 matrices, enter your own values, and select the operation (addition or subtraction).</p>
+        <p> <m>\textbf{What you need: }</m></p>
         <p>
-            <m>\textbf{Interactive Matrix Calculator with GeoGebra}</m>
+            <ul>
+                <li>Computer or tablet with internet access</li>
+                <li>GeoGebra applet (link or embedded)</li>
+            </ul>
         </p>
-        <p>
-            Use the GeoGebra applet below to practice adding and subtracting matrices. You can choose either 2×2 or 3×3 matrices, enter your own values, and select the operation (addition or subtraction).
-        </p>
+        <p> <m>\textbf{Instructions:}</m></p>
         <p>
             <ol>
                 <li>Choose the size of your matrices (2×2 or 3×3) in the GeoGebra applet.</li>
                 <li>Enter the values for both matrices.</li>
                 <li>Select either addition (+) or subtraction (−).</li>
                 <li>Click "Solve" to see the result instantly.</li>
+                <li> <m>\textbf{Explore: }</m> 
+                    <ul>
+                        <li>Try changing one value—how does it affect the result?</li>
+                        <li>Which is easier: doing the calculation by hand or using the tool? Why?</li>
+                    </ul>
+                </li>
+            </ol>
+
+            </p>
+            <figure >
+                <caption><m>\textbf{Addition and Subtraction of Matrices (GeoGebra Interactive)}</m></caption>
+                <interactive xml:id="geogebra-addition-of-matrices" platform="geogebra" width="95%">
+                <slate xml:id="addition-of-matrices" surface="geogebra" material="tvzadzp6" aspect="12:15" >
+                    enableShiftDragZoom(true);
+                    showResetIcon(true);
+                </slate>
+                </interactive>
+            </figure>
+            <p>
+
+            <ol>
+
+                <li> <m>\textbf{Discuss: }</m> 
+                    <ul>
+                        <li>How does using GeoGebra help you understand matrix operations?</li>
+                        <li>In what real-life situations might you need to add or subtract matrices?</li>
+                    </ul>
+                </li>
+                <li> <m>\textbf{Reflect and Share: }</m> 
+                    <ul>
+                        <li>Share your findings with another pair. Did you get the same results?</li>
+                        <li>Which method did you prefer and why?</li>
+                    </ul>
+                </li>
             </ol>
         </p>
-        <figure >
-            <caption><m>\textbf{Addition and Subtraction of Matrices (GeoGebra Interactive)}</m></caption>
-            <interactive xml:id="geogebra-addition-of-matrices" platform="geogebra" width="100%">
-            <slate xml:id="addition-of-matrices" surface="geogebra" material="tvzadzp6" aspect="13:15" >
-                enableShiftDragZoom(true);
-                showResetIcon(true);
-            </slate>
-            </interactive>
-        </figure>
-        <p>
-            <m>\textbf{Reflect and Discuss}</m>
-        </p>
-        <p>
-            <ul>
-                <li>How does using GeoGebra help you understand matrix operations?</li>
-                <li>Try changing one value—how does it affect the result?</li>
-                <li>Which is easier: doing the calculation by hand or using the tool? Why?</li>
-            </ul>
-        </p>
     </activity>
-    <p>
-        <term>Key Take Away</term>
+
+    <p> <m>\textbf{Key Takeaway: }</m> </p>
+    <p>  Matrix addition and subtraction help us combine and 
+        compare real-life data, making it easier to analyze results and spot patterns.
     </p>
-    <p>
-        Matrix addition and subtraction help us combine and compare real-life data, making it easier to analyze results and spot patterns.
-    </p>
+
     <example>
-        <statement>
-            <p>The following matrices show the number of apples and oranges sold by two vendors over two days:</p>
-            <p>
-                <m>Vendor\ 1: \quad A = \begin{bmatrix} 5 &amp; 7 \\ 3 &amp; 4 \end{bmatrix}</m>
-                <m>Vendor\ 2: \quad B = \begin{bmatrix} 2 &amp; 6 \\ 1 &amp; 5 \end{bmatrix}</m>
-            </p>
-            <p>Find <m>A + B</m> and <m>A - B</m>. What do the results mean?</p>
-        </statement>
+      <statement>
+        <p>
+            We have two vendors selling apples and oranges over two days.
+            The sales data is represented in matrices as follows:
+        </p>
+
+        <p>Find A + B and A - B for the matrices below.</p>
+        <p>Explain what the results mean in this context.</p>
+        <p>
+        <m>
+          Vendor\ 1: \quad A = \begin{bmatrix} 5 &amp; 7 \\ 3 &amp; 4 \end{bmatrix}
+        </m>
+        <m>
+          Vendor\ 2: \quad B = \begin{bmatrix} 2 &amp; 6 \\ 1 &amp; 5 \end{bmatrix}
+        </m>
+        </p>
+      </statement>
         <solution>
             <p>Step 1: Add the matrices:</p>
             <p>
