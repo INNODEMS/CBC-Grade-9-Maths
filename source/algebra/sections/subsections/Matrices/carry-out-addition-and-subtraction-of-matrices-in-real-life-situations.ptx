@@ -30,7 +30,7 @@
             </ol>
 
             </p>
-            <figure >
+            <figure xml:id="fig-addition-of-matrices">
                 <caption><m>\textbf{Addition and Subtraction of Matrices (GeoGebra Interactive)}</m></caption>
                 <interactive xml:id="geogebra-addition-of-matrices" platform="geogebra" width="95%">
                 <slate xml:id="addition-of-matrices" surface="geogebra" material="tvzadzp6" aspect="12:15" >
