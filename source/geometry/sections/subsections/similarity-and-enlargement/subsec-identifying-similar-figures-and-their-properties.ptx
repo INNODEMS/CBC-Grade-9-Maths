@@ -52,92 +52,162 @@
                         <p>
                              Study the shapes shown below.
                         </p>
-                        <image width="50%">
-                        <latex-image label="similar">
-                            \begin{tikzpicture}
-                                % Row 1
-                                % a - Large Square
-                                \draw (0,0) rectangle ++(2,2);
-                                \node at (1,-0.5) {\textcircled{a}};
 
-                                % b - Rhombus
-                                \begin{scope}[shift={(3,0)}]
-                                \draw (0,0) -- ++(1,1.5) -- ++(1,-1.5) -- ++(-1,-1.5) -- cycle;
-                                \node at (1,-0.7) {\textcircled{b}};
-                                \end{scope}
+                        <sbsgroup widths="25% 25% 25% 25%">
+                            <sidebyside>
+                                <image width="70%">
+                                    <shortdescription></shortdescription>
+                                    <latex-image>
+                                        \begin{tikzpicture}[scale=1.4]
+                                            % Row 1
+                                            % a - Large Square
+                                            \draw[blue, fill=blue!20] (0,0) rectangle ++(2,2);
+                                            \node at (1,1) {a};
+                                        \end{tikzpicture}
+                                    </latex-image>
+                                </image>
 
-                                % c - Pentagon
-                                \begin{scope}[shift={(6,0)}]
-                                \draw (0,0) -- ++(0.6,1.2) -- ++(1.2,0) -- ++(0.6,-1.2) -- ++(-1.2,-1.2) -- cycle;
-                                \node at (1.2,-0.7) {\textcircled{c}};
-                                \end{scope}
+                                <image width="70%">
+                                    <shortdescription></shortdescription>
+                                    <latex-image>
+                                        \begin{tikzpicture}[scale=1.4]
+                                            % Row 2
+                                            \draw[red, fill=red!20] (0,0) -- ++(1,1.5) -- ++(1,-1.5) -- ++(-1,-1.5) -- cycle;
+                                            \node at (1,0) {b};
+                                        \end{tikzpicture}
+                                    </latex-image>
 
-                                % d - Small Circle
-                                \begin{scope}[shift={(9,0)}]
-                                \draw (0,0.5) circle (0.5cm);
-                                \node at (0,-0.8) {\textcircled{d}};
-                                \end{scope}
+                                </image>
 
-                                % Row 2
-                                % e - Rectangle
-                                \begin{scope}[shift={(0,-4)}]
-                                \draw (0,0) rectangle ++(1,2);
-                                \node at (0.5,-0.5) {\textcircled{e}};
-                                \end{scope}
+                                <image width="70%">
+                                    <shortdescription></shortdescription>
+                                    <latex-image>
+                                        \begin{tikzpicture}[scale=1.4]
+                                            % Row 3
+                                            \draw[green, fill=green!20] (0,0) -- ++(0.6,1.2) -- ++(1.2,0) -- ++(0.6,-1.2) -- ++(-1.2,-1.2) -- cycle;
+                                            \node at (1.2,0.4) {c};
+                                        \end{tikzpicture}
+                                    </latex-image>
+                                    
+                                </image>
 
-                                % f - Medium Circle
-                                \begin{scope}[shift={(3,-3.5)}]
-                                \draw (0,0) circle (1cm);
-                                \node at (0,-1.3) {\textcircled{f}};
-                                \end{scope}
+                                <image width="70%">
+                                    <shortdescription></shortdescription>
+                                    <latex-image>
+                                        \begin{tikzpicture}[scale=1.4]
+                                            % Row 8
+                                            \draw[brown, fill=brown!20] (0,0) rectangle ++(1,1);
+                                            \node at (0.5,0.5) {d};
+                                        \end{tikzpicture}
+                                    </latex-image>
+                                    
+                                </image>
+                            </sidebyside>
 
-                                % g - Hexagon
-                                \begin{scope}[shift={(6,-4)}]
-                                \draw (0,0) 
-                                -- ++(0.8,0.5) -- ++(0,1)
-                                -- ++(-0.8,0.5) -- ++(-0.8,-0.5)
-                                -- ++(0,-1) -- cycle;
-                                \node at (0,-1.2) {\textcircled{g}};
-                                \end{scope}
+                            <sidebyside>
+                                <image width="70%">
+                                    <shortdescription></shortdescription>
+                                    <latex-image>
 
-                                % h - Square
-                                \begin{scope}[shift={(9,-3.5)}]
-                                \draw (0,0) rectangle ++(1,1);
-                                \node at (0.5,-0.5) {\textcircled{h}};
-                                \end{scope}
+                                    \begin{tikzpicture}[scale=1.4]
+                                        % Row 4
+                                        \draw[purple, fill=purple!20] (0,0.5) circle (0.5cm);
+                                        \node at (0,0.5) {e};
+                                    \end{tikzpicture}
+                                    </latex-image>
+                                    
+                                </image>
 
-                                % Row 3
-                                % i - Small Pentagon
-                                \begin{scope}[shift={(0,-8)}]
-                                \draw (0,0) -- ++(0.4,0.8) -- ++(0.8,0) -- ++(0.4,-0.8) -- ++(-0.8,-0.8) -- cycle;
-                                \node at (0.8,-0.9) {\textcircled{i}};
-                                \end{scope}
+                                <image width="70%">
+                                    <shortdescription></shortdescription>
+                                    <latex-image>
+                                        \begin{tikzpicture}[scale=1.4]
+                                            % Row 5
+                                            \draw[orange, fill=orange!20] (0,0) rectangle ++(1,2);
+                                            \node at (0.5,1) {f};
+                                        \end{tikzpicture}
+                                    </latex-image>
+                                    
+                                </image>
 
-                                % j - Small Rhombus
-                                \begin{scope}[shift={(3,-8)}]
-                                \draw (0,0) -- ++(0.5,0.8) -- ++(0.5,-0.8) -- ++(-0.5,-0.8) -- cycle;
-                                \node at (0.5,-0.9) {\textcircled{j}};
-                                \end{scope}
+                                <image width="70%">
+                                    <shortdescription></shortdescription>
+                                    <latex-image>
+                                        \begin{tikzpicture}[scale=1.4]
+                                            % Row 6
+                                            \draw[teal, fill=teal!20] (0,0) circle (1cm);
+                                            \node at (0,0) {g};
+                                        \end{tikzpicture}
+                                     </latex-image>
+                                    
+                                </image>
 
-                                % k - Large Circle
-                                \begin{scope}[shift={(6,-8)}]
-                                \draw (0,0) circle (1.2cm);
-                                \node at (0,-1.5) {\textcircled{k}};
-                                \end{scope}
+                                <image width="70%">
+                                    <shortdescription></shortdescription>
+                                    <latex-image>
+                                        \begin{tikzpicture}[scale=1.4]
+                                            % Row 7
+                                            \draw[violet, fill=violet!20] (0,0) 
+                                            -- ++(0.8,0.5) -- ++(0,1)
+                                            -- ++(-0.8,0.5) -- ++(-0.8,-0.5)
+                                            -- ++(0,-1) -- cycle;
+                                            \node at (0,0.5) {h};
+                                        \end{tikzpicture}
+                                    </latex-image>
+                                    
+                                </image>
+                            </sidebyside>
 
-                                % l - Tall Rectangle
-                                \begin{scope}[shift={(9,-8)}]
-                                \draw (0,0) rectangle ++(1,2);
-                                \node at (0.5,-0.5) {\textcircled{l}};
-                                \end{scope}
-                            \end{tikzpicture}
-                        </latex-image>
-                          
-                        </image>
-                        
+                            <sidebyside>
+                                <image width="70%">
+                                    <shortdescription></shortdescription>
+                                    <latex-image>
+                                        \begin{tikzpicture}[scale=1.4]
+                                            % Row 9
+                                            \draw[cyan, fill=cyan!20] (0,0) -- ++(0.4,0.8) -- ++(0.8,0) -- ++(0.4,-0.8) -- ++(-0.8,-0.8) -- cycle;
+                                            \node at (0.8,0) {i};
+                                        \end{tikzpicture}
+                                    </latex-image>
+                                    
+                                </image>
 
-                        
-                    </li>
+                                <image width="70%">
+                                    <shortdescription></shortdescription>
+                                    <latex-image>
+                                        \begin{tikzpicture}[scale=1.4]
+                                            % Row 10
+                                            \draw[magenta, fill=magenta!20] (0,0) -- ++(0.5,0.8) -- ++(0.5,-0.8) -- ++(-0.5,-0.8) -- cycle;
+                                            \node at (0.5,0) {j};
+                                        \end{tikzpicture}
+                                    </latex-image>
+                                </image>
+
+                                <image width="70%">
+                                    <shortdescription></shortdescription>
+                                    <latex-image>
+                                        \begin{tikzpicture}[scale=1.4]
+                                            % Row 11
+                                            \draw[olive, fill=olive!20] (0,0) circle (1.2cm);
+                                            \node at (0,0) {k};
+                                        \end{tikzpicture}
+                                    </latex-image>
+                                    
+                                </image>
+
+                                <image width="70%">
+                                    <shortdescription></shortdescription>
+                                    <latex-image>
+                                        \begin{tikzpicture}[scale=1.4]
+                                            % Row 12
+                                            \draw[gray, fill=gray!20] (0,0) rectangle ++(1,2);
+                                            \node at (0.5,1) {l};
+                                        \end{tikzpicture}
+                                    </latex-image>
+                                    
+                                </image>
+                            </sidebyside>
+                        </sbsgroup>
+                        </li>
 
                     <li>
                         <p>
@@ -175,7 +245,7 @@
 
             <li>
                 <p>
-                    In the case of flat (plane) shapes, their matching interior angles must also be equal.
+                    In the case of plane shapes, their matching interior angles must also be equal.
                 </p>
             </li>
 
@@ -265,12 +335,70 @@
             <md>
                 <mrow>\text{Therefore,} \amp \frac{PR}{XZ}= \frac{PQ}{XY}= \frac {QR}{YZ} </mrow>
                 <mrow> =\amp \frac{8\, cm}{16\, cm}= \frac{12\, cm}{24\, cm}= \frac {6\, cm}{12\, cm} </mrow>
-                <mrow> \frac{1}{2}= \frac{1}{2}=\amp \frac{1}{2}</mrow>
+                <mrow> =\amp \frac{1}{2}= \frac{1}{2}=\frac{1}{2} </mrow>
             </md>
             </p>
 
             <p>
-                Since corresponding sides are proportional, we conclude that triangle <m>PQR</m> is similar to triangle <m>XYZ</m>.
+                Since the ratio of the corresponding sides are equal, we conclude that triangle <m>PQR</m> is similar to triangle <m>XYZ</m>.
+            </p>
+        </solution>
+    </example>
+
+    <example>
+        <statement>
+            <p>
+                Determine whether triangle <m>ABC</m> and triangle <m>DEF</m> are similar.
+            </p>
+
+            <sbsgroup widths="50% 50%">
+                <sidebyside>
+                    <image width="50%">
+                        <shortdescription></shortdescription>
+                        <latex-image>
+                            \begin{tikzpicture}
+                                % First triangle (larger) - Blue
+                                \fill[blue!20] (0,0) -- (4,0) -- (1,3) -- cycle; % fill with light blue
+                                \draw[thick, blue] (0,0) -- (4,0) -- (1,3) -- cycle; % outline in blue
+                                
+                                % Label vertices of first triangle
+                                \node[below left] at (0,0) {$A$};
+                                \node[below right] at (4,0) {$B$};
+                                \node[above] at (1,3) {$C$};
+                                
+                                % Angle in first triangle
+                                \draw[blue] (0,0) ++(0.4,0) arc[start angle=0,end angle=71.6,radius=0.4] node[pos=0.7,right] {$62^\circ$};
+                            \end{tikzpicture}
+                        </latex-image>
+                        
+                    </image>
+
+                    <image>
+                        <shortdescription></shortdescription>
+                        <latex-image>
+                            \begin{tikzpicture}
+                                % Second triangle (smaller, scaled down) - Red
+                                \fill[red!20] (5,0) -- (7,0) -- (5.5,1.5) -- cycle; % fill with light red
+                                \draw[thick, red] (5,0) -- (7,0) -- (5.5,1.5) -- cycle; % outline in red
+                                
+                                % Label vertices of second triangle
+                                \node[below left] at (5,0) {$D$};
+                                \node[below right] at (7,0) {$E$};
+                                \node[above] at (5.5,1.5) {$F$};
+                                
+                                % Angle in second triangle
+                                \draw[red] (5,0) ++(0.3,0) arc[start angle=0,end angle=71.6,radius=0.3] node[pos=0.7,right] {$57^\circ$};
+                            \end{tikzpicture}
+                        </latex-image>
+                        
+                    </image>
+                    
+                </sidebyside>
+            </sbsgroup>
+        </statement>
+        <solution>
+            <p>
+                Since <m>\angle BAC</m> is not equal to <m>\angle EDF</m>, the triangles are not similar.
             </p>
         </solution>
     </example>
