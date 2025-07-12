@@ -5,70 +5,83 @@
             Matrices help us organize, compare, and analyze data efficiently.
         </p>
         <p>
-            <m>\textbf{Did you know?}</m> The tables you used for currency exchange, frequency distributions, or measurement results are all examples of data that can be represented as matrices!
-        </p>
-
-        <p>
             Matrices are powerful tools for organizing and analyzing real-world data, such as sports scores, business sales, or scientific results. By turning tables into matrices, we can use mathematical methods to solve problems more easily.
         </p>
 
         <activity>
+            <p><m>Work in Groups</m></p>
+            <p>The Greenfield School Cafeteria prepares meals for students in three school levels: <m>Lower Primary</m>, <m>Upper Primary</m>, and <m>Secondary</m>. Each week, they prepare two types of meals: <m>Vegetarian</m> and <m>Non-Vegetarian</m>. The number of meals prepared (in hundreds) for Week 1 and Week 2 is recorded in the tables below:</p>
+            <tabular top="medium" bottom="medium" left="medium" right="medium">
+              <row bottom="medium">
+                <cell colspan="3" halign="center">
+                  <m>Week 1 Meal Data</m>
+                </cell>
+              </row>
+              <row>
+                <cell halign="center">4</cell>
+                <cell halign="center">6</cell>
+              </row>
+              <row>
+                <cell halign="center">3</cell>
+                <cell halign="center">5</cell>
+              </row>
+              <row bottom="medium">
+                <cell halign="center">2</cell>
+                <cell halign="center">7</cell>
+              </row>
+            </tabular>
+            <tabular top="medium" bottom="medium" left="medium" right="medium">
+              <row bottom="medium">
+                <cell colspan="3" halign="center">
+                  <m>Week 2 Meal Data</m>
+                </cell>
+              </row>
+              <row>
+                <cell halign="center">5</cell>
+                <cell halign="center">4</cell>
+              </row>
+              <row>
+                <cell halign="center">4</cell>
+                <cell halign="center">6</cell>
+              </row>
+              <row>
+                <cell halign="center">3</cell>
+                <cell halign="center">8</cell>
+              </row>
+            </tabular>
+            <p><m>\textbf{What you need:}</m> </p>
             <p>
-                The Greenfield School Cafeteria prepares meals for students in three school levels: <m>\textbf{Lower Primary}</m>, 
-                <m>\textbf{Upper Primary}</m>, and <m>\textbf{Secondary}</m>. Each week, they prepare two types of meals: <m>\textbf{Vegetarian}</m> and <m>\textbf{Non-Vegetarian}</m>. The number of meals prepared (in hundreds) for Week 1 and Week 2 is recorded in the tables below:
+              <ul>
+                <li>Notebook or writing pad</li>
+                <li>Pen or pencil</li>
+              </ul>
             </p>
-        
-                <tabular top="medium" bottom="medium" left="medium" right="medium">
-                  <row bottom="medium">
-                    <cell colspan="3" halign="center">
-                      <m>\textbf{Week 1 Meal Data}</m>
-                    </cell>
-                  </row>
-                  <row>
-                    <cell halign="center">4</cell>
-                    <cell halign="center">6</cell>
-                  </row>
-                  <row>
-                    <cell halign="center">3</cell>
-                    <cell halign="center">5</cell>
-                  </row>
-                  <row bottom="medium">
-                    <cell halign="center">2</cell>
-                    <cell halign="center">7</cell>
-                  </row>
-                </tabular>
-    
-
-                <tabular top="medium" bottom="medium" left="medium" right="medium">
-                  <row bottom="medium">
-                    <cell colspan="3" halign="center">
-                      <m>\textbf{Week 2 Meal Data}</m>
-                    </cell>
-                  </row>
-                  <row>
-                    <cell halign="center">5</cell>
-                    <cell halign="center">4</cell>
-                  </row>
-                  <row>
-                    <cell halign="center">4</cell>
-                    <cell halign="center">6</cell>
-                  </row>
-                  <row>
-                    <cell halign="center">3</cell>
-                    <cell halign="center">8</cell>
-                  </row>
-                </tabular>
-            
-        
-            <p>Use the data in the tables to answer the following questions:</p>
+            <p><m>\textbf{Instructions:}</m></p>
             <p>
-                <ol>
-                    <li>How many rows are in each table? What does each row represent?</li>
-                    <li>How many columns are in each table? What does each column represent?</li>
-                    <li>Write the Week 1 data as a matrix using the square brackets <m>\begin{bmatrix}  .. \end{bmatrix}</m>.</li>
-                    <li>Write the Week 2 data as a matrix using the curly brackets <m>\begin{pmatrix}  .. \end{pmatrix}</m>.</li>
-                    <li>Compare the matrices from Week 1 and Week 2. In which categories did the cafeteria increase or reduce production?</li>
-                </ol>
+              <ol>
+                <li>Carefully study the tables for Week 1 and Week 2.</li>
+                <li><m>\textbf{Discuss with your group: }</m>
+                  <ul>
+                    <li>How many rows and columns are in each table? What does each represent?</li>
+                    <li>Write the data for each week as a matrix. Use square brackets for Week 1 and curly brackets for Week 2.</li>
+                    <li>What do you notice about the arrangement of the data in matrix form compared to the table?</li>
+                  </ul>
+                </li>
+                <li><m>\textbf{Explore: }</m>
+                  <ul>
+                    <li>Compare the matrices for Week 1 and Week 2. In which categories did the cafeteria increase or reduce production?</li>
+                    <li>If the cafeteria added a new meal type, how would the matrix change?</li>
+                    <li>Try changing one value in the matrix. How does it affect the totals for each category?</li>
+                  </ul>
+                </li>
+                <li><m>\textbf{Reflect and Share:}</m> 
+                  <ul>
+                    <li>How does using a matrix help you organize and analyze the data more easily?</li>
+                    <li>Can you think of another real-life situation where a matrix would be useful?</li>
+                    <li>Share your answers and reasoning with another group. Did you agree? Why or why not?</li>
+                  </ul>
+                </li>
+              </ol>
             </p>
         </activity>        
 
@@ -76,34 +89,35 @@
             <term>Key Take Away</term>
         </p>
         <p>
-            A matrix is a rectangular arrangement of numbers or data in rows and columns. It can represent real-life situations, such as meal preparation data, sports scores, or sales figures.
+          Matrices help us organize, compare, and analyze data efficiently, making it easier to spot patterns and make decisions.
         </p>
         <example>
             <statement>
-                <p>The following table shows the number of books read by three students (Alice, Brian, and Carol) in two terms:</p>
+                <p>Write the table below as a matrix.</p>
+                <p>Who read the most books in Term 2?</p>
+                <p>How many books did Brian read in total?</p>
                 <tabular top="medium" bottom="medium" left="medium" right="medium">
-                    <row>
-                        <cell></cell>
-                        <cell>Term 1</cell>
-                        <cell>Term 2</cell>
-                    </row>
-                    <row>
-                        <cell>Alice</cell>
-                        <cell>4</cell>
-                        <cell>5</cell>
-                    </row>
-                    <row>
-                        <cell>Brian</cell>
-                        <cell>3</cell>
-                        <cell>6</cell>
-                    </row>
-                    <row>
-                        <cell>Carol</cell>
-                        <cell>5</cell>
-                        <cell>4</cell>
-                    </row>
+                  <row>
+                    <cell></cell>
+                    <cell>Term 1</cell>
+                    <cell>Term 2</cell>
+                  </row>
+                  <row>
+                    <cell>Alice</cell>
+                    <cell>4</cell>
+                    <cell>5</cell>
+                  </row>
+                  <row>
+                    <cell>Brian</cell>
+                    <cell>3</cell>
+                    <cell>6</cell>
+                  </row>
+                  <row>
+                    <cell>Carol</cell>
+                    <cell>5</cell>
+                    <cell>4</cell>
+                  </row>
                 </tabular>
-                <p>Write this table as a matrix, where each row is a student and each column is a term. Then answer: Who read the most books in Term 2? How many books did Brian read in total?</p>
             </statement>
             <solution>
                 <p>Step 1: Write the matrix:</p>
