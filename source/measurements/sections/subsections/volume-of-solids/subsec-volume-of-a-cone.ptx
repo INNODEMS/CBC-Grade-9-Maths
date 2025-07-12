@@ -1,0 +1,288 @@
+<subsection xml:id="subsec-volume-of-a-cone">
+    <title>Volume of a cone</title>
+    <definition xml:id="def-volume-of-a-cone">
+        <statement>
+            <p>
+                A <m>\textbf{cone}</m> is a right pyramid with a circular base
+            </p>
+            <p>
+                In the limit, as the number of faces approaches infinity, the shape is a cone.
+            </p>
+            <p>
+                Play along with the interactive figure below to see how cone is formed from a pyramid.
+            </p>
+            
+            <figure >
+                <caption>A cone formed from a pyramid</caption>
+                <interactive xml:id="geogebra-volume-of-a-cone" platform="geogebra" width="100%">
+                <slate xml:id="Volume-of-a-cone" surface="geogebra" material="rusrttf2" aspect="11:13" >
+                    enableShiftDragZoom(true);
+                    showResetIcon(true);
+                </slate>
+                </interactive>
+            </figure>
+            
+        </statement>
+    </definition>
+
+    <activity>
+        <p>
+            <m>\textbf{Work in groups}</m>
+        </p>
+        <p>
+            <term>What you need</term>
+        </p>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        A plastic or paper cone (e.g. party hat or funnel)
+
+
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        A cylinder of the same base radius and height as the cone (e.g. a cut bottle or measuring cylinder)
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Rice or sand
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        A measuring jug (optional)
+                    </p>
+                </li>
+            </ul>
+        </p>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Observe the cone and the cylinder you have. Confirm that their base radii and heights are equal.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Fill the cone with rice or sand until it is full.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Pour the rice or sand from the cone into the cylinder.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Repeat filling the cone and pouring into the cylinder.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Count how many times you need to fill the cone to completely fill the cylinder.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        How many cones of rice or sand are needed to fill the cylinder?
+                    </p>
+                    <p>
+                        How do you find the volume of a cone?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Share your findings with other learners in the class.
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <p>
+            <m>\textbf{Activity 2}</m>
+        </p>
+        <p>
+            Play along with the tabs,sliders to explore how the volume of a cone changes with its height and radius.
+        </p>
+        <figure >
+                <caption>Volume of a cone </caption>
+                <interactive xml:id="geogebra-volume-of-a-cone-1" platform="geogebra" width="100%">
+                <slate xml:id="Volume-of-a-cone-1" surface="geogebra" material="zvbgw4mq" aspect="11:13" >
+                    enableShiftDragZoom(true);
+                    showResetIcon(true);
+                </slate>
+                </interactive>
+            </figure>
+
+    </activity>
+    <p>
+        <m>\textbf{Key Takeaway}</m>
+    </p>
+    <p>
+        From your activity, you saw it takes three cones to fill a cylinder with the same base and height. 
+        This tells us that the cone’s volume is <m>\textbf{one-third}</m> the volume of the cylinder.
+    </p>
+    <p>
+        The volume of a cone is one-third the volume of a cylinder with the same base radius and height.
+        <me>
+            \huge{\textbf{Volume of a cone} = \frac{1}{3} \pi r^2 h}
+        </me>
+        
+    </p>
+    <p>
+        Where <m>\textbf{r}</m> is the radius of the base and <m>\textbf{h}</m> is the height of the cone.
+    </p>
+    <example>
+        <statement>
+            <p>
+                Calculate the volume of the cone shown below. (Take <m>\pi=\frac{22}{7}</m>)
+            </p>
+            <image width="50%">
+            <latex-image label="cone-volume-example" >
+                \begin{tikzpicture}
+                    % Draw the entire cone with one uniform color
+                    \fill[white!40] (-2,0) arc (180:360:2 and 0.7) -- (2,0) arc (0:180:2 and 0.7) -- cycle;
+                    \fill[cyan!40] (-2,0) -- (0,4) -- (2,0) -- cycle;
+                    
+                    % Draw the base ellipse
+                    \draw[thick] (-2,0) arc (180:360:2 and 0.7);
+                    \draw[dashed] (2,0) arc (0:180:2 and 0.7);
+                    
+                    % Draw the cone's sides
+                    \draw[thick] (-2,0) -- (0,4);
+                    \draw[thick] (2,0) -- (0,4);
+                    
+                    % Draw the height
+                    \draw[dashed] (0,0) -- (0,4);
+                    \node[left] at (1,2) {28 cm};
+                    
+                    % Draw the radius
+                    \draw[dashed] (0,0) -- (2,0);
+                    \node[below] at (1,0) {14 cm};
+                \end{tikzpicture}
+            </latex-image>
+                
+            </image>
+        </statement>
+        <solution>
+            <p>
+                <m>\text{Volume of a cone} = \frac{1}{3} \times \text{Base Area} \times \text{Height}</m>
+                <me>
+                    = \frac{1}{3} \times \pi r^2 \times h
+                </me>
+                
+            </p>
+            <p>
+                <md>
+                    <mrow>\text{Volume}= \amp \frac{1}{3} \times \pi r^2 \times h </mrow>
+                    <mrow>=\amp  \frac{1}{3} \times \frac{22}{7} \times 14^2 \times 28 </mrow>
+                    <mrow>=\amp  \frac{1}{3} \times \frac{22}{7} \times 196 \times 28 </mrow>
+                    <mrow>=\amp  \frac{1}{3} \times \frac{22}{7} \times 5488 </mrow>
+                    <mrow>=\amp  \frac{1}{3} \times 22 \times 784 </mrow>
+                    <mrow>=\amp  \frac{17248}{3} </mrow>
+                    <mrow>=\amp  5749.33 \text{ cm}^3 </mrow>
+                </md>
+            </p>
+            <p>
+                Therefore, the volume of the cone is <m>{\color{blue}5749.33 \text{ cm}^3}</m>.
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                A party hat has the shape of a cone.
+                The volume of the hat is <m>462 \, \text{cm}^3</m>. The hat has a perpendicular 
+                height of <m>17 \, \text{cm}</m>, find the radius of the base of the hat.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                The hat has the following dimensions:
+            </p>
+            <p>
+                Volume of hat = <m>462 \, \text{cm}^3</m>, height = <m>17 \, \text{cm}</m>
+            </p>
+            <p>
+                <md>
+                    <mrow>\text{Volume of the hat}= \amp \frac{1}{3} \pi r^2 h</mrow>
+                    <mrow>462 = \amp \frac{1}{3} \pi r^2 (17)</mrow>
+                    <mrow>462 = \amp \frac{22}{21} \times 17 \times  r^2</mrow>
+                    <mrow>462 \times 21 = \amp 22  \times 17 \times r^2</mrow>
+                    <mrow> 9702= \amp 374 \times r^2</mrow>
+                    <mrow> r^2= \amp \frac{9702}{374} </mrow>
+                    <mrow> r= \amp \sqrt{\frac{9702}{374}}</mrow>
+                    <mrow> r= \amp \sqrt{25.95} </mrow>
+                    <mrow> r= \amp 5.5 \, \text{cm}</mrow>
+                </md>
+            </p>
+            <p>
+                Therefore, the radius of the base of the hat is <m>{\color{blue}5.5 \, \text{cm}}</m>.
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                The figure below shows a model made from two cones.
+                Determine the volume of the model. (Take <m>\pi=3.142</m>)
+            </p>
+            <image width="50%">
+            <latex-image >
+                \begin{tikzpicture}
+                    % Draw rhombus (two joined triangles)
+                    \draw [very thick] (0,0) -- (2.5,3.5) -- (5,0) -- (2.5,-3.5) -- cycle;
+
+                    % Draw diagonals
+                    \draw[dashed,very thick] (0,0) -- (5,0);
+                    \draw[dashed,very thick] (2.5,-3.5) -- (2.5,3.5);
+
+                    % Labels for diagonals
+                    \draw[very thick] (2.5,0) -- (2.5,3) node[midway,right]{ 10 cm};
+                    \draw[very thick] (2.5,0) -- (2.5,-3) node[midway,right]{ 10 cm};
+                    \draw[very thick,dashed] (0,0) -- (2.5,0);
+                    \node at (1.25,0.2) { 3.5 cm};
+                    \draw[very thick] (2.5,0) -- (5,0);
+
+
+                    % Draw horizontal ellipse in the middle
+                    \draw[thick,blue] (2.5,0) ellipse [x radius=2.5, y radius=0.7];
+                \end{tikzpicture}
+            </latex-image>
+                
+            </image>
+        </statement>
+        <solution>
+            <p>
+                The model consists of two cones with the same base radius and height.
+            </p>
+            <p>
+                The height of each cone is <m>10 \, \text{cm}</m> and the radius of the base is <m>3.5 \, \text{cm}</m>.
+            </p>
+            <p>
+                The volume of one cone is given by the formula:
+            </p>
+            <p>
+                <md>
+                    <mrow>\text{Volume} =\amp \frac{1}{3} \pi r^2 h</mrow>
+                    <mrow> =\amp \frac{1}{3} \times 3.142 \times (3.5)^2 \times 20</mrow>
+                    <mrow> =\amp \frac{1}{3} \times 3.142 \times 12.25 \times 20</mrow>
+                    <mrow> =\amp \frac{1}{3} \times 3.142 \times 245</mrow>
+                    <mrow> = \amp \frac{769.83}{3}</mrow>
+                    <mrow> = \amp 256.61 \, \text{cm}^3</mrow>
+                </md>
+            </p>
+            <p>
+                Therefore, the volume of one cone is <m>{\color{blue}256.61 \, \text{cm}^3}</m>.
+            </p>
+        </solution>
+    </example>
+    <exercise>
+        <p>
+            
+        </p>
+    </exercise>
+    
+</subsection>

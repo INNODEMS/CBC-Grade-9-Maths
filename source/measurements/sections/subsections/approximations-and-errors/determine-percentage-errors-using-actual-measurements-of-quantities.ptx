@@ -55,11 +55,14 @@
             </p>
               <table>
             <title> Materials needeed at each station table</title>
-            <tabular row-headers="yes" halign="center" top="medium" bottom="medium" right="medium" left="medium">
+            <tabular row-headers="yes" halign="left" top="medium" bottom="medium" right="medium" left="medium">
                 <row>
                     <cell>Station</cell>
                     <cell>Task</cell>
-                    <cell>Tools provided</cell>
+                    <cell>
+                        <line>Tools</line> 
+                        <line>provided</line>
+                    </cell>
                 </row>
                 <row>
                     <cell>1. </cell>
@@ -78,7 +81,10 @@
                 </row>
                 <row>
                     <cell>4.</cell>
-                    <cell> Guess time to complete a task (e.g., jumping 10 times)</cell>
+                    <cell> 
+                        <line>Guess time to complete a task </line>
+                        <line>(e.g., jumping 10 times)</line>
+                    </cell>
                     <cell>Stopwatch or timer</cell>
                 </row>
             </tabular>
@@ -87,16 +93,16 @@
             2. Instructions for each station:
         </p>
         <p>
-            a. **Station 1 (Length)**: Estimate the length of a pencil, then measure it with a ruler. Record both values.
+            a. Station 1 (Length): Estimate the length of a pencil, then measure it with a ruler. Record both values.
         </p>
         <p>
-            b. **Station 2 (Weight)**: Estimate the weight of a bag of sugar, then weigh it using a kitchen scale. Record both values.
+            b. Station 2 (Weight): Estimate the weight of a bag of sugar, then weigh it using a kitchen scale. Record both values.
         </p>
         <p>
-            c. **Station 3 (Volume)**: Estimate the volume of water in a cup, then measure it using a measuring cup or jug. Record both values.
+            c. Station 3 (Volume): Estimate the volume of water in a cup, then measure it using a measuring cup or jug. Record both values.
         </p>
         <p>
-            d. **Station 4 (Time)**: Estimate how long it takes to complete a task (e.g., jumping 10 times or breathing in deeply and estimating time in seconds you can hold your breathe), then use a stopwatch or timer to measure the actual time. Record both values. 
+            d. Station 4 (Time): Estimate how long it takes to complete a task (e.g., jumping 10 times or breathing in deeply and estimating time in seconds you can hold your breathe), then use a stopwatch or timer to measure the actual time. Record both values. 
         </p>
         <p>
             3. At each station:
@@ -137,15 +143,34 @@
             <tabular halign="center" top="medium" bottom="medium" right="medium" left="medium">
                 <row>
                     <cell>Station</cell>
-                    <cell>Quantity type</cell>
-                    <cell>Estimated Value</cell>
-                    <cell>Actual measurements</cell>
-                    <cell>Absolute error</cell>
-                    <cell>percentage error</cell>
+                    <cell>
+                        <line>Quantity </line>
+                        <line>type</line>
+                    </cell>
+                    <cell>
+                        <line>Estimated </line>
+                        <line>Value</line>
+                    </cell>
+                    <cell>
+                        <line>Actual </line>
+                        <line>Value</line>
+                    </cell>
+                    <cell>
+                        <line>Absolute</line>
+                        <line>error</line>
+                    </cell>
+                    <cell>
+                        <line>Percentage</line>
+                        <line>error</line>
+                    </cell>
+                    
                 </row>
                 <row>
                     <cell>1.  </cell>
-                    <cell>	Length in cm</cell>
+                    <cell>	
+                        <line>Length</line> 
+                        <line>in cm</line>
+                    </cell>
                     <cell>60</cell>
                     <cell>58</cell>
                     <cell>2</cell>
@@ -153,7 +178,10 @@
                 </row>
                 <row>
                     <cell>2. </cell>
-                    <cell>	Weight in g</cell>
+                    <cell>	
+                        <line> Weight </line>
+                        <line>in g</line>
+                    </cell>
                     <cell>350</cell>
                     <cell>370</cell>
                     <cell>20</cell>
@@ -161,7 +189,11 @@
                 </row>
                 <row>
                     <cell>3.</cell>
-                    <cell>	Volume in ml</cell>
+                    <cell>	
+                        <line>Volume</line>
+                        <line>in ml</line>
+
+                    </cell>
                     <cell>250</cell>
                     <cell>240</cell>
                     <cell>10</cell>
@@ -169,7 +201,10 @@
                 </row>
                 <row>
                     <cell>4. </cell>
-                    <cell>	Time in seconds</cell>
+                    <cell>	
+                        <line>Time in</line>
+                        <line> seconds </line>
+                    </cell>
                     <cell>5</cell>
                     <cell>6</cell>
                     <cell>1</cell>
@@ -182,7 +217,7 @@
            
            
         <ol>
-            <li>
+            <li>  
                 <p>
                     Which station had the highest error?
                 </p>
@@ -223,6 +258,7 @@
         </statement>
       
     </activity>
+    
     <example>
         <statement>
             <p>
