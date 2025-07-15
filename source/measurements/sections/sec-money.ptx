@@ -8,4 +8,12 @@
         </p>
     </introduction>
     <xi:include href="subsections/money/test4.ptx" />
+    <xi:include href="subsections/money/conversion-of-currencies-to-kenya-shillings.ptx" />
+    <xi:include href="subsections/money/conversion-of-currencies-from-kenya-shillings-to-other-currencies.ptx" />
+    <xi:include href="subsections/money/import-duty-charged-on-goods-and-services.ptx" />
+    <xi:include href="subsections/money/export-duty-charged-on-goods-and-services.ptx" />
+    <xi:include href="subsections/money/excise-duty-charged-on-goods-and-services.ptx" />
+    <xi:include href="subsections/money/value-added-tax-charged-on-goods-and-services.ptx" />
+    <xi:include href="subsections/money/use-of-money-in-day-to-day-activities.ptx" />
+
 </section>

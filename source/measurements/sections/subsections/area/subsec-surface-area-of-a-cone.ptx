@@ -1,0 +1,343 @@
+<subsection xml:id="subsec-surface-area-of-a-cone">
+    <title>Surface area of a cone</title>
+    <definition xml:id="def-surface-area-of-a-cone">
+        <statement>
+            <p>
+                A <m>\textbf{cone}</m> is a pyramid with a circular
+                base.
+            </p>
+            <p>
+                A cone consists of a circular base and a curved surface that connects the base to the apex (the tip of the cone).
+            </p>
+            <p>
+                The <m>\textbf{slant height}</m> of a cone is the distance from the apex to any point on the edge of the base.
+            </p>
+            
+        </statement>
+    </definition>
+    <activity>
+        <p>
+            <m>\text{Work in groups}</m>
+        </p>
+        <p>
+            <term>Interactive work.</term>
+        </p>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        The figure below shows  a cone, Play along with the interactive tool to understand the concept of a cone.
+                    </p>
+                    <figure >
+                            <caption>Area of a segment</caption>
+                            <interactive xml:id="geogebra-area-of-a-cone" platform="geogebra" width="100%">
+                            <slate xml:id="Area-of-a-cone" surface="geogebra" material="bz2dct3k" aspect="11:13" >
+                                enableShiftDragZoom(true);
+                                showResetIcon(true);
+                            </slate>
+                            </interactive>
+                    </figure>
+                </li>
+                <li>
+                    <p>
+                        How many figure can you find in the above interactive tool?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        You are provided with another interactive tool to explore the surface area of a cone.
+                        
+                    </p>
+                    <figure >
+                            <caption>Surface area of a cone</caption>
+                            <interactive xml:id="geogebra-surface-area-of-a-cone" platform="geogebra" width="100%">
+                            <slate xml:id="Surface-area-of-a-cone" surface="geogebra" material="ta4b8wjs" aspect="13:15" >
+                                enableShiftDragZoom(true);
+                                showResetIcon(true);
+                            </slate>
+                            </interactive>
+                    </figure>
+                    <p>
+                        Play along with the interactive tool to understand the concept of surface area of a cone.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Before you start, make sure you understand the following terms:
+                    </p>
+                    <p>
+                        <term>Base radius</term>, <term>Slant height</term>, and <term>Height</term>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Calculate the slant height in the above interactive tool.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Find the surface area of the cone in the interactive tool.
+                    </p>
+                    <p>
+                        Play along with the sliders, input boxes and coferm the surface area of the cone.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Discuss with your group members about the surface area of a cone and how it relates to real-life objects like ice cream cones, traffic cones, etc.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity>
+    <p>
+        <m>\textbf{Key Takeaway}</m>
+    </p>
+    <p>
+        The surface area of the closed cone is given by:
+        <me> \pi r^2+ \pi r l</me>
+
+    </p>
+    <p>
+        Where, where <m>\pi r^2</m> is area of the
+        base and <m>\pi r l</m> the area of the curved
+        surface. <m>r</m> is the radius of the cone and <m>l</m> is the slant height of the cone.
+    </p>
+    <p>
+        See the figure below.
+    </p>
+    <image width="50%">
+    <latex-image label="A-cone">
+        \begin{tikzpicture}[black]
+            
+            % Cone sector
+            \draw[very thick] (0,0) -- (4,3.5) node[midway, above left] {\huge{$l$}};
+            \draw[very thick] (0,0) -- (4,-3.5) node[midway, below left] {\huge{$l$}};
+            \draw[very thick] (4,3.5) arc[start angle=60, end angle=-60, radius=4];
+
+            % Label for curved surface area
+            \draw[very thick,dashed,-&gt;] (3.2,1.5) -- (6,2.5) node[right] {\huge{curved surface}};
+            \node[above] at (6.9,2.6){\huge {$A = \pi r l$}};
+
+            % Angle θ
+
+
+
+            \node at (1.2,0.2) {\huge{$\theta$}};
+
+            % Base circle
+            \draw [very thick,fill=cyan](7.5,0) circle (1.5);
+            \draw[very thick,dashed,-&gt;] (7.5,0.2) -- (8.5,-2.5) node[right] {\huge{circular base}};
+            \node [below]at (10,-2.9) {\huge{$A = \pi r^2$}};
+
+            % Radius of circle
+            \draw[very thick,-&gt;] (7.5,0) -- (9,0) ;
+            \node [above] at (8.5,0){r};
+        \end{tikzpicture}
+    </latex-image>
+        
+    </image>
+    <example>
+        <statement>
+            <p>
+                Determine the surface area of the closed cone shown below.
+            </p>
+            <image width="50%">
+            <latex-image label="cone-2">
+                \begin{tikzpicture}[scale=0.2]
+                    % Base circle (ellipse for 3D effect)
+                    \draw[very thick,fill=green] (0,0) ellipse (14 and 4);
+
+                    % Cone sides
+                    \draw[very thick] (-14,0) -- (0,25);
+                    \draw[very thick] (14,0) -- (0,25);
+
+                    % Dashed line to show radius
+                    \draw[dashed] (0,0) -- (14,0);
+                    \node[below] at (7,0) {14 m};
+
+                    % Slant height
+                    \draw[dashed] (0,25) -- (14,0);
+                    \node[right] at (7,13) {15 m};
+                \end{tikzpicture}
+            </latex-image>
+                
+            </image>
+        </statement>
+        <solution>
+            <p>
+                The surface area of the above figure is given by;
+            </p>
+            <p>
+                <m>\text{SA}=\pi r^2 +\pi r l</m>
+            </p>
+            <p>
+                <md>
+                    <mrow>\text{Circular base area}=\amp \pi r^2 </mrow>
+                    <mrow>= \amp \frac{22}{7} \times 14 \times 14</mrow>
+                   <mrow>= \amp 22 \times 2 \times 14 </mrow>
+                   <mrow>= \amp 616 \, \text{m}^2</mrow>
+                </md>
+            </p>
+            <p>
+                <md>
+                    <mrow>\text{Curved surface area}=\amp \pi r l </mrow>
+                    <mrow>= \amp \frac{22}{7} \times 14 \times 15</mrow>
+                   <mrow>= \amp 22 \times 2 \times 15 </mrow>
+                   <mrow>= \amp 660\, \text{m}^2</mrow>
+                </md>
+            </p>
+            
+            <p>
+                Therefore, the total surface area is given by:
+            </p>
+            <p>
+                <md>
+                    <mrow>\text{Total surface area} = \amp 616\, \text{m}^2 + 660\, \text{m}^2</mrow>
+                    <mrow>= \amp 1276\, \text{m}^2</mrow>
+                </md>
+            </p>
+
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                A conical container open at the top, is made of metal and has a base radius
+                of <m>10 \, \text{cm}</m> and a slant height of <m>18 \, \text{cm}</m>. Determine the total metal sheet 
+                required to construct this container.
+                
+            </p>
+            
+        </statement>
+        <solution>
+            <p>
+                The conical container has no Circular base therefore, the area is given by:
+            </p>
+            <p>
+                <m>\text{Surface area} = \pi r l</m>
+               
+            </p>
+            <p>
+                Substitute the given values:
+            </p>
+            <p>
+                
+            </p>
+            <p>
+                 <md>
+                    <mrow>\text{Surface area} = \amp \frac{22}{7} \times 10 \times 18</mrow>
+                    <mrow>= \amp \frac{22}{7} \times 180</mrow>
+                    <mrow>= \amp 22 \times 25.714</mrow>
+                    <mrow>\approx \amp 565.7\, \text{cm}^2</mrow>
+                </md>
+            </p>
+            <p>
+                Therefore, the total metal sheet required is approximately <m>{\color{blue}565.7\, \text{cm}^2}</m>.
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                A cone is constructed with a base diameter of <m>20 \, \text{mm}</m> and a height of <m>30 \, \text{mm}</m> as shown below.
+            </p>
+            <image width="50%">
+            <latex-image label="cone-3">
+                \begin{tikzpicture}[scale=0.5,rotate=180]
+                     % Funnel cone
+                    \draw[very thick,fill=white] (0,12) -- (-6,0) -- (6,0) -- cycle;
+
+                    % Elliptical top
+                    \draw[very thick, fill=white] (-6,0) arc[start angle=180, end angle=0, x radius=6, y radius=1.2];
+
+                    % Hidden back arc
+                    \draw[very thick ,dashed] (6,0) arc[start angle=0, end angle=-180, x radius=6, y radius=1.2];
+
+                    % Labels
+
+                    \node at (-0.5,-0.5) {20 mm};
+
+                    \draw [&lt;-&gt;,very thick] (-6,0) --(-6,12);
+                    \node [right]at (-6.3,6) {30 mm};
+
+                \end{tikzpicture}
+            </latex-image>
+                
+            </image>
+
+            <p>
+                <ol marker="a.">
+                    <li>
+                        <p>
+                            Find the slant height of the cone.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Find the surface area of the cone.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <ol marker="a.">
+                    <li>
+                        <p>
+                            The slant height is given by:
+                        </p>
+                         <p>
+                            <md>
+                                <mrow> l^2= \amp b^2+h^2</mrow>
+                                <mrow> l^2 =\amp (\frac{20}{2})+ 30^2</mrow>
+                                <mrow>l= \amp \sqrt{10^2+30^2}</mrow>
+                                <mrow> = \amp \sqrt{100 + 900} </mrow>
+                                <mrow> = \amp \sqrt{1000} </mrow>
+                                <mrow> \approx \amp 31.62\, \text{mm} </mrow>
+                            </md>
+                        </p>
+                        <p>
+                            Therefore, the slant height is approximately <m> {\color{blue} 31.62\, \text{mm}}</m>.
+                        </p>
+                        
+
+                    </li>
+                    <li>
+                        <p>
+                            The total surface area is given by:
+                        </p>
+                        <p>
+                            <md>
+                                <mrow>\text{TSA} =\amp \pi r^2 + \pi r l </mrow>
+                                <mrow> = \amp \pi \times 10^2 + \pi \times 10 \times 31.62 </mrow>
+                                <mrow> = \amp \pi \times 100 + \pi \times 316.2 </mrow>
+                                <mrow> = \amp 314.16 + 993.61 </mrow>
+                                <mrow> = \amp 1307.77\, \text{mm}^2 </mrow>
+                            </md>
+                        </p>
+                        <p>
+                            Therefore, the total surface area of the cone is approximately <m>{\color{blue}1307.77\, \text{mm}^2}</m>.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            <p>
+                
+            </p>
+           
+        </solution>
+    </example>
+
+    <exercise>
+        <p>
+            
+        </p>
+    </exercise>
+
+
+    
+    
+    
+</subsection>

@@ -1,0 +1,123 @@
+<subsection xml:id="subsec-equation-from-gradient-and-point" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Determining the Equation of a Line from a Known Gradient and a Point</title>
+
+    <introduction>
+        <p>
+            In some cases, we may be told the <m>\textbf{gradient (m)}</m> of a line and given only one point that lies on it. Using this information, we can still find the full equation of the line.
+        </p>
+        <p>
+            To do this, we use the <m>\textbf{point-slope form}</m> of a linear equation:
+        </p>
+        <p>
+            <m> y - y_1 = m(x - x_1) </m>
+        </p>
+        <p>
+            where <m>(x_1, y_1)</m> is the known point and <m>m</m> is the gradient. We can rearrange this into the familiar slope-intercept form:
+            <m> y = mx + c </m>.
+        </p>
+    </introduction>
+
+    <worksheet>
+        <title>Work in Pairs</title>
+        <p><term>Materials Required:</term></p>
+        <p>
+            <ul>
+                <li>Graph paper or notebook</li>
+                <li>Ruler</li>
+                <li>Pencil and calculator</li>
+            </ul>
+        </p>
+        <p><m>\textbf{Instructions}</m></p>
+        <p>
+            <ol>
+                <li>Suppose you are told that a line has a gradient of <m>3</m> and passes through the point <m>(2, 5)</m>.</li>
+                <li>Write the point-slope form using this information.</li>
+                <li>Rearrange the equation into slope-intercept form (<m>y = mx + c</m>).</li>
+                <li>Plot the point on graph paper, then draw the line using your equation to verify your result.</li>
+            </ol>
+        </p>
+        <p>
+            Discuss with your partner: Would the result be different if we had chosen a different point?
+        </p>
+    </worksheet>
+
+    <subsubsection xml:id="subsubsec-equation-known-gradient-example">
+        <title>Example: Writing an Equation from Gradient and Point</title>
+        <p>
+            Write the equation of a line that has a gradient <m>m = 2</m> and passes through the point <m>(3, 4)</m>.
+        </p>
+        <example>
+            <p><em>Step 1:</em> Use the point-slope form:</p>
+            <p>
+                <m> y - 4 = 2(x - 3) </m>
+            </p>
+            <p><em>Step 2:</em> Expand the brackets:</p>
+            <p>
+                <m> y - 4 = 2x - 6 </m>
+            </p>
+            <p><em>Step 3:</em> Add 4 to both sides:</p>
+            <p>
+                <m> y = 2x - 2 </m>
+            </p>
+            <p>
+                Therefore, the equation of the line is <m> y = 2x - 2 </m>.
+            </p>
+        </example>
+    </subsubsection>
+
+    <conclusion>
+        <p>
+            <m>\textbf{Key Takeaway:}</m>
+            When given a gradient and one point on a line, you can use the point-slope form to find the full equation of the line. This method is efficient and avoids the need for a second point.
+        </p>
+    </conclusion>
+
+    <exercise>
+        <p><m>\textbf{Answer the following questions. Use the point-slope method to derive each equation, then write it in the form}</m> <m>y = mx + c</m>.</p>
+
+        <ol>
+            <li>
+                <p>
+                    A line has a gradient of <m>3</m> and passes through the point <m>(1, 5)</m>. Find the equation of the line.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    The gradient of a line is <m>-\frac{1}{2}</m> and it goes through the point <m>(4, 6)</m>. Write its equation in slope-intercept form.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    A line passes through the origin and has a gradient of <m>\frac{5}{3}</m>. Write its equation.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    A plumber charges a fixed fee of Ksh <m>300</m> and an additional Ksh <m>150</m> per hour worked. Let <m>x</m> represent the number of hours worked and <m>y</m> represent the total charge. Write the equation connecting <m>x</m> and <m>y</m>.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    The equation of a line is <m>y = 4x - 7</m>. Identify:
+                </p>
+                <p>
+                    <ul>
+                        <li>The gradient</li>
+                        <li>A point that lies on the line</li>
+                    </ul>
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Without drawing a graph, explain whether the line with equation <m>y = -2x + 8</m> is increasing or decreasing. Justify your answer using the gradient.
+                </p>
+            </li>
+        </ol>
+    </exercise>
+
+</subsection>

@@ -1,6 +1,136 @@
 <subsection xml:id="subsec-identifying-a-matrix-indifferent-situations">
-    <title>Identifying a matrix indifferent situations</title>
-    <p>
+    <title>Identifying a Matrix in Different Situations</title>
+        <p>
+            A <m>\textbf{matrix}</m> is a way of organizing numbers or information in rows and columns—just like the tables you have seen in other topics such as measurement and data handling. 
+            Matrices help us organize, compare, and analyze data efficiently.
+        </p>
+        <p>
+            <m>\textbf{Did you know?}</m> The tables you used for currency exchange, frequency distributions, or measurement results are all examples of data that can be represented as matrices!
+        </p>
+
+        <p>
+            Matrices are powerful tools for organizing and analyzing real-world data, such as sports scores, business sales, or scientific results. By turning tables into matrices, we can use mathematical methods to solve problems more easily.
+        </p>
+
+        <activity>
+            <p>
+                The Greenfield School Cafeteria prepares meals for students in three school levels: <m>\textbf{Lower Primary}</m>, 
+                <m>\textbf{Upper Primary}</m>, and <m>\textbf{Secondary}</m>. Each week, they prepare two types of meals: <m>\textbf{Vegetarian}</m> and <m>\textbf{Non-Vegetarian}</m>. The number of meals prepared (in hundreds) for Week 1 and Week 2 is recorded in the tables below:
+            </p>
+        
+                <tabular top="medium" bottom="medium" left="medium" right="medium">
+                  <row bottom="medium">
+                    <cell colspan="3" halign="center">
+                      <m>\textbf{Week 1 Meal Data}</m>
+                    </cell>
+                  </row>
+                  <row>
+                    <cell halign="center">4</cell>
+                    <cell halign="center">6</cell>
+                  </row>
+                  <row>
+                    <cell halign="center">3</cell>
+                    <cell halign="center">5</cell>
+                  </row>
+                  <row bottom="medium">
+                    <cell halign="center">2</cell>
+                    <cell halign="center">7</cell>
+                  </row>
+                </tabular>
     
-    </p>
+
+                <tabular top="medium" bottom="medium" left="medium" right="medium">
+                  <row bottom="medium">
+                    <cell colspan="3" halign="center">
+                      <m>\textbf{Week 2 Meal Data}</m>
+                    </cell>
+                  </row>
+                  <row>
+                    <cell halign="center">5</cell>
+                    <cell halign="center">4</cell>
+                  </row>
+                  <row>
+                    <cell halign="center">4</cell>
+                    <cell halign="center">6</cell>
+                  </row>
+                  <row>
+                    <cell halign="center">3</cell>
+                    <cell halign="center">8</cell>
+                  </row>
+                </tabular>
+            
+        
+            <p>Use the data in the tables to answer the following questions:</p>
+            <p>
+                <ol>
+                    <li>How many rows are in each table? What does each row represent?</li>
+                    <li>How many columns are in each table? What does each column represent?</li>
+                    <li>Write the Week 1 data as a matrix using the square brackets <m>\begin{bmatrix}  .. \end{bmatrix}</m>.</li>
+                    <li>Write the Week 2 data as a matrix using the curly brackets <m>\begin{pmatrix}  .. \end{pmatrix}</m>.</li>
+                    <li>Compare the matrices from Week 1 and Week 2. In which categories did the cafeteria increase or reduce production?</li>
+                </ol>
+            </p>
+        </activity>        
+
+        <p>
+            <term>Key Take Away</term>
+        </p>
+        <p>
+            A matrix is a rectangular arrangement of numbers or data in rows and columns. It can represent real-life situations, such as meal preparation data, sports scores, or sales figures.
+        </p>
+        <example>
+            <statement>
+                <p>The following table shows the number of books read by three students (Alice, Brian, and Carol) in two terms:</p>
+                <tabular top="medium" bottom="medium" left="medium" right="medium">
+                    <row>
+                        <cell></cell>
+                        <cell>Term 1</cell>
+                        <cell>Term 2</cell>
+                    </row>
+                    <row>
+                        <cell>Alice</cell>
+                        <cell>4</cell>
+                        <cell>5</cell>
+                    </row>
+                    <row>
+                        <cell>Brian</cell>
+                        <cell>3</cell>
+                        <cell>6</cell>
+                    </row>
+                    <row>
+                        <cell>Carol</cell>
+                        <cell>5</cell>
+                        <cell>4</cell>
+                    </row>
+                </tabular>
+                <p>Write this table as a matrix, where each row is a student and each column is a term. Then answer: Who read the most books in Term 2? How many books did Brian read in total?</p>
+            </statement>
+            <solution>
+                <p>Step 1: Write the matrix:</p>
+                <p>
+                    <m>\textbf{Matrix:}</m>
+                    <m>
+                        \begin{bmatrix}
+                            4 &amp; 5 \\
+                            3 &amp; 6 \\
+                            5 &amp; 4 \\
+                        \end{bmatrix}
+                    </m>
+                </p>
+                <p>
+                    Rows: Alice, Brian, Carol.
+                </p>
+                <p>
+                    Columns: Term 1, Term 2.
+                </p>
+                <p>
+                    <ul>
+                        <li>Who read the most books in Term 2? <m>\textbf{Brian}</m></li>
+                        <li>We compare the Term 2 column: Alice = 5, Brian = 6, Carol = 4. The highest number is <m>\textbf{6}</m>, which belongs to <m>\textbf{Brian}</m>.</li>
+                        <li>How many books did Brian read in total?</li>
+                        <li>We add the numbers in Brian's row: 3 (Term 1) + 6 (Term 2) = 9. therefore he read a total of <m>\textbf{9 books}</m>.</li>
+                    </ul>
+                </p>
+            </solution>
+        </example>
 </subsection>

@@ -1,0 +1,719 @@
+<subsection xml:id="subsec-approximation-of-quantities-in-measuremnts">
+<title>Approximation of quantities in measurements</title>
+   <p>
+     <m> \textbf{a) Approximating Length}</m>
+    </p>
+<activity>
+        <statement>
+           
+
+            <p>
+            Tip for Learners:  Before starting, measure your palm, foot, or stride length in cm.For example:
+            <ul>
+                <li>
+                    <p>
+                    
+                    palm length: 8 cm
+                    
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        foot length: 25 cm
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        stride length: 75 cm
+                    </p>
+                </li>
+            </ul>
+                    
+            </p>
+            <p>
+                In these approximations we will use the palms of our hands, feet or strides
+            </p>
+            <p>
+                Measure the lemgth of your palm using a well labeled ruler. 
+            </p>
+            <p>
+                What did you get?
+            </p>
+            <p>
+                What about the length of your feet? Measure also and estimate the length of one stride.
+            </p>
+            <ol>
+                <li>
+                    <p>
+                        Materials Needed:
+                        <ul>
+                            <li>
+                                <p>
+                                    A ruler or measuring tape
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    A variety of classroom objects
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    A notebook or paper for recording measurements
+                                </p>
+                            </li>
+                        </ul>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Use your palm, foot, or stride to estimate the length of each object e.g the black board or hite board or the teacher's table.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Count how many units of palm-widths or foot-lengths or stride lengths it takes to span the object.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Multiply by the average length of your palm/foot to get your estimated length in cm.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Record your estimated lengths in a table.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Now, measure the actual length of each object using a ruler or measuring tape.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Calculate the absolute and percentage error.
+                    </p>
+                </li>
+            </ol>
+            <table>
+                <title>Approximating length</title>
+                <tabular halign="center" valign="middle" top="medium" bottom="medium" right="medium" left="medium">
+                    <row halign="left" valign="middle" header="yes"  bottom="medium"  left="medium">
+                        <cell>
+                            <line>Object</line>
+                            <line>part</line>
+                            <line>used</line>
+                        </cell>
+                        <cell>Count</cell>
+
+                        <cell>
+                            <line>Estimated</line> 
+                            <line>Length (cm)</line>
+                        </cell>
+                        <cell>
+                            <line>Measured</line> 
+                            <line>Length (cm)</line>
+                        </cell>
+                        <cell>
+                            <line>Absolute</line> 
+                            <line>error</line>
+                        </cell>
+                        <cell>
+                            <line>Percentage </line> 
+                            <line>error</line>ight="medium"
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Desk</cell>
+                        <cell>Palm</cell>
+                        <cell>5</cell>
+                        <cell>5 × 8 = 40</cell>
+                        <cell>42</cell>
+                        <cell>2 cm</cell>
+                        <cell>4.76%</cell>
+                    </row>
+                    <row>
+                        <cell>Hallway</cell>
+                        <cell>Stride</cell>
+                        <cell>6</cell>
+                        <cell>6 × 60 = 360</cell>
+                        <cell>370</cell>
+                        <cell>10 cm</cell>
+                        <cell>2.70%</cell>
+                    </row>
+                    <row>
+                        <cell>Book</cell>
+                        <cell>Palm</cell>
+                        <cell>2</cell>
+                        <cell>2 × 8 = 16</cell>
+                        <cell>15</cell>
+                        <cell>1 cm</cell>
+                        <cell>6.67%</cell>
+                    </row>
+                </tabular>
+            </table>
+
+
+        </statement>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                One palm length of Keith is 8cm long. He measures the length of his desk as 5 palm lengths. What is the approximate length of his desk in cm?
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    To find the approximate length of Keith's desk, we multiply the number of palm lengths by the length of one palm:
+                </p>
+                <p>
+                    <md>
+                    <mrow> \text{Approximate length} = \amp \text{length of one palm} \times \text{number of palm lengths}</mrow>
+                </md>
+                <md>
+                        <mrow> = \amp = 8 \text{ cm} \times 5 </mrow>
+                        <mrow> = \amp = 40 \text{ cm}</mrow>
+                </md>
+            </p>
+            </solution>
+        </example>
+         <p>
+                b) Approximating mass
+            </p>
+        <activity xml:id="approximating-mass">
+        <statement>
+            <p>
+            Estimate the mass of various classroom objects, then measure their actual mass using a digital or mechanical scale. Compare your estimates with the actual values and calculate the absolute and percentage error.
+            </p>
+            <p>
+            Choose at least three of the following objects: chalk, textbook, water bottle, eraser, pencil case, or lunchbotatement
+            </p>
+            <p>
+            Record your estimates and measurements in the table belotatement 
+            </p>
+            
+            <table>
+                <title>Mass table</title>
+                <tabular halign="center" valign="middle" top="medium" bottom="medium" right="medium" left="medium">
+                    
+            <row header="yes">
+                <cell>No.</cell>
+                <cell>Object</cell>
+                <cell>
+                    <line>Estimated</line> 
+                    <line>Mass (g)</line>
+                </cell>
+                <cell>
+                    <line>Measured</line> 
+                    <line>mass (g)</line>
+                </cell>
+                <cell>
+                    <line>Absolute </line> 
+                    <line>error (g)</line>
+                </cell>
+                <cell>
+                    <line>Percentage </line> 
+                    <line>error (\%)</line>
+                </cell>
+            </row>
+            <row>
+                <cell>i)</cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+            </row>
+            <row>
+                <cell>ii)</cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+            </row>
+            <row>
+                <cell>iii)</cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+            </row>
+            </tabular>
+            </table>
+        
+            <p>
+                After completing the table, calculate the absolute and percentage errors for each object.
+            </p>
+            <p>
+            Use these formulas to calculate errors:
+            </p>
+            <p>
+            <ul>
+            <li><p><m>\text{Estimated value- Measured value}</m> for <em>Absolute Error</em></p></li>
+            <li><p><m>(\text{Absolute Error ÷ Measured} × 100</m> for <em>Percentage Error</em></p></li>
+            </ul>
+        </p> 
+            <p>
+            Reflect on which items you estimated most accurately. What strategies helped? Why is approximating mass useful in real-life situations like shopping, cooking, or science?
+            </p>
+            </statement>
+        
+        </activity>
+        <p>
+     <m> \textbf{a) Approximating area}</m>
+    </p>
+        <activity xml:id="approximating-area">
+        <statement>
+            <p>
+            Estimate the area of flat surfaces using square units, then measure and calculate the actual area using appropriate tools (e.g., ruler or measuring tape). Compare the estimate with the actual value and find the percentage error.
+            </p>
+            <p>
+            Choose three flat surfaces such as a desk top, book cover, exercise book page, floor tile, or windowpane. Estimate the area by visualising or using hand-sized units (like palm-sized squares). Then measure the length and width to calculate the actual area.
+            </p>
+
+            <table>
+            <title>Estimating area </title>
+
+            <tabular halign="center" valign="middle" top="medium" bottom="medium" right="medium" left="medium">
+                
+                <row header="yes" halign="center">
+                        <cell>
+                            <line>Item</line> 
+                            <line>number</line>
+                        </cell>
+                    <cell>Object</cell> 
+                    <cell>
+                        <line>Estimated</line> 
+                        <line>area (cm²)</line>
+                    </cell> 
+                    <cell>
+                        <line>Measured</line> 
+                        <line>length (cm)</line>
+                    </cell>
+                    <cell>
+                        <line>Measured</line> 
+                        <line>width (cm)</line>
+                    </cell><cell>
+                        <line>Actual </line> 
+                        <line>area (cm²)</line>
+                    </cell>
+                    <cell>
+                        <line>Absolute </line> 
+                        <line>error (cm²)</line>
+                    </cell>
+                    <cell>
+                        <line>Percentage </line> 
+                        <line>error (\%)</line>
+                    </cell>
+                </row>
+                <row>
+
+                    <cell>a)</cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>b)</cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>c)</cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+            </tabular> 
+        </table>
+
+        
+            <p>
+            Use this formula to calculate the actual area:
+            <m>Area = Length × Width</m>
+            </p>
+            <p>
+                After completing the table, calculate the absolute and percentage errors for each object.
+            </p>   
+            </statement>
+        </activity>
+
+            <p>
+                Use these formulas to calculate errors:
+            </p>
+            <p>
+            <ul>
+            <li><p><m>Estimated - Actual</m> for <em>Absolute Error</em></p></li>
+            <li><p><m>(Absolute Error \div Actual) × 100</m> for <em>Percentage Error</em></p></li>
+            </ul>
+        </p> 
+            <p>
+            Reflect on which items you estimated most accurately. What strategies helped? Why is approximating area useful in real-life situations like home design, gardening, or art?
+            </p> 
+            <p>
+                
+            </p>
+            <example>
+                <statement>
+                    <p>
+                        
+                    </p>
+                </statement>
+            </example>
+            <p>
+                <m> \textbf{a) Approximating volume}</m>
+            </p>
+            <activity xml:id="displacement-volume-activity">
+        <statement>
+            <p>
+            Estimate the volume of irregular objects by using water displacement. This method allows you to find the actual volume by measuring how much water is pushed out of the way when the object is fully submerged.
+            </p>
+            <p>
+            Fill a measuring jug with water and record the initial water level. Carefully submerge an object into the water. Record the new water level. The difference between the two levels gives the actual volume of the object.
+            </p>
+            <p>
+            Before submerging each object, estimate its volume in millilitres (mL). After measuring, calculate the absolute error and percentage error of your estimate.
+            </p>
+
+        <table>
+            <title>Estimating Volume Using Displacement</title>
+            <tabular>
+            <row><cell>No.</cell>
+            <cell>Object</cell>
+            <cell>Estimated Volume (mL)</cell>
+            <cell>Initial Water Level (mL)</cell>
+            <cell>Final Water Level (mL)</cell>
+            <cell>Actual Volume (mL)</cell>
+            <cell>Absolute Error (mL)</cell>
+            <cell>Percentage Error (%)</cell>
+            </row>
+            <row>
+            <cell>1.</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            </row>
+            <row>
+            <cell>2.</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            </row>
+            <row>
+            <cell>3.</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            </row>
+            </tabular>
+        </table>
+            <p>
+            Use this formula to calculate the volume of the object:
+            <m>Volume = Final Level − Initial Level</m>
+            </p>
+            <p>
+            To determine errors:
+            </p>
+            <p>
+            <ul>
+                <li><p><m>Absolute Error = Estimated − Actual</m></p></li>
+                <li><p><m>Percentage Error = (Absolute Error ÷ Actual) × 100</m></p></li>
+            </ul>
+        </p>
+        </statement>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                    
+                </p>
+            </statement>
+        </example>
+        <activity xml:id="classroom-capacity-challenge">
+        <statement>
+            <p>
+            Working in small groups, estimate the total amount of water (in millilitres or litres) required to fill a variety of classroom containers. Then measure the actual capacity of each item using a measuring jug or graduated container. Finally, calculate the absolute and percentage error for each estimate and determine which group made the most accurate overall predictions.
+            </p>
+            <p>
+            Suggested items: a chalk box, teacher’s water bottle, flower vase, handwashing bucket, and a plastic cup.
+            </p>
+            <p>
+            Record your data in the table below and fill in the estimated values based on your group's discussions. After measuring, calculate the absolute and percentage errors for each item.
+            </p>
+
+        <table>
+            <title>Classroom Capacity Estimation Challenge</title>
+            <tabular halign="left" valign="middle" top="medium" bottom="medium" right="medium" left="medium">
+            
+                <row>
+            <cell>Item</cell>
+            <cell>Group Estimate (mL)</cell>
+            <cell>Measured Capacity (mL)</cell>
+            <cell>Absolute Error (mL)</cell>
+            <cell>Percentage Error (%)</cell>
+            </row>
+            <row>
+            <cell>Example: Vase</cell>
+            <cell>1,200</cell>
+            <cell>1,000</cell>
+            <cell>200</cell>
+            <cell>20%</cell>
+            </row>
+            <row>
+            <cell>i.</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            </row>
+            <row>
+            <cell>ii.</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            </row>
+            <row>
+            <cell>iii.</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            </row>
+            </tabular>
+        </table>
+
+        
+        </statement>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                    
+                </p>
+            </statement>
+        </example>
+        <p>
+            <m> \textbf{a) Approximating time}</m>
+        </p>
+            <activity xml:id="approximating-time-classroom">
+        <statement>
+            <p>
+            Estimate how long it takes to perform common classroom tasks, such as walking to the board, passing out books, or sharpening a pencil. Then use a stopwatch or phone timer to measure the actual time taken. Compare your estimates with actual timings and calculate the absolute and percentage error.
+            </p>
+            <p>
+            Work in pairs. One student performs the task while the other times and records the data. Then switch roles.
+            </p>
+
+        <table>
+            <title>Estimating and Measuring Classroom Task Duration</title>
+            <tabular halign="left" valign="middle" top="medium" bottom="medium" right="medium" left="medium">
+            <row>
+            <cell>Task</cell>
+            <cell>Estimated Time (seconds)</cell>
+            <cell>Measured Time (seconds)</cell>
+            <cell>Absolute Error (s)</cell>
+            <cell>Percentage Error (%)</cell>
+            </row>
+            <row>
+            <cell>Walk to board and write a sentence</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            </row>
+            <row>
+            <cell>Sharpen a pencil</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            </row>
+            <row>
+            <cell>Distribute exercise books to a row</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            </row>
+            <row>
+            <cell>Open and arrange textbooks</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            </row>
+            </tabular>
+            </table>
+            <p>
+                Use appropriate formulas to compute the accuracy of your estimates
+            </p>
+            <p>
+            Discuss: Which task was the hardest to estimate? Why might people misjudge time? How can accurate time estimation be useful in exams, presentations, or careers?
+            </p>
+        </statement>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                    
+                </p>
+            </statement>
+        </example>
+        <p>
+            <m> \textbf{a) Approximating temperature}</m>
+        </p>
+        <activity xml:id="approximating-temperature">
+        <statement>
+            <p>
+            Estimate the temperatures of various classroom items or surfaces in degrees Celsius. Then measure the actual temperature using a thermometer. Record your estimates and measured values, then calculate the absolute and percentage errors to evaluate your accuracy.
+            </p>
+            <p>
+            Suggested items: a cup of tap water, the palm of a student’s hand, a shaded classroom desk, and a closed bottle of water left in the sun.
+            </p>
+
+        <table>
+            <title>Estimating and Measuring Temperature in the Classroom</title>
+            <tabular halign="left" valign="middle" top="medium" bottom="medium" right="medium" left="medium">
+            <row>
+            <cell>Item</cell>
+            <cell>Estimated Temperature (°C)</cell>
+            <cell>Measured Temperature (°C)</cell>
+            <cell>Absolute Error (°C)</cell>
+            <cell>Percentage Error (%)</cell>
+            </row>
+            <row>
+            <cell>Tap water</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            </row>
+            <row>
+            <cell>Palm of hand</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            </row>
+            <row>
+            <cell>Shaded desk</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            </row>
+            <row>
+            <cell>Sun-warmed bottle</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            </row>
+            </tabular>
+            </table>
+                <p>
+                Use the following formulas to calculate estimation errors:
+                </p>
+                <p>
+                <ul>
+                <li>
+                    <p> 
+                        
+                        <m>Absolute Error = |Estimated − Measured|</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>Percentage Error = (Absolute Error ÷ Measured) × 100</m>
+                    </p>
+                </li>
+                </ul>
+                    </p>
+                <p>
+                    Discuss with your group: Which item was most difficult to estimate? What influenced your guesses? How does this activity help you in understanding temperature in real-life settings such as weather, body health, or food safety?
+                </p>
+                </statement>
+        </activity>
+            <p>
+                <m>\textbf{Tips for Estimating and Measuring Quantities}</m>
+            </p>
+            <p>
+                Estimating and measuring quantities accurately is a valuable skill in everyday life. Here are some tips to help you improve your estimation and measurement skills:
+            </p>
+         <p>
+        <ul>
+        <li>
+            <p>
+            Always estimate before measuring to develop a sense of approximation and improve reasoning skills.
+            </p>
+        </li>
+        <li>
+            <p>
+            Use appropriate instruments such as thermometers, measuring jugs, or rulers to validate your estimates.
+            </p>
+        </li>
+        <li>
+            <p>
+            Calculate absolute and percentage errors to evaluate how close your estimates were to the actual values.
+            </p>
+        </li>
+        </ul>
+        
+    </p>
+
+            
+            <example xml:id="approximate-temperature-hand">
+         <title>Approximating Temperature Using Estimation</title>
+            <statement>
+                <p>
+                A student places their hand on a metal surface that was exposed to sunlight. They estimate the temperature of the surface to be 38°C based on how warm it feels. Later, they use a digital thermometer and record the actual temperature as 41°C. Approximate the absolute and percentage error in the student's estimation.
+                </p>
+            </statement>
+
+            <solution>
+                <p>Estimated temperature = 38°C</p>
+                <p>Measured temperature = 41°C</p>
+                <p>
+                    <md>
+                        <mrow>   Absolute error  = \amp 38 − 41 </mrow>
+                        <mrow> = \amp 3° C</mrow>
+                    </md>
+                </p>
+                <p>
+                    <md>
+                        <mrow> \text{Percentage error} = \amp  \frac{3}{41} \times 100 \% </mrow>
+                        <mrow> = \amp 7.32 \% </mrow>
+                    </md>             
+                  </p>
+                <p>
+            Therefore, the estimated temperature was off by 3°C, which is approximately a 7.32% error.
+            </p>
+        </solution>
+        </example>
+            <p>
+                <m>\textbf{Conclusion}</m>
+            </p>
+            <p>
+                In this section, we learned how to approximate quantities in measurements and understand the concept of error. We practiced estimating lengths, masses, areas, volumes, temperature and time durations using everyday objects and methods. We also calculated absolute and percentage errors to evaluate the accuracy of our estimates.
+            </p>
+</subsection>

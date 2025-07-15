@@ -1,0 +1,250 @@
+<subsection xml:id="subsec-conversion-of-currencies-to-kenya-shillings">
+    <title>Conversion of currencies to Kenya shillings</title>
+    <p>
+        
+    </p>
+    <activity>
+         <title> Converting Shillings to Notes</title>
+        <statement>
+        <p>
+            In Kenya, money is expressed in shillings (KES) and cents. 1 shilling is equal to 100 cents.
+            We use both <em>coins</em> (for small amounts) and <em>notes</em> (for larger amounts).
+        </p>
+        <p>
+            In this activity, you will practice converting amounts of money into notes and coins, and convert between shillings and cents.
+        </p>
+                
+         <p>
+            The available notes in Kenya are Ksh. 1,000, Ksh. 500, Ksh. 200, Ksh. 100 and Ksh. 50
+         </p>
+         <p>    
+            The available coins are  Ksh. 20, Ksh. 10.Ksh. 5, Ksh. 2 and Ksh. 1.
+        </p>
+        <p>
+            Convert the following amounts into notes, coins or cents..
+        </p>
+        
+      <p> 1.Convert Ksh. 350 into notes.</p>
+    
+        <p>
+            To convert Ksh. 350 into notes, we can use the largest denominations first.
+            The available notes are KES 100, KES 50 in this case.
+            We can express KES 350 as:
+            <md>
+                <mrow>350 = 3 \times 100 + 1 \times 50</mrow>
+            </md>
+        </p>
+        <p>
+        So, Ksh. 350 can be made using:
+        <md>
+            <mrow> 3 × 100   = \amp 300\, \text{shilling notes} </mrow>
+            <mrow> 1 × 50 = \amp \text 5\, {shilling note} </mrow>
+        </md>
+        
+      </p>
+    <p>
+        Therefore, KES 350 can be made using 3 notes of KES 100 and 1 note of KES 50.
+    </p>
+  
+    <p>2. Convert 7 shillings and 85 cents to cents only.</p>
+    <p>
+        To convert shillings to cents, we multiply the number of shillings by 100 and add the cents.
+        <md>
+            <mrow>(7 \times 100) + 85 = 700 + 85 = 785 \text{ cents}</mrow>
+        </md>
+    </p>
+    <p>
+          So, 7 shillings and 85 cents = 785 cents.
+    </p>
+
+    <p>Convert 645 cents to shillings and cents.</p>
+    
+   
+    <p>
+        To convert cents to shillings, we divide the number of cents by 100.
+        The quotient gives us the number of shillings and the remainder gives us the cents
+        <md>
+            <mrow>645 \div 100 = 6 \text{ shillings } \text{ and } 45 \text{ cents}</mrow>
+        </md>
+    </p>
+    <p>
+            So, 645 cents = 6 shillings and 45 cents.
+    </p>
+    <p>4. Using 100, 50, and 20 shilling notes, how can you make KES 270?</p>
+    <p>
+        To make KES 270 using the available notes, we can use:
+        <md>
+            <mrow>2 \times 100 + 1 \times 50 + 1 \times 20</mrow>
+        </md>
+    </p>
+    <p>
+        So, KES 270 can be made using:
+        <md>
+            <mrow>2 × 100 = \amp 200\, \text{shilling notes} </mrow>
+            <mrow>1 × 50 = \amp 50\, \text{shilling note} </mrow>
+            <mrow>1 × 20 = \amp 20\, \text{shilling note} </mrow>
+        </md>
+    </p>
+    <p>
+      
+      Therefore, KES 270 can be made using 2 notes of KES 100,
+        1 note of KES 50, and 1 note of KES 20.
+    </p>
+</statement>
+</activity>
+  <exercise>
+    <statement>
+        <p>Exercise: Currency Conversion</p>
+        <p>
+            Now, try these exercises to practice converting between shillings and cents, and using notes.
+        </p>
+        <p>
+           1.Convert Ksh. 780 into the fewest number of notes.
+        </p>
+        <p>
+            2. Convert 925 cents to shillings and cents.</p>
+        <p>
+            3. Write 12 shillings and 30 cents as cents only.
+        </p>
+        <p>
+            4. Using 100, 50, and 20 shilling notes, how can you 4make KES 270?
+        </p>
+    </statement>
+  </exercise>
+
+    <activity>
+        <statement>
+            <figure>
+                <caption>Introduction to currency exchange video</caption>
+                <video label="assets/currency-conversions-preview-jpeg" source="currency_conversions.mp4" width="80%" />
+            </figure>
+           
+
+
+            <p>
+                Develop a table showing the exchange rates for the Kenyan Shilling (KSH) against other currencies.
+                The exchange rates should include the buying and selling rates for each currency as shown below. 
+            </p>
+            <table>
+                <title>Exchange Rates for Kenyan Shilling (KSH)</title>
+                <tabular halign="left" top="medium" bottom="medium" right="medium" left="medium">
+                <row header="yes">
+                    <cell>Currency</cell>
+                    <cell>Symbol</cell>
+                    <cell>Buying Rate (KSH)</cell>
+                    <cell>Selling Rate (KSH)</cell>
+                </row>
+                <row>
+                    <cell>Uganda</cell>
+                    <cell>Ugandan Shilling</cell>
+                    <cell>UGX</cell>
+                    <cell>≈ 27.76 UGX</cell>
+                </row>
+                <row>
+                    <cell>Tanzania</cell>
+                    <cell>Tanzanian Shilling</cell>
+                    <cell>TZS</cell>
+                    <cell> 20.44 TZS</cell>
+                </row>
+                <row>
+                    <cell>Rwanda</cell>
+                    <cell>Rwandan Franc</cell>
+                    <cell>RWF</cell>
+                    <cell> 11.13 RWF</cell>
+                </row>
+                <row>
+                    <cell>Burundi</cell>
+                    <cell>Burundian Franc</cell>
+                    <cell>BIF</cell>
+                    <cell> 23.07 BIF</cell>
+                </row>
+                <row>
+                    <cell>South Sudan</cell>
+                    <cell>South Sudanese Pound</cell>
+                    <cell>SSP</cell>
+                    <cell> 1.01 SSP</cell>
+                </row>
+                <row>
+                    <cell>US Dollar</cell>
+                    <cell>$</cell>
+                    <cell>129.20</cell>
+                    <cell>129.20</cell>  
+                </row>
+                <row>
+                    <cell>Euro</cell>
+                    <cell>€</cell>
+                    <cell>151.51</cell>
+                    <cell>151.51</cell>
+                </row>
+                <row>
+                    <cell>British Pound</cell>
+                    <cell>£</cell>
+                    <cell>175.50</cell>
+                    <cell>175.50</cell>
+                </row>
+                </tabular>
+            </table>
+            <p>
+                In this activity you're required to watch the video below to learn about currency exchange rates and how to convert currencies.
+            </p>
+              <figure>
+                <caption> Currency exchange rates</caption>
+                <video label="assets/currency-exchange-preview-jpeg" source="currency_exchange_rates.mp4" width="80%" />
+            </figure>
+        </statement>
+        
+    </activity>
+        <p>
+           <m>\textbf{Key Takeaway}</m>     
+        </p>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Currency conversion is the process of changing money from one country’s currency into another’s using an exchange rate.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Currency conversion is important for international trade, travel, online shopping, and remittances. It allows individuals and businesses to exchange money for goods and services in different countries, receive and send money from abroad etc.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        An exchange rate shows how much one unit of a currency is worth in another currency. Exchange rates change regularly due to supply and demand in the global market.
+
+                    </p>
+                </li>
+            </ul>
+        </p>
+        <p>
+            <m>\textbf{Note:}</m>
+            Exchange rates can vary between banks and money exchange services, so it’s important to check the current rates before converting money.
+        </p>
+        <p>
+            Sometimes there are charges or fees for converting currency
+        </p>
+        <p>
+          To convert currency:
+            <m>\text{Amount in New Currency} = \text{Amount in Original Currency} \times \text{Exchange Rate}</m>
+        </p>
+    <example>
+        <statement>
+            <p>
+                Convert $100 to Kenya Shillings, if 1 USD = 150 KES
+            </p>
+            
+        </statement>
+        <solution>
+                <p>
+                    To convert $100 to KES, we multiply the amount in USD by the exchange rate:
+                <m>\text{Amount in New Currency} = \text{Amount in Original Currency} \times \text{Exchange Rate}</m>
+
+                    <md>
+                        <mrow> = \amp \frac{\cancel{$}\,100 \times \text{Ksh} 150}{1\,\cancel  $} </mrow>
+                        <mrow> = \amp \text{Ksh}.15,000 </mrow>
+                    </md>
+                </p>
+        </solution>
+    </example>
+</subsection>
