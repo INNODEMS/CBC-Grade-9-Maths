@@ -5,4 +5,8 @@
             lll
         </p>
     </introduction>
+    <xi:include href="sections/sec-coordinates-and-graphs.ptx" />
+    <xi:include href="sections/sec-scale-drawing.ptx" />
+    <xi:include href="sections/sec-similarity-and-enlargement.ptx" />
+    <xi:include href="sections/sec-trigonometry.ptx" />
 </chapter>

@@ -1,0 +1,93 @@
+<subsection xml:id="subsec-speed-in-m-s">
+    <title>Speed in m/s</title>
+    <activity>
+        <p>
+            Work in groups
+        </p>
+        <p>
+            <ol marker="1. ">
+                <li>
+                    <p>
+                        Go outside to the school field. Measure and mark a straight distance of 40 meters using a tape measure or meter wheel.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Choose one student from your group to run the <m>40</m>-meter distance while another student uses a stopwatch to time how long it takes in seconds.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Record the distance (in meters) and the time taken (in seconds) in your notebook.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Use the formula <m>Speed = \frac{\text{Distance}}{\text{Time}}</m> to calculate the running speed in meters per second (m/s).
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Repeat the activity with different group members and compare your results. Discuss why the speeds may differ among individuals.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity>
+    <example>
+        <statement>
+            <p>
+                Onyango walked <m>3</m> km from Lubao to Kakamega town in <m>90</m> minutes.
+                Determine his speed in metres per second (m/s).
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Speed <m>= \frac{\text{Distance covered}}{\text{Time taken}}</m>
+            </p>
+            <p>
+                Convert the distance from kilometres to metres:
+            </p>
+            <p>
+                <m>3</m> km = (<m>3</m> <m>\times</m> <m>1000</m>) m = <m>3000</m> m
+            </p>
+            <p>
+                Convert the time from minutes to seconds:
+            </p>
+            <p>
+                <m>90</m> minutes = (<m>90</m> <m>\times</m> <m>60</m>) s = <m>5400</m> s
+            </p>
+            <p>
+                Speed <m>= \frac{3000 \text{ m}}{5400 \text{ s}} = \frac{5}{9} \text{ m/s}</m>
+            </p>
+            <p>
+                Speed <m>= \frac{5}{9} \text{ m/s}</m>
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                A car travels <m>150</m> m in <m>10</m> seconds. What is its speed in metres per second (m/s)?
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Speed <m>= \frac{\text{Distance covered}}{\text{Time taken}}</m>
+            </p>
+            <p>
+                Speed <m>= \frac{150 \text{ m}}{10 \text{ s}} = 15 \text{ m/s}</m>
+            </p>
+        </solution>
+    </example>
+    <exercise>
+        <statement>
+            <p>
+                TODO
+            </p>
+        </statement>
+    </exercise>
+    
+
+    
+</subsection>

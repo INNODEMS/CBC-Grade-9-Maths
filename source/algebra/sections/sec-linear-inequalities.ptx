@@ -1,0 +1,10 @@
+<section xml:id="sec-linear-inequalities">
+    <title>Linear Inequalities</title>
+    <p>
+        
+    </p>
+
+    <xi:include href="subsections/linear-inequalities/interpreting-linear-inequalities.ptx" />
+    <xi:include href="subsections/linear-inequalities/solving-linear-inequalities.ptx" />
+    <xi:include href="subsections/linear-inequalities/representing-linear-inequalities-graphically.ptx" />
+</section>

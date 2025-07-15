@@ -1,0 +1,140 @@
+<subsection xml:id="subsec-drawing-perpendicular-lines-on-a-cartesian-plane">
+    <title>Drawing Perpendicular Lines on a Cartesian Plane</title>
+    <activity>
+        <statement>
+            <p>
+                <term>Work in pairs</term>
+            </p>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                           Consider the following equations: <m>y = 2x + 1 \text{ and } y = -\frac{1}{2}x + 4.</m> 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Generate tables, plot the points, and draw the lines on a Cartesian plane.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Do the lines intersect? What is the angle of intersection?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Discuss your findings with other learners.
+                        </p>
+                    </li>
+                </ul>    
+            </p>
+        </statement>
+    </activity>
+    <p>
+        <m>\textbf{ Key Takeaway }</m>
+    </p>
+    <p>
+        Perpendicular lines are lines that intersect at a right angle (90°) for example the x- and y-axes on a Cartesian plane, 
+        road intersections.
+    </p>
+    
+    <example>
+        <statement>
+            <p>
+                Draw the graphs of <m>y = -3x + 2</m> and <m>y = \frac{1}{3}x - 1.</m> 
+            </p> 
+        </statement>
+        <solution>
+            <p>
+                Generate the table of values for the two equations
+            </p>
+            <sidebyside>
+                <tabular>
+                    <row>
+                        <cell><m>y = -3x + 2</m></cell>
+                    </row>
+                </tabular>
+                <tabular>
+                    <row>
+                        <cell><m>y = \frac{1}{3}x - 1</m></cell>
+                    </row>
+                </tabular>
+            </sidebyside>
+            <sidebyside>
+                <tabular valign="top" top="minor" bottom="minor" left="minor" right="minor"> 
+                <row halign="center">
+                    <cell><m>x</m></cell>
+                    <cell><m>-3</m></cell>
+                    <cell><m>0</m></cell>
+                    <cell><m>3</m></cell>
+                </row>
+
+                <row halign="center">
+                    <cell><m>y</m></cell>
+                    <cell><m>-2</m></cell>
+                    <cell><m>-1</m></cell>
+                    <cell><m>0</m></cell>
+                </row>
+                </tabular>
+                <tabular valign="top" top="minor" bottom="minor" left="minor" right="minor"> 
+                    <row halign="center">
+                        <cell><m>x</m></cell>
+                        <cell><m>-1</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>1</m></cell>
+                    </row>
+
+                    <row halign="center">
+                        <cell><m>y</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>-1</m></cell>
+                    </row>
+                </tabular>
+            </sidebyside>
+            <p>
+                Draw the two lines:
+            </p>
+            <image>
+                <latex-image label="ppl">
+                    \begin{tikzpicture}
+                       % Axes
+                        \draw[thick,-&gt;] (-5,0) -- (5,0) node[right] {\textbf{x-axis}};
+                        \draw[thick,-&gt;] (0,-6) -- (0,6) node[above] {\textbf{y-axis}};
+
+                        % Grid
+                        \draw[help lines, dashed] (-5,-6) grid (5,6);
+
+                        % Tick marks on x-axis
+                        \foreach \x in {-4,-3,-2,-1,1,2,3,4}
+                            \draw (\x,0) -- (\x,-0.2) node[below] {\x};
+
+                        % Tick marks on y-axis
+                        \foreach \y in {-5,-4,-3,-2,-1,1,2,3,4,5}
+                            \draw (0,\y) -- (-0.2,\y) node[left] {\y};
+
+                        % Graph: y = (1/3)x - 1
+                        %draw[thick,blue] (-3,-2) -- (3,0) node[below right] {\textbf{y = ⅓x - 1}};
+                        \filldraw[blue] (-3,-2) circle (2pt) node[below left] {(-3,-2)};
+                        \filldraw[blue] (0,-1) circle (2pt) node[below right] {(0,-1)};
+                        \filldraw[blue] (3,0) circle (2pt) node[above right] {(3,0)};
+                        \draw[thick,blue] (-3,-2) -- (3,0);
+
+                        % Graph: y = -3x + 2
+                        %draw[thick,red] (-1,5) -- (1,-1) node[above right] {\textbf{y = -3x + 2}};
+                        \filldraw[red] (-1,5) circle (2pt) node[above left] {(-1,5)};
+                        \filldraw[red] (0,2) circle (2pt) node[above right] {(0,2)};
+                        \filldraw[red] (1,-1) circle (2pt) node[below right] {(1,-1)};
+                        \draw[thick,red] (-1,5) -- (1,-1);
+                            
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
+            <p>
+                Using a protractor you can verify that the two lines meet at <m>90^\circ.</m>
+            </p>
+        </solution>
+    </example>
+    
+</subsection>

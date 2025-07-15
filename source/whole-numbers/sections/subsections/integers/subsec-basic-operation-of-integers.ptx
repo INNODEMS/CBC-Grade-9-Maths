@@ -1,0 +1,512 @@
+<subsection xml:id="subsec-basic-operation-of-integers">
+    <title>Basic operation of integers</title>
+    <introduction>
+        <p>
+            Basic operation of integers is either addition, subtraction, addition,
+            division and multiplication.
+        </p>
+    </introduction>
+    <subsubsection xml:id="subsubsec-addition-of-integers">
+        <title>Addition of integers</title>
+         <p>
+            Addition is losely defined as putting together. 
+            In addition, adding a positive and positive, gives a positive.
+        </p>
+            <p>
+            An example is <m>2+4=6</m>.
+            </p>
+        <p>
+            While adding a positive to a negative, the result and the sign
+            may varry depending on the presidence of a negative or positive sign.
+        </p>
+        <activity>
+            <p>
+              <m>\textbf{Work in groups}</m> 
+            </p>
+            <p>
+             <term>What you need</term>
+            </p>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                         Paper made number line with values from <m>-10</m> to <m>10</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                          Sheets of papers containing questions.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                          A central book for recording marks scored by each student.
+                        </p>
+                    </li>
+                </ul>       
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                         The teacher to give question papers containing randomized
+                         questions.    
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                           Each student to attempt the given questions.
+                           
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                         The teacher to call out each student for provide his or her answer.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                         Teacher to validate the answers given.
+                         
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                             The student with the highest number of correct answers
+                             emerges the winner!
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            </activity>
+       <example>
+            <statement>
+                <p>
+                    Jane had <m>3000</m> bags of rice in January. In February she 
+                    bought an additional <m>430</m> bags. What is the current
+                    number of bags she has?
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <md>
+                        <mrow>  \text{January} =\amp 3000\, \text{bags} </mrow>
+                        <mrow>  \text{February}=\amp 430\, \text{bags} </mrow>
+                        <mrow>       3000 + 430=\amp 3430\, \text{bags}  </mrow>
+                    </md> 
+                </p>
+            </solution>
+         </example>
+            <example>
+             <statement>
+                <p>
+                    Evaluate <m>+3+5+8</m> 
+                </p>
+             </statement>
+             <solution>
+                <p>
+                    Simply add <m>3+5+8=\amp 16</m>
+                </p>
+             </solution>
+          </example>
+          <example>
+            <statement>
+                <p>
+                  During a hiking trip, a group of students recorded their changes in elevation throughout the day.
+                  In the morning, they ascended <m>120</m> meters up a hill.Then, they descended <m>85</m> meters into a small valley.
+                  After lunch, they climbed up again by <m>40</m> meters, but later slipped and went down by <m>65</m> meters due to a steep slope.
+                  What was the group's final elevation change relative to their starting point?
+                  Explain your answer using integer operations.       
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    
+                    <md>
+                        <mrow>120-85=\amp 35\, \text{meters} </mrow>
+                        <mrow>35+40=\amp 75\, \text{meters} </mrow>
+                        <mrow>75-65=\amp 10\, \text{meters} </mrow>
+                    </md>
+                </p>
+            </solution>
+         </example>
+            
+       </subsubsection>       
+
+    
+    <subsubsection xml:id="subsubsec-subtraction-of-integers">
+        <title>Subtraction of integers</title>
+        <p>
+            Subtraction is deducting one number from the other. For instance, if Olivia had
+            10 sweets then she ate 3, she remains with 7.
+        </p>
+         <p>
+         In subtraction a negative and a negative, gives a negative result. 
+         While a positive and a negative gives a negative result.
+         </p>
+        <p>
+            For example <m>-2-10=-12</m> and <m>3-9=-6</m> 
+            
+        </p>
+        <activity>
+            <p>
+              <m>\textbf{Work in groups}</m> 
+            </p>
+            <p>
+             <term>What you need</term>
+            </p>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                          List of expense items  
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Sheets of paper for working out
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            A pen
+                        </p>
+                    </li>
+                </ul>       
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                           The teacher to introduce subtraction through a real-life 
+                           budgeting scenario  with 10,000 shillings.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                         In groups, students choose expenses and subtract them from their budget.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                         Students to continue subtracting each item step-by-step and calculate the 
+                         remaining balance.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                          Groups share what they spent on, how much is left, and why.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                         The teacher to introduce surprise expenses to challenge
+                          their subtraction and decision-making.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            </activity>
+            <example>
+            <statement>
+                <p>
+                    Crown had <m>12</m> pieces of apples. He finds out that <m>4</m>.
+                    are spoilt. How many apples are edible?
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <md> 
+                      <mrow>12\, \text{apples} - 4\, \text{apples}=\amp 8\, \text{apples}  </mrow>
+                    </md> 
+                </p>
+            </solution>
+         </example>
+         <example>
+            <statement>
+                <p>
+                    Solve for : <m>-60-40-20</m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <md>
+                        <mrow>-60-40-20=\amp -120 </mrow>
+                    </md>
+                </p>
+            </solution>
+         </example>
+            <example>
+                <statement>
+                    <p>
+                        Solve for : <m>-40--20-10</m>
+                    </p>
+                </statement>
+                <solution>
+                    <p> <term>HINT : (- -) =  +</term>
+                        <md>
+                            <mrow> -40+20-10=\amp -30 </mrow>
+                        </md>
+                    </p>
+                </solution>
+            </example>
+    </subsubsection>
+
+    <subsubsection xml:id="subsubsec-multiplication-of-integers">
+        <title>Multiplication of integers</title>
+
+        <p>
+            Multiplication is defined as repeated addition of a number to itself for 
+            the given number of times.
+        </p>                
+        <activity>
+            <p>
+              <m>\textbf{Work in groups}</m> 
+            </p>
+            <p>
+             <term>What you need</term>
+            </p>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                         Manually prepared Bingo cards  
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            A sheet of paper
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            A pen
+                        </p>
+                    </li>
+                </ul>       
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                         The teacher to create bingo cards with a grid.   
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                           Teacher to fill in each square with answers 
+                           to the questions being tested.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                         The teacher to call out multiplication problems.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                         Students to look for product of called out problem in the square grid
+                         and mark it off.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                             The first student to get the answer calls out Bingo! And wins
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            </activity>
+             <example>
+            <statement>
+                  <p>
+                      Brian earns 450 shillings per day working at a hardware shop.
+                     If he works for 22 days in a month,
+                     how much money does he earn in that month?
+                 </p>
+            </statement>
+            <solution>
+                <p>
+                    <md> 
+                      <mrow>450\, \text{shillings} \times 22  =\amp 9900\, \text{shilligs}  </mrow>
+                    </md> 
+                </p>
+            </solution>
+         </example>
+            <example>
+             <statement>
+                <p>
+                    Evaluate: <m>20 \times 4 \times2</m>
+                </p>
+             </statement>
+             <solution>
+                  <p>
+                     <md>
+                      <mrow> 20 \times 4 \times2 =\amp 160 </mrow>
+                      </md>
+                   </p>
+                </solution>
+            </example>
+         <example>
+             <statement>
+                  <p>
+                     Solve: <m> -10 \times -2 \times 4</m>
+                  </p>
+               </statement>
+               <solution>
+                <p>
+                    <md>
+                        <mrow> -10 \times -2=\amp 20 </mrow>
+                        <mrow> 20 \times 4=\amp 80 </mrow>
+                    </md>
+                </p>
+               </solution>
+         </example>
+       
+       </subsubsection>       
+            
+<subsubsection xml:id="subsubsec-division-of-integers">
+        <title>Division of integers</title>
+        <p>    
+            Division means sharing among a given quantity.
+            A basic example is how a mother decides to sha]re oranges she 
+            buys among her children, so that each one gets the same number
+            of oranges.
+        </p>
+        <activity>
+              <p>
+                 <m>\textbf{Work in groups}</m>
+              </p>
+              <p>
+                 <term>What you need</term>
+             </p>
+              <p>
+                 <ul>
+                     <li>
+                         <p>   
+                             <m>20</m> pieces of marble.
+                         </p>
+                     </li>
+                       <li>
+                         <p>
+                             <m>4</m> pieces of paper.
+                         </p>
+                     </li>
+                       <li>
+                         <p>
+                             Pen
+                         </p>
+                       </li>
+
+                   </ul>
+              </p>
+             <p>
+                 <ol>
+                     <li>
+                         <p>
+                             Under the teachers guidance, the learners to divide
+                             themselves in groups of <m>4</m>.
+                          </p>
+                     </li>
+                      <li>
+                          <p>
+                               Let each group select a group leader.
+                          </p>
+                        </li>
+                       <li>
+                            <p>
+                             Let each group leader from all the groups pick marbles from the teacher,
+                             until the marbles are finished.
+                              </p>
+                        </li>
+                          <li>
+                             <p>
+                              Let all members of each group confirm the number of marbles
+                              the leader has.
+                             </p>
+                         </li>
+                          <li>
+                               <p>
+                                  The results to be recorded by each group on the different sheets of paper.
+                                </p>
+                         </li>
+                                 <li>
+                                     <p>
+                                      The groups to compare their results to see whether they are the same.
+                                     </p>
+                                 </li>
+                </ol>
+            </p>
+            
+          </activity>
+         <example>
+            <statement>
+                <p>
+                    Wangechi has 12 pencils. She decides to arrange them in groups of 3.
+                    How many pencils were in each group?
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <md>
+                        <mrow> 1\, \text{group} =\amp 3\, \text{pencils} </mrow>
+                        <mrow> 12\, \text{pencils}=\amp ? </mrow>
+                        <mrow>12 \div 3=\amp 4  </mrow>
+                    </md> 
+                </p>
+            </solution>
+         </example>
+         <example>
+                 <statement>
+                      <p>
+                         Evaluate : <m>-20 \div -5</m>
+                      </p>
+                   </statement>
+                  <solution>
+                     <p>
+                          <md>
+                                <mrow> -20 \div -5=\amp 4 </mrow>
+                            </md>
+                      </p>
+                  </solution>
+
+            </example>
+                    <example>
+                       <statement>
+                            <p>
+                               Solve : <m>-60 \div 2</m>
+                            </p>
+                        </statement>
+                        <solution>
+                            <p>
+                                <md>
+                                    <mrow> -60 \div 2=\amp -30 </mrow>
+                                </md>
+                            </p>
+                        </solution>
+                   </example>
+                   
+         
+        <technology>
+            <p>
+                 <m>\textbf{Technology Integration:Basic operations of integers}</m>
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                             <m> \textbf{YouTube: Math and Eng TV }</m>
+                        </p>
+                        <p>
+                            This channel guides through the steps of working out basic integer operations.
+                        </p>
+                        <p>
+                            <url href="https://youtu.be/Pwyr5ZN7jko?si=1ZqrCpwcV3BMncRj" />
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </technology>
+        
+    </subsubsection>
+</subsection>

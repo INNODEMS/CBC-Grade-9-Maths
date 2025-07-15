@@ -1,0 +1,9 @@
+<section xml:id="sec-trigonomery"  xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Trigonomery</title>
+    <xi:include href="subsections/trigonometry/subsec-identifying-angles-and-sides-of-right-angled-triangles-in-different-situations.ptx" />
+    <xi:include href="subsections/trigonometry/subsec-identifying-sine-cosine-and-tangent-ratios-from-a-right-angled-triangle.ptx" />
+    <xi:include href="subsections/trigonometry/subsec-reading-tables-of-trigonometric-ratios-for-acute-angles.ptx" />
+    <xi:include href="subsections/trigonometry/subsec-determining-trigonometric-ratios-of-acute-angles-using-calculators.ptx" />
+    <xi:include href="subsections/trigonometry/subsec-applying-trigonometric-ratios-to-calculate-lengths-and-angles-of-right-angled-triangles.ptx" />
+
+</section>

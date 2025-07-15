@@ -1,0 +1,313 @@
+<subsection xml:id="subsec-determining_the_median_of_grouped_data" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Determining the Median of Grouped Data</title>
+    <p>
+        Median is a value corresponding to the middlemost data point in a dataset, 
+        when arranged in ascending order. The value of median helps one to know about center of a dataset. 
+        On comparing the value of median with that of mean, one can get idea of distribution of values in a dataset.
+    </p>
+    <p>
+        As we have data in form of intervals (classes) in this case, we have a corresponding median class to find the value of median.
+    </p>
+    <p>
+        Also, we need to define cumulative frequencies for each class, 
+        which is a kind of prefix sum of frequencies of classes taken in order. 
+        The median value lies between the lower limit and upper limit of the median class. 
+        This value can be used by using a specified formula discussed as follows.
+    </p>
+    <p>
+        To find median of ungrouped data, one can simply sort the data points in ascending order. 
+        In case of odd number of observations, the middle value would be the median. On the other hand , 
+        for even number of observations, one can take mean of the two middle values to find the median. 
+        But there is a different method to find median of grouped data discussed later in this article.
+    </p>
+    <activity>
+        <title>Work in Groups</title>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Consider the data in the frequency distribution table below.
+                    </p>
+                    <tabular top="medium" bottom="medium" left="medium" right="medium">
+                        <row header="yes">
+                            <cell>Mass</cell>
+                            <cell>Class Boundary</cell>
+                            <cell>Number of People (f)</cell>
+                            <cell>Cumulative Frequency (cf)</cell>
+                            <cell>Class Interval (i)</cell>
+                            <cell><m>\frac{i}{f}</m></cell>
+                        </row>
+                        <row>
+                            <cell>21 - 30 </cell>
+                            <cell>20.5 - 30.5</cell>
+                            <cell>7</cell>
+                            <cell>7</cell>
+                            <cell>7</cell>
+                            <cell>10</cell>
+                            <cell><m>\frac{10}{7}</m></cell>
+                        </row>
+                    </tabular>
+                </li>
+            </ol>
+        </p>
+        
+    </activity>
+    <p>
+        <term>Median of Grouped Data Formula</term>
+    </p>
+    <p>
+        We can use the following formula to calculate median of grouped data:
+    </p>
+    <p>
+        <me>
+            \text{Median} = L_m + \frac{i_m}{f_m} \left(\frac{N}{2} - C_p \right)
+        </me>        
+    </p>
+    <p>
+        Where:
+        <ul>
+            <li><term><m>L_m</m></term> = Lower limit of the median class</li>
+            <li><term><m>i_m</m></term> = Width of the median class interval</li>
+            <li><term><m>f_m</m></term> = Frequency of the median class</li>
+            <li><term><m>N</m></term> = Total frequency</li>
+            <li><term><m>C_p</m></term> = Cumulative frequency of the class preceding the median class</li>
+        </ul>
+    </p>
+    <example>
+        <title>Sample data</title>
+        <statement>
+            <p>
+                Calculate the value of the median for the following data distribution:
+            </p>
+            <tabular bottom="medium" top="medium" left="medium" right="medium">
+                <row>
+                    <cell>Class Interval</cell>
+                    <cell>0 - 10</cell>
+                    <cell>10 - 20</cell>
+                    <cell>20 - 30</cell>
+                    <cell>30 - 40</cell>
+                    <cell>40 - 50</cell>
+                </row>
+                <row>
+                    <cell>Frequency</cell>
+                    <cell>5</cell>
+                    <cell>7</cell>
+                    <cell>12</cell>
+                    <cell>10</cell>
+                    <cell>6</cell>
+                </row>
+            </tabular>
+        </statement>
+        <solution>
+            <p>
+               To find the median of given data, we build a table containing cumulative frequencies for each class interval along with the frequencies. 
+            </p>
+                <tabular top="medium" bottom="medium" left="medium" right="medium">
+                <row>
+                    <cell>Class Interval</cell>
+                    <cell>Frequency (f)</cell>
+                    <cell>Cumulative Frequency (cf)</cell>
+                </row>
+                <row>
+                    <cell>0 - 10</cell>
+                    <cell>5</cell>
+                    <cell>0 + 5 = 5</cell>
+                </row>
+                <row>
+                    <cell>10 - 20</cell>
+                    <cell>7</cell>
+                    <cell>5 + 7 = 12</cell>
+                </row>
+                <row>
+                    <cell>20 - 30</cell>
+                    <cell>12</cell>
+                    <cell>12 + 12 = 24</cell>
+                </row>
+                <row>
+                    <cell>30 - 40</cell>
+                    <cell>10</cell>
+                    <cell>24 + 10 = 34</cell>
+                </row>
+                <row>
+                    <cell>40 - 50</cell>
+                    <cell>6</cell>
+                    <cell>34 + 6 = 40</cell>
+                </row>
+            </tabular>
+            <p>
+                The total frequency <m>N</m> is 40. 
+                The median class is the one where the cumulative frequency is greater than or equal to <m>\frac{N}{2} = \frac{40}{2} = 20</m>. 
+                In this case, the median class is <m>20 - 30</m> with a cumulative frequency of 24.
+            </p>
+            <p>
+                Now, we can apply the median formula:
+                <me>
+                    \text{Median} = L_m + \frac{i_m}{f_m} \left(\frac{N}{2} - C_p \right)
+                </me>
+            </p>
+            <p>
+                Substituting the values into the formula:
+                <me>
+                    \text{Median} = 20 + \frac{10}{12} \left(\frac{40}{2} - 12 \right)
+                </me>
+            </p>
+            <p>
+                Evaluating the expression:
+                <me>
+                    \text{Median} = 20 + \frac{10}{12} \left(20 - 12 \right)
+                </me>
+            </p>
+            <p>
+                <me>
+                    = 20 + \frac{10}{12} \times 8
+                </me>
+            </p>
+            <p>
+                <me>
+                    = 20 + \frac{80}{12}
+                </me>
+            </p>
+            <p>
+                <me>
+                    = 20 + 6.67
+                </me>
+            </p>
+            <p>
+                <me>
+                    \approx 26.67
+                </me>
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                The table below shows the mass in kilograms of <m>60</m> patients in a hospital ward.
+            </p>
+            <tabular top="medium" bottom="medium" left="medium" right="medium">
+                <row header="yes">
+                    <cell>Mass in Kilograms</cell>
+                    <cell>Frequency (f)</cell>
+                </row>
+                <row>
+                    <cell>11 - 20</cell>
+                    <cell>9</cell>
+                </row>
+                <row>
+                    <cell>21 - 30</cell>
+                    <cell>14</cell>
+                </row>
+                <row>
+                    <cell>31 - 40</cell>
+                    <cell>20</cell>
+                </row>
+                <row>
+                    <cell>41 - 50</cell>
+                    <cell>11</cell>
+                </row>
+                <row>
+                    <cell>51 - 60</cell>
+                    <cell>6</cell>
+                </row>
+            </tabular>
+            <p>
+                Calculate the median mass of the patients.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Draw a cumulative frequency table for the data.
+            </p>
+            <tabular top="medium" bottom="medium" left="medium" right="medium">
+                <row header="yes">
+                    <cell>Mass in Kilograms</cell>
+                    <cell>Class boundary</cell>
+                    <cell>Cumulative frequency</cell>
+                    <cell>Cumulative frequency (cf)</cell>
+                    <cell><m>\frac{i_m}{f_m}</m></cell>
+                </row>
+                <row>
+                    <cell>11 - 20</cell>
+                    <cell>10.5 - 20.5</cell>
+                    <cell>9</cell>
+                    <cell>0 + 9 = 9</cell>
+                    <cell><m>\frac{10}{9}</m></cell>
+                </row>
+                <row>
+                    <cell>21 - 30</cell>
+                    <cell>20.5 - 30.5</cell>
+                    <cell>14</cell>
+                    <cell>9 + 14 = 23</cell>
+                    <cell><m>\frac{10}{14}</m></cell>
+                </row>
+                <row>
+                    <cell>31 - 40</cell>
+                    <cell>30.5 - 40.5</cell>
+                    <cell>20</cell>
+                    <cell>23 + 20 = 43</cell>
+                    <cell><m>\frac{10}{20}</m></cell>
+                </row>
+                <row>
+                    <cell>41 - 50</cell>
+                    <cell>40.5 - 50.5</cell>
+                    <cell>11</cell>
+                    <cell>43 + 11 = 54</cell>
+                    <cell><m>\frac{10}{11}</m></cell>
+                </row>
+                <row>
+                    <cell>51 - 60</cell>
+                    <cell>50.5 - 60.5</cell>
+                    <cell>6</cell>
+                    <cell>54 + 6 = 60</cell>
+                    <cell><m>\frac{10}{6}</m></cell>
+                </row>
+            </tabular>
+            <p>
+                The cumulative frequency for the last class is <m>60</m>, which is half of the total frequency. Therefore, the median lies in the class <m>31 - 40</m>.
+            </p>
+            <p>
+                To find the median, we use the formula:
+            </p>
+            <p>
+                <me>
+                    \text{Median} = L + \frac{\frac{N}{2} - cf}{f} \times c
+                </me>
+            </p>
+            <p>
+                Where:
+            </p>
+            <p>
+                <ul>
+                    <li><m>L</m> = lower boundary of the median class = <m>30.5</m></li>
+                    <li><m>N</m> = total frequency = <m>60</m></li>
+                    <li><m>cf</m> = cumulative frequency of the class before the median class = <m>23</m></li>
+                    <li><m>f</m> = frequency of the median class = <m>20</m></li>
+                    <li><m>c</m> = class width = <m>10</m></li>
+                </ul>
+            </p>
+            <p>
+                Substituting these values into the formula gives:
+            </p>
+            <p>
+                <me>
+                    \text{Median} = 30.5 + \frac{30 - 23}{20} \times 10
+                </me>
+            </p>
+            <p>
+                <me>
+                     = 30.5 + \frac{7}{20} \times 10
+                </me>
+            </p>
+            <p>
+                <me>
+                     = 30.5 + 3.5
+                </me>
+            </p>
+            <p>
+                <me>
+                     = 34\, \text{kg}
+                </me>
+            </p>
+        </solution>
+    </example>
+</subsection>

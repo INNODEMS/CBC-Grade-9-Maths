@@ -1,0 +1,153 @@
+<subsection xml:id="subsec-determining-angles-of-elevation-in-different-situations">
+    <title>Determining Angles of Elevation in Different Situations</title>
+    <activity>
+        <statement>
+            <p>
+                <term>Work in groups</term>
+            </p>
+            <p>
+               <ul>
+                <li>
+                    <p>
+                        Each group chooses at least 2 tall objects to observe, such as: A flagpole, a clock on the wall, a school building corner, a distant tree e.t.c.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        From a known distance (e.g. 5 m, 7 m, or 10 m) from the base of each object: measure the angle of elevation from your
+                        eye level to the top of the object. Record both the horizontal distance and angle.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Groups can choose a different viewing distance for the same object and compare how the angle changes.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Draw scaled right-angled triangles using your measurements. Base = distance from object, Height = unknown (can be estimated using trigonometry if desired)
+                         Angle = measured angle of elevation. Label your drawings with the correct scale and features.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Discuss with your fellow learners: How does the angle of elevation change as you move farther away from an object? 
+                        Why is it useful to know this angle in construction, surveying, or aviation? What would happen if you measured from the top of a hill?
+                    </p>
+                </li>
+               </ul> 
+            </p>
+        </statement>
+    </activity>
+    <p>
+        <m>\textbf{ Key Takeaway }</m>
+    </p>
+    <p>
+         The closer you move towards an object the bigger the angle of elevation. When you move farther away, the angle gets smaller. 
+         This concept helps surveyors or engineers estimate heights when they can’t climb structures.”
+    </p>
+    <example>
+        <statement>
+            <p>
+                Amina, a grade 9 student from Makini School is standing 6 meters away from the base of the  flagpost. She is viewing the top of the flagpost.
+                 Make a scale drawing of the given information using a scale of <m>1\, cm = 1\, m.</m> 
+                 Determine the angle of elevation and the height of the flagpost  given  Amina's eye-level is <m>1.5 \, m</m> from the ground.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                The sketch:
+            </p>
+            <image width="50%">
+                <latex-image label="sketch-angle-of-elevation">
+                    \begin{tikzpicture}
+                    \usetikzlibrary{quotes,angles}
+                        % Coordinates
+                        \coordinate (A) at (0,0);          % Observer's position
+                        \coordinate (B) at (6,0);          % Eye level
+                        \coordinate (C) at (6,5);          % Top of the object
+                        \coordinate (D) at (6,-3);         % Base of the object
+                        \coordinate (E) at (0,-3);         % Amina's feet
+
+                        % Triangle
+                        \draw[thick] (A) -- (B) -- (C) -- cycle;
+                        \draw[thick] (B) -- (D);
+                        \draw[thick] (A) -- (E);
+                        \draw[thick] (-1,-3) -- (7,-3);
+                        \draw[black,&lt;-&gt;] (6.2,0) -- (6.2,-3);
+                        
+
+                        % Mark angle of elevation
+                        \path 
+                        pic["$\theta$", draw=blue, &lt;-&gt;, angle eccentricity=1.4, angle radius=1cm]
+                        {angle = B--A--C};
+
+                        % Labels
+                        \node[below left] at (A) {Amina};
+                        \node[right] at (B) {Eye Level};
+                        \node[right] at (C) {Top of Flagpost};
+                        \node[above right] at (D) {Base of Flagpost};
+                        \node[above right] at (3,2.5) {Line of Sight};
+                        \node[below] at (3,0) {6 m};
+                        \node[right] at (6,-1.5) {1.5 m};
+                        \node[right] at (6,2.5) {5 m};
+                        \node[below] at (3,-3) {Ground};
+
+                        % Right angle marker
+                        \draw (5.6,0) -- (5.6,0.4) -- (6,0.4);
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
+            <p>
+                The scale drawing of the information given is:
+            </p>
+            <image>
+                <latex-image label="scale-drawing-angle-of-elevation">
+                    \begin{tikzpicture}
+                        \usetikzlibrary{quotes,angles}
+                        % Coordinates
+                        \coordinate (A) at (0,0);          % Observer's position
+                        \coordinate (B) at (6,0);          % Eye level
+                        \coordinate (C) at (6,5);          % Top of the object
+                        \coordinate (D) at (6,-3);         % Base of the object
+                        \coordinate (E) at (0,-3);         % Amina's feet
+
+                        % Triangle
+                        \draw[thick] (A) -- (B) -- (C) -- cycle;
+                        \draw[thick] (B) -- (D);
+                        \draw[thick] (A) -- (E);
+                        \draw[thick] (-1,-3) -- (7,-3);
+                        \draw[black,&lt;-&gt;] (6.2,0) -- (6.2,-3);
+                        \draw[black,&lt;-&gt;] (B) -- (C);
+                        
+
+                        % Mark angle of elevation
+                        \path 
+                        pic["$40^\circ$", draw=blue, &lt;-&gt;, angle eccentricity=1.4, angle radius=1cm]
+                        {angle = B--A--C};
+
+                        % Labels
+                        \node[below left] at (A) {Amina};
+                        \node[right] at (B) {Eye Level};
+                        \node[right] at (C) {Top of Flagpost};
+                        \node[above right] at (D) {Base of Flagpost};
+                        \node[above right] at (3,2.5) {Line of Sight};
+                        \node[below] at (3,0) {6 cm};
+                        \node[right] at (6,-1.5) {1.5 cm};
+                        \node[right] at (6,2.5) {5 cm};
+                        \node[below] at (3,-3) {Ground};
+
+                        % Right angle marker
+                        \draw (5.6,0) -- (5.6,0.4) -- (6,0.4);
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
+            <p>
+                The height of the flagpost is <m>5.0 m + 1.5 m = 6.5 m.</m>  
+            </p>
+            <p>
+                The angle of elevation is <m>40^\circ.</m>
+            </p>
+        </solution>
+    </example>
+</subsection>

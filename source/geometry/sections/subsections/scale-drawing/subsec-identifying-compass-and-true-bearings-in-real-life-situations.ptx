@@ -1,0 +1,185 @@
+<subsection xml:id="subsec-identifying-compass-and-true-bearings-in-real-life-situations">
+    <title>Identifying Compass and True Bearings in Real Life Situations</title>
+    <subsubsection xml:id="subsubsec-compass-bearing">
+        <title>Compass Bearing</title>
+        <activity>
+        <statement>
+            <p>
+                <term>Work in groups</term>
+            </p>
+            <p>
+                You are required to identify directions using compass points (e.g North, East, e.t.c) and relate them to real landmarks around the school.
+            </p>
+            <p>
+                <term>Materials needed</term>
+            </p>
+            <p>
+                A simple handheld compass, clipboards or drawing paper, pencils or pens, a basic sketch map of the school grounds (or blank paper to create one).
+            </p>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                           Set a Reference Point: Choose a central feature like the school flagpole or assembly ground.
+                            This will be the reference for all directional observations. 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Mark Cardinal Points: Students stand at the reference point. Use the compass to find and mark True North
+                              Identify and sketch the <m>8</m> main compass directions (N, NE, E, SE, etc.)
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Observe and Record  Compass Bearings: From the reference point, each group chooses 3 visible features (e.g. gate, staffroom, classroom door). 
+                             For each feature, describe the direction using compass points (e.g. "The gate is SE of the flagpole").
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Map It Out: Sketch a simple compass rose and map out the features in their corresponding directions.
+
+
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Discuss your findings with other learners. How could compass directions help you give directions without using distances?
+                        </p>
+                    </li>
+                </ul>
+            </p>
+            
+        </statement>
+    </activity>
+    <p>
+        <m>\textbf{ Key Takeaway }</m>
+    </p>
+    <p>
+        Compass bearing gives the direction using the <term>cardinal points</term> and the <term>secodary points</term> of a compass.
+    </p>
+    <p>
+        The cardinal points are the main points (North(N), East(E), West(W) and South(S)) while the secondary points are: North East(NE), South East(SE), 
+        South West(SW) and North West(NW).
+    </p>
+    <p>
+        The compass bearing is always given as <m>N\theta^\circ E, \, S\theta^\circ W</m> e.t.c where <m>\theta^\circ</m> is an acute angle from one cardinal point to the other.
+    </p>
+
+    </subsubsection>
+    <subsubsection xml:id="subsubsec-true-bearing">
+        <title>True Bearing</title>
+        <activity>
+            <statement>
+                <p>
+                   <term>Work in groups</term> 
+                </p>
+                <p>
+                    You are required to measure the true bearing of objects from a reference point in degrees (from 0° to 360°).
+                </p>
+                <p>
+                    <term>Materials needed</term>
+                </p>
+                <p>
+                    Protractors, compass, school map or blank paper and clipboards and pencils.
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                Use the same central location (e.g. flagpole) and using the same 3 landmarks you identified.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Using a protractor, measure the true bearing of each landmark, <term>true bearing</term> is measured clockwise from true North. 
+                                 Record each as a three-figure bearing (e.g. 045°, 270°).
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                On a sketch map, draw arrows from the origin showing each bearing.
+                            </p>
+                        </li>
+                    </ul>
+                </p>        
+            </statement>
+        </activity>
+
+        <p>
+            <m>\textbf{ Key Takeaway }</m>
+        </p>
+        <p>
+            True bearing of one place from another is measured clockwise from true North. It is record as a three-figure bearing (e.g. 005°, 045°, 270°).
+        </p>
+
+        <example>
+        <statement>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                             Determine the compass bearing of point P from point Q.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                             Determine the true bearing of point P from point Q.
+                        </p>
+                    </li>
+                </ol> 
+            </p>
+            <image width="50%">
+                <latex-image label="compass-bearing">
+                    \begin{tikzpicture}
+                      \filldraw[black] (2,2) circle (2pt) node[below right] {Q};  
+                      \filldraw[black] (0,0) circle (2pt) node[below right] {P};
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
+        </statement>
+        <solution>
+            <p>
+                Draw a compass at the point Q, which is the reference point.
+            </p>
+            <p>
+                Draw a straigth line connecting the two point and measure the angle formed by the line and the true North of point Q.
+            </p>
+            <image>
+                <latex-image label="compass-bearing-solution">
+                    \begin{tikzpicture}
+                        \filldraw[black] (2,2) circle (2pt) node[below right] {Q};  
+                        \filldraw[black] (0,0) circle (2pt) node[below right] {P};
+                        \draw[thick,black](2,2) -- (0,0);
+                        \draw[black,-&gt;] (0,-1) -- (0,1);
+                        \draw[black] (-1,0) -- (1,0);
+
+                        \draw[fill=yellow] (0,0) -- (45:.5cm) arc (45:90:.5cm);
+                        \draw (60:0.7cm) node {$45^\circ$};
+                      
+                       % Draw an arc: center at (0,0), starting from 0° to 90°, radius 2cm
+                       %\draw[thick,red] (-2,-1.5) arc[start angle=45, end angle=0, radius=1cm];
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
+            <p>
+                <ol>
+                <li>
+                    <p>
+                       P is North East from Q and the and the angle measure is <m>45^\circ</m>. The compass bearing of Q from P is <m>N45^\circ E</m> 
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The true bearing of point Q from P is <m>045^\circ</m> 
+                    </p>
+                </li>
+            </ol>
+            </p>   
+        </solution>
+        </example>
+    </subsubsection>
+    
+    
+</subsection>

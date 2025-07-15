@@ -1,0 +1,168 @@
+<subsection xml:id="subsec-drawing-similar-figures-in-different-situations">
+    <title>Drawing Similar Figures </title>
+    <activity>
+        <statement>
+            <p>
+                <m>\textbf{Work in pairs}</m>
+            </p>
+
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            The figure below shows a right angled triangle <m>PQR</m>
+                        </p>
+
+                        <image width="50%">
+                            <shortdescription></shortdescription>
+                            <latex-image label="similar-1">
+                                \begin{tikzpicture}
+                                    % Coordinates of the triangle
+                                    \coordinate (Q) at (0,0);
+                                    \coordinate (R) at (4,0);
+                                    \coordinate (P) at (0,3);
+
+                                    % Draw the triangle in blue
+                                    \draw[thick, blue] (P) -- (Q) -- (R) -- cycle;
+
+                                    % Label the points
+                                    \node[above left] at (P) {P};
+                                    \node[below left] at (Q) {Q};
+                                    \node[below right] at (R) {R};
+
+                                    % Right angle marker at Q in blue
+                                    \draw[blue] (0.3,0) -- (0.3,0.3) -- (0,0.3);
+                                \end{tikzpicture}
+                            </latex-image>
+                            
+                        </image>
+                    </li>
+
+                    <li>
+                        <p>
+                            Draw another right angled triangle <m>XYZ</m> whose sides are two times the sides of <m>PQR</m> .
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                             Discuss the properties of the two triangles.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                             Share the results with other groups in the class.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+
+            <p>
+                <m>\textbf{Key Takeaway}</m>
+            </p>
+
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            In similar figures, the corresponding sides are in proportion, and the corresponding angles are equal.
+                            The ratio of corresponding sides can serve as a scale factor for creating similar figures.
+                        </p>
+                    </li>
+                </ul>
+            </p>
+        </statement>
+    </activity>
+
+    <example>
+        <statement>
+            <p>
+                <m>ABC</m> is a right angled triangle with <m>AB = 8 \text{ cm}</m>, <m>BC = 6 \text{ cm}</m>, and <m>AC = 10 \text{ cm}</m>.
+                Draw another triangle <m>DEF</m> that is similar to triangle <m>ABC</m> with a scale factor of 2.
+            </p>
+
+            <image width="50%">
+                <shortdescription></shortdescription>
+                <latex-image>
+                    \begin{tikzpicture}
+                       % Draw the right-angled triangle ABC
+                        \draw [very thick, fill=white] (0,0) -- (4,0) -- (4,3) -- cycle;
+
+                        % Label the vertices
+                        \node [below left] at (0,0) {\text{A}};
+                        \node [below right] at (4,0) {\text{B}};
+                        \node [above right] at (4,3) {\text{C}};
+
+                        % Label the sides
+                        \node [black] at (2,-0.3) {8 cm}; % Side AB
+                        \node [black] at (4.5,1.5) {6 cm}; % Side BC
+                        \node at (2,2) {10 cm}; % Side AC (hypotenuse)
+
+                        % Label the right angle at B
+                        \draw [very thick] (4,0) -- (3.7,0) -- (3.7,0.3) -- (4,0.3) -- cycle;
+
+                        % Mark angle alpha at A
+                        \draw (0.5,0) arc[start angle=0,end angle=36.87,radius=0.5cm];
+                        <!-- \node at (0.8,0.3) {\(\alpha\)}; % Angle alpha -->
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
+        </statement>
+
+        <solution>
+            <p>
+                <ol marker="i">
+                    <li >
+                        <p>
+                            The expected drawing will be a triangle <m>DEF</m> with sides <m>DE = 16 \text{ cm}</m>, <m>EF = 12 \text{ cm}</m>, and <m>DF = 20 \text{ cm}</m> since the scale factor is <m>2</m>.
+                        </p>
+
+                        <p>
+                            <md>
+                                <mrow>DE= \amp 2\times AB=2\times 8=16 \text{ cm}</mrow>
+                                <mrow>EF= \amp 2\times BC=2\times 6=12 \text{ cm}</mrow>
+                                <mrow>DF= \amp 2\times AC=2\times 10=20 \text{ cm}</mrow>
+                            </md>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Corresponding interior angles of the triangles <m>ABC</m> and <m>DEF</m> must be equal, i.e., <m>\angle A = \angle D</m>, <m>\angle B = \angle E</m>, and <m>\angle C = \angle F</m>.
+                        </p>
+
+                        <image width="50%">
+                            <shortdescription></shortdescription>
+                            <latex-image>
+                                \begin{tikzpicture}
+                                    % Draw the enlarged right-angled triangle DEF
+                                        \draw [very thick, fill=white] (0,0) -- (8,0) -- (8,6) -- cycle;
+
+                                        % Label the vertices
+                                        \node [below left] at (0,0) {\textbf{D}};
+                                        \node [below right] at (8,0) {\textbf{E}};
+                                        \node [above right] at (8,6) {\textbf{F}};
+
+                                        % Label the sides
+                                        \node [black] at (4,-0.4) {16 cm}; % Side DE
+                                        \node [black] at (8.6,3) {12 cm}; % Side EF
+                                        \node at (4,3) {20 cm}; % Side DF (hypotenuse)
+
+                                        % Label the right angle at E
+                                        \draw [very thick] (8,0) -- (7.4,0) -- (7.4,0.6) -- (8,0.6) -- cycle;
+
+                                        % Mark angle alpha at D
+                                        \draw (1,0) arc[start angle=0,end angle=36.87,radius=1cm];
+                                        <!-- \node at (1.2,0.6) {\(\alpha\)}; % Angle alpha -->
+
+                                \end{tikzpicture}
+                            </latex-image>
+                            
+                        </image>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
+</subsection>

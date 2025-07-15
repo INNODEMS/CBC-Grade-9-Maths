@@ -1,0 +1,175 @@
+<subsection xml:id="subsec-identifying-angles-of-depression-in-real-life-situations">
+    <title>Identifying Angles of Depression in Real Life Situations</title>
+    <activity>
+        <statement>
+            <p>
+                <term>Work in groups</term> 
+            </p>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            Identify Observation Points: Find raised platforms around your school — such as a staircase, or balcony
+                             — where you can safely observe the ground.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                             Observation and Measurement: From the elevated spot; Choose three different objects or points below 
+                             (e.g., a stone, plant bed, frind's shoes). Record the angle at which you tilt your head downward to each object.
+                              Record each measurement and the horizontal distance from the base of your observation point to the object.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Sketch simple side-view diagrams showing the horizontal line from their eye level and the line of sight downward.
+                             Label each angle using correct notation (e.g., 25°, 40°). Draw a scaled triangle showing horizontal distance, vertical height, and angle.
+                        </p>
+                    </li>
+                </ul>
+            </p>
+        </statement>
+    </activity>
+    <p>
+        <m>\textbf{ Key Takeaway }</m>
+    </p>
+    <p>
+       “When do you find yourself looking downward toward something?” (e.g., looking down at a car from a balcony, watching students below, or spotting a ball on a field). 
+    </p>
+    <p>
+        The angle at which you tilt your head downward to look towards an object is known as <term>angle of depression <m>(\theta)</m>.</term>
+    </p>
+    <image>
+        <latex-image label="angle-of-depression">
+            \begin{tikzpicture}
+            \usetikzlibrary{quotes,angles}
+                % Ground line
+                \draw[thick] (0,0) -- (7,0) node[right] {Ground};
+
+                % Balcony or window height
+                \draw[thick] (1,0) -- (1,4);
+                
+                \coordinate (A) at (6,0);          % Object
+                \coordinate (B) at (1,3.5);          % Eye 
+                \coordinate (C) at (6.5,3.5);        % Eye level
+
+                % Eye level point
+                \coordinate (Eye) at (1,3.5);
+                \fill (Eye) circle (2pt) node[left] {Eye};
+
+                % Object on ground
+                \coordinate (Obj) at (6,0);
+                \fill (Obj) circle (2pt) node[below] {Object};
+
+                % Line of sight
+                \draw[thick,red] (Eye) -- (Obj) node[midway, sloped, above, red] {Line of Sight};
+
+                % Horizontal line from eye level
+                \draw[dashed] (Eye) -- ++(5.5,0) node[above] {Eye-Level};
+
+                % Angle of depression
+                \path
+                pic["$\theta$", draw=blue, &lt;- , angle eccentricity=1.4, angle radius=1cm]
+                {angle = A--B--C}; 
+            \end{tikzpicture}
+        </latex-image>
+    </image>
+    <example>
+        <statement>
+            <p>
+                Amani is staring at a garden bench from the window of his room, which is <m>4\,m</m> above the ground. The horzontal distance to 
+                the bench is <m>6.9 \, m.</m> Determine the angle of depression.
+
+            </p>
+        </statement>
+        <solution>
+            <p>
+                First use the information to draw the sketch:
+            </p>
+            <image width="50%">
+                <latex-image label="angle-of-depression-example-sketch">
+                    \begin{tikzpicture}
+                    \usetikzlibrary{quotes,angles}
+                        % Ground line
+                        \draw[thick] (0,0) -- (7,0) node[right] {Ground};
+                        
+                        \coordinate (A) at (6,0);          % Bench
+                        \coordinate (B) at (1,4);          % window 
+                        \coordinate (C) at (6.5,4);        % Eye level
+                        \node[below] at (3.5,0) {6.9 m};
+
+
+                        % Building wall
+                        \draw[thick] (1,0) -- (1,4);
+
+                        % Observer's eye at 4m window
+                        \coordinate (Eye) at (1,4);
+                        \fill (Eye) circle (2pt) node[left] {Window (4 m high)};
+
+                        % Bench on the ground
+                        \coordinate (Bench) at (6,0);
+                        \fill (Bench) circle (2pt) node[above] {Garden Bench};
+
+                        % Horizontal eye-level line
+                        \draw[dashed] (Eye) -- (6.5,4) node[above right] {Eye-Level};
+
+                        % Line of sight downward
+                        \draw[thick,red] (Eye) -- (Bench) node[midway, sloped, above, red] {Line of Sight};
+
+                        % Angle of depression
+                        \path
+                        pic["$\theta$", draw=blue, -&gt;, angle eccentricity=1.4, angle radius=1cm]
+                        {angle = A--B--C};
+                    \end{tikzpicture}
+                </latex-image>
+                
+            </image>
+
+            <p>
+                First, choose a suitable scale to display the given information. When you choose a scale of <m>1\,cm = 1\,m,</m> The scale drawing 
+                representation will be:
+            </p>
+            <image>
+                <latex-image label="angle-of-depression-example-scale-drawing">
+                    \begin{tikzpicture}
+                    \usetikzlibrary{quotes,angles}
+                        % Ground line
+                        \draw[thick] (0,0) -- (7,0) node[right] {Ground};
+                        
+                        \coordinate (A) at (6,0);          % Bench
+                        \coordinate (B) at (1,4);          % window 
+                        \coordinate (C) at (6.5,4);        % Eye level
+                        \node[below] at (3.5,0) {6.9 cm};
+
+
+                        % Building wall
+                        \draw[thick] (1,0) -- (1,4);
+
+                        % Observer's eye at 4m window
+                        \coordinate (Eye) at (1,4);
+                        \fill (Eye) circle (2pt) node[left] {Window (4 cm high)};
+
+                        % Bench on the ground
+                        \coordinate (Bench) at (6,0);
+                        \fill (Bench) circle (2pt) node[above] {Garden Bench};
+
+                        % Horizontal eye-level line
+                        \draw[dashed] (Eye) -- (6.5,4) node[above right] {Eye-Level};
+
+                        % Line of sight downward
+                        \draw[thick,red] (Eye) -- (Bench) node[midway, sloped, above, red] {Line of Sight};
+
+                        % Angle of depression
+                        \path
+                        pic["$30^\circ$", draw=blue, -&gt;, angle eccentricity=1.4, angle radius=1cm]
+                        {angle = A--B--C};
+                    \end{tikzpicture}
+                </latex-image>
+                
+            </image>
+            <p>
+                From a window 4 meters high, the angle of depression to a garden bench is 30°. 
+            </p>
+        </solution>
+    </example>
+</subsection>

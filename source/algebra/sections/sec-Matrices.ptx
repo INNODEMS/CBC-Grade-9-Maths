@@ -1,0 +1,47 @@
+<section xml:id="sec-Matrices" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Matrices</title>
+
+        <introduction>
+            <title>What is a Matrix?</title>
+            <p>
+                A matrix (plural: matrices) is a rectangular arrangement of numbers, symbols, or expressions that are organized in rows and columns, and enclosed by brackets.
+            </p>
+            <p>
+                Each number in a matrix is called an <m>\textbf{entry}</m> or <m>\textbf{element}</m>. The position of each element is identified by its row number and column number.
+            </p>
+            <p>
+                <m>\textbf{Basic Structure Example:}</m>
+            </p>
+            <p>
+                Let matrix 
+                <m>
+                    A = \displaystyle \begin{pmatrix} 2 &amp; 3 \\ 4 &amp; 5 \end {pmatrix}
+                </m>
+            </p>
+            <p>
+                This matrix has 2 rows and 2 columns, so we call it a <m>\textbf{2 times 2}</m> matrix (read: "2 by 2 matrix").
+            </p>
+            <p>
+                The number <m>2</m> is in the <m>\textbf{first row, first column}</m>.
+            </p>
+            <p>
+                The number <m>5</m> is in the <m>\textbf{second row, second column}</m>.
+            </p>
+        </introduction>
+
+    
+    
+    <xi:include href="subsections/Matrices/identifying-a-matrix-indifferent-situations.ptx"/>
+
+    <xi:include href="subsections/Matrices/determining-the-order-of-a-matrix-in-different-situations.ptx"/>
+
+    <xi:include href="subsections/Matrices/determining-the-position-of-items-in-a-matrix-in-different-situations.ptx"/>
+
+    <xi:include href="subsections/Matrices/determining-compatibility-of-matrices-in-addition-and-subtraction.ptx"/>
+
+    <xi:include href="subsections/Matrices/carry-out-addition-and-subtraction-of-matrices-in-real-life-situations.ptx"/>
+
+    <xi:include href="subsections/Matrices/Reflecting-on-the-use-of-matrices-in-real-life-situations.ptx"/>
+
+
+</section>

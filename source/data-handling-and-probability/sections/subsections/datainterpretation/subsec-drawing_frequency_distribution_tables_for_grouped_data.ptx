@@ -1,0 +1,110 @@
+<subsection xml:id="subsec-drawing_frequency_distribution_tables_for_grouped_data" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Drawing Frequency Distribution Tables For Grouped Data</title>
+
+    <activity>
+        <title>Work in Groups</title>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        The numbers of house units in 40 blocks of flats in a certain area are given below:
+                    </p>
+                    <p>
+                        150, 152, 153, 154, 155, 156, 157, 158, 159, 160,
+                        161, 162, 163, 164, 165, 166, 167, 168, 169, 170,
+                        171, 172, 173, 174, 175, 176, 177, 178, 179, 180,
+                        181, 182, 183, 184, 185, 186, 187, 188, 189, 190
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Make a frequency distribution table for the data above, using class intervals of <m>8</m> units.
+                    </p>
+                    <tabular top="medium" left="medium" right="medium" bottom="medium">
+                        <row>
+                            <cell>Marks</cell>
+                            <cell>Tally</cell>
+                            <cell>Number of House Units</cell>
+                        </row>
+                        <row>
+                            <cell>150-157</cell>
+                            <cell><m>\cancel{|||||} ||</m></cell>
+                            <cell halign="center">7</cell>
+                        </row>
+                        <row>
+                            <cell>158-165</cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>166-173</cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>174-181</cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>182-189</cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>190-197</cell>
+                            <cell></cell>
+                            <cell></cell>
+                        </row>
+                    </tabular>
+                </li>
+                <li>
+                    <p>
+                        Share your frequency distribution table with other learners in the class.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity>
+    
+    <p>
+        A frequency distribution table is a way of organizing data into classes or groups, 
+        so as to make the data more meaningful and easier to analyze.
+    </p>
+    <example>
+        <statement>
+            <p>
+                
+            </p>
+        </statement>
+        <solution>
+            <p>
+                
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                
+            </p>
+        </statement>
+        <solution>
+            <p>
+                
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+
+            </p>
+        </statement>
+        <solution>
+            <p>
+
+            </p>
+        </solution>
+    </example>
+</subsection>

@@ -1,0 +1,16 @@
+<section xml:id="sec-coordinates-and-graphs" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Coordinates and Graphs</title>
+    <introduction>
+        <p>
+            Coordinates refers to the position of a point on a Cartesian plane. A point is represented as <m>(x, y),</m> where <term>"x"</term> 
+            tells you how far to move left or right, and <term>"y"</term> tells you how far to move up or down.
+        </p>
+    </introduction>
+    <xi:include href="subsections/coordinates-and-graphs/subsec-plotting-out-points-on-a-cartesian-plane.ptx" />
+    <xi:include href="subsections/coordinates-and-graphs/subsec-drawing-a-straight-line-graph-given-an-equation.ptx" />
+    <xi:include href="subsections/coordinates-and-graphs/subsec-drawing-parallel-lines-on-a-cartesian-plane.ptx" />
+    <xi:include href="subsections/coordinates-and-graphs/subsec-relating-the-gradients-of-parallel-lines.ptx" />
+    <xi:include href="subsections/coordinates-and-graphs/subsec-drawing-perpendicular-lines-on-a-cartesian-plane.ptx" />
+    <xi:include href="subsections/coordinates-and-graphs/subsec-relating-the-gradients-of-perpendicular-lines.ptx" />
+    <xi:include href="subsections/coordinates-and-graphs/subsec-applying-graphs-of-straight-lines-in-real-life-situation.ptx" />
+</section>

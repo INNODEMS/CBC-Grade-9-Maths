@@ -1,0 +1,139 @@
+<subsection xml:id="subsec-determining-angles-of-depression-in-different-situations">
+    <title>Determining Angles of Depression in Different Situations</title>
+    <activity>
+        <statement>
+            <p>
+                <term>Work in groups</term>
+            </p>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            Choose an elevated position around your school (like a stairwell or balcony).
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Measure and record the vertical height from your eyes to the ground.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Identify  objects on the ground (like a rock, a shoe, a plant e.t.c.).
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Measure the horizontal distance from the object to the base of the platform.
+                             Groups can choose a different viewing distance for the same object and compare how the angle changes.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Draw scaled right-angled triangles using your measurements. Label your drawings with the correct scale and features. 
+                            Measure the angle of depression using a protractor. 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                           Share your results with other groups and discuss your findings. How does the angle of depression change as you move 
+                           farther away from or closer to an object? 
+                        </p>
+                    </li>
+                </ul>
+            </p>
+        </statement>
+    </activity>
+    <p>
+       <m>\textbf{ Key Takeaway }</m> 
+    </p>
+    <p>
+        Imagine you're standing on a balcony looking at an object on the ground:
+    </p>
+    <p>
+        If the object is very close to the base of the building, your line of sight is steep, creating a larger angle of depression.
+    </p>
+    <p>       
+        As the object moves farther away, your line of sight becomes shallower, resulting in a smaller angle of depression. 
+    </p>
+    <example>
+        <statement>
+            <p>
+                Mwema is standing on a <m>24</m>-meter-high observation deck and sees a bicycle on the ground <m>50</m> meters away from the base of the tower.
+                 What is the angle of depression to the bicycle?
+            </p>
+        </statement>
+        <solution>
+            <p>
+                First, draw a sketch from the given information
+            </p>
+            <image width="50%">
+                <latex-image label="angle-of-depression-example-2-sketch">
+                    \begin{tikzpicture}
+                    \usetikzlibrary{quotes,angles}
+                        % Draw tower
+                        \draw[thick] (0,0) -- (0,6);
+                        \draw[fill=gray!10] (-1,6) rectangle (1,7) node[midway]{Mwema};
+
+                        % Ground and bicycle
+                        \draw[thick] (0,0) -- (10,0);
+                        \draw[fill=blue!20] (7,0.7) rectangle (9,0) node[midway, above=8pt]{\footnotesize Bicycle};
+
+                        % Line of sight
+                        \draw[very thick, red] (0,6) -- (7,0);
+
+                        % Horizontal from observer's eye
+                        \draw[dashed] (0,6) -- (7,6);
+
+                        % Height and base distance
+                        \draw[dashed] (7,0) -- (7,6);
+                        \node[above left] at (0,6) {24 m};
+                        \node[below] at (6.5,0) {50 m};
+
+                        % Angle of depression
+                        \draw (1,6) arc[start angle=0, end angle=-25.6, radius=1.7];
+                        \node at (1.2,5.5) {$\theta$};
+
+   
+                    \end{tikzpicture}
+                </latex-image>    
+            </image>
+            <p>
+                The scale drawing of the above sketch using a scale of <m>1\,cm = 10\,m</m> is:
+            </p>
+            <image>
+                <latex-image label="angle-of-depression-example-2-scale-drawing">
+                    \begin{tikzpicture}
+                    \usetikzlibrary{quotes,angles}
+                         % Draw tower
+                        \draw[thick] (0,0) -- (0,6);
+                        \draw[fill=gray!10] (-1,6) rectangle (1,7) node[midway]{Mwema};
+
+                        % Ground and bicycle
+                        \draw[thick] (0,0) -- (10,0);
+                        \draw[fill=blue!20] (7,0.7) rectangle (9,0) node[midway, above=8pt]{\footnotesize Bicycle};
+
+                        % Line of sight
+                        \draw[very thick, red] (0,6) -- (7,0);
+
+                        % Horizontal from observer's eye
+                        \draw[dashed] (0,6) -- (7,6);
+
+                        % Height and base distance
+                        \draw[dashed] (7,0) -- (7,6);
+                        \node[above right] at (0,6) {2.4 cm};
+                        \node[below] at (6.5,0) {5.0 cm};
+
+                        % Angle of depression
+                        \draw (1,6) arc[start angle=0, end angle=-25.6, radius=1.7];
+                        \node at (1.4,5.5) {$25.4^\circ$};
+
+                    \end{tikzpicture}
+                </latex-image>    
+            </image>
+            <p>
+                From the deck 24 meters high, the angle of depression to the bicycle is <m>25.4^\circ.</m>
+            </p>
+        </solution>
+    </example>
+</subsection>

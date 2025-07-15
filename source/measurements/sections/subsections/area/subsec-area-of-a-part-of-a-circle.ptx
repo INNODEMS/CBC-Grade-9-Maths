@@ -1,0 +1,655 @@
+<subsection xml:id="subsec-area-of-a-part-of-a-circle">
+    <title>Area of a part of a circle</title>
+    <introduction>
+        <p>
+            In this section, we will explore how to calculate the area of a part of a circle, specifically focusing on sectors and segments. 
+            Understanding these concepts is crucial for solving problems related to circular shapes in various contexts, such as engineering, architecture, and everyday life.
+        </p>
+        <p>
+            The area of a part of a circle, such as a sector or segment, can be calculated using specific formulas. 
+            
+        </p>
+        <p>
+            A <m>\textbf{sector}</m> is a portion of a circle defined by two radii and the arc between them.
+        </p>
+        <p>
+            A <m>\textbf{segment}</m> is the area between a chord and the arc it subtends.
+        </p>
+        
+    </introduction>
+
+    <subsubsection xml:id="subsubsec-area-of-a-sector">
+        <title>Area of a sector</title>
+        <activity>
+            <p>
+                <m>\textbf{Work in groups}</m>
+            </p>
+            <p>
+                <term>What you need</term>
+            </p>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            A model of a circle (e.g., a paper circle, a round object, or a drawing).
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            A protractor or a tool to measure angles.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            A ruler or measuring tape to measure the radius.
+                        </p>
+                    </li>
+                </ul>
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            The figure below shows a circle with a radius of <m>20 \, \text{cm}</m> and a central angle of <m>120^\circ</m> degrees.
+                        </p>
+                        <image width="50%">
+                        <latex-image label="fig-area-of-a-sector" >
+                            \begin{tikzpicture}
+                               % Draw main circle
+                                \draw[thick] (0,0) circle(4cm);
+
+                                % Draw radii forming 120° sector
+                                \draw[thick] (0,0) -- (0:4cm);
+                                \draw[thick] (0,0) -- (120:4cm);
+
+                                % Draw arc for the sector
+                                \draw[thick] (0:4cm) arc (0:120:4cm);
+
+                                % Manually shade the sector using lines
+                                \foreach \a in {5,10,...,115}
+                                    \draw[very thick,blue] (0,0) -- (\a:4cm);
+
+                                % Label radius
+                                \draw (0:1.2cm) node[below right] {20 cm};
+                                    \draw (120:1.2cm) node[below left] {20 cm};
+
+                                % Label angle
+                                \draw (1cm,0) arc (0:120:1cm);
+                                \node at (40:1.5cm) {\huge$120^\circ$};
+                            \end{tikzpicture}
+                        </latex-image>
+                            
+                        </image>
+                    </li>
+                    <li>
+                        <p>
+                            Name the shaded area in the figure above.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Find the area of the shaded part of the circle.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Deduce the formula for the area of a sector of a circle.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Share your findings with the other groups.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </activity>
+        <p>
+            <m>\textbf{Key Takeaway}</m>
+        </p>
+        <p>
+            <m>\textbf{Sector}</m>
+        </p>
+        <p>
+            A sector is a region bounded by two radii and an arc consisting of a minor and major sector.
+        </p>
+        <p>
+            A <m>\textbf{minor}</m> sector is the smaller area between the two radii, while a <m>\textbf{major}</m> sector is the larger area.
+        </p>
+        <p>
+            The figure below illustrates the difference between a minor and major sector.
+        </p>
+        <image width="50%">
+        <latex-image label="minor-major-sector">
+            \begin{tikzpicture}
+               % Draw the full circle
+                \draw[very thick] (0,0) circle(4cm);
+
+                % Draw two radii forming an angle theta (60 degrees here)
+                \draw[very thick] (0,0) -- (0:4cm);
+                \draw[very thick] (0,0) -- (120:4cm);
+
+                % Draw arc for the minor sector (0 to 60 degrees)
+                \draw[very thick] (0:4cm) arc (0:120:4cm);
+
+                % Label the angle theta
+                \draw (1cm,0) arc (0:120:1cm);
+                \node at (60:1.3cm) {$\huge\theta$};
+
+                % Label the radius
+                \node [below]at (0:1.8cm) {radius};
+
+                % Label the minor sector
+                \node at (50:2.2cm) {Minor Sector};
+
+                % Draw arc for the major sector (for visual clarity)
+                \draw[dashed,blue] (120:4cm) arc (120:360:4cm);
+                \node [blue]at (210:1cm) {Major Sector};
+            \end{tikzpicture}
+        </latex-image>
+        </image>
+        <p>
+            The area of a circle is given by the formula:
+        </p>
+        <p>
+            <m>\text{Area of a circle} = \pi r^2</m>
+        </p>
+        <p>
+            The area of a sector is the fraction of the area of a circle. A whole circle corresponds to an angle of <m>360^\circ</m>, so the area of a sector with a central angle <m>\theta</m> is given by:
+        </p>
+        <p>
+            <m>\text{Area of a sector} = \frac{\theta}{360^\circ} \times \pi r^2</m>
+        </p>
+
+        <example>
+            <statement>
+                <p>
+                    Find the area of the figure below:
+                </p>
+                <image width="50%">
+                <latex-image label="area-of-a-sector-example">
+                    \begin{tikzpicture}[blue]
+                        % Circle
+                        \draw[very thick,fill=white] (0,0) circle(4cm);
+
+                        % Radii
+                        \draw[thick] (0,0) -- (0:4cm);
+                        \draw[thick] (0,0) -- (60:4cm);
+                        
+                        % Arc
+                        \draw[thick] (0:4cm) arc (0:60:4cm);
+
+                        % Labels
+                        \draw (1cm,0) arc (0:60:1cm);
+                        \node at (30:1.4cm) {$60^\circ$};
+                        \node [below]at (0:2cm) {10 m};
+
+                    \end{tikzpicture}
+                </latex-image>
+                </image>
+            </statement>
+            <solution>
+                <p>
+                    To find the area of the sector, we use the formula:
+                </p>
+                <p>
+                    <m>\text{Area of a sector} = \frac{\theta}{360^\circ} \times \pi r^2</m>
+                </p>
+                
+                <p>
+                    <md>
+                        <mrow>\text{Area}= \amp \frac{60^\circ}{360^\circ} \times \pi (10 \,\text{m} )^2 </mrow>
+                        <mrow>\text{Area}= \amp \frac{60}{360} \times \pi (100) </mrow>
+                        <mrow>  \approx \amp 52.36 \, \text{m}^2</mrow>
+                    </md>
+                </p>
+                <p>
+                    The area of the sector is approximately <m>{\color{blue}52.36 \,\text{m}^2}</m>.
+                </p>
+            </solution>
+        </example>
+        <example>
+            <statement>
+                <p>
+                    A sprinkler rotates and waters grass in a sector of <m>90^\circ</m>.
+                    If the water reaches <m>12 \, \text{m}</m> from the center, find the area of grass watered.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    From the problem, we know:
+                </p>
+                <p>
+                    - Central angle <m>\theta = 90^\circ</m>
+                </p>
+                <p>
+                    - Radius <m>r = 12 \, \text{m}</m>
+                </p>
+                <p>
+                    We can now find the area of the sector using the formula:
+                </p>
+                <p>
+                    <m>\text{Area of a sector} = \frac{\theta}{360^\circ} \times \pi r^2</m>
+                </p>
+                <p>
+                    <md>
+                        <mrow>\text{Area}= \amp \frac{90^\circ}{360^\circ} \times \pi (12 \,\text{m})^2 </mrow>
+                        <mrow>= \amp \frac{90}{360} \times \pi (144) </mrow>
+                        <mrow>  \approx \amp 113.10 \, \text{m}^2</mrow>
+                    </md>
+                </p>
+                <p>
+                    The area of the sector is approximately <m>{\color{blue}113.10 \,\text{m}^2}</m>.
+                </p>
+            </solution>
+        </example>
+        <example>
+            <statement>
+                <p>
+                    The area of a sector of radius <m>21\,\text{m}</m> is <m>154 \,\text{m}^2</m>.
+                    Find the angle subtended by the sector. (Use <m>\pi =\frac{22}{7}</m> for calculations.)
+                </p>
+                <image width="50%">
+                <latex-image label="sector-angle">
+                    \begin{tikzpicture}
+                        % Define the radius
+                        \def\r{3cm}
+
+                        % Draw the main circle
+                        \draw[very thick] (0,0) circle(\r);
+
+                        % Draw two radii forming angle theta (assume angle ~80° for example)
+                        \draw[very thick] (0,0) -- (0:\r) node[midway,above] {21 m};
+                        \draw[very thick] (0,0) -- (80:\r);
+
+                        % Draw angle arc
+                        \draw[red] (1cm,0) arc (0:80:1cm);
+                        \node at (40:1.3cm) {$\theta$};
+                    \end{tikzpicture}
+                </latex-image>
+                    
+                </image>
+            </statement>
+            <solution>
+                <p>
+                    To find the angle subtended by the sector, we can rearrange the formula for the area of a sector:
+                </p>
+                <p>
+                    <m>\text{Area of a sector} = \frac{\theta}{360^\circ} \times \pi r^2</m>
+                </p>
+                <p>
+                    <md>
+                        <mrow> 154= \amp \frac{\theta}{360^\circ} \times \frac{22}{7} (21\,\text{m})^2 </mrow>
+                        <mrow> = \amp \frac{\theta}{360^\circ} \times \frac{22}{7} (441) </mrow>
+                        <mrow> = \amp \frac{\theta}{360^\circ} \times (1385.44) </mrow>
+                        <mrow>  \frac{\theta}{360^\circ} = \amp\frac{154}{1385.44} \</mrow>
+                        <mrow>  \theta =\amp \frac{154 \times 360^\circ}{1385.44} \</mrow>
+                        <mrow>  = \amp 39.93^\circ \</mrow>
+                    </md>
+                </p>
+                <p>
+                    The angle subtended by the sector is approximately <m>{\color{blue}39.93^\circ}</m>.
+                </p>
+            </solution>
+        </example>
+        <exercise>
+            <p>
+                
+            </p>
+        </exercise>
+    </subsubsection>
+
+    <subsubsection xml:id="subsubsec-area-of-a-segment">
+        <title>Area of a segment"></title>
+        <activity>
+            <p>
+                <m>\textbf{Work in groups}</m>
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            In the geogebra applet below, you can explore the area of a segment of a circle.
+                        </p>
+                        
+                    </li>
+                   
+                    
+                </ol>
+            </p>
+            <p>
+                
+               <m>\textbf{Instructions}</m>
+                       
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Use the checkboxes to highlight different parts (sector, triangle, segment).
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Adjust the radius and angle to see how the area of the segment changes.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Adjust the sliders for radius <m>(\textbf{r})</m> and angle <m>(\theta)</m>.
+                        </p>
+
+                        <!-- <figure >
+                            <caption>Area of a segment</caption>
+                            <interactive xml:id="geogebra-area-of-a-segment" platform="geogebra" width="100%" aspect="5:4">
+                            <slate xml:id="Area-of-a-segment" surface="geogebra" material="qyxyxyws" aspect="5:4" >
+                                enableShiftDragZoom(true);
+                                showResetIcon(true);
+                            </slate>
+                            </interactive>
+                    </figure> -->
+                    <figure >
+                            <caption>Area of a segment</caption>
+                            <interactive xml:id="geogebra-area-of-a-segment" platform="geogebra" width="100%">
+                            <slate xml:id="Area-of-a-segment" surface="geogebra" material="qyxyxyws" aspect="9:11" >
+                                enableShiftDragZoom(true);
+                                showResetIcon(true);
+                            </slate>
+                            </interactive>
+                    </figure>
+                    </li>
+                    <li>
+                        <p>
+                            Find the area of the segment formed by the sector and the triangle above.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Share your findings with the other groups.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </activity>
+        <p>
+            <m>\textbf{Key Takeaway}</m>
+        </p>
+        <p>
+            A segment is the region of a circle
+            bounded by a chord and an arc.
+        </p>
+        <p>
+            A chord is a line segment connecting two points on the circle.
+        </p>
+        <p>
+            An arc is a part of the circumference of a circle.
+        </p>
+        <p>
+            The figure below illustrates a minor and a major segment of a circle.
+        </p>
+        <image width="50%">
+        <latex-image label="minor-major-segment">
+            \begin{tikzpicture}
+                 % Draw the circle
+                \draw[thick] (0,0) circle(3cm);
+
+                % Define center and points
+                \coordinate (O) at (0,0);
+                \coordinate (A) at (3,0);         % Point on x-axis (angle 0°)
+                \coordinate (B) at (-1,2.9);     % Approx 60° from x-axis
+
+                % Draw the radii (sector sides)
+                \draw[very thick] (O) -- (A);
+                \draw[very thick] (O) -- (B);
+
+                % Draw arc to complete the sector
+                \draw[very thick,fill=cyan] (A) arc (0:110:3cm);
+
+                % Draw the chord connecting A to B (forming a segment)
+                \draw[dashed, very thick,blue] (A) -- (B);
+
+                % Label the radius
+                \node at (1.5,0) [below] {radius};
+                
+
+                % Label angle theta
+                \draw (1cm,0) arc (0:110:1cm);
+                \node at (0.8,1) {$\theta$};
+
+                % Label Minor and Major segments
+                \node[rotate=140] at (1.5,2) {Minor Segment};
+                \node [rotate=140] at (-1,-1) {Major Segment};
+            \end{tikzpicture}
+        </latex-image>
+        
+            
+        </image>
+        <p>
+            The area of a segment can be calculated using the formula:
+        </p>
+        <p>
+            <m>\text{Area of Segment} = \text{Area of Sector} - \text{Area of Triangle}</m>
+        </p>
+        <example>
+            <statement>
+                <p>
+                    Find the area Of the shadded region in the figure below: Use <m>\pi = 3.142</m>.
+                </p>
+                <image width="50%">
+            <latex-image label="Segment2">
+                \begin{tikzpicture}
+                    % Draw the circle
+                    \draw[thick] (0,0) circle (3);
+                    
+                    % Define points for the chord
+                    \coordinate (A) at (3,0);
+                    \coordinate (B) at (0,3);
+                    \coordinate (O) at (0,0);
+                    
+                    % Draw the chord
+                    \draw[thick] (A) -- (B);
+                    
+                    % Draw the radii
+                    \draw[thick] (O) -- (A);
+                    \draw[thick] (O) -- (B);
+                    
+                    % Shade the segment (darker blue for visibility)
+                    \fill[very thick,green!60, opacity=0.7] (A) arc[start angle=0, end angle=90, radius=3cm] -- (B) -- cycle;
+                    
+                    % Draw the arc
+                    \draw[thick] (A) arc[start angle=0, end angle=90, radius=3cm];
+                    
+                
+                    
+                    % Mark the angle
+                    \draw[very thick] (0.7,0) arc[start angle=0, end angle=90, radius=0.7cm];
+                    \node [right]at (0.7,0.5) {\(80^\circ\)};
+                    \node[left] at (0,1.5){\textbf{21 cm}};
+                    \node at (2,1.5){4 cm};
+                \end{tikzpicture}
+            </latex-image>
+            
+                
+            </image>
+            </statement>
+            <solution>
+                <p>
+                    To find the area of the shaded region (the segment), we will use the formula:
+                </p>
+                <p>
+                    <m>\text{Area of Segment} = \text{Area of Sector} - \text{Area of Triangle}</m>
+                </p>
+                <p>
+                    Area of the sector:
+                </p>
+                <p>
+                    <m>\text{Area of Sector} = \frac{\theta}{360^\circ} \times \pi r^2</m>
+                </p>
+                <p>
+                    <md>
+                        <mrow>\text{Area}= \frac{80}{360} \times \pi \times 21^2</mrow>
+                        <mrow> \amp= \frac{80}{360} \times 3.142 \times 21^2</mrow>
+                        <mrow> \amp=  49.5 \text{ cm}^2</mrow>
+                    </md>
+                </p>
+                <p>
+                    Area of the triangle:
+                </p>
+                <p>
+                    You need to find the height of the triangle using the formula:
+                </p>
+                <p>
+                    <m>H^2=b^2+h^2</m>
+                </p>
+                <p>
+                    <md>
+                        <mrow>h= \sqrt{H^2-b^2}</mrow>
+                        <mrow>= \sqrt{21^2-2^2}</mrow>
+                        <mrow> =\amp \sqrt{441-4}</mrow>
+                        <mrow> =\amp \sqrt{437}</mrow>
+                        <mrow> =\amp  20.88 \text{ cm}</mrow>
+                    </md>
+                </p>
+                <p>
+                    <m>\text{Area of Triangle} = \frac{1}{2} \times \text{base} \times \text{height}</m>
+                </p>
+                <p>
+                    <md>
+                        <mrow> =  \amp\frac{1}{2} \times 4 \times 20.88</mrow>
+                        <mrow> \approx \amp 42.66 \text{ cm}^2</mrow>
+                    </md>
+                </p>
+                <p>
+                    Area of the segment is given by:
+                </p>
+                <p>
+                    <md>
+                        <mrow> \text{Area of Segment} = \amp  \text{Area of Sector} - \text{Area of Triangle} </mrow>
+                        <mrow> =\amp   49.5 - 42.66 </mrow>
+                        <mrow> =\amp   6.84 \text{ cm}^2</mrow>
+
+                    </md>
+                </p>
+                <p>
+                    The area of the shaded region (segment) is approximately <m>{\color{blue}6.84 \,\text{cm}^2}</m>.
+                </p>
+            </solution>
+        </example>
+        <example>
+            <statement>
+                <p>
+                    The figure below is a circle with center O and radius <m>5 \,\text{cm}</m>. 
+                    If ON <m>=3 \, \text{cm}</m>, AB <m>=8 \, \text{cm}</m> and <m>\angle \,\text{AOB} = 106.3^\circ</m>. 
+                    Find the area of the shaded region.
+                </p>
+                <image source="/Segment.png" width="50%">
+                    <shortdescription>Segment</shortdescription>
+                </image>
+            </statement>
+            <solution>
+                <p>
+                    <m>\text{Area of Segment} = \text{Area of SectornOAPB} - \text{Area of Triangle OAB}</m>
+                </p>
+                <p>
+                    Area of the sector <m>OAPB</m> is given by:
+                </p>
+                <p>
+                    <md>
+                        <mrow> \text{Area of Sector} =\amp  \frac{\theta}{360^\circ} \times \pi r^2 =</mrow>
+                        <mrow> =\amp  \frac{106.3}{360} \times \pi \times 5^2</mrow>
+                        <mrow> =\amp  \frac{106.3}{360} \times 3.142 \times 25</mrow>
+                        <mrow> =\amp  23.19 \text{ cm}^2</mrow>
+                    </md>
+                </p>
+                <p>
+                    Area of triangle <m>OAB</m> is given by:
+                </p>
+                <p>
+                    <md>
+                        <mrow> \text{Area of Triangle} =\amp  \frac{1}{2} \times \text{base} \times \text{height} </mrow>
+                        <mrow> =\amp  \frac{1}{2} \times 8 \times 3</mrow>
+                        <mrow> =\amp  12 \text{ cm}^2</mrow>
+                    </md>
+                </p>
+                <p>
+                    Area of the shaded region (segment) is given by:
+                </p>
+                <p>
+                    <md>
+                        <mrow> \text{Area of Segment} = \amp \text{Area of Sector} - \text{Area of Triangle} </mrow>
+                        <mrow> =\amp  23.19 - 12 </mrow>
+                        <mrow> =\amp  11.19 \text{ cm}^2</mrow>
+                    </md>
+                </p>
+                <p>
+                    The area of the shaded region (segment) is approximately <m>{\color{blue}11.19 \,\text{cm}^2}</m>.
+                </p>
+            </solution>
+        </example>
+        <example>
+            <statement>
+                <p>
+                    A round water tank lid has a radius of <m>28 \,\text{cm}</m>. A technician cuts out a segment with a central angle of <m>90^\circ</m> 
+                    to create an inspection opening. Find the area of the segment removed.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    To find the area of the segment, we will use the formula:
+                </p>
+                <p>
+                    <md>
+                        <mrow> \text{Area of Segment} = \text{Area of Sector} - \text{Area of Triangle} </mrow>
+
+                    </md>
+                </p>
+                <p>
+                    Area of the sector is given by:
+                </p>
+                <p>
+                    <md>
+                        <mrow> \text{Area of Sector} = \amp \frac{\theta}{360^\circ} \times \pi r^2 </mrow>
+                        <mrow> =\amp  \frac{90}{360} \times \pi (28)^2 </mrow>
+                        <mrow> =\amp  \frac{1}{4} \times 3.142 \times 784 </mrow>
+                        <mrow> =\amp  615.75 \, \text{cm}^2</mrow>
+                    </md>
+                </p>
+                <p>
+                    Area of the triangle formed by the radii and the chord is given by:
+                </p>
+                <p>
+                    <md>
+                        <mrow> \text{Area of Triangle} = \amp \frac{1}{2} \times \text{base} \times \text{height} </mrow>
+                        <mrow> =\amp  \frac{1}{2} \times 28 \times 28 \times \sin(90^\circ) </mrow>
+                        <mrow> =\amp  \frac{1}{2} \times 28 \times 28 \times 1 </mrow>
+                        <mrow> =\amp  392 \, \text{cm}^2</mrow>
+                    </md>
+                </p>
+                <p>
+                    Area of the segment is given by:
+                </p>
+                <p>
+                    <md>
+                        <mrow> \text{Area of Segment} = \amp \text{Area of Sector} - \text{Area of Triangle} </mrow>
+                        <mrow> =\amp  615.75 - 392 </mrow>
+                        <mrow> =\amp  223.75 \, \text{cm}^2</mrow>
+                    </md>
+                </p>
+                <p>
+                    The area of the segment removed is approximately <m>{\color{blue}223.75 \,\text{cm}^2}</m>.
+                </p>
+            </solution>
+        </example>
+        <exercise>
+            <p>
+                
+            </p>
+        </exercise>
+    </subsubsection>
+
+
+
+    
+        
+    
+</subsection>

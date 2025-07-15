@@ -1,0 +1,109 @@
+<subsection xml:id="subsec-determining-the-order-of-a-matrix-in-different-situations">
+    <title>Determining the Order of a Matrix in Different Situations</title>
+    <p>
+        The order of a matrix tells us how many rows and columns it has. This is written as rows × columns (for example, 2 × 3 means 2 rows and 3 columns). Knowing the order helps us describe, compare, and use tables and schedules correctly in real life.
+    </p>
+    <activity>
+        <p><m>Work in Pairs</m></p>
+        <p>The following table shows the number of students in four different classes (A, B, C, D) over three days:</p>
+        <tabular top="medium" bottom="medium" left="medium" right="medium">
+            <row>
+                <cell></cell>
+                <cell>Day 1</cell>
+                <cell>Day 2</cell>
+                <cell>Day 3</cell>
+            </row>
+            <row>
+                <cell>Class A</cell>
+                <cell>30</cell>
+                <cell>28</cell>
+                <cell>29</cell>
+            </row>
+            <row>
+                <cell>Class B</cell>
+                <cell>27</cell>
+                <cell>29</cell>
+                <cell>28</cell>
+            </row>
+            <row>
+                <cell>Class C</cell>
+                <cell>25</cell>
+                <cell>26</cell>
+                <cell>27</cell>
+            </row>
+            <row>
+                <cell>Class D</cell>
+                <cell>32</cell>
+                <cell>31</cell>
+                <cell>30</cell>
+            </row>
+        </tabular>
+        <p>  <m>\textbf{What you need:}</m></p>
+        <p>
+            <ul>
+                <li>Notebook</li>
+                <li>Pen or pencil</li>
+            </ul>
+        </p>
+        <p>  <m>\textbf{Instructions:}</m></p>
+        <p>
+            <ol>
+                <li>Write the data as a matrix S.</li>
+                <li>  <m>\textbf{Discuss:}</m>
+                    <ul>
+                        <li>What is the order of matrix S?</li>
+                        <li>What does each row and each column represent?</li>
+                        <li>If you wanted to add another class or another day, how would the order of the matrix change?</li>
+                    </ul>
+                </li>
+                <li>  <m>\textbf{Explore:}</m>
+                    <ul>
+                        <li>Why is it important to know the order of a matrix when organizing data?</li>
+                        <li>Can you think of a real-life example where knowing the order of a matrix is helpful?</li>
+                    </ul>
+                </li>
+                <li>  <m>\textbf{Reflect and Share:}</m>
+                    <ul>
+                        <li>How does the order of a matrix help you describe and use tables or schedules?</li>
+                        <li>Share your answers with another pair and discuss any differences.</li>
+                    </ul>
+                </li>
+            </ol>
+        </p>
+    </activity>
+
+
+    
+
+    <p>  <m>\textbf{Key Takeaway:}</m> </p>
+    <p>
+        The order of a matrix helps us describe and use tables, 
+        schedules, and data sets correctly in real life. 
+        It tells us how much information the matrix can hold.
+    </p>
+    <example>
+        <statement>
+            <p>What is the order of the matrix B below?</p>
+            <p>What does the entry in the second row, third column represent?</p>
+            <p>
+                <m>
+                B = \begin{bmatrix}
+                    4 &amp; 5 &amp; 6 &amp; 7 \\
+                    3 &amp; 6 &amp; 5 &amp; 4 \\
+                    5 &amp; 4 &amp; 3 &amp; 2
+                \end{bmatrix}
+                </m>
+            </p>
+        </statement>
+        <solution>
+            <p>Step 1: Count the number of rows.</p>
+            <p>There are 3 rows (each row represents a student).</p>
+            <p>Step 2: Count the number of columns.</p>
+            <p>There are 4 columns (each column represents a month).</p>
+            <p>Step 3: Write the order as rows × columns.</p>
+            <p>So, the order is 3 × 4.</p>
+            <p>Step 4: Interpret the meaning.</p>
+            <p>The entry in the second row, third column (5) means Brian borrowed 5 books in Month 3.</p>
+        </solution>
+    </example>
+</subsection>
