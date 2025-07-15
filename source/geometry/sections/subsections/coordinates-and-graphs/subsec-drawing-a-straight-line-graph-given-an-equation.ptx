@@ -13,10 +13,13 @@
                 </li>
                 <li>
                     <p>
-                        Generate a table of values by substituting different x-values: <m>x = {-2, -1, 0, 1, 2}</m> in the equation.
+                        Generate a table of values by substituting different x-values: <m>x = {-2, -1, 0, 1, 2 }</m> in the equation.
                     </p>
                 </li>
             </ul>   
+        </p>
+        <p>
+            
         </p>
         
         <tabular valign="top" top="minor" bottom="minor" left="minor" right="minor"> 
