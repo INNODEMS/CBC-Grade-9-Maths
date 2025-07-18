@@ -82,29 +82,29 @@
                 Draw another triangle <m>DEF</m> that is similar to triangle <m>ABC</m> with a scale factor of 2.
             </p>
 
-            <image width="50%">
+            <image width="30%">
                 <shortdescription></shortdescription>
                 <latex-image>
                     \begin{tikzpicture}
-                       % Draw the right-angled triangle ABC
-                        \draw [very thick, fill=white] (0,0) -- (4,0) -- (4,3) -- cycle;
-
+                        % Original triangle ABC - Blue
+                        \fill[blue!20] (0,0) -- (4,0) -- (4,3) -- cycle; % light blue fill
+                        \draw [very thick, blue] (0,0) -- (4,0) -- (4,3) -- cycle; % blue outline
+                        
                         % Label the vertices
-                        \node [below left] at (0,0) {\text{A}};
-                        \node [below right] at (4,0) {\text{B}};
-                        \node [above right] at (4,3) {\text{C}};
-
+                        \node [below left, blue] at (0.1,0.2) {\textbf{A}};
+                        \node [below right, blue] at (3.9,0.2) {\textbf{B}};
+                        \node [above right, blue] at (3.8,2.9) {\textbf{C}};
+                        
                         % Label the sides
-                        \node [black] at (2,-0.3) {8 cm}; % Side AB
-                        \node [black] at (4.5,1.5) {6 cm}; % Side BC
-                        \node at (2,2) {10 cm}; % Side AC (hypotenuse)
-
+                        \node [blue] at (2,-0.3) {8 cm}; % Side AB
+                        \node [blue] at (4.5,1.5) {6 cm}; % Side BC
+                        \node [blue] at (2,2) {10 cm}; % Side AC (hypotenuse)
+                        
                         % Label the right angle at B
-                        \draw [very thick] (4,0) -- (3.7,0) -- (3.7,0.3) -- (4,0.3) -- cycle;
-
+                        \draw [very thick, blue] (4,0) -- (3.7,0) -- (3.7,0.3) -- (4,0.3) -- cycle;
+                        
                         % Mark angle alpha at A
-                        \draw (0.5,0) arc[start angle=0,end angle=36.87,radius=0.5cm];
-                        <!-- \node at (0.8,0.3) {\(\alpha\)}; % Angle alpha -->
+                        \draw[blue] (0.5,0) arc[start angle=0,end angle=36.87,radius=0.5cm];
                     \end{tikzpicture}
                 </latex-image>
             </image>
@@ -132,30 +132,29 @@
                             Corresponding interior angles of the triangles <m>ABC</m> and <m>DEF</m> must be equal, i.e., <m>\angle A = \angle D</m>, <m>\angle B = \angle E</m>, and <m>\angle C = \angle F</m>.
                         </p>
 
-                        <image width="50%">
+                        <image width="70%">
                             <shortdescription></shortdescription>
                             <latex-image>
                                 \begin{tikzpicture}
-                                    % Draw the enlarged right-angled triangle DEF
-                                        \draw [very thick, fill=white] (0,0) -- (8,0) -- (8,6) -- cycle;
-
-                                        % Label the vertices
-                                        \node [below left] at (0,0) {\textbf{D}};
-                                        \node [below right] at (8,0) {\textbf{E}};
-                                        \node [above right] at (8,6) {\textbf{F}};
-
-                                        % Label the sides
-                                        \node [black] at (4,-0.4) {16 cm}; % Side DE
-                                        \node [black] at (8.6,3) {12 cm}; % Side EF
-                                        \node at (4,3) {20 cm}; % Side DF (hypotenuse)
-
-                                        % Label the right angle at E
-                                        \draw [very thick] (8,0) -- (7.4,0) -- (7.4,0.6) -- (8,0.6) -- cycle;
-
-                                        % Mark angle alpha at D
-                                        \draw (1,0) arc[start angle=0,end angle=36.87,radius=1cm];
-                                        <!-- \node at (1.2,0.6) {\(\alpha\)}; % Angle alpha -->
-
+                                % Enlarged triangle DEF - Red
+                                    \fill[red!20] (7,0) -- (15,0) -- (15,6) -- cycle; % light red fill
+                                    \draw [very thick, red] (7,0) -- (15,0) -- (15,6) -- cycle; % red outline
+                                    
+                                    % Label the vertices
+                                    \node [below left, red] at (7.1,0.2) {\textbf{D}};
+                                    \node [below right, red] at (14.9,0.2) {\textbf{E}};
+                                    \node [above right, red] at (14.8,5.9) {\textbf{F}};
+                                    
+                                    % Label the sides
+                                    \node [red] at (11,-0.4) {16 cm}; % Side DE
+                                    \node [red] at (15.7,3) {12 cm}; % Side EF
+                                    \node [red] at (11,3.9) {20 cm}; % Side DF (hypotenuse)
+                                    
+                                    % Label the right angle at E
+                                    \draw [very thick, red] (15,0) -- (14.6,0) -- (14.6,0.4) -- (15,0.4) -- cycle;
+                                    
+                                    % Mark angle alpha at D
+                                    \draw[red] (7.5,0) arc[start angle=0,end angle=36.87,radius=0.5cm];
                                 \end{tikzpicture}
                             </latex-image>
                             
