@@ -1,10 +1,102 @@
 <subsection xml:id="subsec-exclusive_events">
     <title>Exclusive Events</title>
+        <p>
+            Two or more events are mutually exclusive if they cannot happen at the same time.
+        </p>
         <activity>
             <p>
                 <m>\textbf{Work in groups}</m>
             </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Roll a fair die once.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Event A: Getting an even number
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Event B: Getting an odd number
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            <p>
+                Discuss:
+                <ul>
+                    <li>
+                        <p>
+                            Are these events mutually exclusive?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            what is <m>\textbf{P(even) + P(odd)} </m>
+                        </p>
+                    </li>
+                </ul>
+            </p>
            
         </activity>
+        <p>  
+            <m>\textbf{key takeaway}</m>
+        </p>
+
+        <p>
+            In other words, the occurrence of one event means the other cannot occur.
+        </p>
+        <example>
+            <statement>
+                <p>
+                    A bag contains 3 red, 2 blue, and 1 yellow marble. One marble is drawn.
+                </p>
+                <p>
+                    Find the probability of drawing:
+                    <ol marker="a">
+                        <li>
+                            <p>
+                                A red marble
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                A yellow marble
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                A red or yellow marble
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    Total marbles <m>= 6</m>
+                </p>
+                <p>
+                    <m> \textbf{P(Red)} = \frac{3}{6} \textbf{and} \textbf{ P(Yellow)} = \frac{1}{6}</m>
+                </p>
+                <p>
+                    Red and yellow are mutually exclusive (you can't pick both at once)
+                </p>
+                <p>
+                    <md>
+                        <mrow> \textbf{P(Red or Yellow)} </mrow>
+                    </md>
+                </p>
+                <p>
+                    <md>
+                        <mrow> \frac{3}{6} + \frac{1}{6} = \frac{4}{6} = \frac{2}{3}</mrow>
+                    </md>
+                </p>
+            </solution>
+        </example>
      
 </subsection>
