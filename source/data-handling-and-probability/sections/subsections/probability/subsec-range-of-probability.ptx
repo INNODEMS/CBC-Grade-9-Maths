@@ -1,0 +1,87 @@
+<subsection xml:id="subsec-range-of-probability">
+    <title>Range of Probability</title>
+        <activity>
+            <p>
+                <m>\textbf{Work individually}</m>
+            </p>
+            <p>
+                Draw a horizontal line labeled from 0 to 1.
+            </p>
+            <p>
+                Place the following events on the line where you think they belong:
+                <ul>
+                    <li>
+                        <p>
+                            The sun will rise tomorrow
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Rolling a 3 on a fair die
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Picking a red ball from a bag with 1 red and 9 blue balls
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Getting heads on a coin
+                        </p>
+                    </li>
+                </ul>
+            </p>      
+        </activity>
+        <p>  
+            <m>\textbf{key takeaway}</m>
+        </p>
+        <p>
+             Probability is written as a number between 0 and 1
+             <ul>
+                <li>
+                    <p>
+                        <m>0</m> = Impossible event
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>0.5</m> = Event is equally likely to happen or not happen
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>1</m> = Certain event
+                    </p>
+                </li>
+             </ul>   
+        </p>
+        <example>
+            <statement>
+                <p>
+                    A bag contains 6 red and 2 blue marbles. What is the probability of drawing a red marble?
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    Total marbles <m>= 6 + 2 = 8</m>
+                </p>
+                <p>
+                    Favorable outcomes (red) <m>= 6</m>
+                </p>
+                <p>
+                    <md>
+                        <mrow> \textbf{P(Red)} = \frac{6}{8} = 0.75</mrow>
+                    </md>
+                </p>
+                <p>
+                    <md>
+                        <mrow> = 75% </mrow>
+                    </md>
+                </p>
+                <p>
+                    This is a likely event, since <m>0.75 </m> is closer to 1.
+                </p>
+            </solution>
+        </example>
+</subsection>
