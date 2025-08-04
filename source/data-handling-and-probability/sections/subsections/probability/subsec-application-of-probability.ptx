@@ -1,10 +1,68 @@
 <subsection xml:id="subsec-application_of_probability">
     <title>Application of Probability</title>
+        <p>
+            Probability helps us make informed decisions in daily life, games, weather forecasting, business, health, and risk analysis.
+        </p>
         <activity>
             <p>
                 <m>\textbf{Work in groups}</m>
             </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Look at your class register for the past 10 school days.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Count how many days a specific student was present.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Estimate the probability that the student will attend tomorrow.
+                        </p>
+                    </li>
+                </ol>
+            </p>
            
         </activity>
+        <p>  
+            <m>\textbf{key takeaway}</m>
+        </p>
+        <p>
+            It allows us to predict, estimate risk, and plan ahead based on chance and likelihood.
+        </p>
+        <example>
+            <statement>
+                <p>
+                    A weather report says there's a 70% chance of rain tomorrow.
+                </p>
+                <p>
+                    That means this is not certain, but likely.
+                </p>
+            </statement>
+        </example>
+        <example>
+            <statement>
+                <p>
+                    A study shows that 1 in 4 people are likely to catch a cold during the cold season.
+                </p>
+                <p>
+                    \textbf{P(Catch a cold) = }
+                </p>
+                <p>
+                    <md>
+                        <mrow> \frac{1}{4} = 0.25</mrow>
+                    </md>
+                </p>
+                <p>
+                    <md>
+                        <mrow> 25% </mrow>
+                    </md>
+                </p>
+            </statement>
+        </example>
      
 </subsection>
