@@ -1,8 +1,10 @@
-<section xml:id="sec-linear-inequalities">
+<section xml:id="sec-linear-inequalities" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Linear Inequalities</title>
-    <p>
-        
-    </p>
+    <introduction>
+        <p>
+            
+        </p>
+    </introduction>
 
     <xi:include href="subsections/linear-inequalities/interpreting-linear-inequalities.ptx" />
     <xi:include href="subsections/linear-inequalities/solving-linear-inequalities.ptx" />

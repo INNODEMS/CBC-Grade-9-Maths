@@ -1,10 +1,78 @@
 <subsection xml:id="subsec-independent_events">
     <title>Independent Events</title>
+        <p>
+            Two events are independent if the outcome of one does not affect the outcome of the other.
+        </p>
         <activity>
             <p>
                 <m>\textbf{Work in groups}</m>
             </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Toss a coin and roll a die at the same time.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Record the outcome (e.g., Heads and 4).
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Discuss:
+                            <ul>
+                                <li>
+                                    <p>
+                                        Are these two events independent?
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Can the coin toss result affect the die roll?
+                                    </p>
+                                </li>
+                            </ul>
+                        </p>
+                    </li>
+
+                </ol>
+            </p>             
            
         </activity>
-     
+        <p>  
+            <m>\textbf{key takeaway}</m>
+        </p>
+        <p>
+            In other words, the result of one event has no influence on the second event.
+        </p>
+        <example>
+            <statement>
+                <p>
+                    A coin is tossed twice. What is the probability of getting heads both times?
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    First toss: <m> \textbf{P(Heads)}  = 1/2 </m>
+                </p>
+                <p>
+                     Second toss: <m> \textbf{P(Heads)}  = 1/2 </m>
+                </p>
+                <p>
+                    They are independent, so:
+                </p>
+                <p>
+                    <md>
+                        <mrow> \textbf{P(Heads and Heads)} = \frac{1}{2} × \frac{1}{2} </mrow>
+                    </md>
+                </p>
+                <p>
+                    <md>
+                        <mrow> = \frac{1}{4} </mrow>
+                    </md>
+                </p>
+            </solution>
+        </example>    
 </subsection>
