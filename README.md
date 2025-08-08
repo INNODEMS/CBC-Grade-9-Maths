@@ -38,12 +38,16 @@ The CBE Grade 9 Mathematics curriculum covers the following topics:
 
 ## Contributing
 
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
+1. Rodgers Maragia (Rodkjunior)[https://github.com/Rockjunior]
+2. Isdora Akinyi
+3. Michael Onyimbo
+4. Daniel Murunga
+5. Henry Onyango
+6. Sheila Cherotich
+7. Eric Morara
+8. Joseph Baya
+9. Harriet Moraa
+10. 
 
 ## License
 
