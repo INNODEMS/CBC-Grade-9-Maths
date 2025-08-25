@@ -1,14 +1,173 @@
 <subsection xml:id="subsec-use-of-money-in-day-to-day-activities">
-    <title>Use of money in day to day activities</title>
+  <title>Use of money in day to day activities</title>
+    <activity>
+      <title>Use of Money in Day-to-Day Life</title>
+        <statement>
+          <p>
+            Money plays an important role in our daily lives. We use it to pay for food, transport, education, communication, entertainment, and other basic needs.
+            Making good choices on how to spend and save money is a key life skill.
+          </p>
+          <p>
+            In this activity, you will explore how money is used in real-life situations and practice basic decision-making with money.
+          </p>
+          <p>
+            <ul>
+              <li><p>Buying food and groceries for the family</p></li>
+              <li><p>Paying school fees or buying school supplies</p></li>
+              <li><p>Using public transport (e.g., matatus or buses)</p></li>
+              <li><p>Airtime and internet bundles</p></li>
+              <li><p>Savings and mobile money transfers (e.g., M-Pesa)</p></li>
+            </ul>
+          </p>
+          <p>
+            🔹 Choose two areas from the list above. For each, explain how money is used and how much a typical cost might be.
+          </p>
+          <p>
+            🔹 Imagine you are given Ksh 1,000. Create a simple spending plan using it to cover needs from the areas you chose.
+          </p>
+          <p>
+            🔹 What would you do if your money is not enough? What could you reduce, avoid, or save for later?
+          </p>
+          <p>
+            🔹 Why is it important to budget your money? Share your ideas with a classmate or in a group.
+          </p>
+        </statement>
+    </activity>
+    <example>
+  <title>Example: Using Money to Buy School Supplies</title>
+  <statement>
     <p>
-        
+      A student is given Ksh 1,000 to buy the following school items:
     </p>
-    <exercise>
-        <title>Fill-In, Decimal Answer</title>
-      <statement>
-        <p>
-            
-        </p>
-      </statement>
-    </exercise>
+    <p>
+    <ul>
+      <li><p>2 Exercise books at Ksh 60 each</p></li>
+      <li><p>1 Mathematical set at Ksh 250</p></li>
+      <li><p>3 Pens at Ksh 25 each</p></li>
+    </ul>
+  </p>
+    <p>
+      How much will the student spend in total, and how much money will be left after shopping?
+    </p>
+  </statement>
+
+  <solution>
+    <p><m>\textbf{Step 1:}</m> Calculate the total cost of exercise books.</p>
+    <p>
+      <md>
+        <mrow>2 \times 60 \amp = 120</mrow>
+      </md>
+    </p>
+
+    <p><m>\textbf{Step 2:}</m> Cost of mathematical set is:</p>
+    <p>
+      <md>
+        <mrow>250 \amp = 250</mrow>
+      </md>
+    </p>
+
+    <p><m>\textbf{Step 3:}</m> Calculate the cost of pens.</p>
+    <p>
+      <md>
+        <mrow>3 \times 25 \amp = 75</mrow>
+      </md>
+    </p>
+
+    <p><m>\textbf{Step 4:}</m> Add all the costs to find the total spent.</p>
+    <p>
+      <md>
+        <mrow>120 + 250 + 75 \amp = 445</mrow>
+      </md>
+    </p>
+
+    <p><m>\textbf{Step 5:}</m> Subtract total cost from the amount given.</p>
+    <p>
+      <md>
+        <mrow>1000 - 445 \amp = 555</mrow>
+      </md>
+    </p>
+
+    <p>
+      <m>\textbf{The student will spend Ksh 445 and have Ksh 555 left.}</m>
+    </p>
+  </solution>
+</example>
+
+<example>
+  <title>Example: Using Money to Buy Grocery Items</title>
+  <statement>
+    <p>
+      A parent gives Joy Ksh 800 to buy the following from the market:
+    </p>
+    <p>
+    <ul>
+      <li><p>2 kg of rice at Ksh 150 per kg</p></li>
+      <li><p>1 litre of cooking oil at Ksh 320</p></li>
+      <li><p>6 bananas at Ksh 10 each</p></li>
+    </ul>
+  </p>
+    <p>
+      Joy needs to calculate the total cost of these items.
+    </p>
+    <p>
+      How much will Joy spend in total, and how much will remain?
+    </p>
+  </statement>
+
+  <solution>
+    <p><m>\textbf{Step 1:}</m> Cost of rice:</p>
+    <p>
+      <md><mrow>2 \times 150 \amp = 300</mrow></md>
+    </p>
+
+    <p><m>\textbf{Step 2:}</m> Cost of cooking oil:</p>
+    <p>
+      <md><mrow>320 \amp = 320</mrow></md>
+    </p>
+
+    <p><m>\textbf{Step 3:}</m> Cost of bananas:</p>
+    <p>
+      <md><mrow>6 \times 10 \amp = 60</mrow></md>
+    </p>
+
+    <p><m>\textbf{Step 4:}</m> Total cost:</p>
+    <p>
+      <md><mrow>300 + 320 + 60 \amp = 680</mrow></md>
+    </p>
+
+    <p><m>\textbf{Step 5:}</m> Remaining money:</p>
+    <p>
+      <md><mrow>800 - 680 \amp = 120</mrow></md>
+    </p>
+
+    <p>
+      <m>\textbf{Joy will spend Ksh 680 and remain with Ksh 120.}</m>
+    </p>
+  </solution>
+</example>
+<example>
+  <title>Example: Using Money for a School Trip</title>
+  <statement>
+    <p>
+      A group of students is going on a school trip. The bus fare is Ksh 450 per student. Each student also needs Ksh 150 for lunch and Ksh 100 for park entry.
+    </p>
+    <p>
+      What is the total amount each student should carry for the trip?
+    </p>
+  </statement>
+
+  <solution>
+    <p><m>\textbf{Step 1:}</m> Add up the costs:</p>
+    <p>
+      <md><mrow>450 + 150 + 100 \amp = 700</mrow></md>
+    </p>
+
+    <p>
+      <m>\textbf{Each student should carry Ksh 700 for the trip.}</m>
+    </p>
+  </solution>
+</example>
+
+
+
 </subsection>

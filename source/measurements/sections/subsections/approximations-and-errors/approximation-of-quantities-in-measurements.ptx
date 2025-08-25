@@ -112,8 +112,12 @@
                             <line>Length (cm)</line>
                         </cell>
                         <cell>
-                            <line>Measured</line> 
+                            <line>Total EStimated</line> 
                             <line>Length (cm)</line>
+                        </cell>
+                        <cell>
+                            <line>Measured</line>
+                            <line>Length</line>
                         </cell>
                         <cell>
                             <line>Absolute</line> 
@@ -121,7 +125,7 @@
                         </cell>
                         <cell>
                             <line>Percentage </line> 
-                            <line>error</line>ight="medium"
+                            <line>error</line>
                         </cell>
                     </row>
                     <row>
@@ -223,6 +227,7 @@
                 <cell></cell>
                 <cell></cell>
                 <cell></cell>
+                <cell></cell>
             </row>
             <row>
                 <cell>ii)</cell>
@@ -230,9 +235,11 @@
                 <cell></cell>
                 <cell></cell>
                 <cell></cell>
+                <cell></cell>
             </row>
             <row>
                 <cell>iii)</cell>
+                <cell></cell>
                 <cell></cell>
                 <cell></cell>
                 <cell></cell>
@@ -315,6 +322,7 @@
                     <cell></cell>
                     <cell></cell>
                     <cell></cell>
+                    <cell></cell>
                 </row>
                 <row>
                     <cell>b)</cell>
@@ -324,9 +332,11 @@
                     <cell></cell>
                     <cell></cell>
                     <cell></cell>
+                    <cell></cell>
                 </row>
                 <row>
                     <cell>c)</cell>
+                    <cell></cell>
                     <cell></cell>
                     <cell></cell>
                     <cell></cell>
@@ -387,8 +397,9 @@
 
         <table>
             <title>Estimating Volume Using Displacement</title>
-            <tabular>
-            <row><cell>No.</cell>
+            <tabular halign="left" valign="middle" top="medium" bottom="medium" right="medium" left="medium">
+            <row header="yes">
+            <cell>No.</cell>
             <cell>Object</cell>
             <cell>Estimated Volume (mL)</cell>
             <cell>Initial Water Level (mL)</cell>
