@@ -284,7 +284,7 @@
 
      <table>
             <title>Currency Table</title>
-            <tabular>
+            <tabular halign="left" valign="middle" top="medium" bottom="medium" right="medium" left="medium">
                 <row>
                     <cell>No.</cell>
                     <cell>Country</cell>

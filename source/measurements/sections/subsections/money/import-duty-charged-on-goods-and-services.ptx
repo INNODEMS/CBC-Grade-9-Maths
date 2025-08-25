@@ -95,12 +95,14 @@
     <p>
       Alex imported a generator with a customs value of Ksh 60,000. He was charged an import duty of 12% and an excise duty of 15%.
     </p>
+    <p>
     <ol>
       <li><p>How much did he pay as import duty?</p></li>
       <li><p>Calculate the excise value for the generator.</p></li>
       <li><p>Determine the excise duty paid.</p></li>
       <li><p>How much money did Alex pay in total for the generator?</p></li>
     </ol>
+  </p>
   </statement>
 
   <solution>

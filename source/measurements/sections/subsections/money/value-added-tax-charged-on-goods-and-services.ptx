@@ -11,7 +11,7 @@
     </p>
    <table>
     <title></title>
-    <tabular>
+    <tabular halign="left" valign="middle" top="medium" bottom="medium" right="medium" left="medium">
       <row>
         <cell><m>\textbf{Item}</m></cell>
         <cell><m>\textbf{Quantity}</m></cell>
