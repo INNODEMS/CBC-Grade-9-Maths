@@ -28,7 +28,7 @@
         <m>\frac{3}{4} = \frac{6}{8}</m>
     </p>
     <p>
-        Cross-multiplying gives you <m>3 \times 8 = 4 \times 6</m>, which simplifies to <m>24 = 24</m>. This confirms that the two ratios are equivalent.
+        Cross-multiplying gives you <m>3 \times 8 = 4 \times 6</m>, which simplifies to <m>24</m>. This confirms that the two ratios are equivalent.
     </p>
     <p>
         
@@ -162,6 +162,7 @@
             <p>
                 
             </p>
+            
                 
         </solution>
     </example>

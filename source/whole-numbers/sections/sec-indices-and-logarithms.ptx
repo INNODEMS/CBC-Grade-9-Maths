@@ -12,8 +12,8 @@
             This means that <m>a</m> is multiplied by itself <m>n</m> times.
         </p>
         <p>
-            Logarithms, on the other hand, are the inverse operation of exponentiation. 
-            The logarithm of a number is the exponent to which a base must be raised to produce that number.
+            Logarithms, on the other hand, are the inverse of exponentiation. 
+            The logarithm of a number is the exponent to which a given base must be raised to obtain that number.
             For example, if <m>b^x = y</m>, then <m>x = \log_b(y)</m>, where <m>b</m> is the base and <m>y</m> is the number.
         </p>
     </introduction>

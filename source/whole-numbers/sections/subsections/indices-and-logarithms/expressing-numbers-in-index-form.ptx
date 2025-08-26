@@ -1,7 +1,7 @@
 <subsection xml:id="subsec-expressing-numbers-in-index-form" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Expressing numbers in index form</title>
     <p>
-        Index form means a number written with a base and an exponent (also called index or power).
+        Index form means writing a number using a base and an exponent (also called an index or power).
     </p>
     <p>
         <m>\textbf{Base}</m> is the number that is multiplied by itself, and <m>\textbf{exponent}</m> (or index) tells how many times the base is used in the multiplication.
@@ -16,7 +16,7 @@
         1. Identify the base of the number you want to express in index form.
     </p>
     <p>
-        2. Determine the exponent or index, which is the number of times the base is multiplied by itself to obtain the original number.
+        2. Determine the exponent (or index), which is the number of times the base is multiplied by itself to obtain the original number.
     </p>
     <p>
         3. Write the number in the form <m>a^n</m>, where <m>a</m> is the base and <m>n</m> is the exponent.
@@ -39,10 +39,13 @@
                         <m>\bullet</m> Worksheet 
                     </p>
                     <p>
-                        <m>\bullet</m> pen or pencil and erasers
+                        <m>\bullet</m> pen or pencil, and erasers
                     </p>
                     <p>
                         <m>\bullet</m> Optional: bottle tops for modeling
+                    </p>
+                    <p>
+                        <m>\textbf{Instructions}</m>
                     </p>
                     <p>
                         1. Working in groups, look at each number in the first column of the table below.
@@ -362,7 +365,7 @@
             <p>
                 c) To express <m>125</m> in index form using base <m>5</m>, we find the prime factorization:
             </p>
-            <image width="50%">
+            <image width="70%">
                 <latex-image label="Factor tree for 125">
                     \begin{tikzpicture}
                         % Root node

@@ -7,31 +7,23 @@
     <p>
         Example of sources that can be used include:
     </p>
+    
     <p>
-        <ul>
-           
-            
-            <li>Graphing software for visualizing functions</li>
-            <li>Programming languages like Python for advanced calculations</li>
-            
-        </ul>
-    </p>
-    <p>
-        <m>\textbf{Video tutorials explaining logarithm concepts and applications}</m>
+       1. <m>\textbf{Video tutorials explaining logarithm concepts and applications}</m>
     </p>
     <figure>
         <title>My first day with my drone (Splashdown)</title>
-        <caption>First Drone Flight (Splashdown, 0:54 to 1:12)</caption>
+        <caption></caption>
         <video xml:id="logarithm-clip" youtube="zzu2POfYv0Y" width="70%" start="15" end="128"/>
     </figure>
     <p>
-        <m>\textbf{Online calculators for logarithmic computations}</m>
+       2. <m>\textbf{Online calculators for logarithmic computations}</m>
     </p>
     <p>
         <url href="https://www.rapidtables.com/calc/math/exponent-calculator.html?" />
     </p>
     <p>
-        <m>\textbf{Educational websites with interactive lessons}</m>
+        3. <m>\textbf{Educational websites with interactive lessons}</m>
     </p>
     <p>
         <url href="https://www.iknowit.com/lessons/e-powers-of-10.html?" />
