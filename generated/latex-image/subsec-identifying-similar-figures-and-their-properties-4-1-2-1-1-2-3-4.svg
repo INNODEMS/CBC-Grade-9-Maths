@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="43" height="83" viewBox="0 0 43 83">
-<defs>
-<path id="font_1_72" d="M.25498963 0V.0309906C.18798828 .0309906 .1769867 .0309906 .1769867 .07601929V.69433596L.032989503 .6826172V.6516113C.102996829 .6516113 .11099243 .64460757 .11099243 .5956421V.07595825C.11099243 .0309906 .099990848 .0309906 .032989503 .0309906V0L.14399719 .0029907227 .25498963 0Z"/>
-</defs>
-<path transform="matrix(1.00002,0,0,-1.00005,2.095665,81.173259)" d="M0 0V79.37071H39.68535V0ZM39.68535 79.37071" fill="#e5e6e5"/>
-<path transform="matrix(1.00002,0,0,-1.00005,2.095665,81.173259)" stroke-width=".3985" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#7f807f" d="M0 0V79.37071H39.68535V0ZM39.68535 79.37071"/>
-<use data-text="l" xlink:href="#font_1_72" transform="matrix(9.962799,0,0,-9.963098,20.554036,44.943449)"/>
-</svg>
