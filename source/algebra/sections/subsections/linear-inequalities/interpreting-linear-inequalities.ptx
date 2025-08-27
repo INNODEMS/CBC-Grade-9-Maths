@@ -1,7 +1,6 @@
 <subsection xml:id="subsec-interpreting-linear-inequalities" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Interpreting Linear Inequalities in One and Two Unknowns</title>
 
-  <introduction>
     <p>
       In daily life, we often work with conditions or limits rather than exact values. Statements like "You must be at least 18 years old to vote" or "The bag should not weigh more than 10 kg" are examples of inequalities.
     </p>
@@ -17,13 +16,9 @@
     <p>
       Linear inequalities can have one unknown (e.g., <m>x \ge 10</m>) or two unknowns (e.g., <m>y \lt 2x + 5</m>), and they represent a range of possible values that satisfy the condition.
     </p>
-  </introduction>
-
-  <subsubsection xml:id="subsubsec-interpreting-contextual-inequalities">
-    <title>Interpreting Inequalities from Real-Life Contexts</title>
 
     <activity>
-      <p><m>\textbf{Work in Groups}</m></p>
+      <p><term>Work in Groups</term></p>
       <p><term>What You Need:</term></p>
       <p>
         <ul>
@@ -31,12 +26,12 @@
           <li>Pencil or pen</li>
         </ul>
       </p>
-      <p><m>\textbf{Instructions}</m></p>
+      <p><term>Instructions:</term></p>
       <p>
         <ol>
           <li>
             Read the following situations. For each one, write a linear inequality using the variable given:
-            <ol marker="a">
+            <ol marker="a)">
               <li>A student must score at least 50 marks to pass an exam. Let <m>x</m> be the marks scored.</li>
               <li>A matatu cannot carry more than 14 passengers. Let <m>p</m> be the number of passengers.</li>
               <li>A phone costs more than Ksh 5,000. Let <m>c</m> be the cost.</li>
@@ -48,6 +43,13 @@
         </ol>
       </p>
     </activity>
+
+    <p>
+      <term>Key Takeaway:</term>
+    </p>
+    <p>
+      Linear inequalities describe limitations or conditions in real-life situations. They allow us to work with ranges of possible values rather than just one answer.
+    </p>
 
     <example>
       <statement>
@@ -77,7 +79,8 @@
       </solution>
     </example>
 
-    <exercise>
+    <exercises>
+      <exercise>
         <p><m>\textbf{Answer the following questions in your exercise book.}</m></p>
         <ol>
         <li>
@@ -110,13 +113,6 @@
             </p>
         </li>
         </ol>
-    </exercise>
-  </subsubsection>
-
-  <conclusion>
-    <p>
-      <m>\textbf{Key Takeaway:}</m> Linear inequalities describe limitations or conditions in real-life situations. They allow us to work with ranges of possible values rather than just one answer.
-    </p>
-  </conclusion>
-
+      </exercise>
+    </exercises>
 </subsection>

@@ -1,7 +1,6 @@
 <subsection xml:id="subsec-determining-x-and-y-intercepts" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Determining the x- and y-Intercepts of a Line</title>
 
-  <introduction>
     <p>
       When sketching or interpreting a linear graph, it is helpful to know where the line crosses the axes. These points are called the <m>\textbf{intercepts}</m>.
     </p>
@@ -14,11 +13,9 @@
     <p>
       Knowing both intercepts helps you to sketch a line quickly and accurately.
     </p>
-  </introduction>
 
-  <worksheet>
     <activity>
-      <p><m>\textbf{Work in Pairs}</m></p>
+      <p><term>Work in Groups</term></p>
       <p><term>What You Need:</term></p>
       <p>
         <ul>
@@ -26,9 +23,9 @@
           <li>Ruler and pencil</li>
         </ul>
       </p>
-      <p><m>\textbf{Instructions}</m></p>
+      <p><term>Instructions:</term></p>
       <p>
-        <ol>
+        <ol marker="a)">
           <li>Choose the equation <m>y = 2x - 4</m>.</li>
           <li>To find the y-intercept, substitute <m>x = 0</m>.</li>
           <li>To find the x-intercept, substitute <m>y = 0</m> and solve for <m>x</m>.</li>
@@ -40,61 +37,86 @@
       </p>
     </activity>
 
+    <p>
+      <term>Key Takeaway:</term>
+    </p>
+    <p>
+      The y-intercept is found by setting <m>x = 0</m>. The x-intercept is found by setting <m>y = 0</m>. These two points are enough to sketch a linear graph accurately.
+    </p>
+
     <example>
       <statement>
         <p>
           Find the x- and y-intercepts of the line given by the equation <m>y = -3x + 6</m>.
         </p>
-        <p>
-          <em>To find the y-intercept:</em> Set <m>x = 0</m>:
-        </p>
-        <p>
-          <m>y = -3(0) + 6 = 6</m>, so the y-intercept is <m>(0, 6)</m>.
-        </p>
-        <p>
-          <em>To find the x-intercept:</em> Set <m>y = 0</m>:
-        </p>
-        <p>
-          <m>0 = -3x + 6</m> → <m>3x = 6</m> → <m>x = 2</m>, so the x-intercept is <m>(2, 0)</m>.
-        </p>
       </statement>
+      <solution>
+        <p>
+          To find the y-intercept, set <m>x = 0</m> and solve for <m>y</m>:
+        </p>
+        <p>
+          <m>y = -3(0) + 6 = 6</m>
+        </p>
+        <p>
+          So, the y-intercept is <m>(0, 6)</m>.
+        </p>
+        <p>
+          To find the x-intercept, set <m>y = 0</m> and solve for <m>x</m>:
+        </p>
+        <p>
+          <m>0 = -3x + 6</m>
+        </p>
+        <p>
+          Rearranging gives:
+        </p>
+        <p>
+          <m>3x = 6</m>
+        </p>
+        <p>
+          Dividing both sides by 3:
+        </p>
+        <p>
+          <m>x = 2</m>
+        </p>
+        <p>
+          So, the x-intercept is <m>(2, 0)</m>.
+        </p>
+        <p>
+          Therefore, the intercepts of the line are <m>(0, 6)</m> and <m>(2, 0)</m>.
+        </p>
+      </solution>
     </example>
-  </worksheet>
 
-  <conclusion>
-    <p>
-      <m>\textbf{Key Takeaway:}</m> The y-intercept is found by setting <m>x = 0</m>. The x-intercept is found by setting <m>y = 0</m>. These two points are enough to sketch a linear graph accurately.
-    </p>
-  </conclusion>
-
-  <exercise>
-    <p><m>\textbf{Answer the following in your exercise book.}</m></p>
-    <ol>
-      <li>
-        <p>
-          Find the x- and y-intercepts of the equation <m>y = 5x - 10</m>.
-        </p>
-      </li>
-      <li>
-        <p>
-          A line has the equation <m>y = -2x + 4</m>. Determine its intercepts and plot them on graph paper.
-        </p>
-      </li>
-      <li>
-        <p>
-          What are the intercepts of the line <m>y = 7</m>? Explain your answer.
-        </p>
-      </li>
-      <li>
-        <p>
-          A mobile data company charges a base fee of Ksh <m>100</m> and Ksh <m>20</m> per GB. Write the cost equation, and find how many GB one can get when the total cost is Ksh <m>300</m>.
-        </p>
-      </li>
-      <li>
-        <p>
-          Sketch the graph of the line <m>y = \frac{1}{2}x - 1</m> by using the intercepts.
-        </p>
-      </li>
-    </ol>
-  </exercise>
+  <exercises>
+    <exercise>
+      <p><m>\textbf{Answer the following in your exercise book.}</m></p>
+      <ol>
+        <li>
+          <p>
+            Find the x- and y-intercepts of the equation <m>y = 5x - 10</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            A line has the equation <m>y = -2x + 4</m>. Determine its intercepts and plot them on graph paper.
+          </p>
+        </li>
+        <li>
+          <p>
+            What are the intercepts of the line <m>y = 7</m>? Explain your answer.
+          </p>
+        </li>
+        <li>
+          <p>
+            A mobile data company charges a base fee of Ksh <m>100</m> and Ksh <m>20</m> per GB. Write the cost equation, and find how many GB one can get when the total cost is Ksh <m>300</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Sketch the graph of the line <m>y = \frac{1}{2}x - 1</m> by using the intercepts.
+          </p>
+        </li>
+      </ol>
+    </exercise>
+  </exercises>
 </subsection>

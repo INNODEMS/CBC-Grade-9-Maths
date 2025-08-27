@@ -1,26 +1,23 @@
 <subsection xml:id="subsec-real-life-use-of-linear-equations" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>The Use of Equations of Straight Lines in Real Life</title>
 
-  <introduction>
     <p>
       Linear equations are not just for the classroom — they appear all around us in daily life. Any situation that involves a fixed starting value and a constant rate of change can be modelled using a straight-line equation of the form <m>y = mx + c</m>.
     </p>
     <p>
       Understanding these applications can help us make predictions, compare situations, and make informed decisions.
     </p>
-  </introduction>
 
-  <worksheet>
     <activity>
-      <p><m>\textbf{Work in Groups}</m></p>
-      <p><term>Materials Required:</term></p>
+      <p><term>Work in Groups</term></p>
+      <p><term>What you need:</term></p>
       <p>
         <ul>
           <li>Notebook or exercise book</li>
           <li>Mobile phone or calculator</li>
         </ul>
       </p>
-      <p><m>\textbf{Instructions}</m></p>
+      <p><term>Instructions:</term></p>
       <p>
         <ol>
           <li>Interview a boda boda or taxi operator. Ask about how they charge their customers (e.g. base fare + per kilometre cost).</li>
@@ -34,67 +31,93 @@
       </p>
     </activity>
 
+    <p>
+      <term>Key Takeaway:</term>
+    </p>
+    <p>
+      Everyday life situations involving steady increase or decrease can be modelled using linear equations. This makes it easier to predict, budget, or compare.
+    </p>
+
     <example>
       <statement>
         <p>
-          A water tank is being filled at a constant rate. After 1 minute, it contains 20 litres. After 4 minutes, it contains 80 litres.
+          A water tank is being filled at a constant rate. After <m>1</m> minute, it contains <m>20</m> litres. After <m>4</m> minutes, it contains <m>80</m> litres.
         </p>
         <p>
-          <em>Step 1:</em> Identify the two points: <m>(1, 20)</m> and <m>(4, 80)</m>
+          a) Find the equation that relates time <m>x</m> (in minutes) to the amount of water <m>y</m> (in litres).
         </p>
         <p>
-          <em>Step 2:</em> Find the gradient (rate of change):
-          <m>m = \frac{80 - 20}{4 - 1} = \frac{60}{3} = 20</m>
+          b) How much water will be in the tank after <m>10</m> minutes?
         </p>
         <p>
-          <em>Step 3:</em> Use one point to form the equation:  
-          <m>y - 20 = 20(x - 1)</m> → <m>y = 20x</m>
-        </p>
-        <p>
-          This equation models the volume of water in the tank after <m>x</m> minutes.
+          c) How long will it take to fill the tank to <m>200</m> litres?
         </p>
       </statement>
+      <solution>
+        <p>
+          a) First, find the gradient <m>m</m>:
+        </p>
+        <p>
+          <m>m = \frac{y_2 - y_1}{x_2 - x_1} = \frac{80 - 20}{4 - 1} = \frac{60}{3} = 20</m>
+        </p>
+        <p>
+          Now, use the point <m>(1, 20)</m> to find <m>c</m>:
+        </p>
+        <p>
+          <m>20 = 20(1) + c \Rightarrow c = 0</m>
+        </p>
+        <p>
+          So, the equation is <m>y = 20x</m>.
+        </p>
+        <p>
+          b) To find the amount of water after <m>10</m> minutes, substitute <m>x = 10</m> into the equation:
+        </p>
+        <p>
+          <m>y = 20(10) = 200</m> litres.
+        </p>
+        <p>
+          c) To find how long it takes to fill the tank to <m>200</m> litres, set <m>y = 200</m> and solve for <m>x</m>:
+        </p>
+        <p>
+          <m>200 = 20x \Rightarrow x = \frac{200}{20} = 10</m> minutes.
+        </p>
+      </solution>
     </example>
-  </worksheet>
 
-  <conclusion>
-    <p>
-      <m>\textbf{Key Takeaway:}</m> Real-life situations involving steady increase or decrease can be modelled using linear equations. This makes it easier to predict, budget, or compare.
-    </p>
-  </conclusion>
+    <exercises>
+      <exercise>
+        <p><m>\textbf{Answer the following in your exercise book.}</m></p>
+      <ol>
+        <li>
+          <p>
+            A mobile provider charges Ksh <m>50</m> per GB of data and a flat connection fee of Ksh <m>100</m>. Write the equation that models the total cost <m>y</m> in terms of data used <m>x</m>.
+          </p>
+        </li>
 
-  <exercise>
-    <p><m>\textbf{Answer the following in your exercise book.}</m></p>
-    <ol>
-      <li>
-        <p>
-          A mobile provider charges Ksh <m>50</m> per GB of data and a flat connection fee of Ksh <m>100</m>. Write the equation that models the total cost <m>y</m> in terms of data used <m>x</m>.
-        </p>
-      </li>
+        <li>
+          <p>
+            A vehicle travels at a constant speed. It covers 120 km in 2 hours and 180 km in 3 hours. Find the equation connecting time <m>x</m> (hours) to distance <m>y</m> (km).
+          </p>
+        </li>
 
-      <li>
-        <p>
-          A vehicle travels at a constant speed. It covers 120 km in 2 hours and 180 km in 3 hours. Find the equation connecting time <m>x</m> (hours) to distance <m>y</m> (km).
-        </p>
-      </li>
+        <li>
+          <p>
+            A student earns Ksh <m>200</m> per week as allowance and Ksh <m>50</m> for every day they help in a shop. Write an equation to model the total amount earned in a week if they work for <m>x</m> days.
+          </p>
+        </li>
 
-      <li>
-        <p>
-          A student earns Ksh <m>200</m> per week as allowance and Ksh <m>50</m> for every day they help in a shop. Write an equation to model the total amount earned in a week if they work for <m>x</m> days.
-        </p>
-      </li>
+        <li>
+          <p>
+            A maize farmer harvests 15 bags per acre. Write an equation that relates the number of acres <m>x</m> to total harvest <m>y</m>.
+          </p>
+        </li>
 
-      <li>
-        <p>
-          A maize farmer harvests 15 bags per acre. Write an equation that relates the number of acres <m>x</m> to total harvest <m>y</m>.
-        </p>
-      </li>
-
-      <li>
-        <p>
-          Reflect: Think of one more situation from your life or community that can be modelled using a straight-line equation. Describe it and write its equation.
-        </p>
-      </li>
-    </ol>
-  </exercise>
+        <li>
+          <p>
+            Reflect: Think of one more situation from your life or community that can be modelled using a straight-line equation. Describe it and write its equation.
+          </p>
+        </li>
+      </ol>
+      </exercise>
+    </exercises>
 </subsection>
