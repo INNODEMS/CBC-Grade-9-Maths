@@ -1,45 +1,22 @@
 <subsection xml:id="subsec-expressing-numbers-in-index-form" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Expressing numbers in index form</title>
-    <p>
-        Index form means writing a number using a base and an exponent (also called an index or power).
-    </p>
-    <p>
-        <m>\textbf{Base}</m> is the number that is multiplied by itself, and <m>\textbf{exponent}</m> (or index) tells how many times the base is used in the multiplication.
-    </p>
-    <p>
-        A number in index form is written as <m>a^n</m>, where <m>a</m> is the base and <m>n</m> is the exponent.
-    </p>
-    <p>
-        <m>\textbf{To express a number in index form, you can follow these steps:}</m>
-    </p>
-    <p>
-        1. Identify the base of the number you want to express in index form.
-    </p>
-    <p>
-        2. Determine the exponent (or index), which is the number of times the base is multiplied by itself to obtain the original number.
-    </p>
-    <p>
-        3. Write the number in the form <m>a^n</m>, where <m>a</m> is the base and <m>n</m> is the exponent.
-    </p>
-    <p>
-        For example, the number <m>8</m> can be expressed in index form as <m>2^3</m>, since <m>2 \times 2 \times 2 = 8</m>.
-    </p>
-    <p>
-        Expressing numbers in index form is useful for simplifying calculations, especially when dealing with large numbers or when performing operations like multiplication and division.
-    </p>
+    
     <activity>
         <statement>
             <p>
                         
                     </p>
                     <p>
-                        <m>\textbf{Materials needed}</m>
+                        <m>\textbf{Work in Groups}</m>
+                    </p>
+                    <p>
+                        <m>\textbf{What you need}</m>
                     </p>
                     <p>
                         <m>\bullet</m> Worksheet 
                     </p>
                     <p>
-                        <m>\bullet</m> pen or pencil, and erasers
+                        <m>\bullet</m> Pencil and erasers
                     </p>
                     <p>
                         <m>\bullet</m> Optional: bottle tops for modeling
@@ -48,140 +25,143 @@
                         <m>\textbf{Instructions}</m>
                     </p>
                     <p>
-                        1. Working in groups, look at each number in the first column of the table below.
-                    </p>
-                    <p>
-                        2. For each number:
-                    </p>
-                    <p>
-                        <ol marker="a)">
+                        <ol marker="1.">
                             <li>
                                 <p>
-                                  Write it as a product of repeated factors (multiply the same number again and again to get the given number).  
+                                    Look at each number in the first column of the table <xref ref="index-table"/>.
+                                </p>
+                                
+                                
+
+                            </li>
+                            <li>
+                                <p>
+                                    Write the number as a product of the same factor repeated several times.
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    Write the number as a power (use the base and exponent to show how many times the number is multiplied) or as a product of powers of two different numbers depending on the number given.
+                                    Re-write your repeated multiplication as a power.
                                 </p>
+                                <p>
+                                    <m>
+                                        
+                                    \textbf{Note:}       
+                                    </m>
+                                    If the number cannot be written using one base only, express it as a product of powers of two (or more) different numbers.}
+
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Fill in your answers in the table below.
+                                </p>
+                                <figure xml:id="index-table">
+                                    <caption></caption>
+                                    <tabular halign="center" bottom="medium" left="medium" right="medium" top="medium">
+                                    <col width="50%"/>
+                                    <row header="yes">
+                                        <cell >Number</cell>
+                                        <cell >Product of repeated factors</cell>
+                                        <cell >Power form / Products of the power</cell>
+                                    </row>
+                                    <row >
+                                        <cell ><m>8</m></cell>
+                                        <cell ><m>2 \times 2 \times 2</m></cell>
+                                        <cell ><m>2^3</m></cell>
+                                    </row>
+                                    <row >
+                                        <cell><m>27</m></cell>
+                                        <cell ><m></m></cell>
+                                        <cell ><m></m></cell>
+                                    </row>
+                                    <row > 
+                                        <cell ><m>36</m></cell>
+                                        <cell ><m></m></cell>
+                                        <cell ><m></m></cell>
+                                    </row>
+                                    <row >
+                                        <cell ><m>64</m></cell>
+                                        <cell ><m></m></cell>
+                                        <cell ><m></m></cell>
+                                    </row>
+                                    <row > 
+                                        <cell ><m>72</m></cell>
+                                        <cell ><m>2 \times 2 \times 2 \times 3 \times 3</m></cell>
+                                        <cell ><m> 2^3 \times 3^2</m></cell>
+                                    </row>
+                                    <row > 
+                                        <cell ><m>81</m></cell>
+                                        <cell ><m></m></cell>
+                                        <cell ><m></m></cell>
+                                    </row>
+                                    <row > 
+                                        <cell ><m>96</m></cell>
+                                        <cell ><m></m></cell>
+                                        <cell ><m></m></cell>
+                                    </row>
+                                    <row >
+                                        <cell ><m>108</m></cell>
+                                        <cell ><m></m></cell>
+                                        <cell ><m></m></cell>
+                                    </row>
+                                    <row >
+                                        <cell ><m>144</m></cell>
+                                        <cell ><m></m></cell>
+                                        <cell ><m></m></cell>
+                                    </row>
+                                </tabular>
+                                </figure>
+                            </li>
+                            <li>
+                                <p>
+                                    Share your work with your fellow learners.
+                                </p>
+                                
                             </li>
                         </ol>
                     </p>
-                    <p>
-                        3. Fill in the table with your answers.
-                    </p>
-                    <tabular top="medium">
-                        <row left="medium">
-                            <cell bottom="medium" right="medium">Number</cell>
-                            <cell bottom="medium" right="medium">Product of repeated factors</cell>
-                            <cell bottom="medium" right="medium">Power form / Products of the power</cell>
-                        </row>
-                        <row left="medium">
-                            <cell bottom="medium" right="medium"><m>8</m></cell>
-                            <cell bottom="medium" right="medium"><m>2 \times 2 \times 2</m></cell>
-                            <cell bottom="medium" right="medium"><m>2^3</m></cell>
-                        </row>
-                        <row left="medium">
-                            <cell bottom="medium" right="medium"><m>27</m></cell>
-                            <cell bottom="medium" right="medium"><m></m></cell>
-                            <cell bottom="medium" right="medium"><m></m></cell>
-                        </row>
-                        <row left="medium"> 
-                            <cell bottom="medium" right="medium"><m>36</m></cell>
-                            <cell bottom="medium" right="medium"><m></m></cell>
-                            <cell bottom="medium" right="medium"><m></m></cell>
-                        </row>
-                        <row left="medium">
-                            <cell bottom="medium" right="medium"><m>64</m></cell>
-                            <cell bottom="medium" right="medium"><m></m></cell>
-                            <cell bottom="medium" right="medium"><m></m></cell>
-                        </row>
-                        <row left="medium"> 
-                            <cell bottom="medium" right="medium"><m>72</m></cell>
-                            <cell bottom="medium" right="medium"><m>2 \times 2 \times 2 \times 3 \times 3</m></cell>
-                            <cell bottom="medium" right="medium"><m> 2^3 \times 3^2</m></cell>
-                        </row>
-                        <row left="medium"> 
-                            <cell bottom="medium" right="medium"><m>81</m></cell>
-                            <cell bottom="medium" right="medium"><m></m></cell>
-                            <cell bottom="medium" right="medium"><m></m></cell>
-                        </row>
-                        <row left="medium"> 
-                            <cell bottom="medium" right="medium"><m>96</m></cell>
-                            <cell bottom="medium" right="medium"><m></m></cell>
-                            <cell bottom="medium" right="medium"><m></m></cell>
-                        </row>
-                        <row left="medium">
-                            <cell bottom="medium" right="medium"><m>108</m></cell>
-                            <cell bottom="medium" right="medium"><m></m></cell>
-                            <cell bottom="medium" right="medium"><m></m></cell>
-                        </row>
-                        <row left="medium">
-                            <cell bottom="medium" right="medium"><m>144</m></cell>
-                            <cell bottom="medium" right="medium"><m></m></cell>
-                            <cell bottom="medium" right="medium"><m></m></cell>
-                        </row>
-                    </tabular>
-                    <p>
-                        4. share your work with your fellow learners.
-                    </p>
+                    
         </statement>
     </activity>
-    <example>
-        <statement>
-            <p>
-                Express each of the following numbers in index form:
-            </p>
-            <p>
-                <ol>
-                    <li>
-                        <p>
-                            <m>2\times 2\times 2\times 2\times 2</m>
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            <m>64</m>
-                        </p>
-                    </li>
-                </ol>
-            </p>
-        </statement>
-        <solution>
-            <p>
-                <ol>
-                    <li>
-                        
-                        <p>
-                           In <m>2\times 2\times 2\times 2\times 2</m>, the factor <m>2</m> is multiplied by itself <m>5</m> times.
-                        </p>
-                        <p>
-                            This implies that the base is <m>2</m> and the exponent is <m>5</m>.
-                        </p>
-                        <p>
-                            
-                            Therefore, it can be expressed in index form as <m>2^5</m>.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            The number <m>64</m> can be expressed as a product of repeated factors:
-                        </p>
-                        <p>
-                            <m>64 = 2 \times 2 \times 2 \times 2 \times 2 \times 2</m>.
-                        </p>
-                        <p>
-                            This means that the base is <m>2</m> and the exponent is <m>6</m>, since <m>2</m> is multiplied by itself <m>6</m> times to get <m>64</m>.
-                        </p>
-                        <p>
-                            Therefore, it can be expressed in index form as <m>2^6</m>.
-                        </p>
-                    </li>
-                </ol>
-            </p>
-        </solution>
-    </example>
-    <example>
+    <p>
+        <m>\textbf{Key Takeaway}</m>
+    </p>
+    <p>
+        Index form means writing a number using a base and an exponent (also called an index or power).
+    </p>
+    <p>
+        <m>\textbf{Base}</m> is the number that is multiplied by itself, and <m>\textbf{exponent}</m> tells how many times the base is used in the multiplication.
+    </p>
+    <p>
+        A number in index form is written as <m>a^n</m>, where <m>a</m> is the base and <m>n</m> is the exponent.
+    </p>
+    <p>
+        <m>\textbf{To express a number in index form, you can follow these steps:}</m>
+    </p>
+    <p>
+        <ol>
+            <li>
+                <p>
+                    Identify the base of the number you want to express in index form.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Determine the exponent, which is the number of times the base is multiplied by itself to obtain the original number.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Write the number in the form <m>a^n</m>.
+                </p>
+                <p>
+                    For example, the number <m>8</m> can be expressed in index form as <m>2^3</m>.
+                </p>
+            </li>
+        </ol>
+    </p>
+     <example>
         <statement>
             <p>
                 Express the number <m>32</m> in index form.
@@ -189,17 +169,28 @@
         </statement>
         <solution>
             <p> 
-                First,we break down <m>32</m> into its prime factors, by finding which prime numbers multiply together to give us <m>32</m>.
-            </p>
-            <p>
-                <alert>Remember:</alert> Always start with the smallest prime number (which is <m>2</m>). 
-                If the number is not divisible by <m>2</m>, move to the next prime number 
-                (<m>3</m>, then <m>5</m>, and so on) until you can not divide further.
+                First, we break down <m>32</m> into its prime factors by finding the prime numbers that multiply together to give <m>32</m>. 
             </p>
             <p> 
                 To find the prime factors of <m>32</m>, we start with the smallest prime number, which is <m>2</m>.                   
                 We check if <m>32</m> is divisible by <m>2</m>. 
                 Since <m>32\div 2 = 16</m>, it divides exactly, so <m>2</m> is our first prime factor. 
+            </p>
+            
+            <p>
+                Next, we take <m>16</m> and divide it by <m>2</m> again: <m>16 \div 2 = 8</m>. 
+                It divides exactly, so <m>2</m> is our second prime factor.
+            </p>
+            <p>
+                Now, we take <m>8</m> and divide it by <m>2</m> once more: <m>8 \div 2 = 4</m>. 
+                It divides exactly, so <m>2</m> is our third prime factor.
+            </p>
+            <p>
+                Next, we take <m>4</m> and divide it by <m>2</m> again: <m>4 \div 2 = 2</m>. 
+                It divides exactly, so <m>2</m> is our fourth prime factor.
+            </p>
+            <p>
+                Finally, we have <m>2</m>, which is already a prime number and cannot be divided further.
             </p>
             <tabular>
                 <row bottom="medium"> 
@@ -229,29 +220,67 @@
             </tabular>
                 
             <p>
-                Next, we take <m>16</m> and divide it by <m>2</m> again: <m>16 \div 2 = 8</m>. 
-                It divides exactly, so <m>2</m> is our second prime factor.
-            </p>
-            <p>
-                Now, we take <m>8</m> and divide it by <m>2</m> once more: <m>8 \div 2 = 4</m>. 
-                It divides exactly, so <m>2</m> is our third prime factor.
-            </p>
-            <p>
-                Next, we take <m>4</m> and divide it by <m>2</m> again: <m>4 \div 2 = 2</m>. 
-                It divides exactly, so <m>2</m> is our fourth prime factor.
-            </p>
-            <p>
-                Finally, we have <m>2</m>, which is already a prime number and cannot be divided further.
-            </p>
-            <p>
-                So, the prime factors of <m>32</m> are: <m>32 = 2 \times 2 \times 2 \times 2 \times 2</m>.
-            </p>
-            <p>
-                Since <m>2</m>, is multiplied by itself <m>5</m> times, we can express <m>32</m> in index form as <m>2^5</m>
+                Therefore, the prime factors of <m>32</m> are: <m> 2 \times 2 \times 2 \times 2 \times 2</m><me>=2^5</me>.
             </p>
             
         </solution>
     </example>
+    <example>
+        <statement>
+            <p>
+                Express each of the following numbers in index form:
+            </p>
+            <p>
+                <ol marker="(a)">
+                    <li>
+                        <p>
+                            <m>2\times 2\times 2\times 2\times 2</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>64</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <ol>
+                    <li>
+                        
+                        <p>
+                           In <m>2\times 2\times 2\times 2\times 2</m>, the factor <m>2</m> is multiplied by itself <m>5</m> times.
+                        </p>
+                        <p>
+                            This implies that the base is <m>2</m> and the exponent is <m>5</m>.
+                        </p>
+                        <p>
+                            
+                            Therefore, in index form it is written as: <me>2^5</me>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                             <m>64</m> can be expressed as a product of repeated factors as:
+                        </p>
+                        <p>
+                            <md>
+                                <mrow> 64=\amp 2 \times 2 \times 2 \times 2 \times 2 \times 2</mrow>
+                                 <mrow> =\amp 2^6 </mrow>
+                                  
+                            </md>
+                        </p>
+                        <p>
+                            Therefore, in index form it is written as: <m>2^6</m>.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
+   
     <example>
         <statement>
             <p>
@@ -273,121 +302,104 @@
             </p>
             <image width="50%">
                 <latex-image label="Factor tree for 512">
-                    \begin{tikzpicture}
-                       % Root node
-                        \node (n1) at (0,0) {512};
-                        % Level 1
-                        \node (n2) at (-2,-1.5) {2};
-                        \node (n3) at (2,-1.5) {256};
-                        \draw (n1) -- (n2);
-                        \draw (n1) -- (n3);
-                        % Level 2
-                        \node (n4) at (0,-3) {2};
-                        \node (n5) at (4,-3) {128};
-                        \draw (n3) -- (n4);
-                        \draw (n3) -- (n5);
-                        % Level 3
-                        \node (n6) at (2,-4.5) {2};
-                        \node (n7) at (6,-4.5) {64};
-                        \draw (n5) -- (n6);
-                        \draw (n5) -- (n7);
-                        % Level 4
-                        \node (n8) at (4,-6) {2};
-                        \node (n9) at (8,-6) {32};
-                        \draw (n7) -- (n8);
-                        \draw (n7) -- (n9);
-                        % Level 5
-                        \node (n10) at (6,-7.5) {2};
-                        \node (n11) at (10,-7.5) {16};
-                        \draw (n9) -- (n10);
-                        \draw (n9) -- (n11);
-                        % Level 6
-                        \node (n12) at (8,-9) {2};
-                        \node (n13) at (12,-9) {8};
-                        \draw (n11) -- (n12);
-                        \draw (n11) -- (n13);
-                        % Level 7
-                        \node (n14) at (10,-10.5) {2};
-                        \node (n15) at (14,-10.5) {4};
-                        \draw (n13) -- (n14);
-                        \draw (n13) -- (n15);
-                        % Level 8
-                        \node (n16) at (12,-12) {2};
-                        \node (n17) at (16,-12) {2};
-                        \draw (n15) -- (n16);
-                        \draw (n15) -- (n17);
+                    \begin{tikzpicture}[level distance=1.2cm, sibling distance=1.6cm,
+                    every node/.style={circle,draw,minimum size=6mm,inner sep=2pt},
+                    edge from parent/.style={draw,-}]
+                    
+                    % Root node
+                    \node {512}
+                        child {node {2}}
+                        child {node {256}
+                        child {node {2}}
+                        child {node {128}
+                            child {node {2}}
+                            child {node {64}
+                            child {node {2}}
+                            child {node {32}
+                                child {node {2}}
+                                child {node {16}
+                                child {node {2}}
+                                child {node {8}
+                                    child {node {2}}
+                                    child {node {4}
+                                    child {node {2}}
+                                    child {node {2}}
+                                    }
+                                }
+                                }
+                            }
+                            }
+                        }
+                        };
                     \end{tikzpicture}
                 </latex-image>
             </image>
             <p>
-                <m>512 = 2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 2</m>.
+                <md>
+                    <mrow> 512 = \amp 2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 2 </mrow>
+                    <mrow> =\amp 2^9</mrow>
+                </md>
             </p>
-            <p>
-                Since <m>2</m> is multiplied by itself <m>9</m> times, we can express <m>512</m> in index form as <m>2^9</m>.
-            </p>
+        
             <p>
                 b) To express <m>243</m> in index form using base <m>3</m>, we find the prime factorization:
             </p>
             <image width="50%">
                 <latex-image label="Factor tree for 243">
-                    \begin{tikzpicture}
-                        % Root node
-                        \node (n1) at (0,0) {243};
-                        % Level 1
-                        \node (n2) at (-2,-1.5) {3};
-                        \node (n3) at (2,-1.5) {81};
-                        \draw (n1) -- (n2);
-                        \draw (n1) -- (n3);
-                        % Level 2
-                        \node (n4) at (0,-3) {3};
-                        \node (n5) at (4,-3) {27};
-                        \draw (n3) -- (n4);
-                        \draw (n3) -- (n5);
-                        % Level 3
-                        \node (n6) at (2,-4.5) {3};
-                        \node (n7) at (6,-4.5) {9};
-                        \draw (n5) -- (n6);
-                        \draw (n5) -- (n7);
-                        % Level 4
-                        \node (n8) at (4,-6) {3};
-                        \node (n9) at (8,-6) {3};
-                        \draw (n7) -- (n8);
-                        \draw (n7) -- (n9);
+                    \begin{tikzpicture}[level distance=1.2cm, sibling distance=1.6cm,
+                    every node/.style={circle,draw,minimum size=6mm,inner sep=2pt},
+                    edge from parent/.style={draw,-}]
+
+                    % Root node
+                    \node {243}
+                        child {node {3}}
+                        child {node {81}
+                        child {node {3}}
+                        child {node {27}
+                            child {node {3}}
+                            child {node {9}
+                            child {node {3}}
+                            child {node {3}}
+                            }
+                        }
+                        };
                     \end{tikzpicture}
                 </latex-image>
             </image>
             <p>
-                <m>243 = 3 \times 3 \times 3 \times 3 \times 3</m>.
+                <md>
+                    <mrow>243 =\amp 3 \times 3 \times 3 \times 3 \times 3</mrow>
+                    <mrow> =\amp 3^5 </mrow>
+                </md>
             </p>
-            <p>
-                Since <m>3</m> is multiplied by itself <m>5</m> times, we can express <m>243</m> in index form as <m>3^5</m>.
-            </p>
+            
             <p>
                 c) To express <m>125</m> in index form using base <m>5</m>, we find the prime factorization:
             </p>
-            <image width="70%">
+            <image width="50% ">
                 <latex-image label="Factor tree for 125">
-                    \begin{tikzpicture}
+                    \begin{tikzpicture}[level distance=1.2cm, sibling distance=1.6cm,
+                        every node/.style={circle,draw,minimum size=6mm,inner sep=2pt},
+                        edge from parent/.style={draw,-}]
+
                         % Root node
-                        \node (n1) at (0,0) {125};
-                        % Level 1
-                        \node (n2) at (-2,-1.5) {5};
-                        \node (n3) at (2,-1.5) {25};
-                        \draw (n1) -- (n2);
-                        \draw (n1) -- (n3);
-                        % Level 2
-                        \node (n4) at (0,-3) {5};
-                        \node (n5) at (4,-3) {5};
-                        \draw (n3) -- (n4);
-                        \draw (n3) -- (n5);
+                        \node {125}
+                            child {node {5}}
+                            child {node {25}
+                            child {node {5}}
+                            child {node {5}}
+                            };
                     \end{tikzpicture}
                 </latex-image>
+                
+                
             </image>
+            
             <p>
-                <m>125 = 5 \times 5 \times 5</m>.
-            </p>
-            <p>
-                Since <m>5</m> is multiplied by itself <m>3</m> times, we can express <m>125</m> in index form as <m>5^3</m>.
+                <md>
+                    <mrow> 125=\amp 5 \times 5 \times 5</mrow>
+                     <mrow> =\amp 5^3 </mrow>
+                </md>
             </p>
             
         </solution>
