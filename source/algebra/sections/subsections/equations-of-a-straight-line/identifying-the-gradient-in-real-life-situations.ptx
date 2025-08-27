@@ -1,22 +1,21 @@
 <subsection xml:id="subsec-identifying-the-gradient-in-real-life-situations" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Identifying the Gradient in Real-Life Situations</title>
     
-  <introduction>
-    <p>
-      In our everyday environment we notice many surfaces that are slanted rather than perfectly flat. Think of the gentle incline of a ramp at your school, or the varying steepness of a hill on a familiar route. These everyday features are examples of what we call a <m>\textbf{gradient}</m>.
-    </p>
-    <p>
-      Instead of focusing on the mathematics immediately, it is important to understand that the gradient describes how steep a path is—in other words, it tells us how quickly something rises or falls over a certain distance.
-    </p>
-    <p>
-      In practical terms, this concept is useful in planning safe ramps, roads, or even understanding the effort required to climb a hill.
-    </p>
-  </introduction>
-  
-  <worksheet>
+      <p>
+        In our everyday environment we notice many surfaces that are slanted rather than perfectly flat. Think of the gentle incline of a ramp at your school, or the varying steepness of a hill on a familiar route. These everyday features are examples of what we call a <m>\textbf{gradient}</m>.
+      </p>
+      <p>
+        Instead of focusing on the mathematics immediately, it is important to understand that the gradient describes how steep a path is—in other words, it tells us how quickly something rises or falls over a certain distance.
+      </p>
+      <p>
+        In practical terms, this concept is useful in planning safe ramps, roads, or even understanding the effort required to climb a hill.
+      </p>
+    
+
     <activity>
-      <p><m>\textbf{Work in Groups}</m></p>
-      <p><term>Materials Required:</term></p>
+      <p><term>Work in Groups</term></p>
+
+      <p><term>What you need:</term></p>
       <p>
         <ul>
           <li>Measuring tape or ruler</li>
@@ -25,39 +24,41 @@
         </ul>
       </p>
       <p>
-        <m>\textbf{Instructions}</m>
+        <term>Instructions:</term>
       </p>
       <p>
-        <ol>
+        <ol marker="a)">
           <li>Walk around your school and identify at least two sloped surfaces (for example, a ramp near a doorway or a sloping walkway).</li>
           <li>Observe and discuss with your group what “steepness” might mean in a real-life context. Is a gently inclined ramp different from a steep staircase?</li>
           <li>Using a measuring tape, estimate the change in height (how much the surface rises) and the horizontal distance (how far it extends).</li>
-              <li>Record your observations in a table. For example:</li>
-            </ol>
-          </p>
-          <table>
-            <title>Sample Slope Measurements</title>
-            <tabular top="medium" bottom="medium" left="medium" right="medium">
-              <row>
-                <cell>Location</cell>
-                <cell>Estimated Rise (m)</cell>
-                <cell>Estimated Run (m)</cell>
-              </row>
-              <row>
-                <cell>Ramp to hall</cell>
-                <cell></cell>
-                <cell></cell>
-              </row>
-              <row>
-                <cell>Staircase or sloping path</cell>
-                <cell></cell>
-                <cell></cell>
-              </row>
-            </tabular>
-          </table>
-          <p>
-            <ol>
-              <li>Discuss as a group how the steepness might affect the use of that surface (for example, ease of access for a wheelchair or the energy required for a person climbing the hill).</li>
+          <li>Record your observations in a table. For example:</li>
+        </ol>
+      </p>
+
+      <table>
+        <title>Sample Slope Measurements</title>
+        <tabular top="medium" bottom="medium" left="medium" right="medium">
+          <row>
+            <cell>Location</cell>
+            <cell>Estimated Rise (m)</cell>
+            <cell>Estimated Run (m)</cell>
+          </row>
+          <row>
+            <cell>Ramp to hall</cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>Staircase or sloping path</cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+        </tabular>
+      </table>
+
+      <p>
+        <ol marker="e)">
+          <li>Discuss as a group how the steepness might affect the use of that surface (for example, ease of access for a wheelchair or the energy required for a person climbing the hill).</li>
           <li>Discuss as a group how the steepness might affect the use of that surface (for example, ease of access for a wheelchair or the energy required for a person climbing the hill).</li>
         </ol>
       </p>
@@ -66,80 +67,80 @@
           <li>Which surface appears steeper? Why might that be important?</li>
         </ul>
       </p>
-  </activity>
+    </activity>
 
-  <example>
-    <statement>
-        <p>
-        After your group activity, let's see how we can measure the steepness more precisely. For example, consider a ramp that you measured earlier.
-        </p>
-        <p>
-        Suppose one ramp rises <m>1.2 m</m> over a horizontal distance of <m>4 m</m>. To express its steepness numerically, we use the concept of the gradient, often calculated as:
-        </p>
-        <p>
-        <m> \text{Gradient (m)} = \frac{\text{Rise}}{\text{Run}} </m>
-        </p>
-        <p>
-        Thus, for this ramp: 
-        </p>
-        <p>
-        <m> m = \frac{1.2}{4} = 0.3 </m>
-        </p>
-        <p>
-        This numerical value, <m>0.3</m>, indicates that for every 1 metre along the ramp, the height increases by 0.3 m.
-        </p>
-    </statement>
-  </example>
-</worksheet>
-
-<conclusion>
     <p>
-      <m>\textbf{Key Takeaway:}</m> The gradient gives a numerical value to the concept of steepness, allowing us to compare different slopes and understand their practical implications for safety, accessibility, and design.
+      <m>\textbf{Key Takeaway}</m>
     </p>
-  </conclusion>
+    <p>
+      The gradient gives a numerical value to the concept of steepness, allowing us to compare different slopes and understand their practical implications for safety, accessibility, and design.
+    </p>
 
-  <exercise>
-    <p><m>\textbf{Answer the following questions in your exercise book.}</m></p>
+    <example>
+      <statement>
+        <p>
+          Suppose one ramp rises <m>1.2 m</m> over a horizontal distance of <m>4 m</m>. Express its steepness as a gradient.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          To find the gradient, we use the formula:
+        </p>
+        <p>
+          <m>\text{Gradient} = \frac{\text{Rise}}{\text{Run}}</m>
+        </p>
+        <p>
+          Here, the rise is <m>1.2 m</m> and the run is <m>4 m</m>
+        </p>
+        <p>
+          <m>\therefore \ \ \ \ \text{Gradient} = \frac{1.2}{4} = 0.3</m>
+        </p>
+        <p>
+          This means that for every <m>1 m</m> you move horizontally, the ramp rises by <m>0.3 m</m>.
+        </p>
+      </solution>
+    </example>
 
-    <ol>
-      <li>
-        <p>
-          In your own words, explain what the term <m>gradient</m> means in real life.
-        </p>
-      </li>
+    <exercises>
+      <exercise>
+        <p><m>\textbf{Answer the following questions in your exercise book.}</m></p>
 
-      <li>
-        <p>
-          You are shown two walkways:
-        </p>
-        <p>
-            Walkway A: Rises by <m>1.5 \, \text{m}</m> over <m>6 \, \text{m}</m> horizontally
-          </p>
-          <p>
-            Walkway B: Rises by <m>1.5 \, \text{m}</m> over <m>3 \, \text{m}</m> horizontally
-        </p>
-        <p>
-          Without calculating, which walkway do you think is steeper? Why?
-        </p>
-      </li>
-
-      <li>
-        <p>
-          A builder is constructing a ramp for a wheelchair user. She wants it to be easy to climb. Should the gradient be high or low? Explain your answer.
-        </p>
-      </li>
-
-      <li>
-        <p>
-          Name two places in your community where gradients are used on purpose. What purpose do they serve?
-        </p>
-      </li>
-
-      <li>
-        <p>
-          Think of a sloped road you've walked or cycled on. Was it easier or harder to move along the slope? What does that tell you about its gradient?
-        </p>
-      </li>
-    </ol>
-  </exercise>
+        <ol marker="1.">
+          <li>
+            <p>
+              In your own words, explain what the term <m>gradient</m> means in real life.
+            </p>
+          </li>
+          <li>
+            <p>
+              You are shown two walkways:
+            </p>
+            <p>
+                Walkway A: Rises by <m>1.5 \, \text{m}</m> over <m>6 \, \text{m}</m> horizontally
+              </p>
+              <p>
+                Walkway B: Rises by <m>1.5 \, \text{m}</m> over <m>3 \, \text{m}</m> horizontally
+            </p>
+            <p>
+              Without calculating, which walkway do you think is steeper? Why?
+            </p>
+          </li>
+          <li>
+            <p>
+              A builder is constructing a ramp for a wheelchair user. She wants it to be easy to climb. Should the gradient be high or low? Explain your answer.
+            </p>
+          </li>
+          <li>
+            <p>
+              Name two places in your community where gradients are used on purpose. What purpose do they serve?
+            </p>
+          </li>
+          <li>
+            <p>
+              Think of a sloped road you've walked or cycled on. Was it easier or harder to move along the slope? What does that tell you about its gradient?
+            </p>
+          </li>
+        </ol>
+      </exercise>
+    </exercises>
 </subsection>

@@ -17,20 +17,20 @@
     <title>Solving Linear Inequalities in One Variable</title>
 
     <activity>
-      <p><m>\textbf{Work in Pairs}</m></p>
-      <p><term>Materials Required:</term></p>
+      <p><m>\textbf{Group work}</m></p>
+      <p><term>What you need:</term></p>
       <p>
         <ul>
           <li>Pencil and ruler</li>
           <li>Graph paper or notebook</li>
         </ul>
       </p>
-      <p><m>\textbf{Instructions}</m></p>
+      <p><m>\textbf{Instructions:}</m></p>
       <p>
         <ol>
           <li>
-            Solve each of the following inequalities and represent the solution on a number line:
-            <ol marker="a">
+            In your group, solve each of the following inequalities and represent the solution on a number line:
+            <ol marker="a)">
               <li><m>x + 4 &lt; 9</m></li>
               <li><m>2x \ge 12</m></li>
               <li><m>-3x \gt 6</m></li>
@@ -46,6 +46,13 @@
         </ol>
       </p>
     </activity>
+
+    <p>
+      <m>\textbf{Key Takeaway:}</m>
+    </p>
+    <p>
+      Solving linear inequalities involves similar steps to solving equations, but always remember to reverse the inequality when multiplying or dividing by a negative number. For two-variable inequalities, graph the boundary and shade the region of solutions.
+    </p>
 
     <example>
       <statement>
@@ -75,17 +82,17 @@
     <title>Solving Linear Inequalities in Two Variables</title>
 
     <activity>
-      <p><m>\textbf{Group Task}</m></p>
-      <p><term>Materials Required:</term></p>
+      <p><m>\textbf{Group work}</m></p>
+      <p><term>What you need:</term></p>
       <p>
         <ul>
           <li>Graph paper</li>
           <li>Pencils, ruler, and eraser</li>
         </ul>
       </p>
-      <p><m>\textbf{Instructions}</m></p>
+      <p><m>\textbf{Instructions:}</m></p>
       <p>
-        <ol>
+        <ol marker="a)">
           <li>Plot the boundary line for the inequality <m>y \lt 2x + 3</m>. Use a dashed line since the inequality does not include equality.</li>
           <li>Pick a test point like <m>(0,0)</m> to determine which side of the line to shade.</li>
           <li>Shade the correct region that represents all solutions to the inequality.</li>
@@ -117,31 +124,28 @@
       </solution>
     </example>
 
-    <exercise>
-        <p><m>\textbf{Practice the following questions in your notebook.}</m></p>
-        <ol>
-        <li>
-            Solve and represent the solution on a number line: <m>2x + 3 \gt 7</m>
-        </li>
-        <li>
-            Solve and draw a number line for: <m>-4x \le 12</m>
-        </li>
-        <li>
-            Plot the solution set for <m>y \gt x - 2</m> on a graph.
-        </li>
-        <li>
-            Plot the region that satisfies both <m>y \le 2x + 1</m> and <m>y \gt -x</m>.
-        </li>
-        <li>
-            Write a real-life situation that can be modeled using the inequality <m>x \le 6</m> and explain your reasoning.
-        </li>
-        </ol>
-    </exercise>
+    <exercises>
+      <exercise>
+          <p><m>\textbf{Practice the following questions in your notebook.}</m></p>
+          <ol>
+          <li>
+              Solve and represent the solution on a number line: <m>2x + 3 \gt 7</m>
+          </li>
+          <li>
+              Solve and draw a number line for: <m>-4x \le 12</m>
+          </li>
+          <li>
+              Plot the solution set for <m>y \gt x - 2</m> on a graph.
+          </li>
+          <li>
+              Plot the region that satisfies both <m>y \le 2x + 1</m> and <m>y \gt -x</m>.
+          </li>
+          <li>
+              Write a real-life situation that can be modeled using the inequality <m>x \le 6</m> and explain your reasoning.
+          </li>
+          </ol>
+      </exercise>
+    </exercises>
   </subsubsection>
 
-  <conclusion>
-    <p>
-      <m>\textbf{Key Takeaway:}</m> Solving linear inequalities involves similar steps to solving equations, but always remember to reverse the inequality when multiplying or dividing by a negative number. For two-variable inequalities, graph the boundary and shade the region of solutions.
-    </p>
-  </conclusion>
 </subsection>
