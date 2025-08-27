@@ -1,104 +1,152 @@
 <subsection xml:id="subsec-fractional-indices" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Fractional indices</title>
     <p>
-        Fractional indices, also known as rational indices, are used to represent roots of numbers in index form. 
-        A fractional index indicates that the base is raised to a power and then the root is taken.
-    </p>
-    <p>
-        For example, if we have a base <m>a</m> and a fractional index <m>\frac{m}{n}</m>, it can be expressed as:
-        <m>a^{\frac{m}{n}} = \sqrt[n]{a^m}</m>.
-        This means that we first raise <m>a</m> to the power of <m>m</m> and then take the <m>n</m>-th root of the result.
+        
     </p>
     <activity>
         <statement>
             <p>
                 
             </p>
+            <p>
+                <alert>Work in Groups</alert>
+            </p>
+            <p>
+                Investigate what happens when a number is raised to a fractional exponent.
+            </p>
+            <p>
+                <alert>Instructions</alert>
+            </p>
            
             <p>
-               1. In groups of <m>5</m>, investigate what happens when a number is raised to a fractional exponent.
-            </p>
-            <p>
-                2. Consider the number<m>(25)^{1/2}</m>.
-            </p>
-            <p>
-               2. Express it as a product of its prime factors in index form i.e  <m>25 = 5^2</m>, so <m>25^{1/2}= (5^2)^{1/2}</m>.
-            </p>
-            <p>
-               3. Apply the law of indices to simplify the above.
-            </p>
-            <p>
-               4. Now, work out the following: 
-            </p>
-            <p>
-                <ol marker="a)">
+               <ol>
+                <li>
+                    <p>
+                         Consider the number <m>25^\frac{1}{2}</m>.
+                    </p>
+                    <p>
+                        <ol marker="i)">
+                            <li>
+                                <p>
+                                    Express it as a product of its prime factors in index form .
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Apply the law of indices to simplify the above expression.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Work out the following: 
+                    </p>
+                    <p>
+                        <ol marker="a)" cols="3">
                     <li>
                         <p>
-                           <m>8^{2/3}</m> 
+                           <m>8^\frac{2}{3}</m> 
                         </p>
                     </li>
                     <li>
                         <p>
-                            <m>81^{3/4}</m>
+                            <m>81^\frac{3}{4}</m>
                         </p>
                     </li>
                     <li>
                         <p>
-                            <m>27^{1/3}</m>
+                            <m>27^\frac{1}{3}</m>
                         </p>
                     </li>
                 </ol>
-            </p>
-            <p>
-                5. Discuss your work with your classmates.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Discuss your work with your fellow learners.
+                    </p>
+                </li>
+               </ol>
             </p>
         </statement>
     </activity>
+    <definition xml:id="def-fractional-indices">
+        <statement>
+            <p>
+                 Fractional indices, also known as rational indices, are used to represent roots of numbers in index form. 
+        
+            </p>
+            <p>
+                 A fractional index indicates that the base is raised to a power and then the root is taken.
+            </p>
+        </statement>
+    </definition>
+    <p>
+        <alert>Key Takeaway</alert>
+    </p>
+    <p>
+        Given a base <m>a</m> and a fractional index <m>\frac{m}{n}</m>, it can be expressed as:
+        <me>a^{\frac{m}{n}} = \sqrt[n]{a^m}</me>
+    </p>
+    <p>
+        This means that we first raise <m>a</m> to the power of <m>m</m> and then take the <m>n</m>-th root of the result.
+    </p>
     <example>
         <statement>
             <p>
               Evaluate:  
             </p>
             <p>
-               a) <m>16^{3/4}</m>
-            </p>
-            <p>
-               b) <m>4^{-1/2}</m>
+                <ol marker="a)" cols="2">
+                    <li>
+                        <p>
+                            <m>16^\frac{3}{4}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>4^{-\frac{1}{2}}</m>
+                        </p>
+                    </li>
+                </ol>
             </p>
         </statement>
         <solution>
             <p>
-               a) First, express  <m>16^{3/4}</m> as a product of its prime factors: 
-            </p>
-            <p>
-                 <m>16^{3/4} = (4^2)^{3/4}</m>
-            </p>
-            <p>
-                Multiplying powers in <m>(4^2)^{3/4}</m>, we have:
-            </p>
-            <p>
-                <m>2 \times \frac{3}{4} = \frac{3}{2}</m>
-            </p>
-            <p>
-                Therefore, <m>(4^2)^{3/4} = (4)^{3/2}</m>
-            </p>
-            <p>
-                This is the same as <m>(\sqrt{4})^3 = 2^3</m>
-            </p>
-            <p>
-                b) For  <m>4^{-1/2}</m>, we have:
-            </p>
-            <p>
-                  <m>4^{-1/2} = (2^2)^{-1/2}</m>
-            </p>
-            <p>
-               Multiplying powers we have: <m>2 \times -\frac{1}{2} = -1</m>
-            </p>
-            <p>
-                Hence we have: <m>2^{-1}</m>
-            </p>
-            <p>
-               Since <m>2^{-1}</m> is equivalent to <m>\frac{1}{2}</m>, <m>16^{3/4} = \frac{1}{2}</m>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            First, express  <m>16^{\frac{3}{4}}</m> as a product of its prime factors: 
+                        </p>
+                        <p>
+                            Therefore,
+                        </p>
+                        <p>
+                            <md>
+                                <mrow>16^{\frac{3}{4}} = \amp (4^2)^\frac{3}{4}</mrow>
+                                <mrow>= \amp 4^{2 \times \frac{3}{4}}</mrow>
+                                <mrow> =\amp 4^ \frac{3}{2}</mrow>
+                                <mrow>= \amp (\sqrt{4})^3</mrow>
+                                <mrow>= \amp 2^3</mrow>
+                            </md>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Expressing <m>4^{-\frac{1}{2}}</m> as a product of its prime factors we have:
+                        </p>
+                        <p>
+                            <md>
+                                <mrow>4^{-\frac{1}{2}} = \amp (2^2)^{-\frac{1}{2}}</mrow>
+                                <mrow> = \amp 2^{2 \times (-\frac{1}{2})}</mrow>
+                                <mrow>= \amp 2^{-1}</mrow>
+                                <mrow>= \amp \frac{1}{2}</mrow>
+                            </md>
+                        </p>
+                    </li>
+                </ol>
             </p>
         </solution>
     </example>

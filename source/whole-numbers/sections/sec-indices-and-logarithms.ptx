@@ -2,10 +2,6 @@
     <title>Indices and Logarithms</title>
     <introduction>
        
-   
-        <p>
-            Indices and logarithms are mathematical concepts that deal with powers and roots of numbers. They are used to simplify calculations involving large numbers and to express relationships between quantities in a more manageable form.
-        </p>
         <p>
             Indices, also known as exponents, represent the number of times a base is multiplied by itself.
             For example, in the expression <m>a^n</m>, <m>a</m> is the base and <m>n</m> is the exponent or index.
@@ -22,7 +18,6 @@
     <xi:include href="subsections/indices-and-logarithms/zero-indices.ptx" />
     <xi:include href="subsections/indices-and-logarithms/negative-indices.ptx" />
     <xi:include href="subsections/indices-and-logarithms/fractional-indices.ptx" />
-    <xi:include href="subsections/indices-and-logarithms/application-of-the-laws-of-indices.ptx" />
     <xi:include href="subsections/indices-and-logarithms/powers-of-10-and-common-logarithms.ptx" />
     <xi:include href="subsections/indices-and-logarithms/using-IT-to-learn-more-on-indices-and-logarithms.ptx" />
 

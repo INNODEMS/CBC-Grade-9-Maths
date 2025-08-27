@@ -3,26 +3,16 @@
     <p>
         
     </p>
-    <p>
-    
-         <m>\bullet</m> <m> \textbf{Powers of 10 }</m> are numbers that represent a base of <m>10</m> raised to an exponent.  
-    </p>
-    <p>
-        The common logarithm, denoted as <m>\log_{10}</m>, is the logarithm to the base <m>10</m>.
-         It is used to express numbers in terms of powers of <m>10</m>.
-    </p>
-    <p>
-        The common logarithm of a number <m>x</m> is defined as the exponent to which the base <m>10</m> must be raised to obtain <m>x</m>. 
-        In mathematical terms, if <m>y = \log_{10}(x)</m>, then <m>10^y = x</m>.
-    </p>
-    <p>
-        For example, if <m>x = 1000</m>, then <m>\log_{10}(1000) = 3</m> because <m>10^3 = 1000</m>.
-        This means that <m>1000</m> can be expressed as <m>10^3</m>, which is a power of <m>10</m>.
-    </p>
     <activity>
         <statement>
             <p>
                 
+            </p>
+            <p>
+                <alert>Work in Groups</alert>
+            </p>
+            <p>
+                <alert>Instructions</alert>
             </p>
             <p>
                 Imagine you are climbing a mountain and each step you take is a jump by a power of <m>10</m>.
@@ -94,6 +84,18 @@
             </p>
         </statement>
     </activity>
+    <definition xml:id="def-powers-of-10">
+        <statement>
+            <p>
+    
+                <alert>Powers of 10 </alert> are numbers that represent a base of <m>10</m> raised to an exponent.  
+            </p>
+             <p>
+                <term>Common logarithm</term> of a number <m>x</m> is defined as the exponent to which the base <m>10</m> must be raised to obtain <m>x</m>. 
+                In mathematical terms, if <m>y = \log_{10}(x)</m>, then <m>10^y = x</m>.
+            </p>
+        </statement>
+    </definition>
     <p>
         <term>Key Takeaway</term>
     </p>
@@ -101,6 +103,7 @@
         When a number is rewritten as a power of <m>10</m>, its common logarithm is just the exponent.
     </p>
     <tabular top="medium">
+        <col width="50%"/>
         <row left="medium">
             <cell bottom="medium" right="medium">Number</cell>
             <cell bottom="medium" right="medium">Re-written as a power</cell>
@@ -160,39 +163,49 @@
     <example>
         <statement>
             <p>
-               Determine the logarithm of the following numbers: 
+               Express the following in logarithmic notation. 
             </p>
             <p>
-               a) <m>0.00000001</m>
-            </p>
-            <p>
-               b) <m>1000000000</m>
+                <ol marker="a)" cols="2">
+                    <li>
+                        <p>
+                            <m>0.00000001 = 10^{-8}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>1000000000 = 10^9</m>
+                        </p>
+                    </li>
+                </ol>
             </p>
         </statement>
         <solution>
             <p>
-               a) The number <m>0.00000001</m> can be expressed as <m>10^{-8}</m>. 
-            </p>
-            <p>
-                So its logarithm is <m>\log_{10}(0.00000001) </m>.
-            </p>
-            <p>
-                Since the logarithm of a number is the exponent to which the base must be raised to produce that number, we have:
-            </p>
-            <p>
-                <m>\log_{10}(0.00000001) = -8</m>.
-            </p>
-            <p>
-                b) The number <m>1000000000</m> can be expressed as <m>10^9</m>.
-            </p>
-            <p>
-                So its logarithm is <m>\log_{10}(1000000000)</m>.
-            </p>
-            <p>
-                Since the logarithm of a number is the exponent to which the base must be raised to produce that number, we have:
-            </p>
-            <p>
-                <m>\log_{10}(1000000000) = 9</m>.
+                <ol marker="a)" cols="2">
+                    <li>
+                        <p>
+                            If <m>0.00000001 = 10^{-8}</m>. 
+                        </p>
+                        <p>
+                            Then, the logarithmic notation of <m>0.00000001= 10^{-8}</m> is:
+                        </p>
+                        <p>
+                            <m>\log_{10}(0.00000001) = -8</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Since <m>1000000000 = 10^9</m>.
+                        </p>
+                        <p>
+                            Its logarithm is:
+                        </p>
+                        <p>
+                            <m>\log_{10}(1000000000) = 9</m>.
+                        </p>
+                    </li>
+                </ol>
             </p>
         </solution>
     </example>
@@ -202,7 +215,7 @@
                 Determine numbers whose logarithms are equal to the following values:
             </p>
             <p>
-                <ol marker="i)">
+                <ol marker="i)" cols="3">
                     <li>
                         <p>
                             <m>5</m>
@@ -223,66 +236,52 @@
         </statement>
         <solution>
             <p>
-                To find the numbers whose logarithms are equal to the given values, we can use the definition of logarithms:
+                To find the numbers whose logarithms are equal to the given values, we use the definition of logarithms:
             </p>
             <p>
                 If <m>y = \log_{10}(x)</m>, then <m>x = 10^y</m>.
             </p>
             <p>
-                i) For <m>5</m>, we have:
+                <ol marker="i)" >
+                    <li>
+                        <p>
+                            For <m>5</m>, we have:
+                        </p>
+                        <p>
+                            <m>x = 10^5 = 100000</m>.
+                        </p>
+                        <p>
+                            Therefore, the number whose logarithm is <m>5</m> is <m>100000</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            For <m>-3</m>, we have:
+                        </p>
+                        <p>
+                            <m>x = 10^{-3} = \frac{1}{1000} = 0.001</m>.
+                        </p>
+                        <p>
+                            Hence, the number whose logarithm is <m>-3</m> is <m>0.001</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                             For <m>8</m>, we have:
+                        </p>
+                        <p>
+                             <m>x = 10^8 = 100000000</m>.
+                        </p>
+                        <p>
+                            The number is <m>100000000</m>.
+                        </p>
+                    </li>
+                </ol>
             </p>
-            <p>
-                <m>x = 10^5 = 100000</m>.
-            </p>
-            <p>
-                Therefore, the number whose logarithm is <m>5</m> is <m>100000</m>.
-            </p>
-            <p>
-                ii) For <m>-3</m>, we have:
-            </p>
-            <p>
-                <m>x = 10^{-3} = \frac{1}{1000} = 0.001</m>.
-            </p>
-            <p>
-                Hence, the number whose logarithm is <m>-3</m> is <m>0.001</m>.
-            </p>
-            <p>
-                iii) For <m>8</m>, we have:
-            </p>
-            <p>
-                <m>x = 10^8 = 100000000</m>.
-            </p>
-            <p>
-                The number is <m>100000000</m>.
-            </p>
+            
         </solution>
     </example>
-    <example>
-        <statement>
-            <p>
-                Simplify the expression <m>10^3 \times 10^{-2}</m>.
-            </p>
-           
-        </statement>
-        <solution>
-             <p>
-                To simplify this expression, we can use the rule of indices that states <m>a^m \times a^n = a^{m+n}</m>.
-            </p>
-            <p>
-                By the rules of indices, we can combine the powers of <m>10</m>:
-            </p>
-            <p>
-                <m>10^3 \times 10^{-2} = 10^{3-2} = 10^1</m>.
-            </p>
-
-            <p>
-                Therefore, <m>10^3 \times 10^{-2} = 10^1 = 10</m>.
-            </p>
-            <p>
-                This means that the expression simplifies to <m>10</m>.
-            </p>
-        </solution>
-    </example>
+   
 
     
 </subsection>
