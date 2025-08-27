@@ -5,11 +5,23 @@
            <term>Work in groups</term> 
         </p>
         <p>
-            Consider the following equation of a line: <m>y = 2x + 1.</m>
+            <ul>
+                <li>
+                    <p>
+                        Consider the following equation of a line: <m>y = 2x + 1.</m> 
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Generate a table of values by substituting different x-values: <m>x = {-2, -1, 0, 1, 2 }</m> in the equation.
+                    </p>
+                </li>
+            </ul>   
         </p>
         <p>
-            Generate a table of values by substituting different x-values: <m>x = {-2, -1, 0, 1, 2}</m> in the equation.
+            
         </p>
+        
         <tabular valign="top" top="minor" bottom="minor" left="minor" right="minor"> 
             <row halign="center">
                 <cell><m>x</m></cell>
@@ -30,9 +42,36 @@
             </row>
         </tabular>
         <p>
-            Plot the points and draw a straight line through them.
+            <ul>
+                <li>
+                    <p>
+                    Plot the points and draw a straight line through them. 
+                    </p>
+                </li>
+            </ul>    
         </p>
     </activity>
+    <p>
+        <m>\textbf{ Key Takeaway }</m>
+    </p>
+    <p>
+        Straight-line graph represents: a constant rate of change between two variables.
+    </p>
+    <p>
+        The structure of the equation of a straight line is: <m>y=mx+c</m> where;
+        <ul>
+            <li>
+                <p>
+                    <m>m</m> is the slope (rate of change)
+                </p>
+            </li>
+            <li>
+                <p>
+                    <m>c</m> is the y-intercept (starting value)
+                </p>
+            </li>
+        </ul>
+    </p>
     <example>
         <statement>
             <p>

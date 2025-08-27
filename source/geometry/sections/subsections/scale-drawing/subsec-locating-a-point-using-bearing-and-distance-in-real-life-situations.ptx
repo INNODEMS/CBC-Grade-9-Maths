@@ -1,7 +1,165 @@
 <subsection xml:id="subsec-locating-a-point-using-bearing-and-distance-in-real-life-situations">
     <title>Locating a Point Using Bearing and Distance in Real Life Situations</title>
+    <activity>
+        <statement>
+            <p>
+                <term>Work in groups</term>
+            </p>
+            <p>
+                <term>Materials Needed</term>
+            </p>
+            <p>
+                Compass, measuring tape or meter wheel, clipboards, pencils, school compound map (or blank paper for sketching).
+            </p>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                           In your groups, choose a starting point within the school compound (e.g., school gate, flagpole, staffroom). 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Each group will hoose 3–4 other landmarks around the school.
+            
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Use the compass to determine the bearing from their starting point to each landmark.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Measure or estimate the distance between their point and each landmark. Record bearings using three-figure notation (e.g., 072°).
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Create a scaled sketch map of the landmarks showing relative positions, distances and bearings.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Each group presents one of their bearings and explain how they measured it. What  challenges did you face in this activity? (e.g., compass interference)
+                            What are the real-world implications of bearing (e.g., navigation, mapping, aviation).
+                        </p>
+                    </li>
+                </ul>
+            </p>              
+        </statement>
+    </activity>
     <p>
-        
+        <m>\textbf{ Key Takeaway }</m>
     </p>
+    <p>
+        Bearings and distances is used to accurately determine and plot the location of an object or landmark on a map.
+    </p>
+    <example>
+        <statement>
+            <p>
+                Point P is <m>1300\,m</m> due west of point Q. Point R is <m>400 \, m</m> due north  of point Q. Point S is <m>1000\,m</m> due west of R. 
+                Using a scale of <m>1\,m \text{ rep } 100\,cm,</m> sketch the given information and answer the following questions:
+            </p>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                           Determine the bearing of S from P. 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Distance PS.
+                        </p>
+                    </li>
+                </ul>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Sketch the given information:
+            </p>
+            <image width="50%">
+                <latex-image label="sketch-bearing-distance">
+                    \begin{tikzpicture}
+                    \usetikzlibrary{angles,quotes} % Required for angle annotations
+
+                        \filldraw[black] (0,0) circle (2pt) node[below right] {P};  
+                        \filldraw[black] (5,0) circle (2pt) node[below right] {Q};
+                        \filldraw[black] (5,4) circle (2pt) node[below right] {R};
+                        \filldraw[black] (3,4) circle (2pt) node[below right] {S};
+
+                        % Trapezium PQRS
+                        \coordinate (P) at (0,0);
+                        \coordinate (Q) at (5,0);
+                        \coordinate (R) at (5,4);
+                        \coordinate (S) at (3,4);
+
+                        \draw[thick] (P) -- (Q) -- (R) -- (S) -- cycle;
+                        
+                        \draw[black,-&gt;] (0,-1)--(0,1); 
+                        \draw[black] (-1,0)--(1,0);
+
+                        \node at (2.5,-.5) {$1300 m$};
+                        \node at (5.5,2) {$400 m$};
+                        \node at (4,4.5) {$1000 m$};
+
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
+            <p>
+                The sketch when drawn to scale of  <m>1\,m \text{ rep } 100\,cm:</m>
+            </p>
+            <image>
+                <latex-image label="scale-drawing-bearing-distance">
+                    \begin{tikzpicture}
+                    \usetikzlibrary{angles,quotes} % Required for angle annotations
+
+                        \filldraw[black] (0,0) circle (2pt) node[below right] {P};  
+                        \filldraw[black] (5,0) circle (2pt) node[below right] {Q};
+                        \filldraw[black] (5,4) circle (2pt) node[below right] {R};
+                        \filldraw[black] (3,4) circle (2pt) node[below right] {S};
+
+                        % Trapezium PQRS
+                        \coordinate (P) at (0,0);
+                        \coordinate (Q) at (5,0);
+                        \coordinate (R) at (5,4);
+                        \coordinate (S) at (3,4);
+                        \coordinate (T) at (0,1);
+
+                        \draw[thick] (P) -- (Q) -- (R) -- (S) -- cycle;
+                        
+                        \draw[black,-&gt;] (0,-1)--(0,1); 
+                        \draw[black] (-1,0)--(1,0);
+
+                        \node at (2.5,-.5) {$13 cm$};
+                        \node at (5.5,2) {$4 cm$};
+                        \node at (4,4.5) {$10 cm$};
+
+                        \draw[draw=black] plot coordinates{(T)(P)(S)} pic["$ $", draw=orange, angle eccentricity=1.2, angle radius=.5cm]
+                        {angle=S--P--T};; 
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
+            <p>
+              <ul>
+                <li>
+                    <p>
+                        Use a compass to find the bearing of point S from Q. The bearing of S from P is <m>045^\circ.</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                       Use a ruler to measure the drawing length PS then convert your answer to the actual disatnce using the given scale. The drawing length of PS is <m>5\,cm.</m>
+                        Therefore the actual distance will be <m>5 \, \times 100 \, m = 500 \, m.</m> 
+                    </p>
+                </li>
+              </ul>
+            </p>
+        </solution>
+    </example>
+    
+    
     
 </subsection>

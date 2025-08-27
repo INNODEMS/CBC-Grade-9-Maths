@@ -3,18 +3,135 @@
     <activity>
         <statement>
             <p>
-                Consider the following two equations:
-                <m>y = 2x + 3 </m> and <m>y = 2x - 4.</m>
-            </p>
-            <p>
-                Generate tables plot the points, and draw the lines for the equations.
-            </p>
-            <p>
-                Compare the lines and discuss why they are parallel.
+                <ul>
+                    <li>
+                        <p>
+                            Consider the following two equations:
+                        <m> y = 5x + 2 </m> and <m>y = 5x - 1</m>
+                        </p>
+                   </li>
+                    <li>
+                        <p>
+                            Generate tables plot the points, and draw the lines for the equations
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Compare the lines and discuss why they are parallel.
+                        </p>
+                    </li>
+                </ul>
             </p>
         </statement>
     </activity>
     <p>
-        
+        <m>\textbf{ Key Takeaway }</m>
     </p>
+    <p>
+        Parallel lines are lines that never meet and are always the same distance apart.
+    </p>
+    <p>
+        Parallel lines have the same direction or slope.
+    </p>
+    <example>
+        <statement>
+            <p>
+                Draw the graphs of <m>y = 2x + 3</m> and <m>y = 2x - 4.</m>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                First, generate the table of values for both equations.
+            </p>
+            <sidebyside>
+                <tabular>
+                    <row>
+                        <cell><m>y = 2x + 3</m></cell>
+                    </row>
+                </tabular>
+                <tabular>
+                    <row>
+                        <cell><m>y = 2x - 4</m></cell>
+                    </row>
+                </tabular>
+            </sidebyside>
+            
+        <sidebyside>
+            <tabular valign="top" top="minor" bottom="minor" left="minor" right="minor"> 
+            <row halign="center">
+                <cell><m>x</m></cell>
+                <cell><m>-2</m></cell>
+                <cell><m>-1</m></cell>
+                <cell><m>0</m></cell>
+                <cell><m>1</m></cell>
+                <cell><m>2</m></cell>
+            </row>
+
+            <row halign="center">
+                <cell><m>y</m></cell>
+                <cell><m>-1</m></cell>
+                <cell><m>1</m></cell>
+                <cell><m>3</m></cell>
+                <cell><m>5</m></cell>
+                <cell><m>7</m></cell>
+            </row>
+        </tabular>
+        <tabular valign="top" top="minor" bottom="minor" left="minor" right="minor"> 
+            <row halign="center">
+                <cell><m>x</m></cell>
+                <cell><m>-2</m></cell>
+                <cell><m>-1</m></cell>
+                <cell><m>0</m></cell>
+                <cell><m>1</m></cell>
+                <cell><m>2</m></cell>
+            </row>
+
+            <row halign="center">
+                <cell><m>y</m></cell>
+                <cell><m>-8</m></cell>
+                <cell><m>-6</m></cell>
+                <cell><m>-4</m></cell>
+                <cell><m>-2</m></cell>
+                <cell><m>0</m></cell>
+            </row>
+        </tabular>
+        </sidebyside>
+        <image>
+            <latex-image label="parallel-lines">
+                \begin{tikzpicture}
+                   % Draw axes with arrowheads
+                    \draw[thick,-&gt;] (-8,0) -- (8,0) node[right] {\textbf{x-axis}};
+                    \draw[thick,-&gt;] (0,-8) -- (0,9) node[above] {\textbf{y-axis}};
+
+                    % Add tick marks on x-axis
+                    \foreach \x in {-7,-6,-5,-4,-3,-2,-1,0,1,2,3,4,5,6,7}
+                        \draw (\x,0) -- (\x,-0.2) node[below] {\x};
+
+                    % Add tick marks on y-axis
+                    \foreach \y in {-8,-7,-6,-5,-4,-3,-2,-1,0,1,2,3,4,5,6,7,8}
+                        \draw (0,\y) -- (-0.2,\y) node[left] {\y};
+
+                    % Grid for reference
+                    \draw[help lines, dashed] (-8,-8) grid (8,9);
+
+                    % Graph: y = 2x + 3
+                    \draw[thick,blue,domain=-2:2] plot (\x,{2*\x + 3}) node[above right] {\textbf{y = 2x + 3}};
+                    \filldraw[blue] (-1,1) circle (2pt) node[left] {(-1,1)};
+                    \filldraw[blue] (0,3) circle (2pt) node[below right] {(0,3)};
+                    \filldraw[blue] (1,5) circle (2pt) node[right] {(1,5)};
+
+                    % Graph: y = 2x - 4
+                    \draw[thick,red,domain=-2:2] plot (\x,{2*\x - 4}) node[below right] {\textbf{y = 2x - 4}};
+                    \filldraw[red] (-1,-6) circle (2pt) node[below left] {(-1,-6)};
+                    \filldraw[red] (0,-4) circle (2pt) node[below right] {(0,-4)};
+                    \filldraw[red] (1,-2) circle (2pt) node[above right] {(1,-2)}; 
+                \end{tikzpicture}
+            </latex-image>
+        </image>
+        <p>
+           Both lines are parallel, clearly shown by their identical slope.
+        </p>
+        </solution>
+    </example>
+    
 </subsection>

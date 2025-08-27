@@ -1,0 +1,184 @@
+<subsection xml:id="subsec-local-time-of-places-along-different-longitudes">
+    <title>Local time of places on the Earth along different Longitudes</title>
+    <activity>
+        <p>
+            Work in groups.
+        </p>
+        <p>
+            Use an atlas or a map of the world showing longitudes and the Prime Meridian. Then complete the following tasks:
+        </p>
+        <p>
+            <ol marker="1. ">
+                <li>
+                    <p>
+                        Identify three towns or cities located at different longitudes (one in the Eastern Hemisphere, one near the Prime Meridian, and one in the Western Hemisphere). Record their longitudes.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Assume the local time in the town closest to the Prime Meridian is <m>12:00</m> noon. Using the concept that <m>1^\circ</m> of longitude equals <m>4</m> minutes, calculate the local time in the other two towns.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Share your group’s findings with the class. Explain how the direction (east or west) of a town’s longitude affected its local time compared to the Prime Meridian.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Discuss: What challenges might arise in global communication or travel due to differences in local time?
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity>
+    <p>
+        <m>\textbf{Key Takeaway}</m>
+    </p>
+    <remark>
+        <p>
+            The earth rotates on its axis from <em>west</em> to <em>east</em>, 
+            which means that places to the east of a given location will experience sunrise earlier than those to the west. 
+            This results in different local times for places along different longitudes.
+        </p>
+        <p>
+            The earth takes <m>24</m> hours to complete one full rotation covering <m>360</m> degrees of longitude,
+            which means that each <term>hour</term> corresponds to <m>15</m> degrees of longitude (360 degrees <m>\div</m> <m>24</m> hours <m>=</m> <m>15</m> degrees/hour).
+            Therefore, for every <m>15</m> degrees of longitude difference between two places, there is a one-hour difference in local time.
+        </p>
+        <p>
+            Therefore, the earth covers <m>1^\circ</m> of longitude in <m>4</m> minutes. We gain time as we move eastward and lose time as we move westward.
+        </p>
+    </remark>
+    <example>
+        <statement>
+            <p>
+                Town A is situated at <m>40^\circ</m> E longitude. What will be the local time in Town A when it is <m>12:00</m> noon at the Prime Meridian?
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Town A is located <m>40^\circ</m> east of the Prime Meridian. To find the time difference, we use the fact that the Earth rotates through <m>1^\circ</m> of longitude every <m>4</m> minutes.
+            </p>
+            <p>
+                Therefore, the time difference between Town A and the Prime Meridian is:
+            </p>
+            <p>
+                <m>40^\circ \times 4 = 160</m> minutes
+            </p>
+            <p>
+                Converting <m>160</m> minutes into hours and minutes:
+            </p>
+            <p>
+                <m>160 \text{ minutes} = 2 \text{ hours and } 40 \text{ minutes}</m>
+            </p>
+            <p>
+                Since Town A is east of the Prime Meridian, its local time is ahead.
+            </p>
+            <p>
+                So, when it is <m>12:00</m> noon at the Prime Meridian, the local time in Town A is <m>2:40</m> PM.
+            </p>
+        </solution>
+    </example>
+
+    <example>
+        <statement>
+            <p>
+                If it is 10:00 am at <m>50^\circ</m> E, what time is it at <m>30^\circ</m> W?
+            </p>
+        </statement>
+        <solution>
+            <p>
+                The total difference in longitude between <m>50^\circ</m> E and <m>30^\circ</m> W is:
+            </p>
+            <p>
+                <m>50 + 30 = 80</m> degrees
+            </p>
+            <p>
+                Since the Earth rotates <m>1^\circ</m> every <m>4</m> minutes, the time difference is:
+            </p>
+            <p>
+                <m>80 \times 4 = 320</m> minutes
+            </p>
+            <p>
+                Converting <m>320</m> minutes into hours and minutes:
+            </p>
+            <p>
+                <m>320 \text{ minutes} = 5 \text{ hours and } 20 \text{ minutes}</m>
+            </p>
+            <p>
+                Since <m>50^\circ</m> E is east of <m>30^\circ</m> W, we need to subtract the time difference from the time at <m>50^\circ</m> E.
+            </p>
+            <p>
+                Therefore, the time at <m>30^\circ</m> W is:
+            </p>
+            <p>
+                <m>10:00 \text{ am} - 5 \text{ hours and } 20 \text{ minutes} = 4:40 \text{ am}</m>
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                If it is 3:00 pm at <m>90^\circ</m> W, what time is it at <m>60^\circ</m> E?
+            </p>
+        </statement>
+        <solution>
+            <p>
+                The total difference in longitude between <m>90^\circ</m> W and <m>60^\circ</m> E is:
+            </p>
+            <p>
+                <m>90 + 60 = 150</m> degrees
+            </p>
+            <p>
+                Since the Earth rotates <m>1^\circ</m> every <m>4</m> minutes, the time difference is:
+            </p>
+            <p>
+                <m>150 \times 4 = 600</m> minutes
+            </p>
+            <p>
+                Converting <m>600</m> minutes into hours and minutes:
+            </p>
+            <p>
+                <m>600 \text{ minutes} = 10 \text{ hours}</m>
+            </p>
+            <p>
+                Since <m>90^\circ</m> W is west of <m>60^\circ</m> E, we need to add the time difference to the time at <m>90^\circ</m> W.
+            </p>
+            <p>
+                Therefore, the time at <m>60^\circ</m> E is:
+            </p>
+            <p>
+                <m>3:00 \text{ pm} + 10 \text{ hours} = 1:00 \text{ am}</m>
+            </p>
+        </solution>
+    </example>
+    <exercise>
+        <statement>
+            <p>
+                TODO
+            </p>
+        </statement>
+    </exercise>
+    <technology>
+        <title>Explore more on Time, Distance, and Speed</title>
+        <p>
+            <ol marker="1. ">
+                <li>
+                    <p>
+                        Explore the concept of average speed and how it relates to time and distance with this interactive video.
+                    </p>
+                    <video youtube="mt6Nq0dzFjo"/>
+                </li>
+                <li>
+                    <p>
+                        Explore more on the concept of Acceleration, which is the rate of change of velocity with respect to time.
+                    </p>
+                    <video youtube="gWaI-mzn69c"/>
+                </li>
+            </ol>
+
+        </p>
+    </technology>
+    
+</subsection>

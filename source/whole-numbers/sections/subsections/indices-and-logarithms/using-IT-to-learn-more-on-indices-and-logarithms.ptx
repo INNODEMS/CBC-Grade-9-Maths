@@ -1,0 +1,40 @@
+<subsection xml:id="subsec-using-IT-to-learn-more-on-indices-and-logarithms" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Using IT to learn more on indices and logarithms</title>
+    <p>
+        In this section, we will explore how Information Technology (IT) can be utilized to enhance our understanding of indices and logarithms.
+        IT tools such as calculators, computer software, and online resources can provide valuable assistance in learning and applying these mathematical concepts.
+    </p>
+    <p>
+        Example of sources that can be used include:
+    </p>
+    
+    <p>
+       1. <m>\textbf{Video tutorials explaining logarithm concepts and applications}</m>
+    </p>
+    <figure>
+        <title>My first day with my drone (Splashdown)</title>
+        <caption></caption>
+        <video xml:id="logarithm-clip" youtube="zzu2POfYv0Y" width="70%" start="15" end="128"/>
+    </figure>
+    <p>
+       2. <m>\textbf{Online calculators for logarithmic computations}</m>
+    </p>
+    <p>
+        <url href="https://www.rapidtables.com/calc/math/exponent-calculator.html?" />
+    </p>
+    <p>
+        3. <m>\textbf{Educational websites with interactive lessons}</m>
+    </p>
+    <p>
+        <url href="https://www.iknowit.com/lessons/e-powers-of-10.html?" />
+    </p>
+    <p>
+        <url href="https://www.education.com/game/jumpy-powers-of-10/?" />
+    </p>
+    <p>
+        <url href="https://www.mathmammoth.com/practice/exponents?" />
+    </p>
+    
+
+    
+</subsection>

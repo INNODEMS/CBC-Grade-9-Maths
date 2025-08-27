@@ -4,7 +4,66 @@
             <p>
                 <m>\textbf{Work in groups}</m>
             </p>
-           
+            <p>
+                <m>\textbf{Classroom Experiment: Tossing a Coin} </m>
+            </p>
+            <p>
+                 <m>\textbf{Materials : One coin per pair of learners.} </m>
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Each pair of students tosses a coin 20 times.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Record how many times it lands on Heads and how many times on Tails.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Complete a tally table and discuss:
+                            <ul>
+                                <li>
+                                    <p>
+                                        Were the outcomes equal?
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Was any outcome more likely?
+                                    </p>
+                                </li>
+                            </ul>
+                        </p>
+                    </li>
+                </ol>
+            </p>
         </activity>
+        <example>
+            <statement>
+                <p>
+                    A coin is tossed once. What is the probability of getting a Head?
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    Sample space = {Head, Tail}
+                </p>
+                <p>
+                    Number of favorable outcomes (Head) = 1
+                </p>
+                <p>
+                    Total outcomes = 2
+                </p>
+                <p>
+                    <md>
+                        <mrow> \textbf{P(Head)} = \frac{1}{2} = 0.5 </mrow>
+                    </md>
+                </p>
+            </solution>
+        </example>
      
 </subsection>

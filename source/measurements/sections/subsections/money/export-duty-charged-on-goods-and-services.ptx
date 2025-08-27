@@ -1,0 +1,146 @@
+<subsection xml:id="subsec-export-duty-charged-on-goods-and-services">
+    <title>Export duty charged on goods and services</title>
+    <activity>
+       <statement>
+        
+      <p>
+       In this activity, you will act as an export officer in Kenya. Your task is to understand how export duty works and how it affects the money you earn from exporting goods.
+      </p>
+      <p>
+        Imagine you run a business in Kenya. You want to export your products to earn money.
+        But the government charges <em>export duty</em> on certain goods. Your job is to choose
+        the best product to export and calculate the duty you will pay.
+    </p>
+    <p>
+      Work in pairs or groups. Each group picks one product from the list below and follows the steps provided.
+    </p>
+    <p>
+     Here are some products you can choose from:
+      <ul>
+        <li>
+          <p>
+            Coffee – Value: Ksh 70,000 – Export duty: 5%
+
+          </p>
+        </li>
+        <li>
+          <p>Flowers – Value: Ksh 50,000 – Export duty: 4%
+
+          </p>
+        </li>
+        <li>
+          <p>Tea – Value: Ksh 90,000 – Export duty: 6%
+
+          </p>
+        </li>
+        <li>
+          <p>Hides and Skins – Value: Ksh 60,000 – Export duty: 10%
+
+          </p>
+        </li>
+      </ul>
+      </p>  
+
+      <p>
+        🔹 Choose one product to export from the list above. Discuss and write down why you chose it.
+      </p>
+      <p>
+        🔹 Calculate the export duty for your chosen product using this formula:  
+        <m>\textbf{Export Duty = (Rate ÷ 100) × Value of the product}</m>
+      </p>
+      <p>
+        🔹 Subtract the export duty from the product's value to find out how much money you will actually earn.
+      </p>
+      <p>
+        🔹 Now imagine the export duty increases by 2%. Recalculate your earnings. Would your group still export the same product? Why or why not?
+      </p>
+
+        <p>
+          This activity helps you understand how export duty affects business profits and the choices exporters make in the real world.
+        </p>
+
+  </statement>
+</activity>
+
+    <p>
+       <m>\textbf{Key Takeaway} </m>
+    </p>
+    <p>
+      Export duty is a tax imposed by the government on goods that are sent out of the country. This duty is charged to ensure that the country benefits from the export of its resources.
+    </p>
+    <p>
+        <m>\textbf{NOTE:}</m>
+    </p>
+ 
+    <p>
+      When goods are sent out of a country to be sold in other countries, this is called <em>exporting</em>. 
+      Sometimes, the government adds a charge called <m>\textbf{export duty}</m> on the goods. 
+      This money helps support the country's economy.
+    </p>
+
+  <example>
+    <statement>
+        <p>
+      A company in Kenya exports coffee worth Ksh 50,000. If the government charges an export duty of 5%, 
+      how much duty must the company pay?
+    </p>
+    </statement>
+  <hint>
+    <p>
+      To find the export duty, multiply the value of the goods by the duty rate (as a decimal).
+    </p>
+  </hint>
+
+  <solution>
+    <p>
+      Export duty = 5% of Ksh 50,000 = (5/100) × 50,000 = Ksh 2,500.
+    </p>
+    <p>
+      The company will pay Ksh 2,500 as export duty.
+    </p>
+  </solution>
+
+</example>
+<example>
+    <statement>
+      <p>
+        A farmer exports tea worth Ksh 120,000. If the export duty rate is 3%, how much duty will the farmer pay?
+      </p>
+    </statement>
+    <solution>
+        <p>
+            Export duty = 3% of Ksh 120,000 = (3/100) × 120,000 = Ksh 3,600.
+            <md>
+                <mrow>  \amp </mrow>
+            </md>
+        </p>
+        <p>
+            The farmer will pay Ksh 3,600 as export duty.
+        </p>
+    </solution>
+  </example>
+  <example>
+    <title>Example: Export Duty on Mangoes</title>
+    <statement>
+      <p>
+        A trader exports mangoes worth Ksh 80,000. If the export duty rate is 2.5%, how much duty will the trader pay?
+      </p>
+    </statement>
+    <hint>
+      <p>
+        To find the export duty, multiply the value of the mangoes by the export duty rate (as a decimal).
+      </p>
+    </hint>
+    <solution>
+        <p>
+            Export duty = 2.5% of Ksh 80,000 = (2.5/100) × 80,000 = Ksh 2,000.
+        </p>
+        <p>
+            The trader will pay Ksh 2,000 as export duty.
+        </p>
+    </solution>
+</example>
+
+  
+
+</subsection>

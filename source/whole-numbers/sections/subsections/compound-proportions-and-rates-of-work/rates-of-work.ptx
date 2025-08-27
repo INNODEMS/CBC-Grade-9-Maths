@@ -1,0 +1,223 @@
+<subsection xml:id="subsec-rates-of-work" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Rates of work</title>
+    <p>
+        The rate of work is a measure of how quickly work is done or how much work is completed in a given amount of time.
+         It is often expressed as the amount of work done per unit of time, such as hours, days, or weeks.
+    </p>
+    <p>
+        When dealing with rates of work, the key is to find out how much work a person/thing can do in one hour, one day, or any other time unit.
+    </p>
+    <p>
+        
+    </p>
+    <activity>
+        <statement>
+            <p>
+                <m>\bf{Materials\, needed}</m>
+            </p>
+            <p>
+               - Sticks or stones (<m>60</m> in number)
+            </p>
+            <p>
+               - Markers or chalk to draw a start point (where the participants will start picking the sticks or stones) and a drop zone (where they will place the picked sticks or stones).
+            </p>
+            <p>
+               - A watch to measure the time taken.
+            </p>
+            <p>
+               - Book and pen to record the results.
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Outside your classroom, form <m>2</m> groups, A and B.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Mark a start point and a drop zone for each group such that the distance between the start point and the drop zone is <m>10</m> metres.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                           One volunteer from each group will pick up the sticks or stones from the start point and place them in the drop zone. Each start point will have <m>30</m> sticks or stones.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The volunteer will start picking the sticks or stones at the same time as the group members starts the watch.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The volunteers will pick one stick or stone at a time and place it in the drop zone. They will continue this until all the sticks or stones are picked.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The group members will stop the watch when the volunteer has placed all the sticks or stones in the drop zone.
+                             Group members of group A and B will record the time taken by volunteer from their group to pick all the sticks or stones.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Repeat the activity with <m>5</m> volunteers from each group.The volunteers will take turns picking the sticks or stones.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The volunteer from each group will drop the stick or stone in the drop zone and return to tag the next volunteer in the line till the last stick is picked while the group members record the total time taken by <m>5</m> volunteers to complete the task.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Go back to your groups and find the average time taken by <m>1</m> person to complete the task and the rate of work.
+                        </p>
+                        <p>
+                            Find also the average time taken by <m>5</m> volunteers to complete the task and the rate of work.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Share your findings with the other group.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </activity>
+    <example>
+        <statement>
+            <p>
+                A group of workers can complete a task in <m>8</m> hours. If they work at the same rate, how long will it take them to complete the same task if they double their effort?
+            </p>
+        </statement>
+        <solution>
+            <!-- <p>
+                <m>\textbf{Rate of work}</m> is the amount of work done per unit of time, often expressed as work divided by time.
+            </p>
+            <p>
+                In this case, the rate of work can be calculated as follows:
+            </p>
+            <p>
+                <m>\text{Rate of work} = \frac{\text{Total work done}}{\text{Time taken}}</m>
+            </p> -->
+            <p>
+                If the group of workers can complete a task in <m>8</m> hours, doubling their effort means they will work twice as fast.
+            </p>
+            <p>
+                Therefore, the time taken to complete the same task when they double their effort will be half of <m>8</m> hours.
+            </p>
+            <p>
+                <m>\text{Time taken} = \frac{8}{2} = 4 \text{ hours}</m>
+            </p>
+            <p>
+                So, it will take them <m>4</m> hours to complete the same task if they double their effort.
+            </p>
+            
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                A factory produces <m>100</m> units of a product in <m>5</m> hours. If the factory increases its production rate by <m>20%</m>, how many units will it produce in <m>5</m> hours?
+            </p>
+        </statement>
+        <solution>
+            <p>
+                The factory's current production rate is <m>100</m> units in <m>5</m> hours, which means it produces <m>20</m> units per hour.
+            </p>
+            <p>
+                If the factory increases its production rate by <m>20%</m>, the new production rate will be:
+            </p>
+            <p>
+                <m>\text{New production rate} = 20 + (20 \times 0.20) = 20 + 4 = 24 \text{ units per hour}</m>
+            </p>
+            <p>
+                Now, to find out how many units the factory will produce in <m>5</m> hours at the new production rate:
+            </p>
+            <p>
+                <m>\text{Units produced in 5 hours} = 24 \times 5 = 120 \text{ units}</m>
+            </p>
+            <p>
+                Therefore, the factory will produce <m>120</m> units in <m>5</m> hours after increasing its production rate by <m>20%</m>.
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                Mary, John and Essy did a piece of work in <m>45</m> hours, <m>40</m> hours and <m>30</m> hours respectively.
+                How long can John take to complete the work when he starts after Mary and Essy have worked for <m>13</m> hours each?
+            </p>
+        </statement>
+        <solution>
+            <p>
+                First, we need to find out the amount of work done by Mary, John, and Essy in one hour.
+            </p>
+            <p>
+                The work done by each person in one hour is:
+            </p>
+            <p>
+                <m>\text{Mary's rate} = \frac{1}{45} \text{ of the work per hour}</m>
+            </p>
+            <p>
+                <m>\text{John's rate} = \frac{1}{40} \text{ of the work per hour}</m>
+            </p>
+            <p>
+                <m>\text{Essy's rate} = \frac{1}{30} \text{ of the work per hour}</m>
+            </p>
+            <p>
+                Therefore, the amount of work Mary and Essy will do in <m>1</m> hour is:
+            </p>
+            <p>
+                <m>\frac{1}{45} + \frac{1}{30} = \frac{2}{90} + \frac{3}{90} = \frac{5}{90} </m>
+            </p>
+            <p>
+               <m>= \frac{1}{18} \text{ of the work per hour}</m> 
+            </p>
+            <p>
+                For <m>13</m> hours, Mary and Essy will have done:
+            </p>
+            <p>
+                <m>13 \times \frac{1}{18} = \frac{13}{18} \text{ of the work}</m>
+            </p>
+            <p>
+                The remaining work after Mary and Essy have worked for <m>13</m> hours is:
+            </p>
+            <p>
+                <m> 1 - \frac{13}{18} = \frac{5}{18} \text{ of the work}</m>
+            </p>
+            <p>
+                Hence, to find out how long it will take John to complete the remaining work, we can use his rate of work:
+            </p>
+            <p>
+                <m>\text{Time taken by John} = \frac{\text{Remaining work}}{\text{John's rate}} = \frac{\frac{5}{18}}{\frac{1}{40}} = \frac{5}{18} \times 40  </m>
+            </p>
+            <p>
+                <m>= \frac{200}{18} = \frac{100}{9}</m>
+            </p>
+            <p>
+                Therefore, John will take approximately <m>11\frac{1}{9}</m> hours to complete the remaining work after Mary and Essy have worked for <m>13</m> hours each.
+            </p>
+        </solution>
+    </example>
+    <p>
+        <m>\textbf{Digital corner}</m>
+    </p>
+
+    <technology>
+        <title>Exploring rates and proportions</title>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        <url href="https://www.learnalberta.ca/content/mejhm/index.html?l=0ID1=AB.MATH.JR.NUMBID2=AB.MATH.JR.NUMB.RATElesson=html/video_interactives/rateRatioProportions/rateRatioProportionsSmall.html">Watch now</url>
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </technology>
+    
+</subsection>

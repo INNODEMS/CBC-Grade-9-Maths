@@ -1,6 +1,112 @@
 <subsection xml:id="subsec-applying-graphs-of-straight-lines-in-real-life-situation">
     <title>Applying Graphs of Straight Lines in Real Life Situation</title>
     <p>
-        
+        Graphs of straight lines help us visualize and solve problems involving constant change. 
+        Whether you're tracking expenses, designing a structure, or analyzing data, linear graphs are powerful tools for making sense of the world.
     </p>
+    <example>
+        <statement>
+            <p>
+                 A printing shop charges a fixed setup fee of KSh 5 and an additional KSh 2 for each page printed. 
+                 The total cost y (in KSh) for printing x pages is given by the equation: <m>y=2x+5.</m> What is the cost of printing: 
+            </p>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                           <m>0</m> pages
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                          <m>2</m> pages
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                           If a customer has KSh 65, how many pages can they print? Show your working.
+                        </p>
+                    </li>
+                </ul>
+            </p>
+            
+        </statement>
+        <solution>
+            <p>
+               First, draw the graph of <m>y=2x+5.</m>
+               
+            </p>
+            <image>
+                <latex-image label="application-example-1">
+                    \begin{tikzpicture}[y=.5cm, x=2cm,font=\sffamily]
+                    % Axes
+                    \draw[thick,-&gt;] (0,0) -- (6,0) node[right] {\textbf{x-axis}};
+                    \draw[thick,-&gt;] (0,0) -- (0,20) node[above] {\textbf{y-axis}};
+
+                    % Grid (light for readability)
+                    \draw[help lines, dashed] (0,0) grid[xstep=1,ystep=5] (6,20);
+
+                    % Tick marks on x-axis
+                    \foreach \x in {0,1,2,3,4,5}
+                        \draw (\x,0) -- (\x,-1) node[below] {\x};
+
+                    % Tick marks on y-axis
+                    \foreach \y in {0,5,...,15}
+                        \draw (0,\y) -- (-0.2,\y) node[left] {\y};
+
+                    % Graph of y = 2x + 5
+                    \draw[very thick,blue,domain=0:5] plot (\x,{2*\x + 5}) node[above right] {\textbf{y = 2x + 5}};
+
+                    % Mark a few key points
+                    \filldraw[red] (0,5) circle (2pt) node[below right] {(0,5)};
+                    \filldraw[red] (2,9) circle (2pt) node[below right] {(2,9)};
+                    \filldraw[red] (4,13) circle (2pt) node[below right] {(4,13)};
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
+             <p> From the graph:
+                <ul>
+                    <li>
+                        <p>
+                            <m>0</m> pages cost <m>KSh. 5</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>2</m> pages cost <m>KSh. 9</m>
+                        </p>
+                    </li>
+                </ul>
+            </p>
+            <p>
+                To estimate the number of pages that cost <m>KSh. 65</m> to print, we use our equation: <m>y=2x+5.</m>
+            </p>
+            <p> Since the cost (y) is given as KSh. 65, substitute for y then find x, the number of pages.
+                <me>
+                    65 = 2x + 5
+                </me>     
+            </p>
+            <p>
+                <me>
+                    65 - 5 = 2x
+                </me>
+            </p>
+            <p>
+                <me>
+                    60 = 2x
+                </me>   
+            </p>
+            <p>
+                <me>
+                    \frac{60}{2} = \frac{2x}{2}
+                </me>   
+            </p>
+            <p>
+                <me>
+                    x = 30 \text{ pages }
+                </me>    
+            </p>
+        </solution>
+    </example>
+   
 </subsection>

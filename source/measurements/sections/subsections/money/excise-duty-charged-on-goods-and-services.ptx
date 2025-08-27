@@ -1,0 +1,106 @@
+<subsection xml:id="subsec-excise-duty-charged-on-goods-and-services">
+    <title>Excise duty charged on goods and services</title>
+    <p>
+        
+    </p>
+    <activity>
+  <title>Understanding Excise Duty</title>
+
+  <statement>
+    <p>
+      Excise duty is a tax charged by the government on specific goods produced or sold in a country, 
+      especially items like fuel, alcohol, cigarettes, and sugary drinks. It is used to reduce consumption 
+      of harmful products and to raise government revenue.
+    </p>
+    <p>
+      In this activity, you'll choose a product, calculate the excise duty, and explore how this tax affects pricing.
+    </p>
+<p>
+  <ul>
+    <li><p>Petrol – Price: Ksh 180 per litre – Excise duty: Ksh 21 per litre</p></li>
+    <li><p>Soft drinks – Price: Ksh 150 per litre – Excise duty: 10%</p></li>
+    <li><p>Cigarettes – Price: Ksh 500 per pack – Excise duty: 30%</p></li>
+    <li><p>Beer – Price: Ksh 200 per bottle – Excise duty: Ksh 60 per bottle</p></li>
+  </ul>
+</p>
+  <p>
+    🔹 Choose one product from the list above and explain why excise duty is applied to it.
+  </p>
+  <p>
+    🔹 Calculate the excise duty using the appropriate method: 
+    <m>\textbf{Fixed duty per item}</m> or <m>\textbf{Percentage of the price}</m>.
+  </p>
+  <p>
+    🔹 Add the excise duty to the original price to get the total price a customer would pay.
+  </p>
+  <p>
+    🔹 Discuss how excise duty might influence consumer behavior. Would people buy less of the product? Why or why not?
+  </p>
+</statement>
+</activity>
+
+<example>
+  <title>Example: Excise Duty on Cigarettes</title>
+  <statement>
+    <p>
+      A packet of cigarettes costs Ksh 500. The excise duty is 30%.
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Step 1: Calculate the excise duty:
+      <abbr/>
+      (30 ÷ 100) × 500 = Ksh 150
+    </p>
+    <p>
+      Step 2: Add the excise duty to the original price:
+      <abbr/>
+      Total Price = 500 + 150 = Ksh 650
+    </p>
+    <p>
+      The customer will pay <m>\textbf{Ksh 650}</m> for one packet of cigarettes after excise duty is added.
+    </p>
+  </solution>
+</example>
+
+    <example>
+  <title>Example: Excise Duty on Soft Drinks in Kenya</title>
+  <statement>
+    <p>
+      In Kenya, a 1-litre bottle of soda costs Ksh 150. The government applies an excise duty of 10%.
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Step 1: Calculate the excise duty:  
+      (10 ÷ 100) × 150 = Ksh 15
+    </p>
+    <p>
+      Step 2: Add the duty to the original price:  
+      Total Price = 150 + 15 = Ksh 165
+    </p>
+    <p>
+       In Kenya, the customer pays <m>\textbf{Ksh 165}</m> after excise duty on a 1-litre bottle of soda.
+    </p>
+  </solution>
+</example>
+
+<example>
+  <title>Example: Excise Duty on Petrol in Uganda</title>
+  <statement>
+    <p>
+      In Uganda, the price of petrol is UGX 5,000 per litre. The excise duty is fixed at UGX 1,200 per litre.
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Step 1: Add the fixed excise duty to the base price:  
+      Total Price = 5,000 + 1,200 = UGX 6,200
+    </p>
+    <p>
+       In Uganda, the customer pays <m>\textbf{UGX 6,200}</m> per litre of petrol including excise duty.
+    </p>
+  </solution>
+</example>
+
+</subsection>

@@ -1,0 +1,129 @@
+<subsection xml:id="subsec-zero-indices" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Zero indices</title>
+       
+                <activity>
+                <statement>
+                    <p>
+                        
+                    </p>
+                    <p>
+                        <alert>Work in Groups</alert>
+                    </p>
+                    <p>
+                        <alert>Instructions</alert>
+                    </p>
+                    <p>
+                        <ol>
+                            <li>
+                                <p>
+                                    Choose any <m>3</m> natural numbers from the list below:
+                                </p>
+                                <p>
+                                    <m>2, 5, 7, 10, 25, 100</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    For each chosen number:
+                                </p>
+                                <p>
+                                    <ol marker="i)">
+                                        <li>
+                                            <p>
+                                                Write two equal powers of the number.e.g <m> 2^3 \div 2^3</m>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                Simplify the expression formed.
+                                            </p>
+                                        </li>
+                                    </ol>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Look at the pattern below and complete the missing values:
+                                </p>
+                                <p>
+                                    
+                                    <m>
+                                        2^4 = 16
+                                    </m>
+                                    <me>
+                                        
+                                    </me>
+                                    <m>2^3 = 8</m>
+                                    <me>
+                                        
+                                    </me>
+                                    <m>2^2 = 4</m>
+                                    <me>
+                                        
+                                    </me>
+                                    <m> 2^1 = 2</m>
+                                    <me>
+                                        
+                                    </me>
+                                    <m>2^0 = ?</m> 
+                                </p>
+                                <p>
+                                    What happens when the exponent reaches zero?
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Discuss your work with your fellow learners.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </activity>
+            <p>
+                <alert>Key Takeaway</alert>
+            </p>
+            <p>
+                For any natural number <m>a</m>, if it is raised to the power of zero, the result is always <m>1</m>. 
+            </p>
+            <p>
+                This means that <m>a^0 = 1</m> for any <m>a \neq 0</m>.
+            </p>
+            <p>
+                For example, <me>
+                    
+                </me>
+                <md>
+                    <mrow>\frac{4^2}{4^2} = \amp 4^2 \div 4^2</mrow>
+                    <mrow> = \amp 4^{2-2}</mrow>
+                    <mrow>= \amp 4^0</mrow>
+                </md>
+            </p>
+            
+            <example>
+                <statement>
+                    <p>
+                      Simplify <m>7^2 \times 7^0</m>  
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                      By definition, <m>7^0 = 1</m>.  
+                    </p>
+                    <p>
+                        Therefore, 
+                    </p>
+                    <p>
+                        <md>
+                            <mrow> 7^2 \times 7^0 = \amp  7^2 \times 1</mrow>
+                            <mrow> =\amp 7^2 </mrow>
+                            <mrow>= \amp 7 \times 7 </mrow>
+                            <mrow> = \amp 49</mrow>
+                        </md>
+                    </p>
+                    
+                </solution>
+            </example>
+
+    
+</subsection>

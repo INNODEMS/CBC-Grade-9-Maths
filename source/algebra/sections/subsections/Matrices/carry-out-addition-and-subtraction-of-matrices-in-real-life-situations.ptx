@@ -1,6 +1,107 @@
 <subsection xml:id="subsec-carry-out-addition-and-subtraction-of-matrices-in-real-life-situations">
-    <title>Carry out addition and subtraction of matrices in real life situations</title>
+    <title>Carry Out Addition and Subtraction of Matrices in Real Life Situations</title>
     <p>
-        
+        In everyday life, we often need to combine or compare data from different sources—like adding up scores from two football matches, or finding the difference in sales between two weeks. Matrices make these calculations easy and organized!
     </p>
+
+    <activity>
+        <p><m>Interactive Matrix Calculator (Work in Pairs)</m></p>
+        <p>Use the GeoGebra applet below to practice adding and subtracting matrices. You can choose either 2×2 or 3×3 matrices, enter your own values, and select the operation (addition or subtraction).</p>
+        <p> <m>\textbf{What you need: }</m></p>
+        <p>
+            <ul>
+                <li>Computer or tablet with internet access</li>
+                <li>GeoGebra applet (link or embedded)</li>
+            </ul>
+        </p>
+        <p> <m>\textbf{Instructions:}</m></p>
+        <p>
+            <ol>
+                <li>Choose the size of your matrices (2×2 or 3×3) in the GeoGebra applet.</li>
+                <li>Enter the values for both matrices.</li>
+                <li>Select either addition (+) or subtraction (−).</li>
+                <li>Click "Solve" to see the result instantly.</li>
+                <li> <m>\textbf{Explore: }</m> 
+                    <ul>
+                        <li>Try changing one value—how does it affect the result?</li>
+                        <li>Which is easier: doing the calculation by hand or using the tool? Why?</li>
+                    </ul>
+                </li>
+            </ol>
+
+            </p>
+            <figure xml:id="fig-addition-of-matrices">
+                <caption><m>\textbf{Addition and Subtraction of Matrices (GeoGebra Interactive)}</m></caption>
+                <interactive xml:id="geogebra-addition-of-matrices" platform="geogebra" width="95%">
+                <slate xml:id="addition-of-matrices" surface="geogebra" material="tvzadzp6" aspect="12:15" >
+                    enableShiftDragZoom(true);
+                    showResetIcon(true);
+                </slate>
+                </interactive>
+            </figure>
+            <p>
+
+            <ol>
+
+                <li> <m>\textbf{Discuss: }</m> 
+                    <ul>
+                        <li>How does using GeoGebra help you understand matrix operations?</li>
+                        <li>In what real-life situations might you need to add or subtract matrices?</li>
+                    </ul>
+                </li>
+                <li> <m>\textbf{Reflect and Share: }</m> 
+                    <ul>
+                        <li>Share your findings with another pair. Did you get the same results?</li>
+                        <li>Which method did you prefer and why?</li>
+                    </ul>
+                </li>
+            </ol>
+        </p>
+    </activity>
+
+    <p> <m>\textbf{Key Takeaway: }</m> </p>
+    <p>  Matrix addition and subtraction help us combine and 
+        compare real-life data, making it easier to analyze results and spot patterns.
+    </p>
+
+    <example>
+      <statement>
+        <p>
+            We have two vendors selling apples and oranges over two days.
+            The sales data is represented in matrices as follows:
+        </p>
+
+        <p>Find A + B and A - B for the matrices below.</p>
+        <p>Explain what the results mean in this context.</p>
+        <p>
+        <m>
+          Vendor\ 1: \quad A = \begin{bmatrix} 5 &amp; 7 \\ 3 &amp; 4 \end{bmatrix}
+        </m>
+        <m>
+          Vendor\ 2: \quad B = \begin{bmatrix} 2 &amp; 6 \\ 1 &amp; 5 \end{bmatrix}
+        </m>
+        </p>
+      </statement>
+        <solution>
+            <p>Step 1: Add the matrices:</p>
+            <p>
+                <m>
+                    A + B = \begin{bmatrix} 5+2 &amp; 7+6 \\ 3+1 &amp; 4+5 \end{bmatrix} = \begin{bmatrix} 7 &amp; 13 \\ 4 &amp; 9 \end{bmatrix}
+                </m>
+            </p>
+            <p>Step 2: Subtract the matrices:</p>
+            <p>
+                <m>
+                    A - B = \begin{bmatrix} 5-2 &amp; 7-6 \\ 3-1 &amp; 4-5 \end{bmatrix} = \begin{bmatrix} 3 &amp; 1 \\ 2 &amp; -1 \end{bmatrix}
+                </m>
+            </p>
+            <p>Step 3: Interpret the results.</p>
+            <p>
+                <ul>
+                    <li><m>A + B</m> shows the total number of apples and oranges sold by both vendors each day.</li>
+                    <li><m>A - B</m> shows the difference in sales between Vendor 1 and Vendor 2 for each fruit and day. A negative number means Vendor 2 sold more than Vendor 1 for that item.</li>
+                </ul>
+            </p>
+        </solution>
+    </example>
 </subsection>

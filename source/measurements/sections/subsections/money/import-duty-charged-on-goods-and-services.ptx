@@ -1,0 +1,136 @@
+<subsection xml:id="subsec-import-duty-charged-on-goods-and-services">
+    <title>Import duty charged on goods and services</title>
+    <p>
+        
+    </p>
+    <activity>
+  <title>Understanding Import Duty</title>
+  
+  <statement>
+    <p>
+      When goods are brought into a country from another country, this is called <em>importing</em>. 
+      The government may charge an <m>\textbf{import duty}</m>—a type of tax—to help protect local businesses and raise revenue.
+    </p>
+    <p>
+      In this activity, you will work in groups to decide which imported product you would choose and calculate the import duty and total cost.
+    </p>
+  <p>
+    Imagine you are a business owner in Kenya who wants to import products from other countries. 
+    The government charges import duty on certain goods, which affects how much you pay for them.
+  </p>
+  <p>
+    Work in pairs or groups. Each group will pick one product from the list below and follow the steps provided.
+  </p>
+  <p>
+    Here are some products you can choose from:
+</p>
+<p>
+  <ul>
+    <li>
+        <p>School Buses – Value: Ksh 2,000,000 – Import duty: 25%
+
+        </p>
+    </li>
+    <li>
+        <p>Laptops – Value: Ksh 120,000 – Import duty: 10%
+
+        </p>
+    </li>
+    <li>
+        <p>Clothing – Value: Ksh 80,000 – Import duty: 15%
+
+        </p>
+    </li>
+    <li>
+        <p>Machinery – Value: Ksh 300,000 – Import duty: 20%
+
+        </p>
+    </li>
+  </ul>
+</p>
+  <p>
+    🔹 Choose one product your group would import and explain why you chose it.
+  </p>
+  <p>
+    🔹 Calculate the import duty using the formula:  
+    <m>\textbf{Import Duty = (Rate ÷ 100) × Value of the product}</m>
+  </p>
+  <p>
+    🔹 Add the import duty to the original product value to find the total cost after importing.
+  </p>
+  <p>
+    🔹 If the import duty was reduced by 5%, how would this affect your total cost? Would it change your choice? Discuss.
+  </p>
+
+  
+</statement>
+</activity>
+
+<example>
+  <title>Example: Calculating Import Duty on Machinery</title>
+  <statement>
+    <p>
+      A business is importing machinery worth Ksh 300,000. The import duty is 20%.
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Step 1: Calculate the import duty:
+      <abbr/>
+      Import Duty = (20 ÷ 100) × 300,000 = Ksh 60,000
+    </p>
+    <p>
+      Step 2: Add the duty to the original price:
+      <abbr/>
+      Total Cost = 300,000 + 60,000 = Ksh 360,000
+    </p>
+    <p>
+      So, the total cost after importing is <m>\textbf{Ksh 360,000}</m>.
+    </p>
+  </solution>
+</example>
+<example>
+  <title>Example: Import and Excise Duty Calculation</title>
+  <statement>
+    <p>
+      Alex imported a generator with a customs value of Ksh 60,000. He was charged an import duty of 12% and an excise duty of 15%.
+    </p>
+    <p>
+    <ol>
+      <li><p>How much did he pay as import duty?</p></li>
+      <li><p>Calculate the excise value for the generator.</p></li>
+      <li><p>Determine the excise duty paid.</p></li>
+      <li><p>How much money did Alex pay in total for the generator?</p></li>
+    </ol>
+  </p>
+  </statement>
+
+  <solution>
+    <p>Calculate the import duty:</p>
+    <p>
+      <md><mrow>\text{Import Duty} = 12\% \text{ of } 60,000 = \frac{12}{100} \times 60000 \amp = 7,200</mrow></md>
+    </p>
+
+    <p>Excise value = Customs value + Import duty:</p>
+    <p>
+      <md><mrow>60000 + 7200 \amp = 67,200</mrow></md>
+    </p>
+
+    <p>Calculate the excise duty:</p>
+    <p>
+      <md><mrow>15\% \text{ of } 67200 = \frac{15}{100} \times 67200 \amp = 10,080</mrow></md>
+    </p>
+
+    <p>Total amount paid = Customs value + Import duty + Excise duty:</p>
+    <p>
+      <md><mrow>60000 + 7200 + 10080 \amp = 77,280</mrow></md>
+    </p>
+
+    <p>
+       <m>\textbf{Alex paid a total of Ksh 77,280 for the generator.}</m>
+    </p>
+  </solution>
+</example>
+
+
+</subsection>

@@ -38,12 +38,16 @@ The CBE Grade 9 Mathematics curriculum covers the following topics:
 
 ## Contributing
 
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
+1. Rodgers Maragia (Rodkjunior)[https://github.com/Rockjunior]
+2. Isdora Akinyi
+3. Michael Onyimbo
+4. Daniel Murunga
+5. Henry Onyango
+6. Sheila Cherotich
+7. Eric Morara
+8. Joseph Baya
+9. Harriet Moraa
+10. 
 
 ## License
 
@@ -52,3 +56,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 
 Thank you for using and contributing to the CBE Grade 9 Maths project!
+
+[Overall Structure of the Book](https://docs.google.com/document/d/19Lfm2xPZ2brd4IHKdRXKAQVAllWVrXafvZPjSAXdwmk/edit?tab=t.0#heading=h.w663rfw8htaq) 
+
+[Review Document](https://docs.google.com/spreadsheets/d/134AKFiZxjhUXhz46gPqBXA8-DOy6KXS0HHRpNhywDjs/edit?gid=0#gid=0)

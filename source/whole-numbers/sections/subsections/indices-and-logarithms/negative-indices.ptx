@@ -1,0 +1,160 @@
+<subsection xml:id="subsec-negative-indices" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Negative indices</title>
+
+    <activity>
+        <statement>
+          <p>
+            
+          </p>
+          <p>
+            <alert>Work in Groups</alert>
+          </p>
+          <p>
+            <alert>What you need</alert>
+          </p>
+          <p>
+             <m>\bullet</m> Pen and small pieces of paper
+          </p>
+          <p>
+            <alert>Instructions</alert>
+          </p>
+          <p>
+            <ol>
+                <li>
+                    <p>
+                        Write the following negative index expressions on separate pieces of paper.
+                    </p>
+                    <p>
+                       <m>2^{-3}</m>, 
+                   
+                        <m>5^{-2}</m>,
+                    
+                        <m>3^{-4}</m>,
+                    
+                        <m>10^{-1}</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Place all the papers on the table and mix them up.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        On other pieces of paper, write their positive index equivalents:
+                    </p>
+                    <p>
+                        <m>\frac{1}{25}</m>,
+                   
+                        <m>\frac{1}{8}</m>,
+                    
+                        <m>\frac{1}{10}</m>,
+                    
+                        <m>\frac{1}{81}</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Take turns to:
+                    </p>
+                    <p>
+                        <ol marker="a)">
+                            <li>
+                                <p>
+                                    Pick one paper with a negative index expression.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Simplify it to find its value.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Match it with the correct positive index equivalent.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Record your results in the table below:
+                    </p>
+                    <tabular top="medium">
+                        <col width="50%"/>
+                        <row left="medium">
+                            <cell right="medium" bottom="medium">Negative Index Expression</cell>
+                            <cell right="medium" bottom="medium">Positive Index Equivalent</cell>
+                        </row>
+                        <row left="medium">
+                            <cell right="medium" bottom="medium"><m>2^{-3}</m></cell>
+                            <cell right="medium" bottom="medium"> <m>\frac{1}{8}</m></cell>
+                        </row>
+                        <row left="medium">
+                            <cell right="medium" bottom="medium"><m>5^{-2}</m></cell>
+                            <cell right="medium" bottom="medium"></cell>
+                        </row>
+                        <row left="medium">
+                            <cell right="medium" bottom="medium"><m>3^{-4}</m></cell>
+                            <cell right="medium" bottom="medium"></cell>
+                        </row>
+                        <row left="medium">
+                            <cell right="medium" bottom="medium"><m>10^{-1}</m></cell>
+                            <cell right="medium" bottom="medium"></cell>
+                        </row>
+                        
+                    </tabular>
+                </li>
+                <li>
+                    <p>
+                        Discuss your work with your fellow learners.
+                    </p>
+                </li>
+            </ol>
+          </p>
+        </statement>
+    </activity>
+    <definition xml:id="def-negative-indices">
+        <statement>
+            <p>
+                Negative indices are used to represent the reciprocal of a number raised to a positive exponent. 
+            </p>
+            <p>
+                When a base is raised to a negative exponent, it indicates that the base should be taken as the reciprocal and then raised to the absolute value of the exponent.
+            </p>
+        </statement>
+    </definition>
+    <p>
+        <alert>Key Takeaway</alert>
+    </p>
+    <p>
+        If we have a base <m>a</m> and a negative exponent <m>-n</m>, it can be expressed as:
+        <me>a^{-n} = \frac{1}{a^n}</me>.
+    </p>
+    <example>
+        <statement>
+            <p>
+                Simplify the expression <m>3^{-2} \times 3^4</m>.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                By definition, <m>3^{-2} = \frac{1}{3^2}</m>.
+            </p>
+            <p>
+                Therefore, 
+            </p>
+            <p>
+                <md>
+                    <mrow> 3^{-2} \times 3^4 = \amp \frac{1}{3^2} \times 3^4</mrow>
+                    <mrow> = \amp \frac{3^4}{3^2}</mrow>
+                    <mrow>= \amp 3^4 \div 3^2 </mrow>
+                    <mrow>= \amp 3^{4-2} </mrow>
+                    <mrow>= \amp 3^2</mrow>
+                </md>
+            </p>
+        </solution>
+    </example>
+    
+</subsection>

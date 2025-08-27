@@ -1,6 +1,176 @@
 <subsection xml:id="subsec-identifying-angles-of-elevation-in-real-life-situations">
     <title>Identifying Angles of Elevation in Real Life Situations</title>
+    <activity>
+        <statement>
+            <p>
+                <term>Work in groups</term>
+            </p>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            Identify Observation Points: Select a tall object around the school compound (e.g. flagpole).
+                             Mark three different distances from the object (e.g. 5 m, 10 m, 15 m).
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Observe and Record: At each marked point:
+                           Look at the top of the object, record the angle at which you tilt your head upward.
+                           Note the horizontal distance from the base of the object.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Sketch the Scenario: Draw scaled right-angled triangles showing:
+                             The base (horizontal distance), the height of the object (calculate using trigonometry if desired) and 
+                              the angle when you tilt your head at each position.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                             Discuss with other learners: How does the angle change as the distance increases? 
+                        </p>
+                    </li>
+                </ul>
+            </p>
+        </statement>
+    </activity>
     <p>
-        
+        <m>\textbf{Key Takeaway}</m>
     </p>
+    <p>
+        The angle at which you tilt your head upward when looking at the top of an ojject is known as the <term>angle of elevation.</term>
+    </p>
+    
+    <image>
+        <latex-image label="angle-of-elevation">
+            \begin{tikzpicture}
+
+            \usetikzlibrary{quotes,angles}
+                % Ground
+                \draw[thick] (0,0) -- (7,0) node[right] {Ground};
+
+                % Tree or flagpole
+                \draw[thick,brown!70!black,fill=green!50!black] (6,0) -- (6,4);
+                \node[above] at (6,4) {Top of Object};
+
+                % Person
+                \draw[thick] (1,0) -- (1,1.5); % body
+                \fill (1,1.5) circle (2pt) node[above left] {Eye};
+
+                % Horizontal line from eye level
+                \draw[dashed] (1,1.5) -- (6.5,1.5) node[above right] {Eye-level};
+
+                % Line of sight
+                \draw[thick,red] (1,1.5) -- (6,4) node[near end, above left, red] {Line of Sight};
+
+                % Angle of elevation
+                \draw[gray]
+                    (6.5,1.5) coordinate (a)
+                    -- (1,1.5) coordinate (b)
+                    -- (6,4) coordinate (c)
+                    pic["$\theta$", draw=orange,-&gt; ,angle eccentricity=1.2, angle radius=1cm]
+                    {angle=a--b--c};
+                
+            \end{tikzpicture}
+        </latex-image>
+    </image>
+    <p>
+        The <term>angle of elevation <m>(\theta)</m></term> is the angle formed between a horizontal line <term>( Eye-level)</term> and a <term>line of sight</term> when you look upward at an object.
+         For example, when you gaze up at the top of a tree from the ground, the angle your eyes make above the eye-level is the angle of elevation. 
+    </p>
+    <example>
+        <statement>
+            <p>
+                Hamadi is flying  a kite  <m>40 \, m</m> above his eye level. The horizontal distance between Hamadi and the kite is <m>30 \, m.</m> 
+                 Using a scale of <m>1\, cm = 10\, m,</m> represent the above information to scale drawing. Measure the 
+                angle of elevation.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                The sketch will resemble:
+            </p>
+            <image width="50%">
+                <latex-image label="angle-of-elevation-example-sketch">
+                    \begin{tikzpicture}
+
+                    \usetikzlibrary{quotes,angles}
+                        % Ground
+                        \draw[thick] (0,0) -- (7,0) node[right] {Ground};
+
+                        % Tree or flagpole
+                        \draw[thick,brown!70!black,fill=green!50!black] (6,0) -- (6,4);
+                        \node[above] at (6,4) {Bird};
+                        \node[right] at (6,3) {40 m};
+                        \node[right] at (3,1.6) {30 m};
+                        \draw[dashed,&lt;-&gt;] (6.7,1.5) -- (6.7,4);
+
+                        % Person
+                        \draw[thick] (1,0) -- (1,1.5); % body
+                        \fill (1,1.5) circle (2pt) node[above left] {Eye};
+
+                        % Horizontal line from eye level
+                        \draw[dashed] (1,1.5) -- (6.5,1.5) node[above right] {Eye-level};
+
+                        % Line of sight
+                        \draw[thick,red] (1,1.5) -- (6,4) node[near end, above left, red] {Line of Sight};
+
+                        % Angle of elevation
+                        \draw[gray]
+                            (6.5,1.5) coordinate (a)
+                            -- (1,1.5) coordinate (b)
+                            -- (6,4) coordinate (c)
+                            pic["$\theta$", draw=orange,-&gt; ,angle eccentricity=1.2, angle radius=1cm]
+                            {angle=a--b--c};
+                                            
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
+            <p>
+                The scale drawing of the sketch using the scale of <m>1\, cm = 10\, m:</m>
+            </p>
+            <image>
+                <latex-image label="angle-of-elevation-example-scale-drawing">
+                    \begin{tikzpicture}
+
+                    \usetikzlibrary{quotes,angles}
+                        % Ground
+                        \draw[thick] (0,0) -- (7,0) node[right] {Ground};
+
+                        % Tree or flagpole
+                        \draw[thick,brown!70!black,fill=green!50!black] (6,0) -- (6,4);
+                        \node[above] at (6,4) {Bird};
+                        \node[right] at (6,3) {4 cm};
+                        \node[right] at (3,1.6) {3 cm};
+                        \draw[dashed,&lt;-&gt;] (6.7,1.5) -- (6.7,4);
+
+                        % Person
+                        \draw[thick] (1,0) -- (1,1.5); % body
+                        \fill (1,1.5) circle (2pt) node[above left] {Eye};
+
+                        % Horizontal line from eye level
+                        \draw[dashed] (1,1.5) -- (6.5,1.5) node[above right] {Eye-level};
+
+                        % Line of sight
+                        \draw[thick,red] (1,1.5) -- (6,4) node[near end, above left, red] {Line of Sight};
+
+                        % Angle of elevation
+                        \draw[gray]
+                            (6.5,1.5) coordinate (a)
+                            -- (1,1.5) coordinate (b)
+                            -- (6,4) coordinate (c)
+                            pic["$53^\circ$", draw=orange,-&gt; ,angle eccentricity=1.2, angle radius=1cm]
+                            {angle=a--b--c};
+                                            
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
+            <p>
+                The angle of elevation is <m>53^\circ.</m>
+            </p>
+
+        </solution>
+    </example>
 </subsection>

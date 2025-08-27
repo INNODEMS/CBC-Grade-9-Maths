@@ -1,6 +1,323 @@
 <subsection xml:id="subsec-applying-scale-drawing-in-simple-surveying">
     <title>Applying Scale Drawing in Simple Surveying</title>
+    <introduction>
+        <p>
+            Surveying is like giving the world a measured sketch so we can understand where things are and how far apart they are.
+        </p>
+        <p>
+            Surveying is the process of measuring land and spaces to figure out distances, angles, directions, and positions. 
+            It helps create maps, plan buildings, roads, bridges, and more.
+        </p>
+        <p>
+            A field notebook is a small, portable book used by surveyors and even students— to record observations, 
+            measurements, sketches, and notes taken while working outside or “in the field.”
+        </p>
+        <p>
+            The methods used in surveying are:
+            <ul>
+                <li>
+                    <p>
+                        Using bearing and distance.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Using a base line.
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </introduction>
+    <subsubsection xml:id="subsubsec-using-bearing-and-distance">
+        <title>Using Bearing and Distance</title>
+        <activity>
+       <statement>
+        <p>
+            <term>Work in groups</term>
+        </p>
+        <p>
+            <term>Materials Needed</term>
+        </p>
+        <p>
+            Measuring tapes, graph paper or drawing sheets, rulers and protractors, clipboards and pencils.
+        </p>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                         Define the Survey Area: Choose a safe, open area like: a section of the schoolyard, the path between classrooms and the field, 
+                        a rectangular garden or sports court.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Walk the perimeter and measure key dimensions (lengths of paths, distances between trees, classrooms, etc.) 
+                        Record angles at corners.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Select a suitable scale (e.g., 1 cm = 2 meters or 1:200) depending on the area size and graph paper.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Draw the Scale Map: Translate measurements onto graph paper using your scale and label features (classrooms, field etc.) 
+                        Use symbols and a key to show real-world features.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Discuss your findings with other learners. What did you find difficult in this activity?
+                    </p>
+                </li>
+            </ul>
+        </p>
+       </statement> 
+    </activity>
     <p>
-        
+        <m>\textbf{ Key Takeaway }</m>
     </p>
+    <p>
+        Plotting positions using bearings and distances on a scale map is similar to how surveyors map land features or plan navigation paths.
+    </p>
+    <example>
+        <statement>
+            <p>
+                A team of surveyors is hired to map out the positions of hidden 'treasure markers' on a field.
+                 You are given a starting location (the Base Station) and a list of distances and compass bearings to each marker.
+                   Use bearings and scaled distances to plot locations on a survey map and discover the hidden treasure!
+            </p>
+            <tabular>
+                <row halign="center">
+                    <cell><m>\textbf{Bearing and Distance Data}</m></cell>
+                </row>
+            </tabular>
+            <tabular valign="top" top="minor" bottom="minor" left="minor" right="minor"> 
+                <row halign="center">
+                    <cell>Target Point</cell>
+                    <cell>Bearing from A<m>(^\circ)</m></cell>
+                    <cell>Distance from A(m)</cell>
+                </row>
+
+                <row halign="center">
+                    <cell>B</cell>
+                    <cell><m>045° </m></cell>
+                    <cell><m> 50</m></cell>
+                </row>
+
+                <row halign="center">
+                    <cell>C</cell>
+                    <cell><m>120°</m></cell>
+                    <cell><m>70</m></cell>
+                </row>
+                <row halign="center">
+                    <cell>D</cell>
+                    <cell><m>200°</m></cell>
+                    <cell><m>60</m></cell>
+                </row>
+                <row halign="center">
+                    <cell>E</cell>
+                    <cell><m>310°</m></cell>
+                    <cell><m>40</m></cell>
+                </row>
+           </tabular>
+        </statement>
+        <solution>
+            <p>
+                Set up your map scale: You may choose a scale of <m>1 \, cm = 10 \, meters.</m>
+            </p>
+            <p>
+                Start by marking your Base Station (Point A) near the center of your page.
+            </p>
+            <p>
+                Use the Bearing and Distance Data Table above to draw the positions of other points (B, C, D, and E) from Point A.
+            </p>
+            <p>
+                 Joining the points B, C, D, and E forms the boundary where the treasure is.
+            </p>
+            <image source="/bearing-distance-surveying.png">
+                <shortdescription>Using Bearing and Distance</shortdescription>
+            </image>
+        </solution>
+    </example>
+    </subsubsection>
+
+    <subsubsection xml:id="subsubsec-using-a-baseline">
+        <title>Using a Baseline</title>
+        <p>
+            A baseline, in surveying, is a measured straight line between two fixed points on the ground. 
+            It serves as the reference line from which other points are located and measured.
+        </p>
+        <activity>
+            <statement>
+                <p>
+                    <term>Work in groups</term>
+                </p>
+                <p>
+                    <term>Materials Needed</term>
+                </p>
+                <p>
+                    Measuring tapes, graph paper or drawing sheets, rulers, clipboards and pencils, pegs or sticks to mark points on the field.
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                Set Up the Baseline:Choose a flat, open area like a playground. Measure and mark a baseline 
+                                (e.g., 10 meters between Point A and Point B). This will be your reference line.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Identify Target features: From the base line AB, observe and mark other features 
+                                (like a tree, a rock, classroom, flagpole e.t.c.) from your line of sight.    
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Connect the targeted feature (e.g tree) to the base line  AB using a perpendicular line and record the measurements of the line. 
+                                Do this for the remaining targeted features.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Make a scale drawing of your findings and share your findings with other learners.
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </statement>
+        </activity>
+        <p>
+            <m>\textbf{Key Takeaway}</m>
+        </p>
+        <p>
+            The baseline is used to create scaled geometric representations of land.
+        </p>
+        <p>
+            The baseline is the backbone of many surveying techniques. It’s a precisely measured straight line on the ground that 
+            serves as a reference for locating other points using angles and distances.
+        </p>
+        <example>
+            <statement>
+                <p>
+                    The figure below represents a farm drawn to scale (<m>1\, cm</m> represents <m>10 \, m</m>). Develop a field book.
+                </p>
+                
+                <image>
+                    <latex-image label="base-line-survey">
+                        \begin{tikzpicture}
+                            \draw[thick] (5,0) -- (-5,0) node[left] {X};
+                            \draw[thick] (-5,0) -- (-4,1) node[above] {A};
+                            \draw[thick] (-4,1) -- (-2,1) node[above] {B};
+                            \draw[thick] (-2,1) -- (-2,0);
+                            \draw[thick] (0,4) -- (0,0);
+                            \draw[thick] (-4,1) -- (-4,0);
+                            \draw[thick] (-2,1) -- (0,4) node[above] {C};
+                            \draw[thick] (0,0) -- (-4,0);
+                            \draw[thick] (0,4) -- (2,2) node[above] {D};
+                            \draw[thick] (2,2) -- (2,0);
+                            \draw[thick] (2,2) -- (5,0) node[right]{Y};
+                            \draw[thick] (-5,0) -- (-3,-3) node[below] {E};
+                            \draw[thick] (-3,0) -- (-3,-3);
+                            \draw[thick] (-3,-3) -- (3,-2) node[below] {F};
+                            \draw[thick] (3,0) -- (3,-2);
+                            \draw[thick] (3,-2) -- (5,0);
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+            </statement>
+            <solution>
+                <p>
+                    Use a ruler to measure the lengths and convert them to actual scale.
+                </p>
+                <tabular>
+                    <row>
+                        <cell>Base line XY <m>=10\,cm </m></cell>
+                        <cell><m>10 \times 10 \,m = 100 \,m </m></cell>
+                    </row>
+                    <row>
+                        <cell>A to XY <m>=1\,cm </m></cell>
+                        <cell><m>1 \times 10 \,m = 10 \,m </m></cell>
+                    </row>
+                    <row>
+                        <cell>B to XY <m>=1\,cm </m></cell>
+                        <cell><m>1 \times 10 \,m = 10 \,m </m></cell>
+                    </row>
+                    <row>
+                        <cell>C to XY <m>=4\,cm </m></cell>
+                        <cell><m>4 \times 10 \,m = 40 \,m </m></cell>
+                    </row>
+                    <row>
+                        <cell>D to XY <m>=2\,cm </m></cell>
+                        <cell><m>2 \times 10 \,m = 20 \,m </m></cell>
+                    </row>
+                    <row>
+                        <cell>E to XY <m>=3\,cm </m></cell>
+                        <cell><m>3 \times 10 \,m = 30 \,m </m></cell>
+                    </row>
+                    <row>
+                        <cell>F to XY <m>=2\,cm </m></cell>
+                        <cell><m>2 \times 10 \,m = 20 \,m </m></cell>
+                    </row>
+                </tabular>
+                <p>
+                    The information on a field book will be:
+                </p>
+                <tabular>
+                <row halign="center">
+                    <cell><m>\textbf{Bearing and Distance Data}</m></cell>
+                </row>
+            </tabular>
+            <tabular valign="top" top="minor" bottom="minor" left="minor" right="minor"> 
+                <row halign="center">
+                    <cell></cell>
+                    <cell>Y</cell>
+                    <cell></cell>
+                </row>
+
+                <row halign="center">
+                    <cell></cell>
+                    <cell><m>80</m></cell>
+                    <cell><m>20 \text{ To } F</m></cell>
+                </row>
+
+                <row halign="center">
+                    <cell>To D <m>20</m></cell>
+                    <cell><m>70</m></cell>
+                    <cell></cell>
+                </row>
+                <row halign="center">
+                    <cell>To C <m>40</m></cell>
+                    <cell><m>50</m></cell>
+                    <cell></cell>
+                </row>
+                <row halign="center">
+                    <cell></cell>
+                    <cell><m>30</m></cell>
+                    <cell><m>30</m> To E</cell>
+                </row>
+                <row halign="center">
+                    <cell>To B <m>10</m></cell>
+                    <cell><m>20</m></cell>
+                    <cell></cell>
+                </row>
+                <row halign="center">
+                    <cell>To A <m>10</m></cell>
+                    <cell><m>10</m></cell>
+                    <cell></cell>
+                </row>
+                <row halign="center">
+                    <cell></cell>
+                    <cell>X</cell>
+                    <cell></cell>
+                </row>
+            </tabular>
+            </solution>
+        </example>
+        
+    </subsubsection>
+    
+    
 </subsection>

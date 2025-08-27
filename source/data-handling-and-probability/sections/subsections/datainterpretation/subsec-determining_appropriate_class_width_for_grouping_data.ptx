@@ -1,0 +1,325 @@
+<subsection xml:id="subsec-determining_appropriate_class_width_for_grouping_data" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Determining Appropriate Class Width For Grouping Data</title>
+
+    <p>
+        Data can be classified mainly into two types on the basis of how it is organized: <term><em>Grouped Data</em></term> and <term><em>Ungrouped Data</em></term>.
+        Ungrouped data is raw data, which consists of a simple list of values where each value corresponds to a distinct observation or measurement.
+    </p>
+    <p>
+        For example, a list of marks of students in a classroom (e.g., 95, 94, 96, 92, 98, 99, ...).
+        This kind of representation is used when we have a smaller dataset and need to deal with individual data points.
+    </p>
+    <p>
+        Grouped data, on the other hand, is a collection of data that has been organized into groups or intervals.
+        This is done to simplify the analysis and interpretation of large datasets.
+        Grouping data helps in identifying patterns, trends, and distributions within the data.
+    </p>
+    <p>
+        When we have a larger dataset, it is preferable to group similar data values into intervals and assign a value to each interval corresponding to the frequency of data points in that range.
+        The intervals should have a uniform length defined by their upper and lower limits.
+    </p>
+    <activity>
+        <title>Work in Groups:- Measuring Arm Span</title>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        You will need a tape measure.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        In pairs, measure each other's arm span (from fingertip to fingertip with arms stretched out horizontally) in centimetres. Record the measurements in your exercise books.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Identify the shortest and the longest arm span in your group.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Calculate the difference between the longest and the shortest arm span.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Share your findings with the class—were the tallest students also the ones with the longest arm spans?
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity>
+
+    <activity>
+        <title>Work in Groups:- Temperature</title>
+        <p>
+            You are provided with the daily afternoon temperatures (in °C) recorded in your area over the last 22 days:
+        </p>
+        <tabular top="medium" bottom="medium" left="medium" right="medium">
+            <row>
+                <cell>29, 31, 26, 33, 30, 27, 25, 35, 28, 24, 32, 26, 30, 34, 33, 29, 31, 27, 36, 25, 28, 32</cell>
+            </row>
+        </tabular>
+        <p>      
+            <ol>
+                <li>
+                    <p>
+                        Identify the lowest and highest temperatures in the data
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Work out the difference between them.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Choose a suitable class width that allows you to divide the temperatures into 5 equal intervals.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Write down the 5 class intervals.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Create a frequency table showing how many days fall into each interval.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Share your findings with your classmates.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity>
+
+    <p>
+        <m>\textbf{Class}</m> width is the size of each interval when grouping data. 
+        It is determined by the range of the data and the number of intervals you want to create.
+    </p>
+
+    <p>
+        When the data is widely spread out, it is often useful to group the data into intervals. 
+        This makes it easier to analyze and interpret the data. 
+        The choice of class width is crucial for effective grouping.
+    </p>
+    <p>
+        The diferrence between the highest and lowest values in a dataset is called the <m>\textbf{range}</m>.
+        The range gives you an idea of how spread out the data is.
+    </p>
+    <p>
+        The lowest number in the class interval is called the <m>\textbf{lower class boundary} \, \text{or} \, \textbf{lower class limit}</m>,
+        and the highest number is called the <m>\textbf{upper class boundary} \, \text{or} \, \textbf{upper class limit}</m>.
+        The class width is the difference between the upper and lower class boundaries.
+    </p>
+    <p>
+        To determine an appropriate class width for grouping data, follow these steps:
+    </p>
+    <p>
+        In the class <m>12-15</m>, the lower limit is <m>12</m> and the upper limit is <m>15</m>.
+        While the lower class boundary is <m>11.5</m> and the upper class boundary is <m>15.5</m>.
+        The class width is calculated as follows:
+        <ul>
+            <li>
+                <p>
+                    Upper class boundary - Lower class boundary = Class width
+                </p>
+            </li>
+        </ul>
+        The range of numbers from smallest to largest in a distribution helps in determining class size as follows:
+        <me>
+            \text{Class width} = \frac{\text{Range}}{\text{Number of classes expected}}
+        </me>
+        Round up to the next higher whole number if necessary if the result is not a whole number.
+    </p>
+    <example>
+        <title>Organizing Smartphone Battery Life</title>      
+        <statement>
+            <p>
+                The battery life (in hours) of 30 different smartphone models was recorded as follows:
+            </p>
+            <p>
+                9, 12, 11, 15, 18, 10, 14, 17, 13, 16, 19, 15, 12, 14, 17,
+                10, 13, 11, 20, 19, 9, 13, 16, 18, 17, 12, 10, 11, 15, 16
+            </p>
+            <p>
+                <ol marker="(a).">
+                    <li>
+                        <p>
+                            What is the shortest and longest battery life recorded?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Find the range of the data.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Choose a class width that allows you to sort the battery life data into 6 equal intervals.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Write out the class intervals.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <ol marker="(a).">
+                    <li>
+                        <p>
+                            The smallest battery life is <m>9</m> hours and the longest is <m>20</m> hours.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The range of the data is the difference between the longest and shortest battery life:
+                            <me>
+                                \text{Range} = 20 - 9
+                            </me>
+                        </p>
+                        <p>
+                            <me>
+                                = 11 \text{ hours}
+                            </me>                            
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <me>
+                               \text{Class width}  = \frac{\text{Range}}{\text{Number of classes expected}}
+                            </me>                            
+                        </p>
+                        <p>
+                            <me>
+                                = \frac{11}{6} 
+                            </me>
+                        </p>
+                        <p>                            
+                            <me>
+                                \approx 1.83
+                            </me>
+                            rounding to nearest whole number gives us a class width of <m>2</m> hours.
+                        </p>                     
+                    </li>
+                    <li>
+                        <p>
+                            Therefore, the class intervals are:                            
+                        </p>
+                        <tabular top="medium" bottom="medium" left="medium" right="medium">
+                                <row>
+                                    <cell>Time in Hours</cell>
+                                    <cell>9 - 11</cell>
+                                    <cell>11 - 13</cell>
+                                    <cell>13 - 15</cell>
+                                    <cell>15 - 17</cell>
+                                    <cell>17 - 19</cell>
+                                    <cell>19 - 21</cell>
+                                </row>
+                            </tabular>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
+
+    <example>
+        <title>Organising Heights of Students</title>        
+        
+        <statement>
+            <p>
+                The heights of 60 students in a class were measured in centimetres and recorded as follows:
+            </p>
+            <p>
+                150, 152, 153, 154, 155, 156, 157, 158, 159, 160,
+                161, 162, 163, 164, 165, 166, 167, 168, 169, 170,
+                171, 172, 173, 174, 175, 176, 177, 178, 179, 180,
+                181, 182, 183, 184, 185, 186, 187, 188, 189, 190,
+                191, 192, 193, 194, 195, 196, 197, 198, 199, 200,
+                201, 202, 203, 204, 205, 206, 207, 208, 209, 210
+            </p>
+            <p>
+                <ol marker="(a).">
+                    <li>
+                        <p>
+                            What is the shortest and heighest height recorded?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Find the range of the data.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Choose a class width that allows you to sort the heights into 5 equal intervals.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Write out the class intervals.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <ol marker="(a).">
+                    <li>
+                        <p>
+                            The shortest height is <m>150</m> cm and the highest is <m>210</m> cm.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <me>
+                                \text{Range} = 210 - 150 = 60 \text{ cm}
+                            </me>                            
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <me>
+                                \text{Class width} = \frac{\text{Range}}{\text{Number of classes expected}}
+                            </me>
+                        </p>
+                        <p>
+                            <me>
+                                = \frac{60}{5}
+                            </me>
+                        </p>
+                        <p>
+                            <me>
+                                = 12 \text{ cm}
+                            </me>                            
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The class intervals are:
+                        </p>
+                        <tabular top="medium" bottom="medium" left="medium" right="medium">
+                            <row>
+                                <cell>Height (cm)</cell>
+                                <cell>150 - 161</cell>
+                                <cell>162 - 173</cell>
+                                <cell>174 - 185</cell>
+                                <cell>186 - 197</cell>
+                                <cell>198 - 210</cell>
+                            </row>
+                        </tabular>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
+</subsection>

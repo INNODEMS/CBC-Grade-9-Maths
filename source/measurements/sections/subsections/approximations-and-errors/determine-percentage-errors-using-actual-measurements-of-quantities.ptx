@@ -1,0 +1,322 @@
+<subsection xml:id="subsec-determine-percentage-errors-using-actual-measurements-of-quantities">
+    <title>Percentage errror</title>
+    <p>
+        
+    </p>
+    <activity>
+        <statement>
+            <p>
+                <m>
+                  1.  \textbf{Materials Needed:}
+                </m>
+            </p>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                           Ruler or tape measure (for length) 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            
+
+                           Different weighing scales (for weight/mass) i.e:
+                           <ol>
+                            <li>
+                                <p>
+                                    Kitchen scale (for small weights)
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    measuring cup or jug (for volume)
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Stopwatch or timer (for time)
+                                </p>
+                            </li>
+                           </ol>
+                        </p>
+
+                    </li>
+                    <li>
+                        <p>
+                            
+                            Calculator (for calculations)
+                        </p>
+                    </li>
+                </ul>
+            </p>
+            <p>
+                Students should rotate through stations where they estimate and then measure quantities and finally calculate the percentage error for each task.
+            </p>
+              <table>
+            <title> Materials needeed at each station table</title>
+            <tabular row-headers="yes" halign="left" top="medium" bottom="medium" right="medium" left="medium">
+                <row>
+                    <cell>Station</cell>
+                    <cell>Task</cell>
+                    <cell>
+                        <line>Tools</line> 
+                        <line>provided</line>
+                    </cell>
+                </row>
+                <row>
+                    <cell>1. </cell>
+                    <cell>Estimate and measure length</cell>
+                    <cell>Ruler/tape measure</cell>
+                </row>
+                <row>
+                    <cell>2. </cell>
+                    <cell>Estimate and weigh an object</cell>
+                    <cell>	Kitchen scale</cell>
+                </row>
+                <row>
+                    <cell>3,</cell>
+                    <cell>	Estimate and measure volume</cell>
+                    <cell>	Measuring cup/jug</cell>
+                </row>
+                <row>
+                    <cell>4.</cell>
+                    <cell> 
+                        <line>Guess time to complete a task </line>
+                        <line>(e.g., jumping 10 times)</line>
+                    </cell>
+                    <cell>Stopwatch or timer</cell>
+                </row>
+            </tabular>
+        </table>
+        <p>
+            2. Instructions for each station:
+        </p>
+        <p>
+            a. Station 1 (Length): Estimate the length of a pencil, then measure it with a ruler. Record both values.
+        </p>
+        <p>
+            b. Station 2 (Weight): Estimate the weight of a bag of sugar, then weigh it using a kitchen scale. Record both values.
+        </p>
+        <p>
+            c. Station 3 (Volume): Estimate the volume of water in a cup, then measure it using a measuring cup or jug. Record both values.
+        </p>
+        <p>
+            d. Station 4 (Time): Estimate how long it takes to complete a task (e.g., jumping 10 times or breathing in deeply and estimating time in seconds you can hold your breathe), then use a stopwatch or timer to measure the actual time. Record both values. 
+        </p>
+        <p>
+            3. At each station:
+            <ol marker="a.">
+                <li>
+                    <p>
+                        Estimate the quantity first.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Then they measure it accurately.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Finally, calculate:
+                        <m>\text{Absolute error = Estimated measurements - Actual measurements} </m>
+
+                    </p>
+                    <p>
+                        <m>\text{Percentage Error} = \left( \frac{\text{Measured Value} - \text{Estimated Value}}{\text{Measured Value}} \right) \times 100\%</m>
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <p>
+            4. Groups record their data in a tracking sheet.
+        </p>
+        <p>
+            5. After rotating through all stations, students return to their seats and reflect.
+        </p>
+        <p>
+            <m>\textbf{ Tracking Sheet Example:}</m>
+        </p>
+        <table>
+            <title>Tracking Sheet</title>
+            <tabular halign="center" top="medium" bottom="medium" right="medium" left="medium">
+                <row>
+                    <cell>Station</cell>
+                    <cell>
+                        <line>Quantity </line>
+                        <line>type</line>
+                    </cell>
+                    <cell>
+                        <line>Estimated </line>
+                        <line>Value</line>
+                    </cell>
+                    <cell>
+                        <line>Actual </line>
+                        <line>Value</line>
+                    </cell>
+                    <cell>
+                        <line>Absolute</line>
+                        <line>error</line>
+                    </cell>
+                    <cell>
+                        <line>Percentage</line>
+                        <line>error</line>
+                    </cell>
+                    
+                </row>
+                <row>
+                    <cell>1.  </cell>
+                    <cell>	
+                        <line>Length</line> 
+                        <line>in cm</line>
+                    </cell>
+                    <cell>60</cell>
+                    <cell>58</cell>
+                    <cell>2</cell>
+                    <cell>3.45%</cell>
+                </row>
+                <row>
+                    <cell>2. </cell>
+                    <cell>	
+                        <line> Weight </line>
+                        <line>in g</line>
+                    </cell>
+                    <cell>350</cell>
+                    <cell>370</cell>
+                    <cell>20</cell>
+                    <cell>5.41%</cell>
+                </row>
+                <row>
+                    <cell>3.</cell>
+                    <cell>	
+                        <line>Volume</line>
+                        <line>in ml</line>
+
+                    </cell>
+                    <cell>250</cell>
+                    <cell>240</cell>
+                    <cell>10</cell>
+                    <cell>4.17%</cell>
+                </row>
+                <row>
+                    <cell>4. </cell>
+                    <cell>	
+                        <line>Time in</line>
+                        <line> seconds </line>
+                    </cell>
+                    <cell>5</cell>
+                    <cell>6</cell>
+                    <cell>1</cell>
+                    <cell>16.67%</cell>
+                </row>
+            </tabular>
+        </table>
+        <p>
+           Discussion questions:
+           
+           
+        <ol>
+            <li>  
+                <p>
+                    Which station had the highest error?
+                </p>
+            </li>
+            <li>
+                <p>
+                    How did your estimates compare to the actual measurements?
+                </p>
+            </li>
+            <li>
+                <p>
+                    What was the largest percentage error you encountered?
+                </p>
+            </li>
+            <li>
+                <p>
+                    Why might estimating volume or weight be harder than length?
+                </p>
+            </li>
+           <li>
+                <p>
+                    How close were your estimates to the actual measurements?
+                </p>
+            </li>
+            <li>
+                <p>
+                    What factors might have affected your estimates?
+                </p>
+            </li>
+            <li>
+                <p>
+                    How can you improve your estimation skills in the future?
+                </p>
+            </li>
+        </ol>
+
+        </p>
+        </statement>
+      
+    </activity>
+    
+    <example>
+        <statement>
+            <p>
+                A student estimates the length of a pencil to be 30 cm, but the actual measurement is 28.5 cm.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                To find the absolute error and percentage error, we use the formulas:
+            </p>
+            <p>
+                <md>
+                    <mrow> \text{Absolute Error} = \amp \text{Estimated Value - Actual Value} </mrow>
+                    <mrow> = \amp 30 \, \text{cm} - 28.5 \, \text{cm}</mrow>
+                    <mrow> = \amp 1.5 \text{cm}  </mrow>
+                </md>
+            </p>
+            <p>
+                <md>
+                    <mrow> \text{Percentage Error} = \amp \frac{\text{Absolute error}}{\text{Actual value}} \times 100%</mrow>
+                    <mrow> = \amp \frac{1.5 \, \text{cm}}{28.5 \, \text{cm}} \times 100%</mrow>
+                    <mrow> \approx 5.26\% </mrow>
+                </md>
+            </p>
+            <p>
+                Therefore, the absolute error is 1.5 cm and the percentage error is approximately 5.26%.
+            </p>
+
+        </solution>
+        </example>
+        <example>
+            <statement>
+                <p>
+                    Amina estimates the weight of a bag of flour to be 2 kg, but the actual weight is 1.95 kg. Calculate the flour's pecentage error.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    To find the absolute error and percentage error, we use the formulas:
+
+                </p>
+                <p>
+                    <md>
+                        <mrow> \text{Absolute Error} = \amp \text{Estimated Value - Actual Value} </mrow>
+                        <mrow> = \amp 2 \, \text{kg} - 1.95 \, \text{kg}</mrow>
+                        <mrow> = \amp 0.05 \text{kg}  </mrow>
+                    </md>
+                </p>
+                <p>
+                    <md>
+                        <mrow> \text{Percentage Error} = \amp \frac{\text{Absolute error}}{\text{Actual value}} \times 100%</mrow>
+                        <mrow> = \amp \frac{0.05 \, \text{kg}}{1.95 \, \text{kg}} \times 100%</mrow>
+                        <mrow> \approx 2.56\% </mrow>
+                    </md>
+                </p>
+                <p>
+                    Therefore, the absolute error is 0.05 kg and the percentage error is approximately 2.56%.
+                </p>
+            </solution>
+        </example>
+</subsection>

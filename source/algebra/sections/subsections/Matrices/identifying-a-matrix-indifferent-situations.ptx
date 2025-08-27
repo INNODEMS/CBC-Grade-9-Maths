@@ -1,6 +1,150 @@
 <subsection xml:id="subsec-identifying-a-matrix-indifferent-situations">
-    <title>Identifying a matrix indifferent situations</title>
-    <p>
-    
-    </p>
+    <title>Identifying a Matrix in Different Situations</title>
+        <p>
+            A <m>\textbf{matrix}</m> is a way of organizing numbers or information in rows and columns—just like the tables you have seen in other topics such as measurement and data handling. 
+            Matrices help us organize, compare, and analyze data efficiently.
+        </p>
+        <p>
+            Matrices are powerful tools for organizing and analyzing real-world data, such as sports scores, business sales, or scientific results. By turning tables into matrices, we can use mathematical methods to solve problems more easily.
+        </p>
+
+        <activity>
+            <p><m>Work in Groups</m></p>
+            <p>The Greenfield School Cafeteria prepares meals for students in three school levels: <m>Lower Primary</m>, <m>Upper Primary</m>, and <m>Secondary</m>. Each week, they prepare two types of meals: <m>Vegetarian</m> and <m>Non-Vegetarian</m>. The number of meals prepared (in hundreds) for Week 1 and Week 2 is recorded in the tables below:</p>
+            <tabular top="medium" bottom="medium" left="medium" right="medium">
+              <row bottom="medium">
+                <cell colspan="3" halign="center">
+                  <m>Week 1 Meal Data</m>
+                </cell>
+              </row>
+              <row>
+                <cell halign="center">4</cell>
+                <cell halign="center">6</cell>
+              </row>
+              <row>
+                <cell halign="center">3</cell>
+                <cell halign="center">5</cell>
+              </row>
+              <row bottom="medium">
+                <cell halign="center">2</cell>
+                <cell halign="center">7</cell>
+              </row>
+            </tabular>
+            <tabular top="medium" bottom="medium" left="medium" right="medium">
+              <row bottom="medium">
+                <cell colspan="3" halign="center">
+                  <m>Week 2 Meal Data</m>
+                </cell>
+              </row>
+              <row>
+                <cell halign="center">5</cell>
+                <cell halign="center">4</cell>
+              </row>
+              <row>
+                <cell halign="center">4</cell>
+                <cell halign="center">6</cell>
+              </row>
+              <row>
+                <cell halign="center">3</cell>
+                <cell halign="center">8</cell>
+              </row>
+            </tabular>
+            <p><m>\textbf{What you need:}</m> </p>
+            <p>
+              <ul>
+                <li>Notebook or writing pad</li>
+                <li>Pen or pencil</li>
+              </ul>
+            </p>
+            <p><m>\textbf{Instructions:}</m></p>
+            <p>
+              <ol>
+                <li>Carefully study the tables for Week 1 and Week 2.</li>
+                <li><m>\textbf{Discuss with your group: }</m>
+                  <ul>
+                    <li>How many rows and columns are in each table? What does each represent?</li>
+                    <li>Write the data for each week as a matrix. Use square brackets for Week 1 and curly brackets for Week 2.</li>
+                    <li>What do you notice about the arrangement of the data in matrix form compared to the table?</li>
+                  </ul>
+                </li>
+                <li><m>\textbf{Explore: }</m>
+                  <ul>
+                    <li>Compare the matrices for Week 1 and Week 2. In which categories did the cafeteria increase or reduce production?</li>
+                    <li>If the cafeteria added a new meal type, how would the matrix change?</li>
+                    <li>Try changing one value in the matrix. How does it affect the totals for each category?</li>
+                  </ul>
+                </li>
+                <li><m>\textbf{Reflect and Share:}</m> 
+                  <ul>
+                    <li>How does using a matrix help you organize and analyze the data more easily?</li>
+                    <li>Can you think of another real-life situation where a matrix would be useful?</li>
+                    <li>Share your answers and reasoning with another group. Did you agree? Why or why not?</li>
+                  </ul>
+                </li>
+              </ol>
+            </p>
+        </activity>        
+
+        <p>
+            <term>Key Take Away</term>
+        </p>
+        <p>
+          Matrices help us organize, compare, and analyze data efficiently, making it easier to spot patterns and make decisions.
+        </p>
+        <example>
+            <statement>
+                <p>Write the table below as a matrix.</p>
+                <p>Who read the most books in Term 2?</p>
+                <p>How many books did Brian read in total?</p>
+                <tabular top="medium" bottom="medium" left="medium" right="medium">
+                  <row>
+                    <cell></cell>
+                    <cell>Term 1</cell>
+                    <cell>Term 2</cell>
+                  </row>
+                  <row>
+                    <cell>Alice</cell>
+                    <cell>4</cell>
+                    <cell>5</cell>
+                  </row>
+                  <row>
+                    <cell>Brian</cell>
+                    <cell>3</cell>
+                    <cell>6</cell>
+                  </row>
+                  <row>
+                    <cell>Carol</cell>
+                    <cell>5</cell>
+                    <cell>4</cell>
+                  </row>
+                </tabular>
+            </statement>
+            <solution>
+                <p>Step 1: Write the matrix:</p>
+                <p>
+                    <m>\textbf{Matrix:}</m>
+                    <m>
+                        \begin{bmatrix}
+                            4 &amp; 5 \\
+                            3 &amp; 6 \\
+                            5 &amp; 4 \\
+                        \end{bmatrix}
+                    </m>
+                </p>
+                <p>
+                    Rows: Alice, Brian, Carol.
+                </p>
+                <p>
+                    Columns: Term 1, Term 2.
+                </p>
+                <p>
+                    <ul>
+                        <li>Who read the most books in Term 2? <m>\textbf{Brian}</m></li>
+                        <li>We compare the Term 2 column: Alice = 5, Brian = 6, Carol = 4. The highest number is <m>\textbf{6}</m>, which belongs to <m>\textbf{Brian}</m>.</li>
+                        <li>How many books did Brian read in total?</li>
+                        <li>We add the numbers in Brian's row: 3 (Term 1) + 6 (Term 2) = 9. therefore he read a total of <m>\textbf{9 books}</m>.</li>
+                    </ul>
+                </p>
+            </solution>
+        </example>
 </subsection>
