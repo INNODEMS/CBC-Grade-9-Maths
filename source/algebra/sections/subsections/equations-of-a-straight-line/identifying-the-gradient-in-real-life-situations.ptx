@@ -57,10 +57,10 @@
       </table>
 
       <p>
-        <ol marker="e)">
+        <ul>
           <li>Discuss as a group how the steepness might affect the use of that surface (for example, ease of access for a wheelchair or the energy required for a person climbing the hill).</li>
           <li>Discuss as a group how the steepness might affect the use of that surface (for example, ease of access for a wheelchair or the energy required for a person climbing the hill).</li>
-        </ol>
+        </ul>
       </p>
       <p>
         <ul>
@@ -70,7 +70,7 @@
     </activity>
 
     <p>
-      <m>\textbf{Key Takeaway}</m>
+      <term>Key Takeaway:</term>
     </p>
     <p>
       The gradient gives a numerical value to the concept of steepness, allowing us to compare different slopes and understand their practical implications for safety, accessibility, and design.
