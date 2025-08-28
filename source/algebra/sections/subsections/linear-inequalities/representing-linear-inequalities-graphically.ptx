@@ -1,7 +1,6 @@
 <subsection xml:id="subsec-representing-linear-inequalities-graphically" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Representing Linear Inequalities Graphically</title>
 
-  <introduction>
     <p>
       In many real-life situations, we deal with inequalities such as limits, budgets, or boundaries. Graphing these inequalities helps us visualize all the possible solutions that satisfy the conditions.
     </p>
@@ -15,13 +14,9 @@
         <li>Dashed lines for inequalities like <m>\lt</m> or <m>\gt</m></li>
       </ul>
     </p>
-  </introduction>
-
-  <subsubsection xml:id="subsubsec-graphing-inequalities-one-variable">
-    <title>Graphing Inequalities in One Variable</title>
 
     <activity>
-      <p><m>\textbf{Try This in Pairs}</m></p>
+      <p><term>Work in groups</term></p>
       <p><term>What you need:</term></p>
       <p>
         <ul>
@@ -29,7 +24,7 @@
           <li>Pencil and ruler</li>
         </ul>
       </p>
-      <p><m>\textbf{Instructions}</m></p>
+      <p><term>Instructions:</term></p>
       <p>
         <ol>
           <li>Draw a number line on your graph paper.</li>
@@ -53,14 +48,10 @@
         </p>
       </solution>
     </example>
-  </subsubsection>
-
-  <subsubsection xml:id="subsubsec-graphing-two-variable">
-    <title>Graphing Inequalities in Two Variables</title>
 
     <activity>
-      <p><m>\textbf{Group Activity: Drawing Solution Regions}</m></p>
-      <p><term>Materials:</term></p>
+      <p><term>Work in groups</term></p>
+      <p><term>What you need:</term></p>
       <p>
         <ul>
           <li>Graph paper</li>
@@ -68,7 +59,7 @@
           <li>Ruler</li>
         </ul>
       </p>
-      <p><m>\textbf{Instructions}</m></p>
+      <p><term>Instructions:</term></p>
       <p>
         <ol>
           <li>Draw the line <m>y = -x + 2</m>. Use a dashed line since the inequality will not include equality.</li>
@@ -78,6 +69,13 @@
         </ol>
       </p>
     </activity>
+
+    <p>
+      <term>Key Takeaway:</term>
+    </p>
+    <p>
+      Inequalities in two variables describe regions of the graph. Always draw the boundary line first, then use a test point to decide which side to shade. Use dashed or solid lines to indicate strict or inclusive inequalities.
+    </p>
 
     <example>
       <statement>
@@ -97,7 +95,8 @@
       </solution>
     </example>
 
-    <exercise>
+    <exercises>
+      <exercise>
         <p><m>\textbf{Answer the following in your exercise book.}</m></p>
         <ol>
         <li>
@@ -116,11 +115,7 @@
             If <m>x \ge 2</m> and <m>x \lt 5</m>, shade the region on the number line that satisfies both.
         </li>
         </ol>
-    </exercise>
-  </subsubsection>
-    <conclusion>
-        <p>
-        <m>\textbf{Key Takeaway:}</m> Inequalities in two variables describe regions of the graph. Always draw the boundary line first, then use a test point to decide which side to shade. Use dashed or solid lines to indicate strict or inclusive inequalities.
-        </p>
-    </conclusion>
+      </exercise>
+    </exercises>
+
 </subsection>
