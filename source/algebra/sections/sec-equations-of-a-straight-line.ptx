@@ -6,7 +6,6 @@
         <xi:include href="subsections/equations-of-a-straight-line/gradient-from-two-points.ptx" />
         <xi:include href="subsections/equations-of-a-straight-line/equation-from-two-points.ptx" />
         <xi:include href="subsections/equations-of-a-straight-line/equation-from-gradient-and-point.ptx" />
-        <xi:include href="subsections/equations-of-a-straight-line/expressing-equation-y-equals-mx-plus-c.ptx" />
         <xi:include href="subsections/equations-of-a-straight-line/determining-x-and-y-intercepts.ptx" />
         <xi:include href="subsections/equations-of-a-straight-line/real-life-use-of-linear-equations.ptx" />
 

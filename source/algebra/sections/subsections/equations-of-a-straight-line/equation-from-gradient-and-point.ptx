@@ -40,7 +40,7 @@
                     </ol>
                 </p>
                 <p>
-                    Discuss with your group: Would the result be different if we had chosen a different point?
+                    Discuss with your group: would the result be different if we had chosen a different point?
                 </p>
             </statement>
         </activity>
@@ -91,9 +91,9 @@
 
         <exercises>
             <exercise>
-            <p><m>\textbf{Answer the following questions. Use the point-slope method to derive each equation, then write it in the form}</m> <m>y = mx + c</m>.</p>
+            <p><term>Answer the following questions. Use the point-slope method to derive each equation, then write it in the form <m>y = mx + c</m>.</term></p>
 
-            <ol>
+            <ol marker="1.">
                 <li>
                     <p>
                         A line has a gradient of <m>3</m> and passes through the point <m>(1, 5)</m>. Find the equation of the line.
