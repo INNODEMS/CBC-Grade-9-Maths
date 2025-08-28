@@ -1,7 +1,7 @@
 <subsection xml:id="subsec-application_of_probability">
     <title>Application of Probability</title>
         <p>
-            Probability helps us make informed decisions in daily life, games, weather forecasting, business, health, and risk analysis.
+            Probability helps us make informed decisions in daily life, games, weather forecasting, business, health and risk analysis.
         </p>
         <activity>
             <p>
@@ -29,10 +29,10 @@
            
         </activity>
         <p>  
-            <m>\textbf{key takeaway}</m>
+            <m>\textbf{Key Takeaway}</m>
         </p>
         <p>
-            It allows us to predict, estimate risk, and plan ahead based on chance and likelihood.
+            Probability allows us to predict, estimate risk, and plan ahead based on chance and likelihood.
         </p>
         <example>
             <statement>
@@ -40,7 +40,7 @@
                     A weather report says there's a 70% chance of rain tomorrow.
                 </p>
                 <p>
-                    That means this is not certain, but likely.
+                    This means the event is not certain, but it is likely.
                 </p>
             </statement>
         </example>
@@ -50,7 +50,7 @@
                     A study shows that 1 in 4 people are likely to catch a cold during the cold season.
                 </p>
                 <p>
-                    \textbf{P(Catch a cold) = }
+                    <m>\textbf{P(Catch a cold) = }</m>
                 </p>
                 <p>
                     <md>
@@ -59,7 +59,7 @@
                 </p>
                 <p>
                     <md>
-                        <mrow> 25% </mrow>
+                        <mrow> \textbf{The probability of one catching cold out of four is 0.25 which is 25%}  </mrow>
                     </md>
                 </p>
             </statement>
