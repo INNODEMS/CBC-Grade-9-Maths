@@ -1,7 +1,6 @@
 <subsection xml:id="subsec-solving-linear-inequalities" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Solving Linear Inequalities in One and Two Unknowns</title>
 
-  <introduction>
     <p>
       In the previous section, we learned how to interpret inequalities from real-life contexts. Now, we will focus on solving linear inequalities and representing their solutions — both in one and two variables.
     </p>
@@ -11,13 +10,9 @@
     <p>
       Remember, when multiplying or dividing both sides of an inequality by a negative number, the inequality sign reverses direction.
     </p>
-  </introduction>
-
-  <subsubsection xml:id="subsubsec-solving-one-variable">
-    <title>Solving Linear Inequalities in One Variable</title>
 
     <activity>
-      <p><m>\textbf{Group work}</m></p>
+      <p><term>Work in groups</term></p>
       <p><term>What you need:</term></p>
       <p>
         <ul>
@@ -25,7 +20,7 @@
           <li>Graph paper or notebook</li>
         </ul>
       </p>
-      <p><m>\textbf{Instructions:}</m></p>
+      <p><term>Instructions:</term></p>
       <p>
         <ol>
           <li>
@@ -48,7 +43,7 @@
     </activity>
 
     <p>
-      <m>\textbf{Key Takeaway:}</m>
+      <term>Key Takeaway:</term>
     </p>
     <p>
       Solving linear inequalities involves similar steps to solving equations, but always remember to reverse the inequality when multiplying or dividing by a negative number. For two-variable inequalities, graph the boundary and shade the region of solutions.
@@ -76,13 +71,9 @@
         </p>
       </solution>
     </example>
-  </subsubsection>
-
-  <subsubsection xml:id="subsubsec-solving-two-variables">
-    <title>Solving Linear Inequalities in Two Variables</title>
 
     <activity>
-      <p><m>\textbf{Group work}</m></p>
+      <p><term>Work in groups</term></p>
       <p><term>What you need:</term></p>
       <p>
         <ul>
@@ -90,7 +81,7 @@
           <li>Pencils, ruler, and eraser</li>
         </ul>
       </p>
-      <p><m>\textbf{Instructions:}</m></p>
+      <p><term>Instructions:</term></p>
       <p>
         <ol marker="a)">
           <li>Plot the boundary line for the inequality <m>y \lt 2x + 3</m>. Use a dashed line since the inequality does not include equality.</li>
@@ -126,7 +117,7 @@
 
     <exercises>
       <exercise>
-          <p><m>\textbf{Practice the following questions in your notebook.}</m></p>
+          <p><m>\textbf{Work on the following questions in your notebook.}</m></p>
           <ol>
           <li>
               Solve and represent the solution on a number line: <m>2x + 3 \gt 7</m>
@@ -146,6 +137,5 @@
           </ol>
       </exercise>
     </exercises>
-  </subsubsection>
 
 </subsection>
