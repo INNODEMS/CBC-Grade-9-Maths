@@ -2,7 +2,7 @@
     <title>Volume of a sphere</title>
     <activity>
         <p>
-            <m>\textbf{Work in groups}</m>
+            <term>Work in Groups</term>
         </p>
         <p>
             <m>\textbf{Play and Learn Activity: Discovering the Volume of a Sphere}</m>
@@ -33,6 +33,9 @@
                     </p>
                 </li>
             </ul>
+        </p>
+        <p>
+            <term>Instructions</term>
         </p>
         <p>
             <ol>
@@ -120,10 +123,10 @@
         The volume of a sphere is given by:
     </p>
     <p>
-        <m>\textbf{Volume}= \frac{4}{3} \pi r^3</m>
+        <me>\textbf{Volume}= \frac{4}{3} \pi r^3</me>
     </p>
     <p>
-        where <m>r</m> is the radius of the sphere.
+        Where <m>r</m> is the radius of the sphere.
     </p>
 
 
@@ -170,7 +173,7 @@
                 </md>
             </p>
             <p>
-                The volume of the sphere is <m>{\color{blue}10922.67 \text{ cm}^3}</m>.
+                The volume of the sphere is <m>{\color{black}10922.67 \text{ cm}^3}</m>.
             </p>
         </solution>
     </example>
@@ -190,7 +193,7 @@
                 The radius is half of the diameter:
             </p>
             <p>
-                <m>r = \frac{4.2}{2} = 2.1 \text{ cm}</m>
+                <me>r = \frac{4.2}{2} = 2.1 \text{ cm}</me>
             </p>
             <p>
                 Find the volume of one cake ball
@@ -214,7 +217,7 @@
                 </md>
             </p>
             <p>
-                Therefore, Moraa made <m>{\color{blue}5 \, \text{ balls}}</m>  cake balls from the minced cake.
+                Therefore, Moraa made <m>{\color{black}5 \, \text{ balls}}</m>  cake balls from the minced cake.
             </p>
         </solution>
     </example>
@@ -262,15 +265,21 @@
                 </md>
             </p>
             <p>
-                The volume of the globe is <m>{\color{blue} 91964.25 \text{ m}^3}</m>.
+                The volume of the globe is <m>{\color{black} 91964.25 \text{ m}^3}</m>.
             </p>
         </solution>
     </example>
-    <exercise>
-        <p>
-            
-        </p>
-    </exercise>
+    <exercises >
+        
+        <exercise>
+            <p>
+                
+            </p>
+        </exercise>
+        
+        
+        
+    </exercises>
 
 
     <technology>
@@ -286,7 +295,7 @@
                     <p>
                         <m>\textbf{CK-12 Interactive Geometry}</m>
                         Engage with interactive explanations and practice problems to deepen your understanding of the volume of various solids including prisms, cylinders, spheres, and cones.
-                        🔗 <url href="https://flexbooks.ck12.org/cbook/ck-12-interactive-geometry-for-ccss/section/1.10/primary/lesson/volume-of-solids-geo-ccss/">Visit CK-12 Interactive Geometry</url>
+                        <url href="https://flexbooks.ck12.org/cbook/ck-12-interactive-geometry-for-ccss/section/1.10/primary/lesson/volume-of-solids-geo-ccss/">Visit CK-12 Interactive Geometry</url>
                     </p>
                 </li>
 
@@ -294,7 +303,7 @@
                     <p>
                         <m>\textbf{YouTube Video – Visual Explanation}</m>
                         Gain a clear and concise understanding of calculating the volume of solids with this engaging video tutorial, perfect for visual learners.
-                        🔗 <url href="https://www.youtube.com/watch?v=9FbJWhDiXogandlist=PL9jFeeMFHxsOm8vtumdyHCgmA-7z-vZGw">Watch Now</url>
+                        <url href="https://www.youtube.com/watch?v=9FbJWhDiXogandlist=PL9jFeeMFHxsOm8vtumdyHCgmA-7z-vZGw">Watch Now</url>
                     </p>
                 </li>
             </ol>

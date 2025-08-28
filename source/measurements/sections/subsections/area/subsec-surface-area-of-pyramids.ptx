@@ -1,28 +1,22 @@
 <subsection xml:id="subsec-surface-area-of-pyramids">
     <title>Surface area of pyramids</title>
     <introduction>
-        <p>
-            A <m>\textbf{Pyramid}</m> is a solid with a polygonal
-            base and slanting sides that meet at a
-            common apex.
-        </p>
-        <p>
-            The base can be a triangle, square, or other 
-            polygon. The number of triangular faces depends on the shape of the base.
-        </p>
-        <p>
-            For <m>\textbf{example}</m>
-        </p>
-        <p>
-            A square-based pyramid has <m>1</m> square base and 4 triangular faces.
-        </p>
-        <p>
-            The surface area of a <m>\textbf{Pyramid}</m> is the sum of the area of the
-            slanting faces and the area of the base.
-        </p>
-        <p>
-            Lets explore how to calculate the surface area of pyramids with different bases.
-        </p>
+        <definition xml:id="def-Pyramids">
+            <statement>
+                <p>
+                    A <m>\textbf{Pyramid}</m> is a solid with a polygonal
+                    base and slanting sides that meet at a
+                    common apex.
+                </p>
+                <p>
+                    The surface area of a <m>\textbf{Pyramid}</m> is the sum of the area of the
+                    slanting faces and the area of the base.
+                </p>
+
+            </statement>
+        </definition>
+        
+        
         
     </introduction>
 
@@ -56,13 +50,16 @@
                 </ul>
             </p>
             <p>
+                <term>Instructions</term>
+            </p>
+            <p>
                 <ol>
                     <li>
                         <p>
                             The pyramids model are as shown below.
                         </p>
                         <sidebyside>
-                            <image width="50%">
+                            <image width="20%">
                             <latex-image label="triangular-based-pyramid">
                                 \begin{tikzpicture}
                                     % Base triangle
@@ -73,42 +70,14 @@
                                     \draw[very thick] (6,0)--(3,5);
                                 \end{tikzpicture}
                             </latex-image>
+                            
                                 
                             </image>
-
-                            <image width="50%">
-                            <latex-image label="square-based-pyramid">
-                                \begin{tikzpicture}
-                                    % Base square
-                                    \draw[very thick,fill=white] (0,0)--(4,0)--(4,4)--(0,4)--cycle;
-                                    % Apex
-                                    \draw[very thick] (2,4)--(2,6);
-                                    \draw[very thick] (0,0)--(2,6);
-                                    \draw[very thick] (4,0)--(2,6);
-                                    \draw[very thick] (4,4)--(2,6);
-                                    \draw[very thick] (0,4)--(2,6);
-                                \end{tikzpicture}
-                            </latex-image>
-                                
+                            <image source="/Pyramids.png" width="80%">
+                                <shortdescription>(for accessibility)</shortdescription>
                             </image>
 
-                            <image width="50%">
-                            <latex-image label="rectangular-based-pyramid">
-                                \begin{tikzpicture}
-                                    % Base rectangle
-                                    \draw[very thick,fill=pink] (0,0)--(8,0)--(8,4)--(0,4)--cycle;
-                                    % Apex
-                                    \draw[very thick] (4,2)--(4,7);
-                                    \draw[very thick] (0,0)--(4,7);
-                                    \draw[very thick] (8,0)--(4,7);
-                                    \draw [very thick] (8,4)--(4,7);
-                                    \draw[very thick] (0,4)--(4,7);
-                                \end{tikzpicture}
-                            </latex-image>
-                                
-                            </image>
-
-
+                            
 
 
 
@@ -116,7 +85,7 @@
                             
                         </sidebyside>
                         <p>
-                            What is the name of the above pyramids?
+                            <m>\bullet</m> What is the name of the above pyramids?
                         </p>
                     </li>
                     <li>
@@ -128,7 +97,7 @@
                         <p>
                             Cut and open the rectangular-based pyramid along the edges to reveal its net as shown below.
                         </p>
-                        <image width="50%">
+                        <image width="70%">
                         <latex-image label="net-of-rectangular-based-pyramid">
                             \begin{tikzpicture}
                                 % Base rectangle
@@ -184,32 +153,23 @@
             </p>
         </activity>
         <p>
-            <m>\textbf{Key Takeaway}</m>
+            <term>Key Takeaway</term>
         </p>
         <p>
-            <ol>
+            <ol marker="a)">
                 <li>
                     <p>
-                        <m>\textbf{Surface Area of Pyramids}=\text{Base Area}+\text{area of thefour triangular faces.}</m>
+                        <me>\text{Surface Area of Pyramids}=\text{Base Area}+\text{area of thefour triangular faces.}</me>
                     </p>
-                </li>
-                <li>
-                    <p>
-                        Each triangle’s <m>\text{Area is }=\frac{1}{2}\times \text{base}\times \text{slant height.}</m>.
-                    </p>
-                    <p>
+                     <p>
                         <m>\textbf{Note:}</m>
                     </p>
-                    <p>
-                        <m>\textbf{Important:}</m> The base area and the slant height must be measured accurately to ensure the correct surface area is calculated.
-                    </p>
-                    <p>
-                        The slant height is the height of the triangular face, not the height of the pyramid.
-                    </p>
+                    
                     <p>
                         Understanding the <m>\textbf{net}</m> helps visualize and calculate total area easily.
                     </p>
                 </li>
+                
             </ol>
         </p>
         <example>
@@ -279,7 +239,7 @@
                     </md>
                 </p>
                <p>
-                   Therefore, the total surface area of the pyramid is <m>{\color{blue}179.75 \, \text{cm}^2}</m>.
+                   Therefore, the total surface area of the pyramid is <m>{\color{black}179.75 \, \text{cm}^2}</m>.
                </p>
 
             </solution>
@@ -313,7 +273,7 @@
                     </md>
                 </p>
                 <p>
-                    Therefore, the total surface area of the tent is <m>{\color{blue}24 \, \text{m}^2}</m>.
+                    Therefore, the total surface area of the tent is <m>{\color{black}24 \, \text{m}^2}</m>.
                 </p>
             </solution>
         </example>
@@ -352,20 +312,31 @@
                 </p>
                 <image width="50%">
                 <latex-image label="exer">
-                    \begin{tikzpicture}
-                        % ===== NET OF THE PYRAMID (4 equilateral triangles) =====
-                        \begin{scope}[shift={(10,0)}]
-                            % Central base triangle (same as model)
-                            \draw[very thick, fill=blue!20] (3.5,0) -- (10.5,0) -- (7,6.06) -- cycle;
-                            
-                            % Side triangles (folded out)
-                            \draw[very thick, fill=green!20] (3.5,0) -- (0,6.06) -- (7,6.06);
-                            \draw[very thick, fill=green!20] (10.5,0) -- (14,6.06) -- (7,6.06);
-                            
-                            % Labels
-                            \node[below] at (7,-0.3) {7 cm};
-                            \node[above] at (3.5,6.36) {7 cm};
-                        \end{scope}
+                    \begin{tikzpicture}[scale=0.8]
+                        % --- Base triangle ---
+                        \coordinate (A) at (0,0);
+                        \coordinate (B) at (7,0);
+                        \coordinate (C) at (3.5,6.06); 
+
+                        \draw[very thick, fill=blue!15] (A) -- (B) -- (C) -- cycle;
+                        \node at (3.5,-0.4) {\textbf{7 cm}};
+
+                        % --- Side triangle 1 (attached to AB) ---
+                        \coordinate (D) at (3.5,-6.06);
+                        \draw[very thick, fill=green!15] (A) -- (B) -- (D) -- cycle;
+
+                        % --- Side triangle 2 (attached to AC) ---
+                        \coordinate (E) at (-6.06,3.03);
+                        \draw[very thick, fill=yellow!20] (A) -- (C) -- (E) -- cycle;
+
+                        % --- Side triangle 3 (attached to BC) ---
+                        \coordinate (F) at (10.56,3.03);
+                        \draw[very thick, fill=red!20] (B) -- (C) -- (F) -- cycle;
+
+                        % Edge labels (optional, all = 7 cm)
+                        \node [left]at (1.75,3.2) {7 cm};
+                        \node [right]at (5.25,3.2) {7 cm};
+                        \node [below]at (3,0) {7 cm};   
                     \end{tikzpicture}
                 </latex-image>
                     
@@ -405,11 +376,19 @@
                 </p>
             </solution>
         </example>
-        <exercise>
-            <p>
-                
-            </p>
-        </exercise>
+        <exercises xml:id="Pyramids">
+            <exercise>
+                <p>
+                    
+                </p>
+            </exercise>
+            <exercise>
+                <p>
+                    
+                </p>
+            </exercise>
+        </exercises>
+        
         
     </subsubsection>
 </subsection>

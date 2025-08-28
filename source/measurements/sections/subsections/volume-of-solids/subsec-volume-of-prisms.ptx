@@ -1,20 +1,18 @@
 <subsection xml:id="subsec-volume-of-prisms">
     <title>Volume of prisms</title>
     <introduction>
-        <definition xml:id="def-Volume-of-prisms1">
-            <statement>
-                <p>
-                    A prism is a solid with a uniform cross-
-                    section. The sides connecting the bases are parallelograms. 
-                </p>
-                <p>
-                   The volume <m>\text{V}</m> of a prism with
-                   cross section area <m>\text{A}</m> and length <m>\text{l}</m> is
-                   given by <m>\text{V} = \text{A} \times \text{l}</m>.
-                </p>
+        
+        <p>
+            A <m>\text{prism}</m> is a solid with a uniform cross-
+            section. The sides connecting the bases are parallelograms. 
+        </p>
+        <p>
+            The volume <m>\text{V}</m> of a prism with
+            cross section area <m>\text{A}</m> and length <m>\text{l}</m> is
+            given by <me>\text{V} = \text{A} \times \text{l}</me>.
+        </p>
                 
-            </statement>
-        </definition>
+           
     </introduction>
     <subsubsection xml:id="subsubsec-Volume-of-a-volume-of-a-triangular-based-prism">
         <title>Volume of triangular based prism</title>
@@ -23,10 +21,10 @@
                 <m>\textbf{Work in pairs}</m>
             </p>
             <p>
-                <m>\textbf{Instructions for Learners}</m>
+                <term>Instructions</term>
             </p>
             <p>
-                <ol>
+                <ol marker="a)">
                     <li>
                         <p>
                             Imagine you are designing a small water 
@@ -80,9 +78,7 @@
                     </li>
                 </ol>
             </p>
-            <p>
-                <m>\textbf{Task}</m>
-            </p>
+            
             <p>
                 <ol>
                     <li>
@@ -134,7 +130,7 @@
 
         </activity>
         <p>
-            <m>\textbf{Key Takeaway}</m>
+            <term>Key Takeaway</term>
         </p>
         <p>
             The figure shown below represents a triangular prism with a cross section area of <m>\text{A}</m> and a length of <m>\text{l}</m>.
@@ -175,7 +171,7 @@
 
                 % Label length of prism (cross section to back)
                 \draw[&lt;-&gt;,thick,red] (4,-0.1)--(6.2,1);
-                \node[red] at (6,0.1) {Length};
+                \node[red] at (6,0.1) {Length(l)};
 
                 % Label cross-section
                 \node[blue] at (2,0.4) {Cross-section (A)};
@@ -189,7 +185,7 @@
             The volume of a triangular prism is found by multiplying the area of its triangular cross-section by its length. Which can be writen as,
         </p>
         <p>
-            <m>\text{V} = \text{A} \times \text{l}</m>
+            <me>\text{V} = \text{A} \times \text{l}</me>
         </p>
 
         <example>
@@ -210,7 +206,7 @@
                     </md>
                 </p>
                 <p>
-                    Therefore, the volume of the prism is <m>{\color{blue} 60 \, \text{cm}^3}</m>.
+                    Therefore, the volume of the prism is <m>{\color{black} 60 \, \text{cm}^3}</m>.
                 </p>
             </solution>
         </example>
@@ -275,7 +271,7 @@
                     </md>
                 </p>
                 <p>
-                    Therefore, the volume of the triangular prism is <m>{\color{blue} 960 \, \text{m}^3}</m>.
+                    Therefore, the volume of the triangular prism is <m>{\color{black} 960 \, \text{m}^3}</m>.
                 </p>
             </solution>
         </example>
@@ -367,7 +363,7 @@
                     </md>
                 </p>
                 <p>
-                    Volume is given by;
+                    Volume is given by:
                 </p>
                 <p>
                     <md>
@@ -378,15 +374,22 @@
                     </md>
                 </p>
                 <p>
-                    Therefore, the length of the loader is <m>{\color{blue} 15 \, \text{m}}</m>.
+                    Therefore, the length of the loader is <m>{\color{black} 15 \, \text{m}}</m>.
                 </p>
             </solution>
         </example>
-        <exercise>
+        <exercises >
+            <exercise>
             <p>
-                
-            </p>
-        </exercise>
+                    
+                </p>
+            </exercise>
+            <exercise>
+                <p>
+                        
+                </p>
+            </exercise>
+        </exercises>
         
     </subsubsection>
 
@@ -510,10 +513,9 @@
         </p>
         <p>
             Which can be written as:
+            <me>V= l \times w \times h</me>
         </p>
-        <p>
-            <m>\text{Volume}= l \times w \times h</m>
-        </p>
+        
         <example>
             <statement>
                 <p>
@@ -582,7 +584,7 @@
                     </md>
                 </p>
                 <p>
-                    Therefore, the volume of the rectangular prism is <m>{\color{blue} 2160 \, \text{cm}^3}</m>.
+                    Therefore, the volume of the rectangular prism is <m>{\color{black} 2160 \, \text{cm}^3}</m>.
                 </p>
             </solution>
         </example>
@@ -604,7 +606,7 @@
                     Rearranging the formula to find the base area gives:
                 </p>
                 <p>
-                    <m>\text{Base area} = \frac{\text{\text{Volume}}}{\text{Height}}</m>
+                    <m>\text{Base area} = \frac{{\text{Volume}}}{\text{Height}}</m>
                 </p>
                 <p>
                     Substituting in the known values:
@@ -616,7 +618,7 @@
                     </md>
                 </p>
                 <p>
-                    Therefore, the base area of the prism is <m>{\color{blue} 72 \, \text{cm}^2}</m>.
+                    Therefore, the base area of the prism is <m>{\color{black} 72 \, \text{cm}^2}</m>.
                 </p>
             </solution>
         </example>
@@ -699,6 +701,7 @@
 
                     </figure>
                 </sidebyside>
+                
                 <p>
                     <ol marker="a) ">
                         <li>
@@ -724,7 +727,7 @@
                             </p>
                             <p>
                                 <md>
-                                    <mrow>\text{Volume} = \amp \text{length(l)} \times \text{width(w)} \times \text{height(h)}</mrow>
+                                    <mrow>\text{Volume} = \amp l \times w \times h</mrow>
                                     <mrow> =\amp 4 \, \text{m} \times 7 \, \text{m} \times 10 \, \text{m}</mrow>
                                     <mrow> =\amp 280 \, \text{m}^3</mrow>
                                 </md>
@@ -743,10 +746,10 @@
                                 Therefore, 
                             </p>
                             <p>
-                                The volume of container (i) is <m>{\color{blue} 280 \, \text{m}^3}</m> 
+                                The volume of container (i) is <m>{\color{black} 280 \, \text{m}^3}</m> 
                             </p>
                             <p>
-                                The volume of container (ii) is <m>{\color{blue} 576 \, \text{m}^3}</m>.
+                                The volume of container (ii) is <m>{\color{black} 576 \, \text{m}^3}</m>.
                             </p>
                         </li>
                         <li>
@@ -754,18 +757,25 @@
                                 Which container holds more ice cream?
                             </p>
                             <p>
-                                Container (ii) holds more ice cream since <m>{\color{black} 576 \, \text{m}^3}</m> is greater than <m>{\color{green} 280 \, \text{m}^3}</m>.
+                                Container (ii) holds more ice cream since <m>{\color{black} 576 \, \text{m}^3}</m> is greater than <m>{\color{black} 280 \, \text{m}^3}</m>.
                             </p>
                         </li>
                     </ol>
                 </p>
             </solution>
         </example>
-        <exercise>
-            <p>
-                
-            </p>
-        </exercise>
+        <exercises >
+            <exercise>
+                <p>
+                    
+                </p>
+            </exercise>
+            <exercise>
+                <p>
+                    
+                </p>
+            </exercise>
+        </exercises>
     </subsubsection>
 
     

@@ -1,23 +1,9 @@
 <subsection xml:id="subsec-surface-area-of-a-cone">
     <title>Surface area of a cone</title>
-    <definition xml:id="def-surface-area-of-a-cone">
-        <statement>
-            <p>
-                A <m>\textbf{cone}</m> is a pyramid with a circular
-                base.
-            </p>
-            <p>
-                A cone consists of a circular base and a curved surface that connects the base to the apex (the tip of the cone).
-            </p>
-            <p>
-                The <m>\textbf{slant height}</m> of a cone is the distance from the apex to any point on the edge of the base.
-            </p>
-            
-        </statement>
-    </definition>
+   
     <activity>
         <p>
-            <m>\text{Work in groups}</m>
+            <term>Work in groups</term>
         </p>
         <p>
             <term>Interactive work.</term>
@@ -90,8 +76,23 @@
             </ol>
         </p>
     </activity>
+     <definition xml:id="def-surface-area-of-a-cone">
+        <statement>
+            <p>
+                A <m>\textbf{cone}</m> is a pyramid with a circular
+                base.
+            </p>
+            <p>
+                A cone consists of a circular base and a curved surface that connects the base to the apex (the tip of the cone).
+            </p>
+            <p>
+                The <m>\textbf{slant height}</m> of a cone is the distance from the apex to any point on the edge of the base.
+            </p>
+            
+        </statement>
+    </definition>
     <p>
-        <m>\textbf{Key Takeaway}</m>
+        <term>Key Takeaway</term>
     </p>
     <p>
         The surface area of the closed cone is given by:
@@ -229,11 +230,11 @@
                     <mrow>\text{Surface area} = \amp \frac{22}{7} \times 10 \times 18</mrow>
                     <mrow>= \amp \frac{22}{7} \times 180</mrow>
                     <mrow>= \amp 22 \times 25.714</mrow>
-                    <mrow>\approx \amp 565.7\, \text{cm}^2</mrow>
+                    <mrow>= \amp 565.7\, \text{cm}^2</mrow>
                 </md>
             </p>
             <p>
-                Therefore, the total metal sheet required is approximately <m>{\color{blue}565.7\, \text{cm}^2}</m>.
+                Therefore, the total metal sheet required is <m>{\color{black}565.7\, \text{cm}^2}</m>.
             </p>
         </solution>
     </example>
@@ -295,11 +296,11 @@
                                 <mrow>l= \amp \sqrt{10^2+30^2}</mrow>
                                 <mrow> = \amp \sqrt{100 + 900} </mrow>
                                 <mrow> = \amp \sqrt{1000} </mrow>
-                                <mrow> \approx \amp 31.62\, \text{mm} </mrow>
+                                <mrow> =\amp 31.62\, \text{mm} </mrow>
                             </md>
                         </p>
                         <p>
-                            Therefore, the slant height is approximately <m> {\color{blue} 31.62\, \text{mm}}</m>.
+                            Therefore, the slant height is approximately <m> {\color{black} 31.62\, \text{mm}}</m>.
                         </p>
                         
 
@@ -318,7 +319,7 @@
                             </md>
                         </p>
                         <p>
-                            Therefore, the total surface area of the cone is approximately <m>{\color{blue}1307.77\, \text{mm}^2}</m>.
+                            Therefore, the total surface area of the cone is <m>{\color{black}1307.77\, \text{mm}^2}</m>.
                         </p>
                     </li>
                 </ol>
@@ -330,11 +331,18 @@
         </solution>
     </example>
 
-    <exercise>
-        <p>
-            
-        </p>
-    </exercise>
+    <exercises >
+        <exercise>
+            <p>
+                
+            </p>
+        </exercise>
+        <exercise>
+            <p>
+                
+            </p>
+        </exercise>
+    </exercises>
 
 
     

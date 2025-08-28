@@ -10,50 +10,77 @@
                     A polygon is a closed 2D shape made up of 
                     straight lines. Examples include <m>\textbf{triangles, quadrilaterals, pentagons}</m> and <m>\textbf{hexagons.}</m> 
                 </p>
-                <p>
-                    <m>\textbf{Regular Polygons}</m>
-                </p>
-                <p>
-                    
-                    A polygon is regular if:
-                </p>
-                <p>
-                    <ul>
-                        <li>
-                            <p>
-                                All sides are equal in length.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                All interior angles are equal. eg equilateral triangle, square, regular pentagon, regular hexagon
-
-                            </p>
-                        </li>
-                    </ul>
-                </p>
-                <p>
-                    <m>\textbf{Irregular Polygons}</m>
-                </p>
-                <p>
-                    A polygon is irregular if:
-                </p>
-                <p>
-                    <ul>
-                        <li>
-                            <p>
-                                Sides are not all the same length, and/or
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Angles are not all equal.
-                            </p>
-                        </li>
-                    </ul>
-                </p>
+                
             </statement>
         </definition>
+        <p>
+            <alert>Key Takeaway</alert>
+        </p>
+        <p>
+            A <term>polygon</term> can be either regular or irregular.
+        </p>
+        <p>
+            Below are some characteristics of polygons:
+        </p>
+
+        <tabular halign="left" bottom="medium" top="medium" right="medium" left="medium">
+            <col width="50%"/>
+            <row header="yes">
+                <cell><p>Type of Polygon</p></cell>
+                <cell><p>Characteristics</p></cell>
+                <cell><p>Examples</p></cell>
+            </row>
+            <row>
+                <cell>
+                    <p>
+                     Regular Polygon
+                    </p>
+                    
+               </cell>
+                <cell>
+                    <p>
+                        All sides are equal in length
+                    </p>
+                    <p>
+                        All interior angles are equal
+                    </p>
+                    <p>
+                        It is symmetrical
+                    </p>
+
+                </cell>
+                <cell>
+                    <p>
+                        Equilateral triangle, square, regular hexagon
+                    </p>
+                </cell>
+            </row>
+           <row>
+                <cell>
+                    <p>
+                     Irregular Polygon
+                    </p>
+                    
+               </cell>
+                <cell>
+                    <p>
+                        Sides are not all equal
+                    </p>
+                    <p>
+                        Angles are not all equal
+                    </p>
+                    <p>
+                        Not symmetrical
+                    </p>
+
+                </cell>
+                <cell>
+                    <p>
+                        Scalene triangle, rectangle, trapezium
+                    </p>
+                </cell>
+            </row>
+        </tabular>
        
         </introduction>
         
@@ -61,109 +88,125 @@
             <title>Area of a Pentagon</title>
             <activity>
                 <p>
-                    <m>\textbf{Work in Groups}</m>
+                    <alert>Work in Groups</alert>
+                    
                 </p>
                 <p>
                     <term>What you need.</term>
                 </p>
                 <p>
                     <ul>
-                        <li>
-                            <p>
-                                Manila paper or card paper
-                            </p>
-                        </li>
-                        <li>Manila paper or card paper</li>
+                        
+                        <li>Piece of paper</li>
                         <li>Scissors</li>
                         <li>Ruler</li>
-                        <li>Pencil</li>
+                        <li>Pencil and eraser</li>
                         <li>Protractor</li>
                         <li>Glue or tape</li>
                     </ul>
                 </p>
                 <p>
+                    <alert>Instructions</alert>
+                </p>
+                <p>
                     <ol>
+                        
                         <li>
                             <p>
-                                In pairs, discuss and write down what makes a polygon regular.
+                                Use a ruler and a protractor to draw a regular pentagon as the one shown below.
                             </p>
-                        </li>
-                        <li>
                             <p>
-                                Share your ideas with the class.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Construct a Regular Pentagon as the one shown below.
+                                <m>\textbf{Hint}</m>: each interior angle is <m>180^\circ</m>.
                             </p>
                             <image width="50%">
                             <latex-image label="Pentagon">
                                 \begin{tikzpicture}
+                                    % Center
                                     \coordinate (O) at (0,0);
+
+                                    % Regular pentagon vertices (radius = 3)
                                     \foreach \i in {1,...,5} {
                                         \coordinate (P\i) at (90+\i*72:3);
                                     }
 
-                                    % Draw pentagon
-                                    \draw[thick] (P1) -- (P2) -- (P3) -- (P4) -- (P5) -- cycle;
+                                    % Pentagon outline
+                                    \draw[very thick] (P1)--(P2)--(P3)--(P4)--(P5)--cycle;
+                                    
+                                    
 
-                                    % Draw lines from center
-                                    \foreach \i in {1,...,5} {
-                                        
+                                    % Mark center and label
+                                    \fill (O) circle (2pt) node[below right] {$O$};
+
+                                    % Vertex dots + labels
+                                    \foreach \i/\pos in {1/above left,2/below,3/below,4/right,5/above}{
+                                        \fill (P\i) circle (1pt) node[\pos] {$P_{\i}$};
                                     }
-
-                                    % Mark center
-                                    \fill (O) circle (2pt);
-                                    \node[below right] at (O) {O};
-
                                     
                                 \end{tikzpicture}
                             </latex-image>
                                 
                             </image>
+                           
+                            
+                            
+                            
+                        </li>
+                        <li>
                             <p>
-                                Use a protractor and ruler to draw a regular pentagon (each interior angle is 108°).
+                                Carefully cut out the pentagon using scissors.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Find the center of the pentagon.
                             </p>
                             <p>
-                                Cut it out carefully using scissors.
-                            </p>
-                            <p>
-                                Draw lines from the center of the pentagon to each vertex (corner) to divide it into <m>5</m> equal isosceles triangles as the 
-                                one shown below:
+                                Divide the pentagon into <m>5</m> equal isosceles triangles by
+                                drawing straight lines from the center of the pentagon to each vertex (corner) as the one shown below:
                             </p>
                             <image width="50%">
                             <latex-image label="pentagon1">
-                                \begin{tikzpicture}
+                                \usetikzlibrary{calc} 
+                                \begin{tikzpicture}[scale=1]
+                                    % Center
                                     \coordinate (O) at (0,0);
+
+                                    % Regular pentagon vertices (radius = 3)
                                     \foreach \i in {1,...,5} {
                                         \coordinate (P\i) at (90+\i*72:3);
                                     }
 
-                                    % Draw pentagon
-                                    \draw[thick] (P1) -- (P2) -- (P3) -- (P4) -- (P5) -- cycle;
-
-                                    % Draw lines from center
+                                    % Pentagon outline
+                                    \draw[very thick] (P1)--(P2)--(P3)--(P4)--(P5)--cycle;
+                                    
+                                    % Draw dashed lines from O to each vertex
                                     \foreach \i in {1,...,5} {
-                                        \draw[dashed] (O) -- (P\i);
+                                        \draw[dashed, very thick] (O)--(P\i);
                                     }
+
+                                    % Apothem (perpendicular from O to side P2P3)
+                                    \coordinate (H) at ($(P2)!(O)!(P3)$);
+                                    \draw[red,very thick] (O)--(H);
+                                    \fill[red] (H) circle (1.5pt) ;
+                                    \node [right]at (0,-1.5){H};
 
                                     % Mark center
-                                    \fill (O) circle (2pt);
-                                    \node[below right] at (O) {O};
+                                    \fill (O) circle (2pt) node[below right] {$O$};
 
-                                    % Label vertices
-                                    \foreach \i in {1,...,5} {
-                                        \node at (P\i) [circle, fill=black, inner sep=1.5pt, label=above:$P_{\i}$] {};
+                                    % Vertex dots + labels
+                                    \foreach \i/\pos in {1/above left,2/below,3/below,4/right,5/above}{
+                                        \fill (P\i) circle (1pt) node[\pos] {$P_{\i}$};
                                     }
                                 \end{tikzpicture}
+
                             </latex-image>
                                 
                             </image>
+
                         </li>
                         <li>
                             <p>
-                                Measure the side length and apothem (a line from the center perpendicular to a side).
+                                Measure the side length and apothem <m>\text{H}</m> (a line from the center perpendicular to a side).
                             </p>
                         </li>
                         <li>
@@ -171,30 +214,7 @@
                                 Label all sides and angles of the triangles.
                             </p>
                         </li>
-                        <li>
-                            <p>
-                                Discuss:
-                            </p>
-                            <p>
-                                <ul>
-                                    <li>
-                                        <p>
-                                            Are all sides equal?
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            Are all interior angles equal?
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            How many lines of symmetry does it have?
-                                        </p>
-                                    </li>
-                                </ul>
-                            </p>
-                        </li>
+                        
                         <li>
                             <p>
                                 Calculate the Area of the pentagon
@@ -213,66 +233,51 @@
                     </ol>
                 </p>
             </activity>
+            <definition xml:id="def-Pentagon">
+                <statement>
+                    <p>
+                        <m>\textbf{pentagon }</m>" comes from the 
+                        <em>Greek</em> words "<term>penta</term>," meaning five, and "<term>gon</term>," meaning angle.
+                           
+                        
+                    </p>
+                    <p>
+                        Therefore, 
+                            
+                        
+                        
+
+                        
+                        
+                    </p>
+                    <p>
+                        A <m>\textbf{pentagon }</m> is a flat, closed shape that has five straight sides and five angles.
+                    </p>
+
+                </statement>
+            </definition>
             <p>
-                <m>\textbf{Key Takeaway}</m>
+                <term>Key Takeaway</term>
 
             </p>
+            
             <p>
                 <ul>
-                    <li>
-                        <p>
-                            A <m>\textbf{pentagon }</m> is a flat, closed shape that has five straight sides and five angles. 
-                        </p>
-                        <p>
-                            The word "<m>\textbf{pentagon }</m>" comes from the 
-                            <em>Greek</em> words "<term>penta</term>," meaning five, and "<term>gon</term>," meaning angle.
-                        </p>
-                        <p>
-                            In a regular pentagon, all the sides and angles are equal.
-                        </p>
-
-                    </li>
+                    
                    
                     <li>
 
                         <p>
-                            A regular pentagon has equal sides and angles. Its area can be found using the formula:
-                        </p>
-                        <p>
-                            <me>
+                            A regular pentagon has equal sides and angles. It's aea is given by: <me>
                                 \text{Area} = \frac{1}{2} \times \text{Perimeter} \times \text{Apothem}
                             </me>
                         </p>
+                       
                         <p>
-                            Where <m>p\text{Perimete}= \text{Length} \times 5</m> 
-                            and <m>\textbf{Apothem }</m>is the distance from the center of a regular polygon to aside. 
+                            Where <m>\text{Perimeter}= \text{Length} \times \text{Sides}</m> 
+                            and <m>\text{Apothem }</m>is the distance from the center of a regular polygon to aside. 
                         </p>
-                        <image width="50%">
-                        <latex-image label="pentagon2">
-                            \begin{tikzpicture}[scale=4]
-                                % Pentagon vertices manually defined
-                                \coordinate (A) at (0,0);
-                                \coordinate (B) at (1,0);
-                                \coordinate (C) at (1.3,0.95);
-                                \coordinate (D) at (0.5,1.5);
-                                \coordinate (E) at (-0.3,0.95);
-                                \coordinate (Center) at (0.5,0.8); % approximate center
-                                \coordinate (MidAB) at (0.5,0);     % midpoint of base
-
-                                % Fill the pentagon
-                                \filldraw[fill=blue!20, draw=blue!60, very thick] (A) -- (B) -- (C) -- (D) -- (E) -- cycle;
-
-                                % Apothem
-                                \draw[&lt;-&gt;, very thick] (Center) -- (MidAB) node[midway, right, font=\small]{\textbf{a}};
-
-                                % Side label
-                                \draw[&lt;-&gt;, very thick] (0,-0.1) -- (1,-0.1) node[midway, below, font=\small]{\textbf{s}};
-                                \node [below]at (0.5,-0.2) {\textbf{Where,s is the side of the pentagon and a is the apothem length}};
-
-                            \end{tikzpicture}
-                        </latex-image>
-                            
-                        </image>
+                       
                     </li>
                 </ul>
             </p>
@@ -313,40 +318,44 @@
                 </statement>
                 <solution>
                     <p>
-                        To find the area of the pentagon above, we can use should identify the side length and the apothem.
+                        To find the area of the given pentagon, we use the formula:
+                        <me>
+                            \text{Area} = \frac{1}{2} \times \text{Perimeter} \times  \text{apothem}
+                        </me>
+                        
+                    </p>
+                    
+                    <p>
+                       Since <m>\text{Apothem} = 12.4 \, \text{ft}\, \text{and}\,\text{Side length} = 18\, \text{ ft} </m>
                     </p>
                     <p>
-                       <m>\text{Apothem} = 12.4 \, \text{ft}\, ,\text{Side length} = 18\, \text{ ft} </m>
+                        <m>\text{Perimeter}=5 \times 18\, \text{ ft}=90 \, \text{ft}</m>
                     </p>
                     <p>
-                        The perimeter of the pentagon is:<m>5 \times 18\, \text{ ft}=90 \, \text{ft}</m>
+                        Therefore,
                     </p>
-                    <p>
-                        Using the formula for the area of a regular pentagon:
-                    </p>
+                    
                     <p>
                         <md>
-                            <mrow> \text{Area} =\amp \frac{1}{2} \times \text{Perimeter} \times  \text{apothem}</mrow>
-                            <mrow> =\amp \frac{1}{2} \times 90 \times 12.4</mrow>
+                            
+                            <mrow> \text{Area}=\amp \frac{1}{2} \times 90 \times 12.4</mrow>
                             <mrow> =\amp  45 \times 12.4</mrow>
                             <mrow> =\amp  558 \, \text{ft}^2</mrow>
                         </md>
                     </p>
-                    <p>
-                        Therefore, the area of the pentagon is <m>{\color{blue}558 \, \text{ft}^2}</m>.
-                    </p>
+                   
                 </solution>
             </example>
             <example>
                 <statement>
                     <p>
                         A gardener is designing a regular pentagonal flower bed. Each side of the flower bed is <m>6\, \text{m}</m>, 
-                        and the distance from the center to the middle of a side  is <m>4.1 \, \text{m}</m>. Find the area of the flower bed.
+                        and the distance from the center of the flower bed to the midpoint of a side  is <m>4.1 \, \text{m}</m>. Find the area of the flower bed.
                     </p>
                 </statement>
                 <solution>
                     <p>
-                        To find the area of the regular pentagonal flower bed, we can use the formula:
+                        Recall:
                     </p>
                     <p>
                         <md>
@@ -356,9 +365,7 @@
                             <mrow> =\amp  61.5 \, \text{m}^2</mrow>
                         </md>
                     </p>
-                    <p>
-                        Therefore, the area of the flower bed is <m>{\color{blue}61.5 \, \text{m}^2}</m>.
-                    </p>
+                    
                 </solution>
             </example>
             <example>
@@ -398,38 +405,144 @@
                     
                 </statement>
                 <solution>
-                    <p>
-                        To find the area of the regular pentagon, we can use the formula:
-                    </p>
+                    
                     <p>
                         <md>
-                            <mrow> \text{Area} =\amp \frac{1}{2} \times \text{Perimeter} \times  \text{apothem}</mrow>
-                            <mrow> =\amp \frac{1}{2} \times 5 \times 10 \times 7.5</mrow>
+                           
+                            <mrow> \text{Area} =\amp \frac{1}{2} \times 5 \times 10 \times 7.5</mrow>
                             <mrow> =\amp  25 \times 7.5</mrow>
                             <mrow> =\amp  187.5 \, \text{cm}^2</mrow>
                         </md>
                     </p>
-                    <p>
-                        Therefore, the area of the pentagon is <m>{\color{blue}187.5 \, \text{cm}^2}</m>.
-                    </p>
+                    
                 </solution>
             </example>
+            
+        <exercises xml:id="exercises-Pentagon">
+            <title>Exercise</title>
+            
+            
             <exercise>
                 <p>
                     
                 </p>
             </exercise>
-        
+            <exercise>
+                <p>
+                    
+                </p>
+            </exercise>
+    </exercises>
     </subsubsection>
+    
     <subsubsection xml:id="subsubsec-area-of-a-hexagon">
-        <title>Area of a hexagon</title>
+        <title>Area of hexagon</title>
+        <activity>
+            <p>
+                <term>Work in Groups</term>
+            </p>
+            
+        <p><term>What you need:</term></p>
         <p>
-            A <m>\textbf{hexagon}</m> is a flat, closed shape that has six straight sides and six angles. 
-            The word "<m>\textbf{hexagon}</m>" comes from the <em>Greek</em> words "<term>hexa</term>," 
-            meaning six, and "<term>gon</term>," meaning angle.
+            <ul>
+                <li>Ruler</li>
+                <li>Pencil and paper</li>
+                
+            </ul>
         </p>
         <p>
-            See the image below for a regular hexagon:
+            <alert>Instructions</alert>
+        </p> 
+        <p>
+                <ol>
+                    <li>                        
+                        <p>LExplore the hexagon below:</p>
+                        <image width="50%">
+                            <latex-image label="hexagon1">
+                                \begin{tikzpicture}
+                                    \draw (0:3) -- (60:3) -- (120:3) -- (180:3) -- (240:3) -- (300:3) -- cycle;
+                                    \filldraw [fill=blue] (0,0) circle (2pt) ;
+                                    \node [below,black]at (0,-2.7){$\textbf{s}$};
+                                \end{tikzpicture}
+                            </latex-image>
+                        </image>
+                        <p>
+                        <ol marker="a">
+                            <li>How many sides does it have?</li>
+                            <li>Measure the side <m>\text{s}</m> of the hexagon.</li>
+                            <li>Are the sides equal in length?  </li>
+                            
+                        </ol>
+                    </p>
+                    </li>
+
+                    <li>
+                        <p><m>\textbf{Divide the Hexagon into Triangles}</m></p>
+                        <p>
+                            The Hexagon below has been divided from the center to each corner:
+                        </p>
+                        
+                        <image width="50%">
+                            <latex-image label="hexagon2">
+                                \begin{tikzpicture}
+                                    \draw (0:3) -- (60:3) -- (120:3) -- (180:3) -- (240:3) -- (300:3) -- cycle;
+                                    \foreach \angle in {0,60,...,300}
+                                        \draw (0,0) -- (\angle:3);
+                                    \node [above] at (0:1.5) {s};
+                                    \filldraw [fill=blue] (0,0) circle (2pt) ;
+                                \end{tikzpicture}
+                            </latex-image>
+                        </image>
+                        <p>
+                        <ol marker="a">
+                            <li>How many shapes can you see?</li>
+                            <li>What kind of triangles are formed?</li>
+                        </ol>
+                    </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Find the area of one triangle and use it to work out the area of the whole hexagon.
+                        </p>
+                            
+                    </li>
+
+                    <li>
+                        <p>
+                            How do you find the area of the hexagon?
+                        </p>
+                        
+                    </li>
+
+                    <li>
+                        
+                        <p>Share and compare your answers with your group. </p>
+                    </li>
+                </ol>
+            </p>
+
+        
+            
+        </activity>
+        <definition xml:id="def-Hexagon">
+            <statement>
+               <p>
+                The word "<m>\textbf{hexagon}</m>" comes from the <em>Greek</em> words 
+                "<term>hexa</term>," which means six, and "<term>gon</term>," which means corner or angle.  
+            </p>
+            <p>
+                A <m>\textbf{hexagon}</m> is a flat shape with six straight sides and six corners (angles).  
+            </p>
+
+
+            </statement>
+        </definition>
+        <p>
+            <term>Key Takeaway</term>
+        </p>
+        <p>
+            Below is a figure of a regular hexagon.It has six equal sides and equal angles.
         </p>
         <image width="50%">
         <latex-image label="hexagon">
@@ -462,147 +575,25 @@
             
         </image>
         
-        <activity>
-            <p>
-                <m>\textbf{Work in Groups}</m>
-            </p>
-            <p>
-                <term>What you need.</term>
-            </p>
-            <p>
-                <ul>
-                    <li>
-                        <p>
-                            Ruler
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Pencil and Paper
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            A regular hexagon (you can draw one or use a 
-                            hexagon-shaped object like a nut or a tile)
-                        </p>
-                    </li>
-                </ul>
-            </p>
-            <p>
-                <ol>
-                    <li>
-                        <p>
-                            Observe the Hexagon it should e the same as the one drawn below:
-                        </p>
-                        <image width="50%">
-                        <latex-image label="hexagon1">
-                            \begin{tikzpicture}
-                                \draw (0:3) -- (60:3) -- (120:3) -- (180:3) -- (240:3) -- (300:3) -- cycle;
-                                \filldraw [fill=blue] (0,0) circle (2pt) ;
-                            \end{tikzpicture}
-                        </latex-image>
-                            
-                        </image>
-                        <p>
-                            <ol marker="a ">
-                                <li>
-                                    <p>
-                                        Count the sides. How many are there?
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        Are all sides equal? (In a regular hexagon)
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        Measure one side. Let’s call this length "<m>\textbf{s}</m>"
-                                    </p>
-                                </li>
-                            </ol>
-                        </p>
-                        
-                    </li>
-                    <li>
-                        <p>
-                            Divide the Hexagon into Triangles as the one drawn below:
-                        </p>
-                        <image width="50%">
-                        <latex-image label="hexagon2">
-                            \begin{tikzpicture}
-                                \draw (0:3) -- (60:3) -- (120:3) -- (180:3) -- (240:3) -- (300:3) -- cycle;
-                                \foreach \angle in {0,60,...,300}
-                                    \draw (0,0) -- (\angle:3);
-                                \node [above] at (0:1.5) {s};
-                                \filldraw [fill=blue] (0,0) circle (2pt) ;
-                            \end{tikzpicture}
-                        </latex-image>
-                            
-                        </image>
-                        <p>
-                            <ol marker="a ">
-                                <li>
-                                    <p>
-                                        How many triangles can you see?
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        What is the name of the triangles formed?
-                                    </p>
-                                </li>
-                            </ol>
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Find the area of one triangle and record it.
-                        </p>
-                        <p>
-                            Find the total area of the hexagon by multiplying the area of one triangle by the number of triangles.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Can you find a formula for the area of a regular hexagon?
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Discuss your findings with the other groups.
-                        </p>
-                    </li>
-                </ol>
-            </p>
-            
-        </activity>
         <p>
-            <m>\textbf{Key Takeaway}</m>
+           It's area is given by:
         </p>
         <p>
-            A regular hexagon can always be split into 6 equal triangles called <m>\textbf{equilateral triangle.}</m>
-
+            <m>\text{Area}=\frac{1}{2} \times \text{Perimeter (P)} \times \text{apothem}</m>
         </p>
         <p>
-            A regular hexagon has equal sides and angles. Its area can be found using the formula:
-        </p>
-        <p>
-            <m>\text{Area}=\frac{1}{2} \times \text{Perimeter(P)} \times \text{apothem(a)}</m>
-        </p>
-        <p>
-            Where <m>\text{Perimeter} = \text{Length} \times 6</m> and <m>\textbf{Apothem}</m> is the distance from the center of a regular hexagon to a side.
+            Where <m>\text{Perimeter} = \text{Length} \times \text{Number of sides}</m>.
         </p>
         <p>
             <m>\textbf{Or}</m>
         </p>
         <p>
-            If you know apothem and side, use the formular below.
+            If the apothem and the side is known, use:<me>
+                \text{Area} = \frac{3\sqrt{3}}{2} \times \text{s}^2
+            </me>
+            
         </p>
-        <p>
-            <m>\text{Area} = \frac{3\sqrt{3}}{2} \times \text{s}^2</m>
-        </p>
+        
         <p>
             Where <m>\text{s}</m> is the length of one side of the hexagon.
         </p>
@@ -610,13 +601,13 @@
         <example>
             <statement>
                 <p>
-                    A regular hexagon has a side length of <m>4\, \text{cm}</m> as shown below. Find its area
+                   Find the area of the hexagon below.
                 </p>
                 <image width="50%">
                 <latex-image label="hexagon3">
                     \begin{tikzpicture}
                         \draw (0:2) -- (60:2) -- (120:2) -- (180:2) -- (240:2) -- (300:2) -- cycle;
-                        \filldraw  (0,0) circle (2pt) ;
+                        \filldraw  (0,0) circle (1pt) ;
                         \foreach \angle in {60,120}
                             \draw (0,0) -- (\angle:2);
                         \node at (0,2) {4 cm};
@@ -638,24 +629,22 @@
                         <mrow> =\amp \frac{3\sqrt{3}}{2} \times 4^2</mrow>
                         <mrow> =\amp \frac{3\sqrt{3}}{2} \times 16</mrow>
                         <mrow> =\amp 24\sqrt{3} \, \text{cm}^2</mrow>
-                        <mrow>≈ \amp 41.57c\text{m}^2</mrow>
+                        <mrow> =\amp 41.57c\text{m}^2</mrow>
                     </md>
                 </p>
-                <p>
-                    Therefore, the area of the hexagon is approximately <m>{\color{blue}41.57 \, \text{cm}^2}</m>.
-                </p>
+               
             </solution>
         </example>
         <example>
             <statement>
                 <p>
                     Bees build honeycombs using hexagonal cells. If each cell has a side 
-                    length of <m>7.5 \, \text{km}</m>, what is the area of one cell?
+                    length of <m>7.5 \, \text{mm}</m>, what is the area of one cell?
                 </p>
             </statement>
             <solution>
                 <p>
-                    The side length of the hexagonal cell is <m>7.5 \, \text{km}</m>.
+                    The side length of the hexagonal cell is <m>7.5 \, \text{mm}</m>.
                 </p>
                 <p>
                     Therefore:
@@ -665,19 +654,19 @@
                         <mrow> \text{Area} =\amp \frac{3\sqrt{3}}{2} \times \text{s}^2</mrow>
                         <mrow> =\amp \frac{3\sqrt{3}}{2} \times (7.5)^2</mrow>
                         <mrow> =\amp \frac{3\sqrt{3}}{2} \times 56.25</mrow>
-                        <mrow> =\amp 84.375\sqrt{3} \, \text{km}^2</mrow>
-                        <mrow>≈ \amp 146.41\, \text{km}^2</mrow>
+                        <mrow> =\amp 146.1417869 </mrow>
+                        <mrow>= \amp 146.142\, \text{km}^2</mrow>
                     </md>
                 </p>
                 <p>
-                    This implies that, the area of one hexagonal cell is approximately <m>{\color{blue}146.41 \, \text{km}^2}</m>.
+                    This implies that, the area of one hexagonal cell is approximately <m>{\color{black}146.41 \, \text{km}^2}</m>.
                 </p>
             </solution>
         </example>
         <example>
             <statement>
                 <p>
-                   A regular hexagon with center h is shown below:
+                   The figure below shows a regular hexagon with center x.
                 </p>
                 <image width="50%">
                 <latex-image label="hexagon4">
@@ -690,6 +679,8 @@
 
                         % Draw the hexagon
                         \draw[thick] (P0) -- (P60) -- (P120) -- (P180) -- (P240) -- (P300) -- cycle;
+
+                        \node [right] at (0.1,0){x};
                             
 
                         % Define center
@@ -708,17 +699,20 @@
                 </latex-image>
                    
                 </image>
+                <p>
+                    Find;
+                </p>
 
                 <p>
-                    <ol marker="a ">
+                    <ol marker="a) ">
                         <li>
                             <p>
-                                Find the perimeter of the hexagon.
+                                the perimeter of the hexagon.
                             </p>
                         </li>
                         <li>
                             <p>
-                                Find the area of the hexagon.
+                                the area of the hexagon.
                             </p>
                         </li>
                     </ol>
@@ -726,17 +720,9 @@
 
             </statement>
             <solution>
+                
                 <p>
-                    The side length of the hexagon is <m>16 \, \text{m}</m>.
-                </p>
-                <p>
-                    The apothem of the hexagon is <m>30 \, \text{m}</m>.
-                </p>
-                <p>
-                    Therfore:
-                </p>
-                <p>
-                    <ol marker="a ">
+                    <ol marker="a) " cols="2">
                         <li>
                             <p>
                                 The perimeter of the hexagon is:
@@ -762,7 +748,7 @@
                                 </md>
                             </p>
                             <p>
-                                This implies that, the area of the hexagon is <m>{\color{blue}1440 \, \text{m}^2}</m>.
+                                This implies that, the area of the hexagon is <m>{\color{black}1440 \, \text{m}^2}</m>.
                             </p>
 
                         </li>
@@ -773,7 +759,7 @@
         <example>
             <statement>
                 <p>
-                    A regular hexagon has an area of <m>54\sqrt{3}\, \text{cm}^2</m>
+                    A regular hexagon has an area of <m>54 \, \text{cm}^2</m>
                     . What is its side length?
                 </p>
             </statement>
@@ -787,11 +773,11 @@
                     </md>
                 </p>
                 <p>
-                    Given that the area is <m>54\sqrt{3}\, \text{cm}^2</m>, we can set up the equation:
+                    Given that the area is <m>54\, \text{cm}^2</m>, we set up the equation:
                 </p>
                 <p>
                     <md>
-                        <mrow> 54\sqrt{3} =\amp \frac{3\sqrt{3}}{2} \times \text{s}^2</mrow>
+                        <mrow> 54 =\amp \frac{3\sqrt{3}}{2} \times \text{s}^2</mrow>
                     </md>
                 </p>
                 <p>
@@ -799,23 +785,36 @@
                 </p>
                 <p>
                     <md>
-                        <mrow> \text{s}^2 =\amp \frac{54\sqrt{3} \times 2}{3\sqrt{3}}</mrow>
-                        <mrow> =\amp \frac{108}{3}</mrow>
-                        <mrow> =\amp 36</mrow>
-                        <mrow> \text{s} =\amp \sqrt{36}</mrow>
-                        <mrow> =\amp 6 \, \text{cm}</mrow>
+                        <mrow> \text{s}^2 =\amp \frac{54 \times 2}{3\sqrt{3}}</mrow>
+                        <mrow> =\amp \frac{108}{5.196152423}</mrow>
+                        <mrow> =\amp 20.78460969</mrow>
+                        <mrow> \text{s} =\amp \sqrt{20.78460969}</mrow>
+                        <mrow> =\amp 4.559014114  </mrow>
+                        <mrow>= \amp 4.559 \,\text{cm}</mrow>
                     </md>
                 </p>
                 <p>
-                    Therefore, the side length of the regular hexagon is <m>{\color{blue}6 \, \text{cm}}</m>.
+                    Therefore, the side length of the regular hexagon is <m>{\color{black}4.559\, \text{cm}}</m>.
                 </p>
             </solution>
         </example>
-        <exercise>
-            <p>
-                
-            </p>
-        </exercise>
+
+        <exercises xml:id="exercises-Hexagon">
+            <title>Exercise</title>
+            
+            
+            <exercise>
+                <p>
+                    
+                </p>
+            </exercise>
+            <exercise>
+                <p>
+                    
+                </p>
+            </exercise>
+        </exercises>
+        
         
     </subsubsection>
    
