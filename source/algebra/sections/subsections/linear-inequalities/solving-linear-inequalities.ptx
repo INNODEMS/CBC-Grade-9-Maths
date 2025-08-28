@@ -2,13 +2,7 @@
   <title>Solving Linear Inequalities in One and Two Unknowns</title>
 
     <p>
-      In the previous section, we learned how to interpret inequalities from real-life contexts. Now, we will focus on solving linear inequalities and representing their solutions — both in one and two variables.
-    </p>
-    <p>
-      Solving a linear inequality is similar to solving an equation, except the solution is often a range of values. These values can be shown on a number line (for one variable) or on a coordinate plane (for two variables).
-    </p>
-    <p>
-      Remember, when multiplying or dividing both sides of an inequality by a negative number, the inequality sign reverses direction.
+      Solving a linear inequality is similar to solving an equation, except the solution is often a range of values. These values can be shown on a number line (for one variable) or on a coordinate plane (for two variables). Remember, when multiplying or dividing both sides of an inequality by a negative number, the inequality sign reverses direction.
     </p>
 
     <activity>
@@ -22,23 +16,28 @@
       </p>
       <p><term>Instructions:</term></p>
       <p>
-        <ol>
+        Consider the following inequalities:
+      </p>
+      <p>
+        <ol marker="a)">
+          <li><m>x + 4 &lt; 9</m></li>
+          <li><m>2x \ge 12</m></li>
+          <li><m>-3x \gt 6</m></li>
+          <li><m>\frac{x - 2}{3} \le 5</m></li>
+        </ol>
+      </p>
+      <p>
+        Solve each inequality and represent the solution on a number line.
+      </p>
+      <p>
+        <ul>
           <li>
-            In your group, solve each of the following inequalities and represent the solution on a number line:
-            <ol marker="a)">
-              <li><m>x + 4 &lt; 9</m></li>
-              <li><m>2x \ge 12</m></li>
-              <li><m>-3x \gt 6</m></li>
-              <li><m>\frac{x - 2}{3} \le 5</m></li>
-            </ol>
-          </li>
-          <li>
-            For each inequality, discuss with your partner how the solution set is different from that of an equation.
+            For each inequality, discuss with your group how the solution set is different from that of an equation.
           </li>
           <li>
             Share your number line diagrams with another group and compare your ranges.
           </li>
-        </ol>
+        </ul>
       </p>
     </activity>
 
@@ -52,7 +51,7 @@
     <example>
       <statement>
         <p>
-          Solve and represent the solution to the inequality: <m>3x - 5 \le 10</m>.
+          Solve and represent the solution to the inequality: <m>3x - 5 \le 10</m> on a numberline.
         </p>
       </statement>
       <solution>
@@ -64,10 +63,10 @@
           </md>
         </p>
         <p>
-          The solution is all values of <m>x</m> less than or equal to 5.
+          The solution is all values of <m>x</m> less than or equal to <m>5</m>.
         </p>
         <p>
-          On a number line, this is shown as a solid dot at 5 and shading to the left.
+          On a number line, this is shown as a solid dot at <m>5</m> and shading to the left.
         </p>
       </solution>
     </example>
@@ -96,21 +95,24 @@
     <example>
       <statement>
         <p>
-          Solve and graph the inequality: <m>y \le 2x + 1</m>.
+          Solve and graph the inequality: <m>y \le -3x + 1</m>.
         </p>
       </statement>
       <solution>
         <p>
-          Step 1: Draw the line <m>y = 2x + 1</m>. Since the inequality is <m>\le</m>, draw a solid line.
+          Step 1: Identify the boundary line <m>y = -3x + 1</m>. Since the inequality is <m>\le</m>, we will draw a solid line.
         </p>
         <p>
           Step 2: Choose a test point like <m>(0,0)</m>:
         </p>
         <p>
-          <m>0 \le 2(0) + 1 → 0 \le 1</m>, which is true.
+          <m>0 \le -3(0) + 1 → 0 \le 1</m>, which is true.
         </p>
         <p>
-          Step 3: Shade the region below the line, since it represents all values of <m>y</m> less than or equal to <m>2x + 1</m>.
+          Step 3: Shade the region below the line, since it represents all values of <m>y</m> less than or equal to <m>-3x + 1</m>.
+        </p>
+        <p>
+          The graph shows the line and the shaded region representing the solution set.
         </p>
       </solution>
     </example>

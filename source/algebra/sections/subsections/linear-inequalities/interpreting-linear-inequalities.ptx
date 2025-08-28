@@ -32,14 +32,14 @@
       </p>
       <p>
         <ol marker="a)">
-            <li>A student must score at least 50 marks to pass an exam. Let <m>x</m> be the marks scored.</li>
-            <li>A matatu cannot carry more than 14 passengers. Let <m>p</m> be the number of passengers.</li>
+            <li>A student must score at least <m>50</m> marks to pass an exam. Let <m>x</m> be the marks scored.</li>
+            <li>A matatu cannot carry more than <m>14</m> passengers. Let <m>p</m> be the number of passengers.</li>
             <li>A phone costs more than Ksh <m>5,000</m>. Let <m>c</m> be the cost.</li>
             <li>The total luggage weight must be less than or equal to <m>25</m> kg. Let <m>w</m> be the weight.</li>
         </ol>
       </p>
       <p>
-        After writing the inequalities, answer the following questions:
+        After writing the inequalities:
         <ul>
           <li>Identify whether each inequality has one or two unknowns.</li>
           <li>Explain your interpretation to another group and listen to theirs.</li>
@@ -57,7 +57,7 @@
     <example>
       <statement>
         <p>
-          A parent gives a student Ksh <m>500</m> for lunch for the week. If lunch costs <m>x</m> shillings per day and they have <m>5</m> school going days, write an inequality to represent how much can be spent per day.
+          A parent gives a student Ksh <m>500</m> for lunch for the entire week. If lunch costs <m>x</m> shillings per day and they have <m>5</m> school going days, write an inequality to represent how much can be spent per day by the student.
         </p>
       </statement>
       <solution>
@@ -84,38 +84,49 @@
 
     <exercises>
       <exercise>
-        <p><m>\textbf{Answer the following questions in your exercise book.}</m></p>
-        <ol>
-        <li>
-            <p>
-            Write an inequality to represent the statement: “You must be at least <m>18</m> years old to register to vote.” Let <m>a</m> represent age.
-            </p>
-        </li>
+        <p><term>Answer the following questions in your exercise book.</term></p>
+        <p>
+          <ol marker="1.">
+            <li>
+                <p>
+                  Write inequalities to represent the following statements:
+                </p>
+                <p>
+                  <ol marker="a)">
+                    <li>
+                      <p>
+                        You must be at least <m>18</m> years old to register to vote. Let <m>a</m> represent age.
+                      </p>
+                    </li>
 
-        <li>
-            <p>
-            Write an inequality: You want to buy <m>x</m> pens at Ksh <m>25</m> each. You have Ksh <m>200</m>.
-            </p>
-        </li>
+                    <li>
+                        <p>
+                        You want to buy <m>x</m> pens at Ksh <m>25</m> each. You have Ksh <m>210</m>.
+                        </p>
+                    </li>
 
-        <li>
-            <p>
-            A shopkeeper must sell more than <m>60</m> items to make a profit. Let <m>n</m> be the number of items sold.
-            </p>
-        </li>
+                    <li>
+                        <p>
+                        A shopkeeper must sell more than <m>60</m> items to make a profit. Let <m>n</m> be the number of items sold.
+                        </p>
+                    </li>
 
-        <li>
-            <p>
-            A student may work at most 40 hours per week. Let <m>h</m> be the number of hours worked.
-            </p>
-        </li>
+                    <li>
+                        <p>
+                        A student may work at most <m>40</m> hours per week. Let <m>h</m> be the number of hours worked.
+                        </p>
+                    </li>
+                  </ol>
+                </p>
+            </li>
 
-        <li>
-            <p>
-            A trip costs Ksh <m>800</m> per student. The total cost should not exceed Ksh <m>16,000</m>. Let <m>s</m> be the number of students. Write and interpret the inequality.
-            </p>
-        </li>
-        </ol>
+            <li>
+                <p>
+                A trip costs Ksh <m>800</m> per student. The total cost should not exceed Ksh <m>16,000</m>. Let <m>t</m> be the number of students. Write and interpret the inequality.
+                </p>
+            </li>
+          </ol>
+        </p>
       </exercise>
     </exercises>
 </subsection>
