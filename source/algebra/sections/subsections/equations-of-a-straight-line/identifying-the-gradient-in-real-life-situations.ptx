@@ -5,7 +5,7 @@
         In our everyday environment we notice many surfaces that are slanted rather than perfectly flat. Think of the gentle incline of a ramp at your school, or the varying steepness of a hill on a familiar route. These everyday features are examples of what we call a <m>\textbf{gradient}</m>.
       </p>
       <p>
-        Instead of focusing on the mathematics immediately, it is important to understand that the gradient describes how steep a path is—in other words, it tells us how quickly something rises or falls over a certain distance.
+        Instead of focusing on the mathematics immediately, it is important to understand that the gradient describes how steep a path is. It tells us how quickly something rises or falls over a certain distance.
       </p>
       <p>
         In practical terms, this concept is useful in planning safe ramps, roads, or even understanding the effort required to climb a hill.
@@ -20,7 +20,7 @@
         <ul>
           <li>Measuring tape or ruler</li>
           <li>Notebook and pencil</li>
-          <li>Calculator (optional)</li>
+          <li>A Calculator</li>
         </ul>
       </p>
       <p>
@@ -79,7 +79,7 @@
     <example>
       <statement>
         <p>
-          Suppose one ramp rises <m>1.2 m</m> over a horizontal distance of <m>4 m</m>. Express its steepness as a gradient.
+          Suppose one ramp rises <m>1.2</m> m over a horizontal distance of <m>4</m> m. Express its steepness as a gradient.
         </p>
       </statement>
       <solution>
@@ -96,7 +96,7 @@
           <m>\therefore \ \ \ \ \text{Gradient} = \frac{1.2}{4} = 0.3</m>
         </p>
         <p>
-          This means that for every <m>1 m</m> you move horizontally, the ramp rises by <m>0.3 m</m>.
+          This means that for every <m>1</m> m you move horizontally, the ramp rises by <m>0.3</m> m.
         </p>
       </solution>
     </example>

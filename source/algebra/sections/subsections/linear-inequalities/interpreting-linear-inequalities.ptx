@@ -2,7 +2,7 @@
   <title>Interpreting Linear Inequalities in One and Two Unknowns</title>
 
     <p>
-      In daily life, we often work with conditions or limits rather than exact values. Statements like "You must be at least 18 years old to vote" or "The bag should not weigh more than 10 kg" are examples of inequalities.
+      In daily life, we often work with conditions or limits, but sometimes we work with exact values like "You must be at least <m>18</m> years old to vote" or "The bag should not weigh more than <m>10</m> kg".
     </p>
     <p>
       A <m>\textbf{linear inequality}</m> is a mathematical sentence that uses inequality symbols instead of the equals sign. These include:
@@ -22,25 +22,28 @@
       <p><term>What You need:</term></p>
       <p>
         <ul>
-          <li>Notebook or writing pad</li>
+          <li>Notebook</li>
           <li>Pencil or pen</li>
         </ul>
       </p>
       <p><term>Instructions:</term></p>
       <p>
-        <ol>
-          <li>
-            Read the following situations. For each one, write a linear inequality using the variable given:
-            <ol marker="a)">
-              <li>A student must score at least 50 marks to pass an exam. Let <m>x</m> be the marks scored.</li>
-              <li>A matatu cannot carry more than 14 passengers. Let <m>p</m> be the number of passengers.</li>
-              <li>A phone costs more than Ksh 5,000. Let <m>c</m> be the cost.</li>
-              <li>The total luggage weight must be less than or equal to 25 kg. Let <m>w</m> be the weight.</li>
-            </ol>
-          </li>
+        Discuss the following real-life situations and write an appropriate linear inequality for each.
+      </p>
+      <p>
+        <ol marker="a)">
+            <li>A student must score at least 50 marks to pass an exam. Let <m>x</m> be the marks scored.</li>
+            <li>A matatu cannot carry more than 14 passengers. Let <m>p</m> be the number of passengers.</li>
+            <li>A phone costs more than Ksh <m>5,000</m>. Let <m>c</m> be the cost.</li>
+            <li>The total luggage weight must be less than or equal to <m>25</m> kg. Let <m>w</m> be the weight.</li>
+        </ol>
+      </p>
+      <p>
+        After writing the inequalities, answer the following questions:
+        <ul>
           <li>Identify whether each inequality has one or two unknowns.</li>
           <li>Explain your interpretation to another group and listen to theirs.</li>
-        </ol>
+        </ul>
       </p>
     </activity>
 
@@ -54,12 +57,12 @@
     <example>
       <statement>
         <p>
-          A parent gives a student Ksh 500 for lunch. If lunch costs <m>x</m> shillings per day and the school has 5 days, write an inequality to represent how much can be spent per day.
+          A parent gives a student Ksh <m>500</m> for lunch for the week. If lunch costs <m>x</m> shillings per day and they have <m>5</m> school going days, write an inequality to represent how much can be spent per day.
         </p>
       </statement>
       <solution>
         <p>
-          The total cost for 5 days is <m>5x</m>. The student cannot spend more than Ksh 500, so:
+          The total cost for <m>5</m> days is <m>5x</m>. The student cannot spend more than Ksh <m>500</m>, so:
         </p>
         <p>
           <m>5x \le 500</m>
@@ -74,7 +77,7 @@
           </md>
         </p>
         <p>
-          This means the student can spend at most <m>Ksh 100</m> each day.
+          This means the student can spend at most Ksh <m>100</m> each day.
         </p>
       </solution>
     </example>
@@ -85,19 +88,19 @@
         <ol>
         <li>
             <p>
-            Write an inequality to represent the statement: “You must be at least 18 years old to register to vote.” Let <m>a</m> represent age.
+            Write an inequality to represent the statement: “You must be at least <m>18</m> years old to register to vote.” Let <m>a</m> represent age.
             </p>
         </li>
 
         <li>
             <p>
-            Write an inequality: You want to buy <m>x</m> pens at Ksh 25 each. You have Ksh 200.
+            Write an inequality: You want to buy <m>x</m> pens at Ksh <m>25</m> each. You have Ksh <m>200</m>.
             </p>
         </li>
 
         <li>
             <p>
-            A shopkeeper must sell more than 60 items to make a profit. Let <m>n</m> be the number of items sold.
+            A shopkeeper must sell more than <m>60</m> items to make a profit. Let <m>n</m> be the number of items sold.
             </p>
         </li>
 
@@ -109,7 +112,7 @@
 
         <li>
             <p>
-            A trip costs Ksh 800 per student. The total cost should not exceed Ksh 16,000. Let <m>s</m> be the number of students. Write and interpret the inequality.
+            A trip costs Ksh <m>800</m> per student. The total cost should not exceed Ksh <m>16,000</m>. Let <m>s</m> be the number of students. Write and interpret the inequality.
             </p>
         </li>
         </ol>
