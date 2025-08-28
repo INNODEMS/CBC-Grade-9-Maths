@@ -1,21 +1,10 @@
 <subsection xml:id="subsec-volume-of-pyramids">
     <title>Volume of pyramids</title>
     
-    <definition xml:id="def-Volume-of-pyramids">
-        <statement>
-            <p>
-                A <m>\textbf{pyramid}</m> is a solid shape that has a 
-                flat base and triangular sides that meet at a point at the top, called the apex.
-            </p>
-            <p>
-                The volume of a pyramid is the amount of space it occupies. 
-                
-            </p>
-        </statement>
-    </definition>
+   
     <activity>
         <p>
-            <m>\textbf{Work in groups}</m>
+            <term>Work in Groups</term>
         </p>
         <p>
             <term>What you need</term>
@@ -33,6 +22,9 @@
                     </p>
                 </li>
             </ul>
+        </p>
+        <p>
+            <term>Instrucrions</term>
         </p>
         <p>
             <ol>
@@ -164,8 +156,18 @@
             </interactive>
         </figure>
     </activity>
+    <definition xml:id="def-Volume-of-pyramids">
+        <statement>
+            <p>
+                A <m>\textbf{pyramid}</m> is a solid shape that has a 
+                flat base and triangular sides that meet at a point at the top, called the apex.
+            </p>
+            
+        </statement>
+    </definition>
+
     <p>
-        <m>\textbf{Key Takeaway}</m>
+        <term>Key Takeaway</term>
     </p>
     <p>
         The volume of a pyramid is one-third the area of its base multiplied by its height. 
@@ -173,7 +175,7 @@
     </p>
     <p>
         Therefore, the volume of each pyramid
-        is given by;
+        is given by:
     </p>
     <p>
         <m>\textbf{Volume}= \frac{1}{3}(\text{Base Area(A)} \times \text{Height(h)})</m>
@@ -182,10 +184,10 @@
         Which can be written as;
     </p>
     <p>
-        <m>\textbf{Volume}= \frac{1}{3}(\text{A} \times \text{h})</m>
+        <me>V= \frac{1}{3}(A\times h)</me>
     </p>
     <p>
-        Where, where <m>\textbf{A}</m> is the area of the base and <m>\textbf{h}</m> the
+        Where, where <m>A</m> is the area of the base and <m>h</m> the
        perpendicular height of the pyramid
     </p>
 
@@ -250,14 +252,14 @@
             </p>
             <p>
                 <md>
-                    <mrow>\text{Volume} = \frac{1}{3}(\text{Base Area} \times \text{Height})</mrow>
+                    <mrow>\text{Volume} = \amp \frac{1}{3}(\text{Base Area} \times \text{Height})</mrow>
                     <mrow> =\amp \frac{1}{3}(24 \, \text{cm}^2 \times 8 \, \text{cm}) </mrow>
                     <mrow> =\amp \frac{1}{3}(192 \, \text{cm}^3) </mrow>
                     <mrow> =\amp 64 \, \text{cm}^3 </mrow>
                 </md>
             </p>
             <p>
-                Therefore, the volume of the pyramid is <m>{\color{blue}64 \, \text{cm}^3}</m>.
+                Therefore, the volume of the pyramid is <m>{\color{black}64 \, \text{cm}^3}</m>.
             </p>
         </solution>
     </example>
@@ -306,7 +308,7 @@
                                 <mrow> =\amp \sqrt{100 - 25}</mrow>
                                 <mrow> =\amp \sqrt{75}</mrow>
                                 <mrow> =\amp 5\sqrt{3} \, \text{cm}</mrow>
-                                <mrow> \approx =\amp 8.66 \, \text{cm}</mrow>
+                                <mrow>  =\amp 8.66 \, \text{cm}</mrow>
                             </md>
                         </p>
                         <p>
@@ -424,17 +426,17 @@
                 <ol marker="a) ">
                     <li>
                         <p>
-                            Triangular based pyramid: <m>{\color{blue}433.00 \, \text{cm}^3}</m>
+                            Triangular based pyramid: <m>{\color{black}433.00 \, \text{cm}^3}</m>
                         </p>
                     </li>
                     <li>
                         <p>
-                            Square based pyramid: <m>{\color{blue}1200.00 \, \text{cm}^3}</m>
+                            Square based pyramid: <m>{\color{black}1200.00 \, \text{cm}^3}</m>
                         </p>
                     </li>
                     <li>
                         <p>
-                            Rectangular based pyramid: <m>{\color{blue}1536.00 \, \text{m}^3}</m>
+                            Rectangular based pyramid: <m>{\color{black}1536.00 \, \text{m}^3}</m>
                         </p>
                     </li>
                 </ol>
@@ -484,15 +486,22 @@
             </p>
             
             <p>
-                Therefore, the volume of the crystal is <m>{\color{blue}256 \, \text{cm}^3}</m>.
+                Therefore, the volume of the crystal is <m>{\color{black}256 \, \text{cm}^3}</m>.
             </p>
         </solution>
     </example>
-    <exercise>
-        <p>
-            
-        </p>
-    </exercise>
+    <exercises >
+        <exercise>
+            <p>
+                
+            </p>
+        </exercise>
+        <exercise>
+            <p>
+                
+            </p>
+        </exercise>
+    </exercises>
     
     
 </subsection>

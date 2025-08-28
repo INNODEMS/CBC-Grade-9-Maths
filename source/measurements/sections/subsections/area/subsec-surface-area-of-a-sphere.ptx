@@ -1,22 +1,12 @@
 <subsection xml:id="subsec-surface-area-of-a-sphere">
     <title>Surface area of a sphere</title>
-    <definition xml:id="def-sphere">
-        <statement>
-            <p>
-                A <m> \textbf{sphere}</m> is a solid that is entirely round
-                with every point on the surface at anequal distance from the centre.
-            </p>
-            <p>
-                It's defined as the set of all points in space that are equidistant from a central point.
-            </p>
-            <p>
-                The distance from the center to any point on the surface is called the <m>\textbf{radius}</m>.
-            </p>
-        </statement>
-    </definition>
+    
     <activity>
         <p>
             <m>\textbf{Work in groups}</m>
+        </p>
+        <p>
+            <term>Instractions</term>
         </p>
         <sidebyside>
             <p>
@@ -76,6 +66,9 @@
     </p>
     <activity>
         <p>
+            <term>Work in Groups</term>
+        </p>
+        <p>
             Play along with the interactive tool below to explore more about area of a <m>\textbf{Sphere}</m>
         </p>
         <figure >
@@ -88,11 +81,25 @@
             </interactive>
          </figure>
     </activity>
+    <definition xml:id="def-sphere">
+        <statement>
+            <p>
+                A <m> \textbf{sphere}</m> is a solid that is entirely round
+                with every point on the surface at anequal distance from the centre.
+            </p>
+            <p>
+                It's defined as the set of all points in space that are equidistant from a central point.
+            </p>
+            <p>
+                The distance from the center to any point on the surface is called the <m>\textbf{radius}</m>.
+            </p>
+        </statement>
+    </definition>
     <p>
-        <m>\textbf{Key Takeaway}</m>
+        <term>Key Takeaway</term>
     </p>
     <p>
-        Given the Shere of radius <m>\textbf{r}</m> as shown below.
+        Given the Shere of radius <m>\huge{\textbf{r}}</m> as shown below.
     </p>
     <image width="50%">
     <latex-image label="Sphere1">
@@ -116,7 +123,7 @@
         
     </image>
     <p>
-        The surface area of a sphere is <m>{\color{blue} 4 \pi r^2}</m>
+        The surface area of a sphere is <m>{\color{black} 4 \pi r^2}</m>
     </p>
     <example>
         <statement>
@@ -141,6 +148,9 @@
                 <m>\text{SA}= 4 \pi \text{r}^2</m>
             </p>
             <p>
+                Therefore,
+            </p>
+            <p>
                 <md>
                     
                     <mrow>\text{SA}= \amp 4 \times \frac{22}{7} \times 10.5^2 </mrow>
@@ -151,7 +161,7 @@
                 </md>
             </p>
             <p>
-                Therefore, the surface area of the sphere is <m>{\color{blue}1386 \text{ cm}^2}</m>.
+                Therefore, the surface area of the sphere is <m>{\color{black}1386 \text{ cm}^2}</m>.
             </p>
         </solution>
     </example>
@@ -208,7 +218,7 @@
                 </md>
             </p>
             <p>
-                Therefore, the surface area of the sphere is <m>{\color{blue}5542.49 \text{ m}^2}</m>.
+                Therefore, the surface area of the sphere is <m>{\color{black}5542.49 \text{ m}^2}</m>.
             </p>
         </solution>
     </example>
@@ -261,18 +271,11 @@
                 </md>
             </p>
             <p>
-                Therefore, the difference in surface area between the largest and smallest golf ball is <m>{\color{blue}5.40\,\text{cm}^2}</m> .
+                Therefore, the difference in surface area between the largest and smallest golf ball is <m>{\color{black}5.40\,\text{cm}^2}</m> .
             </p>
         </solution>
     </example>
-
-    <exercise>
-        <p>
-            
-        </p>
-    </exercise>
-
-    <technology>
+        <technology>
         <p>
             <m>\textbf{Technology Integration: Exploring Area and Surface Area}</m>
         </p>
@@ -313,5 +316,24 @@
         </p>
        
     </technology>
+    
+    <exercises >
+        <exercise>
+            <p>
+                
+            </p>
+        </exercise>
+        <exercise>
+            <p>
+                
+            </p>
+        </exercise>
+    </exercises>
+    
+    
+
+    
+
+
     
 </subsection>

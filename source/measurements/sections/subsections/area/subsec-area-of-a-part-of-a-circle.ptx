@@ -1,20 +1,14 @@
 <subsection xml:id="subsec-area-of-a-part-of-a-circle">
     <title>Area of a part of a circle</title>
     <introduction>
+        
         <p>
-            In this section, we will explore how to calculate the area of a part of a circle, specifically focusing on sectors and segments. 
-            Understanding these concepts is crucial for solving problems related to circular shapes in various contexts, such as engineering, architecture, and everyday life.
+            A circle can be divided into different parts, like a <m>\textbf{sector}</m> (a "pizza slice") or a <m>\text{segment}</m> (a part cut off by a chord).  
+            Each part has its own formula for finding the area.  
         </p>
-        <p>
-            The area of a part of a circle, such as a sector or segment, can be calculated using specific formulas. 
-            
-        </p>
-        <p>
-            A <m>\textbf{sector}</m> is a portion of a circle defined by two radii and the arc between them.
-        </p>
-        <p>
-            A <m>\textbf{segment}</m> is the area between a chord and the arc it subtends.
-        </p>
+
+       
+        
         
     </introduction>
 
@@ -45,6 +39,9 @@
                         </p>
                     </li>
                 </ul>
+            </p>
+            <p>
+                <alert>Instruction</alert>
             </p>
             <p>
                 <ol>
@@ -104,17 +101,20 @@
                 </ol>
             </p>
         </activity>
+        <definition xml:id="def-Circle">
+            <statement>
+                
+                    
+                <p>
+                    A sector is a region bounded by two radii and an arc consisting of a minor and major sector.
+                </p>
+                <p>
+                    A <m>\textbf{minor}</m> sector is the smaller area between the two radii, while a <m>\textbf{major}</m> sector is the larger area.
+                </p>
+            </statement>
+        </definition>
         <p>
-            <m>\textbf{Key Takeaway}</m>
-        </p>
-        <p>
-            <m>\textbf{Sector}</m>
-        </p>
-        <p>
-            A sector is a region bounded by two radii and an arc consisting of a minor and major sector.
-        </p>
-        <p>
-            A <m>\textbf{minor}</m> sector is the smaller area between the two radii, while a <m>\textbf{major}</m> sector is the larger area.
+            <term>Key Takeaway</term>
         </p>
         <p>
             The figure below illustrates the difference between a minor and major sector.
@@ -148,17 +148,12 @@
             \end{tikzpicture}
         </latex-image>
         </image>
-        <p>
-            The area of a circle is given by the formula:
-        </p>
-        <p>
-            <m>\text{Area of a circle} = \pi r^2</m>
-        </p>
+        
         <p>
             The area of a sector is the fraction of the area of a circle. A whole circle corresponds to an angle of <m>360^\circ</m>, so the area of a sector with a central angle <m>\theta</m> is given by:
         </p>
         <p>
-            <m>\text{Area of a sector} = \frac{\theta}{360^\circ} \times \pi r^2</m>
+            <me>\text{Area of a sector} = \frac{\theta}{360^\circ} \times \pi r^2</me>
         </p>
 
         <example>
@@ -200,11 +195,11 @@
                     <md>
                         <mrow>\text{Area}= \amp \frac{60^\circ}{360^\circ} \times \pi (10 \,\text{m} )^2 </mrow>
                         <mrow>\text{Area}= \amp \frac{60}{360} \times \pi (100) </mrow>
-                        <mrow>  \approx \amp 52.36 \, \text{m}^2</mrow>
+                        <mrow> =\amp 52.36 \, \text{m}^2</mrow>
                     </md>
                 </p>
                 <p>
-                    The area of the sector is approximately <m>{\color{blue}52.36 \,\text{m}^2}</m>.
+                    The area of the sector is <m>{\color{black}52.36 \,\text{m}^2}</m>.
                 </p>
             </solution>
         </example>
@@ -235,11 +230,11 @@
                     <md>
                         <mrow>\text{Area}= \amp \frac{90^\circ}{360^\circ} \times \pi (12 \,\text{m})^2 </mrow>
                         <mrow>= \amp \frac{90}{360} \times \pi (144) </mrow>
-                        <mrow>  \approx \amp 113.10 \, \text{m}^2</mrow>
+                        <mrow> = \amp 113.10 \, \text{m}^2</mrow>
                     </md>
                 </p>
                 <p>
-                    The area of the sector is approximately <m>{\color{blue}113.10 \,\text{m}^2}</m>.
+                    The area of the sector is <m>{\color{black}113.10 \,\text{m}^2}</m>.
                 </p>
             </solution>
         </example>
@@ -279,7 +274,7 @@
                 </p>
                 <p>
                     <md>
-                        <mrow> 154= \amp \frac{\theta}{360^\circ} \times \frac{22}{7} (21\,\text{m})^2 </mrow>
+                        <mrow> 154= \amp \frac{\theta}{360^\circ} \times \frac{22}{7} (21)^2 </mrow>
                         <mrow> = \amp \frac{\theta}{360^\circ} \times \frac{22}{7} (441) </mrow>
                         <mrow> = \amp \frac{\theta}{360^\circ} \times (1385.44) </mrow>
                         <mrow>  \frac{\theta}{360^\circ} = \amp\frac{154}{1385.44} \</mrow>
@@ -288,15 +283,23 @@
                     </md>
                 </p>
                 <p>
-                    The angle subtended by the sector is approximately <m>{\color{blue}39.93^\circ}</m>.
+                    The angle subtended by the sector is  <m>{\color{black}39.93^\circ}</m>.
                 </p>
             </solution>
         </example>
-        <exercise>
-            <p>
-                
-            </p>
-        </exercise>
+        <exercises xml:id="circle">
+            <exercise>
+                <p>
+                    
+                </p>
+            </exercise>
+            <exercise>
+                <p>
+                    
+                </p>
+            </exercise>
+        </exercises>
+        
     </subsubsection>
 
     <subsubsection xml:id="subsubsec-area-of-a-segment">
@@ -339,23 +342,24 @@
                             Adjust the sliders for radius <m>(\textbf{r})</m> and angle <m>(\theta)</m>.
                         </p>
 
-                        <!-- <figure >
-                            <caption>Area of a segment</caption>
-                            <interactive xml:id="geogebra-area-of-a-segment" platform="geogebra" width="100%" aspect="5:4">
-                            <slate xml:id="Area-of-a-segment" surface="geogebra" material="qyxyxyws" aspect="5:4" >
-                                enableShiftDragZoom(true);
-                                showResetIcon(true);
-                            </slate>
-                            </interactive>
-                    </figure> -->
-                    <figure >
-                            <caption>Area of a segment</caption>
-                            <interactive xml:id="geogebra-area-of-a-segment" platform="geogebra" width="100%">
-                            <slate xml:id="Area-of-a-segment" surface="geogebra" material="qyxyxyws" aspect="9:11" >
-                                enableShiftDragZoom(true);
-                                showResetIcon(true);
-                            </slate>
-                            </interactive>
+                    <!-- <figure >
+                        <caption>Area of a segment</caption>
+                        <interactive xml:id="geogebra-area-of-a-segment" platform="geogebra" width="100%" aspect="5:4">
+                        <slate xml:id="Area-of-a-segment" surface="geogebra" material="qyxyxyws" aspect="5:4" >
+                            enableShiftDragZoom(true);
+                            showResetIcon(true);
+                        </slate>
+                        </interactive>
+                </figure> -->
+               
+                    <figure>
+                        <caption>Area of a segment</caption>
+                        <interactive xml:id="geogebra-area-of-a-segment" platform="geogebra" width="100%">
+                        <slate xml:id="Area-of-a-segment" surface="geogebra" material="qyxyxyws" aspect="9:11" >
+                            enableShiftDragZoom(true);
+                            showResetIcon(true);
+                        </slate>
+                        </interactive>
                     </figure>
                     </li>
                     <li>
@@ -371,19 +375,24 @@
                 </ol>
             </p>
         </activity>
+        <definition xml:id="def-segment1">
+            <statement>
+                <p>
+                    A <m>\textbf{segment}</m> is the area between a chord and the arc it subtends.
+                </p>
+                <p>
+                    A chord is a line segment connecting two points on the circle.
+                </p>
+                <p>
+                    An arc is a part of the circumference of a circle.
+                </p>
+            </statement>
+        </definition>
         <p>
-            <m>\textbf{Key Takeaway}</m>
+            <term>Key Takeaway</term>
         </p>
-        <p>
-            A segment is the region of a circle
-            bounded by a chord and an arc.
-        </p>
-        <p>
-            A chord is a line segment connecting two points on the circle.
-        </p>
-        <p>
-            An arc is a part of the circumference of a circle.
-        </p>
+        
+        
         <p>
             The figure below illustrates a minor and a major segment of a circle.
         </p>
@@ -425,7 +434,7 @@
             
         </image>
         <p>
-            The area of a segment can be calculated using the formula:
+            The area of a segment is calculated using the formula:
         </p>
         <p>
             <m>\text{Area of Segment} = \text{Area of Sector} - \text{Area of Triangle}</m>
@@ -487,9 +496,9 @@
                 </p>
                 <p>
                     <md>
-                        <mrow>\text{Area}= \frac{80}{360} \times \pi \times 21^2</mrow>
-                        <mrow> \amp= \frac{80}{360} \times 3.142 \times 21^2</mrow>
-                        <mrow> \amp=  49.5 \text{ cm}^2</mrow>
+                        <mrow>\text{Area}= \amp \frac{80}{360} \times \pi \times 21^2</mrow>
+                        <mrow> =\amp\frac{80}{360} \times 3.142 \times 21^2</mrow>
+                        <mrow> =\amp 49.5 \text{ cm}^2</mrow>
                     </md>
                 </p>
                 <p>
@@ -503,8 +512,8 @@
                 </p>
                 <p>
                     <md>
-                        <mrow>h= \sqrt{H^2-b^2}</mrow>
-                        <mrow>= \sqrt{21^2-2^2}</mrow>
+                        <mrow>h= \amp\sqrt{H^2-b^2}</mrow>
+                        <mrow>= \amp\sqrt{21^2-2^2}</mrow>
                         <mrow> =\amp \sqrt{441-4}</mrow>
                         <mrow> =\amp \sqrt{437}</mrow>
                         <mrow> =\amp  20.88 \text{ cm}</mrow>
@@ -516,7 +525,7 @@
                 <p>
                     <md>
                         <mrow> =  \amp\frac{1}{2} \times 4 \times 20.88</mrow>
-                        <mrow> \approx \amp 42.66 \text{ cm}^2</mrow>
+                        <mrow> =\amp 42.66 \text{ cm}^2</mrow>
                     </md>
                 </p>
                 <p>
@@ -531,7 +540,7 @@
                     </md>
                 </p>
                 <p>
-                    The area of the shaded region (segment) is approximately <m>{\color{blue}6.84 \,\text{cm}^2}</m>.
+                    The area of the shaded region (segment) is  <m>{\color{black}6.84 \,\text{cm}^2}</m>.
                 </p>
             </solution>
         </example>
@@ -582,7 +591,7 @@
                     </md>
                 </p>
                 <p>
-                    The area of the shaded region (segment) is approximately <m>{\color{blue}11.19 \,\text{cm}^2}</m>.
+                    The area of the shaded region (segment) is  <m>{\color{black}11.19 \,\text{cm}^2}</m>.
                 </p>
             </solution>
         </example>
@@ -636,15 +645,24 @@
                     </md>
                 </p>
                 <p>
-                    The area of the segment removed is approximately <m>{\color{blue}223.75 \,\text{cm}^2}</m>.
+                    The area of the segment removed is <m>{\color{black}223.75 \,\text{cm}^2}</m>.
                 </p>
             </solution>
         </example>
-        <exercise>
-            <p>
-                
-            </p>
-        </exercise>
+        <exercises >
+            <exercise>
+                <p>
+                    
+                </p>
+            </exercise>
+            <exercise>
+                <p>
+                    
+                </p>
+            </exercise>
+            
+        </exercises>
+        
     </subsubsection>
 
 

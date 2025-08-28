@@ -27,6 +27,9 @@
             </ul>
         </p>
         <p>
+            <term>Instructions</term>
+        </p>
+        <p>
             <ol>
                 <li>
                     <p>
@@ -172,7 +175,7 @@
                 </li>
                 <li>
                     <p>
-                        Discuss how the volume of a frustum can be calculated.
+                        Discuss how the volume of a frustum is be calculated.
                     </p>
                 </li>
                 <li>
@@ -197,7 +200,7 @@
         Which can be written as:
     </p>
     <p>
-        <m>{\text{Volume}=\frac{1}{3}\pi R^2 H- \frac{1}{3}\pi r^2 h}</m>
+        <me>V=\frac{1}{3}\pi R^2 H- \frac{1}{3}\pi r^2 h</me>
     </p>
 
     <example>
@@ -254,7 +257,7 @@
                 </md>
             </p>
             <p>
-                Therefore, the volume of the frustum is <m>{\color{blue}10472\, \text{cm}^3}</m>
+                Therefore, the volume of the frustum is <m>{\color{black}10472\, \text{cm}^3}</m>
             </p>
 
         </solution>
@@ -302,8 +305,7 @@
             </p>
             <p>
                 <md>
-                    <mrow>\text{Volume of lampshade} = \amp \text{Volume of the big cone} - \text{Volume of the small cone}</mrow>
-                    <mrow>= \amp \frac{1}{3}\pi R^2 H- \frac{1}{3}\pi r^2 h </mrow>
+                    <mrow>V= \amp \frac{1}{3}\pi R^2 H- \frac{1}{3}\pi r^2 h </mrow>
                     <mrow>= \amp \frac{1}{3} \times 3.142 \times 14^2 \times 40 - \frac{1}{3} \times 3.142 \times 7^2 \times 25</mrow>
                     <mrow>= \amp  \frac{1}{3} \times 3.142 \times (14^2 \times 40 - 7^2 \times 25)</mrow>
                     <mrow>= \amp \frac{1}{3} \times 3.142 \times (7840 - 1225)</mrow>
@@ -312,7 +314,7 @@
                 </md>
             </p>
             <p>
-                Therefore, the volume of the lampshade is <m>{\color{blue}6928.11\, \text{cm}^3}</m>
+                Therefore, the volume of the lampshade is <m>{\color{black}6928.11\, \text{cm}^3}</m>
             </p>
         </solution>
     </example>
@@ -429,15 +431,22 @@
                 </md>
             </p>
             <p>
-                Therefore, the volume of the frustum formed is <m>{\color{blue}186.66\, \text{cm}^3}</m>
+                Therefore, the volume of the frustum formed is <m>{\color{black}186.66\, \text{cm}^3}</m>
             </p>
         </solution>
     </example>
-    <exercise>
-        <p>
-            
-        </p>
-    </exercise>
+    <exercises >
+        <exercise>
+            <p>
+                
+            </p>
+        </exercise>
+         <exercise>
+            <p>
+                
+            </p>
+        </exercise>
+    </exercises>
 
 
 

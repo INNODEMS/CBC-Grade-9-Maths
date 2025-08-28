@@ -1,39 +1,21 @@
 <section xml:id="sec-volume-of-solids" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Volume of Solids</title>
     <introduction>
-        <definition xml:id="def-Volume-of-prisms">
-            <statement>
-                <p>
-                    <m>\textbf{Volume}</m> is the amount of space occupied by a three-dimensional object. It tells us how much something can hold.
-                </p>
-                <p>
-                    - If an object is hollow, its volume tells us the capacity – how much 
-                    liquid or air it can hold. If it is solid, volume tells us how much space it fills up.
-                </p>
-                <p>
-                    For example,
-                </p>
-                <p>
-                    <ol marker="a. ">
-                        <li>
-                            <p>
-                                The volume of water in a jug.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                The volume of sand in a bucket.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                The volume of a classroom (helps in knowing how much air it can hold).
-                            </p>
-                        </li>
-                    </ol>
-                </p>
-            </statement>
-        </definition>
+        
+            
+        <p>
+            <m>\textbf{Volume}</m> is the amount of space occupied by a three-dimensional object. It tells us how much something can hold.
+        </p>
+        <p>
+            If an object is hollow, its volume tells us the capacity – how much 
+            liquid or air it can hold. If it is solid, volume tells us how much space it fills up.
+        </p>
+        <p>
+            For example,
+        </p>
+                
+           
+        
     </introduction>
 
     <xi:include href="subsections/volume-of-solids/subsec-volume-of-prisms.ptx"/>
