@@ -844,7 +844,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.2",
   "title": "Equations of a Straight Line",
-  "body": " Equations of a Straight Line   Identifying the Gradient in Real-Life Situations  In our everyday environment we notice many surfaces that are slanted rather than perfectly flat. Think of the gentle incline of a ramp at your school, or the varying steepness of a hill on a familiar route. These everyday features are examples of what we call a .  Instead of focusing on the mathematics immediately, it is important to understand that the gradient describes how steep a path is—in other words, it tells us how quickly something rises or falls over a certain distance.  In practical terms, this concept is useful in planning safe ramps, roads, or even understanding the effort required to climb a hill.   Work in groups  What you need:    Measuring tape or ruler  Notebook and pencil  Calculator (optional)     Instructions:     Walk around your school and identify at least two sloped surfaces (for example, a ramp near a doorway or a sloping walkway).  Observe and discuss with your group what “steepness” might mean in a real-life context. Is a gently inclined ramp different from a steep staircase?  Using a measuring tape, estimate the change in height (how much the surface rises) and the horizontal distance (how far it extends).  Record your observations in a table. For example:     Sample Slope Measurements    Location  Estimated Rise (m)  Estimated Run (m)    Ramp to hall      Staircase or sloping path         Discuss as a group how the steepness might affect the use of that surface (for example, ease of access for a wheelchair or the energy required for a person climbing the hill).  Discuss as a group how the steepness might affect the use of that surface (for example, ease of access for a wheelchair or the energy required for a person climbing the hill).      Which surface appears steeper? Why might that be important?      Key Takeaway:   The gradient gives a numerical value to the concept of steepness, allowing us to compare different slopes and understand their practical implications for safety, accessibility, and design.    Suppose one ramp rises over a horizontal distance of . Express its steepness as a gradient.    To find the gradient, we use the formula:     Here, the rise is and the run is      This means that for every you move horizontally, the ramp rises by .         In your own words, explain what the term means in real life.    You are shown two walkways:  Walkway A: Rises by over horizontally  Walkway B: Rises by over horizontally  Without calculating, which walkway do you think is steeper? Why?    A builder is constructing a ramp for a wheelchair user. She wants it to be easy to climb. Should the gradient be high or low? Explain your answer.    Name two places in your community where gradients are used on purpose. What purpose do they serve?    Think of a sloped road you've walked or cycled on. Was it easier or harder to move along the slope? What does that tell you about its gradient?        Determining the Gradient from Two Known Points  In many situations, we are given two points on a straight path and want to determine how steep that path is. These two points may represent physical locations, price changes, distances over time, or any relationship that forms a straight line.  To calculate the gradient between any two points on a straight line, we compare how much the value changes vertically (rise) with how much it changes horizontally (run).  Gradients are useful in describing real situations such as speed, price change, or slope of land.   Work in groups  What you need:    Graph paper or squared notebook  Ruler  Pencil  Calculator    Instructions:    On a piece of graph paper, plot the following two points: and .  Draw a straight line passing through both points using a ruler.  Count how many units up (rise) and how many units across (run) from point A to point B.  Record your values and use the gradient formula to find the slope between the two points.    Discuss: What does the gradient tell you about this line?   Key Takeaway:  The gradient between two points shows how steep the line is. It is found by dividing the change in values (rise) by the change in values (run).    Find the gradient of the line passing through the points and .          Apply the gradient formula:     Therefore, the gradient of the line is . This means for every unit moved to the right, the line goes up by units.      Use the gradient formula to solve the following questions:    Find the gradient of the line that passes through the points and .    Two points on a road are given as and . What is the gradient of the slope from A to B?    A shop's profit changed from Ksh in week 1 to Ksh in week 4. Find the average rate of profit increase per week (gradient).    If the gradient between two points is zero, what does that tell you about the line? Give an example.        Determining the Equation of a Line Given Two Points  Once you have learned how to calculate the gradient between two points, the next step is to use those two points to determine the unique equation of the line that connects them.  In this section, we will introduce the idea that every straight line in the coordinate plane can be defined by its and a point it passes through. This leads us to the of a line, which can later be rearranged into the slope-intercept form:     where is the gradient and is the y-intercept.  Today, we will combine your earlier work with a new process: determining the line's equation directly from two known points.   Work in groups  What you need:    Graph paper or a squared notebook  Ruler  Pencil and eraser  Calculator     Instructions:     Plot two points on graph paper; for example, use the points and .  Using the method from the previous section, calculate the gradient (m) between the two points.  Select one of the points (either one) to substitute into the point-slope form:   Rearrange the resulting equation into the slope-intercept form .  Discuss your findings and how the line's characteristics (its slope and y-intercept) relate to the points you plotted.      Key Takeaway:   By determining the gradient between two points and substituting one of the points into the point-slope equation, we can derive the unique linear equation that passes through both points. This equation can then be rearranged into the form .    Determine the equation of a line that passes through the points and .    To find the equation of the line, we will follow these steps:   Step 1: Calculate the Gradient   Using the gradient formula:    Step 2: Apply the Point-Slope Form   Choosing point , substitute into the point-slope form:    Step 3: Convert to Slope-Intercept Form   Expand and simplify:     Add to both sides:     This is the equation of the line in slope-intercept form.      Solve the following questions:    Find the equation of the line that passes through the points and .    A line passes through and . Determine its gradient and write its equation in the form .    If the line through and has a gradient of , what is the y-intercept ( ) of the line?    Explain what the equation tells you about the relationship between and .        Determining the Equation of a Line from a Known Gradient and a Point  In some cases, we may be told the of a line and given only one point that lies on it. Using this information, we can still find the full equation of the line.  To do this, we use the of a linear equation:     where is the known point and is the gradient. We can rearrange this into the familiar slope-intercept form: .     Work in groups    MWhat you need:     Graph paper or notebook  Ruler  Pencil and calculator    Instructions:    Suppose you are told that a line has a gradient of and passes through the point .  Write the point-slope form using this information.  Rearrange the equation into slope-intercept form ( ).  Plot the point on graph paper, then draw the line using your equation to verify your result.    Discuss with your group: Would the result be different if we had chosen a different point?     Key Takeaway:   When given a gradient and one point on a line, you can use the point-slope form to find the full equation of the line. This method is efficient and avoids the need for a second point.    Write the equation of a line that has a gradient and passes through the point .    We know the gradient and the point . Using the point-slope form:     Substituting the known values:     Now, we will rearrange this into slope-intercept form:     Adding 4 to both sides gives:     Therefore, the equation of the line is .       .    A line has a gradient of and passes through the point . Find the equation of the line.    The gradient of a line is and it goes through the point . Write its equation in slope-intercept form.    A line passes through the origin and has a gradient of . Write its equation.    A plumber charges a fixed fee of Ksh and an additional Ksh per hour worked. Let represent the number of hours worked and represent the total charge. Write the equation connecting and .    The equation of a line is . Identify:    The gradient  A point that lies on the line      Without drawing a graph, explain whether the line with equation is increasing or decreasing. Justify your answer using the gradient.        Expressing the Equation in the Form  A straight line in a coordinate plane can be represented by an equation. One of the most useful and common forms is the :     In this equation:  is the gradient or slope of the line  is the y-intercept — the point where the line crosses the y-axis    Understanding this form helps us describe, sketch, and interpret linear relationships both in mathematical problems and real-life contexts.   Work in groups  What You Need:    Graph paper or squared notebook  Ruler and pencil  Calculator    Instructions:    Sketch a line with a gradient of and a y-intercept of . Label the line with its equation .  Now sketch a second line with the same gradient but a different y-intercept, for example . Label it .  Compare the two lines. What is similar? What is different?      Discuss: How does the value of affect the steepness of a line?  How does the value of affect where the line crosses the y-axis?      Key Takeaway:   In the equation , tells us how steep the line is, and tells us where the line crosses the y-axis. This form is very useful for sketching graphs and interpreting real-life situations mathematically.    Given the equation , identify the gradient and y-intercept.    From the equation , we can see that:  The gradient  The y-intercept  This means the line rises steeply (since the gradient is positive and greater than ) and crosses the y-axis at the point .         From the equation , state the gradient and y-intercept.    For each of the following equations, identify and :         Write an equation in the form for a line with:  Gradient  y-intercept      A taxi company charges a base fare of Ksh plus Ksh per kilometre. Write an equation for the total cost in terms of the number of kilometres .    Draw graphs of the equations and on the same set of axes. What do you observe?        Determining the x- and y-Intercepts of a Line  When sketching or interpreting a linear graph, it is helpful to know where the line crosses the axes. These points are called the .    The is the point where the line crosses the y-axis. This occurs when .  The is the point where the line crosses the x-axis. This occurs when .    Knowing both intercepts helps you to sketch a line quickly and accurately.   Work in groups  What You Need:    Graph paper or squared notebook  Ruler and pencil    Instructions:    Choose the equation .  To find the y-intercept, substitute .  To find the x-intercept, substitute and solve for .  Plot both points and draw the line on graph paper.    Discuss with your partner: Why are these two points enough to draw the whole line?    Key Takeaway:   The y-intercept is found by setting . The x-intercept is found by setting . These two points are enough to sketch a linear graph accurately.    Find the x- and y-intercepts of the line given by the equation .    To find the y-intercept, set and solve for :     So, the y-intercept is .  To find the x-intercept, set and solve for :     Rearranging gives:     Dividing both sides by 3:     So, the x-intercept is .  Therefore, the intercepts of the line are and .         Find the x- and y-intercepts of the equation .    A line has the equation . Determine its intercepts and plot them on graph paper.    What are the intercepts of the line ? Explain your answer.    A mobile data company charges a base fee of Ksh and Ksh per GB. Write the cost equation, and find how many GB one can get when the total cost is Ksh .    Sketch the graph of the line by using the intercepts.        The Use of Equations of Straight Lines in Real Life  Linear equations are not just for the classroom — they appear all around us in daily life. Any situation that involves a fixed starting value and a constant rate of change can be modelled using a straight-line equation of the form .  Understanding these applications can help us make predictions, compare situations, and make informed decisions.   Work in groups  What you need:    Notebook or exercise book  Mobile phone or calculator    Instructions:    Interview a boda boda or taxi operator. Ask about how they charge their customers (e.g. base fare + per kilometre cost).  Write down the relationship between distance travelled and total cost .  Express this relationship as a linear equation in the form .  Discuss how such an equation can help both the rider and the customer.    Share your findings with your class.    Key Takeaway:   Everyday life situations involving steady increase or decrease can be modelled using linear equations. This makes it easier to predict, budget, or compare.    A water tank is being filled at a constant rate. After minute, it contains litres. After minutes, it contains litres.  a) Find the equation that relates time (in minutes) to the amount of water (in litres).  b) How much water will be in the tank after minutes?  c) How long will it take to fill the tank to litres?    a) First, find the gradient :     Now, use the point to find :     So, the equation is .  b) To find the amount of water after minutes, substitute into the equation:   litres.  c) To find how long it takes to fill the tank to litres, set and solve for :   minutes.         A mobile provider charges Ksh per GB of data and a flat connection fee of Ksh . Write the equation that models the total cost in terms of data used .    A vehicle travels at a constant speed. It covers 120 km in 2 hours and 180 km in 3 hours. Find the equation connecting time (hours) to distance (km).    A student earns Ksh per week as allowance and Ksh for every day they help in a shop. Write an equation to model the total amount earned in a week if they work for days.    A maize farmer harvests 15 bags per acre. Write an equation that relates the number of acres to total harvest .    Reflect: Think of one more situation from your life or community that can be modelled using a straight-line equation. Describe it and write its equation.       "
+  "body": " Equations of a Straight Line   Identifying the Gradient in Real-Life Situations  In our everyday environment we notice many surfaces that are slanted rather than perfectly flat. Think of the gentle incline of a ramp at your school, or the varying steepness of a hill on a familiar route. These everyday features are examples of what we call a .  Instead of focusing on the mathematics immediately, it is important to understand that the gradient describes how steep a path is. It tells us how quickly something rises or falls over a certain distance.  In practical terms, this concept is useful in planning safe ramps, roads, or even understanding the effort required to climb a hill.   Work in groups  What you need:    Measuring tape or ruler  Notebook and pencil  A Calculator     Instructions:     Walk around your school and identify at least two sloped surfaces (for example, a ramp near a doorway or a sloping walkway).  Observe and discuss with your group what “steepness” might mean in a real-life context. Is a gently inclined ramp different from a steep staircase?  Using a measuring tape, estimate the change in height (how much the surface rises) and the horizontal distance (how far it extends).  Record your observations in a table. For example:     Sample Slope Measurements    Location  Estimated Rise (m)  Estimated Run (m)    Ramp to hall      Staircase or sloping path         Discuss as a group how the steepness might affect the use of that surface (for example, ease of access for a wheelchair or the energy required for a person climbing the hill).  Discuss as a group how the steepness might affect the use of that surface (for example, ease of access for a wheelchair or the energy required for a person climbing the hill).      Which surface appears steeper? Why might that be important?      Key Takeaway:   The gradient gives a numerical value to the concept of steepness, allowing us to compare different slopes and understand their practical implications for safety, accessibility, and design.    Suppose one ramp rises m over a horizontal distance of m. Express its steepness as a gradient.    To find the gradient, we use the formula:     Here, the rise is and the run is      This means that for every m you move horizontally, the ramp rises by m.         In your own words, explain what the term means in real life.    You are shown two walkways:  Walkway A: Rises by over horizontally  Walkway B: Rises by over horizontally  Without calculating, which walkway do you think is steeper? Why?    A builder is constructing a ramp for a wheelchair user. She wants it to be easy to climb. Should the gradient be high or low? Explain your answer.    Name two places in your community where gradients are used on purpose. What purpose do they serve?    Think of a sloped road you've walked or cycled on. Was it easier or harder to move along the slope? What does that tell you about its gradient?        Determining the Gradient from Two Known Points  In many situations, we are given two points on a straight path and want to determine how steep that path is. These two points may represent physical locations, price changes, distances over time, or any relationship that forms a straight line.  To calculate the gradient between any two points on a straight line, we compare how much the value changes vertically (rise) with how much it changes horizontally (run).  Gradients are useful in describing real situations such as speed, price change, or slope of land.   Work in groups  What you need:    Graph paper or squared notebook  Ruler  Pencil  Calculator    Instructions:    On a piece of graph paper, plot the following two points: and .  Draw a straight line passing through both points using a ruler.  Count how many units up (rise) and how many units across (run) from point A to point B.  Record your values and use the gradient formula to find the slope between the two points.    Discuss: What does the gradient tell you about this line?   Key Takeaway:  The gradient between two points shows how steep the line is. It is found by dividing the change in values (rise) by the change in values (run).    Find the gradient of the line passing through the points and .          Apply the gradient formula:     Therefore, the gradient of the line is . This means for every unit moved to the right, the line goes up by units.      Use the gradient formula to solve the following questions:    Find the gradient of the line that passes through the points and .    Two points on a road are given as and . What is the gradient of the slope from A to B?    A shop's profit changed from Ksh in week 1 to Ksh in week 4. Find the average rate of profit increase per week (gradient).    If the gradient between two points is zero, what does that tell you about the line? Give an example.        Determining the Equation of a Line Given Two Points  Once you have learned how to calculate the gradient between two points, the next step is to use those two points to determine the unique equation of the line that connects them.  In this section, we will introduce the idea that every straight line in the coordinate plane can be defined by its and a point it passes through. This leads us to the of a line, which can later be rearranged into the slope-intercept form:     where is the gradient and is the y-intercept.  Today, we will combine your earlier work with a new process: determining the line's equation directly from two known points.   Work in groups  What you need:    Graph paper or a squared notebook  Ruler  Pencil and eraser  Calculator     Instructions:     Plot two points on graph paper; for example, use the points and .  Using the method from the previous section, calculate the gradient (m) between the two points.  Select one of the points (either one) to substitute into the point-slope form:   Rearrange the resulting equation into the slope-intercept form .  Discuss your findings and how the line's characteristics (its slope and y-intercept) relate to the points you plotted.      Key Takeaway:   By determining the gradient between two points and substituting one of the points into the point-slope equation, we can derive the unique linear equation that passes through both points. This equation can then be rearranged into the form .    Determine the equation of a line that passes through the points and .    To find the equation of the line, we will follow these steps:   Step 1: Calculate the Gradient   Using the gradient formula:    Step 2: Apply the Point-Slope Form   Choosing point , substitute into the point-slope form:    Step 3: Convert to Slope-Intercept Form   Expand and simplify:     Add to both sides:     This is the equation of the line in slope-intercept form.      Solve the following questions:    Find the equation of the line that passes through the points and .    A line passes through and . Determine its gradient and write its equation in the form .    If the line through and has a gradient of , what is the y-intercept ( ) of the line?    Explain what the equation tells you about the relationship between and .        Determining the Equation of a Line from a Known Gradient and a Point  In some cases, we may be told the of a line and given only one point that lies on it. Using this information, we can still find the full equation of the line.  To do this, we use the of a linear equation:     where is the known point and is the gradient. We can rearrange this into the familiar slope-intercept form: .     Work in groups    MWhat you need:     Graph paper or notebook  Ruler  Pencil and calculator    Instructions:    Suppose you are told that a line has a gradient of and passes through the point .  Write the point-slope form using this information.  Rearrange the equation into slope-intercept form ( ).  Plot the point on graph paper, then draw the line using your equation to verify your result.    Discuss with your group: would the result be different if we had chosen a different point?     Key Takeaway:   When given a gradient and one point on a line, you can use the point-slope form to find the full equation of the line. This method is efficient and avoids the need for a second point.    Write the equation of a line that has a gradient and passes through the point .    We know the gradient and the point . Using the point-slope form:     Substituting the known values:     Now, we will rearrange this into slope-intercept form:     Adding 4 to both sides gives:     Therefore, the equation of the line is .      Answer the following questions. Use the point-slope method to derive each equation, then write it in the form .    A line has a gradient of and passes through the point . Find the equation of the line.    The gradient of a line is and it goes through the point . Write its equation in slope-intercept form.    A line passes through the origin and has a gradient of . Write its equation.    A plumber charges a fixed fee of Ksh and an additional Ksh per hour worked. Let represent the number of hours worked and represent the total charge. Write the equation connecting and .    The equation of a line is . Identify:    The gradient  A point that lies on the line      Without drawing a graph, explain whether the line with equation is increasing or decreasing. Justify your answer using the gradient.        Determining the x and y-intercepts of a Line  When sketching or interpreting a linear graph, it is helpful to know where the line crosses the axes. These points are called the .    The is the point where the line crosses the y-axis. This occurs when .  The is the point where the line crosses the x-axis. This occurs when .    Knowing both intercepts helps you to sketch a line quickly and accurately.   Work in groups  What You Need:    Graph paper or squared notebook  Ruler and pencil    Instructions:    Choose the equation .  To find the y-intercept, substitute .  To find the x-intercept, substitute and solve for .  Plot both points and draw the line on graph paper.    Discuss with your partner: Why are these two points enough to draw the whole line?    Key Takeaway:   The y-intercept is found by setting . The x-intercept is found by setting . These two points are enough to sketch a linear graph accurately.    Find the x- and y-intercepts of the line given by the equation .    To find the y-intercept, set and solve for :     So, the y-intercept is .  To find the x-intercept, set and solve for :     Rearranging gives:     Dividing both sides by 3:     So, the x-intercept is .  Therefore, the intercepts of the line are and .         Find the x- and y-intercepts of the equation .    A line has the equation . Determine its intercepts and plot them on graph paper.    What are the intercepts of the line ? Explain your answer.    A mobile data company charges a base fee of Ksh and Ksh per GB. Write the cost equation, and find how many GB one can get when the total cost is Ksh .    Sketch the graph of the line by using the intercepts.        The Use of Equations of Straight Lines in Real Life  Linear equations are not just for the classroom, they appear all around us in daily life. Any situation that involves a fixed starting value and a constant rate of change can be modelled using a straight-line equation of the form .  Understanding these applications can help us make predictions, compare situations, and make informed decisions.   Work in groups  What you need:    Notebook or exercise book  Mobile phone or calculator    Instructions:    Interview a boda boda or taxi operator. Ask about how they charge their customers (e.g. base fare + per kilometre cost).  Write down the relationship between distance travelled and total cost .  Express this relationship as a linear equation in the form .  Discuss how such an equation can help both the rider and the customer.    Share your findings with your class.    Key Takeaway:   Everyday life situations involving steady increase or decrease can be modelled using linear equations. This makes it easier to predict, budget, or compare.    A water tank is being filled at a constant rate. After minute, it contains litres. After minutes, it contains litres.  a) Find the equation that relates time (in minutes) to the amount of water (in litres).  b) How much water will be in the tank after minutes?  c) How long will it take to fill the tank to litres?    a) First, find the gradient :     Now, use the point to find :     So, the equation is .  b) To find the amount of water after minutes, substitute into the equation:   litres.  c) To find how long it takes to fill the tank to litres, set and solve for :   minutes.         A mobile provider charges Ksh per GB of data and a flat connection fee of Ksh . Write the equation that models the total cost in terms of data used .    A vehicle travels at a constant speed. It covers 120 km in 2 hours and 180 km in 3 hours. Find the equation connecting time (hours) to distance (km).    A student earns Ksh per week as allowance and Ksh for every day they help in a shop. Write an equation to model the total amount earned in a week if they work for days.    A maize farmer harvests 15 bags per acre. Write an equation that relates the number of acres to total harvest .    Reflect: Think of one more situation from your life or community that can be modelled using a straight-line equation. Describe it and write its equation.       "
 },
 {
   "id": "subsec-identifying-the-gradient-in-real-life-situations-5",
@@ -853,7 +853,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "2.2.1",
   "title": "",
-  "body": " Work in groups  What you need:    Measuring tape or ruler  Notebook and pencil  Calculator (optional)     Instructions:     Walk around your school and identify at least two sloped surfaces (for example, a ramp near a doorway or a sloping walkway).  Observe and discuss with your group what “steepness” might mean in a real-life context. Is a gently inclined ramp different from a steep staircase?  Using a measuring tape, estimate the change in height (how much the surface rises) and the horizontal distance (how far it extends).  Record your observations in a table. For example:     Sample Slope Measurements    Location  Estimated Rise (m)  Estimated Run (m)    Ramp to hall      Staircase or sloping path         Discuss as a group how the steepness might affect the use of that surface (for example, ease of access for a wheelchair or the energy required for a person climbing the hill).  Discuss as a group how the steepness might affect the use of that surface (for example, ease of access for a wheelchair or the energy required for a person climbing the hill).      Which surface appears steeper? Why might that be important?    "
+  "body": " Work in groups  What you need:    Measuring tape or ruler  Notebook and pencil  A Calculator     Instructions:     Walk around your school and identify at least two sloped surfaces (for example, a ramp near a doorway or a sloping walkway).  Observe and discuss with your group what “steepness” might mean in a real-life context. Is a gently inclined ramp different from a steep staircase?  Using a measuring tape, estimate the change in height (how much the surface rises) and the horizontal distance (how far it extends).  Record your observations in a table. For example:     Sample Slope Measurements    Location  Estimated Rise (m)  Estimated Run (m)    Ramp to hall      Staircase or sloping path         Discuss as a group how the steepness might affect the use of that surface (for example, ease of access for a wheelchair or the energy required for a person climbing the hill).  Discuss as a group how the steepness might affect the use of that surface (for example, ease of access for a wheelchair or the energy required for a person climbing the hill).      Which surface appears steeper? Why might that be important?    "
 },
 {
   "id": "subsec-identifying-the-gradient-in-real-life-situations-6",
@@ -871,7 +871,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.2.2",
   "title": "",
-  "body": "  Suppose one ramp rises over a horizontal distance of . Express its steepness as a gradient.    To find the gradient, we use the formula:     Here, the rise is and the run is      This means that for every you move horizontally, the ramp rises by .   "
+  "body": "  Suppose one ramp rises m over a horizontal distance of m. Express its steepness as a gradient.    To find the gradient, we use the formula:     Here, the rise is and the run is      This means that for every m you move horizontally, the ramp rises by m.   "
 },
 {
   "id": "subsec-identifying-the-gradient-in-real-life-situations-9-1",
@@ -961,7 +961,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "2.2.4",
   "title": "",
-  "body": "   Work in groups    MWhat you need:     Graph paper or notebook  Ruler  Pencil and calculator    Instructions:    Suppose you are told that a line has a gradient of and passes through the point .  Write the point-slope form using this information.  Rearrange the equation into slope-intercept form ( ).  Plot the point on graph paper, then draw the line using your equation to verify your result.    Discuss with your group: Would the result be different if we had chosen a different point?   "
+  "body": "   Work in groups    MWhat you need:     Graph paper or notebook  Ruler  Pencil and calculator    Instructions:    Suppose you are told that a line has a gradient of and passes through the point .  Write the point-slope form using this information.  Rearrange the equation into slope-intercept form ( ).  Plot the point on graph paper, then draw the line using your equation to verify your result.    Discuss with your group: would the result be different if we had chosen a different point?   "
 },
 {
   "id": "subsec-equation-from-gradient-and-point-7",
@@ -988,50 +988,14 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.2.4.1",
   "title": "",
-  "body": "  .    A line has a gradient of and passes through the point . Find the equation of the line.    The gradient of a line is and it goes through the point . Write its equation in slope-intercept form.    A line passes through the origin and has a gradient of . Write its equation.    A plumber charges a fixed fee of Ksh and an additional Ksh per hour worked. Let represent the number of hours worked and represent the total charge. Write the equation connecting and .    The equation of a line is . Identify:    The gradient  A point that lies on the line      Without drawing a graph, explain whether the line with equation is increasing or decreasing. Justify your answer using the gradient.    "
-},
-{
-  "id": "subsec-expressing-equation-y-equals-mx-plus-c-6",
-  "level": "2",
-  "url": "sec-equations-of-a-straight-line.html#subsec-expressing-equation-y-equals-mx-plus-c-6",
-  "type": "Activity",
-  "number": "2.2.5",
-  "title": "",
-  "body": " Work in groups  What You Need:    Graph paper or squared notebook  Ruler and pencil  Calculator    Instructions:    Sketch a line with a gradient of and a y-intercept of . Label the line with its equation .  Now sketch a second line with the same gradient but a different y-intercept, for example . Label it .  Compare the two lines. What is similar? What is different?      Discuss: How does the value of affect the steepness of a line?  How does the value of affect where the line crosses the y-axis?    "
-},
-{
-  "id": "subsec-expressing-equation-y-equals-mx-plus-c-7",
-  "level": "2",
-  "url": "sec-equations-of-a-straight-line.html#subsec-expressing-equation-y-equals-mx-plus-c-7",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Key Takeaway: "
-},
-{
-  "id": "subsec-expressing-equation-y-equals-mx-plus-c-9",
-  "level": "2",
-  "url": "sec-equations-of-a-straight-line.html#subsec-expressing-equation-y-equals-mx-plus-c-9",
-  "type": "Example",
-  "number": "2.2.6",
-  "title": "",
-  "body": "  Given the equation , identify the gradient and y-intercept.    From the equation , we can see that:  The gradient  The y-intercept  This means the line rises steeply (since the gradient is positive and greater than ) and crosses the y-axis at the point .   "
-},
-{
-  "id": "subsec-expressing-equation-y-equals-mx-plus-c-10-1",
-  "level": "2",
-  "url": "sec-equations-of-a-straight-line.html#subsec-expressing-equation-y-equals-mx-plus-c-10-1",
-  "type": "Exercise",
-  "number": "2.2.5.1",
-  "title": "",
-  "body": "    From the equation , state the gradient and y-intercept.    For each of the following equations, identify and :         Write an equation in the form for a line with:  Gradient  y-intercept      A taxi company charges a base fare of Ksh plus Ksh per kilometre. Write an equation for the total cost in terms of the number of kilometres .    Draw graphs of the equations and on the same set of axes. What do you observe?    "
+  "body": " Answer the following questions. Use the point-slope method to derive each equation, then write it in the form .    A line has a gradient of and passes through the point . Find the equation of the line.    The gradient of a line is and it goes through the point . Write its equation in slope-intercept form.    A line passes through the origin and has a gradient of . Write its equation.    A plumber charges a fixed fee of Ksh and an additional Ksh per hour worked. Let represent the number of hours worked and represent the total charge. Write the equation connecting and .    The equation of a line is . Identify:    The gradient  A point that lies on the line      Without drawing a graph, explain whether the line with equation is increasing or decreasing. Justify your answer using the gradient.    "
 },
 {
   "id": "subsec-determining-x-and-y-intercepts-5",
   "level": "2",
   "url": "sec-equations-of-a-straight-line.html#subsec-determining-x-and-y-intercepts-5",
   "type": "Activity",
-  "number": "2.2.6",
+  "number": "2.2.5",
   "title": "",
   "body": " Work in groups  What You Need:    Graph paper or squared notebook  Ruler and pencil    Instructions:    Choose the equation .  To find the y-intercept, substitute .  To find the x-intercept, substitute and solve for .  Plot both points and draw the line on graph paper.    Discuss with your partner: Why are these two points enough to draw the whole line?  "
 },
@@ -1049,7 +1013,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-equations-of-a-straight-line.html#subsec-determining-x-and-y-intercepts-8",
   "type": "Example",
-  "number": "2.2.7",
+  "number": "2.2.6",
   "title": "",
   "body": "  Find the x- and y-intercepts of the line given by the equation .    To find the y-intercept, set and solve for :     So, the y-intercept is .  To find the x-intercept, set and solve for :     Rearranging gives:     Dividing both sides by 3:     So, the x-intercept is .  Therefore, the intercepts of the line are and .   "
 },
@@ -1058,7 +1022,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-equations-of-a-straight-line.html#subsec-determining-x-and-y-intercepts-9-1",
   "type": "Exercise",
-  "number": "2.2.6.1",
+  "number": "2.2.5.1",
   "title": "",
   "body": "    Find the x- and y-intercepts of the equation .    A line has the equation . Determine its intercepts and plot them on graph paper.    What are the intercepts of the line ? Explain your answer.    A mobile data company charges a base fee of Ksh and Ksh per GB. Write the cost equation, and find how many GB one can get when the total cost is Ksh .    Sketch the graph of the line by using the intercepts.    "
 },
@@ -1067,7 +1031,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-equations-of-a-straight-line.html#subsec-real-life-use-of-linear-equations-4",
   "type": "Activity",
-  "number": "2.2.7",
+  "number": "2.2.6",
   "title": "",
   "body": " Work in groups  What you need:    Notebook or exercise book  Mobile phone or calculator    Instructions:    Interview a boda boda or taxi operator. Ask about how they charge their customers (e.g. base fare + per kilometre cost).  Write down the relationship between distance travelled and total cost .  Express this relationship as a linear equation in the form .  Discuss how such an equation can help both the rider and the customer.    Share your findings with your class.  "
 },
@@ -1085,7 +1049,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-equations-of-a-straight-line.html#subsec-real-life-use-of-linear-equations-7",
   "type": "Example",
-  "number": "2.2.8",
+  "number": "2.2.7",
   "title": "",
   "body": "  A water tank is being filled at a constant rate. After minute, it contains litres. After minutes, it contains litres.  a) Find the equation that relates time (in minutes) to the amount of water (in litres).  b) How much water will be in the tank after minutes?  c) How long will it take to fill the tank to litres?    a) First, find the gradient :     Now, use the point to find :     So, the equation is .  b) To find the amount of water after minutes, substitute into the equation:   litres.  c) To find how long it takes to fill the tank to litres, set and solve for :   minutes.   "
 },
@@ -1094,7 +1058,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-equations-of-a-straight-line.html#subsec-real-life-use-of-linear-equations-8-1",
   "type": "Exercise",
-  "number": "2.2.7.1",
+  "number": "2.2.6.1",
   "title": "",
   "body": "    A mobile provider charges Ksh per GB of data and a flat connection fee of Ksh . Write the equation that models the total cost in terms of data used .    A vehicle travels at a constant speed. It covers 120 km in 2 hours and 180 km in 3 hours. Find the equation connecting time (hours) to distance (km).    A student earns Ksh per week as allowance and Ksh for every day they help in a shop. Write an equation to model the total amount earned in a week if they work for days.    A maize farmer harvests 15 bags per acre. Write an equation that relates the number of acres to total harvest .    Reflect: Think of one more situation from your life or community that can be modelled using a straight-line equation. Describe it and write its equation.    "
 },
@@ -1105,7 +1069,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.3",
   "title": "Linear Inequalities",
-  "body": " Linear Inequalities       Interpreting Linear Inequalities in One and Two Unknowns  In daily life, we often work with conditions or limits rather than exact values. Statements like \"You must be at least 18 years old to vote\" or \"The bag should not weigh more than 10 kg\" are examples of inequalities.  A is a mathematical sentence that uses inequality symbols instead of the equals sign. These include:  (less than)  (less than or equal to)  (greater than)  (greater than or equal to)    Linear inequalities can have one unknown (e.g., ) or two unknowns (e.g., ), and they represent a range of possible values that satisfy the condition.   Work in groups  What You need:    Notebook or writing pad  Pencil or pen    Instructions:    Read the following situations. For each one, write a linear inequality using the variable given:  A student must score at least 50 marks to pass an exam. Let be the marks scored.  A matatu cannot carry more than 14 passengers. Let be the number of passengers.  A phone costs more than Ksh 5,000. Let be the cost.  The total luggage weight must be less than or equal to 25 kg. Let be the weight.    Identify whether each inequality has one or two unknowns.  Explain your interpretation to another group and listen to theirs.      Key Takeaway:   Linear inequalities describe limitations or conditions in real-life situations. They allow us to work with ranges of possible values rather than just one answer.    A parent gives a student Ksh 500 for lunch. If lunch costs shillings per day and the school has 5 days, write an inequality to represent how much can be spent per day.    The total cost for 5 days is . The student cannot spend more than Ksh 500, so:     Solving the inequality:     This means the student can spend at most each day.         Write an inequality to represent the statement: “You must be at least 18 years old to register to vote.” Let represent age.    Write an inequality: You want to buy pens at Ksh 25 each. You have Ksh 200.    A shopkeeper must sell more than 60 items to make a profit. Let be the number of items sold.    A student may work at most 40 hours per week. Let be the number of hours worked.    A trip costs Ksh 800 per student. The total cost should not exceed Ksh 16,000. Let be the number of students. Write and interpret the inequality.        Solving Linear Inequalities in One and Two Unknowns  In the previous section, we learned how to interpret inequalities from real-life contexts. Now, we will focus on solving linear inequalities and representing their solutions — both in one and two variables.  Solving a linear inequality is similar to solving an equation, except the solution is often a range of values. These values can be shown on a number line (for one variable) or on a coordinate plane (for two variables).  Remember, when multiplying or dividing both sides of an inequality by a negative number, the inequality sign reverses direction.   Work in groups  What you need:    Pencil and ruler  Graph paper or notebook    Instructions:    In your group, solve each of the following inequalities and represent the solution on a number line:        For each inequality, discuss with your partner how the solution set is different from that of an equation.  Share your number line diagrams with another group and compare your ranges.      Key Takeaway:   Solving linear inequalities involves similar steps to solving equations, but always remember to reverse the inequality when multiplying or dividing by a negative number. For two-variable inequalities, graph the boundary and shade the region of solutions.    Solve and represent the solution to the inequality: .       The solution is all values of less than or equal to 5.  On a number line, this is shown as a solid dot at 5 and shading to the left.     Work in groups  What you need:    Graph paper  Pencils, ruler, and eraser    Instructions:    Plot the boundary line for the inequality . Use a dashed line since the inequality does not include equality.  Pick a test point like to determine which side of the line to shade.  Shade the correct region that represents all solutions to the inequality.  Repeat the process for , this time using a solid line.  Discuss the meaning of overlapping shaded regions if both inequalities were given together.       Solve and graph the inequality: .    Step 1: Draw the line . Since the inequality is , draw a solid line.  Step 2: Choose a test point like :   , which is true.  Step 3: Shade the region below the line, since it represents all values of less than or equal to .        Solve and represent the solution on a number line:   Solve and draw a number line for:   Plot the solution set for on a graph.  Plot the region that satisfies both and .  Write a real-life situation that can be modeled using the inequality and explain your reasoning.       Representing Linear Inequalities Graphically  In many real-life situations, we deal with inequalities such as limits, budgets, or boundaries. Graphing these inequalities helps us visualize all the possible solutions that satisfy the conditions.  When a linear inequality involves two variables (like and ), its solution is a region in the coordinate plane, not just a line.  The boundary line helps define where the inequality changes from true to false. We use:  Solid lines for inequalities like or  Dashed lines for inequalities like or     Work in groups  What you need:    Graph paper  Pencil and ruler    Instructions:    Draw a number line on your graph paper.  Solve and plot the inequality .  Use a solid circle for and shade to the right.  Now try using a hollow circle at and shade left.  Discuss: What does overlapping of shaded areas mean?       Graph the inequality on a number line.    Draw a number line with values from to . Put a solid circle at and shade everything to the left.     Work in groups  What you need:    Graph paper  Coloured pencils  Ruler    Instructions:    Draw the line . Use a dashed line since the inequality will not include equality.  Test a point, like . Substitute into .  Since is false, shade the opposite side from .  Repeat the same process for .      Key Takeaway:   Inequalities in two variables describe regions of the graph. Always draw the boundary line first, then use a test point to decide which side to shade. Use dashed or solid lines to indicate strict or inclusive inequalities.    Represent on a graph.      Draw the line using a dashed line.  Use a test point like : → false.  Shade the side that does not contain .  This shaded region shows all values that satisfy .          Draw a number line and graph the inequality .  Represent on the Cartesian plane.  Graph the inequality .  Write two real-life examples that can be represented using inequalities.  If and , shade the region on the number line that satisfies both.      "
+  "body": " Linear Inequalities       Interpreting Linear Inequalities in One and Two Unknowns  In daily life, we often work with conditions or limits, but sometimes we work with exact values like \"You must be at least years old to vote\" or \"The bag should not weigh more than kg\".  A is a mathematical sentence that uses inequality symbols instead of the equals sign. These include:  (less than)  (less than or equal to)  (greater than)  (greater than or equal to)    Linear inequalities can have one unknown (e.g., ) or two unknowns (e.g., ), and they represent a range of possible values that satisfy the condition.   Work in groups  What You need:    Notebook  Pencil or pen    Instructions:  Discuss the following real-life situations and write an appropriate linear inequality for each.    A student must score at least marks to pass an exam. Let be the marks scored.  A matatu cannot carry more than passengers. Let be the number of passengers.  A phone costs more than Ksh . Let be the cost.  The total luggage weight must be less than or equal to kg. Let be the weight.    After writing the inequalities:  Identify whether each inequality has one or two unknowns.  Explain your interpretation to another group and listen to theirs.      Key Takeaway:   Linear inequalities describe limitations or conditions in real-life situations. They allow us to work with ranges of possible values rather than just one answer.    A parent gives a student Ksh for lunch for the entire week. If lunch costs shillings per day and they have school going days, write an inequality to represent how much can be spent per day by the student.    The total cost for days is . The student cannot spend more than Ksh , so:     Solving the inequality:     This means the student can spend at most Ksh each day.      Answer the following questions in your exercise book.     Write inequalities to represent the following statements:     You must be at least years old to register to vote. Let represent age.    You want to buy pens at Ksh each. You have Ksh .    A shopkeeper must sell more than items to make a profit. Let be the number of items sold.    A student may work at most hours per week. Let be the number of hours worked.       A trip costs Ksh per student. The total cost should not exceed Ksh . Let be the number of students. Write and interpret the inequality.         Solving Linear Inequalities in One and Two Unknowns  Solving a linear inequality is similar to solving an equation, except the solution is often a range of values. These values can be shown on a number line (for one variable) or on a coordinate plane (for two variables). Remember, when multiplying or dividing both sides of an inequality by a negative number, the inequality sign reverses direction.   Work in groups  What you need:    Pencil and ruler  Graph paper or notebook    Instructions:  Consider the following inequalities:          Solve each inequality and represent the solution on a number line.    For each inequality, discuss with your group how the solution set is different from that of an equation.  Share your number line diagrams with another group and compare your ranges.      Key Takeaway:   Solving linear inequalities involves similar steps to solving equations, but always remember to reverse the inequality when multiplying or dividing by a negative number. For two-variable inequalities, graph the boundary and shade the region of solutions.    Solve and represent the solution to the inequality: on a numberline.       The solution is all values of less than or equal to .  On a number line, this is shown as a solid dot at and shading to the left.     Work in groups  What you need:    Graph paper  Pencils, ruler, and eraser    Instructions:    Plot the boundary line for the inequality . Use a dashed line since the inequality does not include equality.  Pick a test point like to determine which side of the line to shade.  Shade the correct region that represents all solutions to the inequality.  Repeat the process for , this time using a solid line.  Discuss the meaning of overlapping shaded regions if both inequalities were given together.       Solve and graph the inequality: .    Step 1: Identify the boundary line . Since the inequality is , we will draw a solid line.  Step 2: Choose a test point like :   , which is true.  Step 3: Shade the region below the line, since it represents all values of less than or equal to .  The graph shows the line and the shaded region representing the solution set.        Solve and represent the solution on a number line:   Solve and draw a number line for:   Plot the solution set for on a graph.  Plot the region that satisfies both and .  Write a real-life situation that can be modeled using the inequality and explain your reasoning.       Representing Linear Inequalities Graphically  In many real-life situations, we deal with inequalities such as limits, budgets, or boundaries. Graphing these inequalities helps us visualize all the possible solutions that satisfy the conditions.  When a linear inequality involves two variables (like and ), its solution is a region in the coordinate plane, not just a line.  The boundary line helps define where the inequality changes from true to false. We use:  Solid lines for inequalities like or  Dashed lines for inequalities like or     Work in groups  What you need:    Graph paper  Pencil and ruler    Instructions:    Draw a number line on your graph paper.  Solve and plot the inequality .  Use a solid circle for and shade to the right.  Now try using a hollow circle at and shade left.  Discuss: What does overlapping of shaded areas mean?       Graph the inequality on a number line.    Draw a number line with values from to . Put a solid circle at and shade everything to the left.     Work in groups  What you need:    Graph paper  Coloured pencils  Ruler    Instructions:    Draw the line . Use a dashed line since the inequality will not include equality.  Test a point, like . Substitute into .  Since is false, shade the opposite side from .  Repeat the same process for .      Key Takeaway:   Inequalities in two variables describe regions of the graph. Always draw the boundary line first, then use a test point to decide which side to shade. Use dashed or solid lines to indicate strict or inclusive inequalities.    Represent on a graph.      Draw the line using a dashed line.  Use a test point like : → false.  Shade the side that does not contain .  This shaded region shows all values that satisfy .          Draw a number line and graph the inequality .  Represent on the Cartesian plane.  Graph the inequality .  Write two real-life examples that can be represented using inequalities.  If and , shade the region on the number line that satisfies both.      "
 },
 {
   "id": "subsec-interpreting-linear-inequalities-5",
@@ -1114,7 +1078,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "2.3.1",
   "title": "",
-  "body": " Work in groups  What You need:    Notebook or writing pad  Pencil or pen    Instructions:    Read the following situations. For each one, write a linear inequality using the variable given:  A student must score at least 50 marks to pass an exam. Let be the marks scored.  A matatu cannot carry more than 14 passengers. Let be the number of passengers.  A phone costs more than Ksh 5,000. Let be the cost.  The total luggage weight must be less than or equal to 25 kg. Let be the weight.    Identify whether each inequality has one or two unknowns.  Explain your interpretation to another group and listen to theirs.    "
+  "body": " Work in groups  What You need:    Notebook  Pencil or pen    Instructions:  Discuss the following real-life situations and write an appropriate linear inequality for each.    A student must score at least marks to pass an exam. Let be the marks scored.  A matatu cannot carry more than passengers. Let be the number of passengers.  A phone costs more than Ksh . Let be the cost.  The total luggage weight must be less than or equal to kg. Let be the weight.    After writing the inequalities:  Identify whether each inequality has one or two unknowns.  Explain your interpretation to another group and listen to theirs.    "
 },
 {
   "id": "subsec-interpreting-linear-inequalities-6",
@@ -1132,7 +1096,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.3.1",
   "title": "",
-  "body": "  A parent gives a student Ksh 500 for lunch. If lunch costs shillings per day and the school has 5 days, write an inequality to represent how much can be spent per day.    The total cost for 5 days is . The student cannot spend more than Ksh 500, so:     Solving the inequality:     This means the student can spend at most each day.   "
+  "body": "  A parent gives a student Ksh for lunch for the entire week. If lunch costs shillings per day and they have school going days, write an inequality to represent how much can be spent per day by the student.    The total cost for days is . The student cannot spend more than Ksh , so:     Solving the inequality:     This means the student can spend at most Ksh each day.   "
 },
 {
   "id": "subsec-interpreting-linear-inequalities-9-1",
@@ -1141,57 +1105,57 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.3.1.1",
   "title": "",
-  "body": "    Write an inequality to represent the statement: “You must be at least 18 years old to register to vote.” Let represent age.    Write an inequality: You want to buy pens at Ksh 25 each. You have Ksh 200.    A shopkeeper must sell more than 60 items to make a profit. Let be the number of items sold.    A student may work at most 40 hours per week. Let be the number of hours worked.    A trip costs Ksh 800 per student. The total cost should not exceed Ksh 16,000. Let be the number of students. Write and interpret the inequality.    "
+  "body": " Answer the following questions in your exercise book.     Write inequalities to represent the following statements:     You must be at least years old to register to vote. Let represent age.    You want to buy pens at Ksh each. You have Ksh .    A shopkeeper must sell more than items to make a profit. Let be the number of items sold.    A student may work at most hours per week. Let be the number of hours worked.       A trip costs Ksh per student. The total cost should not exceed Ksh . Let be the number of students. Write and interpret the inequality.     "
 },
 {
-  "id": "subsec-solving-linear-inequalities-5",
+  "id": "subsec-solving-linear-inequalities-3",
   "level": "2",
-  "url": "sec-linear-inequalities.html#subsec-solving-linear-inequalities-5",
+  "url": "sec-linear-inequalities.html#subsec-solving-linear-inequalities-3",
   "type": "Activity",
   "number": "2.3.2",
   "title": "",
-  "body": " Work in groups  What you need:    Pencil and ruler  Graph paper or notebook    Instructions:    In your group, solve each of the following inequalities and represent the solution on a number line:        For each inequality, discuss with your partner how the solution set is different from that of an equation.  Share your number line diagrams with another group and compare your ranges.    "
+  "body": " Work in groups  What you need:    Pencil and ruler  Graph paper or notebook    Instructions:  Consider the following inequalities:          Solve each inequality and represent the solution on a number line.    For each inequality, discuss with your group how the solution set is different from that of an equation.  Share your number line diagrams with another group and compare your ranges.    "
 },
 {
-  "id": "subsec-solving-linear-inequalities-6",
+  "id": "subsec-solving-linear-inequalities-4",
   "level": "2",
-  "url": "sec-linear-inequalities.html#subsec-solving-linear-inequalities-6",
+  "url": "sec-linear-inequalities.html#subsec-solving-linear-inequalities-4",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Key Takeaway: "
 },
 {
-  "id": "subsec-solving-linear-inequalities-8",
+  "id": "subsec-solving-linear-inequalities-6",
   "level": "2",
-  "url": "sec-linear-inequalities.html#subsec-solving-linear-inequalities-8",
+  "url": "sec-linear-inequalities.html#subsec-solving-linear-inequalities-6",
   "type": "Example",
   "number": "2.3.2",
   "title": "",
-  "body": "  Solve and represent the solution to the inequality: .       The solution is all values of less than or equal to 5.  On a number line, this is shown as a solid dot at 5 and shading to the left.   "
+  "body": "  Solve and represent the solution to the inequality: on a numberline.       The solution is all values of less than or equal to .  On a number line, this is shown as a solid dot at and shading to the left.   "
 },
 {
-  "id": "subsec-solving-linear-inequalities-9",
+  "id": "subsec-solving-linear-inequalities-7",
   "level": "2",
-  "url": "sec-linear-inequalities.html#subsec-solving-linear-inequalities-9",
+  "url": "sec-linear-inequalities.html#subsec-solving-linear-inequalities-7",
   "type": "Activity",
   "number": "2.3.3",
   "title": "",
   "body": " Work in groups  What you need:    Graph paper  Pencils, ruler, and eraser    Instructions:    Plot the boundary line for the inequality . Use a dashed line since the inequality does not include equality.  Pick a test point like to determine which side of the line to shade.  Shade the correct region that represents all solutions to the inequality.  Repeat the process for , this time using a solid line.  Discuss the meaning of overlapping shaded regions if both inequalities were given together.    "
 },
 {
-  "id": "subsec-solving-linear-inequalities-10",
+  "id": "subsec-solving-linear-inequalities-8",
   "level": "2",
-  "url": "sec-linear-inequalities.html#subsec-solving-linear-inequalities-10",
+  "url": "sec-linear-inequalities.html#subsec-solving-linear-inequalities-8",
   "type": "Example",
   "number": "2.3.3",
   "title": "",
-  "body": "  Solve and graph the inequality: .    Step 1: Draw the line . Since the inequality is , draw a solid line.  Step 2: Choose a test point like :   , which is true.  Step 3: Shade the region below the line, since it represents all values of less than or equal to .   "
+  "body": "  Solve and graph the inequality: .    Step 1: Identify the boundary line . Since the inequality is , we will draw a solid line.  Step 2: Choose a test point like :   , which is true.  Step 3: Shade the region below the line, since it represents all values of less than or equal to .  The graph shows the line and the shaded region representing the solution set.   "
 },
 {
-  "id": "subsec-solving-linear-inequalities-11-1",
+  "id": "subsec-solving-linear-inequalities-9-1",
   "level": "2",
-  "url": "sec-linear-inequalities.html#subsec-solving-linear-inequalities-11-1",
+  "url": "sec-linear-inequalities.html#subsec-solving-linear-inequalities-9-1",
   "type": "Exercise",
   "number": "2.3.2.1",
   "title": "",
@@ -1258,16 +1222,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.1",
   "title": "Area",
-  "body": " Area   Learning Objectives   In our day-to-day life, we often encounter shapes and objects whether it’s the surface of a table, the wall of a house, the face of a pyramid, or even a football. This topic will help you explore how to calculate area and surface area of various 2D and 3D shapes in real and practical situations.  By the end of this section, you should be able to:     Calculate the area of pentagons and hexagons in various situations.    Find the surface area of triangular-based and rectangular-based prisms.    Work out the surface area of pyramids with triangular, rectangular, and square bases.    Calculate the area of a sector and segment of a circle.    Find the surface area of a cone and relate it to real-life situations.    Calculate the surface area of a sphere in practical contexts.       Area of regular and irregular polygons        A polygon is a closed 2D shape made up of straight lines. Examples include and      A polygon is regular if:     All sides are equal in length.    All interior angles are equal. eg equilateral triangle, square, regular pentagon, regular hexagon        A polygon is irregular if:     Sides are not all the same length, and\/or    Angles are not all equal.         Area of a Pentagon       What you need.      Manila paper or card paper   Manila paper or card paper  Scissors  Ruler  Pencil  Protractor  Glue or tape       In pairs, discuss and write down what makes a polygon regular.    Share your ideas with the class.    Construct a Regular Pentagon as the one shown below.     Use a protractor and ruler to draw a regular pentagon (each interior angle is 108°).  Cut it out carefully using scissors.  Draw lines from the center of the pentagon to each vertex (corner) to divide it into equal isosceles triangles as the one shown below:       Measure the side length and apothem (a line from the center perpendicular to a side).    Label all sides and angles of the triangles.    Discuss:     Are all sides equal?    Are all interior angles equal?    How many lines of symmetry does it have?       Calculate the Area of the pentagon    Discuss if different-sized pentagons give different areas and why.    Discuss your findings with other groups.            A is a flat, closed shape that has five straight sides and five angles.  The word \" \" comes from the Greek words \" penta ,\" meaning five, and \" gon ,\" meaning angle.  In a regular pentagon, all the sides and angles are equal.    A regular pentagon has equal sides and angles. Its area can be found using the formula:     Where and is the distance from the center of a regular polygon to aside.          Find the area of the figure below:       To find the area of the pentagon above, we can use should identify the side length and the apothem.     The perimeter of the pentagon is:   Using the formula for the area of a regular pentagon:     Therefore, the area of the pentagon is .      A gardener is designing a regular pentagonal flower bed. Each side of the flower bed is , and the distance from the center to the middle of a side is . Find the area of the flower bed.    To find the area of the regular pentagonal flower bed, we can use the formula:     Therefore, the area of the flower bed is .      A regular pentagon has a side length of and an apothem of . Calculate its area.       To find the area of the regular pentagon, we can use the formula:     Therefore, the area of the pentagon is .          Area of a hexagon  A is a flat, closed shape that has six straight sides and six angles. The word \" \" comes from the Greek words \" hexa ,\" meaning six, and \" gon ,\" meaning angle.  See the image below for a regular hexagon:          What you need.      Ruler    Pencil and Paper    A regular hexagon (you can draw one or use a hexagon-shaped object like a nut or a tile)        Observe the Hexagon it should e the same as the one drawn below:        Count the sides. How many are there?    Are all sides equal? (In a regular hexagon)    Measure one side. Let’s call this length \" \"       Divide the Hexagon into Triangles as the one drawn below:        How many triangles can you see?    What is the name of the triangles formed?       Find the area of one triangle and record it.  Find the total area of the hexagon by multiplying the area of one triangle by the number of triangles.    Can you find a formula for the area of a regular hexagon?    Discuss your findings with the other groups.         A regular hexagon can always be split into 6 equal triangles called   A regular hexagon has equal sides and angles. Its area can be found using the formula:     Where and is the distance from the center of a regular hexagon to a side.     If you know apothem and side, use the formular below.     Where is the length of one side of the hexagon.    A regular hexagon has a side length of as shown below. Find its area       The side length of the hexagon is .  Therefore:     Therefore, the area of the hexagon is approximately .      Bees build honeycombs using hexagonal cells. If each cell has a side length of , what is the area of one cell?    The side length of the hexagonal cell is .  Therefore:     This implies that, the area of one hexagonal cell is approximately .      A regular hexagon with center h is shown below:        Find the perimeter of the hexagon.    Find the area of the hexagon.       The side length of the hexagon is .  The apothem of the hexagon is .  Therfore:     The perimeter of the hexagon is:       The area of the hexagon is:     This implies that, the area of the hexagon is .         A regular hexagon has an area of . What is its side length?    To find the side length of a regular hexagon given its area, we can use the formula:     Given that the area is , we can set up the equation:     To solve for , we can rearrange the equation:     Therefore, the side length of the regular hexagon is .           Surface area of prism   A A prism is a solid with uniform cross-section.        The two bases are exactly the same in shape and size.    The side faces are parallelograms (usually rectangles).    The name of a prism comes from the shape of its base.           A prism with a triangular base is called a .    A prism with a rectangular base is called a .     The surface area of a prism is the total area of all its faces that means the areas of the two identical bases and all the side faces (called lateral faces).    Surface area of triangular based prism       What you need.      Ruler    Scissors    A piece of paper and a pencil    Cardboard (to make a model)        What does a triangular prism look like interms of its faces?  What do we mean by lateral faces?    Draw a triangular prism on the cardboard and cut it out like the one shown below.        How many triangular faces does the prism have?    How many rectangular faces does the prism have?    How many faces does the prism have in total?       Now, measure the length of the base and height of the triangular face.    Open the Prism into a Net like the one shown below.        Measure the length of the base and height of the rectangular face.       Now, calculate the area of the triangular faces.    Calculate the area of the rectangular faces.    Now, calculate the total surface area of the prism.                      A triangular prism has:  ✔ 2 triangular bases (identical)  ✔ 3 rectangular lateral faces    A net is the 2D unfolded version of the prism.    The surface area of a triangular prism is the sum of the areas of its triangular bases and rectangular faces.     The area of the triangle can be calculated using the formula:     Which can be simplified to:          A triangular prism has a base of , height , and prism height . The other two sides of the triangle are and . Find its surface area.    Area of the triangular base:     Area of the rectangular faces:     Now area of the triangular faces is given by:     Area of the rectangular faces is:     Therefore, the total surface area of the prism is:            Find the surface area of the triangular prism shown below:       To find the surface area of the prism, we need to calculate the areas of the triangular base and the rectangular faces.  Area of the triangular base:  Area is given by:     Area of the rectangular faces:  Area is given by:     Therefore, the total surface area of the prism is:            The figure below shows a triangular prism. Use the diagram to help you draw its net.       The net of the triangular prism consists of two triangular faces and three rectangular faces.  The net can be drawn as follows:             Surface area of rectangular based prism>       What you need.      Rulers    Scissors    Grid paper    Printable nets of rectangular prisms (or students can sketch their own)        What does a rectangular prism look like in terms of its faces?    Draw a rectangular prism on the grid paper like the one shown below..        How many rectangular faces does the prism have?    How many faces does the prism have in total?     What does represent in the figure?    Measure each side and label the dimensions.    Compute the area of each face and sum them up to find the total surface area.    What is the formula for the surface area of a rectangular prism?    Now draw the net of the rectangular prism like the one shown below.       Now, calculate the area of each face in the net.  Compare if its the same as the total surface area you calculated before.    Disscuss your findings with the class.            A rectangular prism has:    rectangular bases (identical)     rectangular lateral faces       The surface area of a rectangular prism is the total area of all six faces.    The surface area of a rectangular prism can be calculated using the formula:     Where is the length, is the widt and is the height of the prism.       Work out the surface area of the closed rectangular prism below:       The sides of the rectangular prism are:     Length (l):    Width (w):    Height (h):     The surface area (SA) of the rectangular prism can be calculated using the formula:            A sheet of metal is used to make identical closed rectangular prisms. Each prism measurering by by . Calculate the total area of the metal sheet that is needed to make all the prisms.    The surface area (SA) of one rectangular prism can be calculated using the formula:     The total surface area (TSA) of all prisms is:            The net below forms a rectangular prism. Calculate the total surface area.       The dimensions of the rectangular prism are:     Length (l):    Width (w):    Height (h):                    Surface area of pyramids   A is a solid with a polygonal base and slanting sides that meet at a common apex.  The base can be a triangle, square, or other polygon. The number of triangular faces depends on the shape of the base.  For   A square-based pyramid has square base and 4 triangular faces.  The surface area of a is the sum of the area of the slanting faces and the area of the base.  Lets explore how to calculate the surface area of pyramids with different bases.    Surface area of triangular, square and rectangular based-pyramids       What you need      Ruler    Pencil    Pyramids models.        The pyramids model are as shown below.             What is the name of the above pyramids?    Measure the edges of the rectangular-based pyramid    Cut and open the rectangular-based pyramid along the edges to reveal its net as shown below.       Find the area of each faces of the above net.    Find the surface area of the rectangular-based pyramid using the net.    What is the surface area of the triangular-based pyramid?    What is the surface area of the square-based pyramid?    What is the surface area of the pentagonal-based pyramid?    Repeat the above steps for the triangular-based and square-based pyramids.    Discuss your findings with other group members.                 Each triangle’s .      The base area and the slant height must be measured accurately to ensure the correct surface area is calculated.  The slant height is the height of the triangular face, not the height of the pyramid.  Understanding the helps visualize and calculate total area easily.       Calculate the surface area of the pyramid below.   The model of a pyramid     The net of the above model is as shown below.   The model 2   The base area is .  The height of the triangular face.     The height of triangular face.     Area of the triangles are as shown:        The total surface area is given by:     Therefore, the total surface area of the pyramid is .      A tent is shaped like a square-based pyramid. The base is by and each triangular side has a height of . Find the amount of canvas needed to make the tent.    The base area is given by;     The area of the triangular faces is given by:     Therefore, the total surface area of the tent is .      Find the area of the figure below:       The net of the figure is as shown below:     The height of the pyramid is given by:     The area of the pyramid is given by:     The total area is given by:     Therefore, the total surface area of the pyramid is .           Area of a part of a circle   In this section, we will explore how to calculate the area of a part of a circle, specifically focusing on sectors and segments. Understanding these concepts is crucial for solving problems related to circular shapes in various contexts, such as engineering, architecture, and everyday life.  The area of a part of a circle, such as a sector or segment, can be calculated using specific formulas.  A is a portion of a circle defined by two radii and the arc between them.  A is the area between a chord and the arc it subtends.    Area of a sector       What you need      A model of a circle (e.g., a paper circle, a round object, or a drawing).    A protractor or a tool to measure angles.    A ruler or measuring tape to measure the radius.        The figure below shows a circle with a radius of and a central angle of degrees.       Name the shaded area in the figure above.    Find the area of the shaded part of the circle.    Deduce the formula for the area of a sector of a circle.    Share your findings with the other groups.            A sector is a region bounded by two radii and an arc consisting of a minor and major sector.  A sector is the smaller area between the two radii, while a sector is the larger area.  The figure below illustrates the difference between a minor and major sector.     The area of a circle is given by the formula:     The area of a sector is the fraction of the area of a circle. A whole circle corresponds to an angle of , so the area of a sector with a central angle is given by:       Find the area of the figure below:       To find the area of the sector, we use the formula:        The area of the sector is approximately .      A sprinkler rotates and waters grass in a sector of . If the water reaches from the center, find the area of grass watered.    From the problem, we know:  - Central angle   - Radius   We can now find the area of the sector using the formula:        The area of the sector is approximately .      The area of a sector of radius is . Find the angle subtended by the sector. (Use for calculations.)       To find the angle subtended by the sector, we can rearrange the formula for the area of a sector:        The angle subtended by the sector is approximately .          Area of a segment         In the geogebra applet below, you can explore the area of a segment of a circle.           Use the checkboxes to highlight different parts (sector, triangle, segment).    Adjust the radius and angle to see how the area of the segment changes.    Adjust the sliders for radius and angle .    Area of a segment      Find the area of the segment formed by the sector and the triangle above.    Share your findings with the other groups.         A segment is the region of a circle bounded by a chord and an arc.  A chord is a line segment connecting two points on the circle.  An arc is a part of the circumference of a circle.  The figure below illustrates a minor and a major segment of a circle.     The area of a segment can be calculated using the formula:       Find the area Of the shadded region in the figure below: Use .       To find the area of the shaded region (the segment), we will use the formula:     Area of the sector:        Area of the triangle:  You need to find the height of the triangle using the formula:              Area of the segment is given by:     The area of the shaded region (segment) is approximately .      The figure below is a circle with center O and radius . If ON , AB and . Find the area of the shaded region.   Segment        Area of the sector is given by:     Area of triangle is given by:     Area of the shaded region (segment) is given by:     The area of the shaded region (segment) is approximately .      A round water tank lid has a radius of . A technician cuts out a segment with a central angle of to create an inspection opening. Find the area of the segment removed.    To find the area of the segment, we will use the formula:     Area of the sector is given by:     Area of the triangle formed by the radii and the chord is given by:     Area of the segment is given by:     The area of the segment removed is approximately .           Surface area of a cone    A is a pyramid with a circular base.  A cone consists of a circular base and a curved surface that connects the base to the apex (the tip of the cone).  The of a cone is the distance from the apex to any point on the edge of the base.         Interactive work.      The figure below shows a cone, Play along with the interactive tool to understand the concept of a cone.   Area of a segment      How many figure can you find in the above interactive tool?    You are provided with another interactive tool to explore the surface area of a cone.   Surface area of a cone    Play along with the interactive tool to understand the concept of surface area of a cone.    Before you start, make sure you understand the following terms:   Base radius , Slant height , and Height .    Calculate the slant height in the above interactive tool.    Find the surface area of the cone in the interactive tool.  Play along with the sliders, input boxes and coferm the surface area of the cone.    Discuss with your group members about the surface area of a cone and how it relates to real-life objects like ice cream cones, traffic cones, etc.         The surface area of the closed cone is given by:   Where, where is area of the base and the area of the curved surface. is the radius of the cone and is the slant height of the cone.  See the figure below.       Determine the surface area of the closed cone shown below.       The surface area of the above figure is given by;           Therefore, the total surface area is given by:         A conical container open at the top, is made of metal and has a base radius of and a slant height of . Determine the total metal sheet required to construct this container.    The conical container has no Circular base therefore, the area is given by:     Substitute the given values:       Therefore, the total metal sheet required is approximately .      A cone is constructed with a base diameter of and a height of as shown below.        Find the slant height of the cone.    Find the surface area of the cone.          The slant height is given by:     Therefore, the slant height is approximately .    The total surface area is given by:     Therefore, the total surface area of the cone is approximately .               Surface area of a sphere    A is a solid that is entirely round with every point on the surface at anequal distance from the centre.  It's defined as the set of all points in space that are equidistant from a central point.  The distance from the center to any point on the surface is called the .            Look at the sphere on your right hand side.    Measure the distance from the center of the sphere to its surface. What do you call this distance?    Calculate the area of the figure shown.   . Use .    Discuss with your group how you might find the total surface area of the sphere.              Play along with the interactive tool below to explore more about area of a    Area of a segment        Given the Shere of radius as shown below.     The surface area of a sphere is     Find the surface area of a sphere whose diameter is .    The diameter of the sphere is , so the radius cm.  The formula for the surface area of a sphere is:        Therefore, the surface area of the sphere is .      Find the area of the figure below. Use        The radius of the sphere is .  The formula for the surface area of a sphere is:   Substituting the values:     Therefore, the surface area of the sphere is .      The balls used in a golf tournament have diameter of and . What is the difference in the surface area between the largest and smallest golf ball?    The diameter of the smallest ball is , so its radius is .  The diameter of the largest ball is , so its radius is .  The formula for the surface area of a sphere is:   For the smallest ball:   For the largest ball:   The difference in surface area is: If :   Therefore, the difference in surface area between the largest and smallest golf ball is .                  This site offers short interactive lessons and videos on calculating areas and surface areas. Topics include sectors, pyramids, prisms, cones, and more, with quizzes to test your understanding.   Explore on the book        These channels provide clear and detailed explanations of how to find area and surface area of different shapes using step-by-step examples and real-life applications.   Watch now        "
-},
-{
-  "id": "sec-area-2",
-  "level": "2",
-  "url": "sec-area.html#sec-area-2",
-  "type": "Objectives",
-  "number": "3.1",
-  "title": "Learning Objectives",
-  "body": " Learning Objectives   In our day-to-day life, we often encounter shapes and objects whether it’s the surface of a table, the wall of a house, the face of a pyramid, or even a football. This topic will help you explore how to calculate area and surface area of various 2D and 3D shapes in real and practical situations.  By the end of this section, you should be able to:     Calculate the area of pentagons and hexagons in various situations.    Find the surface area of triangular-based and rectangular-based prisms.    Work out the surface area of pyramids with triangular, rectangular, and square bases.    Calculate the area of a sector and segment of a circle.    Find the surface area of a cone and relate it to real-life situations.    Calculate the surface area of a sphere in practical contexts.    "
+  "body": " Area   In our day-to-day life, we often encounter shapes and objects whether it’s the surface of a table, the wall of a house, the face of a pyramid, or even a football pitch.  Understanding area helps us measure how much space these flat surfaces cover.    Area of regular and irregular polygons        A polygon is a closed 2D shape made up of straight lines. Examples include and      Key Takeaway   A polygon can be either regular or irregular.  Below are some characteristics of polygons:     Type of Polygon  Characteristics  Examples     Regular Polygon    All sides are equal in length  All interior angles are equal  It is symmetrical    Equilateral triangle, square, regular hexagon      Irregular Polygon    Sides are not all equal  Angles are not all equal  Not symmetrical    Scalene triangle, rectangle, trapezium       Area of a Pentagon    Work in Groups    What you need.     Piece of paper  Scissors  Ruler  Pencil and eraser  Protractor  Glue or tape     Instructions      Use a ruler and a protractor to draw a regular pentagon as the one shown below.   : each interior angle is .       Carefully cut out the pentagon using scissors.    Find the center of the pentagon.  Divide the pentagon into equal isosceles triangles by drawing straight lines from the center of the pentagon to each vertex (corner) as the one shown below:       Measure the side length and apothem (a line from the center perpendicular to a side).    Label all sides and angles of the triangles.    Calculate the Area of the pentagon    Discuss if different-sized pentagons give different areas and why.    Discuss your findings with other groups.         \" comes from the Greek words \" penta ,\" meaning five, and \" gon ,\" meaning angle.  Therefore,  A is a flat, closed shape that has five straight sides and five angles.     Key Takeaway      A regular pentagon has equal sides and angles. It's aea is given by:   Where and is the distance from the center of a regular polygon to aside.       Find the area of the figure below:       To find the area of the given pentagon, we use the formula:   Since      Therefore,         A gardener is designing a regular pentagonal flower bed. Each side of the flower bed is , and the distance from the center of the flower bed to the midpoint of a side is . Find the area of the flower bed.    Recall:         A regular pentagon has a side length of and an apothem of . Calculate its area.             Exercise             Area of hexagon    Work in Groups   What you need:    Ruler  Pencil and paper     Instructions      LExplore the hexagon below:       How many sides does it have?  Measure the side of the hexagon.  Are the sides equal in length?       The Hexagon below has been divided from the center to each corner:       How many shapes can you see?  What kind of triangles are formed?      Find the area of one triangle and use it to work out the area of the whole hexagon.    How do you find the area of the hexagon?    Share and compare your answers with your group.        The word \" \" comes from the Greek words \" hexa ,\" which means six, and \" gon ,\" which means corner or angle.  A is a flat shape with six straight sides and six corners (angles).     Key Takeaway   Below is a figure of a regular hexagon.It has six equal sides and equal angles.     It's area is given by:     Where .     If the apothem and the side is known, use:   Where is the length of one side of the hexagon.    Find the area of the hexagon below.       The side length of the hexagon is .  Therefore:         Bees build honeycombs using hexagonal cells. If each cell has a side length of , what is the area of one cell?    The side length of the hexagonal cell is .  Therefore:     This implies that, the area of one hexagonal cell is approximately .      The figure below shows a regular hexagon with center x.     Find;     the perimeter of the hexagon.    the area of the hexagon.          The perimeter of the hexagon is:       The area of the hexagon is:     This implies that, the area of the hexagon is .         A regular hexagon has an area of . What is its side length?    To find the side length of a regular hexagon given its area, we can use the formula:     Given that the area is , we set up the equation:     To solve for , we can rearrange the equation:     Therefore, the side length of the regular hexagon is .     Exercise              Surface area of prism     A prism is a solid with uniform cross-section.  The surface area of a prism is the total area of all its faces that means the areas of the two identical bases and all the side faces (called lateral faces).      Surface area of triangular based prism    Work in Groups    What you need.     Ruler   Tape   Scissors  A piece of paper and a pencil  Cardboard (to create your prism model)     Instructions      Draw the net of a triangular prism on the cardboard, just like the one shown below.       Cut out the net carefully along the edges.  Fold the net along the edges to form a triangular prism.   Secure the edges with tape or glue to hold the prism together as shown below.      Count the number of triangular and rectangular faces.      Measure:     The base and height of one of the triangular faces.    The length and width of the rectangular faces.       Calculate the area of:     The triangular faces.    The rectangular faces.      Calculate the total surface area of the prism.   How did you find the surface area of the prism?        Key Takeaway >     A triangular prism has:     2 triangular bases (identical)    3 rectangular lateral faces       The surface area of a triangular prism is the sum of the areas of its triangular bases and rectangular faces.  Hence,        The length of a trianglar prism is . The crosssectional of the prism is an isosceles triangle of sides and height . Calculate the total surface area of the prism.       Area of the rectangular faces is given by:   Therefore,       Find the surface area of the triangular prism shown below:       To find the surface area of the prism, we need to calculate the areas of the triangular base and the rectangular faces.  Area of the triangular base:     Area of the rectangular faces:     Therefore, the total surface area of the prism is:            The figure below shows a triangular prism. Use the diagram to help you draw its net.       The net of the triangular prism consists of two triangular faces and three rectangular faces.  The net can be drawn as follows:             Surface area of rectangular based prism       What you need.      Rulers    Scissors    Grid paper    A nets of rectangular prisms (or students can sketch their own)      Instructions      Draw a rectangular prism on the grid paper like the one shown below.        How many rectangular faces does the prism have?    How many faces does the prism have in total?     What does represent in the figure?    Measure each side and label the dimensions.    Compute the area of each face and sum them up to find the total surface area.    What is the formula for the surface area of a rectangular prism?    Now draw the net of the rectangular prism like the one shown below.       Now, calculate the area of each face in the net.  Compare if its the same as the total surface area you calculated before.    Disscuss your findings with the class.            The surface area of a rectangular prism is the total area of all six faces.    The surface area of a rectangular prism is calculated using the formula:     Where is the length, is the width and is the height of the prism.       Work out the surface area of the closed rectangular prism below:       The sides of the rectangular prism are:     Length (l):    Width (w):    Height (h):     The surface area (SA) of the rectangular prism can be calculated using the formula:            A sheet of metal is used to make identical closed rectangular prisms. Each prism measurering by by . Calculate the total area of the metal sheet that is needed to make all the prisms.    The surface area (SA) of one rectangular prism can be calculated using the formula:     The total surface area of all prisms is:            The net below forms a rectangular prism. Calculate the total surface area.       The dimensions of the rectangular prism are:     Length (l):    Width (w):    Height (h):     Therefore,                     Surface area of pyramids     A is a solid with a polygonal base and slanting sides that meet at a common apex.  The surface area of a is the sum of the area of the slanting faces and the area of the base.      Surface area of triangular, square and rectangular based-pyramids       What you need      Ruler    Pencil    Pyramids models.      Instructions      The pyramids model are as shown below.       (for accessibility)     What is the name of the above pyramids?    Measure the edges of the rectangular-based pyramid    Cut and open the rectangular-based pyramid along the edges to reveal its net as shown below.       Find the area of each faces of the above net.    Find the surface area of the rectangular-based pyramid using the net.    What is the surface area of the triangular-based pyramid?    What is the surface area of the square-based pyramid?    What is the surface area of the pentagonal-based pyramid?    Repeat the above steps for the triangular-based and square-based pyramids.    Discuss your findings with other group members.       Key Takeaway            Understanding the helps visualize and calculate total area easily.       Calculate the surface area of the pyramid below.   The model of a pyramid     The net of the above model is as shown below.   The model 2   The base area is .  The height of the triangular face.     The height of triangular face.     Area of the triangles are as shown:        The total surface area is given by:     Therefore, the total surface area of the pyramid is .      A tent is shaped like a square-based pyramid. The base is by and each triangular side has a height of . Find the amount of canvas needed to make the tent.    The base area is given by;     The area of the triangular faces is given by:     Therefore, the total surface area of the tent is .      Find the area of the figure below:       The net of the figure is as shown below:     The height of the pyramid is given by:     The area of the pyramid is given by:     The total area is given by:     Therefore, the total surface area of the pyramid is .                 Area of a part of a circle   A circle can be divided into different parts, like a (a \"pizza slice\") or a (a part cut off by a chord). Each part has its own formula for finding the area.    Area of a sector       What you need      A model of a circle (e.g., a paper circle, a round object, or a drawing).    A protractor or a tool to measure angles.    A ruler or measuring tape to measure the radius.      Instruction      The figure below shows a circle with a radius of and a central angle of degrees.       Name the shaded area in the figure above.    Find the area of the shaded part of the circle.    Deduce the formula for the area of a sector of a circle.    Share your findings with the other groups.        A sector is a region bounded by two radii and an arc consisting of a minor and major sector.  A sector is the smaller area between the two radii, while a sector is the larger area.     Key Takeaway   The figure below illustrates the difference between a minor and major sector.     The area of a sector is the fraction of the area of a circle. A whole circle corresponds to an angle of , so the area of a sector with a central angle is given by:       Find the area of the figure below:       To find the area of the sector, we use the formula:        The area of the sector is .      A sprinkler rotates and waters grass in a sector of . If the water reaches from the center, find the area of grass watered.    From the problem, we know:  - Central angle   - Radius   We can now find the area of the sector using the formula:        The area of the sector is .      The area of a sector of radius is . Find the angle subtended by the sector. (Use for calculations.)       To find the angle subtended by the sector, we can rearrange the formula for the area of a sector:        The angle subtended by the sector is .                Area of a segment         In the geogebra applet below, you can explore the area of a segment of a circle.           Use the checkboxes to highlight different parts (sector, triangle, segment).    Adjust the radius and angle to see how the area of the segment changes.    Adjust the sliders for radius and angle .    Area of a segment      Find the area of the segment formed by the sector and the triangle above.    Share your findings with the other groups.        A is the area between a chord and the arc it subtends.  A chord is a line segment connecting two points on the circle.  An arc is a part of the circumference of a circle.     Key Takeaway   The figure below illustrates a minor and a major segment of a circle.     The area of a segment is calculated using the formula:       Find the area Of the shadded region in the figure below: Use .       To find the area of the shaded region (the segment), we will use the formula:     Area of the sector:        Area of the triangle:  You need to find the height of the triangle using the formula:              Area of the segment is given by:     The area of the shaded region (segment) is .      The figure below is a circle with center O and radius . If ON , AB and . Find the area of the shaded region.   Segment        Area of the sector is given by:     Area of triangle is given by:     Area of the shaded region (segment) is given by:     The area of the shaded region (segment) is .      A round water tank lid has a radius of . A technician cuts out a segment with a central angle of to create an inspection opening. Find the area of the segment removed.    To find the area of the segment, we will use the formula:     Area of the sector is given by:     Area of the triangle formed by the radii and the chord is given by:     Area of the segment is given by:     The area of the segment removed is .                 Surface area of a cone    Work in groups    Interactive work.      The figure below shows a cone, Play along with the interactive tool to understand the concept of a cone.   Area of a segment      How many figure can you find in the above interactive tool?    You are provided with another interactive tool to explore the surface area of a cone.   Surface area of a cone    Play along with the interactive tool to understand the concept of surface area of a cone.    Before you start, make sure you understand the following terms:   Base radius , Slant height , and Height .    Calculate the slant height in the above interactive tool.    Find the surface area of the cone in the interactive tool.  Play along with the sliders, input boxes and coferm the surface area of the cone.    Discuss with your group members about the surface area of a cone and how it relates to real-life objects like ice cream cones, traffic cones, etc.        A is a pyramid with a circular base.  A cone consists of a circular base and a curved surface that connects the base to the apex (the tip of the cone).  The of a cone is the distance from the apex to any point on the edge of the base.     Key Takeaway   The surface area of the closed cone is given by:   Where, where is area of the base and the area of the curved surface. is the radius of the cone and is the slant height of the cone.  See the figure below.       Determine the surface area of the closed cone shown below.       The surface area of the above figure is given by;           Therefore, the total surface area is given by:         A conical container open at the top, is made of metal and has a base radius of and a slant height of . Determine the total metal sheet required to construct this container.    The conical container has no Circular base therefore, the area is given by:     Substitute the given values:       Therefore, the total metal sheet required is .      A cone is constructed with a base diameter of and a height of as shown below.        Find the slant height of the cone.    Find the surface area of the cone.          The slant height is given by:     Therefore, the slant height is approximately .    The total surface area is given by:     Therefore, the total surface area of the cone is .                     Surface area of a sphere       Instractions       Look at the sphere on your right hand side.    Measure the distance from the center of the sphere to its surface. What do you call this distance?    Calculate the area of the figure shown.   . Use .    Discuss with your group how you might find the total surface area of the sphere.               Work in Groups   Play along with the interactive tool below to explore more about area of a    Area of a segment       A is a solid that is entirely round with every point on the surface at anequal distance from the centre.  It's defined as the set of all points in space that are equidistant from a central point.  The distance from the center to any point on the surface is called the .     Key Takeaway   Given the Shere of radius as shown below.     The surface area of a sphere is     Find the surface area of a sphere whose diameter is .    The diameter of the sphere is , so the radius cm.  The formula for the surface area of a sphere is:     Therefore,     Therefore, the surface area of the sphere is .      Find the area of the figure below. Use        The radius of the sphere is .  The formula for the surface area of a sphere is:   Substituting the values:     Therefore, the surface area of the sphere is .      The balls used in a golf tournament have diameter of and . What is the difference in the surface area between the largest and smallest golf ball?    The diameter of the smallest ball is , so its radius is .  The diameter of the largest ball is , so its radius is .  The formula for the surface area of a sphere is:   For the smallest ball:   For the largest ball:   The difference in surface area is: If :   Therefore, the difference in surface area between the largest and smallest golf ball is .              This site offers short interactive lessons and videos on calculating areas and surface areas. Topics include sectors, pyramids, prisms, cones, and more, with quizzes to test your understanding.   Explore on the book        These channels provide clear and detailed explanations of how to find area and surface area of different shapes using step-by-step examples and real-life applications.   Watch now                  "
 },
 {
   "id": "def-area-of-polygons",
@@ -1276,7 +1231,16 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "3.1.1",
   "title": "",
-  "body": "     A polygon is a closed 2D shape made up of straight lines. Examples include and      A polygon is regular if:     All sides are equal in length.    All interior angles are equal. eg equilateral triangle, square, regular pentagon, regular hexagon        A polygon is irregular if:     Sides are not all the same length, and\/or    Angles are not all equal.      "
+  "body": "     A polygon is a closed 2D shape made up of straight lines. Examples include and    "
+},
+{
+  "id": "subsec-area-of-regular-and-irregular-polygons-2-3",
+  "level": "2",
+  "url": "sec-area.html#subsec-area-of-regular-and-irregular-polygons-2-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "polygon "
 },
 {
   "id": "subsubsec-area-of-a-pentagon-2",
@@ -1285,7 +1249,16 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "3.1.1",
   "title": "",
-  "body": "     What you need.      Manila paper or card paper   Manila paper or card paper  Scissors  Ruler  Pencil  Protractor  Glue or tape       In pairs, discuss and write down what makes a polygon regular.    Share your ideas with the class.    Construct a Regular Pentagon as the one shown below.     Use a protractor and ruler to draw a regular pentagon (each interior angle is 108°).  Cut it out carefully using scissors.  Draw lines from the center of the pentagon to each vertex (corner) to divide it into equal isosceles triangles as the one shown below:       Measure the side length and apothem (a line from the center perpendicular to a side).    Label all sides and angles of the triangles.    Discuss:     Are all sides equal?    Are all interior angles equal?    How many lines of symmetry does it have?       Calculate the Area of the pentagon    Discuss if different-sized pentagons give different areas and why.    Discuss your findings with other groups.     "
+  "body": "  Work in Groups    What you need.     Piece of paper  Scissors  Ruler  Pencil and eraser  Protractor  Glue or tape     Instructions      Use a ruler and a protractor to draw a regular pentagon as the one shown below.   : each interior angle is .       Carefully cut out the pentagon using scissors.    Find the center of the pentagon.  Divide the pentagon into equal isosceles triangles by drawing straight lines from the center of the pentagon to each vertex (corner) as the one shown below:       Measure the side length and apothem (a line from the center perpendicular to a side).    Label all sides and angles of the triangles.    Calculate the Area of the pentagon    Discuss if different-sized pentagons give different areas and why.    Discuss your findings with other groups.     "
+},
+{
+  "id": "def-Pentagon",
+  "level": "2",
+  "url": "sec-area.html#def-Pentagon",
+  "type": "Definition",
+  "number": "3.1.2",
+  "title": "",
+  "body": "   \" comes from the Greek words \" penta ,\" meaning five, and \" gon ,\" meaning angle.  Therefore,  A is a flat, closed shape that has five straight sides and five angles.   "
 },
 {
   "id": "subsubsec-area-of-a-pentagon-4",
@@ -1294,16 +1267,7 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "penta gon "
-},
-{
-  "id": "subsubsec-area-of-a-pentagon-5",
-  "level": "2",
-  "url": "sec-area.html#subsubsec-area-of-a-pentagon-5",
-  "type": "Example",
-  "number": "3.1.2",
-  "title": "",
-  "body": "  Find the area of the figure below:       To find the area of the pentagon above, we can use should identify the side length and the apothem.     The perimeter of the pentagon is:   Using the formula for the area of a regular pentagon:     Therefore, the area of the pentagon is .   "
+  "body": "Key Takeaway "
 },
 {
   "id": "subsubsec-area-of-a-pentagon-6",
@@ -1312,7 +1276,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "3.1.3",
   "title": "",
-  "body": "  A gardener is designing a regular pentagonal flower bed. Each side of the flower bed is , and the distance from the center to the middle of a side is . Find the area of the flower bed.    To find the area of the regular pentagonal flower bed, we can use the formula:     Therefore, the area of the flower bed is .   "
+  "body": "  Find the area of the figure below:       To find the area of the given pentagon, we use the formula:   Since      Therefore,      "
 },
 {
   "id": "subsubsec-area-of-a-pentagon-7",
@@ -1321,14 +1285,32 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "3.1.4",
   "title": "",
-  "body": "  A regular pentagon has a side length of and an apothem of . Calculate its area.       To find the area of the regular pentagon, we can use the formula:     Therefore, the area of the pentagon is .   "
+  "body": "  A gardener is designing a regular pentagonal flower bed. Each side of the flower bed is , and the distance from the center of the flower bed to the midpoint of a side is . Find the area of the flower bed.    Recall:      "
 },
 {
   "id": "subsubsec-area-of-a-pentagon-8",
   "level": "2",
   "url": "sec-area.html#subsubsec-area-of-a-pentagon-8",
-  "type": "Checkpoint",
+  "type": "Example",
   "number": "3.1.5",
+  "title": "",
+  "body": "  A regular pentagon has a side length of and an apothem of . Calculate its area.           "
+},
+{
+  "id": "exercises-Pentagon-2",
+  "level": "2",
+  "url": "sec-area.html#exercises-Pentagon-2",
+  "type": "Exercise",
+  "number": "3.1.1.1.1",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "exercises-Pentagon-3",
+  "level": "2",
+  "url": "sec-area.html#exercises-Pentagon-3",
+  "type": "Exercise",
+  "number": "3.1.1.1.2",
   "title": "",
   "body": "   "
 },
@@ -1336,64 +1318,91 @@ var ptx_lunr_docs = [
   "id": "subsubsec-area-of-a-hexagon-2",
   "level": "2",
   "url": "sec-area.html#subsubsec-area-of-a-hexagon-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "hexa gon "
-},
-{
-  "id": "subsubsec-area-of-a-hexagon-5",
-  "level": "2",
-  "url": "sec-area.html#subsubsec-area-of-a-hexagon-5",
   "type": "Activity",
   "number": "3.1.2",
   "title": "",
-  "body": "     What you need.      Ruler    Pencil and Paper    A regular hexagon (you can draw one or use a hexagon-shaped object like a nut or a tile)        Observe the Hexagon it should e the same as the one drawn below:        Count the sides. How many are there?    Are all sides equal? (In a regular hexagon)    Measure one side. Let’s call this length \" \"       Divide the Hexagon into Triangles as the one drawn below:        How many triangles can you see?    What is the name of the triangles formed?       Find the area of one triangle and record it.  Find the total area of the hexagon by multiplying the area of one triangle by the number of triangles.    Can you find a formula for the area of a regular hexagon?    Discuss your findings with the other groups.     "
+  "body": "  Work in Groups   What you need:    Ruler  Pencil and paper     Instructions      LExplore the hexagon below:       How many sides does it have?  Measure the side of the hexagon.  Are the sides equal in length?       The Hexagon below has been divided from the center to each corner:       How many shapes can you see?  What kind of triangles are formed?      Find the area of one triangle and use it to work out the area of the whole hexagon.    How do you find the area of the hexagon?    Share and compare your answers with your group.     "
+},
+{
+  "id": "def-Hexagon",
+  "level": "2",
+  "url": "sec-area.html#def-Hexagon",
+  "type": "Definition",
+  "number": "3.1.6",
+  "title": "",
+  "body": "  The word \" \" comes from the Greek words \" hexa ,\" which means six, and \" gon ,\" which means corner or angle.  A is a flat shape with six straight sides and six corners (angles).   "
+},
+{
+  "id": "subsubsec-area-of-a-hexagon-4",
+  "level": "2",
+  "url": "sec-area.html#subsubsec-area-of-a-hexagon-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Key Takeaway "
+},
+{
+  "id": "subsubsec-area-of-a-hexagon-13",
+  "level": "2",
+  "url": "sec-area.html#subsubsec-area-of-a-hexagon-13",
+  "type": "Example",
+  "number": "3.1.7",
+  "title": "",
+  "body": "  Find the area of the hexagon below.       The side length of the hexagon is .  Therefore:      "
+},
+{
+  "id": "subsubsec-area-of-a-hexagon-14",
+  "level": "2",
+  "url": "sec-area.html#subsubsec-area-of-a-hexagon-14",
+  "type": "Example",
+  "number": "3.1.8",
+  "title": "",
+  "body": "  Bees build honeycombs using hexagonal cells. If each cell has a side length of , what is the area of one cell?    The side length of the hexagonal cell is .  Therefore:     This implies that, the area of one hexagonal cell is approximately .   "
 },
 {
   "id": "subsubsec-area-of-a-hexagon-15",
   "level": "2",
   "url": "sec-area.html#subsubsec-area-of-a-hexagon-15",
   "type": "Example",
-  "number": "3.1.6",
+  "number": "3.1.9",
   "title": "",
-  "body": "  A regular hexagon has a side length of as shown below. Find its area       The side length of the hexagon is .  Therefore:     Therefore, the area of the hexagon is approximately .   "
+  "body": "  The figure below shows a regular hexagon with center x.     Find;     the perimeter of the hexagon.    the area of the hexagon.          The perimeter of the hexagon is:       The area of the hexagon is:     This implies that, the area of the hexagon is .      "
 },
 {
   "id": "subsubsec-area-of-a-hexagon-16",
   "level": "2",
   "url": "sec-area.html#subsubsec-area-of-a-hexagon-16",
   "type": "Example",
-  "number": "3.1.7",
-  "title": "",
-  "body": "  Bees build honeycombs using hexagonal cells. If each cell has a side length of , what is the area of one cell?    The side length of the hexagonal cell is .  Therefore:     This implies that, the area of one hexagonal cell is approximately .   "
-},
-{
-  "id": "subsubsec-area-of-a-hexagon-17",
-  "level": "2",
-  "url": "sec-area.html#subsubsec-area-of-a-hexagon-17",
-  "type": "Example",
-  "number": "3.1.8",
-  "title": "",
-  "body": "  A regular hexagon with center h is shown below:        Find the perimeter of the hexagon.    Find the area of the hexagon.       The side length of the hexagon is .  The apothem of the hexagon is .  Therfore:     The perimeter of the hexagon is:       The area of the hexagon is:     This implies that, the area of the hexagon is .      "
-},
-{
-  "id": "subsubsec-area-of-a-hexagon-18",
-  "level": "2",
-  "url": "sec-area.html#subsubsec-area-of-a-hexagon-18",
-  "type": "Example",
-  "number": "3.1.9",
-  "title": "",
-  "body": "  A regular hexagon has an area of . What is its side length?    To find the side length of a regular hexagon given its area, we can use the formula:     Given that the area is , we can set up the equation:     To solve for , we can rearrange the equation:     Therefore, the side length of the regular hexagon is .   "
-},
-{
-  "id": "subsubsec-area-of-a-hexagon-19",
-  "level": "2",
-  "url": "sec-area.html#subsubsec-area-of-a-hexagon-19",
-  "type": "Checkpoint",
   "number": "3.1.10",
   "title": "",
+  "body": "  A regular hexagon has an area of . What is its side length?    To find the side length of a regular hexagon given its area, we can use the formula:     Given that the area is , we set up the equation:     To solve for , we can rearrange the equation:     Therefore, the side length of the regular hexagon is .   "
+},
+{
+  "id": "exercises-Hexagon-2",
+  "level": "2",
+  "url": "sec-area.html#exercises-Hexagon-2",
+  "type": "Exercise",
+  "number": "3.1.1.2.1",
+  "title": "",
   "body": "   "
+},
+{
+  "id": "exercises-Hexagon-3",
+  "level": "2",
+  "url": "sec-area.html#exercises-Hexagon-3",
+  "type": "Exercise",
+  "number": "3.1.1.2.2",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "def-Prisms",
+  "level": "2",
+  "url": "sec-area.html#def-Prisms",
+  "type": "Definition",
+  "number": "3.1.11",
+  "title": "",
+  "body": "  A prism is a solid with uniform cross-section.  The surface area of a prism is the total area of all its faces that means the areas of the two identical bases and all the side faces (called lateral faces).   "
 },
 {
   "id": "subsubsec-surface-area-of-triangular-based-prism-2",
@@ -1402,32 +1411,32 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "3.1.3",
   "title": "",
-  "body": "     What you need.      Ruler    Scissors    A piece of paper and a pencil    Cardboard (to make a model)        What does a triangular prism look like interms of its faces?  What do we mean by lateral faces?    Draw a triangular prism on the cardboard and cut it out like the one shown below.        How many triangular faces does the prism have?    How many rectangular faces does the prism have?    How many faces does the prism have in total?       Now, measure the length of the base and height of the triangular face.    Open the Prism into a Net like the one shown below.        Measure the length of the base and height of the rectangular face.       Now, calculate the area of the triangular faces.    Calculate the area of the rectangular faces.    Now, calculate the total surface area of the prism.               "
+  "body": "  Work in Groups    What you need.     Ruler   Tape   Scissors  A piece of paper and a pencil  Cardboard (to create your prism model)     Instructions      Draw the net of a triangular prism on the cardboard, just like the one shown below.       Cut out the net carefully along the edges.  Fold the net along the edges to form a triangular prism.   Secure the edges with tape or glue to hold the prism together as shown below.      Count the number of triangular and rectangular faces.      Measure:     The base and height of one of the triangular faces.    The length and width of the rectangular faces.       Calculate the area of:     The triangular faces.    The rectangular faces.      Calculate the total surface area of the prism.   How did you find the surface area of the prism?      "
 },
 {
   "id": "subsubsec-surface-area-of-triangular-based-prism-5",
   "level": "2",
   "url": "sec-area.html#subsubsec-surface-area-of-triangular-based-prism-5",
   "type": "Example",
-  "number": "3.1.11",
+  "number": "3.1.12",
   "title": "",
-  "body": "  A triangular prism has a base of , height , and prism height . The other two sides of the triangle are and . Find its surface area.    Area of the triangular base:     Area of the rectangular faces:     Now area of the triangular faces is given by:     Area of the rectangular faces is:     Therefore, the total surface area of the prism is:         "
+  "body": "  The length of a trianglar prism is . The crosssectional of the prism is an isosceles triangle of sides and height . Calculate the total surface area of the prism.       Area of the rectangular faces is given by:   Therefore,    "
 },
 {
   "id": "subsubsec-surface-area-of-triangular-based-prism-6",
   "level": "2",
   "url": "sec-area.html#subsubsec-surface-area-of-triangular-based-prism-6",
   "type": "Example",
-  "number": "3.1.12",
+  "number": "3.1.13",
   "title": "",
-  "body": "  Find the surface area of the triangular prism shown below:       To find the surface area of the prism, we need to calculate the areas of the triangular base and the rectangular faces.  Area of the triangular base:  Area is given by:     Area of the rectangular faces:  Area is given by:     Therefore, the total surface area of the prism is:         "
+  "body": "  Find the surface area of the triangular prism shown below:       To find the surface area of the prism, we need to calculate the areas of the triangular base and the rectangular faces.  Area of the triangular base:     Area of the rectangular faces:     Therefore, the total surface area of the prism is:         "
 },
 {
   "id": "subsubsec-surface-area-of-triangular-based-prism-7",
   "level": "2",
   "url": "sec-area.html#subsubsec-surface-area-of-triangular-based-prism-7",
   "type": "Example",
-  "number": "3.1.13",
+  "number": "3.1.14",
   "title": "",
   "body": "  The figure below shows a triangular prism. Use the diagram to help you draw its net.       The net of the triangular prism consists of two triangular faces and three rectangular faces.  The net can be drawn as follows:      "
 },
@@ -1436,7 +1445,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-area.html#subsubsec-surface-area-of-triangular-based-prism-8",
   "type": "Checkpoint",
-  "number": "3.1.14",
+  "number": "3.1.15",
   "title": "",
   "body": "   "
 },
@@ -1447,14 +1456,14 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "3.1.4",
   "title": "",
-  "body": "     What you need.      Rulers    Scissors    Grid paper    Printable nets of rectangular prisms (or students can sketch their own)        What does a rectangular prism look like in terms of its faces?    Draw a rectangular prism on the grid paper like the one shown below..        How many rectangular faces does the prism have?    How many faces does the prism have in total?     What does represent in the figure?    Measure each side and label the dimensions.    Compute the area of each face and sum them up to find the total surface area.    What is the formula for the surface area of a rectangular prism?    Now draw the net of the rectangular prism like the one shown below.       Now, calculate the area of each face in the net.  Compare if its the same as the total surface area you calculated before.    Disscuss your findings with the class.     "
+  "body": "     What you need.      Rulers    Scissors    Grid paper    A nets of rectangular prisms (or students can sketch their own)      Instructions      Draw a rectangular prism on the grid paper like the one shown below.        How many rectangular faces does the prism have?    How many faces does the prism have in total?     What does represent in the figure?    Measure each side and label the dimensions.    Compute the area of each face and sum them up to find the total surface area.    What is the formula for the surface area of a rectangular prism?    Now draw the net of the rectangular prism like the one shown below.       Now, calculate the area of each face in the net.  Compare if its the same as the total surface area you calculated before.    Disscuss your findings with the class.     "
 },
 {
   "id": "subsubsec-surface-area-of-rectangular-based-prism-5",
   "level": "2",
   "url": "sec-area.html#subsubsec-surface-area-of-rectangular-based-prism-5",
   "type": "Example",
-  "number": "3.1.15",
+  "number": "3.1.16",
   "title": "",
   "body": "  Work out the surface area of the closed rectangular prism below:       The sides of the rectangular prism are:     Length (l):    Width (w):    Height (h):     The surface area (SA) of the rectangular prism can be calculated using the formula:         "
 },
@@ -1463,27 +1472,45 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-area.html#subsubsec-surface-area-of-rectangular-based-prism-6",
   "type": "Example",
-  "number": "3.1.16",
+  "number": "3.1.17",
   "title": "",
-  "body": "  A sheet of metal is used to make identical closed rectangular prisms. Each prism measurering by by . Calculate the total area of the metal sheet that is needed to make all the prisms.    The surface area (SA) of one rectangular prism can be calculated using the formula:     The total surface area (TSA) of all prisms is:         "
+  "body": "  A sheet of metal is used to make identical closed rectangular prisms. Each prism measurering by by . Calculate the total area of the metal sheet that is needed to make all the prisms.    The surface area (SA) of one rectangular prism can be calculated using the formula:     The total surface area of all prisms is:         "
 },
 {
   "id": "subsubsec-surface-area-of-rectangular-based-prism-7",
   "level": "2",
   "url": "sec-area.html#subsubsec-surface-area-of-rectangular-based-prism-7",
   "type": "Example",
-  "number": "3.1.17",
-  "title": "",
-  "body": "  The net below forms a rectangular prism. Calculate the total surface area.       The dimensions of the rectangular prism are:     Length (l):    Width (w):    Height (h):            "
-},
-{
-  "id": "subsubsec-surface-area-of-rectangular-based-prism-8",
-  "level": "2",
-  "url": "sec-area.html#subsubsec-surface-area-of-rectangular-based-prism-8",
-  "type": "Checkpoint",
   "number": "3.1.18",
   "title": "",
+  "body": "  The net below forms a rectangular prism. Calculate the total surface area.       The dimensions of the rectangular prism are:     Length (l):    Width (w):    Height (h):     Therefore,       "
+},
+{
+  "id": "Prisms-1",
+  "level": "2",
+  "url": "sec-area.html#Prisms-1",
+  "type": "Exercise",
+  "number": "3.1.2.2.1",
+  "title": "",
   "body": "   "
+},
+{
+  "id": "Prisms-2",
+  "level": "2",
+  "url": "sec-area.html#Prisms-2",
+  "type": "Exercise",
+  "number": "3.1.2.2.2",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "def-Pyramids",
+  "level": "2",
+  "url": "sec-area.html#def-Pyramids",
+  "type": "Definition",
+  "number": "3.1.19",
+  "title": "",
+  "body": "  A is a solid with a polygonal base and slanting sides that meet at a common apex.  The surface area of a is the sum of the area of the slanting faces and the area of the base.   "
 },
 {
   "id": "subsubsec-surface-area-of-triangular-based-pyramids-2",
@@ -1492,14 +1519,23 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "3.1.5",
   "title": "",
-  "body": "     What you need      Ruler    Pencil    Pyramids models.        The pyramids model are as shown below.             What is the name of the above pyramids?    Measure the edges of the rectangular-based pyramid    Cut and open the rectangular-based pyramid along the edges to reveal its net as shown below.       Find the area of each faces of the above net.    Find the surface area of the rectangular-based pyramid using the net.    What is the surface area of the triangular-based pyramid?    What is the surface area of the square-based pyramid?    What is the surface area of the pentagonal-based pyramid?    Repeat the above steps for the triangular-based and square-based pyramids.    Discuss your findings with other group members.     "
+  "body": "     What you need      Ruler    Pencil    Pyramids models.      Instructions      The pyramids model are as shown below.       (for accessibility)     What is the name of the above pyramids?    Measure the edges of the rectangular-based pyramid    Cut and open the rectangular-based pyramid along the edges to reveal its net as shown below.       Find the area of each faces of the above net.    Find the surface area of the rectangular-based pyramid using the net.    What is the surface area of the triangular-based pyramid?    What is the surface area of the square-based pyramid?    What is the surface area of the pentagonal-based pyramid?    Repeat the above steps for the triangular-based and square-based pyramids.    Discuss your findings with other group members.     "
+},
+{
+  "id": "subsubsec-surface-area-of-triangular-based-pyramids-3",
+  "level": "2",
+  "url": "sec-area.html#subsubsec-surface-area-of-triangular-based-pyramids-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Key Takeaway "
 },
 {
   "id": "subsubsec-surface-area-of-triangular-based-pyramids-5",
   "level": "2",
   "url": "sec-area.html#subsubsec-surface-area-of-triangular-based-pyramids-5",
   "type": "Example",
-  "number": "3.1.19",
+  "number": "3.1.20",
   "title": "",
   "body": "  Calculate the surface area of the pyramid below.   The model of a pyramid     The net of the above model is as shown below.   The model 2   The base area is .  The height of the triangular face.     The height of triangular face.     Area of the triangles are as shown:        The total surface area is given by:     Therefore, the total surface area of the pyramid is .   "
 },
@@ -1508,7 +1544,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-area.html#subsubsec-surface-area-of-triangular-based-pyramids-6",
   "type": "Example",
-  "number": "3.1.20",
+  "number": "3.1.21",
   "title": "",
   "body": "  A tent is shaped like a square-based pyramid. The base is by and each triangular side has a height of . Find the amount of canvas needed to make the tent.    The base area is given by;     The area of the triangular faces is given by:     Therefore, the total surface area of the tent is .   "
 },
@@ -1517,16 +1553,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-area.html#subsubsec-surface-area-of-triangular-based-pyramids-7",
   "type": "Example",
-  "number": "3.1.21",
+  "number": "3.1.22",
   "title": "",
   "body": "  Find the area of the figure below:       The net of the figure is as shown below:     The height of the pyramid is given by:     The area of the pyramid is given by:     The total area is given by:     Therefore, the total surface area of the pyramid is .   "
 },
 {
-  "id": "subsubsec-surface-area-of-triangular-based-pyramids-8",
+  "id": "Pyramids-1",
   "level": "2",
-  "url": "sec-area.html#subsubsec-surface-area-of-triangular-based-pyramids-8",
-  "type": "Checkpoint",
-  "number": "3.1.22",
+  "url": "sec-area.html#Pyramids-1",
+  "type": "Exercise",
+  "number": "3.1.3.1.1",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "Pyramids-2",
+  "level": "2",
+  "url": "sec-area.html#Pyramids-2",
+  "type": "Exercise",
+  "number": "3.1.3.1.2",
   "title": "",
   "body": "   "
 },
@@ -1537,41 +1582,68 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "3.1.6",
   "title": "",
-  "body": "     What you need      A model of a circle (e.g., a paper circle, a round object, or a drawing).    A protractor or a tool to measure angles.    A ruler or measuring tape to measure the radius.        The figure below shows a circle with a radius of and a central angle of degrees.       Name the shaded area in the figure above.    Find the area of the shaded part of the circle.    Deduce the formula for the area of a sector of a circle.    Share your findings with the other groups.     "
+  "body": "     What you need      A model of a circle (e.g., a paper circle, a round object, or a drawing).    A protractor or a tool to measure angles.    A ruler or measuring tape to measure the radius.      Instruction      The figure below shows a circle with a radius of and a central angle of degrees.       Name the shaded area in the figure above.    Find the area of the shaded part of the circle.    Deduce the formula for the area of a sector of a circle.    Share your findings with the other groups.     "
 },
 {
-  "id": "subsubsec-area-of-a-sector-13",
+  "id": "def-Circle",
   "level": "2",
-  "url": "sec-area.html#subsubsec-area-of-a-sector-13",
-  "type": "Example",
+  "url": "sec-area.html#def-Circle",
+  "type": "Definition",
   "number": "3.1.23",
   "title": "",
-  "body": "  Find the area of the figure below:       To find the area of the sector, we use the formula:        The area of the sector is approximately .   "
+  "body": "  A sector is a region bounded by two radii and an arc consisting of a minor and major sector.  A sector is the smaller area between the two radii, while a sector is the larger area.   "
 },
 {
-  "id": "subsubsec-area-of-a-sector-14",
+  "id": "subsubsec-area-of-a-sector-4",
   "level": "2",
-  "url": "sec-area.html#subsubsec-area-of-a-sector-14",
+  "url": "sec-area.html#subsubsec-area-of-a-sector-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Key Takeaway "
+},
+{
+  "id": "subsubsec-area-of-a-sector-9",
+  "level": "2",
+  "url": "sec-area.html#subsubsec-area-of-a-sector-9",
   "type": "Example",
   "number": "3.1.24",
   "title": "",
-  "body": "  A sprinkler rotates and waters grass in a sector of . If the water reaches from the center, find the area of grass watered.    From the problem, we know:  - Central angle   - Radius   We can now find the area of the sector using the formula:        The area of the sector is approximately .   "
+  "body": "  Find the area of the figure below:       To find the area of the sector, we use the formula:        The area of the sector is .   "
 },
 {
-  "id": "subsubsec-area-of-a-sector-15",
+  "id": "subsubsec-area-of-a-sector-10",
   "level": "2",
-  "url": "sec-area.html#subsubsec-area-of-a-sector-15",
+  "url": "sec-area.html#subsubsec-area-of-a-sector-10",
   "type": "Example",
   "number": "3.1.25",
   "title": "",
-  "body": "  The area of a sector of radius is . Find the angle subtended by the sector. (Use for calculations.)       To find the angle subtended by the sector, we can rearrange the formula for the area of a sector:        The angle subtended by the sector is approximately .   "
+  "body": "  A sprinkler rotates and waters grass in a sector of . If the water reaches from the center, find the area of grass watered.    From the problem, we know:  - Central angle   - Radius   We can now find the area of the sector using the formula:        The area of the sector is .   "
 },
 {
-  "id": "subsubsec-area-of-a-sector-16",
+  "id": "subsubsec-area-of-a-sector-11",
   "level": "2",
-  "url": "sec-area.html#subsubsec-area-of-a-sector-16",
-  "type": "Checkpoint",
+  "url": "sec-area.html#subsubsec-area-of-a-sector-11",
+  "type": "Example",
   "number": "3.1.26",
+  "title": "",
+  "body": "  The area of a sector of radius is . Find the angle subtended by the sector. (Use for calculations.)       To find the angle subtended by the sector, we can rearrange the formula for the area of a sector:        The angle subtended by the sector is .   "
+},
+{
+  "id": "circle-1",
+  "level": "2",
+  "url": "sec-area.html#circle-1",
+  "type": "Exercise",
+  "number": "3.1.4.1.1",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "circle-2",
+  "level": "2",
+  "url": "sec-area.html#circle-2",
+  "type": "Exercise",
+  "number": "3.1.4.1.2",
   "title": "",
   "body": "   "
 },
@@ -1585,58 +1657,94 @@ var ptx_lunr_docs = [
   "body": "       In the geogebra applet below, you can explore the area of a segment of a circle.           Use the checkboxes to highlight different parts (sector, triangle, segment).    Adjust the radius and angle to see how the area of the segment changes.    Adjust the sliders for radius and angle .    Area of a segment      Find the area of the segment formed by the sector and the triangle above.    Share your findings with the other groups.     "
 },
 {
+  "id": "def-segment1",
+  "level": "2",
+  "url": "sec-area.html#def-segment1",
+  "type": "Definition",
+  "number": "3.1.28",
+  "title": "",
+  "body": "  A is the area between a chord and the arc it subtends.  A chord is a line segment connecting two points on the circle.  An arc is a part of the circumference of a circle.   "
+},
+{
+  "id": "subsubsec-area-of-a-segment-4",
+  "level": "2",
+  "url": "sec-area.html#subsubsec-area-of-a-segment-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Key Takeaway "
+},
+{
+  "id": "subsubsec-area-of-a-segment-9",
+  "level": "2",
+  "url": "sec-area.html#subsubsec-area-of-a-segment-9",
+  "type": "Example",
+  "number": "3.1.29",
+  "title": "",
+  "body": "  Find the area Of the shadded region in the figure below: Use .       To find the area of the shaded region (the segment), we will use the formula:     Area of the sector:        Area of the triangle:  You need to find the height of the triangle using the formula:              Area of the segment is given by:     The area of the shaded region (segment) is .   "
+},
+{
+  "id": "subsubsec-area-of-a-segment-10",
+  "level": "2",
+  "url": "sec-area.html#subsubsec-area-of-a-segment-10",
+  "type": "Example",
+  "number": "3.1.30",
+  "title": "",
+  "body": "  The figure below is a circle with center O and radius . If ON , AB and . Find the area of the shaded region.   Segment        Area of the sector is given by:     Area of triangle is given by:     Area of the shaded region (segment) is given by:     The area of the shaded region (segment) is .   "
+},
+{
   "id": "subsubsec-area-of-a-segment-11",
   "level": "2",
   "url": "sec-area.html#subsubsec-area-of-a-segment-11",
   "type": "Example",
-  "number": "3.1.28",
-  "title": "",
-  "body": "  Find the area Of the shadded region in the figure below: Use .       To find the area of the shaded region (the segment), we will use the formula:     Area of the sector:        Area of the triangle:  You need to find the height of the triangle using the formula:              Area of the segment is given by:     The area of the shaded region (segment) is approximately .   "
-},
-{
-  "id": "subsubsec-area-of-a-segment-12",
-  "level": "2",
-  "url": "sec-area.html#subsubsec-area-of-a-segment-12",
-  "type": "Example",
-  "number": "3.1.29",
-  "title": "",
-  "body": "  The figure below is a circle with center O and radius . If ON , AB and . Find the area of the shaded region.   Segment        Area of the sector is given by:     Area of triangle is given by:     Area of the shaded region (segment) is given by:     The area of the shaded region (segment) is approximately .   "
-},
-{
-  "id": "subsubsec-area-of-a-segment-13",
-  "level": "2",
-  "url": "sec-area.html#subsubsec-area-of-a-segment-13",
-  "type": "Example",
-  "number": "3.1.30",
-  "title": "",
-  "body": "  A round water tank lid has a radius of . A technician cuts out a segment with a central angle of to create an inspection opening. Find the area of the segment removed.    To find the area of the segment, we will use the formula:     Area of the sector is given by:     Area of the triangle formed by the radii and the chord is given by:     Area of the segment is given by:     The area of the segment removed is approximately .   "
-},
-{
-  "id": "subsubsec-area-of-a-segment-14",
-  "level": "2",
-  "url": "sec-area.html#subsubsec-area-of-a-segment-14",
-  "type": "Checkpoint",
   "number": "3.1.31",
   "title": "",
+  "body": "  A round water tank lid has a radius of . A technician cuts out a segment with a central angle of to create an inspection opening. Find the area of the segment removed.    To find the area of the segment, we will use the formula:     Area of the sector is given by:     Area of the triangle formed by the radii and the chord is given by:     Area of the segment is given by:     The area of the segment removed is .   "
+},
+{
+  "id": "subsubsec-area-of-a-segment-12-1",
+  "level": "2",
+  "url": "sec-area.html#subsubsec-area-of-a-segment-12-1",
+  "type": "Exercise",
+  "number": "3.1.4.2.1",
+  "title": "",
   "body": "   "
+},
+{
+  "id": "subsubsec-area-of-a-segment-12-2",
+  "level": "2",
+  "url": "sec-area.html#subsubsec-area-of-a-segment-12-2",
+  "type": "Exercise",
+  "number": "3.1.4.2.2",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-surface-area-of-a-cone-2",
+  "level": "2",
+  "url": "sec-area.html#subsec-surface-area-of-a-cone-2",
+  "type": "Activity",
+  "number": "3.1.8",
+  "title": "",
+  "body": "  Work in groups    Interactive work.      The figure below shows a cone, Play along with the interactive tool to understand the concept of a cone.   Area of a segment      How many figure can you find in the above interactive tool?    You are provided with another interactive tool to explore the surface area of a cone.   Surface area of a cone    Play along with the interactive tool to understand the concept of surface area of a cone.    Before you start, make sure you understand the following terms:   Base radius , Slant height , and Height .    Calculate the slant height in the above interactive tool.    Find the surface area of the cone in the interactive tool.  Play along with the sliders, input boxes and coferm the surface area of the cone.    Discuss with your group members about the surface area of a cone and how it relates to real-life objects like ice cream cones, traffic cones, etc.     "
 },
 {
   "id": "def-surface-area-of-a-cone",
   "level": "2",
   "url": "sec-area.html#def-surface-area-of-a-cone",
   "type": "Definition",
-  "number": "3.1.32",
+  "number": "3.1.34",
   "title": "",
   "body": "  A is a pyramid with a circular base.  A cone consists of a circular base and a curved surface that connects the base to the apex (the tip of the cone).  The of a cone is the distance from the apex to any point on the edge of the base.   "
 },
 {
-  "id": "subsec-surface-area-of-a-cone-3",
+  "id": "subsec-surface-area-of-a-cone-4",
   "level": "2",
-  "url": "sec-area.html#subsec-surface-area-of-a-cone-3",
-  "type": "Activity",
-  "number": "3.1.8",
+  "url": "sec-area.html#subsec-surface-area-of-a-cone-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
   "title": "",
-  "body": "     Interactive work.      The figure below shows a cone, Play along with the interactive tool to understand the concept of a cone.   Area of a segment      How many figure can you find in the above interactive tool?    You are provided with another interactive tool to explore the surface area of a cone.   Surface area of a cone    Play along with the interactive tool to understand the concept of surface area of a cone.    Before you start, make sure you understand the following terms:   Base radius , Slant height , and Height .    Calculate the slant height in the above interactive tool.    Find the surface area of the cone in the interactive tool.  Play along with the sliders, input boxes and coferm the surface area of the cone.    Discuss with your group members about the surface area of a cone and how it relates to real-life objects like ice cream cones, traffic cones, etc.     "
+  "body": "Key Takeaway "
 },
 {
   "id": "subsec-surface-area-of-a-cone-9",
@@ -1654,7 +1762,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "3.1.36",
   "title": "",
-  "body": "  A conical container open at the top, is made of metal and has a base radius of and a slant height of . Determine the total metal sheet required to construct this container.    The conical container has no Circular base therefore, the area is given by:     Substitute the given values:       Therefore, the total metal sheet required is approximately .   "
+  "body": "  A conical container open at the top, is made of metal and has a base radius of and a slant height of . Determine the total metal sheet required to construct this container.    The conical container has no Circular base therefore, the area is given by:     Substitute the given values:       Therefore, the total metal sheet required is .   "
 },
 {
   "id": "subsec-surface-area-of-a-cone-11",
@@ -1663,16 +1771,43 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "3.1.37",
   "title": "",
-  "body": "  A cone is constructed with a base diameter of and a height of as shown below.        Find the slant height of the cone.    Find the surface area of the cone.          The slant height is given by:     Therefore, the slant height is approximately .    The total surface area is given by:     Therefore, the total surface area of the cone is approximately .        "
+  "body": "  A cone is constructed with a base diameter of and a height of as shown below.        Find the slant height of the cone.    Find the surface area of the cone.          The slant height is given by:     Therefore, the slant height is approximately .    The total surface area is given by:     Therefore, the total surface area of the cone is .        "
 },
 {
-  "id": "subsec-surface-area-of-a-cone-12",
+  "id": "subsec-surface-area-of-a-cone-12-1",
   "level": "2",
-  "url": "sec-area.html#subsec-surface-area-of-a-cone-12",
-  "type": "Checkpoint",
-  "number": "3.1.38",
+  "url": "sec-area.html#subsec-surface-area-of-a-cone-12-1",
+  "type": "Exercise",
+  "number": "3.1.5.1",
   "title": "",
   "body": "   "
+},
+{
+  "id": "subsec-surface-area-of-a-cone-12-2",
+  "level": "2",
+  "url": "sec-area.html#subsec-surface-area-of-a-cone-12-2",
+  "type": "Exercise",
+  "number": "3.1.5.2",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-surface-area-of-a-sphere-2",
+  "level": "2",
+  "url": "sec-area.html#subsec-surface-area-of-a-sphere-2",
+  "type": "Activity",
+  "number": "3.1.9",
+  "title": "",
+  "body": "     Instractions       Look at the sphere on your right hand side.    Measure the distance from the center of the sphere to its surface. What do you call this distance?    Calculate the area of the figure shown.   . Use .    Discuss with your group how you might find the total surface area of the sphere.         "
+},
+{
+  "id": "subsec-surface-area-of-a-sphere-4",
+  "level": "2",
+  "url": "sec-area.html#subsec-surface-area-of-a-sphere-4",
+  "type": "Activity",
+  "number": "3.1.10",
+  "title": "",
+  "body": "  Work in Groups   Play along with the interactive tool below to explore more about area of a    Area of a segment    "
 },
 {
   "id": "def-sphere",
@@ -1684,38 +1819,29 @@ var ptx_lunr_docs = [
   "body": "  A is a solid that is entirely round with every point on the surface at anequal distance from the centre.  It's defined as the set of all points in space that are equidistant from a central point.  The distance from the center to any point on the surface is called the .   "
 },
 {
-  "id": "subsec-surface-area-of-a-sphere-3",
+  "id": "subsec-surface-area-of-a-sphere-6",
   "level": "2",
-  "url": "sec-area.html#subsec-surface-area-of-a-sphere-3",
-  "type": "Activity",
-  "number": "3.1.9",
+  "url": "sec-area.html#subsec-surface-area-of-a-sphere-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
   "title": "",
-  "body": "        Look at the sphere on your right hand side.    Measure the distance from the center of the sphere to its surface. What do you call this distance?    Calculate the area of the figure shown.   . Use .    Discuss with your group how you might find the total surface area of the sphere.         "
-},
-{
-  "id": "subsec-surface-area-of-a-sphere-5",
-  "level": "2",
-  "url": "sec-area.html#subsec-surface-area-of-a-sphere-5",
-  "type": "Activity",
-  "number": "3.1.10",
-  "title": "",
-  "body": " Play along with the interactive tool below to explore more about area of a    Area of a segment    "
+  "body": "Key Takeaway "
 },
 {
   "id": "subsec-surface-area-of-a-sphere-10",
   "level": "2",
   "url": "sec-area.html#subsec-surface-area-of-a-sphere-10",
   "type": "Example",
-  "number": "3.1.41",
+  "number": "3.1.40",
   "title": "",
-  "body": "  Find the surface area of a sphere whose diameter is .    The diameter of the sphere is , so the radius cm.  The formula for the surface area of a sphere is:        Therefore, the surface area of the sphere is .   "
+  "body": "  Find the surface area of a sphere whose diameter is .    The diameter of the sphere is , so the radius cm.  The formula for the surface area of a sphere is:     Therefore,     Therefore, the surface area of the sphere is .   "
 },
 {
   "id": "subsec-surface-area-of-a-sphere-11",
   "level": "2",
   "url": "sec-area.html#subsec-surface-area-of-a-sphere-11",
   "type": "Example",
-  "number": "3.1.42",
+  "number": "3.1.41",
   "title": "",
   "body": "  Find the area of the figure below. Use        The radius of the sphere is .  The formula for the surface area of a sphere is:   Substituting the values:     Therefore, the surface area of the sphere is .   "
 },
@@ -1724,7 +1850,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-area.html#subsec-surface-area-of-a-sphere-12",
   "type": "Example",
-  "number": "3.1.43",
+  "number": "3.1.42",
   "title": "",
   "body": "  The balls used in a golf tournament have diameter of and . What is the difference in the surface area between the largest and smallest golf ball?    The diameter of the smallest ball is , so its radius is .  The diameter of the largest ball is , so its radius is .  The formula for the surface area of a sphere is:   For the smallest ball:   For the largest ball:   The difference in surface area is: If :   Therefore, the difference in surface area between the largest and smallest golf ball is .   "
 },
@@ -1732,19 +1858,28 @@ var ptx_lunr_docs = [
   "id": "subsec-surface-area-of-a-sphere-13",
   "level": "2",
   "url": "sec-area.html#subsec-surface-area-of-a-sphere-13",
-  "type": "Checkpoint",
-  "number": "3.1.44",
+  "type": "Technology",
+  "number": "3.1.43",
+  "title": "",
+  "body": "          This site offers short interactive lessons and videos on calculating areas and surface areas. Topics include sectors, pyramids, prisms, cones, and more, with quizzes to test your understanding.   Explore on the book        These channels provide clear and detailed explanations of how to find area and surface area of different shapes using step-by-step examples and real-life applications.   Watch now      "
+},
+{
+  "id": "subsec-surface-area-of-a-sphere-14-1",
+  "level": "2",
+  "url": "sec-area.html#subsec-surface-area-of-a-sphere-14-1",
+  "type": "Exercise",
+  "number": "3.1.6.1",
   "title": "",
   "body": "   "
 },
 {
-  "id": "subsec-surface-area-of-a-sphere-14",
+  "id": "subsec-surface-area-of-a-sphere-14-2",
   "level": "2",
-  "url": "sec-area.html#subsec-surface-area-of-a-sphere-14",
-  "type": "Technology",
-  "number": "3.1.45",
+  "url": "sec-area.html#subsec-surface-area-of-a-sphere-14-2",
+  "type": "Exercise",
+  "number": "3.1.6.2",
   "title": "",
-  "body": "          This site offers short interactive lessons and videos on calculating areas and surface areas. Topics include sectors, pyramids, prisms, cones, and more, with quizzes to test your understanding.   Explore on the book        These channels provide clear and detailed explanations of how to find area and surface area of different shapes using step-by-step examples and real-life applications.   Watch now      "
+  "body": "   "
 },
 {
   "id": "sec-volume-of-solids",
@@ -1753,25 +1888,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.2",
   "title": "Volume of Solids",
-  "body": " Volume of Solids      is the amount of space occupied by a three-dimensional object. It tells us how much something can hold.  - If an object is hollow, its volume tells us the capacity – how much liquid or air it can hold. If it is solid, volume tells us how much space it fills up.  For example,     The volume of water in a jug.    The volume of sand in a bucket.    The volume of a classroom (helps in knowing how much air it can hold).         Volume of prisms     A prism is a solid with a uniform cross- section. The sides connecting the bases are parallelograms.  The volume of a prism with cross section area and length is given by .      Volume of triangular based prism            Imagine you are designing a small water channel shaped like a triangular prism to carry water from a tank to a garden.    Below is a cross-sectional diagram of the triangular prism channel.        How many faces does the triangular prism above have?              Draw the triangular face and label its base and height.    Using the diagram, calculate:     The area of the triangular cross-section.    The volume of the prism (channel) that will hold water.       Discuss with your partner:     What is the relationship between the base area and the volume of the prism?    How does changing the height of the prism affect its volume?            The figure shown below represents a triangular prism with a cross section area of and a length of .     The volume of a triangular prism is found by multiplying the area of its triangular cross-section by its length. Which can be writen as,       Find the volume of a triangular prism with a base area of and a length of .    To find the volume, we use the formula:     Therefore, the volume of the prism is .      Find the area of the figure below.       To find the area of the triangular prism, we need to calculate the area of the triangular base and the area of the three rectangular faces.  The base area of the triangle can be calculated using the formula:     The volume of the above figure is given by;     Therefore, the volume of the triangular prism is .      A loading company makes loaders of triangular prism as shown below. If the loader holds of soil, determine the length of the loader.                   Volume is given by;     Therefore, the length of the loader is .          Volume of rectangular based prism            Observe the school’s water tank or storage box.    Using a rectangular water tank as an example:  Measure (or estimate) its:     Length    Width    Height       Calculate the volume of the rectangular water tank.    Convert the volume to litres.    Discuss in your group:  How do we find the volume of a rectangular prism?     Play along with the sliders below to explore the volume of a rectangular prism.   Volume of a rectangular prism        Given a rectangular prisim like the one shown below,     The volume of a rectangular prism is given by the formula:     Which can be written as:       Work out the volume of the rectangular prism shown below.                   Therefore, the volume of the rectangular prism is .      The Volume of a rectangular based prism is . The height of the prism is . What is the base area of the prism?    We know that the volume of a prism is given by the formula:     Rearranging the formula to find the base area gives:     Substituting in the known values:     Therefore, the base area of the prism is .      A movie theater serves ice creams in two different containers.    Container (i)       Container (ii)          Calculate the volume of each container.    Which container holds more ice cream?          The volume of container (i) is given by:     The volume of container (ii) is given by:     Therefore,  The volume of container (i) is   The volume of container (ii) is .    Which container holds more ice cream?  Container (ii) holds more ice cream since is greater than .              Volume of pyramids    A is a solid shape that has a flat base and triangular sides that meet at a point at the top, called the apex.  The volume of a pyramid is the amount of space it occupies.         What you need      A ruler, a pencil, and a piece of paper.    A model of a net pyramid (you can make one using paper or cardboard).        Using the ruler, construct the net square base pyramid on the paper like the one shown below.   A square base of a pyramid        Construct three such nets and fold them to form three pyramids.    Assemble them to make a cube.    What is the volume of the cube you have made from the pyramids?    What is the volume of one pyramid?  What do you notice about the relationship between the volume of the cube and the volume of one pyramid?    Discuss your findings with other groups.           Use this worksheet below to practice finding the Volume of a Triangular Pyramid.    Adjust the height, base, and base_1 using the labeled sliders.    Answer the questions below.       Volume of a triangular pyramid        The volume of a pyramid is one-third the area of its base multiplied by its height. This means that if you know the area of the base and the height, you can easily find the volume.  Therefore, the volume of each pyramid is given by;     Which can be written as;     Where, where is the area of the base and the perpendicular height of the pyramid    Find the volume of te figure below.       To find the volume of the pyramid, we use the formula:     The base area is a rectangle with length and width , so:        Therefore, the volume of the pyramid is .      Calculate the volume of the following pyramids:     Triangular based with equal sides each measuring and a height of .  (Give your answer to decimal places)    Square based of sides and a height of .    Rectangular based of sides and and slant edge .          Triangular based pyramid  Since the base is triangular, we first find the area of the base.     The area of the base triangle is given by:     The volume of the pyramid is given by:       Square based pyramid  Since the base is square, we first find the area of the base.     The volume of the pyramid is given by:          Rectangular-based pyramid  Base sides:   Slant edge   Find height using Pythagoras theorem that is find half of base diagonal:     Use slant edge ( ) as hypotenuse to find height:     The base area is gotten by:     The volume of the pyramid is given by:        Therefore, the volumes of the pyramids are:     Triangular based pyramid:     Square based pyramid:     Rectangular based pyramid:          A crystal is in the form of two similar square based pyramids joined at their bases as shown below. Calculate the volume of the crystal if the height of the whole crystal.   Diagram of the crystal structure     The volume of a pyramid is given by the formula:     The base area of a square pyramid is given by the formula:     The volume of the crystal pyramid is given by:     Therefore, the volume of the crystal is .          Volume of a cone    A is a right pyramid with a circular base  In the limit, as the number of faces approaches infinity, the shape is a cone.  Play along with the interactive figure below to see how cone is formed from a pyramid.   A cone formed from a pyramid           What you need      A plastic or paper cone (e.g. party hat or funnel)    A cylinder of the same base radius and height as the cone (e.g. a cut bottle or measuring cylinder)    Rice or sand    A measuring jug (optional)        Observe the cone and the cylinder you have. Confirm that their base radii and heights are equal.    Fill the cone with rice or sand until it is full.    Pour the rice or sand from the cone into the cylinder.    Repeat filling the cone and pouring into the cylinder.    Count how many times you need to fill the cone to completely fill the cylinder.    How many cones of rice or sand are needed to fill the cylinder?  How do you find the volume of a cone?    Share your findings with other learners in the class.        Play along with the tabs,sliders to explore how the volume of a cone changes with its height and radius.   Volume of a cone        From your activity, you saw it takes three cones to fill a cylinder with the same base and height. This tells us that the cone’s volume is the volume of the cylinder.  The volume of a cone is one-third the volume of a cylinder with the same base radius and height.   Where is the radius of the base and is the height of the cone.    Calculate the volume of the cone shown below. (Take )              Therefore, the volume of the cone is .      A party hat has the shape of a cone. The volume of the hat is . The hat has a perpendicular height of , find the radius of the base of the hat.    The hat has the following dimensions:  Volume of hat = , height =      Therefore, the radius of the base of the hat is .      The figure below shows a model made from two cones. Determine the volume of the model. (Take )       The model consists of two cones with the same base radius and height.  The height of each cone is and the radius of the base is .  The volume of one cone is given by the formula:     Therefore, the volume of one cone is .          Volume of a frustum       What you need      A cone-shaped paper cup    Scissors    Ruler        Take the cone-shaped paper cup and measure its height and radius like the one below.   Conical cup      Record the (radius of base) and (height of whole cone).    Cut off the top part horizontally to create a frustum as shown below.   Frustum cup      Measure:     The radius of the new top    The height of the frustum       Find the volume of the smaller cone that was cut off you can see it below.   Smaller cone        Find the volume of the whole cone.    Find the volume of the frustum by subtracting the volume of the smaller cone from the volume of the whole cone.    Discuss how the volume of a frustum can be calculated.    Share your findings with the class.         When a cone or a pyramid is cut horizontally, The top part will be a smaller cone or pyramid, and the remaining part is called a frustum.     Which can be written as:       The figure below shows a frustum of a cone. Find its volume if the height of the cone is        The volume of the frustum can be calculated using the formula:     Therefore, the volume of the frustum is       A lampshade in the form of a frustum is cut from a cone of height . The bottom diameter of the lampshade is and the top diameter is . Calculate the volume of the lampshade if its vertical height is . (Take ).    The lampshade is in the form of frustum of a cone.     The diamension of the lampshade is given as:                    The volume of the frustum can be calculated using the formula:     Therefore, the volume of the lampshade is       The diagram below is a pyramid. The upper part of the pyramid is cut off. Calculate the volume of the frustum formed.          Volume of the big pyramid:     Volume of the small pyramid:        Therefore, the volume of the frustum formed is           Volume of a sphere          What you need:      A small ball (e.g. tennis ball, ping pong ball or football ball)    A measuring jug or graduated cylinder    Water    A string or tape measure        Predict: How much space (volume) the ball will take up.    Measure the radius:  Use the string or tape measure to find the diameter of the ball.  Divide by to get the radius (r).    Find the volume practically:     Fill the measuring jug halfway with water. Note this initial volume (V₁).    Submerge the ball completely in the water. Note the new volume (V₂).    Calculate the volume of the ball as:          Record your results.    Compare your predicted volume with the actual volume you measured.    Discuss with other learners how to calculate the volume of a sphere.     In the interactive simulation below, play along with the radius to identify the volume of a sphere.   Volume of a sphere        The volume of a sphere is given by:     where is the radius of the sphere.    Find the volume of the figure below: (Use )       The radius of the sphere is given as .  The volume is given by:     The volume of the sphere is .      Moraa made a spherical cake balls of diameter . If she had a minced cake of , find the number of cake balls she made from the minced cake.    Find the radius of one cake ball:  The radius is half of the diameter:     Find the volume of one cake ball     Find the number of cake balls     Therefore, Moraa made cake balls from the minced cake.      The figure below shows a globe with a radius of . Find its volume.(Use )       The radius of the globe is given as .  The volume is given by:     The volume of the globe is .            To learn more about volume of solids, explore these interactive and insightful resources:      Engage with interactive explanations and practice problems to deepen your understanding of the volume of various solids including prisms, cylinders, spheres, and cones. 🔗 Visit CK-12 Interactive Geometry      Gain a clear and concise understanding of calculating the volume of solids with this engaging video tutorial, perfect for visual learners. 🔗 Watch Now        "
-},
-{
-  "id": "def-Volume-of-prisms",
-  "level": "2",
-  "url": "sec-volume-of-solids.html#def-Volume-of-prisms",
-  "type": "Definition",
-  "number": "3.2.1",
-  "title": "",
-  "body": "   is the amount of space occupied by a three-dimensional object. It tells us how much something can hold.  - If an object is hollow, its volume tells us the capacity – how much liquid or air it can hold. If it is solid, volume tells us how much space it fills up.  For example,     The volume of water in a jug.    The volume of sand in a bucket.    The volume of a classroom (helps in knowing how much air it can hold).      "
-},
-{
-  "id": "def-Volume-of-prisms1",
-  "level": "2",
-  "url": "sec-volume-of-solids.html#def-Volume-of-prisms1",
-  "type": "Definition",
-  "number": "3.2.2",
-  "title": "",
-  "body": "  A prism is a solid with a uniform cross- section. The sides connecting the bases are parallelograms.  The volume of a prism with cross section area and length is given by .   "
+  "body": " Volume of Solids    is the amount of space occupied by a three-dimensional object. It tells us how much something can hold.  If an object is hollow, its volume tells us the capacity – how much liquid or air it can hold. If it is solid, volume tells us how much space it fills up.  For example,    Volume of prisms   A is a solid with a uniform cross- section. The sides connecting the bases are parallelograms.  The volume of a prism with cross section area and length is given by .    Volume of triangular based prism       Instructions      Imagine you are designing a small water channel shaped like a triangular prism to carry water from a tank to a garden.    Below is a cross-sectional diagram of the triangular prism channel.        How many faces does the triangular prism above have?           Draw the triangular face and label its base and height.    Using the diagram, calculate:     The area of the triangular cross-section.    The volume of the prism (channel) that will hold water.       Discuss with your partner:     What is the relationship between the base area and the volume of the prism?    How does changing the height of the prism affect its volume?          Key Takeaway   The figure shown below represents a triangular prism with a cross section area of and a length of .     The volume of a triangular prism is found by multiplying the area of its triangular cross-section by its length. Which can be writen as,       Find the volume of a triangular prism with a base area of and a length of .    To find the volume, we use the formula:     Therefore, the volume of the prism is .      Find the area of the figure below.       To find the area of the triangular prism, we need to calculate the area of the triangular base and the area of the three rectangular faces.  The base area of the triangle can be calculated using the formula:     The volume of the above figure is given by;     Therefore, the volume of the triangular prism is .      A loading company makes loaders of triangular prism as shown below. If the loader holds of soil, determine the length of the loader.                   Volume is given by:     Therefore, the length of the loader is .                Volume of rectangular based prism            Observe the school’s water tank or storage box.    Using a rectangular water tank as an example:  Measure (or estimate) its:     Length    Width    Height       Calculate the volume of the rectangular water tank.    Convert the volume to litres.    Discuss in your group:  How do we find the volume of a rectangular prism?     Play along with the sliders below to explore the volume of a rectangular prism.   Volume of a rectangular prism        Given a rectangular prisim like the one shown below,     The volume of a rectangular prism is given by the formula:     Which can be written as:     Work out the volume of the rectangular prism shown below.                   Therefore, the volume of the rectangular prism is .      The Volume of a rectangular based prism is . The height of the prism is . What is the base area of the prism?    We know that the volume of a prism is given by the formula:     Rearranging the formula to find the base area gives:     Substituting in the known values:     Therefore, the base area of the prism is .      A movie theater serves ice creams in two different containers.    Container (i)       Container (ii)          Calculate the volume of each container.    Which container holds more ice cream?          The volume of container (i) is given by:     The volume of container (ii) is given by:     Therefore,  The volume of container (i) is   The volume of container (ii) is .    Which container holds more ice cream?  Container (ii) holds more ice cream since is greater than .                    Volume of pyramids    Work in Groups    What you need      A ruler, a pencil, and a piece of paper.    A model of a net pyramid (you can make one using paper or cardboard).      Instrucrions      Using the ruler, construct the net square base pyramid on the paper like the one shown below.   A square base of a pyramid        Construct three such nets and fold them to form three pyramids.    Assemble them to make a cube.    What is the volume of the cube you have made from the pyramids?    What is the volume of one pyramid?  What do you notice about the relationship between the volume of the cube and the volume of one pyramid?    Discuss your findings with other groups.           Use this worksheet below to practice finding the Volume of a Triangular Pyramid.    Adjust the height, base, and base_1 using the labeled sliders.    Answer the questions below.       Volume of a triangular pyramid       A is a solid shape that has a flat base and triangular sides that meet at a point at the top, called the apex.     Key Takeaway   The volume of a pyramid is one-third the area of its base multiplied by its height. This means that if you know the area of the base and the height, you can easily find the volume.  Therefore, the volume of each pyramid is given by:     Which can be written as;     Where, where is the area of the base and the perpendicular height of the pyramid    Find the volume of te figure below.       To find the volume of the pyramid, we use the formula:     The base area is a rectangle with length and width , so:        Therefore, the volume of the pyramid is .      Calculate the volume of the following pyramids:     Triangular based with equal sides each measuring and a height of .  (Give your answer to decimal places)    Square based of sides and a height of .    Rectangular based of sides and and slant edge .          Triangular based pyramid  Since the base is triangular, we first find the area of the base.     The area of the base triangle is given by:     The volume of the pyramid is given by:       Square based pyramid  Since the base is square, we first find the area of the base.     The volume of the pyramid is given by:          Rectangular-based pyramid  Base sides:   Slant edge   Find height using Pythagoras theorem that is find half of base diagonal:     Use slant edge ( ) as hypotenuse to find height:     The base area is gotten by:     The volume of the pyramid is given by:        Therefore, the volumes of the pyramids are:     Triangular based pyramid:     Square based pyramid:     Rectangular based pyramid:          A crystal is in the form of two similar square based pyramids joined at their bases as shown below. Calculate the volume of the crystal if the height of the whole crystal.   Diagram of the crystal structure     The volume of a pyramid is given by the formula:     The base area of a square pyramid is given by the formula:     The volume of the crystal pyramid is given by:     Therefore, the volume of the crystal is .                Volume of a cone       What you need      A plastic or paper cone (e.g. party hat or funnel)    A cylinder of the same base radius and height as the cone (e.g. a cut bottle or measuring cylinder)    Rice or sand    A measuring jug (optional)      Instructions      Observe the cone and the cylinder you have. Confirm that their base radii and heights are equal.    Fill the cone with rice or sand until it is full.    Pour the rice or sand from the cone into the cylinder.    Repeat filling the cone and pouring into the cylinder.    Count how many times you need to fill the cone to completely fill the cylinder.    How many cones of rice or sand are needed to fill the cylinder?  How do you find the volume of a cone?    Share your findings with other learners in the class.        Play along with the tabs,sliders to explore how the volume of a cone changes with its height and radius.   Volume of a cone       A is a right pyramid with a circular base  In the limit, as the number of faces approaches infinity, the shape is a cone.  Play along with the interactive figure below to see how cone is formed from a pyramid.   A cone formed from a pyramid         From your activity, it takes three cones to fill a cylinder with the same base and height. This tells us that the cone’s volume is the volume of the cylinder.  Therefore the volume is given by?   Where is the radius of the base and is the height of the cone.    Calculate the volume of the cone shown below. (Take )              Therefore, the volume of the cone is .      A party hat has the shape of a cone. The volume of the hat is . The hat has a perpendicular height of , find the radius of the base of the hat.    The hat has the following dimensions:  Volume of hat = , height =      Therefore, the radius of the base of the hat is .      The figure below shows a model made from two cones. Determine the volume of the model. (Take )       The model consists of two cones with the same base radius and height.  The height of each cone is and the radius of the base is .  The volume of one cone is given by the formula:     Therefore, the volume of one cone is .                Volume of a frustum       What you need      A cone-shaped paper cup    Scissors    Ruler      Instructions      Take the cone-shaped paper cup and measure its height and radius like the one below.   Conical cup      Record the (radius of base) and (height of whole cone).    Cut off the top part horizontally to create a frustum as shown below.   Frustum cup      Measure:     The radius of the new top    The height of the frustum       Find the volume of the smaller cone that was cut off you can see it below.   Smaller cone        Find the volume of the whole cone.    Find the volume of the frustum by subtracting the volume of the smaller cone from the volume of the whole cone.    Discuss how the volume of a frustum is be calculated.    Share your findings with the class.         When a cone or a pyramid is cut horizontally, The top part will be a smaller cone or pyramid, and the remaining part is called a frustum.     Which can be written as:       The figure below shows a frustum of a cone. Find its volume if the height of the cone is        The volume of the frustum can be calculated using the formula:     Therefore, the volume of the frustum is       A lampshade in the form of a frustum is cut from a cone of height . The bottom diameter of the lampshade is and the top diameter is . Calculate the volume of the lampshade if its vertical height is . (Take ).    The lampshade is in the form of frustum of a cone.     The diamension of the lampshade is given as:                    The volume of the frustum can be calculated using the formula:     Therefore, the volume of the lampshade is       The diagram below is a pyramid. The upper part of the pyramid is cut off. Calculate the volume of the frustum formed.          Volume of the big pyramid:     Volume of the small pyramid:        Therefore, the volume of the frustum formed is                 Volume of a sphere    Work in Groups       What you need:      A small ball (e.g. tennis ball, ping pong ball or football ball)    A measuring jug or graduated cylinder    Water    A string or tape measure      Instructions      Predict: How much space (volume) the ball will take up.    Measure the radius:  Use the string or tape measure to find the diameter of the ball.  Divide by to get the radius (r).    Find the volume practically:     Fill the measuring jug halfway with water. Note this initial volume (V₁).    Submerge the ball completely in the water. Note the new volume (V₂).    Calculate the volume of the ball as:          Record your results.    Compare your predicted volume with the actual volume you measured.    Discuss with other learners how to calculate the volume of a sphere.     In the interactive simulation below, play along with the radius to identify the volume of a sphere.   Volume of a sphere        The volume of a sphere is given by:     Where is the radius of the sphere.    Find the volume of the figure below: (Use )       The radius of the sphere is given as .  The volume is given by:     The volume of the sphere is .      Moraa made a spherical cake balls of diameter . If she had a minced cake of , find the number of cake balls she made from the minced cake.    Find the radius of one cake ball:  The radius is half of the diameter:     Find the volume of one cake ball     Find the number of cake balls     Therefore, Moraa made cake balls from the minced cake.      The figure below shows a globe with a radius of . Find its volume.(Use )       The radius of the globe is given as .  The volume is given by:     The volume of the globe is .              To learn more about volume of solids, explore these interactive and insightful resources:      Engage with interactive explanations and practice problems to deepen your understanding of the volume of various solids including prisms, cylinders, spheres, and cones. Visit CK-12 Interactive Geometry      Gain a clear and concise understanding of calculating the volume of solids with this engaging video tutorial, perfect for visual learners. Watch Now        "
 },
 {
   "id": "subsubsec-Volume-of-a-volume-of-a-triangular-based-prism-2",
@@ -1780,14 +1897,23 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "3.2.1",
   "title": "",
-  "body": "          Imagine you are designing a small water channel shaped like a triangular prism to carry water from a tank to a garden.    Below is a cross-sectional diagram of the triangular prism channel.        How many faces does the triangular prism above have?              Draw the triangular face and label its base and height.    Using the diagram, calculate:     The area of the triangular cross-section.    The volume of the prism (channel) that will hold water.       Discuss with your partner:     What is the relationship between the base area and the volume of the prism?    How does changing the height of the prism affect its volume?        "
+  "body": "     Instructions      Imagine you are designing a small water channel shaped like a triangular prism to carry water from a tank to a garden.    Below is a cross-sectional diagram of the triangular prism channel.        How many faces does the triangular prism above have?           Draw the triangular face and label its base and height.    Using the diagram, calculate:     The area of the triangular cross-section.    The volume of the prism (channel) that will hold water.       Discuss with your partner:     What is the relationship between the base area and the volume of the prism?    How does changing the height of the prism affect its volume?        "
+},
+{
+  "id": "subsubsec-Volume-of-a-volume-of-a-triangular-based-prism-3",
+  "level": "2",
+  "url": "sec-volume-of-solids.html#subsubsec-Volume-of-a-volume-of-a-triangular-based-prism-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Key Takeaway "
 },
 {
   "id": "subsubsec-Volume-of-a-volume-of-a-triangular-based-prism-8",
   "level": "2",
   "url": "sec-volume-of-solids.html#subsubsec-Volume-of-a-volume-of-a-triangular-based-prism-8",
   "type": "Example",
-  "number": "3.2.3",
+  "number": "3.2.1",
   "title": "",
   "body": "  Find the volume of a triangular prism with a base area of and a length of .    To find the volume, we use the formula:     Therefore, the volume of the prism is .   "
 },
@@ -1796,7 +1922,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-volume-of-solids.html#subsubsec-Volume-of-a-volume-of-a-triangular-based-prism-9",
   "type": "Example",
-  "number": "3.2.4",
+  "number": "3.2.2",
   "title": "",
   "body": "  Find the area of the figure below.       To find the area of the triangular prism, we need to calculate the area of the triangular base and the area of the three rectangular faces.  The base area of the triangle can be calculated using the formula:     The volume of the above figure is given by;     Therefore, the volume of the triangular prism is .   "
 },
@@ -1805,16 +1931,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-volume-of-solids.html#subsubsec-Volume-of-a-volume-of-a-triangular-based-prism-10",
   "type": "Example",
-  "number": "3.2.5",
+  "number": "3.2.3",
   "title": "",
-  "body": "  A loading company makes loaders of triangular prism as shown below. If the loader holds of soil, determine the length of the loader.                   Volume is given by;     Therefore, the length of the loader is .   "
+  "body": "  A loading company makes loaders of triangular prism as shown below. If the loader holds of soil, determine the length of the loader.                   Volume is given by:     Therefore, the length of the loader is .   "
 },
 {
-  "id": "subsubsec-Volume-of-a-volume-of-a-triangular-based-prism-11",
+  "id": "subsubsec-Volume-of-a-volume-of-a-triangular-based-prism-11-1",
   "level": "2",
-  "url": "sec-volume-of-solids.html#subsubsec-Volume-of-a-volume-of-a-triangular-based-prism-11",
-  "type": "Checkpoint",
-  "number": "3.2.6",
+  "url": "sec-volume-of-solids.html#subsubsec-Volume-of-a-volume-of-a-triangular-based-prism-11-1",
+  "type": "Exercise",
+  "number": "3.2.1.1.1",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsubsec-Volume-of-a-volume-of-a-triangular-based-prism-11-2",
+  "level": "2",
+  "url": "sec-volume-of-solids.html#subsubsec-Volume-of-a-volume-of-a-triangular-based-prism-11-2",
+  "type": "Exercise",
+  "number": "3.2.1.1.2",
   "title": "",
   "body": "   "
 },
@@ -1828,65 +1963,83 @@ var ptx_lunr_docs = [
   "body": "          Observe the school’s water tank or storage box.    Using a rectangular water tank as an example:  Measure (or estimate) its:     Length    Width    Height       Calculate the volume of the rectangular water tank.    Convert the volume to litres.    Discuss in your group:  How do we find the volume of a rectangular prism?     Play along with the sliders below to explore the volume of a rectangular prism.   Volume of a rectangular prism    "
 },
 {
+  "id": "subsubsec-Volume-of-a-volume-of-a-rectangular-based-prism-9",
+  "level": "2",
+  "url": "sec-volume-of-solids.html#subsubsec-Volume-of-a-volume-of-a-rectangular-based-prism-9",
+  "type": "Example",
+  "number": "3.2.5",
+  "title": "",
+  "body": "  Work out the volume of the rectangular prism shown below.                   Therefore, the volume of the rectangular prism is .   "
+},
+{
   "id": "subsubsec-Volume-of-a-volume-of-a-rectangular-based-prism-10",
   "level": "2",
   "url": "sec-volume-of-solids.html#subsubsec-Volume-of-a-volume-of-a-rectangular-based-prism-10",
   "type": "Example",
-  "number": "3.2.8",
+  "number": "3.2.6",
   "title": "",
-  "body": "  Work out the volume of the rectangular prism shown below.                   Therefore, the volume of the rectangular prism is .   "
+  "body": "  The Volume of a rectangular based prism is . The height of the prism is . What is the base area of the prism?    We know that the volume of a prism is given by the formula:     Rearranging the formula to find the base area gives:     Substituting in the known values:     Therefore, the base area of the prism is .   "
 },
 {
   "id": "subsubsec-Volume-of-a-volume-of-a-rectangular-based-prism-11",
   "level": "2",
   "url": "sec-volume-of-solids.html#subsubsec-Volume-of-a-volume-of-a-rectangular-based-prism-11",
   "type": "Example",
-  "number": "3.2.9",
-  "title": "",
-  "body": "  The Volume of a rectangular based prism is . The height of the prism is . What is the base area of the prism?    We know that the volume of a prism is given by the formula:     Rearranging the formula to find the base area gives:     Substituting in the known values:     Therefore, the base area of the prism is .   "
-},
-{
-  "id": "subsubsec-Volume-of-a-volume-of-a-rectangular-based-prism-12",
-  "level": "2",
-  "url": "sec-volume-of-solids.html#subsubsec-Volume-of-a-volume-of-a-rectangular-based-prism-12",
-  "type": "Example",
-  "number": "3.2.10",
+  "number": "3.2.7",
   "title": "",
   "body": "  A movie theater serves ice creams in two different containers.    Container (i)       Container (ii)          Calculate the volume of each container.    Which container holds more ice cream?          The volume of container (i) is given by:     The volume of container (ii) is given by:     Therefore,  The volume of container (i) is   The volume of container (ii) is .    Which container holds more ice cream?  Container (ii) holds more ice cream since is greater than .      "
 },
 {
-  "id": "subsubsec-Volume-of-a-volume-of-a-rectangular-based-prism-13",
+  "id": "subsubsec-Volume-of-a-volume-of-a-rectangular-based-prism-12-1",
   "level": "2",
-  "url": "sec-volume-of-solids.html#subsubsec-Volume-of-a-volume-of-a-rectangular-based-prism-13",
-  "type": "Checkpoint",
-  "number": "3.2.13",
+  "url": "sec-volume-of-solids.html#subsubsec-Volume-of-a-volume-of-a-rectangular-based-prism-12-1",
+  "type": "Exercise",
+  "number": "3.2.1.2.1",
   "title": "",
   "body": "   "
+},
+{
+  "id": "subsubsec-Volume-of-a-volume-of-a-rectangular-based-prism-12-2",
+  "level": "2",
+  "url": "sec-volume-of-solids.html#subsubsec-Volume-of-a-volume-of-a-rectangular-based-prism-12-2",
+  "type": "Exercise",
+  "number": "3.2.1.2.2",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-volume-of-pyramids-2",
+  "level": "2",
+  "url": "sec-volume-of-solids.html#subsec-volume-of-pyramids-2",
+  "type": "Activity",
+  "number": "3.2.3",
+  "title": "",
+  "body": "  Work in Groups    What you need      A ruler, a pencil, and a piece of paper.    A model of a net pyramid (you can make one using paper or cardboard).      Instrucrions      Using the ruler, construct the net square base pyramid on the paper like the one shown below.   A square base of a pyramid        Construct three such nets and fold them to form three pyramids.    Assemble them to make a cube.    What is the volume of the cube you have made from the pyramids?    What is the volume of one pyramid?  What do you notice about the relationship between the volume of the cube and the volume of one pyramid?    Discuss your findings with other groups.           Use this worksheet below to practice finding the Volume of a Triangular Pyramid.    Adjust the height, base, and base_1 using the labeled sliders.    Answer the questions below.       Volume of a triangular pyramid    "
 },
 {
   "id": "def-Volume-of-pyramids",
   "level": "2",
   "url": "sec-volume-of-solids.html#def-Volume-of-pyramids",
   "type": "Definition",
-  "number": "3.2.14",
+  "number": "3.2.12",
   "title": "",
-  "body": "  A is a solid shape that has a flat base and triangular sides that meet at a point at the top, called the apex.  The volume of a pyramid is the amount of space it occupies.   "
+  "body": "  A is a solid shape that has a flat base and triangular sides that meet at a point at the top, called the apex.   "
 },
 {
-  "id": "subsec-volume-of-pyramids-3",
+  "id": "subsec-volume-of-pyramids-4",
   "level": "2",
-  "url": "sec-volume-of-solids.html#subsec-volume-of-pyramids-3",
-  "type": "Activity",
-  "number": "3.2.3",
+  "url": "sec-volume-of-solids.html#subsec-volume-of-pyramids-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
   "title": "",
-  "body": "     What you need      A ruler, a pencil, and a piece of paper.    A model of a net pyramid (you can make one using paper or cardboard).        Using the ruler, construct the net square base pyramid on the paper like the one shown below.   A square base of a pyramid        Construct three such nets and fold them to form three pyramids.    Assemble them to make a cube.    What is the volume of the cube you have made from the pyramids?    What is the volume of one pyramid?  What do you notice about the relationship between the volume of the cube and the volume of one pyramid?    Discuss your findings with other groups.           Use this worksheet below to practice finding the Volume of a Triangular Pyramid.    Adjust the height, base, and base_1 using the labeled sliders.    Answer the questions below.       Volume of a triangular pyramid    "
+  "body": "Key Takeaway "
 },
 {
   "id": "subsec-volume-of-pyramids-11",
   "level": "2",
   "url": "sec-volume-of-solids.html#subsec-volume-of-pyramids-11",
   "type": "Example",
-  "number": "3.2.17",
+  "number": "3.2.13",
   "title": "",
   "body": "  Find the volume of te figure below.       To find the volume of the pyramid, we use the formula:     The base area is a rectangle with length and width , so:        Therefore, the volume of the pyramid is .   "
 },
@@ -1895,7 +2048,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-volume-of-solids.html#subsec-volume-of-pyramids-12",
   "type": "Example",
-  "number": "3.2.18",
+  "number": "3.2.14",
   "title": "",
   "body": "  Calculate the volume of the following pyramids:     Triangular based with equal sides each measuring and a height of .  (Give your answer to decimal places)    Square based of sides and a height of .    Rectangular based of sides and and slant edge .          Triangular based pyramid  Since the base is triangular, we first find the area of the base.     The area of the base triangle is given by:     The volume of the pyramid is given by:       Square based pyramid  Since the base is square, we first find the area of the base.     The volume of the pyramid is given by:          Rectangular-based pyramid  Base sides:   Slant edge   Find height using Pythagoras theorem that is find half of base diagonal:     Use slant edge ( ) as hypotenuse to find height:     The base area is gotten by:     The volume of the pyramid is given by:        Therefore, the volumes of the pyramids are:     Triangular based pyramid:     Square based pyramid:     Rectangular based pyramid:       "
 },
@@ -1904,43 +2057,52 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-volume-of-solids.html#subsec-volume-of-pyramids-13",
   "type": "Example",
-  "number": "3.2.19",
+  "number": "3.2.15",
   "title": "",
   "body": "  A crystal is in the form of two similar square based pyramids joined at their bases as shown below. Calculate the volume of the crystal if the height of the whole crystal.   Diagram of the crystal structure     The volume of a pyramid is given by the formula:     The base area of a square pyramid is given by the formula:     The volume of the crystal pyramid is given by:     Therefore, the volume of the crystal is .   "
 },
 {
-  "id": "subsec-volume-of-pyramids-14",
+  "id": "subsec-volume-of-pyramids-14-1",
   "level": "2",
-  "url": "sec-volume-of-solids.html#subsec-volume-of-pyramids-14",
-  "type": "Checkpoint",
-  "number": "3.2.20",
+  "url": "sec-volume-of-solids.html#subsec-volume-of-pyramids-14-1",
+  "type": "Exercise",
+  "number": "3.2.2.1",
   "title": "",
   "body": "   "
+},
+{
+  "id": "subsec-volume-of-pyramids-14-2",
+  "level": "2",
+  "url": "sec-volume-of-solids.html#subsec-volume-of-pyramids-14-2",
+  "type": "Exercise",
+  "number": "3.2.2.2",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-volume-of-a-cone-2",
+  "level": "2",
+  "url": "sec-volume-of-solids.html#subsec-volume-of-a-cone-2",
+  "type": "Activity",
+  "number": "3.2.4",
+  "title": "",
+  "body": "     What you need      A plastic or paper cone (e.g. party hat or funnel)    A cylinder of the same base radius and height as the cone (e.g. a cut bottle or measuring cylinder)    Rice or sand    A measuring jug (optional)      Instructions      Observe the cone and the cylinder you have. Confirm that their base radii and heights are equal.    Fill the cone with rice or sand until it is full.    Pour the rice or sand from the cone into the cylinder.    Repeat filling the cone and pouring into the cylinder.    Count how many times you need to fill the cone to completely fill the cylinder.    How many cones of rice or sand are needed to fill the cylinder?  How do you find the volume of a cone?    Share your findings with other learners in the class.        Play along with the tabs,sliders to explore how the volume of a cone changes with its height and radius.   Volume of a cone    "
 },
 {
   "id": "def-volume-of-a-cone",
   "level": "2",
   "url": "sec-volume-of-solids.html#def-volume-of-a-cone",
   "type": "Definition",
-  "number": "3.2.21",
+  "number": "3.2.17",
   "title": "",
   "body": "  A is a right pyramid with a circular base  In the limit, as the number of faces approaches infinity, the shape is a cone.  Play along with the interactive figure below to see how cone is formed from a pyramid.   A cone formed from a pyramid     "
-},
-{
-  "id": "subsec-volume-of-a-cone-3",
-  "level": "2",
-  "url": "sec-volume-of-solids.html#subsec-volume-of-a-cone-3",
-  "type": "Activity",
-  "number": "3.2.4",
-  "title": "",
-  "body": "     What you need      A plastic or paper cone (e.g. party hat or funnel)    A cylinder of the same base radius and height as the cone (e.g. a cut bottle or measuring cylinder)    Rice or sand    A measuring jug (optional)        Observe the cone and the cylinder you have. Confirm that their base radii and heights are equal.    Fill the cone with rice or sand until it is full.    Pour the rice or sand from the cone into the cylinder.    Repeat filling the cone and pouring into the cylinder.    Count how many times you need to fill the cone to completely fill the cylinder.    How many cones of rice or sand are needed to fill the cylinder?  How do you find the volume of a cone?    Share your findings with other learners in the class.        Play along with the tabs,sliders to explore how the volume of a cone changes with its height and radius.   Volume of a cone    "
 },
 {
   "id": "subsec-volume-of-a-cone-8",
   "level": "2",
   "url": "sec-volume-of-solids.html#subsec-volume-of-a-cone-8",
   "type": "Example",
-  "number": "3.2.24",
+  "number": "3.2.19",
   "title": "",
   "body": "  Calculate the volume of the cone shown below. (Take )              Therefore, the volume of the cone is .   "
 },
@@ -1949,7 +2111,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-volume-of-solids.html#subsec-volume-of-a-cone-9",
   "type": "Example",
-  "number": "3.2.25",
+  "number": "3.2.20",
   "title": "",
   "body": "  A party hat has the shape of a cone. The volume of the hat is . The hat has a perpendicular height of , find the radius of the base of the hat.    The hat has the following dimensions:  Volume of hat = , height =      Therefore, the radius of the base of the hat is .   "
 },
@@ -1958,16 +2120,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-volume-of-solids.html#subsec-volume-of-a-cone-10",
   "type": "Example",
-  "number": "3.2.26",
+  "number": "3.2.21",
   "title": "",
   "body": "  The figure below shows a model made from two cones. Determine the volume of the model. (Take )       The model consists of two cones with the same base radius and height.  The height of each cone is and the radius of the base is .  The volume of one cone is given by the formula:     Therefore, the volume of one cone is .   "
 },
 {
-  "id": "subsec-volume-of-a-cone-11",
+  "id": "subsec-volume-of-a-cone-11-1",
   "level": "2",
-  "url": "sec-volume-of-solids.html#subsec-volume-of-a-cone-11",
-  "type": "Checkpoint",
-  "number": "3.2.27",
+  "url": "sec-volume-of-solids.html#subsec-volume-of-a-cone-11-1",
+  "type": "Exercise",
+  "number": "3.2.3.1",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-volume-of-a-cone-11-2",
+  "level": "2",
+  "url": "sec-volume-of-solids.html#subsec-volume-of-a-cone-11-2",
+  "type": "Exercise",
+  "number": "3.2.3.2",
   "title": "",
   "body": "   "
 },
@@ -1978,14 +2149,14 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "3.2.5",
   "title": "",
-  "body": "     What you need      A cone-shaped paper cup    Scissors    Ruler        Take the cone-shaped paper cup and measure its height and radius like the one below.   Conical cup      Record the (radius of base) and (height of whole cone).    Cut off the top part horizontally to create a frustum as shown below.   Frustum cup      Measure:     The radius of the new top    The height of the frustum       Find the volume of the smaller cone that was cut off you can see it below.   Smaller cone        Find the volume of the whole cone.    Find the volume of the frustum by subtracting the volume of the smaller cone from the volume of the whole cone.    Discuss how the volume of a frustum can be calculated.    Share your findings with the class.     "
+  "body": "     What you need      A cone-shaped paper cup    Scissors    Ruler      Instructions      Take the cone-shaped paper cup and measure its height and radius like the one below.   Conical cup      Record the (radius of base) and (height of whole cone).    Cut off the top part horizontally to create a frustum as shown below.   Frustum cup      Measure:     The radius of the new top    The height of the frustum       Find the volume of the smaller cone that was cut off you can see it below.   Smaller cone        Find the volume of the whole cone.    Find the volume of the frustum by subtracting the volume of the smaller cone from the volume of the whole cone.    Discuss how the volume of a frustum is be calculated.    Share your findings with the class.     "
 },
 {
   "id": "subsec-volume-of-a-frustum-8",
   "level": "2",
   "url": "sec-volume-of-solids.html#subsec-volume-of-a-frustum-8",
   "type": "Example",
-  "number": "3.2.31",
+  "number": "3.2.25",
   "title": "",
   "body": "  The figure below shows a frustum of a cone. Find its volume if the height of the cone is        The volume of the frustum can be calculated using the formula:     Therefore, the volume of the frustum is    "
 },
@@ -1994,7 +2165,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-volume-of-solids.html#subsec-volume-of-a-frustum-9",
   "type": "Example",
-  "number": "3.2.32",
+  "number": "3.2.26",
   "title": "",
   "body": "  A lampshade in the form of a frustum is cut from a cone of height . The bottom diameter of the lampshade is and the top diameter is . Calculate the volume of the lampshade if its vertical height is . (Take ).    The lampshade is in the form of frustum of a cone.     The diamension of the lampshade is given as:                    The volume of the frustum can be calculated using the formula:     Therefore, the volume of the lampshade is    "
 },
@@ -2003,16 +2174,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-volume-of-solids.html#subsec-volume-of-a-frustum-10",
   "type": "Example",
-  "number": "3.2.33",
+  "number": "3.2.27",
   "title": "",
   "body": "  The diagram below is a pyramid. The upper part of the pyramid is cut off. Calculate the volume of the frustum formed.          Volume of the big pyramid:     Volume of the small pyramid:        Therefore, the volume of the frustum formed is    "
 },
 {
-  "id": "subsec-volume-of-a-frustum-11",
+  "id": "subsec-volume-of-a-frustum-11-1",
   "level": "2",
-  "url": "sec-volume-of-solids.html#subsec-volume-of-a-frustum-11",
-  "type": "Checkpoint",
-  "number": "3.2.34",
+  "url": "sec-volume-of-solids.html#subsec-volume-of-a-frustum-11-1",
+  "type": "Exercise",
+  "number": "3.2.4.1",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-volume-of-a-frustum-11-2",
+  "level": "2",
+  "url": "sec-volume-of-solids.html#subsec-volume-of-a-frustum-11-2",
+  "type": "Exercise",
+  "number": "3.2.4.2",
   "title": "",
   "body": "   "
 },
@@ -2023,14 +2203,14 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "3.2.6",
   "title": "",
-  "body": "        What you need:      A small ball (e.g. tennis ball, ping pong ball or football ball)    A measuring jug or graduated cylinder    Water    A string or tape measure        Predict: How much space (volume) the ball will take up.    Measure the radius:  Use the string or tape measure to find the diameter of the ball.  Divide by to get the radius (r).    Find the volume practically:     Fill the measuring jug halfway with water. Note this initial volume (V₁).    Submerge the ball completely in the water. Note the new volume (V₂).    Calculate the volume of the ball as:          Record your results.    Compare your predicted volume with the actual volume you measured.    Discuss with other learners how to calculate the volume of a sphere.     In the interactive simulation below, play along with the radius to identify the volume of a sphere.   Volume of a sphere    "
+  "body": "  Work in Groups       What you need:      A small ball (e.g. tennis ball, ping pong ball or football ball)    A measuring jug or graduated cylinder    Water    A string or tape measure      Instructions      Predict: How much space (volume) the ball will take up.    Measure the radius:  Use the string or tape measure to find the diameter of the ball.  Divide by to get the radius (r).    Find the volume practically:     Fill the measuring jug halfway with water. Note this initial volume (V₁).    Submerge the ball completely in the water. Note the new volume (V₂).    Calculate the volume of the ball as:          Record your results.    Compare your predicted volume with the actual volume you measured.    Discuss with other learners how to calculate the volume of a sphere.     In the interactive simulation below, play along with the radius to identify the volume of a sphere.   Volume of a sphere    "
 },
 {
   "id": "subsec-volume-of-a-sphere-7",
   "level": "2",
   "url": "sec-volume-of-solids.html#subsec-volume-of-a-sphere-7",
   "type": "Example",
-  "number": "3.2.36",
+  "number": "3.2.29",
   "title": "",
   "body": "  Find the volume of the figure below: (Use )       The radius of the sphere is given as .  The volume is given by:     The volume of the sphere is .   "
 },
@@ -2039,7 +2219,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-volume-of-solids.html#subsec-volume-of-a-sphere-8",
   "type": "Example",
-  "number": "3.2.37",
+  "number": "3.2.30",
   "title": "",
   "body": "  Moraa made a spherical cake balls of diameter . If she had a minced cake of , find the number of cake balls she made from the minced cake.    Find the radius of one cake ball:  The radius is half of the diameter:     Find the volume of one cake ball     Find the number of cake balls     Therefore, Moraa made cake balls from the minced cake.   "
 },
@@ -2048,16 +2228,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-volume-of-solids.html#subsec-volume-of-a-sphere-9",
   "type": "Example",
-  "number": "3.2.38",
+  "number": "3.2.31",
   "title": "",
   "body": "  The figure below shows a globe with a radius of . Find its volume.(Use )       The radius of the globe is given as .  The volume is given by:     The volume of the globe is .   "
 },
 {
-  "id": "subsec-volume-of-a-sphere-10",
+  "id": "subsec-volume-of-a-sphere-10-1",
   "level": "2",
-  "url": "sec-volume-of-solids.html#subsec-volume-of-a-sphere-10",
-  "type": "Checkpoint",
-  "number": "3.2.39",
+  "url": "sec-volume-of-solids.html#subsec-volume-of-a-sphere-10-1",
+  "type": "Exercise",
+  "number": "3.2.5.1",
   "title": "",
   "body": "   "
 },
@@ -2066,9 +2246,9 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-volume-of-solids.html#subsec-volume-of-a-sphere-11",
   "type": "Technology",
-  "number": "3.2.40",
+  "number": "3.2.32",
   "title": "",
-  "body": "    To learn more about volume of solids, explore these interactive and insightful resources:      Engage with interactive explanations and practice problems to deepen your understanding of the volume of various solids including prisms, cylinders, spheres, and cones. 🔗 Visit CK-12 Interactive Geometry      Gain a clear and concise understanding of calculating the volume of solids with this engaging video tutorial, perfect for visual learners. 🔗 Watch Now      "
+  "body": "    To learn more about volume of solids, explore these interactive and insightful resources:      Engage with interactive explanations and practice problems to deepen your understanding of the volume of various solids including prisms, cylinders, spheres, and cones. Visit CK-12 Interactive Geometry      Gain a clear and concise understanding of calculating the volume of solids with this engaging video tutorial, perfect for visual learners. Watch Now      "
 },
 {
   "id": "sec-mass-volume-weight-and-density",
@@ -4165,7 +4345,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.2",
   "title": "Probability",
-  "body": " Probability   probability refers to the likelihood or chance of an event occurring.  It's a numerical measure that quantifies how likely it is that a specific outcome will happen in a situation with uncertain results.  Probabilities are expressed as numbers between 0 and 1, or as percentages from 0% to 100%.    Introduction to Probability               Each pair of students tosses a coin 20 times.    Record how many times it lands on Heads and how many times on Tails.    Complete a tally table and discuss:   Were the outcomes equal?    Was any outcome more likely?           A coin is tossed once. What is the probability of getting a Head?    Sample space = {Head, Tail}  Number of favorable outcomes (Head) = 1  Total outcomes = 2         Range of Probability      Draw a horizontal line labeled from 0 to 1.  Place the following events on the line where you think they belong:   The sun will rise tomorrow    Rolling a 3 on a fair die    Picking a red ball from a bag with 1 red and 9 blue balls    Getting heads on a coin         Probability is written as a number between 0 and 1    = Impossible event     = Event is equally likely to happen or not happen     = Certain event       A bag contains 6 red and 2 blue marbles. What is the probability of drawing a red marble?    Total marbles   Favorable outcomes (red)         This is a likely event, since is closer to 1.      Exclusive Events  Two or more events are mutually exclusive if they cannot happen at the same time.         Roll a fair die once.    Event A: Getting an even number    Event B: Getting an odd number     Discuss:   Are these events mutually exclusive?    what is          In other words, the occurrence of one event means the other cannot occur.    A bag contains 3 red, 2 blue, and 1 yellow marble. One marble is drawn.  Find the probability of drawing:   A red marble    A yellow marble    A red or yellow marble       Total marbles      Red and yellow are mutually exclusive (you can't pick both at once)            Independent Events  Two events are independent if the outcome of one does not affect the outcome of the other.         Toss a coin and roll a die at the same time.    Record the outcome (e.g., Heads and 4).    Discuss:   Are these two events independent?    Can the coin toss result affect the die roll?            In other words, the result of one event has no influence on the second event.    A coin is tossed twice. What is the probability of getting heads both times?    First toss:   Second toss:   They are independent, so:            Tree Diagram  A tree diagram is a visual tool used to show all possible outcomes of two or more events, especially when calculating probabilities of combined or successive events.         Construct a tree diagram for tossing a coin twice.    Label the branches with:   First toss: H or T each with     Second toss: H or T again each with        Find the probability of each e.g(P(HH), P(HT))         It helps organize outcomes in branches and is particularly useful for independent events.    A bag has 2 red and 1 green marble. A marble is drawn, replaced, then another is drawn.  Draw a tree diagram and find the probability of getting     Two red marbles    One red and one green (in any order)          Total marbles         Tree Diagram where R = P(Red) and G = P(Green)       P(Red and Red)       (Red then Green)     P(Green then Red)     Total          Application of Probability  Probability helps us make informed decisions in daily life, games, weather forecasting, business, health, and risk analysis.         Look at your class register for the past 10 school days.    Count how many days a specific student was present.    Estimate the probability that the student will attend tomorrow.         It allows us to predict, estimate risk, and plan ahead based on chance and likelihood.    A weather report says there's a 70% chance of rain tomorrow.  That means this is not certain, but likely.      A study shows that 1 in 4 people are likely to catch a cold during the cold season.  \\textbf{P(Catch a cold) = }           "
+  "body": " Probability   Probability refers to the likelihood or chance of an event occurring.  It is a numerical measure that quantifies how likely it is that a specific outcome will happen in a situation with uncertain results.  Probabilities are expressed as numbers between 0 and 1 or as percentages from 0% to 100%.    Introduction to Probability               Each pair of students tosses a coin 20 times.    Record how many times it lands on Heads and how many times on Tails.    Complete a tally table and discuss:   Were the outcomes equal?    Was any outcome more likely?            Understanding probability helps us predict outcomes and make decisions in real life (e.g., weather forecasts, games of chance, insurance, business).    A coin is tossed once. What is the probability of getting a Head?    Sample space = {Head, Tail}  Number of favorable outcomes (Head) = 1  Total outcomes = 2         Range of Probability      Draw a horizontal line labeled from 0 to 1.  Place the following events on the line where you think they belong:   The sun will rise tomorrow    Rolling a 3 on a fair die    Picking a red ball from a bag with 1 red and 9 blue balls    Getting heads on a coin         Probability is written as a number between 0 and 1    = Impossible event     = Event is equally likely to happen or not happen     = Certain event       A bag contains 6 red and 2 blue marbles. What is the probability of drawing a red marble?    Total marbles   Favorable outcomes (red)         This is a likely event, since is closer to 1.      Exclusive Events  Two or more events are mutually exclusive if they cannot happen at the same time.         Roll a fair die once.    Event A: Getting an even number    Event B: Getting an odd number     Discuss:   Are these events mutually exclusive?    what is          In other words, the occurrence of one event means the other cannot occur.    A bag contains 3 red, 2 blue, and 1 yellow marble. One marble is drawn.  Find the probability of drawing:   A red marble    A yellow marble    A red or yellow marble       Total marbles      Red and yellow are mutually exclusive (you can't pick both at once)            Independent Events  Two events are independent if the outcome of one does not affect the outcome of the other.         Toss a coin and roll a die at the same time.    Record the outcome (e.g., Heads and 4).    Discuss:   Are these two events independent?    Can the coin toss result affect the die roll?            In other words, the result of one event has no influence on the second event.    A coin is tossed twice. What is the probability of getting heads both times?    First toss:   Second toss:   They are independent, so:            Tree Diagram  A tree diagram is a visual tool used to show all possible outcomes of two or more events, especially when calculating probabilities of combined or successive events.         Construct a tree diagram for tossing a coin twice.    Label the branches with:   First toss: H or T each with     Second toss: H or T again each with        Find the probability of each e.g(P(HH), P(HT))         It helps organize outcomes in branches and is particularly useful for independent events.    A bag has 2 red and 1 green marble. A marble is drawn, replaced, then another is drawn.  Draw a tree diagram and find the probability of getting     Two red marbles    One red and one green (in any order)          Total marbles         Tree Diagram where R = P(Red) and G = P(Green)       P(Red and Red)       (Red then Green)     P(Green then Red)     Total          Application of Probability  Probability helps us make informed decisions in daily life, games, weather forecasting, business, health and risk analysis.         Look at your class register for the past 10 school days.    Count how many days a specific student was present.    Estimate the probability that the student will attend tomorrow.         Probability allows us to predict, estimate risk, and plan ahead based on chance and likelihood.    A weather report says there's a 70% chance of rain tomorrow.  This means the event is not certain, but it is likely.      A study shows that 1 in 4 people are likely to catch a cold during the cold season.              "
 },
 {
   "id": "subsec-introduction_to_probability-2",
@@ -4177,9 +4357,9 @@ var ptx_lunr_docs = [
   "body": "             Each pair of students tosses a coin 20 times.    Record how many times it lands on Heads and how many times on Tails.    Complete a tally table and discuss:   Were the outcomes equal?    Was any outcome more likely?        "
 },
 {
-  "id": "subsec-introduction_to_probability-3",
+  "id": "subsec-introduction_to_probability-5",
   "level": "2",
-  "url": "sec-probability.html#subsec-introduction_to_probability-3",
+  "url": "sec-probability.html#subsec-introduction_to_probability-5",
   "type": "Example",
   "number": "5.2.1",
   "title": "",
@@ -4273,7 +4453,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "5.2.6",
   "title": "",
-  "body": "  A weather report says there's a 70% chance of rain tomorrow.  That means this is not certain, but likely.   "
+  "body": "  A weather report says there's a 70% chance of rain tomorrow.  This means the event is not certain, but it is likely.   "
 },
 {
   "id": "subsec-application_of_probability-7",
@@ -4282,7 +4462,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "5.2.7",
   "title": "",
-  "body": "  A study shows that 1 in 4 people are likely to catch a cold during the cold season.  \\textbf{P(Catch a cold) = }         "
+  "body": "  A study shows that 1 in 4 people are likely to catch a cold during the cold season.            "
 },
 {
   "id": "backmatter-2",
