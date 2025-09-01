@@ -66,27 +66,108 @@
                 <li>
                     <p>
                         Identify the lowest and highest temperatures in the data
+                        <ul>
+                            <li>
+                                <p>
+                                    Lowest: 24°C
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Highest: 36°C
+                                </p>
+                            </li>
+                        </ul>
                     </p>
                 </li>
                 <li>
                     <p>
-                        Work out the difference between them.
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        Choose a suitable class width that allows you to divide the temperatures into 5 equal intervals.
+                        Work out the difference between them and choose a suitable class width that allows you to divide the temperatures into 5 equal intervals.
+                        <ul>
+                            <li>
+                                <p>
+                                    Range <m>= 36 - 24 = 12^°C</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    To divide into <m>5</m> equal intervals, calculate:
+                                    <ul>
+                                        <li>
+                                            <p>
+                                                Class width <me> = 12 \div 5 = 2.4 </me>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                Rounding up to the next whole number gives a class width of <m>3^°C</m>.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </p>
+                            </li>
+                        </ul>
                     </p>
                 </li>
                 <li>
                     <p>
                         Write down the 5 class intervals.
                     </p>
+                    <p>
+                        Start from the lowest value <m>(24°C)</m>, adding the class width:
+                    </p>
+                    <tabular top="minor" bottom="minor" left="minor" right="minor">
+                        <col halign="center" width="50%"></col>
+                        <row>
+                            <cell>Interval</cell> <cell>Covers</cell>
+                        </row>
+                        <row>
+                            <cell>24 - 26</cell> <cell>24, 25, 26</cell>
+                        </row>
+                        <row>
+                            <cell>27 - 29</cell> <cell>27, 28, 29</cell>
+                        </row>
+                        <row>
+                            <cell>30 - 32</cell> <cell>30, 31, 32</cell>
+                        </row>
+                        <row>
+                            <cell>33 - 35</cell> <cell>33, 34, 35</cell>
+                        </row>
+                        <row>
+                            <cell>36 - 38</cell> <cell>36, 37, 38</cell>
+                        </row>
+                    </tabular>
+                    <note>
+                        <p>
+                            (even though 38 isn't in the data, the interval must cover the full range)
+                        </p>
+                    </note>
                 </li>
                 <li>
                     <p>
                         Create a frequency table showing how many days fall into each interval.
                     </p>
+                    <tabular top="minor" bottom="minor" left="minor" right="minor">
+                        <col halign="center" width="50%"></col>
+                        <row>
+                            <cell>Class Interval</cell> <cell>Frequency</cell>
+                        </row>
+                        <row>
+                            <cell>24 - 26</cell> <cell>4</cell>
+                        </row>
+                        <row>
+                            <cell>27 - 29</cell> <cell>5</cell>
+                        </row>
+                        <row>
+                            <cell>30 - 32</cell> <cell>6</cell>
+                        </row>
+                        <row>
+                            <cell>33 - 35</cell> <cell>5</cell>
+                        </row>
+                        <row>
+                            <cell>36 - 38</cell> <cell>1</cell>
+                        </row>
+                    </tabular>
                 </li>
                 <li>
                     <p>
@@ -97,25 +178,28 @@
         </p>
     </activity>
 
-    <p>
-        <m>\textbf{Class}</m> width is the size of each interval when grouping data. 
-        It is determined by the range of the data and the number of intervals you want to create.
-    </p>
+    <assemblage xml:id="assemblage-Key_Takeaway">
+        <title>Key Takeaway</title>
+           <p>
+                <m>\textbf{Class}</m> width is the size of each interval when grouping data. 
+                It is determined by the range of the data and the number of intervals you want to create.
+            </p>
 
-    <p>
-        When the data is widely spread out, it is often useful to group the data into intervals. 
-        This makes it easier to analyze and interpret the data. 
-        The choice of class width is crucial for effective grouping.
-    </p>
-    <p>
-        The diferrence between the highest and lowest values in a dataset is called the <m>\textbf{range}</m>.
-        The range gives you an idea of how spread out the data is.
-    </p>
-    <p>
-        The lowest number in the class interval is called the <m>\textbf{lower class boundary} \, \text{or} \, \textbf{lower class limit}</m>,
-        and the highest number is called the <m>\textbf{upper class boundary} \, \text{or} \, \textbf{upper class limit}</m>.
-        The class width is the difference between the upper and lower class boundaries.
-    </p>
+            <p>
+                When the data is widely spread out, it is often useful to group the data into intervals. 
+                This makes it easier to analyze and interpret the data. 
+                The choice of class width is crucial for effective grouping.
+            </p>
+            <p>
+                The diferrence between the highest and lowest values in a dataset is called the <m>\textbf{range}</m>.
+                The range gives you an idea of how spread out the data is.
+            </p>
+            <p>
+                The lowest number in the class interval is called the <m>\textbf{lower class boundary} \, \text{or} \, \textbf{lower class limit}</m>,
+                and the highest number is called the <m>\textbf{upper class boundary} \, \text{or} \, \textbf{upper class limit}</m>.
+                The class width is the difference between the upper and lower class boundaries.
+            </p>
+    </assemblage>
     <p>
         To determine an appropriate class width for grouping data, follow these steps:
     </p>
