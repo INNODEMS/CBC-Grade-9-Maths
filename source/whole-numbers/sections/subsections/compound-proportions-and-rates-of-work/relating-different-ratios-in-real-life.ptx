@@ -1,33 +1,14 @@
 <subsection xml:id="subsection-relating-different-ratios-in-real-life" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Relating different ratios in real life</title>
-    <p>
-        In real life, we often encounter situations where we need to relate different ratios or rates of work.
-         For example, if James a Grade <m>9</m> student can complete a math problem in a <m>5</m> minutes, and Esther also a Grade <m>10</m> learner completes the same task in <m>4</m> minutes, we can express their work rates as ratios.
-         By understanding these ratios, we can determine how long it will take for them to complete the task together or how their individual contributions compare.
-    </p>
-    <p>
-        Consider the numbers <m>3, 6, 12</m> and <m>24</m>. You may notice that each number is equal to the previous number multiplied by <m>2</m>. 
-        The <m>4</m> numbers are therefore said to be in continued proportion.
-        
-    </p>
-    <p>
-        Generally, if <m>4</m> numbers, <m>a, b, c</m> and <m>d</m> are in continued proportion:
-        
-    </p>
-    <p>
-        <m>\frac{a}{b} = \frac{b}{c} = \frac{c}{d}</m>
-    </p>
-    <p>
-        Since <m>\frac{a}{b} = \frac{b}{c},</m> then <m> b^2 = ac</m>
-    </p>
-    <p>
-        <m>b = \pm \sqrt{ac} </m>
-    </p>
-    <p>
-        If numbers are in continued proportion, they form a geometric progression since they have a common ratio.
-    </p>
+
     <activity>
         <statement>
+            <p>
+                <alert>Work in Groups</alert>
+            </p>
+            <p>
+                <alert>Instructions</alert>
+            </p>
             <p>
                 Mr Kamboi, a Grade <m>9</m> teacher, organized for a short distance race. The race had <m>5</m> stations that is station <m>A</m>, <m>B</m>, <m>C</m>, <m>D</m> and <m>E</m>.
             </p>
@@ -61,23 +42,74 @@
                 </row>
             </tabular>
             <p>
-               1. In groups of <m>5</m>, draw a diagram to represent the stations and the distances between them.
-            </p>
-            <p>
-                2.If the distance between the stations is in continued proportion, find the distance between station <m>A</m> and <m>B</m>, <m>B</m> and <m>C</m>, <m>C</m> and <m>D</m>, and <m>D</m> and <m>E</m>.
-            </p>
-            <p>
-                3. Identify any proportional relationships between the distance AB and CD and the distance BC and DE.
-            </p>
-            <p>
-                4. Work out the ratio of AB:BC and CD:DE in simplest form.
-            </p>
-            <p>
-                5. Share your findings with the class.
+                <ol>
+                    <li>
+                        <p>
+                            Use the information in the table to make a sketch showing the stations and the distances between them.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            If the distance between the stations is in continued proportion, find the distance between station <m>A</m> and <m>B</m>, <m>B</m> and <m>C</m>, <m>C</m> and <m>D</m>, and <m>D</m> and <m>E</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Identify any proportional relationships between the distance <m>AB</m> and <m>CD</m> and the distance <m>BC</m> and <m>DE</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Work out the ratio of <m>AB:BC</m> and <m>CD:DE</m> in simplest form.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Share your work with your fellow learners.
+                        </p>
+                    </li>
+                </ol>
             </p>
         </statement>
     </activity>
-    
+    <definition xml:id="def-continued-proportion">
+        <statement>
+            <p>
+               
+              If <m>4</m> numbers, <m>a, b, c</m> and <m>d</m> are in continued proportion, then:
+                
+            </p>
+            <p>
+                <me>\frac{a}{b} = \frac{b}{c} = \frac{c}{d}</me>
+            </p>
+            <p>
+                <m>\quad\quad</m>Since 
+                <me>\frac{a}{b} = \frac{b}{c},</me> <m>\quad\quad</m>then <me> b^2 = ac</me>
+            </p>
+            <p>
+               <m>\quad\quad</m>Therefore,  
+            </p> 
+            <p>
+                <me>b = \pm \sqrt{ac} </me>
+            </p>
+            
+        </statement>
+    </definition>
+    <p>
+        <alert>Key Takeaway</alert>
+    </p>
+    <p>
+       <m>\bullet</m> When numbers are in continued proportion, they form a geometric progression because each term is obtained by multiplying the previous term by the same common ratio.
+    </p>
+    <p>
+        <m>\bullet</m> For example, consider the numbers <m>3, 6, 12, 24</m>.  
+        Here, each number is equal to the previous number multiplied by <m>2</m>.  
+        Since the common ratio is <m>2</m>, the four numbers are said to be in continued proportion.
+    </p>
+    <p>
+        <m>\bullet</m> In real life, ratios help us compare quantities. For example, if James takes <m>5</m> minutes to solve a math problem and Esther takes <m>4</m> minutes for the same task, we can compare their times using the ratio <m>5:4</m>.  
+        Ratios like this allow us to see how one quantity relates to another in everyday situations.
+   </p>
 
     <example>
         <statement>
@@ -90,98 +122,94 @@
                 Let John's current age be <m>3x</m> and Mary's current age be <m>4x</m>.
             </p>
             <p>
-                In <m>5</m> years, John's age will be <m>3x + 5</m> and Mary's age will be <m>4x + 5</m>.
+                In <m>5</m> years, their ages will be <m>3x + 5</m> and <m>4x + 5</m> respectively.
             </p>
             <p>
-                According to the problem, we have:
+                Since the ratio of their ages at that time is given as <m>4:5</m>, we can write:
             </p>
             <p>
-                <md>
-                    <mrow>\frac{3x + 5}{4x + 5} = \frac{4}{5}</mrow>
-                </md>
+                <md><mrow>\frac{3x + 5}{4x + 5} =\amp \frac{4}{5}</mrow></md>
+                
             </p>
             <p>
-                Cross-multiplying gives us:
+                Cross-multiplying:
             </p>
             <p>
-                <md>
-                    <mrow>5(3x + 5) = 4(4x + 5)</mrow>
-                </md>
+                <md><mrow>5(3x + 5) =\amp 4(4x + 5)</mrow></md>
             </p>
             <p>
-                Simplifying this, we have:
+                Expanding both sides:
             </p>
             <p>
-                <md>
-                    <mrow>15x + 25 = 16x + 20</mrow>
-                </md>
+                <md><mrow>15x + 25 =\amp 16x + 20</mrow></md>
             </p>
             <p>
-                Rearranging gives us:
+                Simplifying gives:
             </p>
             <p>
-                <md>
-                    <mrow>x = 5</mrow>
-                </md>
+                <md><mrow>x =\amp 5</mrow></md>
             </p>
             <p>
-                Therefore, John's current age is:
+                Substituting back:
             </p>
             <p>
-                <md><mrow>3 \times 5 = 15</mrow></md>,
-                 and Mary's current age is:
-                 <md><mrow>4 \times 5 = 20</mrow></md>.
+                John's current age = <md><mrow>3 \times 5 =\amp 15</mrow></md> years.
             </p>
-
+            <p>
+                Mary's current age = <md><mrow>4 \times 5 =\amp 20</mrow></md> years.
+            </p>
+            <p>
+                Therefore, John is <m>15</m> years old and Mary is <m>20</m> years old.
+            </p>
         </solution>
-
     </example>
+
     <example>
         <statement>
             <p>
-                Given that the ratio <m>x:y=2:3</m>, find the ratio <m>(5x−2y):(x+y)</m>
+                Given that the ratio <m>x:y=2:3</m>, find the ratio <m>(5x - 2y):(x+y)</m>
             </p>
         </statement>
         <solution>
             <p>
-                We start with the given ratio <m>x:y=2:3</m>. This means we can express <m>x</m> and <m>y</m> in terms of a common variable, say <m>k</m>:
+            Since <m>x:y = 2:3</m>, we can let:
             </p>
             <p>
                 <md>
-                    <mrow>x = 2k</mrow>
-                    <mrow>y = 3k</mrow>
+                    <mrow>x =\amp 2k</mrow>
+                    <mrow>y =\amp 3k</mrow>
                 </md>
             </p>
             <p>
-                Now, we need to find the ratio <m>(5x−2y):(x+y)</m>. Substituting the values of <m>x</m> and <m>y</m> gives us:
+                Substituting into <m>(5x - 2y):(x+y)</m>:
             </p>
             <p>
                 <md>
-                    <mrow>5x - 2y = 5(2k) - 2(3k) = 10k - 6k = 4k</mrow>
-                    <mrow>x + y = 2k + 3k = 5k</mrow>
+                    <mrow>5x - 2y =\amp 5(2k) - 2(3k)</mrow>
+                    <mrow> =\amp 10k - 6k </mrow>
+                    <mrow> =\amp 4k</mrow>
+                    <mrow>x + y =\amp 2k + 3k</mrow>
+                    <mrow> =\amp 5k </mrow>
                 </md>
             </p>
             <p>
-                Therefore, the ratio becomes:
+                Therefore:
             </p>
             <p>
                 <md>
-                    <mrow>(5x−2y):(x+y) = 4k:5k</mrow>
-                </md>
+                <mrow>(5x - 2y):(x+y) =\amp 4k:5k</mrow>
+            </md>
             </p>
             <p>
-                Simplifying this ratio, we can cancel out <m>k</m> (assuming <m>k ≠ 0</m>):
+                Simplify the ratio by cancelling <m>k</m> (where <m>k ≠ 0</m>):
             </p>
             <p>
                 <md>
-                    <mrow>4:5</mrow>
-                </md>
+                <mrow>4:5</mrow>
+            </md>
             </p>
             <p>
-                Therefore, the ratio <m>(5x−2y):(x+y)</m> simplifies to <m>4:5</m>.
-            </p>
-            <p>
-                
+                Therefore, the ratio <m>(5x-2y):(x+y)</m> simplifies to <m>4:5</m>.
             </p>
         </solution>
     </example>
@@ -197,7 +225,7 @@
             </p>
             <p>
                 <md>
-                    <mrow>\frac{22}{X} = \frac{X}{88}</mrow>
+                    <mrow>\frac{22}{X} =\amp \frac{X}{88}</mrow>
                 </md>
             </p>
             <p>
@@ -205,7 +233,7 @@
             </p>
             <p>
                 <md>
-                    <mrow>22 \times 88 = X^2</mrow>
+                    <mrow>22 \times 88 =\amp X^2</mrow>
                 </md>
             </p>
             <p>
@@ -213,14 +241,14 @@
             </p>
             <p>
                 <md>
-                    <mrow>1936 = X^2</mrow>
+                    <mrow>1936 =\amp X^2</mrow>
                 </md>
             </p>
             <p>
-                Hence <m>X = \sqrt{1936}</m> 
+                Hence, <m>X = \sqrt{1936}</m> 
             </p>
             <p>
-                <m>= 44 </m>
+                <me>= 44 </me>
             </p>
         </solution>
     </example>
