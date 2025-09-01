@@ -1,5 +1,13 @@
 <section xml:id="sec-trigonomery"  xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Trigonomery</title>
+    <title>Trigonometry</title>
+
+    <p>
+        Trigonometry is a branch of mathematics that studies the relationship between the angles of a right-angled triangle and the ratios of its sides.
+    </p>
+
+    <p>
+        These ratios are known as trigonometric ratios and they include sine, cosine and tangent
+    </p>
     <xi:include href="subsections/trigonometry/subsec-identifying-angles-and-sides-of-right-angled-triangles-in-different-situations.ptx" />
     <xi:include href="subsections/trigonometry/subsec-identifying-sine-cosine-and-tangent-ratios-from-a-right-angled-triangle.ptx" />
     <xi:include href="subsections/trigonometry/subsec-reading-tables-of-trigonometric-ratios-for-acute-angles.ptx" />

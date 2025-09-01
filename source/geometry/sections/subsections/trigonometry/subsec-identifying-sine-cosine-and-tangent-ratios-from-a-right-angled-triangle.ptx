@@ -13,7 +13,7 @@
                     <ol>
                         <li>
                             <p>
-                                In the figure below,<m>AP</m>and <m>BQ</m> are perpendicular to <m>CR</m> and <m>\angle YOX=\theta</m>.
+                                In the figure below,<m>AP</m> and <m>BQ</m> are perpendicular to <m>CR</m> and <m>\angle YOX=\theta</m>.
                             </p>
 
                             <image width="70%">
@@ -90,22 +90,22 @@
                                 </row>
                                 <row>
                                     <cell><m>OAP</m></cell>
-                                    <cell><m>AP=-cm</m></cell>
-                                    <cell><m>OP-cm</m></cell>
+                                    <cell><m>AP= </m><fillin characters="5" /></cell>
+                                    <cell><m>OP=</m><fillin characters="5" /></cell>
                                     <cell></cell>
                                 </row>
 
                                 <row>
                                     <cell><m>OBQ</m></cell>
-                                    <cell><m>BQ=-cm</m></cell>
-                                    <cell><m>OQ-cm</m></cell>
+                                    <cell><m>BQ=</m><fillin characters="5" /></cell>
+                                    <cell><m>OQ=</m><fillin characters="5" /></cell>
                                     <cell></cell>
                                 </row>
 
                                 <row>
                                     <cell><m>OCR</m></cell>
-                                    <cell><m>CR=-cm</m></cell>
-                                    <cell><m>OR-cm</m></cell>
+                                    <cell><m>CR=</m><fillin characters="5" /></cell>
+                                    <cell><m>OR=</m><fillin characters="5" /></cell>
                                     <cell></cell>
                                 </row>
                             </tabular>
@@ -335,22 +335,22 @@
                                 </row>
                                 <row>
                                     <cell><m>OAP</m></cell>
-                                    <cell><m>OA=-cm</m></cell>
-                                    <cell><m>OP-cm</m></cell>
+                                    <cell><m>OA=</m><fillin characters="5" /></cell>
+                                    <cell><m>OP=</m><fillin characters="5" /></cell>
                                     <cell></cell>
                                 </row>
 
                                 <row>
                                     <cell><m>OBQ</m></cell>
-                                    <cell><m>OB=-cm</m></cell>
-                                    <cell><m>OQ-cm</m></cell>
+                                    <cell><m>OB=</m><fillin characters="5" /></cell>
+                                    <cell><m>OQ=</m><fillin characters="5" /></cell>
                                     <cell></cell>
                                 </row>
 
                                 <row>
                                     <cell><m>OCR</m></cell>
-                                    <cell><m>OC=-cm</m></cell>
-                                    <cell><m>OR-cm</m></cell>
+                                    <cell><m>OC=</m><fillin characters="5" /></cell>
+                                    <cell><m>OR=</m><fillin characters="5" /></cell>
                                     <cell></cell>
                                 </row>
                             </tabular>
@@ -358,7 +358,7 @@
 
                         <li>
                             <p>
-                                What do you notice about the ratio <m>\frac{\textbf{Adjacent}}{\textbf{Hypotenuse}}</m>?
+                                What do you notice about the ratio <m>\frac{Adjacent}{Hypotenuse}</m>?
                             </p>
                         </li>
 
@@ -373,7 +373,7 @@
         </activity>
 
             <p>
-                <m>\textbf{Key Takeaway}.</m>
+                <term>Key Takeaway</term>
             </p>
 
             <p>

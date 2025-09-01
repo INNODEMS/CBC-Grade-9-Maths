@@ -20,7 +20,7 @@
                         </p>
 
                         <p>
-                            (i) Look at the column headed <m>x^\circ</m>
+                            (i) Identify the column headed <m>x^\circ</m>
                         </p>
 
                         <p>
@@ -54,15 +54,15 @@
 
             <sidebyside>
                 <p>
-                    (a) <m>\tan 4.0^\circ</m>.
+                    (a) <m>\tan 4.0^\circ</m>
                 </p>
 
                 <p>
-                    (b) <m>\tan 3.2^\circ</m>.
+                    (b) <m>\tan 3.2^\circ</m>
                 </p>
 
                 <p>
-                    (c) <m>\tan 2.37^\circ</m>.
+                    (c) <m>\tan 2.37^\circ</m>
                 </p>
             </sidebyside>
         </statement>
@@ -73,7 +73,7 @@
                 The value is <m>0.0699</m>.
             </p>
             <p>
-                Therefore <m>\tan 4.0^\circ = 0.0699</m>.
+                Therefore <m>\tan 4.0^\circ = 0.0699</m>
             </p>
 
             <p>
@@ -82,21 +82,21 @@
             </p>
 
             <p>
-                Therefore <m>\tan 3.2^\circ = 0.0559</m>.
+                Therefore <m>\tan 3.2^\circ = 0.0559</m>
             </p>
 
             <p>
                 (c) (i) Go to tangent tables, look for angle <m> 2^\circ</m>, and move to the column for <m>0.3</m>.
-                The value is <m>0.0402</m>.
+                The value is <m>0.0402</m>
             </p>
 
             <p>
                 (ii) Move Horizontally to the right in the row of <m>2.3</m> and reach the column headed <m>0.7</m>. Read the number in the cell where the row and column meet and add to <m>0.0419</m>.
-                  The value is <m>0.0402 + 0.0012 = 0.0414</m>.
+                  The value is <m>0.0402 + 0.0012 = 0.0414</m>
             </p>
 
             <p>
-                Therefore <m>\tan 2.37^\circ = 0.0414</m>.
+                Therefore <m>\tan 2.37^\circ = 0.0414</m>
             </p>
         </solution>
     </example>
@@ -161,11 +161,11 @@
 
             <p>
                 (ii) Move Horizontally to the right in the row of <m>3.8</m> and reach the column headed <m>0.1</m>. Read the number in the cell where the row and column meet and add to <m>0.0523</m>.i.e
-                <m>0.0663 + 0.0002 = 0.0665</m>.
+                <m>0.0663 + 0.0002 = 0.0665</m>
             </p>
 
             <p>
-                Therefore <m>\sin 3.81^\circ = 0.0665</m>.
+                Therefore <m>\sin 3.81^\circ = 0.0665</m>
             </p>
         </solution>
     </example>
@@ -226,11 +226,11 @@
 
             <sidebyside>
                 <p>
-                    (a) <m>\cos 2.5^\circ</m>.
+                    (a) <m>\cos 2.5^\circ</m>
                 </p>
 
                 <p>
-                    (b) <m>\cos 3.24^\circ</m>.
+                    (b) <m>\cos 3.24^\circ</m>
                 </p>
             </sidebyside>
         </statement>
@@ -245,11 +245,11 @@
             </p>
 
             <p>
-                (iii) The value is <m>0.9990</m>.
+                (iii) The value is <m>0.9990</m>
             </p>
 
             <p>
-                Therefore <m>\cos 2.5^\circ = 0.9990</m>.
+                Therefore <m>\cos 2.5^\circ = 0.9990</m>
             </p>
 
             <p>
@@ -261,16 +261,16 @@
             </p>
 
             <p>
-                (iii) The value is <m>0.9984</m>.
+                (iii) The value is <m>0.9984</m>
             </p>
 
             <p>
                 (iv) Move horizontally to the right in the row of <m>3.2</m> and reach the column headed <m>0.4</m>. Read the number in the cell where the row and column meet and subtract from <m>0.9984</m>.i.e
-                <m>0.9984 - 0.0000 = 0.9984</m>.
+                <m>0.9984 - 0.0000 = 0.9984</m>
             </p>
 
             <p>
-                Therefore <m>\cos 3.24^\circ = 0.9984</m>.
+                Therefore <m>\cos 3.24^\circ = 0.9984</m>
             </p>
         </solution>
     </example>
