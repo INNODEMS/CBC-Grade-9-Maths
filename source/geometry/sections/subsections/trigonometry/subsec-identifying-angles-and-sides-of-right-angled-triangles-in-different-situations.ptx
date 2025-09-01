@@ -3,33 +3,63 @@
     <activity>
         <statement>
             <p>
-                <m>\textbf{Work in groups}</m>
+                <term>Work in groups</term>
             </p>
 
             <p>
                 <ol>
                     <li>
                         <p>
-                             Draw a right-angled triangle and label its vertices as <m>P</m>, <m>Q</m>, and <m>R</m>, with the right angle positioned at <m>P</m>.
+                            Draw a sketch of a right-angle triangle <m>PQR</m> as the one shown below.
+                        </p>
+
+                        <image width="50%">
+                            <shortdescription></shortdescription>
+                            <latex-image label="trianglePQRvv">
+                            \begin{tikzpicture}
+                                % Triangle vertices
+                                \coordinate (P) at (0,0);
+                                \coordinate (Q) at (4,0);
+                                \coordinate (R) at (0,3);
+
+                                % Draw the triangle outline
+                                \draw[thick] (P) -- (Q) -- (R) -- cycle;
+
+                                % Right angle symbol at P
+                                \draw (0.4,0) -- (0.4,0.4) -- (0,0.4);
+
+                                % Label the vertices
+                                \node[below left] at (P) {P};
+                                \node[below right] at (Q) {Q};
+                                \node[above left] at (R) {R};
+
+                                <!-- % Label angle α at R
+                                \node at (0.2,2.6) {$\alpha$}; -->
+
+                                <!-- % Label sides
+                                \node[below] at (2,0) {Opposite};
+                                \node[left] at (0,1.5) {Adjacent};
+                                \node[above right, rotate=45] at (2.2,1.5) {Hypotenuse}; -->
+                            \end{tikzpicture}
+                            </latex-image>
+                        </image>
+                    </li>
+
+                    <li>
+                        <p>
+                            Identify the side that is opposite to angle <m>PQR</m>.
                         </p>
                     </li>
 
                     <li>
                         <p>
-                            Identify the side that is next to angle <m>Q</m>, excluding the hypotenuse.
+                           Similarly, Identify the side that is opposite to angle <m>PRQ</m>.
                         </p>
                     </li>
 
                     <li>
                         <p>
-                            Point out the hypotenuse, the side that lies opposite the <m>90</m>° angle.
-                        </p>
-                    </li>
-
-                    <li>
-                        <p>
-                             Now repeat the same steps, but this time use angle <m>R</m> as your reference.
-
+                            Share your findings with other groups.
                         </p>
                     </li>
                 </ol>
@@ -37,25 +67,9 @@
         </statement>
     </activity>
 
-    <p>
-        <m>\textbf{Key Takeaway}.</m>
-    </p>
+    <assemblage xml:id="assemblage-Key_Takeaway">
+        <title>Key Takeaway</title>
 
-    <p>
-        <ul>
-            <li>
-                <p>
-                    A right-angled triangle always has one angle equal to <m>90</m>°. The other two angles must be acute angles
-                </p>
-            </li>
-
-            <li>
-                <p>
-                    The sides that include the right angle are perpendicular to each other and the third side is called the hypotenuse.
-                </p>
-            </li>
-
-            <li>
                 <p>
                     If you are given an angle in a right-angled triangle, the side opposite to that angle is called the opposite side, while the side next to the angle (excluding the hypotenuse) is called the adjacent side as shown below.
                 </p>
@@ -64,39 +78,54 @@
                     <shortdescription></shortdescription>
                     <latex-image label="trianglePQRi">
                         \begin{tikzpicture}
-                                                    
-                        % Triangle vertices
-                        \coordinate (P) at (0,0);
-                        \coordinate (Q) at (4,0);
-                        \coordinate (R) at (0,3);
+                            % Triangle vertices
+                            \coordinate (P) at (0,0);
+                            \coordinate (Q) at (4,0);
+                            \coordinate (R) at (0,3);
 
-                        % Fill the triangle with cyan color
-                        \fill[cyan!30] (P) -- (Q) -- (R) -- cycle;
+                            % Draw the triangle outline
+                            \draw[thick] (P) -- (Q) -- (R) -- cycle;
 
-                        % Draw the triangle outline
-                        \draw[thick] (P) -- (Q) -- (R) -- cycle;
+                            % Right angle symbol at P
+                            \draw (0.4,0) -- (0.4,0.4) -- (0,0.4);
 
-                        % Right angle symbol at P
-                        \draw (0.4,0) -- (0.4,0.4) -- (0,0.4);
+                            % Label the vertices
+                            \node[below left] at (P) {P};
+                            \node[below right] at (Q) {Q};
+                            \node[above left] at (R) {R};
 
-                        % Label the vertices
-                        \node[below left] at (P) {P};
-                        \node[below right] at (Q) {Q};
-                        \node[above left] at (R) {R};
+                            % Label angle α at R
+                            \node at (0.2,2.6) {$\alpha$};
 
-                        % Label angle α at R
-                        \node at (0.2,2.6) {$\alpha$};
-
-                        % Label sides
-                        \node[below] at (2,0) {Opposite};
-                        \node[left] at (0,1.5) {Adjacent};
-                        \node[above right, rotate=45] at (2.2,1.5) {Hypotenuse};
+                            % Label sides
+                            \node[below] at (2,0) {Opposite};
+                            \node[left] at (0,1.5) {Adjacent};
+                            \node[above right, rotate=45] at (2.2,1.5) {Hypotenuse};
                         \end{tikzpicture}
+
                     </latex-image>
                 </image>
-            </li>
-        </ul>
-    </p>
+    </assemblage>
+
+    <definition xml:id="def-right_angled_triangle">
+        <statement>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            A triangle in which one of the interior angles is <m>90^\circ</m> is called a right angled triangle.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            The longest side of the right triangle, which is also the side opposite the right angle, is the hypotenuse and the two arms of the right angle are the height and the base.
+                        </p>
+                    </li>
+                </ul>
+            </p>
+        </statement>
+    </definition>
 
     <example>
         <statement>
