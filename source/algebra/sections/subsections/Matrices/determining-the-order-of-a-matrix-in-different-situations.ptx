@@ -4,7 +4,7 @@
         The order of a matrix tells us how many rows and columns it has. This is written as rows × columns (for example, 2 × 3 means 2 rows and 3 columns). Knowing the order helps us describe, compare, and use tables and schedules correctly in real life.
     </p>
     <activity>
-        <p><m>Work in Pairs</m></p>
+        <p>Work in Pairs</p>
         <p>The following table shows the number of students in four different classes (A, B, C, D) over three days:</p>
         <tabular top="medium" bottom="medium" left="medium" right="medium">
             <row>
@@ -75,11 +75,11 @@
 
     
 
-    <p>  <m>\textbf{Key Takeaway:}</m> </p>
+    <p><term>Key Takeaway</term></p>
     <p>
         The order of a matrix helps us describe and use tables, 
         schedules, and data sets correctly in real life. 
-        It tells us how much information the matrix can hold.
+        It tells us how much information a matrix can hold.
     </p>
     <example>
         <statement>
@@ -96,14 +96,34 @@
             </p>
         </statement>
         <solution>
-            <p>Step 1: Count the number of rows.</p>
-            <p>There are 3 rows (each row represents a student).</p>
-            <p>Step 2: Count the number of columns.</p>
-            <p>There are 4 columns (each column represents a month).</p>
-            <p>Step 3: Write the order as rows × columns.</p>
-            <p>So, the order is 3 × 4.</p>
-            <p>Step 4: Interpret the meaning.</p>
-            <p>The entry in the second row, third column (5) means Brian borrowed 5 books in Month 3.</p>
+
+            <p>
+                <ul>
+                    <li>
+                        <p>Count the number of rows.</p>
+                        <p>There are 3 rows (each row represents a student).</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <p>Count the number of columns.</p>
+                        <p>There are 4 columns (each column represents a month).</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <p>Write the order as rows × columns.</p>
+                        <p>So, the order is 3 × 4.</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <p>Interpret the meaning.</p>
+                        <p>The entry in the second row, third column (5) means Brian borrowed 5 books in Month 3.</p>
+                    </li>
+                </ul>
+            </p>
+
         </solution>
     </example>
 </subsection>

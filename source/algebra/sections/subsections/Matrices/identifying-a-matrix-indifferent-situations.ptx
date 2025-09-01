@@ -1,52 +1,81 @@
 <subsection xml:id="subsec-identifying-a-matrix-indifferent-situations">
     <title>Identifying a Matrix in Different Situations</title>
-        <p>
-            A <m>\textbf{matrix}</m> is a way of organizing numbers or information in rows and columns—just like the tables you have seen in other topics such as measurement and data handling. 
-            Matrices help us organize, compare, and analyze data efficiently.
-        </p>
+    <p>
+      A <m>\textbf{matrix}</m> is a way of organizing numbers or information in rows and columns—just like the tables you have seen in other topics, such as measurement and data handling. 
+      Matrices help us organize, compare, and analyze data efficiently.
+    </p>
         <p>
             Matrices are powerful tools for organizing and analyzing real-world data, such as sports scores, business sales, or scientific results. By turning tables into matrices, we can use mathematical methods to solve problems more easily.
         </p>
 
         <activity>
-            <p><m>Work in Groups</m></p>
-            <p>The Greenfield School Cafeteria prepares meals for students in three school levels: <m>Lower Primary</m>, <m>Upper Primary</m>, and <m>Secondary</m>. Each week, they prepare two types of meals: <m>Vegetarian</m> and <m>Non-Vegetarian</m>. The number of meals prepared (in hundreds) for Week 1 and Week 2 is recorded in the tables below:</p>
+            <p>Work in Groups</p>
+            <p>The Greenfield School Cafeteria prepares meals for students in three school levels: <term>Lower Primary</term>, <term>Upper Primary</term>, and <term>Secondary</term>. Each week, they prepare two types of meals: <term>Vegetarian</term> and <term>Non-Vegetarian</term>. The number of meals prepared (in hundreds) for Week 1 and Week 2 is recorded in the tables below:</p>
             <tabular top="medium" bottom="medium" left="medium" right="medium">
+              <col width="25%"/>
+              <col width="25%"/>
+              <col width="25%"/>
+              <col width="25%"/>
               <row bottom="medium">
                 <cell colspan="3" halign="center">
-                  <m>Week 1 Meal Data</m>
+                  <p>Week 1 Meal Data</p>
                 </cell>
               </row>
               <row>
+                <cell halign="center">School Level</cell>
+                <cell halign="center">Vegetarian</cell>
+                <cell halign="center">Non-Vegetarian</cell>
+              </row>
+              <row>
+                <cell halign="center">Lower Primary</cell>
                 <cell halign="center">4</cell>
                 <cell halign="center">6</cell>
               </row>
               <row>
+                <cell halign="center">Upper Primary</cell>
                 <cell halign="center">3</cell>
                 <cell halign="center">5</cell>
               </row>
               <row bottom="medium">
+                <cell halign="center">Secondary</cell>
                 <cell halign="center">2</cell>
                 <cell halign="center">7</cell>
+                 
               </row>
             </tabular>
             <tabular top="medium" bottom="medium" left="medium" right="medium">
+              <col width="25%"/>
+              <col width="25%"/>
+              <col width="25%"/>
+              <col width="25%"/>
               <row bottom="medium">
                 <cell colspan="3" halign="center">
-                  <m>Week 2 Meal Data</m>
+                  <p>Week 2 Meal Data</p>
                 </cell>
               </row>
               <row>
+                <cell halign="center">School Level</cell>
+                <cell halign="center">Vegetarian</cell>
+                <cell halign="center">Non-Vegetarian</cell>
+                 
+              </row>
+              <row>
+                <cell halign="center">Lower Primary</cell>
                 <cell halign="center">5</cell>
                 <cell halign="center">4</cell>
+                 
               </row>
               <row>
+                <cell halign="center">Upper Primary</cell>
                 <cell halign="center">4</cell>
                 <cell halign="center">6</cell>
+                 
               </row>
               <row>
+                <cell halign="center">Secondary</cell>
                 <cell halign="center">3</cell>
                 <cell halign="center">8</cell>
+                 
               </row>
             </tabular>
             <p><m>\textbf{What you need:}</m> </p>
@@ -76,7 +105,7 @@
                 </li>
                 <li><m>\textbf{Reflect and Share:}</m> 
                   <ul>
-                    <li>How does using a matrix help you organize and analyze the data more easily?</li>
+                    <li>How does using a matrix help you organize and analyze data more easily?</li>
                     <li>Can you think of another real-life situation where a matrix would be useful?</li>
                     <li>Share your answers and reasoning with another group. Did you agree? Why or why not?</li>
                   </ul>

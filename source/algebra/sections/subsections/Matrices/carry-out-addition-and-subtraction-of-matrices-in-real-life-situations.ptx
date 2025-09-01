@@ -1,13 +1,13 @@
 <subsection xml:id="subsec-carry-out-addition-and-subtraction-of-matrices-in-real-life-situations">
     <title>Carry Out Addition and Subtraction of Matrices in Real Life Situations</title>
     <p>
-        In everyday life, we often need to combine or compare data from different sources—like adding up scores from two football matches, or finding the difference in sales between two weeks. Matrices make these calculations easy and organized!
+        In everyday life, we often need to combine or compare data from different sources—such as adding up scores from two football matches or finding the difference in sales between two weeks. Matrices make these calculations easy and organized!
     </p>
 
     <activity>
-        <p><m>Interactive Matrix Calculator (Work in Pairs)</m></p>
-        <p>Use the GeoGebra applet below to practice adding and subtracting matrices. You can choose either 2×2 or 3×3 matrices, enter your own values, and select the operation (addition or subtraction).</p>
-        <p> <m>\textbf{What you need: }</m></p>
+        <p>Interactive Matrix Calculator (Work in Pairs)</p>
+    <p>Use the GeoGebra applet below to practice adding and subtracting matrices. You can choose either 2×2 or 3×3 matrices, enter your own values, and select the operation (addition or subtraction).</p>
+        <p><em>What you need:</em></p>
         <p>
             <ul>
                 <li>Computer or tablet with internet access</li>
@@ -23,7 +23,7 @@
                 <li>Click "Solve" to see the result instantly.</li>
                 <li> <m>\textbf{Explore: }</m> 
                     <ul>
-                        <li>Try changing one value—how does it affect the result?</li>
+                        <li>Try changing one value. How does it affect the result?</li>
                         <li>Which is easier: doing the calculation by hand or using the tool? Why?</li>
                     </ul>
                 </li>
@@ -32,7 +32,7 @@
             </p>
             <figure xml:id="fig-addition-of-matrices">
                 <caption><m>\textbf{Addition and Subtraction of Matrices (GeoGebra Interactive)}</m></caption>
-                <interactive xml:id="geogebra-addition-of-matrices" platform="geogebra" width="95%">
+                <interactive xml:id="geogebra-addition-of-matrices" platform="geogebra" width="120%">
                 <slate xml:id="addition-of-matrices" surface="geogebra" material="tvzadzp6" aspect="12:15" >
                     enableShiftDragZoom(true);
                     showResetIcon(true);
@@ -59,20 +59,29 @@
         </p>
     </activity>
 
-    <p> <m>\textbf{Key Takeaway: }</m> </p>
+    <p><term>Key Takeaway</term></p>
     <p>  Matrix addition and subtraction help us combine and 
-        compare real-life data, making it easier to analyze results and spot patterns.
+        compare real-life data, making it easier to analyze results and identify patterns.
     </p>
 
     <example>
       <statement>
         <p>
-            We have two vendors selling apples and oranges over two days.
-            The sales data is represented in matrices as follows:
+            <ol marker="1.">
+                <li>
+                    <p>
+                        We have two vendors selling apples and oranges over two days.
+                        The sales data is represented in matrices as follows:
+                    </p>
+                </li>
+                <li>
+                    <p>Find A + B and A - B for the matrices below.</p>
+                </li>
+                <li>
+                    <p>Explain what the results mean in this context.</p>
+                </li>
+            </ol>
         </p>
-
-        <p>Find A + B and A - B for the matrices below.</p>
-        <p>Explain what the results mean in this context.</p>
         <p>
         <m>
           Vendor\ 1: \quad A = \begin{bmatrix} 5 &amp; 7 \\ 3 &amp; 4 \end{bmatrix}
@@ -99,7 +108,7 @@
             <p>
                 <ul>
                     <li><m>A + B</m> shows the total number of apples and oranges sold by both vendors each day.</li>
-                    <li><m>A - B</m> shows the difference in sales between Vendor 1 and Vendor 2 for each fruit and day. A negative number means Vendor 2 sold more than Vendor 1 for that item.</li>
+                    <li><m>A - B</m> shows the difference in sales between Vendor 1 and Vendor 2 for each fruit and day. A negative number means Vendor 2 sold more of that item than Vendor 1.</li>
                 </ul>
             </p>
         </solution>

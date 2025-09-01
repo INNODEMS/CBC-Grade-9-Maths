@@ -1,13 +1,13 @@
 <subsection xml:id="subsec-determining-compatibility-of-matrices-in-addition-and-subtraction">
     <title>Determining Compatibility of Matrices in Addition and Subtraction</title>
     <p>
-        In real life, we often want to combine or compare data from different sources—like adding up sales from two weeks, or comparing scores from two rounds of a game. To do this with matrices, the data must be organized in the same way. This means the matrices must have the same number of rows and columns (the same <m>order</m>).
+        In real life, we often want to combine or compare data from different sources—like adding up sales from two weeks or comparing scores from two rounds of a game. To do this with matrices, the data must be organized in the same way. This means the matrices must have the same number of rows and columns (the same <m>order</m>).
     </p>
     <p>
         Let's see how this works with a real-life example.
     </p>
     <activity>
-        <p><m>Work in Groups</m></p>
+        <p>Work in Groups</p>
         <p>The table below shows the number of books borrowed from a library by three students (Alice, Brian, and Carol) in two different months, and then in two more months.</p>
         <tabular top="medium" bottom="medium" left="medium" right="medium">
             <row>
@@ -87,10 +87,10 @@
         </p>
     </activity>
 
-    <p> <m>\textbf{Key Takeaway:}</m></p>
+    <p><term>Key Takeaway</term></p>
     <p>  You can only add or subtract matrices if
-         they have the same order (same number of rows and columns). 
-         This allows us to combine or compare real-life data correctly.
+        they have the same order (the same number of rows and columns). 
+        This allows us to combine or compare real-life data correctly.
     </p>
     <example>
       <statement>
@@ -108,24 +108,38 @@
         </p>
       </statement>
         <solution>
-            <p>Step 1: Check the order of both matrices.</p>
-            <p>Matrix <m>A</m>: 2 rows, 2 columns. Matrix <m>B</m>: 2 rows, 2 columns. The orders are the same.</p>
-            <p>Step 2: Add corresponding entries:</p>
             <p>
-                <m>
-                    \begin{bmatrix}
-                        10+7 &amp; 12+5 \\
-                        8+6 &amp; 9+11
-                    \end{bmatrix}
-                    =
-                    \begin{bmatrix}
-                        17 &amp; 17 \\
-                        14 &amp; 20
-                    \end{bmatrix}
-                </m>
+                <ul>
+                    <li>
+                        <p>Check the order of both matrices.</p>
+                    </li>
+                    <li>
+                        <p>Matrix <m>A</m>: 2 rows, 2 columns. Matrix <m>B</m>: 2 rows, 2 columns. The orders are the same.</p>
+                    </li>
+                    <li>
+                        <p>Add corresponding entries:</p>
+                        <p>
+                            <m>
+                                \begin{bmatrix}
+                                    10+7 &amp; 12+5 \\
+                                    8+6 &amp; 9+11
+                                \end{bmatrix}
+                                =
+                                \begin{bmatrix}
+                                    17 &amp; 17 \\
+                                    14 &amp; 20
+                                \end{bmatrix}
+                            </m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>Interpret the result.</p>
+                    </li>
+                    <li>
+                        <p>The resulting matrix shows the total number of items sold by both shops on each day.</p>
+                    </li>
+                </ul>
             </p>
-            <p>Step 3: Interpret the result.</p>
-            <p>The resulting matrix shows the total number of items sold by both shops on each day.</p>
         </solution>
     </example>
 

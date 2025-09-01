@@ -4,9 +4,7 @@
         Every number or item in a matrix has a special place, just like a seat in a classroom or a product on a shelf. We use the row and column numbers to find the exact position of each item. This helps us quickly locate information in tables, scoreboards, or lists.
     </p>
     <activity>
-        
-        <p></p>
-        <p>Imagine a 3×3 grid representing a simple map. Each cell can have a value: 0 (empty), 1 (tree), 2 (house), 3 (treasure). The map is represented by the following matrix:</p>
+    <p>Imagine a 3×3 matrix representing a simple map. Each cell can have a value: 0 (empty), 1 (tree), 2 (house), 3 (treasure). The map is represented by the following matrix:</p>
         <p>
             <m>
             M = \begin{bmatrix}
@@ -52,17 +50,27 @@
             </ol>
         </p>
     </activity>
-    <p><m>\textbf{Key Takeaway: }</m></p>
-    <p> The position (row, column) helps us locate and understand data 
-        in real-life matrices, maps, and grids. It makes finding information
+    <p><term>Key Takeaway</term></p>
+    <p> The position (row, column) helps us locate and understand data
+    in real-life matrices, maps, and matrices. It makes finding information
          quick and fun!
     </p>
 
     <example>
       <statement>
-        <p>What is at position (2,2) in the matrix below?</p>
-        <p>List all positions where there is a house (2).</p>
-        <p>If you start at (1,1) and move to (2,2), what do you find?</p>
+        <p >
+            <ol>
+                <li>
+                    <p>What is at position (2,2) in the matrix below?</p>
+                </li>
+                <li>
+                    <p>List all positions where there is a house (2).</p>
+                </li>
+                <li>
+                    <p>If you start at (1,1) and move to (2,2), what do you find?</p>
+                </li>
+            </ol>
+        </p>
         <p>
             <m>
             M = \begin{bmatrix}
@@ -74,17 +82,31 @@
         </p>
       </statement>
         <solution>
-            <p>Step 1: Look up the value at (2,2):</p>
-            <p>The value is 3 (<m>\textbf{treasure}</m>).</p>
-            <p>Step 2: Find all positions with value 2 (house):</p>
-            <p>
-                <ul>
-                    <li>(2,1)</li>
-                    <li>(3,2)</li>
-                </ul>
-            </p>
-            <p>Step 3: Moving from (1,1) to (2,2) leads to the treasure.</p>
-            <p>Step 4: Students draw a grid and fill in the symbols for each value.</p>
+        <p>
+            <ul >
+                <li>
+                    <p>Look up the value at (2,2):</p>
+                </li>
+                <li>
+                    <p>The value is 3 (<m>\textbf{treasure}</m>).</p>
+                </li>
+                <li>
+                    <p>Find all positions with value 2 (house):</p>
+                    <p>
+                        <ul>
+                            <li>(2,1)</li>
+                            <li>(3,2)</li>
+                        </ul>
+                    </p>
+                </li>
+                <li>
+                    <p>Moving from (1,1) to (2,2) leads to the treasure.</p>
+                </li>
+                <li>
+                    <p>Students draw a matrix and fill in the symbols for each value.</p>
+                </li>
+            </ul>
+        </p>
         </solution>
     </example>
 </subsection>
