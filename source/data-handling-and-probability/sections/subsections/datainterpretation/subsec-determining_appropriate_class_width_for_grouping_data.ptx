@@ -298,15 +298,14 @@
                         <p>
                             Therefore, the class intervals are:                            
                         </p>
-                        <tabular top="medium" bottom="medium" left="medium" right="medium">
+                        <tabular top="minor" bottom="minor" left="minor" right="minor">
                                 <row>
                                     <cell>Time in Hours</cell>
                                     <cell>9 - 11</cell>
-                                    <cell>11 - 13</cell>
-                                    <cell>13 - 15</cell>
+                                    <cell>12 - 14</cell>
                                     <cell>15 - 17</cell>
-                                    <cell>17 - 19</cell>
-                                    <cell>19 - 21</cell>
+                                    <cell>18 - 20</cell>
+                                    <cell>21 - 23</cell>
                                 </row>
                             </tabular>
                     </li>
