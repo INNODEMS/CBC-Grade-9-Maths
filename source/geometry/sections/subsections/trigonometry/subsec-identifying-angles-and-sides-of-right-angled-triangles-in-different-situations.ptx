@@ -67,7 +67,7 @@
         </statement>
     </activity>
 
-    <assemblage xml:id="assemblage-Key_Takeaway">
+    <assemblage xml:id="assemblage-Key_Takeaway_1">
         <title>Key Takeaway</title>
 
                 <p>
@@ -129,20 +129,17 @@
 
     <example>
         <statement>
-            <p>
-                The figure below shows a right-angled triangle <m>PQR</m>. Name the sides which are opposite and adjacent to the angle <m>\theta</m> and identify the hypotenuse side.
+            <p> 
+              Using the figure below, identify the side opposite to angle <m>\theta</m>, the side adjacent to angle <m>\theta</m> and the hypotenuse.
             </p>
 
             <image width="50%">
                 <latex-image label="trianglePQR">
                     \begin{tikzpicture}
-                          % Triangle vertices
+                        % Triangle vertices
                         \coordinate (P) at (0,0);
                         \coordinate (Q) at (4,0);
                         \coordinate (R) at (0,3);
-
-                        % Fill the triangle with blue color
-                        \fill[blue!20] (P) -- (Q) -- (R) -- cycle;
 
                         % Draw the triangle outline
                         \draw[thick] (P) -- (Q) -- (R) -- cycle;
@@ -155,8 +152,7 @@
                         \node[below right] at (Q) {Q};
                         \node[above left] at (R) {R};
 
-                        % Draw a small arc to indicate angle θ at C
-
+                        % Mark angle θ at R
                         \node at (0.2,2.6) {$\theta$};
                     \end{tikzpicture}
                 </latex-image>
@@ -165,15 +161,25 @@
 
         <solution>
             <p>
-                Side <m>PR</m> is adjacent to angle <m>\theta</m>. 
-            </p>
+               <ol marker="(i)">
+                <li>
+                    <p>
+                         Side <m>PR</m> is adjacent to angle <m>\theta</m>.
+                    </p>
+                </li>
 
-            <p>
-                Side <m>PQ</m> is opposite to angle <m>\theta</m>
-            </p>
+                <li>
+                    <p>
+                        Side <m>PQ</m> is opposite to angle <m>\theta</m>
+                    </p>
+                </li>
 
-            <p>
-                The hypotenuse is <m>QR</m>.
+                <li>
+                    <p>
+                        The hypotenuse is <m>QR</m>.
+                    </p>
+                </li>
+               </ol> 
             </p>
         </solution>
     </example>
