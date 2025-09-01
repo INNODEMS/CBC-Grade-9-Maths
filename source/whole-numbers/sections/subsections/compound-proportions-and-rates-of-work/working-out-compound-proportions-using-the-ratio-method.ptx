@@ -1,42 +1,43 @@
 <subsection xml:id="subsec-working-out-compound-proportions-using-the-ratio-method" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Working out compound proportions using the ratio method</title>
-    <p>
-        Two quantities in compound proportion increases or decreases in the same ratio.
-    </p>
-    <p>
-        To work out compound proportions using the ratio method, you can follow these steps:
-    </p>
-    <p>
-        1. Identify the two ratios you want to compare or relate.
-    </p>
-    <p>
-        2. Set up a proportion by equating the two ratios.
-    </p>
-    <p>
-        3. Cross-multiply to eliminate the fractions.
-    </p>
-    <p>
-        4. Solve for the unknown variable, if applicable.
-    </p>
-    <p>
-        5. Check your solution by substituting back into the original ratios to ensure they are equal.
-    </p>
-    <p>
-        For example, if you have the ratios <m>3:4</m> and <m>6:8</m>, you can set up the proportion as follows:
-    </p>
-    <p>
-        <m>\frac{3}{4} = \frac{6}{8}</m>
-    </p>
-    <p>
-        Cross-multiplying gives you <m>3 \times 8 = 4 \times 6</m>, which simplifies to <m>24</m>. This confirms that the two ratios are equivalent.
-    </p>
-    <p>
-        
-    </p>
+    
     <activity>
         <statement>
             <p>
-                1. In groups of <m>5</m>, measure the length and width of the following trianngles, A and B, using a ruler.
+                <alert>Work in Groups</alert>
+            </p>
+            <p>
+                <alert>What you need</alert>
+            </p>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            Ruler
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Paper
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Pencil and eraser
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Calculator
+                        </p>
+                    </li>
+                </ul>
+            </p>
+            <p>
+                <alert>Instructions</alert>
+            </p>
+            <p>
+                1. Measure the length and width of the following trianngles, A and B, using a ruler.
             </p>
             <sidebyside>
                 <image width="50%">
@@ -77,93 +78,130 @@
             
         </statement>
     </activity>
+    <p>
+        <alert>Key Takeaway</alert>
+    </p>
+    <p>
+        <m>\bullet</m> Two quantities in compound proportion increases or decreases in the same ratio.
+    </p>
+    <p>
+        For example, if you have the ratios <m>3:4</m> and <m>6:8</m>, you can set up the proportion as follows:
+    </p>
+    <p>
+        <m>\frac{3}{4} = \frac{6}{8}</m>
+    </p>
+    <p>
+        Cross-multiplying gives you <m>3 \times 8 = 4 \times 6</m>, which simplifies to <m>24</m>. This confirms that the two ratios are equivalent.
+    </p>
+    <p>
+        <m>\bullet</m> How to work out compound proportions using the ratio method:
+    </p>
+    <p>
+        <ol>
+            <li>
+                <p>
+                    Identify the two ratios you want to compare or relate.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Set up a proportion by equating the two ratios.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Cross-multiply to eliminate the fractions.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Solve for the unknown variable, if applicable.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Check your solution by substituting back into the original ratios to ensure they are equal.
+                </p>
+            </li>
+        </ol>
+    </p>
     <example>
-        <statement>
-            <p>
-                A class has <m>8</m> girls and <m>6</m> boys. More students are admitted to the class such that the ratio of girls to boys remain th same.
-            </p>
-            <p>
-                The new number of boys in the class is now <m>12</m>. Determine the new number of girls in the class using the ratio method.
-            </p>
-        </statement>
-        <solution>
-            <p>
-                The initial ratio of girls to boys is <m>8:6</m>, which simplifies to <m>4:3</m>.
-            </p>
-            <p>
-                Let the number of girls after admission be <m>y</m>.
-            </p>
-            <p>
-                Therefore,  setting up the proportion we have:
-            </p>
-            <p>
-                <m>y: 12 = 4:3</m>
-            </p>
-            <p>
-               Hence,  <m>\frac{y}{12} = \frac{4}{3}</m>
-            </p>
-            <p>
-              Now, cross-multiplying to solve for <m>y</m>: 
-            </p>
-            <p>
-                 <m>3y = 4 \times 12</m>
-            </p>
-            <p>
-                <m>3y = 48</m>
-            </p>
-            <p>
-                <m>y = \frac{48}{3} = 16</m>
-            </p>
-            <p>
-                 So, the new number of girls in the class is <m>16</m>.
-            </p>
-        </solution>
-    </example>
-    <example>
-        <statement>
-            <p>
-               Kipngetich measured the heights of a mango tree and a person standing under the tree in a photo.
-                Their heights in the photo were <m>10 </m>cm and <m>5</m> cm respectively. 
-               He observed that the ratio of their actual heights is the same as that in the photo.
-                Determine the actual height of the mango tree if the actual height of the person is <m>2.5</m> meters. 
-            </p>
-        </statement>
-        <solution>
-            <p>
-                The ratio of the heights in the photo is <m>10:5</m>, which simplifies to <m>2:1</m>.
-            </p>
-            <p>
-                Let the actual height of the mango tree be <m>h</m> meters.
-            </p>
-            <p>
-                Given:
-            </p>
-            <p>
-                The actual height of the person is <m>2.5</m> meters.
-            </p>
-            <p>
-                So, the actual height ratio is: <m>h:2.5 = 2:1</m>
-            </p>
-            <p>
-                Setting up the proportion, we have:
-            </p>
-            <p>
-                <m>\frac{h}{2.5} = \frac{2}{1}</m>
-            </p>
-            <p>
-                Cross-multiplying gives us:
-            </p>
-            <p>
-                <m>h = 2 \times 2.5</m>
-            </p>
-            <p>
-                <m>h = 5</m> meters.
-            </p>
-            <p>
-                
-            </p>
+    <statement>
+        <p>
+            A class has <m>8</m> girls and <m>6</m> boys. More students are admitted to the class so that the ratio of girls to boys remains the same. 
+            If the new number of boys in the class is <m>12</m>, determine the new number of girls using the ratio method.
+        </p>
+    </statement>
+    <solution>
+        <p>
+            The initial ratio of girls to boys is:
+        </p>
+        <p>
             
-                
-        </solution>
-    </example>
+               <me>8:6</me>
+               which simplifies to <me>4:3</me>
+            
+        </p>
+        <p>
+            Let the number of girls after admission be <m>y</m>.
+        </p>
+        <p>
+            Since the ratio must remain the same:
+        </p>
+        <p>
+            <md>
+               <mrow>\frac{y}{12} =\amp \frac{4}{3}</mrow>
+            </md>
+        </p>
+        <p>
+            Cross-multiplying gives:
+        </p>
+        <p>
+            <md>
+                <mrow>3y =\amp 4 \times 12</mrow>
+                <mrow>3y =\amp 48</mrow>
+            </md>
+        </p>
+        <p>
+            Dividing both sides by 3:
+        </p>
+        <p>
+            <md>
+              <mrow>y =\amp \frac{48}{3} = 16</mrow>
+            </md>
+        </p>
+        <p>
+            Therefore, the new number of girls in the class is <m>16</m>.
+        </p>
+    </solution>
+</example>
+
+    <example>
+    <statement>
+        <p>
+            Kipngetich measured the heights of a mango tree and a person in a photo.  
+            Their heights in the photo were <m>10</m> cm and <m>5</m> cm respectively.  
+            Since the ratio of their actual heights is the same as in the photo, determine the actual height of the mango tree if the person’s actual height is <m>2.5</m> meters. 
+        </p>
+    </statement>
+    <solution>
+        <p>
+            The photo ratio is <m>10:5 = 2:1</m>.
+        </p>
+        <p>
+            Let the actual height of the tree be <m>h</m>.  
+            Then:
+        </p>
+        <p>
+            <md>
+              <mrow>\frac{h}{2.5} =\amp \frac{2}{1}</mrow>
+              <mrow>h = 2 \times 2.5 =\amp 5</mrow>
+            </md>
+        </p>
+        <p>
+            Therefore, the actual height of the mango tree is <m>5</m> meters.
+        </p>
+    </solution>
+</example>
+
 </subsection>

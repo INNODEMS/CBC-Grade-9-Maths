@@ -3,124 +3,122 @@
     
     <activity>
         <statement>
+           
             <p>
+                <m>\textbf{Work in Groups}</m>
+            </p>
+            <p>
+                <m>\textbf{What you need}</m>
+            </p>
+            <p>
+                <m>\bullet</m> Worksheet 
+            </p>
+            <p>
+                <m>\bullet</m> Pencil and erasers
+            </p>
+            <p>
+                <m>\bullet</m> Optional: bottle tops for modeling
+            </p>
+            <p>
+                <m>\textbf{Instructions}</m>
+            </p>
+            <p>
+                <ol marker="1.">
+                    <li>
+                        <p>
+                            Look at each number in the first column of the table <xref ref="index-table"/>.
+                        </p>
                         
-                    </p>
-                    <p>
-                        <m>\textbf{Work in Groups}</m>
-                    </p>
-                    <p>
-                        <m>\textbf{What you need}</m>
-                    </p>
-                    <p>
-                        <m>\bullet</m> Worksheet 
-                    </p>
-                    <p>
-                        <m>\bullet</m> Pencil and erasers
-                    </p>
-                    <p>
-                        <m>\bullet</m> Optional: bottle tops for modeling
-                    </p>
-                    <p>
-                        <m>\textbf{Instructions}</m>
-                    </p>
-                    <p>
-                        <ol marker="1.">
-                            <li>
-                                <p>
-                                    Look at each number in the first column of the table <xref ref="index-table"/>.
-                                </p>
-                                
-                                
+                        
 
-                            </li>
-                            <li>
-                                <p>
-                                    Write the number as a product of the same factor repeated several times.
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Re-write your repeated multiplication as a power.
-                                </p>
-                                <p>
-                                    <m>
-                                        
-                                    \textbf{Note:}       
-                                    </m>
-                                    If the number cannot be written using one base only, express it as a product of powers of two (or more) different numbers.}
-
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Fill in your answers in the table below.
-                                </p>
-                                <figure xml:id="index-table">
-                                    <caption></caption>
-                                    <tabular halign="center" bottom="medium" left="medium" right="medium" top="medium">
-                                    <col width="50%"/>
-                                    <row header="yes">
-                                        <cell >Number</cell>
-                                        <cell >Product of repeated factors</cell>
-                                        <cell >Power form / Products of the power</cell>
-                                    </row>
-                                    <row >
-                                        <cell ><m>8</m></cell>
-                                        <cell ><m>2 \times 2 \times 2</m></cell>
-                                        <cell ><m>2^3</m></cell>
-                                    </row>
-                                    <row >
-                                        <cell><m>27</m></cell>
-                                        <cell ><m></m></cell>
-                                        <cell ><m></m></cell>
-                                    </row>
-                                    <row > 
-                                        <cell ><m>36</m></cell>
-                                        <cell ><m></m></cell>
-                                        <cell ><m></m></cell>
-                                    </row>
-                                    <row >
-                                        <cell ><m>64</m></cell>
-                                        <cell ><m></m></cell>
-                                        <cell ><m></m></cell>
-                                    </row>
-                                    <row > 
-                                        <cell ><m>72</m></cell>
-                                        <cell ><m>2 \times 2 \times 2 \times 3 \times 3</m></cell>
-                                        <cell ><m> 2^3 \times 3^2</m></cell>
-                                    </row>
-                                    <row > 
-                                        <cell ><m>81</m></cell>
-                                        <cell ><m></m></cell>
-                                        <cell ><m></m></cell>
-                                    </row>
-                                    <row > 
-                                        <cell ><m>96</m></cell>
-                                        <cell ><m></m></cell>
-                                        <cell ><m></m></cell>
-                                    </row>
-                                    <row >
-                                        <cell ><m>108</m></cell>
-                                        <cell ><m></m></cell>
-                                        <cell ><m></m></cell>
-                                    </row>
-                                    <row >
-                                        <cell ><m>144</m></cell>
-                                        <cell ><m></m></cell>
-                                        <cell ><m></m></cell>
-                                    </row>
-                                </tabular>
-                                </figure>
-                            </li>
-                            <li>
-                                <p>
-                                    Share your work with your fellow learners.
-                                </p>
+                    </li>
+                    <li>
+                        <p>
+                            Write the number as a product of the same factor repeated several times.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Re-write your repeated multiplication as a power.
+                        </p>
+                        <p>
+                            <m>
                                 
-                            </li>
-                        </ol>
-                    </p>
+                            \textbf{Note:}       
+                            </m>
+                            If the number cannot be written using one base only, express it as a product of powers of two (or more) different numbers.}
+
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Fill in your answers in the table below.
+                        </p>
+                        <figure xml:id="index-table">
+                            <caption></caption>
+                            <tabular halign="center" bottom="medium" left="medium" right="medium" top="medium">
+                            <col width="50%"/>
+                            <row header="yes">
+                                <cell >Number</cell>
+                                <cell >Product of repeated factors</cell>
+                                <cell >Power form / Products of the power</cell>
+                            </row>
+                            <row >
+                                <cell ><m>8</m></cell>
+                                <cell ><m>2 \times 2 \times 2</m></cell>
+                                <cell ><m>2^3</m></cell>
+                            </row>
+                            <row >
+                                <cell><m>27</m></cell>
+                                <cell ><m></m></cell>
+                                <cell ><m></m></cell>
+                            </row>
+                            <row > 
+                                <cell ><m>36</m></cell>
+                                <cell ><m></m></cell>
+                                <cell ><m></m></cell>
+                            </row>
+                            <row >
+                                <cell ><m>64</m></cell>
+                                <cell ><m></m></cell>
+                                <cell ><m></m></cell>
+                            </row>
+                            <row > 
+                                <cell ><m>72</m></cell>
+                                <cell ><m>2 \times 2 \times 2 \times 3 \times 3</m></cell>
+                                <cell ><m> 2^3 \times 3^2</m></cell>
+                            </row>
+                            <row > 
+                                <cell ><m>81</m></cell>
+                                <cell ><m></m></cell>
+                                <cell ><m></m></cell>
+                            </row>
+                            <row > 
+                                <cell ><m>96</m></cell>
+                                <cell ><m></m></cell>
+                                <cell ><m></m></cell>
+                            </row>
+                            <row >
+                                <cell ><m>108</m></cell>
+                                <cell ><m></m></cell>
+                                <cell ><m></m></cell>
+                            </row>
+                            <row >
+                                <cell ><m>144</m></cell>
+                                <cell ><m></m></cell>
+                                <cell ><m></m></cell>
+                            </row>
+                        </tabular>
+                        </figure>
+                    </li>
+                    <li>
+                        <p>
+                            Share your work with your fellow learners.
+                        </p>
+                        
+                    </li>
+                </ol>
+            </p>
                     
         </statement>
     </activity>
@@ -376,7 +374,7 @@
             <p>
                 c) To express <m>125</m> in index form using base <m>5</m>, we find the prime factorization:
             </p>
-            <image width="50% ">
+            <image width="30% ">
                 <latex-image label="Factor tree for 125">
                     \begin{tikzpicture}[level distance=1.2cm, sibling distance=1.6cm,
                         every node/.style={circle,draw,minimum size=6mm,inner sep=2pt},

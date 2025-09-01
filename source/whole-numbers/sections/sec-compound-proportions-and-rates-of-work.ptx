@@ -1,36 +1,31 @@
 <section xml:id="sec-compound-proportions-and-rates-of-work" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Compound proportions and Rates of work</title>
     <introduction>
+        
         <p>
-            <m>\textbf{Compound Proportions}</m>
+            Any <m>4</m> numbers  <m>a, b, c</m> and <m>d</m> are said to be proportional if their ratios are equal, that is:
         </p>
         <p>
-            Consider the numbers <m>4, 10, 20</m> and <m>50</m>. <m>4:10 = 2:5</m> and <m>20:50 = 2:5 </m>. The two ratios are equal  <m>(4:10 = 20:50)</m>. Therefore, these <m>4</m> numbers are said to be proportional.
+            <me>\frac{a}{b} = \frac{c}{d}</me>
+        
+            <m>\quad\quad</m>or
+        
+            <me>\frac{a}{c} = \frac{b}{d} </me>
+        </p>
+         <p>
+            For example, consider the numbers <m>4, 10, 20</m> and <m>50</m>. Since <m>4:10 = 2:5</m> and <m>20:50 = 2:5</m>, the two ratios are equal <m>(4:10 = 20:50)</m>. 
+            Therefore, these four numbers are proportional.
         </p>
         <p>
-            Generally, any <m>4</m> numbers  <m>a, b, c</m> and <m>d</m> are said to be proportional if: 
-        </p>
-        <p>
-            <m>\frac{a}{b} = \frac{c}{d}</m>
-        </p>
-        <p>
-            or
-        </p>
-        <p>
-            <m>\frac{a}{c} = \frac{b}{d} </m>
+            Proportions appear everywhere in our daily life. For instance, when preparing a meal for many people you would need to increase the amount of ingredients. 
+            To keep the same taste, you must maintain the proportions between them. 
+            Similarly, proportions help us compare relationships in areas such as speed, scale drawings, and work problems.
         </p>
         <p>
             <m>\textbf{Rate of work}</m> is the amount of work done per unit of time, often expressed as work divided by time
         </p>
-        <p>
-            <m>\textbf{Uses of proportions in real life}</m>
-        </p>
-        <p>
-            Proportions are everywhere in our daily life, and are very useful. For example, when preparing a meal for many people you would need to increase the amount of ingredients. 
-            To do this without altering the taste, you would have to maintain the proportions between various ingredients. They are also important for determining relationships. 
-            If you were at a shop and told an item has a discount of sh <m>50</m> but you do not know its original price, this would not be useful information. 
-            However, if you are instead told it is <m>15%</m> off, it has a larger effect as you now know the proportion of the new price versus the old price.
-        </p>
+       
+        
     </introduction>
     <xi:include href="subsections/compound-proportions-and-rates-of-work/proportional-parts.ptx" />
     <xi:include href="subsections/compound-proportions-and-rates-of-work/relating-different-ratios-in-real-life.ptx" />

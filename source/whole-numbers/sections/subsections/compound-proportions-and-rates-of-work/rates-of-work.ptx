@@ -1,19 +1,18 @@
 <subsection xml:id="subsec-rates-of-work" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Rates of work</title>
-    <p>
-        The rate of work is a measure of how quickly work is done or how much work is completed in a given amount of time.
-         It is often expressed as the amount of work done per unit of time, such as hours, days, or weeks.
-    </p>
-    <p>
-        When dealing with rates of work, the key is to find out how much work a person/thing can do in one hour, one day, or any other time unit.
-    </p>
-    <p>
-        
-    </p>
+    <assemblage xml:id="assemblage-ds">
+        <title>Key Takeaway</title>
+        <p>
+            
+        </p>
+    </assemblage>
     <activity>
         <statement>
             <p>
-                <m>\bf{Materials\, needed}</m>
+                <alert>Work in Groups</alert>
+            </p>
+            <p>
+                <alert>What you need</alert>
             </p>
             <p>
                - Sticks or stones (<m>60</m> in number)
@@ -26,6 +25,9 @@
             </p>
             <p>
                - Book and pen to record the results.
+            </p>
+            <p>
+                <alert>Instructions</alert>
             </p>
             <p>
                 <ol>
@@ -80,71 +82,94 @@
                     </li>
                     <li>
                         <p>
-                            Share your findings with the other group.
+                            Share your findings with the other learners.
                         </p>
                     </li>
                 </ol>
             </p>
         </statement>
     </activity>
-    <example>
+    <definition xml:id="def-rates">
         <statement>
             <p>
-                A group of workers can complete a task in <m>8</m> hours. If they work at the same rate, how long will it take them to complete the same task if they double their effort?
+                The rate of work is a measure of how quickly work is done or how much work is completed in a given amount of time.
+                It is often expressed as the amount of work done per unit of time, such as hours, days, or weeks.
+            </p>
+        </statement>
+    </definition>
+    <p>
+        <alert>Key Takeaway</alert>
+    </p>
+    <p>
+        <m>\bullet</m> To solve work-rate problems, first determine how much work is completed in a single unit of time (such as one hour or one day).  
+    </p>
+    <p>
+        <m>\bullet</m> The rate of work is given by:  
+    </p>
+    <p>
+        <m>\text{Rate of work} = \frac{\text{Work done}}{\text{Time taken}}</m>  
+    </p>
+
+    <example>
+    <statement>
+        <p>
+            A group of workers can complete a task in <m>8</m> hours. If they work at the same rate, how long will it take them to complete the same task if they double their effort?
+        </p>
+    </statement>
+    <solution>
+        <p>
+            Let the whole task be <m>1</m> unit of work.
+        </p>
+        <p>
+            Original rate:
+
+        </p>
+        <p>
+            <me>\text{rate}=\frac{1}{8}\ \text{task per hour}</me>
+        </p>
+        <p>
+            Doubling effort doubles the rate:
+           <me></me>
+            <me>\text{new rate}=2\!\times\!\frac{1}{8}=\frac{1}{4}\ \text{task per hour}</me>
+        </p>
+        <p>
+            Time = work ÷ rate:
+        <me></me>
+            <me>\text{time}=\frac{1}{\frac{1}{4}}=4\ \text{hours}</me>
+        </p>
+        <p>
+            Therefore, it will take <m>4</m> hours.
+        </p>
+    </solution>
+</example>
+
+   <example>
+        <statement>
+            <p>
+                A factory produces <m>100</m> units of a product in <m>5</m> hours.
+                If the factory increases its production rate by <m>20%</m>, how many units will it produce in <m>5</m> hours?
             </p>
         </statement>
         <solution>
-            <!-- <p>
-                <m>\textbf{Rate of work}</m> is the amount of work done per unit of time, often expressed as work divided by time.
+            <p>First, find the current rate.
+            <me></me>
+                <me>\text{Rate}=\frac{100}{5}= 20 \ \text{units/hour}</me>
             </p>
-            <p>
-                In this case, the rate of work can be calculated as follows:
+
+            <p>Next, increase rate by <m>20\%</m>.
+            <me></me>
+                <me>\text{New rate}=20+(0.20\times 20)= 24 \ \text{units/hour}</me>
             </p>
-            <p>
-                <m>\text{Rate of work} = \frac{\text{Total work done}}{\text{Time taken}}</m>
-            </p> -->
-            <p>
-                If the group of workers can complete a task in <m>8</m> hours, doubling their effort means they will work twice as fast.
+
+            <p>Finally, find production in <m>5</m> hours.
+            <me></me>
+                <me>\text{Units}=24\times 5= 120</me>
             </p>
-            <p>
-                Therefore, the time taken to complete the same task when they double their effort will be half of <m>8</m> hours.
-            </p>
-            <p>
-                <m>\text{Time taken} = \frac{8}{2} = 4 \text{ hours}</m>
-            </p>
-            <p>
-                So, it will take them <m>4</m> hours to complete the same task if they double their effort.
-            </p>
-            
+
+            <p>Therefore, the factory will produce <m>120</m> units in <m>5</m> hours.</p>
         </solution>
     </example>
-    <example>
-        <statement>
-            <p>
-                A factory produces <m>100</m> units of a product in <m>5</m> hours. If the factory increases its production rate by <m>20%</m>, how many units will it produce in <m>5</m> hours?
-            </p>
-        </statement>
-        <solution>
-            <p>
-                The factory's current production rate is <m>100</m> units in <m>5</m> hours, which means it produces <m>20</m> units per hour.
-            </p>
-            <p>
-                If the factory increases its production rate by <m>20%</m>, the new production rate will be:
-            </p>
-            <p>
-                <m>\text{New production rate} = 20 + (20 \times 0.20) = 20 + 4 = 24 \text{ units per hour}</m>
-            </p>
-            <p>
-                Now, to find out how many units the factory will produce in <m>5</m> hours at the new production rate:
-            </p>
-            <p>
-                <m>\text{Units produced in 5 hours} = 24 \times 5 = 120 \text{ units}</m>
-            </p>
-            <p>
-                Therefore, the factory will produce <m>120</m> units in <m>5</m> hours after increasing its production rate by <m>20%</m>.
-            </p>
-        </solution>
-    </example>
+
     <example>
         <statement>
             <p>
@@ -154,55 +179,38 @@
         </statement>
         <solution>
             <p>
-                First, we need to find out the amount of work done by Mary, John, and Essy in one hour.
+                The work done by each person in one hour is given as follows:
+                <me>\text{Mary's rate} = \tfrac{1}{45}, \quad \text{John's rate} = \tfrac{1}{40}, \quad \text{Essy's rate} = \tfrac{1}{30}</me>
             </p>
             <p>
-                The work done by each person in one hour is:
+                The combined rate of Mary and Essy is:
+                <me>\frac{1}{45} + \frac{1}{30} = \frac{5}{90} = \frac{1}{18}</me>
             </p>
             <p>
-                <m>\text{Mary's rate} = \frac{1}{45} \text{ of the work per hour}</m>
+                In <m>13</m> hours, Mary and Essy together will complete:
+                <me>13 \times \frac{1}{18} = \frac{13}{18}</me>
             </p>
             <p>
-                <m>\text{John's rate} = \frac{1}{40} \text{ of the work per hour}</m>
+                The remaining portion of work is therefore:
+                <me>1 - \frac{13}{18} = \frac{5}{18}</me>
             </p>
             <p>
-                <m>\text{Essy's rate} = \frac{1}{30} \text{ of the work per hour}</m>
+                To finish this, John working alone will take:
+                
+                <md>
+                    <mrow> \text{Time taken by John} =\amp \frac{\text{Remaining work}}{\text{John's rate}}</mrow>  
+                    <mrow> \frac{\frac{5}{18}}{\frac{1}{40}} =\amp \frac{5}{18} \times 40 </mrow>
+                    <mrow> =\amp \frac{200}{18} </mrow>
+                    <mrow> =\amp \frac{100}{9}</mrow>
+                </md>
             </p>
             <p>
-                Therefore, the amount of work Mary and Essy will do in <m>1</m> hour is:
-            </p>
-            <p>
-                <m>\frac{1}{45} + \frac{1}{30} = \frac{2}{90} + \frac{3}{90} = \frac{5}{90} </m>
-            </p>
-            <p>
-               <m>= \frac{1}{18} \text{ of the work per hour}</m> 
-            </p>
-            <p>
-                For <m>13</m> hours, Mary and Essy will have done:
-            </p>
-            <p>
-                <m>13 \times \frac{1}{18} = \frac{13}{18} \text{ of the work}</m>
-            </p>
-            <p>
-                The remaining work after Mary and Essy have worked for <m>13</m> hours is:
-            </p>
-            <p>
-                <m> 1 - \frac{13}{18} = \frac{5}{18} \text{ of the work}</m>
-            </p>
-            <p>
-                Hence, to find out how long it will take John to complete the remaining work, we can use his rate of work:
-            </p>
-            <p>
-                <m>\text{Time taken by John} = \frac{\text{Remaining work}}{\text{John's rate}} = \frac{\frac{5}{18}}{\frac{1}{40}} = \frac{5}{18} \times 40  </m>
-            </p>
-            <p>
-                <m>= \frac{200}{18} = \frac{100}{9}</m>
-            </p>
-            <p>
-                Therefore, John will take approximately <m>11\frac{1}{9}</m> hours to complete the remaining work after Mary and Essy have worked for <m>13</m> hours each.
+                Hence, John will require <m>11\frac{1}{9}</m> hours, to complete the remaining work.
             </p>
         </solution>
     </example>
+
+     
     <p>
         <m>\textbf{Digital corner}</m>
     </p>
