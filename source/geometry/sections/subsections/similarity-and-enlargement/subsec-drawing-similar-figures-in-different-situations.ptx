@@ -3,7 +3,7 @@
     <activity>
         <statement>
             <p>
-                <m>\textbf{Work in pairs}</m>
+                <term>Work in groups</term>
             </p>
 
             <p>
@@ -16,25 +16,29 @@
                         <image width="50%">
                             <shortdescription></shortdescription>
                             <latex-image label="similar-1">
-                                \begin{tikzpicture}
-                                    % Coordinates of the triangle
-                                    \coordinate (Q) at (0,0);
-                                    \coordinate (R) at (4,0);
-                                    \coordinate (P) at (0,3);
+                            \begin{tikzpicture}
+                                % Coordinates of the triangle with base = 3 and height = 4
+                                \coordinate (Q) at (0,0);
+                                \coordinate (R) at (3,0);   % base = 3
+                                \coordinate (P) at (0,4);   % height = 4
 
-                                    % Draw the triangle in blue
-                                    \draw[thick, blue] (P) -- (Q) -- (R) -- cycle;
+                                % Draw the triangle (no color)
+                                \draw[thick] (P) -- (Q) -- (R) -- cycle;
 
-                                    % Label the points
-                                    \node[above left] at (P) {P};
-                                    \node[below left] at (Q) {Q};
-                                    \node[below right] at (R) {R};
+                                % Point labels
+                                \node[above left] at (P) {P};
+                                \node[below left] at (Q) {Q};
+                                \node[below right] at (R) {R};
 
-                                    % Right angle marker at Q in blue
-                                    \draw[blue] (0.3,0) -- (0.3,0.3) -- (0,0.3);
-                                \end{tikzpicture}
+                                % Right angle marker at Q
+                                \draw (0.3,0) -- (0.3,0.3) -- (0,0.3);
+
+                                % Dimension labels placed along edges (no extra libraries required)
+                                \path (Q) -- (R) node[pos=0.5, below] {3 cm}; % base QR
+                                \path (Q) -- (P) node[pos=0.5, left]  {4 cm}; % height PQ
+                            \end{tikzpicture}
+
                             </latex-image>
-                            
                         </image>
                     </li>
 
@@ -59,10 +63,8 @@
             </p>
         </statement>
     </activity>
-
-            <p>
-                <m>\textbf{Key Takeaway}</m>
-            </p>
+    <assemblage xml:id="assemblage-Key_Takeaway_2">
+        <title>Key Takeaway</title>
 
             <p>
                 <ul>
@@ -74,6 +76,7 @@
                     </li>
                 </ul>
             </p>
+    </assemblage>
 
     <example>
         <statement>
