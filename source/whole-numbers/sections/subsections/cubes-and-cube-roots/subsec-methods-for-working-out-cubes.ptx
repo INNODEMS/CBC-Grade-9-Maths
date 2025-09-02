@@ -13,7 +13,7 @@
             A cube is simply <m>x^3</m>. Where <m>x</m> is any numerical value
         </p>
         <p>
-            While finding the cubes of number, always pay attention to the sign
+            While finding the cubes of a number, always pay attention to the sign
             preceeding the number.
         </p>
         <activity>
@@ -37,7 +37,7 @@
                     </li>
                     <li>
                          <p>
-                          <m>5</m> Pens for recording result.
+                          Students to have books for recording result.
                          </p>
                     </li>
                 </ul>       
@@ -81,7 +81,6 @@
                 <statement>
                     <p>
                         Whale was told to work out the cube of <m>9</m>.What was his final answer?
-                    
                     </p>
                 </statement>
                 <solution>
@@ -140,13 +139,12 @@
                 <ol>
                     <li>
                         <p>
-                            Under the teachers guidance, the learners to divide
-                            themselves in groups of <m>5</m>.
+                            The learners to divide themselves in groups.
                         </p>
                     </li>
                     <li>
                         <p>
-                            Let each group pick question paper from the teacher.
+                            Each group pick question paper from the teacher.
                         </p>
                     </li>
                     <li>
@@ -179,8 +177,8 @@
         <example>
             <statement>
                 <p>
-                 Using the table below, calculate the cube of <m>2.0</m> 
-                    and <m>1.3</m>      
+                 Use a mathematical table, calculate the cube of <m>2.0</m> 
+                 and <m>1.3</m>      
                 
                 </p>
             </statement>
@@ -188,7 +186,7 @@
                 <figure xml:id="table-cubes">
                     <caption>Table for cubes</caption>
                     <image source="cubestable.png" >
-                        <shortdescription>Table for working out cubes ranging from
+                        <shortdescription>Section of a mathematical table used for working out cubes ranging from
                         1.0 t0 2.8
                         </shortdescription>
                     </image>
@@ -228,12 +226,12 @@
               
     </subsubsection>
 
-    <subsubsection xml:id="subsubsec-working-out-cuberoots-with-a-calculator">
-        <title>Working out cuberoots with a calculator</title>
+    <subsubsection xml:id="subsubsec-working-out-cube-roots-with-a-calculator">
+        <title>Working out cube roots with a calculator</title>
 
         <p>
             A calculator is also the fastest way of performing this operation.
-            The cuberoot symbol is <m>\sqrt[3]{x}</m>. Where <m>x</m> is any number.
+            The cube root symbol is <m>\sqrt[3]{x}</m>. Where <m>x</m> is any number.
 
         </p>                
         <activity>
@@ -247,15 +245,14 @@
                 <ul>
                     <li>
                         <p>
-                           A set number of items 
+                           A mathematical table.  
                         </p>
                     </li>
                     <li>
                         <p>
-                           Sheet of paper containing questions
+                           Sheet of paper containing several questions on cube roots.
                         </p>
                     </li>
-                    
                 </ul>
                    
             </p>
@@ -263,32 +260,27 @@
                 <ol>
                     <li>
                         <p>
-                         Under the teachers guidance, the learners to divide
-                         themselves in groups of <m>5</m>.
+                         The first step is to power on the calculator.
                         </p>
                     </li>
                     <li>
                         <p>
-                         Ask students to arrange the items into
-                         3D cubes with equal length, width, and height. 
+                         On the calculator press cube root symbol is <m>\sqrt[3]{x}</m> 
                         </p>
                     </li>
                     <li>
                         <p>
-                         Have students count how many items make one edge of the cube. 
-                         That number is the cube root.
+                         After pressing the cube root symbol, press the given number <m>x</m>.
                         </p>
                     </li>
                     <li>
                         <p>
-                         Teacher to provide groups with random numbers of items <m>50</m> or <m>100</m>
-                         to estimate the closest cube root.
+                         After keying in the number press the equal symbol <m>=</m>
                         </p>
                     </li>
                     <li>
                         <p>
-                         Share results, talk about patterns, and
-                         relate cube roots to real-life 3D objects.  
+                         The number displayed on the bottom of the calculator screen is the final answer. 
                         </p>
                     </li>
                 </ol>
@@ -314,7 +306,7 @@
         <example>
             <statement>
                 <p>
-                     A farmer packed <m>1000, \text {guavas}</m> into small square boxes.
+                     A farmer packed <m>1000, \text {guavas}</m>, into small square boxes.
                      He wants to stack the boxes in the shape of a cube
                      so that each side of the cube has the same number of boxes.
                      How many boxes will be on one edge of the cube?
@@ -331,9 +323,9 @@
        </subsubsection>       
             
  <subsubsection xml:id="subsubsec-working-out-cuberoots-with-a-mathematical-table">
-        <title>Working out cuberoots with a mathematical table</title>
+        <title>Working out cube roots with a mathematical table</title>
         <p>    
-           In this section, a mathematical table is used to calculate the given values
+           In this section, a mathematical table is used to calculate the cube roots of the given numbers
         </p>
         <activity>
             <p>
@@ -351,7 +343,7 @@
                     </li>
                     <li>
                         <p>
-                            <m>4</m> pieces of paper.
+                            Printed sheets of paper containing questions on cube roots.
                         </p>
                     </li>
                     
@@ -361,8 +353,7 @@
                 <ol>
                     <li>
                         <p>
-                         Under the teachers guidance, the learners to divide
-                         themselves in groups of <m>5</m>.
+                         The learners to divide themselves in groups
                         </p>
                     </li>
                     <li>
@@ -371,46 +362,48 @@
                         </p>
                     </li>
                     <li>
-                        <p>
-                         Let the teacher pick a random question then demonstrate to the 
-                         students how to read the value from the mathematical table.
-                        </p>
+                          <p>
+                             Identify the given number <m>x</m>. 
+                          </p>
+                    </li>
+                          <li>
+                              <p>
+                                 Then using a mathematical table  look for it 
+                                 under the section of cubes.  
+                              </p>
+                          </li>
+                              <li>
+                                  <p>
+                                     On the left side of the rows numbered <m>0</m> to <m>9</m>, find where
+                                     the given number is located.  
+                                  </p>
+                              </li>
+                    <li>
+                          <p>
+                             Find where the number intersects horizontally with the number located. 
+                          </p>
                     </li>
                     <li>
-                        <p>
-                         Students in the groups to proceed with attempting the remaining
-                         questions.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                         The teacher to walk through the groups and validate the answers. 
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                         Students to submit the questions they found challenging and 
-                         the whole class to participate in solving them.
-                        </p>
+                          <p>
+                             The point at which it intersect with the given number, 
+                             in the column headed <m>x</m> is the cube root of the number.
+                          </p>
                     </li>
                 </ol>
             </p>
-            
         </activity>
-
          <example>
             <statement>
                 <p>
-                 Using the table below, calculate the cuberoot of <m>27</m> 
-                    and <m>10.82</m>      
-                
+                 Using the table below, calculate the cube root of <m>27</m> 
+                 and <m>10.82</m>      
                 </p>
             </statement>
             <solution>
                 <figure xml:id="cubes-table">
                     <caption>Table for cubes</caption>
                     <image source="cubestable2.png" >
-                        <shortdescription> Cube table for working out cuberoots of 
+                        <shortdescription> A section of a Cube table for working out cuberoots of 
                         27 and 10.82
                         </shortdescription>
                     </image>
