@@ -47,7 +47,7 @@ The CBE Grade 9 Mathematics curriculum covers the following topics:
 7. Eric Morara
 8. Joseph Baya
 9. Harriet Moraa
-10. 
+10.Monica Auma 
 
 ## License
 
