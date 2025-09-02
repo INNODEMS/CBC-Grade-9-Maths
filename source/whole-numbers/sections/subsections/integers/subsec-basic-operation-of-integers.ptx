@@ -30,17 +30,12 @@
                 <ul>
                     <li>
                         <p>
-                         Paper made number line with values from <m>-10</m> to <m>10</m>
+                         At least <m>100</m> bottle tops.
                         </p>
                     </li>
                     <li>
                         <p>
                          Printed worksheets with addition problems.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                          A shared record book.
                         </p>
                     </li>
                 </ul>       
@@ -49,29 +44,29 @@
                 <ol>
                       <li>
                            <p>
-                             The teacher to give question papers containing randomized
-                             questions.    
+                             Each student to pick the question papers.   
                            </p>
                       </li>
                       <li>
                            <p>
-                             Each student to attempt the given questions.
+                             With reference to the questions on the sheet of paper, each student to pick
+                             bottle tops as per how the integers are written on the question paper.
                            </p>
                       </li>
                       <li>
                            <p>
-                              The teacher to call out each student for provide his or her answer.
+                              For example if the question reads <m>2 + 10</m>, the student should take
+                              <m>2</m> bottle tops and <m>10</m> bottle tops, respectively.
                            </p>
                       </li>
                           <li>
                                <p>
-                                 Teacher to validate the answers given.
+                                 Each students to count the number of bottle tops in their possesion.
                                </p>
                          </li>
                           <li>
                                <p>
-                                 The student with the highest number of correct answers
-                                  emerges the winner!
+                                 The number in bottle tops in their possesion is the final answer!
                                </p>
                           </li>
                 </ol>
@@ -451,8 +446,14 @@
                               </p>
                         </solution>
                    </example>
-                   
-         
+                   <p>
+                <term>Key Takeaway</term>
+            </p>
+              <p>
+                 The plus or minus sign before and in between the integers, when performing
+                 basic operations of either addition, subtraction, multiplication or division, 
+                 determines whether the final answer will either be positive or negative.
+              </p>
         <technology>
             <p>
                  <m>\textbf{Technology Integration:Basic operations of integers}</m>
