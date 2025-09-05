@@ -1,32 +1,13 @@
 <section xml:id="sec-mass-volume-weight-and-density" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Mass, Volume, Weight and Density</title>
-    <objectives xml:id="objectives-mass-volume-weight-density">
-        <title>Learning Objectives</title>
-        <introduction>
-            <p>
-            In this section, learners will explore the concepts of mass, volume, weight, and density.
-            By the end of this substrand, learners should be able to:
-            </p>
-        </introduction>
-        <ol>
-            <li xml:id="objective-understand-concepts">
-                Understand the concepts of mass, volume, weight, and density.
-            </li>
-            <li xml:id="objective-unit-conversion-mass-volume-weight-density">
-                Convert between different units of mass and volume.
-            </li>
-            <li xml:id="objective-explain-relationships-mass-weight">
-                Explain the relationship between mass and weight and how it is affected by gravitational field strength.
-            </li>
-        </ol>
-        <!-- <conclusion>
-            <p>
-             These objectives aim to build both conceptual understanding and practical problem-solving skills in working with mass, volume, weight, and density.
-             You are now ready to begin!
-            </p>
-        </conclusion> -->
-    </objectives>
-    
+    <introduction>
+        <p>
+            In our daily life we see and use many objects. Each object takes up space, which we call volume.  
+            Objects also have mass, which is the amount of matter in them. Because of the pull of gravity, mass gives us weight.  
+            When we compare the mass of an object to the space it takes, we find its density.  
+            In this substrand, we will learn more about mass, volume, weight, and density. 
+        </p>
+    </introduction>
     <xi:include href="subsections/mass-volume-weight-and-density/subsec-converting-units-of-mass-from-one-form-to-another.ptx" />
     <xi:include href="subsections/mass-volume-weight-and-density/subsec-relating-mass-and-weight.ptx" />
     <xi:include href="subsections/mass-volume-weight-and-density/subsec-mass-volume-and-density.ptx" /> 
