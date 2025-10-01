@@ -111,10 +111,11 @@ The CBE Grade 9 Mathematics curriculum covers the following topics:
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
---->
-
-Thank you for using and contributing to the CBE Grade 9 Maths project!
 
 [Overall Structure of the Book](https://docs.google.com/document/d/19Lfm2xPZ2brd4IHKdRXKAQVAllWVrXafvZPjSAXdwmk/edit?tab=t.0#heading=h.w663rfw8htaq) 
 
 [Review Document](https://docs.google.com/spreadsheets/d/134AKFiZxjhUXhz46gPqBXA8-DOy6KXS0HHRpNhywDjs/edit?gid=0#gid=0)
+
+--->
+
+Thank you for using and contributing to the CBE Grade 9 Maths project!
