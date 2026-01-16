@@ -1,13 +1,10 @@
 <subsection xml:id="subsec-identifying-similar-figures-and-their-properties" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Identifying Similar Figures and Their Properties</title>
-    <p>
-        In this section, we will explore how to identify similar figures and understand their properties. Similar figures have the same shape but may differ in size. We will learn how to determine if two figures are similar and what properties they share.
-    </p>
 
     <activity>
         <statement>
             <p>
-                <m>\textbf{Work in groups}</m>
+                <term>Work in groups</term>
             </p>
 
             <p>
@@ -43,7 +40,7 @@
     <activity>
         <statement>
             <p>
-                <m>\textbf{Work in groups}</m>
+                <term>Work in groups</term>
             </p>
 
             <p>
@@ -231,9 +228,8 @@
         </statement>
     </activity>
 
-    <p>
-        <term>Key Takeaway</term> 
-    </p>
+    <assemblage xml:id="assemblage-Key_Takeaway_3">
+        <title>Key Takeaway</title>
 
     <p>
         <ul>
@@ -258,6 +254,8 @@
             </li>
         </ul>
     </p>
+    
+    </assemblage>
 
     <example>
         <statement>
@@ -266,61 +264,58 @@
             </p>
 
             <sidebyside>
-                <image>
+                <image width="30%">
                     <latex-image>
-                        \begin{tikzpicture}[scale=0.7]
-                            % Coordinates
-                            \coordinate (P) at (0,0);
-                            \coordinate (Q) at (12,0);
+                        \begin{tikzpicture}[scale=0.49]
+                        % Coordinates
+                        \coordinate (P) at (0,0);
+                        \coordinate (Q) at (12,0);
 
-                            % Coordinates of R using polar coordinates
-                            \coordinate (R) at ({8*cos(26.4)}, {8*sin(26.4)});
+                        % Coordinates of R using polar coordinates
+                        \coordinate (R) at ({8*cos(26.4)}, {8*sin(26.4)});
 
-                            % Fill the triangle with blue color
-                            \fill[blue!30] (P) -- (Q) -- (R) -- cycle;
+                        % Draw the triangle outline
+                        \draw[thick] (P) -- (Q) -- (R) -- cycle;
 
-                            % Draw the triangle outline
-                            \draw[thick] (P) -- (Q) -- (R) -- cycle;
+                        % Label the points
+                        \node[below left] at (P) {P};
+                        \node[below right] at (Q) {Q};
+                        \node[above] at (R) {R};
 
-                            % Label the points
-                            \node[below left] at (P) {P};
-                            \node[below right] at (Q) {Q};
-                            \node[above] at (R) {R};
+                        % Add side lengths
+                        \node[below] at (6,0) {12 cm};
+                        \path (P) -- (R) node[midway,left] {8 cm};
+                        \path (Q) -- (R) node[midway,right] {6 cm};
+                    \end{tikzpicture}
 
-                            % Add side lengths
-                            \node[below] at (6,0) {12 cm};
-                            \path (P) -- (R) node[midway,left] {8 cm};
-                            \path (Q) -- (R) node[midway,right] {6 cm};
-                         \end{tikzpicture}
                     </latex-image>
                 </image>
 
-                <image>
+                <image width="80%">
                     <latex-image>
-                        \begin{tikzpicture}[scale=0.7]
+                       \begin{tikzpicture}[scale=0.735]
                         % Coordinates
-                        \coordinate (X) at (0,0);
-                        \coordinate (Y) at (12,0);
+                        \coordinate (P) at (0,0);
+                        \coordinate (Q) at (12,0);
 
-                        % Coordinates of Z using polar coordinates
-                        \coordinate (Z) at ({8*cos(26.4)}, {8*sin(26.4)});
-
-                        % Fill the triangle with green color
-                        \fill[green!30] (X) -- (Y) -- (Z) -- cycle;
+                        % Coordinates of R using polar coordinates
+                        \coordinate (R) at ({8*cos(26.4)}, {8*sin(26.4)});
 
                         % Draw the triangle outline
-                        \draw[thick] (X) -- (Y) -- (Z) -- cycle;
+                        \draw[thick] (P) -- (Q) -- (R) -- cycle;
 
                         % Label the points
-                        \node[below left] at (X) {X};
-                        \node[below right] at (Y) {Y};
-                        \node[above] at (Z) {Z};
+                        \node[below left] at (P) {P};
+                        \node[below right] at (Q) {Q};
+                        \node[above] at (R) {R};
 
                         % Add side lengths
                         \node[below] at (6,0) {24 cm};
-                        \path (X) -- (Z) node[midway,left] {16 cm};
-                        \path (Y) -- (Z) node[midway,right] {12 cm};
-                        \end{tikzpicture}
+                        \path (P) -- (R) node[midway,left] {16 cm};
+                        \path (Q) -- (R) node[midway,right] {12 cm};
+                    \end{tikzpicture}
+
+
                     </latex-image>
                 </image>
             </sidebyside>

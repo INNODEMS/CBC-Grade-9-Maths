@@ -1,7 +1,9 @@
 <section xml:id="sec-similarity-and-enlargement" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Similarity and Enlargement</title>
     <p>
-        
+         In this section, we will explore how to identify similar figures and understand their properties.
+          Similar figures have the same shape but may differ in size. We will learn how to determine if two 
+          figures are similar and what properties they share.
     </p>
     <xi:include href="subsections/similarity-and-enlargement/subsec-identifying-similar-figures-and-their-properties.ptx" />
     <xi:include href="subsections/similarity-and-enlargement/subsec-drawing-similar-figures-in-different-situations.ptx" />
